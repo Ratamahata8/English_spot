@@ -11,6 +11,8 @@ export default defineConfig({
   use: {
     baseURL,
     headless: true,
+    trace: 'retain-on-failure',
+    screenshot: 'only-on-failure',
     actionTimeout: 10000,
     launchOptions: {
       executablePath: process.env.CHROMIUM_PATH || '/usr/bin/chromium',

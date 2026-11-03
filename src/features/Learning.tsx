@@ -15,8 +15,11 @@ export function Learning() {
   const base = lesson.exercises.find((e) => e.id === p.currentExerciseId);
   const word = reviewQueue[reviewIndex];
   const e = review && word ? reviewExercise(word) : base;
+  const finished = (review && reviewIndex >= reviewQueue.length) || (!review && !e);
+  const active = !finished && !!e;
   const entered = useRef(false);
   useEffect(() => {
+    if (!active) return;
     if (!entered.current) {
       entered.current = true;
       void update((v) => ({ ...v, sessions: v.sessions + 1, remedialCount: 0, remedialDone: [] }));
@@ -38,8 +41,8 @@ export function Learning() {
       stopAudio();
       flush();
     };
-  }, [update]);
-  if ((review && reviewIndex >= reviewQueue.length) || (!review && !e))
+  }, [active, update]);
+  if (finished)
     return (
       <section className="finish panel">
         <span className="finish-star">✦</span>
