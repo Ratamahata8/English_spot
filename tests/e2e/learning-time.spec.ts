@@ -43,13 +43,11 @@ test('время и занятия не начисляются для пусто
     lessonComplete: true,
   };
   page.on('dialog', (d) => d.accept());
-  await page
-    .getByLabel('Импортировать JSON', { exact: true })
-    .setInputFiles({
-      name: 'completed.json',
-      mimeType: 'application/json',
-      buffer: Buffer.from(JSON.stringify(completed)),
-    });
+  await page.getByLabel('Импортировать JSON', { exact: true }).setInputFiles({
+    name: 'completed.json',
+    mimeType: 'application/json',
+    buffer: Buffer.from(JSON.stringify(completed)),
+  });
   await expect(page.getByText('Прогресс восстановлен.')).toBeVisible();
   await page.goto('#/learn');
   await expect(page.getByRole('heading', { name: 'Урок пройден!' })).toBeVisible();

@@ -24,5 +24,7 @@ export default defineConfig({
     url: baseURL,
     reuseExistingServer: !process.env.CI,
   },
-  reporter: [['list'], ['html', { open: 'never' }]],
+  reporter: process.env.CI
+    ? [['github'], ['list'], ['html', { open: 'never' }]]
+    : [['list'], ['html', { open: 'never' }]],
 });
