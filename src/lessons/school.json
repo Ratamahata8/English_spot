@@ -1,0 +1,947 @@
+{
+  "id": "school-1a",
+  "title": "School Again!",
+  "subtitle": "Spotlight 3 · Unit 1a",
+  "vocabulary": [
+    {
+      "id": "school",
+      "en": "school",
+      "ru": "школа",
+      "ipa": "/skuːl/",
+      "explanation": "Место, где мы учимся.",
+      "example": "This is my school.",
+      "image": "illustrations/school.svg"
+    },
+    {
+      "id": "school-bag",
+      "en": "school bag",
+      "ru": "школьный портфель",
+      "ipa": "/ˈskuːl bæɡ/",
+      "explanation": "В нём удобно носить школьные вещи.",
+      "example": "This is my school bag.",
+      "image": "illustrations/school-bag.svg"
+    },
+    {
+      "id": "pen",
+      "en": "pen",
+      "ru": "ручка",
+      "ipa": "/pen/",
+      "explanation": "Ею мы пишем чернилами.",
+      "example": "It's a pen.",
+      "image": "illustrations/pen.svg"
+    },
+    {
+      "id": "pencil",
+      "en": "pencil",
+      "ru": "карандаш",
+      "ipa": "/ˈpensəl/",
+      "explanation": "Им можно рисовать и писать.",
+      "example": "This is my pencil.",
+      "image": "illustrations/pencil.svg"
+    },
+    {
+      "id": "rubber",
+      "en": "rubber",
+      "ru": "ластик",
+      "ipa": "/ˈrʌbə/",
+      "explanation": "Он стирает карандаш. В британском английском это rubber.",
+      "example": "This is my rubber.",
+      "image": "illustrations/rubber.svg"
+    },
+    {
+      "id": "ruler",
+      "en": "ruler",
+      "ru": "линейка",
+      "ipa": "/ˈruːlə/",
+      "explanation": "Она помогает чертить ровные линии.",
+      "example": "This is my ruler.",
+      "image": "illustrations/ruler.svg"
+    },
+    {
+      "id": "book",
+      "en": "book",
+      "ru": "книга",
+      "ipa": "/bʊk/",
+      "explanation": "В ней есть страницы и истории.",
+      "example": "This is my book.",
+      "image": "illustrations/book.svg"
+    },
+    {
+      "id": "pencil-case",
+      "en": "pencil case",
+      "ru": "пенал",
+      "ipa": "/ˈpensəl keɪs/",
+      "explanation": "В нём живут ручки и карандаши.",
+      "example": "This is my pencil case.",
+      "image": "illustrations/pencil-case.svg"
+    }
+  ],
+  "lexicon": [
+    {
+      "id": "lex-this",
+      "en": "this",
+      "ru": "это",
+      "ipa": "/ðɪs/",
+      "explanation": "Указывает на один предмет рядом.",
+      "example": "This is my book.",
+      "image": ""
+    },
+    {
+      "id": "lex-is",
+      "en": "is",
+      "ru": "есть; является",
+      "ipa": "/ɪz/",
+      "explanation": "Связывает слова: в «This is my book» по-русски отдельно не переводится.",
+      "example": "This is my book.",
+      "image": ""
+    },
+    {
+      "id": "lex-my",
+      "en": "my",
+      "ru": "мой, моя, моё",
+      "ipa": "/maɪ/",
+      "explanation": "Говорим о своей вещи.",
+      "example": "This is my pencil.",
+      "image": ""
+    },
+    {
+      "id": "lex-your",
+      "en": "your",
+      "ru": "твой, твоя, твоё",
+      "ipa": "/jɔː/",
+      "explanation": "Говорим о вещи собеседника.",
+      "example": "This is your book.",
+      "image": ""
+    },
+    {
+      "id": "lex-whats",
+      "en": "what's",
+      "ru": "что; как",
+      "ipa": "/wɒts/",
+      "explanation": "Сокращение what is. В вопросе о предмете — «что», об имени — «как».",
+      "example": "What's this?",
+      "image": ""
+    },
+    {
+      "id": "lex-its",
+      "en": "it's",
+      "ru": "это",
+      "ipa": "/ɪts/",
+      "explanation": "Сокращение it is. Так можно начать ответ о предмете.",
+      "example": "It's a pen.",
+      "image": ""
+    },
+    {
+      "id": "lex-a",
+      "en": "a",
+      "ru": "один предмет",
+      "ipa": "/ə/",
+      "explanation": "Ставим перед названием одного предмета: a pen.",
+      "example": "It's a pen.",
+      "image": ""
+    },
+    {
+      "id": "lex-name",
+      "en": "name",
+      "ru": "имя",
+      "ipa": "/neɪm/",
+      "explanation": "Так тебя зовут.",
+      "example": "My name is Sam.",
+      "image": ""
+    },
+    {
+      "id": "lex-i",
+      "en": "I",
+      "ru": "я",
+      "ipa": "/aɪ/",
+      "explanation": "Говорим о себе.",
+      "example": "I",
+      "image": ""
+    },
+    {
+      "id": "lex-you",
+      "en": "you",
+      "ru": "ты; вы",
+      "ipa": "/juː/",
+      "explanation": "Обращаемся к собеседнику.",
+      "example": "you",
+      "image": ""
+    },
+    {
+      "id": "lex-he",
+      "en": "he",
+      "ru": "он",
+      "ipa": "/hiː/",
+      "explanation": "Говорим о мальчике или мужчине.",
+      "example": "he",
+      "image": ""
+    },
+    {
+      "id": "lex-she",
+      "en": "she",
+      "ru": "она",
+      "ipa": "/ʃiː/",
+      "explanation": "Говорим о девочке или женщине.",
+      "example": "she",
+      "image": ""
+    },
+    {
+      "id": "lex-it",
+      "en": "it",
+      "ru": "оно",
+      "ipa": "/ɪt/",
+      "explanation": "Говорим об одном предмете или животном.",
+      "example": "it",
+      "image": ""
+    },
+    {
+      "id": "lex-we",
+      "en": "we",
+      "ru": "мы",
+      "ipa": "/wiː/",
+      "explanation": "Говорим о себе и других вместе.",
+      "example": "we",
+      "image": ""
+    },
+    {
+      "id": "lex-they",
+      "en": "they",
+      "ru": "они",
+      "ipa": "/ðeɪ/",
+      "explanation": "Говорим о нескольких людях или вещах.",
+      "example": "they",
+      "image": ""
+    },
+    {
+      "id": "lex-his",
+      "en": "his",
+      "ru": "его",
+      "ipa": "/hɪz/",
+      "explanation": "Вещь принадлежит ему.",
+      "example": "his",
+      "image": ""
+    },
+    {
+      "id": "lex-her",
+      "en": "her",
+      "ru": "её",
+      "ipa": "/hɜː/",
+      "explanation": "Вещь принадлежит ей.",
+      "example": "her",
+      "image": ""
+    },
+    {
+      "id": "lex-an",
+      "en": "an",
+      "ru": "один предмет",
+      "ipa": "/ən/",
+      "explanation": "Перед гласным звуком используем an.",
+      "example": "an",
+      "image": ""
+    },
+    {
+      "id": "lex-sam",
+      "en": "Sam",
+      "ru": "Сэм",
+      "ipa": "/sæm/",
+      "explanation": "Имя мальчика.",
+      "example": "My name is Sam.",
+      "image": ""
+    }
+  ],
+  "grammar": [
+    {
+      "id": "this-is",
+      "title": "Называем предмет",
+      "text": "This — это. Is связывает слова. My — мой. Book — книга. Вместе: «Это моя книга».",
+      "examples": ["This is my book.", "What's this?", "It's a pen."]
+    },
+    {
+      "id": "my-your",
+      "title": "Знакомимся и говорим о своих вещах",
+      "text": "My — мой, your — твой. Вопрос об имени значит «Как тебя зовут?». В ответе назови себя: «Меня зовут Сэм».",
+      "examples": ["What's your name?", "My name is Sam.", "This is your book."]
+    }
+  ],
+  "remedial": [
+    {
+      "id": "this-is",
+      "title": "This is — знакомимся с предметом",
+      "available": true,
+      "explanation": "This — «это», предмет рядом. Is помогает соединить слова. Вместе This is — «Это…». Сначала укажи на предмет, потом назови его.",
+      "example": "This is my ruler.",
+      "question": "С чего начать фразу «Это моя линейка»?",
+      "answer": "This is",
+      "options": ["This is", "my"]
+    },
+    {
+      "id": "my-your",
+      "title": "My и your — чья это вещь?",
+      "available": true,
+      "explanation": "My — мой, моя, моё: вещь принадлежит тебе. Your — твой, твоя, твоё: ты говоришь о вещи друга. Окончание английского слова не меняется.",
+      "example": "This is your book.",
+      "question": "Как сказать «мой», если вещь твоя?",
+      "answer": "my",
+      "options": ["your", "my"]
+    },
+    {
+      "id": "pronouns",
+      "title": "I / you / he / she / it / we / they",
+      "available": false,
+      "explanation": "",
+      "example": "",
+      "question": "",
+      "answer": "",
+      "options": []
+    },
+    {
+      "id": "whats-this",
+      "title": "What's this?",
+      "available": false,
+      "explanation": "",
+      "example": "",
+      "question": "",
+      "answer": "",
+      "options": []
+    },
+    {
+      "id": "articles",
+      "title": "A / an",
+      "available": false,
+      "explanation": "",
+      "example": "",
+      "question": "",
+      "answer": "",
+      "options": []
+    }
+  ],
+  "exercises": [
+    {
+      "id": "school-1a-study-school",
+      "type": "study",
+      "wordId": "school",
+      "skillId": "school",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "school",
+      "options": ["school", "school-bag", "pen", "pencil"],
+      "hint": {
+        "translation": "школа",
+        "explanation": "Место, где мы учимся.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-study-school-bag",
+      "type": "study",
+      "wordId": "school-bag",
+      "skillId": "school-bag",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "school bag",
+      "options": ["school-bag", "pen", "pencil", "rubber"],
+      "hint": {
+        "translation": "школьный портфель",
+        "explanation": "В нём удобно носить школьные вещи.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-study-pen",
+      "type": "study",
+      "wordId": "pen",
+      "skillId": "pen",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "pen",
+      "options": ["pen", "pencil", "rubber", "ruler"],
+      "hint": {
+        "translation": "ручка",
+        "explanation": "Ею мы пишем чернилами.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-study-pencil",
+      "type": "study",
+      "wordId": "pencil",
+      "skillId": "pencil",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "pencil",
+      "options": ["pencil", "rubber", "ruler", "book"],
+      "hint": {
+        "translation": "карандаш",
+        "explanation": "Им можно рисовать и писать.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-study-rubber",
+      "type": "study",
+      "wordId": "rubber",
+      "skillId": "rubber",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "rubber",
+      "options": ["rubber", "ruler", "book", "pencil-case"],
+      "hint": {
+        "translation": "ластик",
+        "explanation": "Он стирает карандаш. В британском английском это rubber.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-study-ruler",
+      "type": "study",
+      "wordId": "ruler",
+      "skillId": "ruler",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "ruler",
+      "options": ["ruler", "book", "pencil-case", "school"],
+      "hint": {
+        "translation": "линейка",
+        "explanation": "Она помогает чертить ровные линии.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-study-book",
+      "type": "study",
+      "wordId": "book",
+      "skillId": "book",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "book",
+      "options": ["book", "pencil-case", "school", "school-bag"],
+      "hint": {
+        "translation": "книга",
+        "explanation": "В ней есть страницы и истории.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-study-pencil-case",
+      "type": "study",
+      "wordId": "pencil-case",
+      "skillId": "pencil-case",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "pencil case",
+      "options": ["pencil-case", "school", "school-bag", "pen"],
+      "hint": {
+        "translation": "пенал",
+        "explanation": "В нём живут ручки и карандаши.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-picture-school",
+      "type": "picture",
+      "wordId": "school",
+      "skillId": "school",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "school",
+      "options": ["school", "school-bag", "pen", "pencil"],
+      "hint": {
+        "translation": "школа",
+        "explanation": "Место, где мы учимся.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-picture-school-bag",
+      "type": "picture",
+      "wordId": "school-bag",
+      "skillId": "school-bag",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "school bag",
+      "options": ["school-bag", "pen", "pencil", "rubber"],
+      "hint": {
+        "translation": "школьный портфель",
+        "explanation": "В нём удобно носить школьные вещи.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-picture-pen",
+      "type": "picture",
+      "wordId": "pen",
+      "skillId": "pen",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "pen",
+      "options": ["pen", "pencil", "rubber", "ruler"],
+      "hint": {
+        "translation": "ручка",
+        "explanation": "Ею мы пишем чернилами.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-picture-pencil",
+      "type": "picture",
+      "wordId": "pencil",
+      "skillId": "pencil",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "pencil",
+      "options": ["pencil", "rubber", "ruler", "book"],
+      "hint": {
+        "translation": "карандаш",
+        "explanation": "Им можно рисовать и писать.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-picture-rubber",
+      "type": "picture",
+      "wordId": "rubber",
+      "skillId": "rubber",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "rubber",
+      "options": ["rubber", "ruler", "book", "pencil-case"],
+      "hint": {
+        "translation": "ластик",
+        "explanation": "Он стирает карандаш. В британском английском это rubber.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-picture-ruler",
+      "type": "picture",
+      "wordId": "ruler",
+      "skillId": "ruler",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "ruler",
+      "options": ["ruler", "book", "pencil-case", "school"],
+      "hint": {
+        "translation": "линейка",
+        "explanation": "Она помогает чертить ровные линии.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-picture-book",
+      "type": "picture",
+      "wordId": "book",
+      "skillId": "book",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "book",
+      "options": ["book", "pencil-case", "school", "school-bag"],
+      "hint": {
+        "translation": "книга",
+        "explanation": "В ней есть страницы и истории.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-picture-pencil-case",
+      "type": "picture",
+      "wordId": "pencil-case",
+      "skillId": "pencil-case",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "pencil case",
+      "options": ["pencil-case", "school", "school-bag", "pen"],
+      "hint": {
+        "translation": "пенал",
+        "explanation": "В нём живут ручки и карандаши.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-word-school",
+      "type": "word",
+      "wordId": "school",
+      "skillId": "school",
+      "prompt": "Как это называется по-английски?",
+      "answer": "school",
+      "options": ["school", "school-bag", "pen", "pencil"],
+      "hint": {
+        "translation": "школа",
+        "explanation": "Место, где мы учимся.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-word-school-bag",
+      "type": "word",
+      "wordId": "school-bag",
+      "skillId": "school-bag",
+      "prompt": "Как это называется по-английски?",
+      "answer": "school bag",
+      "options": ["school-bag", "pen", "pencil", "rubber"],
+      "hint": {
+        "translation": "школьный портфель",
+        "explanation": "В нём удобно носить школьные вещи.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-word-pen",
+      "type": "word",
+      "wordId": "pen",
+      "skillId": "pen",
+      "prompt": "Как это называется по-английски?",
+      "answer": "pen",
+      "options": ["pen", "pencil", "rubber", "ruler"],
+      "hint": {
+        "translation": "ручка",
+        "explanation": "Ею мы пишем чернилами.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-word-pencil",
+      "type": "word",
+      "wordId": "pencil",
+      "skillId": "pencil",
+      "prompt": "Как это называется по-английски?",
+      "answer": "pencil",
+      "options": ["pencil", "rubber", "ruler", "book"],
+      "hint": {
+        "translation": "карандаш",
+        "explanation": "Им можно рисовать и писать.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-word-rubber",
+      "type": "word",
+      "wordId": "rubber",
+      "skillId": "rubber",
+      "prompt": "Как это называется по-английски?",
+      "answer": "rubber",
+      "options": ["rubber", "ruler", "book", "pencil-case"],
+      "hint": {
+        "translation": "ластик",
+        "explanation": "Он стирает карандаш. В британском английском это rubber.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-word-ruler",
+      "type": "word",
+      "wordId": "ruler",
+      "skillId": "ruler",
+      "prompt": "Как это называется по-английски?",
+      "answer": "ruler",
+      "options": ["ruler", "book", "pencil-case", "school"],
+      "hint": {
+        "translation": "линейка",
+        "explanation": "Она помогает чертить ровные линии.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-word-book",
+      "type": "word",
+      "wordId": "book",
+      "skillId": "book",
+      "prompt": "Как это называется по-английски?",
+      "answer": "book",
+      "options": ["book", "pencil-case", "school", "school-bag"],
+      "hint": {
+        "translation": "книга",
+        "explanation": "В ней есть страницы и истории.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-word-pencil-case",
+      "type": "word",
+      "wordId": "pencil-case",
+      "skillId": "pencil-case",
+      "prompt": "Как это называется по-английски?",
+      "answer": "pencil case",
+      "options": ["pencil-case", "school", "school-bag", "pen"],
+      "hint": {
+        "translation": "пенал",
+        "explanation": "В нём живут ручки и карандаши.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-letters-school",
+      "type": "letters",
+      "wordId": "school",
+      "skillId": "school",
+      "prompt": "Собери слово из букв",
+      "answer": "school",
+      "options": ["school", "school-bag", "pen", "pencil"],
+      "hint": {
+        "translation": "школа",
+        "explanation": "Место, где мы учимся.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-letters-pen",
+      "type": "letters",
+      "wordId": "pen",
+      "skillId": "pen",
+      "prompt": "Собери слово из букв",
+      "answer": "pen",
+      "options": ["pen", "pencil", "rubber", "ruler"],
+      "hint": {
+        "translation": "ручка",
+        "explanation": "Ею мы пишем чернилами.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-letters-pencil",
+      "type": "letters",
+      "wordId": "pencil",
+      "skillId": "pencil",
+      "prompt": "Собери слово из букв",
+      "answer": "pencil",
+      "options": ["pencil", "rubber", "ruler", "book"],
+      "hint": {
+        "translation": "карандаш",
+        "explanation": "Им можно рисовать и писать.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-letters-rubber",
+      "type": "letters",
+      "wordId": "rubber",
+      "skillId": "rubber",
+      "prompt": "Собери слово из букв",
+      "answer": "rubber",
+      "options": ["rubber", "ruler", "book", "pencil-case"],
+      "hint": {
+        "translation": "ластик",
+        "explanation": "Он стирает карандаш. В британском английском это rubber.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-letters-ruler",
+      "type": "letters",
+      "wordId": "ruler",
+      "skillId": "ruler",
+      "prompt": "Собери слово из букв",
+      "answer": "ruler",
+      "options": ["ruler", "book", "pencil-case", "school"],
+      "hint": {
+        "translation": "линейка",
+        "explanation": "Она помогает чертить ровные линии.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-letters-book",
+      "type": "letters",
+      "wordId": "book",
+      "skillId": "book",
+      "prompt": "Собери слово из букв",
+      "answer": "book",
+      "options": ["book", "pencil-case", "school", "school-bag"],
+      "hint": {
+        "translation": "книга",
+        "explanation": "В ней есть страницы и истории.",
+        "steps": [
+          "Послушай слово медленно.",
+          "Посмотри на картинку и вспомни перевод.",
+          "Для букв: произнеси слово по звукам, начни с первого."
+        ],
+        "example": "This is my book."
+      }
+    },
+    {
+      "id": "school-1a-sentence-school-bag",
+      "type": "sentence",
+      "wordId": "school-bag",
+      "skillId": "this-is",
+      "prompt": "Собери предложение",
+      "answer": "This is my school bag.",
+      "options": ["school-bag", "pen", "pencil", "rubber"],
+      "hint": {
+        "translation": "Это моя школьный портфель",
+        "explanation": "This указывает на предмет рядом. Is связывает слова, my означает «мой». Название предмета — в конце.",
+        "steps": [
+          "Посмотри на предмет и вспомни его значение.",
+          "Прослушай слово медленно. Найди знакомые звуки.",
+          "В предложении сначала укажи на предмет, затем скажи, чей он."
+        ],
+        "example": "This is your book."
+      }
+    },
+    {
+      "id": "school-1a-sentence-pencil",
+      "type": "sentence",
+      "wordId": "pencil",
+      "skillId": "this-is",
+      "prompt": "Собери предложение",
+      "answer": "This is my pencil.",
+      "options": ["pencil", "rubber", "ruler", "book"],
+      "hint": {
+        "translation": "Это моя карандаш",
+        "explanation": "This указывает на предмет рядом. Is связывает слова, my означает «мой». Название предмета — в конце.",
+        "steps": [
+          "Посмотри на предмет и вспомни его значение.",
+          "Прослушай слово медленно. Найди знакомые звуки.",
+          "В предложении сначала укажи на предмет, затем скажи, чей он."
+        ],
+        "example": "This is your book."
+      }
+    },
+    {
+      "id": "school-1a-sentence-book",
+      "type": "sentence",
+      "wordId": "book",
+      "skillId": "this-is",
+      "prompt": "Собери предложение",
+      "answer": "This is my book.",
+      "options": ["book", "pencil-case", "school", "school-bag"],
+      "hint": {
+        "translation": "Это моя книга",
+        "explanation": "This указывает на предмет рядом. Is связывает слова, my означает «мой». Название предмета — в конце.",
+        "steps": [
+          "Посмотри на предмет и вспомни его значение.",
+          "Прослушай слово медленно. Найди знакомые звуки.",
+          "В предложении сначала укажи на предмет, затем скажи, чей он."
+        ],
+        "example": "This is your book."
+      }
+    }
+  ]
+}

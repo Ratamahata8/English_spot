@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.venv/
+playwright-report/
+test-results/
+*.log
+__pycache__/
+
+# Local credentials and machine-specific files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
