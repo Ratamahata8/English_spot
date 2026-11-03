@@ -1,0 +1,242 @@
+{
+  "school": {
+    "text": "school",
+    "path": "d64debd942d7dc26a851.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "0ad130eab5d2fbcfccb23867da9dc7e951ba3284fbfcd98a15a95e056014ce3b"
+  },
+  "This is my school.": {
+    "text": "This is my school.",
+    "path": "d2c417704bef62a6fed8.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "c67e1c86de08cb3f94218e9f82814f9560500524e180f17cd3d958184996004f"
+  },
+  "school bag": {
+    "text": "school bag",
+    "path": "619d1dac1c1393190416.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "4e5ade72555c30a0a3813704917f9dc9493bc55bf62cfd256da0b74610d76f8a"
+  },
+  "This is my school bag.": {
+    "text": "This is my school bag.",
+    "path": "0d13c3e833384938991e.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "5707e853f9862fabf054471910b0559db8b2fd82cb7d727984a85c57cb5b4e35"
+  },
+  "pen": {
+    "text": "pen",
+    "path": "e21a6b0cb193057e06ac.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "ba3a17e92f5fb66019455b4e00ff011ea54d41e0a93600093cad77140f80f8da"
+  },
+  "It's a pen.": {
+    "text": "It's a pen.",
+    "path": "888426f04c938bc09edb.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "d5e3d0d70c9b76b294edc1372e9944f5a12b9627ac85f5f918a2286e4199feee"
+  },
+  "pencil": {
+    "text": "pencil",
+    "path": "13809668fb436386706f.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "0e011a7ce0f7eb32a36f3072ef9352524bace0306270436f347313fc672ff2b7"
+  },
+  "This is my pencil.": {
+    "text": "This is my pencil.",
+    "path": "7e7b7a3474c5c3b19da4.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "bb681b2efa182f0af340fc0ae258b449f68afb5b330b07d61225e01cf09a77da"
+  },
+  "rubber": {
+    "text": "rubber",
+    "path": "058ce9bd95f5595d7894.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "2254201c3caf548e1a027a45ed0e01ebbcaab1c2bfe2e9280339820a15f437bc"
+  },
+  "This is my rubber.": {
+    "text": "This is my rubber.",
+    "path": "2b210793d3ea82504f98.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "762ecb21764f777f3637057b69dd02df0166471580f0a0e1dc0956e2786159b5"
+  },
+  "ruler": {
+    "text": "ruler",
+    "path": "5972814068a183e232d6.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "6db34bffe8531fc5659cf58e99c3c7441ed5623cf3551a554ee0358b3439fe91"
+  },
+  "This is my ruler.": {
+    "text": "This is my ruler.",
+    "path": "c6cf43f650ed2cbd34aa.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "5369defb324d999aa43189e9e21af4ba0e3f2c2cf8cae780aaf8f77d2f1bf10a"
+  },
+  "book": {
+    "text": "book",
+    "path": "92719fe0cf8cd51592af.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "d860906a5535b8f2a010432b0b3964afae36a2d7296c155d99dadd928da262db"
+  },
+  "This is my book.": {
+    "text": "This is my book.",
+    "path": "f89ad04ea6795bb35f43.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "7534479f28b1320257319609764c6bffb5f21aa5160cc2f111473f2d231fea32"
+  },
+  "pencil case": {
+    "text": "pencil case",
+    "path": "3b74bc54b6c221270c0d.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "9cd00a3133e7753318f02661f5a2853f06b2e6a43c1b29e809af3ae6960a0b52"
+  },
+  "This is my pencil case.": {
+    "text": "This is my pencil case.",
+    "path": "192e9d1e64b5d3c8b73c.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "970d79d0e7390c6515c0dff84dd8ba63a5f603991b8661ffa88df20bc7875562"
+  },
+  "this": {
+    "text": "this",
+    "path": "1eb79602411ef02cf6fe.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "b22186f195eaee64eec93fb16d15948854e36ea62fbb50d21f088a4d1b7d4a38"
+  },
+  "is": {
+    "text": "is",
+    "path": "fa51fd49abf67705d6a3.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "1aa770493fffe05e2b57b718e61d7c5748507b6d6499bd2b8f9b6282b81d1b64"
+  },
+  "my": {
+    "text": "my",
+    "path": "038468518ad8122e1311.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "160621de7f9cc82360ca0073c1de8d2af9d2f4355033c0d760030975f65a78de"
+  },
+  "your": {
+    "text": "your",
+    "path": "4d040d3f6466018c568a.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "ffc321412534f94e12f0cc19eff22d7cbbd05df1344bae51ae69c0d5504487c5"
+  },
+  "This is your book.": {
+    "text": "This is your book.",
+    "path": "9a0fb7ec589d8a39546a.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "35cdaf333b368d24983ff0aab35155f1736a0464dba40e5c53069b0924e86412"
+  },
+  "what's": {
+    "text": "what's",
+    "path": "10beaccfc7da1c3f6340.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "bfe35a6e482c8329f4b413908da90e7507d0a40a837a924cebee2ff961810413"
+  },
+  "What's this?": {
+    "text": "What's this?",
+    "path": "ddfd032cce17828b78f3.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "1a16304d3cdbe48a03b0212c1c0c1705a08dc3e542c73c5863b12bce9d607b9c"
+  },
+  "it's": {
+    "text": "it's",
+    "path": "24ceef1cb6b0cbc0b332.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "76b7aeca7b490903c274bab68a985f99cdd72e092df5b6eb2f9bcfb7668c9bf4"
+  },
+  "a": {
+    "text": "a",
+    "path": "ca978112ca1bbdcafac2.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "b533f29047b670c753cb68ba5ec325eb58adcb0c1ba492901ef3556ebe041f6f"
+  },
+  "name": {
+    "text": "name",
+    "path": "82a3537ff0dbce7eec35.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "5291223dbfe75c54ed3a13d6087e8f9f0c412814d58c88bc7444fdbc94fd1a33"
+  },
+  "My name is Sam.": {
+    "text": "My name is Sam.",
+    "path": "8af5886de710c5e4aedd.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "2990142af11fef1e0d8481a5e67d6640d21985dbdbf01735ff1a5507fbcdf669"
+  },
+  "I": {
+    "text": "I",
+    "path": "a83dd0ccbffe39d071cc.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "17ed2edb53fa465ae9bec384c0ae666f88850dde72bd2c85745ec91906a57fc7"
+  },
+  "you": {
+    "text": "you",
+    "path": "bb0347a468d97e98a9c0.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "be0c4d77cbd14609d82cc6bf3aa5ec0160c37564a72342b1f224593e6cb5db80"
+  },
+  "he": {
+    "text": "he",
+    "path": "372f7e2fd2d01ce2a1d7.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "cb0d8ae0a82acbd25eb9ff0e16d972a3163afca6e271d5819954f565e2ab6d8f"
+  },
+  "she": {
+    "text": "she",
+    "path": "2cda85e504e155f30a40.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "45bedd29be1e9cd2e68bf243f46958506287a2e2c7962281948f286f0188253b"
+  },
+  "it": {
+    "text": "it",
+    "path": "2ad8a7049d7c5511ac25.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "a07d6cef8385bcb1ffe8f370e023e0dfa238340158049dbc7d47384f9b87566c"
+  },
+  "we": {
+    "text": "we",
+    "path": "dc7c811b9561739d9b75.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "09db18ae2dd06986c12b5dc90373d9adec30286cec27b0bf606e780632c3a558"
+  },
+  "they": {
+    "text": "they",
+    "path": "151e58a831306903b282.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "2cfc1ca7873e708c65134c35f2fb1ea2777b750da09ac3dc73827911c9d277d7"
+  },
+  "his": {
+    "text": "his",
+    "path": "73c9c98668a34c54d131.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "91cd73cf7d301170b6393e3ca239d1a631136551f97febf29b440957ac90c5e2"
+  },
+  "her": {
+    "text": "her",
+    "path": "354cbfc814262a7a81d3.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "6f4ec5ea70d3343d22bcf3510c93a0adc649cbb4af8c5a2e67302fa1807b3a82"
+  },
+  "an": {
+    "text": "an",
+    "path": "ea325d761f98c6b73320.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "eb07caec79a8b1c95eaae382522aa37eb39236e2d5154624d0bdf84f087ddf43"
+  },
+  "Sam": {
+    "text": "Sam",
+    "path": "4ecde249d747d51d869a.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "bdfc5beb8f0e12a91756728ce41560a6b06163e205f1e548c7432d62f5c356a4"
+  },
+  "What's your name?": {
+    "text": "What's your name?",
+    "path": "56e8908ad76682304d68.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "f52f8a694408985bb45720888b5afa5f7ae9653163e036db126a2df5a4b0c4af"
+  },
+  "This is": {
+    "text": "This is",
+    "path": "9792bc9ccbeebe7e59a7.mp3",
+    "voice": "eSpeak-NG en-gb (offline, formant)",
+    "sha256": "7d5f1e057f26f9c75e0c586d0c1da5d0c012fc068b8b7f943c86164d145cba5b"
+  }
+}
