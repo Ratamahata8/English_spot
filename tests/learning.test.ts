@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { lesson } from '../src/lessons';
+import { lesson, lessons, words } from '../src/lessons';
 import {
   checkAnswer,
   initialProgress,
@@ -68,7 +68,11 @@ describe('учебная логика', () => {
     ).toBeNull();
   });
   it('проверяет целостность контента и наличие всех иллюстраций', () => {
-    expect(validateContent()).toMatchObject({ words: 8, exercises: 33 });
+    expect(validateContent()).toMatchObject({
+      lessons: lessons.length,
+      words: words.length,
+      exercises: lessons.reduce((n, l) => n + l.exercises.length, 0),
+    });
   });
   it('проверяет импорт и отказывает повреждённым/чужим данным', () => {
     const p = initialProgress();

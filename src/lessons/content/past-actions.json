@@ -1,0 +1,601 @@
+{
+  "id": "past-actions",
+  "title": "Yesterday I Played",
+  "subtitle": "Spotlight 3 · Unit 8 · правильные глаголы в прошлом",
+  "module": "Модуль 4 · Игрушки и комната",
+  "description": "Рассказываем, что делали вчера.",
+  "source": "Unit 8 · правильные глаголы в прошлом",
+  "coverWordId": "played",
+  "vocabulary": [
+    {
+      "id": "played",
+      "en": "played",
+      "ru": "играл",
+      "ipa": "/pleɪd/",
+      "explanation": "Рассказываем, что делали вчера. Здесь «played» — «играл».",
+      "example": "I played yesterday.",
+      "image": "illustrations/played.svg"
+    },
+    {
+      "id": "walked",
+      "en": "walked",
+      "ru": "гулял",
+      "ipa": "/wɔːkt/",
+      "explanation": "Рассказываем, что делали вчера. Здесь «walked» — «гулял».",
+      "example": "I walked yesterday.",
+      "image": "illustrations/walked.svg"
+    },
+    {
+      "id": "jumped",
+      "en": "jumped",
+      "ru": "прыгал",
+      "ipa": "/dʒʌmpt/",
+      "explanation": "Рассказываем, что делали вчера. Здесь «jumped» — «прыгал».",
+      "example": "I jumped yesterday.",
+      "image": "illustrations/jumped.svg"
+    },
+    {
+      "id": "danced",
+      "en": "danced",
+      "ru": "танцевал",
+      "ipa": "/dɑːnst/",
+      "explanation": "Рассказываем, что делали вчера. Здесь «danced» — «танцевал».",
+      "example": "She danced yesterday.",
+      "image": "illustrations/danced.svg"
+    },
+    {
+      "id": "watched",
+      "en": "watched",
+      "ru": "смотрел",
+      "ipa": "/wɒtʃt/",
+      "explanation": "Рассказываем, что делали вчера. Здесь «watched» — «смотрел».",
+      "example": "I watched yesterday.",
+      "image": "illustrations/watched.svg"
+    },
+    {
+      "id": "cooked",
+      "en": "cooked",
+      "ru": "готовил",
+      "ipa": "/kʊkt/",
+      "explanation": "Рассказываем, что делали вчера. Здесь «cooked» — «готовил».",
+      "example": "I cooked yesterday.",
+      "image": "illustrations/cooked.svg"
+    }
+  ],
+  "lexicon": [],
+  "grammar": [
+    {
+      "id": "past-actions",
+      "title": "Что делали вчера: окончание -ed",
+      "text": "К многим глаголам в прошлом добавляем -ed: play → played. Для he, she и I форма прошедшего времени одинаковая. Слово yesterday означает «вчера». Не добавляй is перед played.",
+      "examples": ["I played yesterday.", "I walked yesterday.", "She danced yesterday."]
+    }
+  ],
+  "remedial": [
+    {
+      "id": "past-actions",
+      "title": "Что делали вчера: окончание -ed",
+      "available": true,
+      "explanation": "К многим глаголам в прошлом добавляем -ed: play → played. Для he, she и I форма прошедшего времени одинаковая. Слово yesterday означает «вчера». Не добавляй is перед played.",
+      "example": "She danced yesterday.",
+      "question": "Нужно ли ставить is перед played в фразе о вчерашнем дне?",
+      "answer": "нет",
+      "options": ["да", "нет"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "past-actions-study-played",
+      "type": "study",
+      "wordId": "played",
+      "skillId": "played",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "played",
+      "options": ["played", "walked", "jumped", "danced"],
+      "hint": {
+        "translation": "играл",
+        "explanation": "Рассказываем, что делали вчера. Здесь «played» — «играл».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I walked yesterday."
+      }
+    },
+    {
+      "id": "past-actions-study-walked",
+      "type": "study",
+      "wordId": "walked",
+      "skillId": "walked",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "walked",
+      "options": ["walked", "jumped", "danced", "watched"],
+      "hint": {
+        "translation": "гулял",
+        "explanation": "Рассказываем, что делали вчера. Здесь «walked» — «гулял».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I jumped yesterday."
+      }
+    },
+    {
+      "id": "past-actions-study-jumped",
+      "type": "study",
+      "wordId": "jumped",
+      "skillId": "jumped",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "jumped",
+      "options": ["jumped", "danced", "watched", "cooked"],
+      "hint": {
+        "translation": "прыгал",
+        "explanation": "Рассказываем, что делали вчера. Здесь «jumped» — «прыгал».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "She danced yesterday."
+      }
+    },
+    {
+      "id": "past-actions-study-danced",
+      "type": "study",
+      "wordId": "danced",
+      "skillId": "danced",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "danced",
+      "options": ["danced", "watched", "cooked", "played"],
+      "hint": {
+        "translation": "танцевал",
+        "explanation": "Рассказываем, что делали вчера. Здесь «danced» — «танцевал».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I watched yesterday."
+      }
+    },
+    {
+      "id": "past-actions-study-watched",
+      "type": "study",
+      "wordId": "watched",
+      "skillId": "watched",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "watched",
+      "options": ["watched", "cooked", "played", "walked"],
+      "hint": {
+        "translation": "смотрел",
+        "explanation": "Рассказываем, что делали вчера. Здесь «watched» — «смотрел».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I cooked yesterday."
+      }
+    },
+    {
+      "id": "past-actions-study-cooked",
+      "type": "study",
+      "wordId": "cooked",
+      "skillId": "cooked",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "cooked",
+      "options": ["cooked", "played", "walked", "jumped"],
+      "hint": {
+        "translation": "готовил",
+        "explanation": "Рассказываем, что делали вчера. Здесь «cooked» — «готовил».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I played yesterday."
+      }
+    },
+    {
+      "id": "past-actions-picture-played",
+      "type": "picture",
+      "wordId": "played",
+      "skillId": "played",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "played",
+      "options": ["played", "walked", "jumped", "danced"],
+      "hint": {
+        "translation": "играл",
+        "explanation": "Рассказываем, что делали вчера. Здесь «played» — «играл».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I walked yesterday."
+      }
+    },
+    {
+      "id": "past-actions-picture-walked",
+      "type": "picture",
+      "wordId": "walked",
+      "skillId": "walked",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "walked",
+      "options": ["walked", "jumped", "danced", "watched"],
+      "hint": {
+        "translation": "гулял",
+        "explanation": "Рассказываем, что делали вчера. Здесь «walked» — «гулял».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I jumped yesterday."
+      }
+    },
+    {
+      "id": "past-actions-picture-jumped",
+      "type": "picture",
+      "wordId": "jumped",
+      "skillId": "jumped",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "jumped",
+      "options": ["jumped", "danced", "watched", "cooked"],
+      "hint": {
+        "translation": "прыгал",
+        "explanation": "Рассказываем, что делали вчера. Здесь «jumped» — «прыгал».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "She danced yesterday."
+      }
+    },
+    {
+      "id": "past-actions-picture-danced",
+      "type": "picture",
+      "wordId": "danced",
+      "skillId": "danced",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "danced",
+      "options": ["danced", "watched", "cooked", "played"],
+      "hint": {
+        "translation": "танцевал",
+        "explanation": "Рассказываем, что делали вчера. Здесь «danced» — «танцевал».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I watched yesterday."
+      }
+    },
+    {
+      "id": "past-actions-picture-watched",
+      "type": "picture",
+      "wordId": "watched",
+      "skillId": "watched",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "watched",
+      "options": ["watched", "cooked", "played", "walked"],
+      "hint": {
+        "translation": "смотрел",
+        "explanation": "Рассказываем, что делали вчера. Здесь «watched» — «смотрел».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I cooked yesterday."
+      }
+    },
+    {
+      "id": "past-actions-picture-cooked",
+      "type": "picture",
+      "wordId": "cooked",
+      "skillId": "cooked",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "cooked",
+      "options": ["cooked", "played", "walked", "jumped"],
+      "hint": {
+        "translation": "готовил",
+        "explanation": "Рассказываем, что делали вчера. Здесь «cooked» — «готовил».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I played yesterday."
+      }
+    },
+    {
+      "id": "past-actions-word-played",
+      "type": "word",
+      "wordId": "played",
+      "skillId": "played",
+      "prompt": "Как это называется по-английски?",
+      "answer": "played",
+      "options": ["played", "walked", "jumped", "danced"],
+      "hint": {
+        "translation": "играл",
+        "explanation": "Рассказываем, что делали вчера. Здесь «played» — «играл».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I walked yesterday."
+      }
+    },
+    {
+      "id": "past-actions-word-walked",
+      "type": "word",
+      "wordId": "walked",
+      "skillId": "walked",
+      "prompt": "Как это называется по-английски?",
+      "answer": "walked",
+      "options": ["walked", "jumped", "danced", "watched"],
+      "hint": {
+        "translation": "гулял",
+        "explanation": "Рассказываем, что делали вчера. Здесь «walked» — «гулял».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I jumped yesterday."
+      }
+    },
+    {
+      "id": "past-actions-word-jumped",
+      "type": "word",
+      "wordId": "jumped",
+      "skillId": "jumped",
+      "prompt": "Как это называется по-английски?",
+      "answer": "jumped",
+      "options": ["jumped", "danced", "watched", "cooked"],
+      "hint": {
+        "translation": "прыгал",
+        "explanation": "Рассказываем, что делали вчера. Здесь «jumped» — «прыгал».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "She danced yesterday."
+      }
+    },
+    {
+      "id": "past-actions-word-danced",
+      "type": "word",
+      "wordId": "danced",
+      "skillId": "danced",
+      "prompt": "Как это называется по-английски?",
+      "answer": "danced",
+      "options": ["danced", "watched", "cooked", "played"],
+      "hint": {
+        "translation": "танцевал",
+        "explanation": "Рассказываем, что делали вчера. Здесь «danced» — «танцевал».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I watched yesterday."
+      }
+    },
+    {
+      "id": "past-actions-word-watched",
+      "type": "word",
+      "wordId": "watched",
+      "skillId": "watched",
+      "prompt": "Как это называется по-английски?",
+      "answer": "watched",
+      "options": ["watched", "cooked", "played", "walked"],
+      "hint": {
+        "translation": "смотрел",
+        "explanation": "Рассказываем, что делали вчера. Здесь «watched» — «смотрел».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I cooked yesterday."
+      }
+    },
+    {
+      "id": "past-actions-word-cooked",
+      "type": "word",
+      "wordId": "cooked",
+      "skillId": "cooked",
+      "prompt": "Как это называется по-английски?",
+      "answer": "cooked",
+      "options": ["cooked", "played", "walked", "jumped"],
+      "hint": {
+        "translation": "готовил",
+        "explanation": "Рассказываем, что делали вчера. Здесь «cooked» — «готовил».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I played yesterday."
+      }
+    },
+    {
+      "id": "past-actions-letters-played",
+      "type": "letters",
+      "wordId": "played",
+      "skillId": "played",
+      "prompt": "Собери слово из букв",
+      "answer": "played",
+      "options": ["played", "walked", "jumped", "danced"],
+      "hint": {
+        "translation": "играл",
+        "explanation": "Рассказываем, что делали вчера. Здесь «played» — «играл».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I walked yesterday."
+      }
+    },
+    {
+      "id": "past-actions-letters-walked",
+      "type": "letters",
+      "wordId": "walked",
+      "skillId": "walked",
+      "prompt": "Собери слово из букв",
+      "answer": "walked",
+      "options": ["walked", "jumped", "danced", "watched"],
+      "hint": {
+        "translation": "гулял",
+        "explanation": "Рассказываем, что делали вчера. Здесь «walked» — «гулял».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I jumped yesterday."
+      }
+    },
+    {
+      "id": "past-actions-letters-jumped",
+      "type": "letters",
+      "wordId": "jumped",
+      "skillId": "jumped",
+      "prompt": "Собери слово из букв",
+      "answer": "jumped",
+      "options": ["jumped", "danced", "watched", "cooked"],
+      "hint": {
+        "translation": "прыгал",
+        "explanation": "Рассказываем, что делали вчера. Здесь «jumped» — «прыгал».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "She danced yesterday."
+      }
+    },
+    {
+      "id": "past-actions-letters-danced",
+      "type": "letters",
+      "wordId": "danced",
+      "skillId": "danced",
+      "prompt": "Собери слово из букв",
+      "answer": "danced",
+      "options": ["danced", "watched", "cooked", "played"],
+      "hint": {
+        "translation": "танцевал",
+        "explanation": "Рассказываем, что делали вчера. Здесь «danced» — «танцевал».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I watched yesterday."
+      }
+    },
+    {
+      "id": "past-actions-letters-watched",
+      "type": "letters",
+      "wordId": "watched",
+      "skillId": "watched",
+      "prompt": "Собери слово из букв",
+      "answer": "watched",
+      "options": ["watched", "cooked", "played", "walked"],
+      "hint": {
+        "translation": "смотрел",
+        "explanation": "Рассказываем, что делали вчера. Здесь «watched» — «смотрел».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I cooked yesterday."
+      }
+    },
+    {
+      "id": "past-actions-letters-cooked",
+      "type": "letters",
+      "wordId": "cooked",
+      "skillId": "cooked",
+      "prompt": "Собери слово из букв",
+      "answer": "cooked",
+      "options": ["cooked", "played", "walked", "jumped"],
+      "hint": {
+        "translation": "готовил",
+        "explanation": "Рассказываем, что делали вчера. Здесь «cooked» — «готовил».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I played yesterday."
+      }
+    },
+    {
+      "id": "past-actions-sentence-1",
+      "type": "sentence",
+      "wordId": "played",
+      "skillId": "past-actions",
+      "prompt": "Собери предложение",
+      "answer": "I played yesterday.",
+      "options": [],
+      "hint": {
+        "translation": "Я играл вчера.",
+        "explanation": "К многим глаголам в прошлом добавляем -ed: play → played. Для he, she и I форма прошедшего времени одинаковая. Слово yesterday означает «вчера». Не добавляй is перед played.",
+        "steps": [
+          "Прочитай русский смысл: Я играл вчера.",
+          "Вспомни правило: К многим глаголам в прошлом добавляем -ed: play → played. Для he, she и I форма прошедшего времени одинаковая. Слово yesterday означает «вчера». Не добавляй is перед played.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "I walked yesterday."
+      }
+    },
+    {
+      "id": "past-actions-sentence-2",
+      "type": "sentence",
+      "wordId": "walked",
+      "skillId": "past-actions",
+      "prompt": "Собери предложение",
+      "answer": "I walked yesterday.",
+      "options": [],
+      "hint": {
+        "translation": "Я гулял вчера.",
+        "explanation": "К многим глаголам в прошлом добавляем -ed: play → played. Для he, she и I форма прошедшего времени одинаковая. Слово yesterday означает «вчера». Не добавляй is перед played.",
+        "steps": [
+          "Прочитай русский смысл: Я гулял вчера.",
+          "Вспомни правило: К многим глаголам в прошлом добавляем -ed: play → played. Для he, she и I форма прошедшего времени одинаковая. Слово yesterday означает «вчера». Не добавляй is перед played.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "She danced yesterday."
+      }
+    },
+    {
+      "id": "past-actions-sentence-3",
+      "type": "sentence",
+      "wordId": "danced",
+      "skillId": "past-actions",
+      "prompt": "Собери предложение",
+      "answer": "She danced yesterday.",
+      "options": [],
+      "hint": {
+        "translation": "Она танцевала вчера.",
+        "explanation": "К многим глаголам в прошлом добавляем -ed: play → played. Для he, she и I форма прошедшего времени одинаковая. Слово yesterday означает «вчера». Не добавляй is перед played.",
+        "steps": [
+          "Прочитай русский смысл: Она танцевала вчера.",
+          "Вспомни правило: К многим глаголам в прошлом добавляем -ed: play → played. Для he, she и I форма прошедшего времени одинаковая. Слово yesterday означает «вчера». Не добавляй is перед played.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "I played yesterday."
+      }
+    }
+  ]
+}

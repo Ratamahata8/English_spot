@@ -1,13 +1,17 @@
 import { Link } from 'react-router-dom';
-import { words } from '../lessons';
+import { words, lessons, getLesson } from '../lessons';
 import { useProgress } from '../stores/progress';
-import { percent, mastered, dueWords } from '../services/learning';
+import { percent, dueWords, summarize } from '../services/learning';
 import { Illustration } from '../components/Illustration';
 import { audioAvailable } from '../services/audio';
 const BASE = import.meta.env.BASE_URL;
 export function Home() {
   const p = useProgress((s) => s.progress);
-  const learned = words.filter((w) => mastered(p.stats[w.id])).length;
+  const records = useProgress((s) => s.records);
+  const summary = summarize(records);
+  const learned = summary.learned;
+  const lesson = getLesson(p.lessonId);
+  const lessonNumber = lessons.findIndex((l) => l.id === p.lessonId) + 1;
   const due = dueWords(p).length;
   return (
     <>
@@ -25,8 +29,9 @@ export function Home() {
         <div className="hero-copy">
           <span className="pill">ТВОЁ ПРИКЛЮЧЕНИЕ НАЧИНАЕТСЯ</span>
           <h2>
-            В школу
-            <br />с новыми словами!
+            В мир английского
+            <br />
+            маленькими шагами!
           </h2>
           <p>
             Знакомься со Спотти, слушай английский
@@ -63,7 +68,7 @@ export function Home() {
           <span className="stat-icon sage">▧</span>
           <p>
             <strong>
-              {learned} <small>из 8</small>
+              {learned} <small>из {words.length}</small>
             </strong>
             <span>слов освоено</span>
           </p>
@@ -71,14 +76,14 @@ export function Home() {
         <div>
           <span className="stat-icon peach">⚑</span>
           <p>
-            <strong>{p.lessonComplete ? 1 : 0}</strong>
+            <strong>{summary.completed}</strong>
             <span>уроков пройдено</span>
           </p>
         </div>
         <div>
           <span className="stat-icon lavender">✦</span>
           <p>
-            <strong>{p.successful}</strong>
+            <strong>{summary.successful}</strong>
             <span>успешных ответов</span>
           </p>
         </div>
@@ -86,7 +91,7 @@ export function Home() {
           <span className="stat-icon yellow">◷</span>
           <p>
             <strong>
-              {Math.floor(p.seconds / 60)} <small>мин</small>
+              {Math.floor(summary.seconds / 60)} <small>мин</small>
             </strong>
             <span>время с английским</span>
           </p>
@@ -101,17 +106,17 @@ export function Home() {
       <div className="home-grid">
         <section className="lesson-preview panel">
           <div className="preview-top">
-            <span className="pill">УРОК 1 · ДОСТУПЕН</span>
-            <span className="muted">8 слов · 5 игр</span>
+            <span className="pill">УРОК {lessonNumber} · ДОСТУПЕН</span>
+            <span className="muted">{lesson.vocabulary.length} слов · 5 игр</span>
           </div>
           <div className="preview-content">
             <div className="bag-tile">
-              <Illustration id="school-bag" />
+              <Illustration id={lesson.coverWordId} />
             </div>
             <div>
-              <span className="eyebrow">Школьные принадлежности</span>
-              <h3>School Again!</h3>
-              <p>Снова в школу — теперь по-английски</p>
+              <span className="eyebrow">{lesson.module}</span>
+              <h3>{lesson.title}</h3>
+              <p>{lesson.description}</p>
             </div>
           </div>
           <div className="progress-label">

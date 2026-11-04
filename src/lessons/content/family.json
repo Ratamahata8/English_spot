@@ -1,0 +1,645 @@
+{
+  "id": "family",
+  "title": "My Family",
+  "subtitle": "Spotlight 3 · Units 3–4 · члены семьи",
+  "module": "Модуль 2 · Семья",
+  "description": "Знакомим друга со своей семьёй.",
+  "source": "Units 3–4 · члены семьи",
+  "coverWordId": "mother",
+  "vocabulary": [
+    {
+      "id": "mother",
+      "en": "mother",
+      "ru": "мама",
+      "ipa": "/ˈmʌðə/",
+      "explanation": "Знакомим друга со своей семьёй. Здесь «mother» — «мама».",
+      "example": "This is my mother.",
+      "image": "illustrations/mother.svg"
+    },
+    {
+      "id": "father",
+      "en": "father",
+      "ru": "папа",
+      "ipa": "/ˈfɑːðə/",
+      "explanation": "Знакомим друга со своей семьёй. Здесь «father» — «папа».",
+      "example": "This is my father.",
+      "image": "illustrations/father.svg"
+    },
+    {
+      "id": "sister",
+      "en": "sister",
+      "ru": "сестра",
+      "ipa": "/ˈsɪstə/",
+      "explanation": "Знакомим друга со своей семьёй. Здесь «sister» — «сестра».",
+      "example": "This is my sister.",
+      "image": "illustrations/sister.svg"
+    },
+    {
+      "id": "brother",
+      "en": "brother",
+      "ru": "брат",
+      "ipa": "/ˈbrʌðə/",
+      "explanation": "Знакомим друга со своей семьёй. Здесь «brother» — «брат».",
+      "example": "This is my brother.",
+      "image": "illustrations/brother.svg"
+    },
+    {
+      "id": "grandmother",
+      "en": "grandmother",
+      "ru": "бабушка",
+      "ipa": "/ˈɡrænmʌðə/",
+      "explanation": "Знакомим друга со своей семьёй. Здесь «grandmother» — «бабушка».",
+      "example": "This is my grandmother.",
+      "image": "illustrations/grandmother.svg"
+    },
+    {
+      "id": "grandfather",
+      "en": "grandfather",
+      "ru": "дедушка",
+      "ipa": "/ˈɡrænfɑːðə/",
+      "explanation": "Знакомим друга со своей семьёй. Здесь «grandfather» — «дедушка».",
+      "example": "This is my grandfather.",
+      "image": "illustrations/grandfather.svg"
+    }
+  ],
+  "lexicon": [],
+  "grammar": [
+    {
+      "id": "family-my",
+      "title": "Члены моей семьи",
+      "text": "My значит «мой» или «моя». Слово my не меняется: my mother — моя мама, my father — мой папа. This is помогает представить человека. His — «его», her — «её». Поставь их перед названием родственника.",
+      "examples": [
+        "This is my mother.",
+        "This is my brother.",
+        "This is my grandmother.",
+        "This is her mother.",
+        "This is his father."
+      ]
+    }
+  ],
+  "remedial": [
+    {
+      "id": "family-my",
+      "title": "Члены моей семьи",
+      "available": true,
+      "explanation": "My значит «мой» или «моя». Слово my не меняется: my mother — моя мама, my father — мой папа. This is помогает представить человека.",
+      "example": "This is my grandmother.",
+      "question": "Какое слово говорит, что это твоя мама?",
+      "answer": "my",
+      "options": ["my", "your"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "family-study-mother",
+      "type": "study",
+      "wordId": "mother",
+      "skillId": "mother",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "mother",
+      "options": ["mother", "father", "sister", "brother"],
+      "hint": {
+        "translation": "мама",
+        "explanation": "Знакомим друга со своей семьёй. Здесь «mother» — «мама».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my father."
+      }
+    },
+    {
+      "id": "family-study-father",
+      "type": "study",
+      "wordId": "father",
+      "skillId": "father",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "father",
+      "options": ["father", "sister", "brother", "grandmother"],
+      "hint": {
+        "translation": "папа",
+        "explanation": "Знакомим друга со своей семьёй. Здесь «father» — «папа».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my sister."
+      }
+    },
+    {
+      "id": "family-study-sister",
+      "type": "study",
+      "wordId": "sister",
+      "skillId": "sister",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "sister",
+      "options": ["sister", "brother", "grandmother", "grandfather"],
+      "hint": {
+        "translation": "сестра",
+        "explanation": "Знакомим друга со своей семьёй. Здесь «sister» — «сестра».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my brother."
+      }
+    },
+    {
+      "id": "family-study-brother",
+      "type": "study",
+      "wordId": "brother",
+      "skillId": "brother",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "brother",
+      "options": ["brother", "grandmother", "grandfather", "mother"],
+      "hint": {
+        "translation": "брат",
+        "explanation": "Знакомим друга со своей семьёй. Здесь «brother» — «брат».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my grandmother."
+      }
+    },
+    {
+      "id": "family-study-grandmother",
+      "type": "study",
+      "wordId": "grandmother",
+      "skillId": "grandmother",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "grandmother",
+      "options": ["grandmother", "grandfather", "mother", "father"],
+      "hint": {
+        "translation": "бабушка",
+        "explanation": "Знакомим друга со своей семьёй. Здесь «grandmother» — «бабушка».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my grandfather."
+      }
+    },
+    {
+      "id": "family-study-grandfather",
+      "type": "study",
+      "wordId": "grandfather",
+      "skillId": "grandfather",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "grandfather",
+      "options": ["grandfather", "mother", "father", "sister"],
+      "hint": {
+        "translation": "дедушка",
+        "explanation": "Знакомим друга со своей семьёй. Здесь «grandfather» — «дедушка».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my mother."
+      }
+    },
+    {
+      "id": "family-picture-mother",
+      "type": "picture",
+      "wordId": "mother",
+      "skillId": "mother",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "mother",
+      "options": ["mother", "father", "sister", "brother"],
+      "hint": {
+        "translation": "мама",
+        "explanation": "Знакомим друга со своей семьёй. Здесь «mother» — «мама».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my father."
+      }
+    },
+    {
+      "id": "family-picture-father",
+      "type": "picture",
+      "wordId": "father",
+      "skillId": "father",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "father",
+      "options": ["father", "sister", "brother", "grandmother"],
+      "hint": {
+        "translation": "папа",
+        "explanation": "Знакомим друга со своей семьёй. Здесь «father» — «папа».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my sister."
+      }
+    },
+    {
+      "id": "family-picture-sister",
+      "type": "picture",
+      "wordId": "sister",
+      "skillId": "sister",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "sister",
+      "options": ["sister", "brother", "grandmother", "grandfather"],
+      "hint": {
+        "translation": "сестра",
+        "explanation": "Знакомим друга со своей семьёй. Здесь «sister» — «сестра».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my brother."
+      }
+    },
+    {
+      "id": "family-picture-brother",
+      "type": "picture",
+      "wordId": "brother",
+      "skillId": "brother",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "brother",
+      "options": ["brother", "grandmother", "grandfather", "mother"],
+      "hint": {
+        "translation": "брат",
+        "explanation": "Знакомим друга со своей семьёй. Здесь «brother» — «брат».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my grandmother."
+      }
+    },
+    {
+      "id": "family-picture-grandmother",
+      "type": "picture",
+      "wordId": "grandmother",
+      "skillId": "grandmother",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "grandmother",
+      "options": ["grandmother", "grandfather", "mother", "father"],
+      "hint": {
+        "translation": "бабушка",
+        "explanation": "Знакомим друга со своей семьёй. Здесь «grandmother» — «бабушка».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my grandfather."
+      }
+    },
+    {
+      "id": "family-picture-grandfather",
+      "type": "picture",
+      "wordId": "grandfather",
+      "skillId": "grandfather",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "grandfather",
+      "options": ["grandfather", "mother", "father", "sister"],
+      "hint": {
+        "translation": "дедушка",
+        "explanation": "Знакомим друга со своей семьёй. Здесь «grandfather» — «дедушка».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my mother."
+      }
+    },
+    {
+      "id": "family-word-mother",
+      "type": "word",
+      "wordId": "mother",
+      "skillId": "mother",
+      "prompt": "Как это называется по-английски?",
+      "answer": "mother",
+      "options": ["mother", "father", "sister", "brother"],
+      "hint": {
+        "translation": "мама",
+        "explanation": "Знакомим друга со своей семьёй. Здесь «mother» — «мама».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my father."
+      }
+    },
+    {
+      "id": "family-word-father",
+      "type": "word",
+      "wordId": "father",
+      "skillId": "father",
+      "prompt": "Как это называется по-английски?",
+      "answer": "father",
+      "options": ["father", "sister", "brother", "grandmother"],
+      "hint": {
+        "translation": "папа",
+        "explanation": "Знакомим друга со своей семьёй. Здесь «father» — «папа».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my sister."
+      }
+    },
+    {
+      "id": "family-word-sister",
+      "type": "word",
+      "wordId": "sister",
+      "skillId": "sister",
+      "prompt": "Как это называется по-английски?",
+      "answer": "sister",
+      "options": ["sister", "brother", "grandmother", "grandfather"],
+      "hint": {
+        "translation": "сестра",
+        "explanation": "Знакомим друга со своей семьёй. Здесь «sister» — «сестра».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my brother."
+      }
+    },
+    {
+      "id": "family-word-brother",
+      "type": "word",
+      "wordId": "brother",
+      "skillId": "brother",
+      "prompt": "Как это называется по-английски?",
+      "answer": "brother",
+      "options": ["brother", "grandmother", "grandfather", "mother"],
+      "hint": {
+        "translation": "брат",
+        "explanation": "Знакомим друга со своей семьёй. Здесь «brother» — «брат».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my grandmother."
+      }
+    },
+    {
+      "id": "family-word-grandmother",
+      "type": "word",
+      "wordId": "grandmother",
+      "skillId": "grandmother",
+      "prompt": "Как это называется по-английски?",
+      "answer": "grandmother",
+      "options": ["grandmother", "grandfather", "mother", "father"],
+      "hint": {
+        "translation": "бабушка",
+        "explanation": "Знакомим друга со своей семьёй. Здесь «grandmother» — «бабушка».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my grandfather."
+      }
+    },
+    {
+      "id": "family-word-grandfather",
+      "type": "word",
+      "wordId": "grandfather",
+      "skillId": "grandfather",
+      "prompt": "Как это называется по-английски?",
+      "answer": "grandfather",
+      "options": ["grandfather", "mother", "father", "sister"],
+      "hint": {
+        "translation": "дедушка",
+        "explanation": "Знакомим друга со своей семьёй. Здесь «grandfather» — «дедушка».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my mother."
+      }
+    },
+    {
+      "id": "family-letters-mother",
+      "type": "letters",
+      "wordId": "mother",
+      "skillId": "mother",
+      "prompt": "Собери слово из букв",
+      "answer": "mother",
+      "options": ["mother", "father", "sister", "brother"],
+      "hint": {
+        "translation": "мама",
+        "explanation": "Знакомим друга со своей семьёй. Здесь «mother» — «мама».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my father."
+      }
+    },
+    {
+      "id": "family-letters-father",
+      "type": "letters",
+      "wordId": "father",
+      "skillId": "father",
+      "prompt": "Собери слово из букв",
+      "answer": "father",
+      "options": ["father", "sister", "brother", "grandmother"],
+      "hint": {
+        "translation": "папа",
+        "explanation": "Знакомим друга со своей семьёй. Здесь «father» — «папа».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my sister."
+      }
+    },
+    {
+      "id": "family-letters-sister",
+      "type": "letters",
+      "wordId": "sister",
+      "skillId": "sister",
+      "prompt": "Собери слово из букв",
+      "answer": "sister",
+      "options": ["sister", "brother", "grandmother", "grandfather"],
+      "hint": {
+        "translation": "сестра",
+        "explanation": "Знакомим друга со своей семьёй. Здесь «sister» — «сестра».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my brother."
+      }
+    },
+    {
+      "id": "family-letters-brother",
+      "type": "letters",
+      "wordId": "brother",
+      "skillId": "brother",
+      "prompt": "Собери слово из букв",
+      "answer": "brother",
+      "options": ["brother", "grandmother", "grandfather", "mother"],
+      "hint": {
+        "translation": "брат",
+        "explanation": "Знакомим друга со своей семьёй. Здесь «brother» — «брат».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my grandmother."
+      }
+    },
+    {
+      "id": "family-letters-grandmother",
+      "type": "letters",
+      "wordId": "grandmother",
+      "skillId": "grandmother",
+      "prompt": "Собери слово из букв",
+      "answer": "grandmother",
+      "options": ["grandmother", "grandfather", "mother", "father"],
+      "hint": {
+        "translation": "бабушка",
+        "explanation": "Знакомим друга со своей семьёй. Здесь «grandmother» — «бабушка».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my grandfather."
+      }
+    },
+    {
+      "id": "family-letters-grandfather",
+      "type": "letters",
+      "wordId": "grandfather",
+      "skillId": "grandfather",
+      "prompt": "Собери слово из букв",
+      "answer": "grandfather",
+      "options": ["grandfather", "mother", "father", "sister"],
+      "hint": {
+        "translation": "дедушка",
+        "explanation": "Знакомим друга со своей семьёй. Здесь «grandfather» — «дедушка».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my mother."
+      }
+    },
+    {
+      "id": "family-sentence-1",
+      "type": "sentence",
+      "wordId": "mother",
+      "skillId": "family-my",
+      "prompt": "Собери предложение",
+      "answer": "This is my mother.",
+      "options": [],
+      "hint": {
+        "translation": "Это моя мама.",
+        "explanation": "My значит «мой» или «моя». Слово my не меняется: my mother — моя мама, my father — мой папа. This is помогает представить человека.",
+        "steps": [
+          "Прочитай русский смысл: Это моя мама.",
+          "Вспомни правило: My значит «мой» или «моя». Слово my не меняется: my mother — моя мама, my father — мой папа. This is помогает представить человека.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "This is my brother."
+      }
+    },
+    {
+      "id": "family-sentence-2",
+      "type": "sentence",
+      "wordId": "brother",
+      "skillId": "family-my",
+      "prompt": "Собери предложение",
+      "answer": "This is my brother.",
+      "options": [],
+      "hint": {
+        "translation": "Это мой брат.",
+        "explanation": "My значит «мой» или «моя». Слово my не меняется: my mother — моя мама, my father — мой папа. This is помогает представить человека.",
+        "steps": [
+          "Прочитай русский смысл: Это мой брат.",
+          "Вспомни правило: My значит «мой» или «моя». Слово my не меняется: my mother — моя мама, my father — мой папа. This is помогает представить человека.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "This is my grandmother."
+      }
+    },
+    {
+      "id": "family-sentence-3",
+      "type": "sentence",
+      "wordId": "grandmother",
+      "skillId": "family-my",
+      "prompt": "Собери предложение",
+      "answer": "This is my grandmother.",
+      "options": [],
+      "hint": {
+        "translation": "Это моя бабушка.",
+        "explanation": "My значит «мой» или «моя». Слово my не меняется: my mother — моя мама, my father — мой папа. This is помогает представить человека.",
+        "steps": [
+          "Прочитай русский смысл: Это моя бабушка.",
+          "Вспомни правило: My значит «мой» или «моя». Слово my не меняется: my mother — моя мама, my father — мой папа. This is помогает представить человека.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "This is my mother."
+      }
+    },
+    {
+      "id": "family-sentence-4",
+      "type": "sentence",
+      "wordId": "mother",
+      "skillId": "family-my",
+      "prompt": "Собери предложение",
+      "answer": "This is her mother.",
+      "options": [],
+      "hint": {
+        "translation": "Это её мама.",
+        "explanation": "My значит «мой» или «моя». Слово my не меняется: my mother — моя мама, my father — мой папа. This is помогает представить человека. His — «его», her — «её». Поставь их перед названием родственника.",
+        "steps": [
+          "Вспомни смысл: Это её мама.",
+          "Выбери начало по правилу: My значит «мой» или «моя». Слово my не меняется: my mother — моя мама, my father — мой папа. This is помогает представить человека. His — «его», her — «её». Поставь их перед названием родственника.",
+          "Проверь, что предмет и действие стоят на своих местах."
+        ],
+        "example": "This is my mother."
+      }
+    },
+    {
+      "id": "family-sentence-5",
+      "type": "sentence",
+      "wordId": "father",
+      "skillId": "family-my",
+      "prompt": "Собери предложение",
+      "answer": "This is his father.",
+      "options": [],
+      "hint": {
+        "translation": "Это его папа.",
+        "explanation": "My значит «мой» или «моя». Слово my не меняется: my mother — моя мама, my father — мой папа. This is помогает представить человека. His — «его», her — «её». Поставь их перед названием родственника.",
+        "steps": [
+          "Вспомни смысл: Это его папа.",
+          "Выбери начало по правилу: My значит «мой» или «моя». Слово my не меняется: my mother — моя мама, my father — мой папа. This is помогает представить человека. His — «его», her — «её». Поставь их перед названием родственника.",
+          "Проверь, что предмет и действие стоят на своих местах."
+        ],
+        "example": "This is my mother."
+      }
+    }
+  ]
+}

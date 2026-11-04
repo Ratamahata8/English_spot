@@ -1,0 +1,470 @@
+[
+  {
+    "id": "lex-this",
+    "en": "this",
+    "ru": "это",
+    "ipa": "/ðɪs/",
+    "explanation": "Указывает на один предмет рядом.",
+    "example": "This is my book.",
+    "image": ""
+  },
+  {
+    "id": "lex-is",
+    "en": "is",
+    "ru": "есть; является",
+    "ipa": "/ɪz/",
+    "explanation": "Связывает слова: в «This is my book» по-русски отдельно не переводится.",
+    "example": "This is my book.",
+    "image": ""
+  },
+  {
+    "id": "lex-my",
+    "en": "my",
+    "ru": "мой, моя, моё",
+    "ipa": "/maɪ/",
+    "explanation": "Говорим о своей вещи.",
+    "example": "This is my pencil.",
+    "image": ""
+  },
+  {
+    "id": "lex-your",
+    "en": "your",
+    "ru": "твой, твоя, твоё",
+    "ipa": "/jɔː/",
+    "explanation": "Говорим о вещи собеседника.",
+    "example": "This is your book.",
+    "image": ""
+  },
+  {
+    "id": "lex-whats",
+    "en": "what's",
+    "ru": "что; как",
+    "ipa": "/wɒts/",
+    "explanation": "Сокращение what is. В вопросе о предмете — «что», об имени — «как».",
+    "example": "What's this?",
+    "image": ""
+  },
+  {
+    "id": "lex-its",
+    "en": "it's",
+    "ru": "это",
+    "ipa": "/ɪts/",
+    "explanation": "Сокращение it is. Так можно начать ответ о предмете.",
+    "example": "It's a pen.",
+    "image": ""
+  },
+  {
+    "id": "lex-a",
+    "en": "a",
+    "ru": "один предмет",
+    "ipa": "/ə/",
+    "explanation": "Ставим перед названием одного предмета: a pen.",
+    "example": "It's a pen.",
+    "image": ""
+  },
+  {
+    "id": "lex-name",
+    "en": "name",
+    "ru": "имя",
+    "ipa": "/neɪm/",
+    "explanation": "Так тебя зовут.",
+    "example": "My name is Sam.",
+    "image": ""
+  },
+  {
+    "id": "lex-i",
+    "en": "I",
+    "ru": "я",
+    "ipa": "/aɪ/",
+    "explanation": "Говорим о себе.",
+    "example": "I",
+    "image": ""
+  },
+  {
+    "id": "lex-you",
+    "en": "you",
+    "ru": "ты; вы",
+    "ipa": "/juː/",
+    "explanation": "Обращаемся к собеседнику.",
+    "example": "you",
+    "image": ""
+  },
+  {
+    "id": "lex-he",
+    "en": "he",
+    "ru": "он",
+    "ipa": "/hiː/",
+    "explanation": "Говорим о мальчике или мужчине.",
+    "example": "he",
+    "image": ""
+  },
+  {
+    "id": "lex-she",
+    "en": "she",
+    "ru": "она",
+    "ipa": "/ʃiː/",
+    "explanation": "Говорим о девочке или женщине.",
+    "example": "she",
+    "image": ""
+  },
+  {
+    "id": "lex-it",
+    "en": "it",
+    "ru": "оно",
+    "ipa": "/ɪt/",
+    "explanation": "Говорим об одном предмете или животном.",
+    "example": "it",
+    "image": ""
+  },
+  {
+    "id": "lex-we",
+    "en": "we",
+    "ru": "мы",
+    "ipa": "/wiː/",
+    "explanation": "Говорим о себе и других вместе.",
+    "example": "we",
+    "image": ""
+  },
+  {
+    "id": "lex-they",
+    "en": "they",
+    "ru": "они",
+    "ipa": "/ðeɪ/",
+    "explanation": "Говорим о нескольких людях или вещах.",
+    "example": "they",
+    "image": ""
+  },
+  {
+    "id": "lex-his",
+    "en": "his",
+    "ru": "его",
+    "ipa": "/hɪz/",
+    "explanation": "Вещь принадлежит ему.",
+    "example": "his",
+    "image": ""
+  },
+  {
+    "id": "lex-her",
+    "en": "her",
+    "ru": "её",
+    "ipa": "/hɜː/",
+    "explanation": "Вещь принадлежит ей.",
+    "example": "her",
+    "image": ""
+  },
+  {
+    "id": "lex-an",
+    "en": "an",
+    "ru": "один предмет",
+    "ipa": "/ən/",
+    "explanation": "Перед гласным звуком используем an.",
+    "example": "an",
+    "image": ""
+  },
+  {
+    "id": "lex-sam",
+    "en": "Sam",
+    "ru": "Сэм",
+    "ipa": "/sæm/",
+    "explanation": "Имя мальчика.",
+    "example": "My name is Sam.",
+    "image": ""
+  },
+  {
+    "id": "lex-am",
+    "en": "am",
+    "ru": "есть; являюсь",
+    "ipa": "/æm/",
+    "explanation": "После I помогает назвать возраст или состояние.",
+    "example": "I am seven.",
+    "image": ""
+  },
+  {
+    "id": "lex-are",
+    "en": "are",
+    "ru": "есть; являются",
+    "ipa": "/ɑː/",
+    "explanation": "Связывает несколько предметов или людей с описанием.",
+    "example": "These are my chairs.",
+    "image": ""
+  },
+  {
+    "id": "lex-like",
+    "en": "like",
+    "ru": "нравится",
+    "ipa": "/laɪk/",
+    "explanation": "I like означает «мне нравится».",
+    "example": "like",
+    "image": ""
+  },
+  {
+    "id": "lex-likes",
+    "en": "likes",
+    "ru": "нравится ему или ей",
+    "ipa": "/laɪks/",
+    "explanation": "После he или she у like появляется окончание s.",
+    "example": "He likes jelly.",
+    "image": ""
+  },
+  {
+    "id": "lex-have",
+    "en": "have",
+    "ru": "иметь; есть у меня",
+    "ipa": "/hæv/",
+    "explanation": "I have означает «у меня есть».",
+    "example": "I have eleven books.",
+    "image": ""
+  },
+  {
+    "id": "lex-some",
+    "en": "some",
+    "ru": "немного; несколько",
+    "ipa": "/sʌm/",
+    "explanation": "О неопределённом количестве в утвердительном предложении.",
+    "example": "I have some rice.",
+    "image": ""
+  },
+  {
+    "id": "lex-any",
+    "en": "any",
+    "ru": "сколько-нибудь",
+    "ipa": "/ˈeni/",
+    "explanation": "Часто встречается в вопросах и отрицаниях; not any — «нисколько».",
+    "example": "I do not have any cake.",
+    "image": ""
+  },
+  {
+    "id": "lex-do",
+    "en": "do",
+    "ru": "вспомогательное слово",
+    "ipa": "/duː/",
+    "explanation": "В I do not like помогает построить отрицание.",
+    "example": "I do not like milk.",
+    "image": ""
+  },
+  {
+    "id": "lex-not",
+    "en": "not",
+    "ru": "не",
+    "ipa": "/nɒt/",
+    "explanation": "Помогает сказать, что что-то не так или отсутствует.",
+    "example": "I do not like milk.",
+    "image": ""
+  },
+  {
+    "id": "lex-was",
+    "en": "was",
+    "ru": "был; была",
+    "ipa": "/wɒz/",
+    "explanation": "В прошлом после I, he, she или it.",
+    "example": "I was happy.",
+    "image": ""
+  },
+  {
+    "id": "lex-were",
+    "en": "were",
+    "ru": "были; был",
+    "ipa": "/wɜː/",
+    "explanation": "В прошлом после you, we или they.",
+    "example": "They were noisy.",
+    "image": ""
+  },
+  {
+    "id": "lex-yesterday",
+    "en": "yesterday",
+    "ru": "вчера",
+    "ipa": "/ˈjestədeɪ/",
+    "explanation": "День перед сегодняшним.",
+    "example": "yesterday",
+    "image": ""
+  },
+  {
+    "id": "lex-that",
+    "en": "that",
+    "ru": "то; тот",
+    "ipa": "/ðæt/",
+    "explanation": "Один предмет, который находится дальше от тебя.",
+    "example": "that",
+    "image": ""
+  },
+  {
+    "id": "lex-these",
+    "en": "these",
+    "ru": "эти",
+    "ipa": "/ðiːz/",
+    "explanation": "Несколько предметов рядом с тобой.",
+    "example": "these",
+    "image": ""
+  },
+  {
+    "id": "lex-those",
+    "en": "those",
+    "ru": "те",
+    "ipa": "/ðəʊz/",
+    "explanation": "Несколько предметов вдалеке.",
+    "example": "those",
+    "image": ""
+  },
+  {
+    "id": "lex-the",
+    "en": "the",
+    "ru": "этот; известный предмет",
+    "ipa": "/ðə/",
+    "explanation": "Предмет уже знаком собеседнику; по-русски часто отдельно не переводится.",
+    "example": "The present is red.",
+    "image": ""
+  },
+  {
+    "id": "lex-tree",
+    "en": "tree",
+    "ru": "дерево; ёлка",
+    "ipa": "/triː/",
+    "explanation": "Растёт на улице; в праздничном примере — ёлка.",
+    "example": "tree",
+    "image": ""
+  },
+  {
+    "id": "lex-books",
+    "en": "books",
+    "ru": "книги",
+    "ipa": "/bʊks/",
+    "explanation": "Несколько книг: к book добавилось s.",
+    "example": "books",
+    "image": ""
+  },
+  {
+    "id": "lex-pens",
+    "en": "pens",
+    "ru": "ручки",
+    "ipa": "/penz/",
+    "explanation": "Несколько ручек.",
+    "example": "pens",
+    "image": ""
+  },
+  {
+    "id": "lex-pencils",
+    "en": "pencils",
+    "ru": "карандаши",
+    "ipa": "/ˈpensəlz/",
+    "explanation": "Несколько карандашей.",
+    "example": "pencils",
+    "image": ""
+  },
+  {
+    "id": "lex-chairs",
+    "en": "chairs",
+    "ru": "стулья",
+    "ipa": "/tʃeəz/",
+    "explanation": "Несколько стульев: с ними используем are.",
+    "example": "chairs",
+    "image": ""
+  },
+  {
+    "id": "lex-hello",
+    "en": "hello",
+    "ru": "привет",
+    "ipa": "/həˈləʊ/",
+    "explanation": "Приветствие при встрече.",
+    "example": "hello",
+    "image": ""
+  },
+  {
+    "id": "lex-play",
+    "en": "play",
+    "ru": "играть",
+    "ipa": "/pleɪ/",
+    "explanation": "Действие сейчас или вообще; в прошлом — played.",
+    "example": "I played yesterday.",
+    "image": ""
+  },
+  {
+    "id": "lex-white",
+    "en": "white",
+    "ru": "белый",
+    "ipa": "/waɪt/",
+    "explanation": "Цвет снега.",
+    "example": "The snow is white.",
+    "image": ""
+  },
+  {
+    "id": "lex-up",
+    "en": "up",
+    "ru": "вверх; встать",
+    "ipa": "/ʌp/",
+    "explanation": "В Stand up помогает сказать «встань».",
+    "example": "Stand up.",
+    "image": ""
+  },
+  {
+    "id": "lex-down",
+    "en": "down",
+    "ru": "вниз; сесть",
+    "ipa": "/daʊn/",
+    "explanation": "В Sit down помогает сказать «сядь».",
+    "example": "Sit down.",
+    "image": ""
+  },
+  {
+    "id": "lex-sams",
+    "en": "Sam's",
+    "ru": "Сэма",
+    "ipa": "/sæmz/",
+    "explanation": "Апостроф и s после имени означают, что вещь принадлежит этому человеку.",
+    "example": "It is Sam's train.",
+    "image": ""
+  },
+  {
+    "id": "lex-whose",
+    "en": "whose",
+    "ru": "чей",
+    "ipa": "/huːz/",
+    "explanation": "Спрашиваем, кому принадлежит предмет.",
+    "example": "Whose train is this?",
+    "image": ""
+  },
+  {
+    "id": "lex-does",
+    "en": "does",
+    "ru": "вспомогательное слово",
+    "ipa": "/dʌz/",
+    "explanation": "Помогает начать вопрос с he или she.",
+    "example": "Does he like milk?",
+    "image": ""
+  },
+  {
+    "id": "lex-eggs",
+    "en": "eggs",
+    "ru": "яйца",
+    "ipa": "/eɡz/",
+    "explanation": "Несколько предметов: множественное число.",
+    "example": "I like eggs.",
+    "image": ""
+  },
+  {
+    "id": "lex-potatoes",
+    "en": "potatoes",
+    "ru": "картофелины",
+    "ipa": "/pəˈteɪtəʊz/",
+    "explanation": "Несколько предметов: множественное число.",
+    "example": "I have some potatoes.",
+    "image": ""
+  },
+  {
+    "id": "lex-carrots",
+    "en": "carrots",
+    "ru": "морковки",
+    "ipa": "/ˈkærəts/",
+    "explanation": "Несколько предметов: множественное число.",
+    "example": "I have some carrots.",
+    "image": ""
+  },
+  {
+    "id": "lex-sausages",
+    "en": "sausages",
+    "ru": "сосиски",
+    "ipa": "/ˈsɒsɪdʒɪz/",
+    "explanation": "Несколько предметов: множественное число.",
+    "example": "I have some sausages.",
+    "image": ""
+  }
+]

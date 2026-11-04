@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
-import { Link, useSearchParams } from 'react-router-dom';
-import { lesson } from '../lessons';
+import { Link, useSearchParams, useParams } from 'react-router-dom';
+import { getLesson, lessons, lexicon } from '../lessons';
 import { useProgress } from '../stores/progress';
 import { completeExercise, dueWords, reviewExercise } from '../services/learning';
 import { HintToggle } from '../components/Hints';
@@ -8,21 +8,33 @@ import { stopAudio } from '../services/audio';
 import { ExerciseCard } from './ExerciseCard';
 export function Learning() {
   const { progress: p, update } = useProgress();
+  const lesson = getLesson(p.lessonId);
   const [params] = useSearchParams();
   const review = params.has('review');
-  const [reviewQueue] = useState(() => dueWords(p).map((w) => w.id));
+  const [reviewQueue] = useState(() =>
+    (params.has('errors')
+      ? lexicon.filter((w) => (p.stats[w.id]?.errors || 0) > 0)
+      : dueWords(p)
+    ).map((w) => w.id),
+  );
   const [reviewIndex, setReviewIndex] = useState(0);
   const base = lesson.exercises.find((e) => e.id === p.currentExerciseId);
   const word = reviewQueue[reviewIndex];
-  const e = review && word ? reviewExercise(word) : base;
+  const e = review ? (word ? reviewExercise(word) : undefined) : base;
   const finished = (review && reviewIndex >= reviewQueue.length) || (!review && !e);
   const active = !finished && !!e;
   const entered = useRef(false);
   useEffect(() => {
-    if (!active) return;
+    if (!active) {
+      entered.current = false;
+      return;
+    }
     if (!entered.current) {
       entered.current = true;
-      void update((v) => ({ ...v, sessions: v.sessions + 1, remedialCount: 0, remedialDone: [] }));
+      void update(
+        (v) => ({ ...v, sessions: v.sessions + 1, remedialCount: 0, remedialDone: [] }),
+        p.lessonId,
+      );
     }
     let last = Date.now();
     const flush = () => {
@@ -30,7 +42,7 @@ export function Learning() {
       const delta = Math.floor((now - last) / 1000);
       if (delta > 0) {
         last += delta * 1000;
-        void update((v) => ({ ...v, seconds: v.seconds + delta }));
+        void update((v) => ({ ...v, seconds: v.seconds + delta }), p.lessonId);
       }
     };
     const timer = setInterval(flush, 10000);
@@ -41,7 +53,7 @@ export function Learning() {
       stopAudio();
       flush();
     };
-  }, [active, update]);
+  }, [active, update, p.lessonId]);
   if (finished)
     return (
       <section className="finish panel">
@@ -52,8 +64,19 @@ export function Learning() {
             ? reviewQueue.length
               ? 'Ты ещё раз потренировал знакомые слова.'
               : 'Сейчас нет слов для повторения. Можно добавить их в словаре.'
-            : 'Ты познакомился с восемью словами и научился составлять предложения.'}
+            : `Ты потренировал слова и предложения урока «${lesson.title}». Пройдено раз: ${p.completedRuns ?? 1}.`}
         </p>
+        {!review && (
+          <button
+            className="button primary"
+            onClick={() => void useProgress.getState().selectLesson(p.lessonId, true)}
+          >
+            Пройти ещё раз →
+          </button>
+        )}
+        <Link className="button" to="/curriculum">
+          Выбрать другой урок
+        </Link>
         <Link className="button primary" to="/">
           На главную
         </Link>
@@ -71,7 +94,7 @@ export function Learning() {
         <Link to="/curriculum" className="quiet">
           ← К урокам
         </Link>
-        <span>{review ? 'Повторение слов' : 'School Again!'}</span>
+        <span>{review ? 'Повторение слов' : lesson.title}</span>
         <HintToggle />
       </div>
       <div className="progress-line">
@@ -94,4 +117,22 @@ export function Learning() {
       />
     </div>
   );
+}
+
+export function LessonRoute() {
+  const { lessonId } = useParams();
+  const { progress, selectLesson } = useProgress();
+  const valid = lessons.some((l) => l.id === lessonId);
+  useEffect(() => {
+    if (valid && lessonId && progress.lessonId !== lessonId) void selectLesson(lessonId);
+  }, [lessonId, progress.lessonId, selectLesson, valid]);
+  if (!valid)
+    return (
+      <section className="panel padding">
+        <h1>Такого урока нет</h1>
+        <Link to="/curriculum">К программе</Link>
+      </section>
+    );
+  if (progress.lessonId !== lessonId) return <p>Открываем урок…</p>;
+  return <Learning key={lessonId} />;
 }

@@ -1,0 +1,771 @@
+{
+  "id": "subjects",
+  "title": "School Subjects",
+  "subtitle": "Spotlight 3 · Unit 2 · школьные предметы",
+  "module": "Модуль 1 · Школа",
+  "description": "Рассказываем о любимых школьных предметах.",
+  "source": "Unit 2 · школьные предметы",
+  "coverWordId": "art",
+  "vocabulary": [
+    {
+      "id": "art",
+      "en": "Art",
+      "ru": "рисование",
+      "ipa": "/ɑːt/",
+      "explanation": "Рассказываем о любимых школьных предметах. Здесь «Art» — «рисование».",
+      "example": "I like Art.",
+      "image": "illustrations/art.svg"
+    },
+    {
+      "id": "maths",
+      "en": "Maths",
+      "ru": "математика",
+      "ipa": "/mæθs/",
+      "explanation": "Рассказываем о любимых школьных предметах. Здесь «Maths» — «математика».",
+      "example": "I like Maths.",
+      "image": "illustrations/maths.svg"
+    },
+    {
+      "id": "music",
+      "en": "Music",
+      "ru": "музыка",
+      "ipa": "/ˈmjuːzɪk/",
+      "explanation": "Рассказываем о любимых школьных предметах. Здесь «Music» — «музыка».",
+      "example": "I like Music.",
+      "image": "illustrations/music.svg"
+    },
+    {
+      "id": "science",
+      "en": "Science",
+      "ru": "естествознание",
+      "ipa": "/ˈsaɪəns/",
+      "explanation": "Рассказываем о любимых школьных предметах. Здесь «Science» — «естествознание».",
+      "example": "I like Science.",
+      "image": "illustrations/science.svg"
+    },
+    {
+      "id": "history",
+      "en": "History",
+      "ru": "история",
+      "ipa": "/ˈhɪstəri/",
+      "explanation": "Рассказываем о любимых школьных предметах. Здесь «History» — «история».",
+      "example": "I like History.",
+      "image": "illustrations/history.svg"
+    },
+    {
+      "id": "geography",
+      "en": "Geography",
+      "ru": "география",
+      "ipa": "/dʒiˈɒɡrəfi/",
+      "explanation": "Рассказываем о любимых школьных предметах. Здесь «Geography» — «география».",
+      "example": "I like Geography.",
+      "image": "illustrations/geography.svg"
+    },
+    {
+      "id": "english",
+      "en": "English",
+      "ru": "английский язык",
+      "ipa": "/ˈɪŋɡlɪʃ/",
+      "explanation": "Рассказываем о любимых школьных предметах. Здесь «English» — «английский язык».",
+      "example": "I like English.",
+      "image": "illustrations/english.svg"
+    },
+    {
+      "id": "pe",
+      "en": "PE",
+      "ru": "физкультура",
+      "ipa": "/ˌpiː ˈiː/",
+      "explanation": "Рассказываем о любимых школьных предметах. Здесь «PE» — «физкультура».",
+      "example": "I like PE.",
+      "image": "illustrations/pe.svg"
+    }
+  ],
+  "lexicon": [],
+  "grammar": [
+    {
+      "id": "like",
+      "title": "Говорим о том, что нравится",
+      "text": "I like — «мне нравится». После like назови школьный предмет. У слова I всегда большая буква.",
+      "examples": ["I like Music.", "I like Maths.", "I like Art."]
+    }
+  ],
+  "remedial": [
+    {
+      "id": "like",
+      "title": "Говорим о том, что нравится",
+      "available": true,
+      "explanation": "I like — «мне нравится». После like назови школьный предмет. У слова I всегда большая буква.",
+      "example": "I like Art.",
+      "question": "Какие слова означают «мне нравится»?",
+      "answer": "I like",
+      "options": ["I like", "I have"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "subjects-study-art",
+      "type": "study",
+      "wordId": "art",
+      "skillId": "art",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "Art",
+      "options": ["art", "maths", "music", "science"],
+      "hint": {
+        "translation": "рисование",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «Art» — «рисование».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like Maths."
+      }
+    },
+    {
+      "id": "subjects-study-maths",
+      "type": "study",
+      "wordId": "maths",
+      "skillId": "maths",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "Maths",
+      "options": ["maths", "music", "science", "history"],
+      "hint": {
+        "translation": "математика",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «Maths» — «математика».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like Music."
+      }
+    },
+    {
+      "id": "subjects-study-music",
+      "type": "study",
+      "wordId": "music",
+      "skillId": "music",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "Music",
+      "options": ["music", "science", "history", "geography"],
+      "hint": {
+        "translation": "музыка",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «Music» — «музыка».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like Science."
+      }
+    },
+    {
+      "id": "subjects-study-science",
+      "type": "study",
+      "wordId": "science",
+      "skillId": "science",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "Science",
+      "options": ["science", "history", "geography", "english"],
+      "hint": {
+        "translation": "естествознание",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «Science» — «естествознание».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like History."
+      }
+    },
+    {
+      "id": "subjects-study-history",
+      "type": "study",
+      "wordId": "history",
+      "skillId": "history",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "History",
+      "options": ["history", "geography", "english", "pe"],
+      "hint": {
+        "translation": "история",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «History» — «история».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like Geography."
+      }
+    },
+    {
+      "id": "subjects-study-geography",
+      "type": "study",
+      "wordId": "geography",
+      "skillId": "geography",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "Geography",
+      "options": ["geography", "english", "pe", "art"],
+      "hint": {
+        "translation": "география",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «Geography» — «география».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like English."
+      }
+    },
+    {
+      "id": "subjects-study-english",
+      "type": "study",
+      "wordId": "english",
+      "skillId": "english",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "English",
+      "options": ["english", "pe", "art", "maths"],
+      "hint": {
+        "translation": "английский язык",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «English» — «английский язык».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like PE."
+      }
+    },
+    {
+      "id": "subjects-study-pe",
+      "type": "study",
+      "wordId": "pe",
+      "skillId": "pe",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "PE",
+      "options": ["pe", "art", "maths", "music"],
+      "hint": {
+        "translation": "физкультура",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «PE» — «физкультура».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like Art."
+      }
+    },
+    {
+      "id": "subjects-picture-art",
+      "type": "picture",
+      "wordId": "art",
+      "skillId": "art",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "Art",
+      "options": ["art", "maths", "music", "science"],
+      "hint": {
+        "translation": "рисование",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «Art» — «рисование».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like Maths."
+      }
+    },
+    {
+      "id": "subjects-picture-maths",
+      "type": "picture",
+      "wordId": "maths",
+      "skillId": "maths",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "Maths",
+      "options": ["maths", "music", "science", "history"],
+      "hint": {
+        "translation": "математика",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «Maths» — «математика».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like Music."
+      }
+    },
+    {
+      "id": "subjects-picture-music",
+      "type": "picture",
+      "wordId": "music",
+      "skillId": "music",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "Music",
+      "options": ["music", "science", "history", "geography"],
+      "hint": {
+        "translation": "музыка",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «Music» — «музыка».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like Science."
+      }
+    },
+    {
+      "id": "subjects-picture-science",
+      "type": "picture",
+      "wordId": "science",
+      "skillId": "science",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "Science",
+      "options": ["science", "history", "geography", "english"],
+      "hint": {
+        "translation": "естествознание",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «Science» — «естествознание».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like History."
+      }
+    },
+    {
+      "id": "subjects-picture-history",
+      "type": "picture",
+      "wordId": "history",
+      "skillId": "history",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "History",
+      "options": ["history", "geography", "english", "pe"],
+      "hint": {
+        "translation": "история",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «History» — «история».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like Geography."
+      }
+    },
+    {
+      "id": "subjects-picture-geography",
+      "type": "picture",
+      "wordId": "geography",
+      "skillId": "geography",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "Geography",
+      "options": ["geography", "english", "pe", "art"],
+      "hint": {
+        "translation": "география",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «Geography» — «география».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like English."
+      }
+    },
+    {
+      "id": "subjects-picture-english",
+      "type": "picture",
+      "wordId": "english",
+      "skillId": "english",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "English",
+      "options": ["english", "pe", "art", "maths"],
+      "hint": {
+        "translation": "английский язык",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «English» — «английский язык».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like PE."
+      }
+    },
+    {
+      "id": "subjects-picture-pe",
+      "type": "picture",
+      "wordId": "pe",
+      "skillId": "pe",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "PE",
+      "options": ["pe", "art", "maths", "music"],
+      "hint": {
+        "translation": "физкультура",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «PE» — «физкультура».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like Art."
+      }
+    },
+    {
+      "id": "subjects-word-art",
+      "type": "word",
+      "wordId": "art",
+      "skillId": "art",
+      "prompt": "Как это называется по-английски?",
+      "answer": "Art",
+      "options": ["art", "maths", "music", "science"],
+      "hint": {
+        "translation": "рисование",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «Art» — «рисование».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like Maths."
+      }
+    },
+    {
+      "id": "subjects-word-maths",
+      "type": "word",
+      "wordId": "maths",
+      "skillId": "maths",
+      "prompt": "Как это называется по-английски?",
+      "answer": "Maths",
+      "options": ["maths", "music", "science", "history"],
+      "hint": {
+        "translation": "математика",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «Maths» — «математика».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like Music."
+      }
+    },
+    {
+      "id": "subjects-word-music",
+      "type": "word",
+      "wordId": "music",
+      "skillId": "music",
+      "prompt": "Как это называется по-английски?",
+      "answer": "Music",
+      "options": ["music", "science", "history", "geography"],
+      "hint": {
+        "translation": "музыка",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «Music» — «музыка».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like Science."
+      }
+    },
+    {
+      "id": "subjects-word-science",
+      "type": "word",
+      "wordId": "science",
+      "skillId": "science",
+      "prompt": "Как это называется по-английски?",
+      "answer": "Science",
+      "options": ["science", "history", "geography", "english"],
+      "hint": {
+        "translation": "естествознание",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «Science» — «естествознание».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like History."
+      }
+    },
+    {
+      "id": "subjects-word-history",
+      "type": "word",
+      "wordId": "history",
+      "skillId": "history",
+      "prompt": "Как это называется по-английски?",
+      "answer": "History",
+      "options": ["history", "geography", "english", "pe"],
+      "hint": {
+        "translation": "история",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «History» — «история».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like Geography."
+      }
+    },
+    {
+      "id": "subjects-word-geography",
+      "type": "word",
+      "wordId": "geography",
+      "skillId": "geography",
+      "prompt": "Как это называется по-английски?",
+      "answer": "Geography",
+      "options": ["geography", "english", "pe", "art"],
+      "hint": {
+        "translation": "география",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «Geography» — «география».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like English."
+      }
+    },
+    {
+      "id": "subjects-word-english",
+      "type": "word",
+      "wordId": "english",
+      "skillId": "english",
+      "prompt": "Как это называется по-английски?",
+      "answer": "English",
+      "options": ["english", "pe", "art", "maths"],
+      "hint": {
+        "translation": "английский язык",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «English» — «английский язык».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like PE."
+      }
+    },
+    {
+      "id": "subjects-word-pe",
+      "type": "word",
+      "wordId": "pe",
+      "skillId": "pe",
+      "prompt": "Как это называется по-английски?",
+      "answer": "PE",
+      "options": ["pe", "art", "maths", "music"],
+      "hint": {
+        "translation": "физкультура",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «PE» — «физкультура».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like Art."
+      }
+    },
+    {
+      "id": "subjects-letters-art",
+      "type": "letters",
+      "wordId": "art",
+      "skillId": "art",
+      "prompt": "Собери слово из букв",
+      "answer": "Art",
+      "options": ["art", "maths", "music", "science"],
+      "hint": {
+        "translation": "рисование",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «Art» — «рисование».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like Maths."
+      }
+    },
+    {
+      "id": "subjects-letters-maths",
+      "type": "letters",
+      "wordId": "maths",
+      "skillId": "maths",
+      "prompt": "Собери слово из букв",
+      "answer": "Maths",
+      "options": ["maths", "music", "science", "history"],
+      "hint": {
+        "translation": "математика",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «Maths» — «математика».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like Music."
+      }
+    },
+    {
+      "id": "subjects-letters-music",
+      "type": "letters",
+      "wordId": "music",
+      "skillId": "music",
+      "prompt": "Собери слово из букв",
+      "answer": "Music",
+      "options": ["music", "science", "history", "geography"],
+      "hint": {
+        "translation": "музыка",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «Music» — «музыка».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like Science."
+      }
+    },
+    {
+      "id": "subjects-letters-science",
+      "type": "letters",
+      "wordId": "science",
+      "skillId": "science",
+      "prompt": "Собери слово из букв",
+      "answer": "Science",
+      "options": ["science", "history", "geography", "english"],
+      "hint": {
+        "translation": "естествознание",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «Science» — «естествознание».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like History."
+      }
+    },
+    {
+      "id": "subjects-letters-history",
+      "type": "letters",
+      "wordId": "history",
+      "skillId": "history",
+      "prompt": "Собери слово из букв",
+      "answer": "History",
+      "options": ["history", "geography", "english", "pe"],
+      "hint": {
+        "translation": "история",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «History» — «история».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like Geography."
+      }
+    },
+    {
+      "id": "subjects-letters-geography",
+      "type": "letters",
+      "wordId": "geography",
+      "skillId": "geography",
+      "prompt": "Собери слово из букв",
+      "answer": "Geography",
+      "options": ["geography", "english", "pe", "art"],
+      "hint": {
+        "translation": "география",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «Geography» — «география».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like English."
+      }
+    },
+    {
+      "id": "subjects-letters-english",
+      "type": "letters",
+      "wordId": "english",
+      "skillId": "english",
+      "prompt": "Собери слово из букв",
+      "answer": "English",
+      "options": ["english", "pe", "art", "maths"],
+      "hint": {
+        "translation": "английский язык",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «English» — «английский язык».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like PE."
+      }
+    },
+    {
+      "id": "subjects-letters-pe",
+      "type": "letters",
+      "wordId": "pe",
+      "skillId": "pe",
+      "prompt": "Собери слово из букв",
+      "answer": "PE",
+      "options": ["pe", "art", "maths", "music"],
+      "hint": {
+        "translation": "физкультура",
+        "explanation": "Рассказываем о любимых школьных предметах. Здесь «PE» — «физкультура».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like Art."
+      }
+    },
+    {
+      "id": "subjects-sentence-1",
+      "type": "sentence",
+      "wordId": "music",
+      "skillId": "like",
+      "prompt": "Собери предложение",
+      "answer": "I like Music.",
+      "options": [],
+      "hint": {
+        "translation": "Мне нравится музыка.",
+        "explanation": "I like — «мне нравится». После like назови школьный предмет. У слова I всегда большая буква.",
+        "steps": [
+          "Прочитай русский смысл: Мне нравится музыка.",
+          "Вспомни правило: I like — «мне нравится». После like назови школьный предмет. У слова I всегда большая буква.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "I like Maths."
+      }
+    },
+    {
+      "id": "subjects-sentence-2",
+      "type": "sentence",
+      "wordId": "maths",
+      "skillId": "like",
+      "prompt": "Собери предложение",
+      "answer": "I like Maths.",
+      "options": [],
+      "hint": {
+        "translation": "Мне нравится математика.",
+        "explanation": "I like — «мне нравится». После like назови школьный предмет. У слова I всегда большая буква.",
+        "steps": [
+          "Прочитай русский смысл: Мне нравится математика.",
+          "Вспомни правило: I like — «мне нравится». После like назови школьный предмет. У слова I всегда большая буква.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "I like Art."
+      }
+    },
+    {
+      "id": "subjects-sentence-3",
+      "type": "sentence",
+      "wordId": "art",
+      "skillId": "like",
+      "prompt": "Собери предложение",
+      "answer": "I like Art.",
+      "options": [],
+      "hint": {
+        "translation": "Мне нравится рисование.",
+        "explanation": "I like — «мне нравится». После like назови школьный предмет. У слова I всегда большая буква.",
+        "steps": [
+          "Прочитай русский смысл: Мне нравится рисование.",
+          "Вспомни правило: I like — «мне нравится». После like назови школьный предмет. У слова I всегда большая буква.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "I like Music."
+      }
+    }
+  ]
+}

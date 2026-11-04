@@ -1,19 +1,29 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { words, lexicon } from '../lessons';
+import { words, lexicon, lessons } from '../lessons';
 import { useProgress } from '../stores/progress';
-import { mastered } from '../services/learning';
+import { summarize } from '../services/learning';
 import { PageHeading } from '../components/PageHeading';
 export function Parent() {
-  const { progress: p, update, reset, importData } = useProgress();
+  const {
+    progress: p,
+    records,
+    update,
+    reset,
+    importData,
+    exportData: buildExport,
+  } = useProgress();
   const [message, setMessage] = useState('');
+  const summary = summarize(records);
   const difficult = lexicon.filter(
-    (w) => p.reviewIds.includes(w.id) || (p.stats[w.id]?.errors || 0) > 1,
+    (w) =>
+      Object.values(records).some((v) => v.reviewIds.includes(w.id)) ||
+      (summary.stats[w.id]?.errors || 0) > 1,
   );
-  const count = words.filter((w) => mastered(p.stats[w.id])).length;
+  const count = summary.learned;
   function exportData() {
     const url = URL.createObjectURL(
-      new Blob([JSON.stringify(p, null, 2)], { type: 'application/json' }),
+      new Blob([JSON.stringify(buildExport(), null, 2)], { type: 'application/json' }),
     );
     const a = document.createElement('a');
     a.href = url;
@@ -26,14 +36,14 @@ export function Parent() {
       <PageHeading
         eyebrow="Рядом с ребёнком"
         title="Родительский кабинет"
-        description="Прогресс сохраняется только в этом браузере. Аккаунт не нужен."
+        description="Прогресс хранится в IndexedDB этого браузера. Это не обычный кеш: закрытие вкладки его не удаляет. Экспортируйте резервную копию перед очисткой данных сайта."
       />
       <div className="parent-stats">
         {[
-          [p.sessions, 'занятий'],
-          [Math.round(p.seconds / 60), 'минут обучения'],
-          [`${count} / 8`, 'слов освоено'],
-          [p.hintCount, 'обращений к помощи'],
+          [summary.sessions, 'занятий'],
+          [Math.round(summary.seconds / 60), 'минут обучения'],
+          [`${count} / ${words.length}`, 'слов освоено'],
+          [summary.hintCount, 'обращений к помощи'],
         ].map(([v, l]) => (
           <div className="panel" key={l}>
             <strong>{v}</strong>
@@ -50,11 +60,20 @@ export function Parent() {
               <div className="chips">
                 {difficult.map((w) => (
                   <span className="pill" key={w.id}>
-                    {w.en} · {p.stats[w.id]?.errors || 0} ошибок
+                    {w.en} · {summary.stats[w.id]?.errors || 0} ошибок
                   </span>
                 ))}
               </div>
-              <Link className="button primary" to="/learn?review=1">
+              <Link
+                className="button primary"
+                to={
+                  '/learn/' +
+                  (Object.values(records).find(
+                    (v) => v.reviewIds.length || Object.values(v.stats).some((s) => s.errors > 1),
+                  )?.lessonId || p.lessonId) +
+                  '?review=1&errors=1'
+                }
+              >
                 Повторить ошибки →
               </Link>
             </>
@@ -62,10 +81,10 @@ export function Parent() {
             <p>Пока нет сложных слов. После первых ответов здесь появятся рекомендации.</p>
           )}
           <h3>Ошибки по темам</h3>
-          {['this-is', 'my-your'].map((id) => (
+          {[...new Set(lessons.flatMap((l) => l.grammar.map((g) => g.id)))].map((id) => (
             <p key={id}>
-              {id === 'this-is' ? 'Порядок This is…' : 'Принадлежность my / your'}:{' '}
-              {p.stats[id]?.errors || 0}
+              {lessons.flatMap((l) => l.grammar).find((g) => g.id === id)?.title || id}:{' '}
+              {summary.stats[id]?.errors || 0}
             </p>
           ))}
           <p className="muted">
@@ -147,19 +166,24 @@ export function Parent() {
       <section className="panel padding spaced">
         <h2>Как устроена помощь</h2>
         <p>
+          Пройдено тем: {summary.completed} из {lessons.length}. Завершённых прохождений, включая
+          повторные: {summary.runs}.
+        </p>
+        <p>
           После повторных ошибок в предложении приложение предлагает короткий мини-урок. Не больше
           двух за одно занятие; можно вернуться к заданию сразу. Подсказки не штрафуют ребёнка.
         </p>
         <p>
-          Всего попыток: {words.reduce((n, w) => n + (p.stats[w.id]?.attempts || 0), 0)}. Ошибок в
-          словах: {words.reduce((n, w) => n + (p.stats[w.id]?.errors || 0), 0)}. Доля обращений к
-          помощи:{' '}
-          {p.hintCount
+          Всего попыток: {words.reduce((n, w) => n + (summary.stats[w.id]?.attempts || 0), 0)}.
+          Ошибок в словах: {words.reduce((n, w) => n + (summary.stats[w.id]?.errors || 0), 0)}. Доля
+          обращений к помощи:{' '}
+          {summary.hintCount
             ? Math.round(
-                (p.hintCount /
+                (summary.hintCount /
                   Math.max(
                     1,
-                    p.hintCount + words.reduce((n, w) => n + (p.stats[w.id]?.attempts || 0), 0),
+                    summary.hintCount +
+                      words.reduce((n, w) => n + (summary.stats[w.id]?.attempts || 0), 0),
                   )) *
                   100,
               )

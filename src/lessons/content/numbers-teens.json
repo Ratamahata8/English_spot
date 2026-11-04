@@ -1,0 +1,941 @@
+{
+  "id": "numbers-teens",
+  "title": "Numbers: 11–20",
+  "subtitle": "Spotlight 3 · Unit 1 · числа",
+  "module": "Модуль 1 · Школа",
+  "description": "Учимся слышать и писать числа до двадцати.",
+  "source": "Unit 1 · числа",
+  "coverWordId": "eleven",
+  "vocabulary": [
+    {
+      "id": "eleven",
+      "en": "eleven",
+      "ru": "одиннадцать",
+      "ipa": "/ɪˈlevən/",
+      "explanation": "Учимся слышать и писать числа до двадцати. Здесь «eleven» — «одиннадцать».",
+      "example": "I have eleven books.",
+      "image": "illustrations/eleven.svg"
+    },
+    {
+      "id": "twelve",
+      "en": "twelve",
+      "ru": "двенадцать",
+      "ipa": "/twelv/",
+      "explanation": "Учимся слышать и писать числа до двадцати. Здесь «twelve» — «двенадцать».",
+      "example": "I have twelve pens.",
+      "image": "illustrations/twelve.svg"
+    },
+    {
+      "id": "thirteen",
+      "en": "thirteen",
+      "ru": "тринадцать",
+      "ipa": "/ˌθɜːˈtiːn/",
+      "explanation": "Учимся слышать и писать числа до двадцати. Здесь «thirteen» — «тринадцать».",
+      "example": "I have thirteen books.",
+      "image": "illustrations/thirteen.svg"
+    },
+    {
+      "id": "fourteen",
+      "en": "fourteen",
+      "ru": "четырнадцать",
+      "ipa": "/ˌfɔːˈtiːn/",
+      "explanation": "Учимся слышать и писать числа до двадцати. Здесь «fourteen» — «четырнадцать».",
+      "example": "I have fourteen books.",
+      "image": "illustrations/fourteen.svg"
+    },
+    {
+      "id": "fifteen",
+      "en": "fifteen",
+      "ru": "пятнадцать",
+      "ipa": "/ˌfɪfˈtiːn/",
+      "explanation": "Учимся слышать и писать числа до двадцати. Здесь «fifteen» — «пятнадцать».",
+      "example": "I have fifteen books.",
+      "image": "illustrations/fifteen.svg"
+    },
+    {
+      "id": "sixteen",
+      "en": "sixteen",
+      "ru": "шестнадцать",
+      "ipa": "/ˌsɪksˈtiːn/",
+      "explanation": "Учимся слышать и писать числа до двадцати. Здесь «sixteen» — «шестнадцать».",
+      "example": "I have sixteen books.",
+      "image": "illustrations/sixteen.svg"
+    },
+    {
+      "id": "seventeen",
+      "en": "seventeen",
+      "ru": "семнадцать",
+      "ipa": "/ˌsevənˈtiːn/",
+      "explanation": "Учимся слышать и писать числа до двадцати. Здесь «seventeen» — «семнадцать».",
+      "example": "I have seventeen books.",
+      "image": "illustrations/seventeen.svg"
+    },
+    {
+      "id": "eighteen",
+      "en": "eighteen",
+      "ru": "восемнадцать",
+      "ipa": "/ˌeɪˈtiːn/",
+      "explanation": "Учимся слышать и писать числа до двадцати. Здесь «eighteen» — «восемнадцать».",
+      "example": "I have eighteen books.",
+      "image": "illustrations/eighteen.svg"
+    },
+    {
+      "id": "nineteen",
+      "en": "nineteen",
+      "ru": "девятнадцать",
+      "ipa": "/ˌnaɪnˈtiːn/",
+      "explanation": "Учимся слышать и писать числа до двадцати. Здесь «nineteen» — «девятнадцать».",
+      "example": "I have nineteen books.",
+      "image": "illustrations/nineteen.svg"
+    },
+    {
+      "id": "twenty",
+      "en": "twenty",
+      "ru": "двадцать",
+      "ipa": "/ˈtwenti/",
+      "explanation": "Учимся слышать и писать числа до двадцати. Здесь «twenty» — «двадцать».",
+      "example": "I have twenty pencils.",
+      "image": "illustrations/twenty.svg"
+    }
+  ],
+  "lexicon": [],
+  "grammar": [
+    {
+      "id": "have",
+      "title": "Говорим, сколько у нас вещей",
+      "text": "I have — «у меня есть». После числа больше одного предмет называем во множественном числе: books — книги. Сначала I have, затем число и предмет.",
+      "examples": ["I have eleven books.", "I have twelve pens.", "I have twenty pencils."]
+    }
+  ],
+  "remedial": [
+    {
+      "id": "have",
+      "title": "Говорим, сколько у нас вещей",
+      "available": true,
+      "explanation": "I have — «у меня есть». После числа больше одного предмет называем во множественном числе: books — книги. Сначала I have, затем число и предмет.",
+      "example": "I have twenty pencils.",
+      "question": "Что означает I have?",
+      "answer": "у меня есть",
+      "options": ["у меня есть", "мне нравится"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "numbers-teens-study-eleven",
+      "type": "study",
+      "wordId": "eleven",
+      "skillId": "eleven",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "eleven",
+      "options": ["eleven", "twelve", "thirteen", "fourteen"],
+      "hint": {
+        "translation": "одиннадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «eleven» — «одиннадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have twelve pens."
+      }
+    },
+    {
+      "id": "numbers-teens-study-twelve",
+      "type": "study",
+      "wordId": "twelve",
+      "skillId": "twelve",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "twelve",
+      "options": ["twelve", "thirteen", "fourteen", "fifteen"],
+      "hint": {
+        "translation": "двенадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «twelve» — «двенадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have thirteen books."
+      }
+    },
+    {
+      "id": "numbers-teens-study-thirteen",
+      "type": "study",
+      "wordId": "thirteen",
+      "skillId": "thirteen",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "thirteen",
+      "options": ["thirteen", "fourteen", "fifteen", "sixteen"],
+      "hint": {
+        "translation": "тринадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «thirteen» — «тринадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have fourteen books."
+      }
+    },
+    {
+      "id": "numbers-teens-study-fourteen",
+      "type": "study",
+      "wordId": "fourteen",
+      "skillId": "fourteen",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "fourteen",
+      "options": ["fourteen", "fifteen", "sixteen", "seventeen"],
+      "hint": {
+        "translation": "четырнадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «fourteen» — «четырнадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have fifteen books."
+      }
+    },
+    {
+      "id": "numbers-teens-study-fifteen",
+      "type": "study",
+      "wordId": "fifteen",
+      "skillId": "fifteen",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "fifteen",
+      "options": ["fifteen", "sixteen", "seventeen", "eighteen"],
+      "hint": {
+        "translation": "пятнадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «fifteen» — «пятнадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have sixteen books."
+      }
+    },
+    {
+      "id": "numbers-teens-study-sixteen",
+      "type": "study",
+      "wordId": "sixteen",
+      "skillId": "sixteen",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "sixteen",
+      "options": ["sixteen", "seventeen", "eighteen", "nineteen"],
+      "hint": {
+        "translation": "шестнадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «sixteen» — «шестнадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have seventeen books."
+      }
+    },
+    {
+      "id": "numbers-teens-study-seventeen",
+      "type": "study",
+      "wordId": "seventeen",
+      "skillId": "seventeen",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "seventeen",
+      "options": ["seventeen", "eighteen", "nineteen", "twenty"],
+      "hint": {
+        "translation": "семнадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «seventeen» — «семнадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have eighteen books."
+      }
+    },
+    {
+      "id": "numbers-teens-study-eighteen",
+      "type": "study",
+      "wordId": "eighteen",
+      "skillId": "eighteen",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "eighteen",
+      "options": ["eighteen", "nineteen", "twenty", "eleven"],
+      "hint": {
+        "translation": "восемнадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «eighteen» — «восемнадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have nineteen books."
+      }
+    },
+    {
+      "id": "numbers-teens-study-nineteen",
+      "type": "study",
+      "wordId": "nineteen",
+      "skillId": "nineteen",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "nineteen",
+      "options": ["nineteen", "twenty", "eleven", "twelve"],
+      "hint": {
+        "translation": "девятнадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «nineteen» — «девятнадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have twenty pencils."
+      }
+    },
+    {
+      "id": "numbers-teens-study-twenty",
+      "type": "study",
+      "wordId": "twenty",
+      "skillId": "twenty",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "twenty",
+      "options": ["twenty", "eleven", "twelve", "thirteen"],
+      "hint": {
+        "translation": "двадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «twenty» — «двадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have eleven books."
+      }
+    },
+    {
+      "id": "numbers-teens-picture-eleven",
+      "type": "picture",
+      "wordId": "eleven",
+      "skillId": "eleven",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "eleven",
+      "options": ["eleven", "twelve", "thirteen", "fourteen"],
+      "hint": {
+        "translation": "одиннадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «eleven» — «одиннадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have twelve pens."
+      }
+    },
+    {
+      "id": "numbers-teens-picture-twelve",
+      "type": "picture",
+      "wordId": "twelve",
+      "skillId": "twelve",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "twelve",
+      "options": ["twelve", "thirteen", "fourteen", "fifteen"],
+      "hint": {
+        "translation": "двенадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «twelve» — «двенадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have thirteen books."
+      }
+    },
+    {
+      "id": "numbers-teens-picture-thirteen",
+      "type": "picture",
+      "wordId": "thirteen",
+      "skillId": "thirteen",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "thirteen",
+      "options": ["thirteen", "fourteen", "fifteen", "sixteen"],
+      "hint": {
+        "translation": "тринадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «thirteen» — «тринадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have fourteen books."
+      }
+    },
+    {
+      "id": "numbers-teens-picture-fourteen",
+      "type": "picture",
+      "wordId": "fourteen",
+      "skillId": "fourteen",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "fourteen",
+      "options": ["fourteen", "fifteen", "sixteen", "seventeen"],
+      "hint": {
+        "translation": "четырнадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «fourteen» — «четырнадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have fifteen books."
+      }
+    },
+    {
+      "id": "numbers-teens-picture-fifteen",
+      "type": "picture",
+      "wordId": "fifteen",
+      "skillId": "fifteen",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "fifteen",
+      "options": ["fifteen", "sixteen", "seventeen", "eighteen"],
+      "hint": {
+        "translation": "пятнадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «fifteen» — «пятнадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have sixteen books."
+      }
+    },
+    {
+      "id": "numbers-teens-picture-sixteen",
+      "type": "picture",
+      "wordId": "sixteen",
+      "skillId": "sixteen",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "sixteen",
+      "options": ["sixteen", "seventeen", "eighteen", "nineteen"],
+      "hint": {
+        "translation": "шестнадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «sixteen» — «шестнадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have seventeen books."
+      }
+    },
+    {
+      "id": "numbers-teens-picture-seventeen",
+      "type": "picture",
+      "wordId": "seventeen",
+      "skillId": "seventeen",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "seventeen",
+      "options": ["seventeen", "eighteen", "nineteen", "twenty"],
+      "hint": {
+        "translation": "семнадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «seventeen» — «семнадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have eighteen books."
+      }
+    },
+    {
+      "id": "numbers-teens-picture-eighteen",
+      "type": "picture",
+      "wordId": "eighteen",
+      "skillId": "eighteen",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "eighteen",
+      "options": ["eighteen", "nineteen", "twenty", "eleven"],
+      "hint": {
+        "translation": "восемнадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «eighteen» — «восемнадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have nineteen books."
+      }
+    },
+    {
+      "id": "numbers-teens-picture-nineteen",
+      "type": "picture",
+      "wordId": "nineteen",
+      "skillId": "nineteen",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "nineteen",
+      "options": ["nineteen", "twenty", "eleven", "twelve"],
+      "hint": {
+        "translation": "девятнадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «nineteen» — «девятнадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have twenty pencils."
+      }
+    },
+    {
+      "id": "numbers-teens-picture-twenty",
+      "type": "picture",
+      "wordId": "twenty",
+      "skillId": "twenty",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "twenty",
+      "options": ["twenty", "eleven", "twelve", "thirteen"],
+      "hint": {
+        "translation": "двадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «twenty» — «двадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have eleven books."
+      }
+    },
+    {
+      "id": "numbers-teens-word-eleven",
+      "type": "word",
+      "wordId": "eleven",
+      "skillId": "eleven",
+      "prompt": "Как это называется по-английски?",
+      "answer": "eleven",
+      "options": ["eleven", "twelve", "thirteen", "fourteen"],
+      "hint": {
+        "translation": "одиннадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «eleven» — «одиннадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have twelve pens."
+      }
+    },
+    {
+      "id": "numbers-teens-word-twelve",
+      "type": "word",
+      "wordId": "twelve",
+      "skillId": "twelve",
+      "prompt": "Как это называется по-английски?",
+      "answer": "twelve",
+      "options": ["twelve", "thirteen", "fourteen", "fifteen"],
+      "hint": {
+        "translation": "двенадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «twelve» — «двенадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have thirteen books."
+      }
+    },
+    {
+      "id": "numbers-teens-word-thirteen",
+      "type": "word",
+      "wordId": "thirteen",
+      "skillId": "thirteen",
+      "prompt": "Как это называется по-английски?",
+      "answer": "thirteen",
+      "options": ["thirteen", "fourteen", "fifteen", "sixteen"],
+      "hint": {
+        "translation": "тринадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «thirteen» — «тринадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have fourteen books."
+      }
+    },
+    {
+      "id": "numbers-teens-word-fourteen",
+      "type": "word",
+      "wordId": "fourteen",
+      "skillId": "fourteen",
+      "prompt": "Как это называется по-английски?",
+      "answer": "fourteen",
+      "options": ["fourteen", "fifteen", "sixteen", "seventeen"],
+      "hint": {
+        "translation": "четырнадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «fourteen» — «четырнадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have fifteen books."
+      }
+    },
+    {
+      "id": "numbers-teens-word-fifteen",
+      "type": "word",
+      "wordId": "fifteen",
+      "skillId": "fifteen",
+      "prompt": "Как это называется по-английски?",
+      "answer": "fifteen",
+      "options": ["fifteen", "sixteen", "seventeen", "eighteen"],
+      "hint": {
+        "translation": "пятнадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «fifteen» — «пятнадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have sixteen books."
+      }
+    },
+    {
+      "id": "numbers-teens-word-sixteen",
+      "type": "word",
+      "wordId": "sixteen",
+      "skillId": "sixteen",
+      "prompt": "Как это называется по-английски?",
+      "answer": "sixteen",
+      "options": ["sixteen", "seventeen", "eighteen", "nineteen"],
+      "hint": {
+        "translation": "шестнадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «sixteen» — «шестнадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have seventeen books."
+      }
+    },
+    {
+      "id": "numbers-teens-word-seventeen",
+      "type": "word",
+      "wordId": "seventeen",
+      "skillId": "seventeen",
+      "prompt": "Как это называется по-английски?",
+      "answer": "seventeen",
+      "options": ["seventeen", "eighteen", "nineteen", "twenty"],
+      "hint": {
+        "translation": "семнадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «seventeen» — «семнадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have eighteen books."
+      }
+    },
+    {
+      "id": "numbers-teens-word-eighteen",
+      "type": "word",
+      "wordId": "eighteen",
+      "skillId": "eighteen",
+      "prompt": "Как это называется по-английски?",
+      "answer": "eighteen",
+      "options": ["eighteen", "nineteen", "twenty", "eleven"],
+      "hint": {
+        "translation": "восемнадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «eighteen» — «восемнадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have nineteen books."
+      }
+    },
+    {
+      "id": "numbers-teens-word-nineteen",
+      "type": "word",
+      "wordId": "nineteen",
+      "skillId": "nineteen",
+      "prompt": "Как это называется по-английски?",
+      "answer": "nineteen",
+      "options": ["nineteen", "twenty", "eleven", "twelve"],
+      "hint": {
+        "translation": "девятнадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «nineteen» — «девятнадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have twenty pencils."
+      }
+    },
+    {
+      "id": "numbers-teens-word-twenty",
+      "type": "word",
+      "wordId": "twenty",
+      "skillId": "twenty",
+      "prompt": "Как это называется по-английски?",
+      "answer": "twenty",
+      "options": ["twenty", "eleven", "twelve", "thirteen"],
+      "hint": {
+        "translation": "двадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «twenty» — «двадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have eleven books."
+      }
+    },
+    {
+      "id": "numbers-teens-letters-eleven",
+      "type": "letters",
+      "wordId": "eleven",
+      "skillId": "eleven",
+      "prompt": "Собери слово из букв",
+      "answer": "eleven",
+      "options": ["eleven", "twelve", "thirteen", "fourteen"],
+      "hint": {
+        "translation": "одиннадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «eleven» — «одиннадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have twelve pens."
+      }
+    },
+    {
+      "id": "numbers-teens-letters-twelve",
+      "type": "letters",
+      "wordId": "twelve",
+      "skillId": "twelve",
+      "prompt": "Собери слово из букв",
+      "answer": "twelve",
+      "options": ["twelve", "thirteen", "fourteen", "fifteen"],
+      "hint": {
+        "translation": "двенадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «twelve» — «двенадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have thirteen books."
+      }
+    },
+    {
+      "id": "numbers-teens-letters-thirteen",
+      "type": "letters",
+      "wordId": "thirteen",
+      "skillId": "thirteen",
+      "prompt": "Собери слово из букв",
+      "answer": "thirteen",
+      "options": ["thirteen", "fourteen", "fifteen", "sixteen"],
+      "hint": {
+        "translation": "тринадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «thirteen» — «тринадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have fourteen books."
+      }
+    },
+    {
+      "id": "numbers-teens-letters-fourteen",
+      "type": "letters",
+      "wordId": "fourteen",
+      "skillId": "fourteen",
+      "prompt": "Собери слово из букв",
+      "answer": "fourteen",
+      "options": ["fourteen", "fifteen", "sixteen", "seventeen"],
+      "hint": {
+        "translation": "четырнадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «fourteen» — «четырнадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have fifteen books."
+      }
+    },
+    {
+      "id": "numbers-teens-letters-fifteen",
+      "type": "letters",
+      "wordId": "fifteen",
+      "skillId": "fifteen",
+      "prompt": "Собери слово из букв",
+      "answer": "fifteen",
+      "options": ["fifteen", "sixteen", "seventeen", "eighteen"],
+      "hint": {
+        "translation": "пятнадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «fifteen» — «пятнадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have sixteen books."
+      }
+    },
+    {
+      "id": "numbers-teens-letters-sixteen",
+      "type": "letters",
+      "wordId": "sixteen",
+      "skillId": "sixteen",
+      "prompt": "Собери слово из букв",
+      "answer": "sixteen",
+      "options": ["sixteen", "seventeen", "eighteen", "nineteen"],
+      "hint": {
+        "translation": "шестнадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «sixteen» — «шестнадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have seventeen books."
+      }
+    },
+    {
+      "id": "numbers-teens-letters-seventeen",
+      "type": "letters",
+      "wordId": "seventeen",
+      "skillId": "seventeen",
+      "prompt": "Собери слово из букв",
+      "answer": "seventeen",
+      "options": ["seventeen", "eighteen", "nineteen", "twenty"],
+      "hint": {
+        "translation": "семнадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «seventeen» — «семнадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have eighteen books."
+      }
+    },
+    {
+      "id": "numbers-teens-letters-eighteen",
+      "type": "letters",
+      "wordId": "eighteen",
+      "skillId": "eighteen",
+      "prompt": "Собери слово из букв",
+      "answer": "eighteen",
+      "options": ["eighteen", "nineteen", "twenty", "eleven"],
+      "hint": {
+        "translation": "восемнадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «eighteen» — «восемнадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have nineteen books."
+      }
+    },
+    {
+      "id": "numbers-teens-letters-nineteen",
+      "type": "letters",
+      "wordId": "nineteen",
+      "skillId": "nineteen",
+      "prompt": "Собери слово из букв",
+      "answer": "nineteen",
+      "options": ["nineteen", "twenty", "eleven", "twelve"],
+      "hint": {
+        "translation": "девятнадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «nineteen» — «девятнадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have twenty pencils."
+      }
+    },
+    {
+      "id": "numbers-teens-letters-twenty",
+      "type": "letters",
+      "wordId": "twenty",
+      "skillId": "twenty",
+      "prompt": "Собери слово из букв",
+      "answer": "twenty",
+      "options": ["twenty", "eleven", "twelve", "thirteen"],
+      "hint": {
+        "translation": "двадцать",
+        "explanation": "Учимся слышать и писать числа до двадцати. Здесь «twenty» — «двадцать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have eleven books."
+      }
+    },
+    {
+      "id": "numbers-teens-sentence-1",
+      "type": "sentence",
+      "wordId": "eleven",
+      "skillId": "have",
+      "prompt": "Собери предложение",
+      "answer": "I have eleven books.",
+      "options": [],
+      "hint": {
+        "translation": "У меня одиннадцать книг.",
+        "explanation": "I have — «у меня есть». После числа больше одного предмет называем во множественном числе: books — книги. Сначала I have, затем число и предмет.",
+        "steps": [
+          "Прочитай русский смысл: У меня одиннадцать книг.",
+          "Вспомни правило: I have — «у меня есть». После числа больше одного предмет называем во множественном числе: books — книги. Сначала I have, затем число и предмет.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "I have twelve pens."
+      }
+    },
+    {
+      "id": "numbers-teens-sentence-2",
+      "type": "sentence",
+      "wordId": "twelve",
+      "skillId": "have",
+      "prompt": "Собери предложение",
+      "answer": "I have twelve pens.",
+      "options": [],
+      "hint": {
+        "translation": "У меня двенадцать ручек.",
+        "explanation": "I have — «у меня есть». После числа больше одного предмет называем во множественном числе: books — книги. Сначала I have, затем число и предмет.",
+        "steps": [
+          "Прочитай русский смысл: У меня двенадцать ручек.",
+          "Вспомни правило: I have — «у меня есть». После числа больше одного предмет называем во множественном числе: books — книги. Сначала I have, затем число и предмет.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "I have twenty pencils."
+      }
+    },
+    {
+      "id": "numbers-teens-sentence-3",
+      "type": "sentence",
+      "wordId": "twenty",
+      "skillId": "have",
+      "prompt": "Собери предложение",
+      "answer": "I have twenty pencils.",
+      "options": [],
+      "hint": {
+        "translation": "У меня двадцать карандашей.",
+        "explanation": "I have — «у меня есть». После числа больше одного предмет называем во множественном числе: books — книги. Сначала I have, затем число и предмет.",
+        "steps": [
+          "Прочитай русский смысл: У меня двадцать карандашей.",
+          "Вспомни правило: I have — «у меня есть». После числа больше одного предмет называем во множественном числе: books — книги. Сначала I have, затем число и предмет.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "I have eleven books."
+      }
+    }
+  ]
+}

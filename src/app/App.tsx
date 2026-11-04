@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { HashRouter, NavLink, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { Home, Curriculum, Dictionary, Achievements, Parent, Basics } from '../features/Pages';
-import { Learning } from '../features/Learning';
+import { Learning, LessonRoute } from '../features/Learning';
 import { HintsProvider } from '../components/Hints';
 import { useProgress } from '../stores/progress';
 const nav = [
@@ -97,7 +97,8 @@ function Shell() {
             <Route path="/dictionary" element={<Dictionary />} />
             <Route path="/achievements" element={<Achievements />} />
             <Route path="/parents" element={<Parent />} />
-            <Route path="/learn" element={<Learning />} />
+            <Route path="/learn" element={<Learning key={progress.lessonId} />} />
+            <Route path="/learn/:lessonId" element={<LessonRoute />} />
             <Route path="/basics" element={<Basics />} />
             <Route
               path="*"

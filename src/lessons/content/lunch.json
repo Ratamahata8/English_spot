@@ -1,0 +1,625 @@
+{
+  "id": "lunch",
+  "title": "In My Lunch Box",
+  "subtitle": "Spotlight 3 · Unit 6 · обед и количество",
+  "module": "Модуль 3 · Еда",
+  "description": "Собираем обед и учимся словам some / any.",
+  "source": "Unit 6 · обед и количество",
+  "coverWordId": "rice",
+  "vocabulary": [
+    {
+      "id": "rice",
+      "en": "rice",
+      "ru": "рис",
+      "ipa": "/raɪs/",
+      "explanation": "Собираем обед и учимся словам some / any. Здесь «rice» — «рис».",
+      "example": "I have some rice.",
+      "image": "illustrations/rice.svg"
+    },
+    {
+      "id": "pasta",
+      "en": "pasta",
+      "ru": "макароны",
+      "ipa": "/ˈpæstə/",
+      "explanation": "Собираем обед и учимся словам some / any. Здесь «pasta» — «макароны».",
+      "example": "I have some pasta.",
+      "image": "illustrations/pasta.svg"
+    },
+    {
+      "id": "potato",
+      "en": "potato",
+      "ru": "картофель",
+      "ipa": "/pəˈteɪtəʊ/",
+      "explanation": "Собираем обед и учимся словам some / any. Здесь «potato» — «картофель».",
+      "example": "I have some potatoes.",
+      "image": "illustrations/potato.svg"
+    },
+    {
+      "id": "carrot",
+      "en": "carrot",
+      "ru": "морковь",
+      "ipa": "/ˈkærət/",
+      "explanation": "Собираем обед и учимся словам some / any. Здесь «carrot» — «морковь».",
+      "example": "I have some carrots.",
+      "image": "illustrations/carrot.svg"
+    },
+    {
+      "id": "sausage",
+      "en": "sausage",
+      "ru": "сосиска",
+      "ipa": "/ˈsɒsɪdʒ/",
+      "explanation": "Собираем обед и учимся словам some / any. Здесь «sausage» — «сосиска».",
+      "example": "I have some sausages.",
+      "image": "illustrations/sausage.svg"
+    },
+    {
+      "id": "cake",
+      "en": "cake",
+      "ru": "торт",
+      "ipa": "/keɪk/",
+      "explanation": "Собираем обед и учимся словам some / any. Здесь «cake» — «торт».",
+      "example": "I do not have any cake.",
+      "image": "illustrations/cake.svg"
+    }
+  ],
+  "lexicon": [],
+  "grammar": [
+    {
+      "id": "some-any",
+      "title": "Немного еды: some и any",
+      "text": "Some — «немного» или «несколько» в утвердительном предложении. Any обычно используем в отрицании с not: I do not have any cake. После some или any назови еду. В вопросе начинай с Do you have и используй any.",
+      "examples": [
+        "I have some rice.",
+        "I have some pasta.",
+        "I do not have any cake.",
+        "Do you have any rice?"
+      ]
+    }
+  ],
+  "remedial": [
+    {
+      "id": "some-any",
+      "title": "Немного еды: some и any",
+      "available": true,
+      "explanation": "Some — «немного» или «несколько» в утвердительном предложении. Any обычно используем в отрицании с not: I do not have any cake. После some или any назови еду.",
+      "example": "I do not have any cake.",
+      "question": "Какое слово обычно ставим после not have?",
+      "answer": "any",
+      "options": ["some", "any"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "lunch-study-rice",
+      "type": "study",
+      "wordId": "rice",
+      "skillId": "rice",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "rice",
+      "options": ["rice", "pasta", "potato", "carrot"],
+      "hint": {
+        "translation": "рис",
+        "explanation": "Собираем обед и учимся словам some / any. Здесь «rice» — «рис».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have some pasta."
+      }
+    },
+    {
+      "id": "lunch-study-pasta",
+      "type": "study",
+      "wordId": "pasta",
+      "skillId": "pasta",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "pasta",
+      "options": ["pasta", "potato", "carrot", "sausage"],
+      "hint": {
+        "translation": "макароны",
+        "explanation": "Собираем обед и учимся словам some / any. Здесь «pasta» — «макароны».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have some potatoes."
+      }
+    },
+    {
+      "id": "lunch-study-potato",
+      "type": "study",
+      "wordId": "potato",
+      "skillId": "potato",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "potato",
+      "options": ["potato", "carrot", "sausage", "cake"],
+      "hint": {
+        "translation": "картофель",
+        "explanation": "Собираем обед и учимся словам some / any. Здесь «potato» — «картофель».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have some carrots."
+      }
+    },
+    {
+      "id": "lunch-study-carrot",
+      "type": "study",
+      "wordId": "carrot",
+      "skillId": "carrot",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "carrot",
+      "options": ["carrot", "sausage", "cake", "rice"],
+      "hint": {
+        "translation": "морковь",
+        "explanation": "Собираем обед и учимся словам some / any. Здесь «carrot» — «морковь».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have some sausages."
+      }
+    },
+    {
+      "id": "lunch-study-sausage",
+      "type": "study",
+      "wordId": "sausage",
+      "skillId": "sausage",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "sausage",
+      "options": ["sausage", "cake", "rice", "pasta"],
+      "hint": {
+        "translation": "сосиска",
+        "explanation": "Собираем обед и учимся словам some / any. Здесь «sausage» — «сосиска».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I do not have any cake."
+      }
+    },
+    {
+      "id": "lunch-study-cake",
+      "type": "study",
+      "wordId": "cake",
+      "skillId": "cake",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "cake",
+      "options": ["cake", "rice", "pasta", "potato"],
+      "hint": {
+        "translation": "торт",
+        "explanation": "Собираем обед и учимся словам some / any. Здесь «cake» — «торт».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have some rice."
+      }
+    },
+    {
+      "id": "lunch-picture-rice",
+      "type": "picture",
+      "wordId": "rice",
+      "skillId": "rice",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "rice",
+      "options": ["rice", "pasta", "potato", "carrot"],
+      "hint": {
+        "translation": "рис",
+        "explanation": "Собираем обед и учимся словам some / any. Здесь «rice» — «рис».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have some pasta."
+      }
+    },
+    {
+      "id": "lunch-picture-pasta",
+      "type": "picture",
+      "wordId": "pasta",
+      "skillId": "pasta",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "pasta",
+      "options": ["pasta", "potato", "carrot", "sausage"],
+      "hint": {
+        "translation": "макароны",
+        "explanation": "Собираем обед и учимся словам some / any. Здесь «pasta» — «макароны».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have some potatoes."
+      }
+    },
+    {
+      "id": "lunch-picture-potato",
+      "type": "picture",
+      "wordId": "potato",
+      "skillId": "potato",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "potato",
+      "options": ["potato", "carrot", "sausage", "cake"],
+      "hint": {
+        "translation": "картофель",
+        "explanation": "Собираем обед и учимся словам some / any. Здесь «potato» — «картофель».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have some carrots."
+      }
+    },
+    {
+      "id": "lunch-picture-carrot",
+      "type": "picture",
+      "wordId": "carrot",
+      "skillId": "carrot",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "carrot",
+      "options": ["carrot", "sausage", "cake", "rice"],
+      "hint": {
+        "translation": "морковь",
+        "explanation": "Собираем обед и учимся словам some / any. Здесь «carrot» — «морковь».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have some sausages."
+      }
+    },
+    {
+      "id": "lunch-picture-sausage",
+      "type": "picture",
+      "wordId": "sausage",
+      "skillId": "sausage",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "sausage",
+      "options": ["sausage", "cake", "rice", "pasta"],
+      "hint": {
+        "translation": "сосиска",
+        "explanation": "Собираем обед и учимся словам some / any. Здесь «sausage» — «сосиска».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I do not have any cake."
+      }
+    },
+    {
+      "id": "lunch-picture-cake",
+      "type": "picture",
+      "wordId": "cake",
+      "skillId": "cake",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "cake",
+      "options": ["cake", "rice", "pasta", "potato"],
+      "hint": {
+        "translation": "торт",
+        "explanation": "Собираем обед и учимся словам some / any. Здесь «cake» — «торт».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have some rice."
+      }
+    },
+    {
+      "id": "lunch-word-rice",
+      "type": "word",
+      "wordId": "rice",
+      "skillId": "rice",
+      "prompt": "Как это называется по-английски?",
+      "answer": "rice",
+      "options": ["rice", "pasta", "potato", "carrot"],
+      "hint": {
+        "translation": "рис",
+        "explanation": "Собираем обед и учимся словам some / any. Здесь «rice» — «рис».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have some pasta."
+      }
+    },
+    {
+      "id": "lunch-word-pasta",
+      "type": "word",
+      "wordId": "pasta",
+      "skillId": "pasta",
+      "prompt": "Как это называется по-английски?",
+      "answer": "pasta",
+      "options": ["pasta", "potato", "carrot", "sausage"],
+      "hint": {
+        "translation": "макароны",
+        "explanation": "Собираем обед и учимся словам some / any. Здесь «pasta» — «макароны».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have some potatoes."
+      }
+    },
+    {
+      "id": "lunch-word-potato",
+      "type": "word",
+      "wordId": "potato",
+      "skillId": "potato",
+      "prompt": "Как это называется по-английски?",
+      "answer": "potato",
+      "options": ["potato", "carrot", "sausage", "cake"],
+      "hint": {
+        "translation": "картофель",
+        "explanation": "Собираем обед и учимся словам some / any. Здесь «potato» — «картофель».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have some carrots."
+      }
+    },
+    {
+      "id": "lunch-word-carrot",
+      "type": "word",
+      "wordId": "carrot",
+      "skillId": "carrot",
+      "prompt": "Как это называется по-английски?",
+      "answer": "carrot",
+      "options": ["carrot", "sausage", "cake", "rice"],
+      "hint": {
+        "translation": "морковь",
+        "explanation": "Собираем обед и учимся словам some / any. Здесь «carrot» — «морковь».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have some sausages."
+      }
+    },
+    {
+      "id": "lunch-word-sausage",
+      "type": "word",
+      "wordId": "sausage",
+      "skillId": "sausage",
+      "prompt": "Как это называется по-английски?",
+      "answer": "sausage",
+      "options": ["sausage", "cake", "rice", "pasta"],
+      "hint": {
+        "translation": "сосиска",
+        "explanation": "Собираем обед и учимся словам some / any. Здесь «sausage» — «сосиска».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I do not have any cake."
+      }
+    },
+    {
+      "id": "lunch-word-cake",
+      "type": "word",
+      "wordId": "cake",
+      "skillId": "cake",
+      "prompt": "Как это называется по-английски?",
+      "answer": "cake",
+      "options": ["cake", "rice", "pasta", "potato"],
+      "hint": {
+        "translation": "торт",
+        "explanation": "Собираем обед и учимся словам some / any. Здесь «cake» — «торт».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have some rice."
+      }
+    },
+    {
+      "id": "lunch-letters-rice",
+      "type": "letters",
+      "wordId": "rice",
+      "skillId": "rice",
+      "prompt": "Собери слово из букв",
+      "answer": "rice",
+      "options": ["rice", "pasta", "potato", "carrot"],
+      "hint": {
+        "translation": "рис",
+        "explanation": "Собираем обед и учимся словам some / any. Здесь «rice» — «рис».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have some pasta."
+      }
+    },
+    {
+      "id": "lunch-letters-pasta",
+      "type": "letters",
+      "wordId": "pasta",
+      "skillId": "pasta",
+      "prompt": "Собери слово из букв",
+      "answer": "pasta",
+      "options": ["pasta", "potato", "carrot", "sausage"],
+      "hint": {
+        "translation": "макароны",
+        "explanation": "Собираем обед и учимся словам some / any. Здесь «pasta» — «макароны».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have some potatoes."
+      }
+    },
+    {
+      "id": "lunch-letters-potato",
+      "type": "letters",
+      "wordId": "potato",
+      "skillId": "potato",
+      "prompt": "Собери слово из букв",
+      "answer": "potato",
+      "options": ["potato", "carrot", "sausage", "cake"],
+      "hint": {
+        "translation": "картофель",
+        "explanation": "Собираем обед и учимся словам some / any. Здесь «potato» — «картофель».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have some carrots."
+      }
+    },
+    {
+      "id": "lunch-letters-carrot",
+      "type": "letters",
+      "wordId": "carrot",
+      "skillId": "carrot",
+      "prompt": "Собери слово из букв",
+      "answer": "carrot",
+      "options": ["carrot", "sausage", "cake", "rice"],
+      "hint": {
+        "translation": "морковь",
+        "explanation": "Собираем обед и учимся словам some / any. Здесь «carrot» — «морковь».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have some sausages."
+      }
+    },
+    {
+      "id": "lunch-letters-sausage",
+      "type": "letters",
+      "wordId": "sausage",
+      "skillId": "sausage",
+      "prompt": "Собери слово из букв",
+      "answer": "sausage",
+      "options": ["sausage", "cake", "rice", "pasta"],
+      "hint": {
+        "translation": "сосиска",
+        "explanation": "Собираем обед и учимся словам some / any. Здесь «sausage» — «сосиска».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I do not have any cake."
+      }
+    },
+    {
+      "id": "lunch-letters-cake",
+      "type": "letters",
+      "wordId": "cake",
+      "skillId": "cake",
+      "prompt": "Собери слово из букв",
+      "answer": "cake",
+      "options": ["cake", "rice", "pasta", "potato"],
+      "hint": {
+        "translation": "торт",
+        "explanation": "Собираем обед и учимся словам some / any. Здесь «cake» — «торт».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I have some rice."
+      }
+    },
+    {
+      "id": "lunch-sentence-1",
+      "type": "sentence",
+      "wordId": "rice",
+      "skillId": "some-any",
+      "prompt": "Собери предложение",
+      "answer": "I have some rice.",
+      "options": [],
+      "hint": {
+        "translation": "У меня есть немного риса.",
+        "explanation": "Some — «немного» или «несколько» в утвердительном предложении. Any обычно используем в отрицании с not: I do not have any cake. После some или any назови еду.",
+        "steps": [
+          "Прочитай русский смысл: У меня есть немного риса.",
+          "Вспомни правило: Some — «немного» или «несколько» в утвердительном предложении. Any обычно используем в отрицании с not: I do not have any cake. После some или any назови еду.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "I have some pasta."
+      }
+    },
+    {
+      "id": "lunch-sentence-2",
+      "type": "sentence",
+      "wordId": "pasta",
+      "skillId": "some-any",
+      "prompt": "Собери предложение",
+      "answer": "I have some pasta.",
+      "options": [],
+      "hint": {
+        "translation": "У меня есть немного макарон.",
+        "explanation": "Some — «немного» или «несколько» в утвердительном предложении. Any обычно используем в отрицании с not: I do not have any cake. После some или any назови еду.",
+        "steps": [
+          "Прочитай русский смысл: У меня есть немного макарон.",
+          "Вспомни правило: Some — «немного» или «несколько» в утвердительном предложении. Any обычно используем в отрицании с not: I do not have any cake. После some или any назови еду.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "I do not have any cake."
+      }
+    },
+    {
+      "id": "lunch-sentence-3",
+      "type": "sentence",
+      "wordId": "cake",
+      "skillId": "some-any",
+      "prompt": "Собери предложение",
+      "answer": "I do not have any cake.",
+      "options": [],
+      "hint": {
+        "translation": "У меня нет торта.",
+        "explanation": "Some — «немного» или «несколько» в утвердительном предложении. Any обычно используем в отрицании с not: I do not have any cake. После some или any назови еду.",
+        "steps": [
+          "Прочитай русский смысл: У меня нет торта.",
+          "Вспомни правило: Some — «немного» или «несколько» в утвердительном предложении. Any обычно используем в отрицании с not: I do not have any cake. После some или any назови еду.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "I have some rice."
+      }
+    },
+    {
+      "id": "lunch-sentence-4",
+      "type": "sentence",
+      "wordId": "rice",
+      "skillId": "some-any",
+      "prompt": "Собери предложение",
+      "answer": "Do you have any rice?",
+      "options": [],
+      "hint": {
+        "translation": "У тебя есть рис?",
+        "explanation": "Some — «немного» или «несколько» в утвердительном предложении. Any обычно используем в отрицании с not: I do not have any cake. После some или any назови еду. В вопросе начинай с Do you have и используй any.",
+        "steps": [
+          "Вспомни смысл: У тебя есть рис?",
+          "Выбери начало по правилу: Some — «немного» или «несколько» в утвердительном предложении. Any обычно используем в отрицании с not: I do not have any cake. После some или any назови еду. В вопросе начинай с Do you have и используй any.",
+          "Проверь, что предмет и действие стоят на своих местах."
+        ],
+        "example": "I have some rice."
+      }
+    }
+  ]
+}

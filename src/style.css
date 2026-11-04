@@ -2268,3 +2268,92 @@ main:focus-visible {
 main[tabindex]:focus-visible {
   outline: none;
 }
+.course-module {
+  margin: 30px 0 40px;
+}
+.course-module > h2 {
+  margin-bottom: 20px;
+}
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+.course-card {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.course-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.course-card-top .pill {
+  font-size: 8px;
+  background: #eef2e6;
+}
+.course-card-top .muted {
+  font-size: 10px;
+  white-space: nowrap;
+}
+.course-card > img {
+  height: 130px;
+  width: 130px;
+  align-self: center;
+}
+.course-card > p {
+  font-size: 13px;
+  margin: 10px 0;
+}
+.course-card > small {
+  font-size: 10px;
+  color: #8a947f;
+  margin: 8px 0 20px;
+}
+.course-actions {
+  margin-top: auto;
+  padding-top: 18px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.course-actions .button {
+  font-size: 11px;
+  flex: 1;
+}
+.dictionary-filter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 22px;
+  color: #7b896d;
+  font-size: 13px;
+}
+.dictionary-filter select {
+  border: 1px solid #dedfd3;
+  background: #fffefa;
+  border-radius: 9px;
+  min-height: 44px;
+  padding: 8px 15px;
+  max-width: 100%;
+  color: #526d49;
+}
+@media (max-width: 650px) {
+  .course-grid {
+    grid-template-columns: 1fr;
+  }
+  .course-card {
+    padding: 21px;
+  }
+  .course-card-top {
+    flex-wrap: wrap;
+  }
+  .course-actions .button {
+    font-size: 12px;
+  }
+  .dictionary-filter {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,601 @@
+{
+  "id": "family-description",
+  "title": "A Happy Family",
+  "subtitle": "Spotlight 3 · Unit 4 · описания",
+  "module": "Модуль 2 · Семья",
+  "description": "Описываем людей и замечаем различия.",
+  "source": "Unit 4 · описания",
+  "coverWordId": "big",
+  "vocabulary": [
+    {
+      "id": "big",
+      "en": "big",
+      "ru": "большой",
+      "ipa": "/bɪɡ/",
+      "explanation": "Описываем людей и замечаем различия. Здесь «big» — «большой».",
+      "example": "The baby is big.",
+      "image": "illustrations/big.svg"
+    },
+    {
+      "id": "small",
+      "en": "small",
+      "ru": "маленький",
+      "ipa": "/smɔːl/",
+      "explanation": "Описываем людей и замечаем различия. Здесь «small» — «маленький».",
+      "example": "My sister is small.",
+      "image": "illustrations/small.svg"
+    },
+    {
+      "id": "tall",
+      "en": "tall",
+      "ru": "высокий",
+      "ipa": "/tɔːl/",
+      "explanation": "Описываем людей и замечаем различия. Здесь «tall» — «высокий».",
+      "example": "My brother is tall.",
+      "image": "illustrations/tall.svg"
+    },
+    {
+      "id": "short",
+      "en": "short",
+      "ru": "невысокий",
+      "ipa": "/ʃɔːt/",
+      "explanation": "Описываем людей и замечаем различия. Здесь «short» — «невысокий».",
+      "example": "The baby is short.",
+      "image": "illustrations/short.svg"
+    },
+    {
+      "id": "baby",
+      "en": "baby",
+      "ru": "малыш",
+      "ipa": "/ˈbeɪbi/",
+      "explanation": "Описываем людей и замечаем различия. Здесь «baby» — «малыш».",
+      "example": "This is my baby.",
+      "image": "illustrations/baby.svg"
+    },
+    {
+      "id": "family",
+      "en": "family",
+      "ru": "семья",
+      "ipa": "/ˈfæməli/",
+      "explanation": "Описываем людей и замечаем различия. Здесь «family» — «семья».",
+      "example": "My family is big.",
+      "image": "illustrations/family.svg"
+    }
+  ],
+  "lexicon": [],
+  "grammar": [
+    {
+      "id": "describing",
+      "title": "Описываем человека",
+      "text": "Сначала назови человека или семью. Затем поставь is и признак: My brother is tall. В таких предложениях is связывает человека и его описание.",
+      "examples": ["My family is big.", "My brother is tall.", "My sister is small."]
+    }
+  ],
+  "remedial": [
+    {
+      "id": "describing",
+      "title": "Описываем человека",
+      "available": true,
+      "explanation": "Сначала назови человека или семью. Затем поставь is и признак: My brother is tall. В таких предложениях is связывает человека и его описание.",
+      "example": "My sister is small.",
+      "question": "Какое слово связывает человека и описание?",
+      "answer": "is",
+      "options": ["is", "my"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "family-description-study-big",
+      "type": "study",
+      "wordId": "big",
+      "skillId": "big",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "big",
+      "options": ["big", "small", "tall", "short"],
+      "hint": {
+        "translation": "большой",
+        "explanation": "Описываем людей и замечаем различия. Здесь «big» — «большой».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My sister is small."
+      }
+    },
+    {
+      "id": "family-description-study-small",
+      "type": "study",
+      "wordId": "small",
+      "skillId": "small",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "small",
+      "options": ["small", "tall", "short", "baby"],
+      "hint": {
+        "translation": "маленький",
+        "explanation": "Описываем людей и замечаем различия. Здесь «small» — «маленький».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My brother is tall."
+      }
+    },
+    {
+      "id": "family-description-study-tall",
+      "type": "study",
+      "wordId": "tall",
+      "skillId": "tall",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "tall",
+      "options": ["tall", "short", "baby", "family"],
+      "hint": {
+        "translation": "высокий",
+        "explanation": "Описываем людей и замечаем различия. Здесь «tall» — «высокий».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "The baby is short."
+      }
+    },
+    {
+      "id": "family-description-study-short",
+      "type": "study",
+      "wordId": "short",
+      "skillId": "short",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "short",
+      "options": ["short", "baby", "family", "big"],
+      "hint": {
+        "translation": "невысокий",
+        "explanation": "Описываем людей и замечаем различия. Здесь «short» — «невысокий».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my baby."
+      }
+    },
+    {
+      "id": "family-description-study-baby",
+      "type": "study",
+      "wordId": "baby",
+      "skillId": "baby",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "baby",
+      "options": ["baby", "family", "big", "small"],
+      "hint": {
+        "translation": "малыш",
+        "explanation": "Описываем людей и замечаем различия. Здесь «baby» — «малыш».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My family is big."
+      }
+    },
+    {
+      "id": "family-description-study-family",
+      "type": "study",
+      "wordId": "family",
+      "skillId": "family",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "family",
+      "options": ["family", "big", "small", "tall"],
+      "hint": {
+        "translation": "семья",
+        "explanation": "Описываем людей и замечаем различия. Здесь «family» — «семья».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "The baby is big."
+      }
+    },
+    {
+      "id": "family-description-picture-big",
+      "type": "picture",
+      "wordId": "big",
+      "skillId": "big",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "big",
+      "options": ["big", "small", "tall", "short"],
+      "hint": {
+        "translation": "большой",
+        "explanation": "Описываем людей и замечаем различия. Здесь «big» — «большой».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My sister is small."
+      }
+    },
+    {
+      "id": "family-description-picture-small",
+      "type": "picture",
+      "wordId": "small",
+      "skillId": "small",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "small",
+      "options": ["small", "tall", "short", "baby"],
+      "hint": {
+        "translation": "маленький",
+        "explanation": "Описываем людей и замечаем различия. Здесь «small» — «маленький».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My brother is tall."
+      }
+    },
+    {
+      "id": "family-description-picture-tall",
+      "type": "picture",
+      "wordId": "tall",
+      "skillId": "tall",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "tall",
+      "options": ["tall", "short", "baby", "family"],
+      "hint": {
+        "translation": "высокий",
+        "explanation": "Описываем людей и замечаем различия. Здесь «tall» — «высокий».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "The baby is short."
+      }
+    },
+    {
+      "id": "family-description-picture-short",
+      "type": "picture",
+      "wordId": "short",
+      "skillId": "short",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "short",
+      "options": ["short", "baby", "family", "big"],
+      "hint": {
+        "translation": "невысокий",
+        "explanation": "Описываем людей и замечаем различия. Здесь «short» — «невысокий».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my baby."
+      }
+    },
+    {
+      "id": "family-description-picture-baby",
+      "type": "picture",
+      "wordId": "baby",
+      "skillId": "baby",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "baby",
+      "options": ["baby", "family", "big", "small"],
+      "hint": {
+        "translation": "малыш",
+        "explanation": "Описываем людей и замечаем различия. Здесь «baby» — «малыш».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My family is big."
+      }
+    },
+    {
+      "id": "family-description-picture-family",
+      "type": "picture",
+      "wordId": "family",
+      "skillId": "family",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "family",
+      "options": ["family", "big", "small", "tall"],
+      "hint": {
+        "translation": "семья",
+        "explanation": "Описываем людей и замечаем различия. Здесь «family» — «семья».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "The baby is big."
+      }
+    },
+    {
+      "id": "family-description-word-big",
+      "type": "word",
+      "wordId": "big",
+      "skillId": "big",
+      "prompt": "Как это называется по-английски?",
+      "answer": "big",
+      "options": ["big", "small", "tall", "short"],
+      "hint": {
+        "translation": "большой",
+        "explanation": "Описываем людей и замечаем различия. Здесь «big» — «большой».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My sister is small."
+      }
+    },
+    {
+      "id": "family-description-word-small",
+      "type": "word",
+      "wordId": "small",
+      "skillId": "small",
+      "prompt": "Как это называется по-английски?",
+      "answer": "small",
+      "options": ["small", "tall", "short", "baby"],
+      "hint": {
+        "translation": "маленький",
+        "explanation": "Описываем людей и замечаем различия. Здесь «small» — «маленький».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My brother is tall."
+      }
+    },
+    {
+      "id": "family-description-word-tall",
+      "type": "word",
+      "wordId": "tall",
+      "skillId": "tall",
+      "prompt": "Как это называется по-английски?",
+      "answer": "tall",
+      "options": ["tall", "short", "baby", "family"],
+      "hint": {
+        "translation": "высокий",
+        "explanation": "Описываем людей и замечаем различия. Здесь «tall» — «высокий».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "The baby is short."
+      }
+    },
+    {
+      "id": "family-description-word-short",
+      "type": "word",
+      "wordId": "short",
+      "skillId": "short",
+      "prompt": "Как это называется по-английски?",
+      "answer": "short",
+      "options": ["short", "baby", "family", "big"],
+      "hint": {
+        "translation": "невысокий",
+        "explanation": "Описываем людей и замечаем различия. Здесь «short» — «невысокий».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my baby."
+      }
+    },
+    {
+      "id": "family-description-word-baby",
+      "type": "word",
+      "wordId": "baby",
+      "skillId": "baby",
+      "prompt": "Как это называется по-английски?",
+      "answer": "baby",
+      "options": ["baby", "family", "big", "small"],
+      "hint": {
+        "translation": "малыш",
+        "explanation": "Описываем людей и замечаем различия. Здесь «baby» — «малыш».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My family is big."
+      }
+    },
+    {
+      "id": "family-description-word-family",
+      "type": "word",
+      "wordId": "family",
+      "skillId": "family",
+      "prompt": "Как это называется по-английски?",
+      "answer": "family",
+      "options": ["family", "big", "small", "tall"],
+      "hint": {
+        "translation": "семья",
+        "explanation": "Описываем людей и замечаем различия. Здесь «family» — «семья».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "The baby is big."
+      }
+    },
+    {
+      "id": "family-description-letters-big",
+      "type": "letters",
+      "wordId": "big",
+      "skillId": "big",
+      "prompt": "Собери слово из букв",
+      "answer": "big",
+      "options": ["big", "small", "tall", "short"],
+      "hint": {
+        "translation": "большой",
+        "explanation": "Описываем людей и замечаем различия. Здесь «big» — «большой».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My sister is small."
+      }
+    },
+    {
+      "id": "family-description-letters-small",
+      "type": "letters",
+      "wordId": "small",
+      "skillId": "small",
+      "prompt": "Собери слово из букв",
+      "answer": "small",
+      "options": ["small", "tall", "short", "baby"],
+      "hint": {
+        "translation": "маленький",
+        "explanation": "Описываем людей и замечаем различия. Здесь «small» — «маленький».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My brother is tall."
+      }
+    },
+    {
+      "id": "family-description-letters-tall",
+      "type": "letters",
+      "wordId": "tall",
+      "skillId": "tall",
+      "prompt": "Собери слово из букв",
+      "answer": "tall",
+      "options": ["tall", "short", "baby", "family"],
+      "hint": {
+        "translation": "высокий",
+        "explanation": "Описываем людей и замечаем различия. Здесь «tall» — «высокий».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "The baby is short."
+      }
+    },
+    {
+      "id": "family-description-letters-short",
+      "type": "letters",
+      "wordId": "short",
+      "skillId": "short",
+      "prompt": "Собери слово из букв",
+      "answer": "short",
+      "options": ["short", "baby", "family", "big"],
+      "hint": {
+        "translation": "невысокий",
+        "explanation": "Описываем людей и замечаем различия. Здесь «short» — «невысокий».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my baby."
+      }
+    },
+    {
+      "id": "family-description-letters-baby",
+      "type": "letters",
+      "wordId": "baby",
+      "skillId": "baby",
+      "prompt": "Собери слово из букв",
+      "answer": "baby",
+      "options": ["baby", "family", "big", "small"],
+      "hint": {
+        "translation": "малыш",
+        "explanation": "Описываем людей и замечаем различия. Здесь «baby» — «малыш».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My family is big."
+      }
+    },
+    {
+      "id": "family-description-letters-family",
+      "type": "letters",
+      "wordId": "family",
+      "skillId": "family",
+      "prompt": "Собери слово из букв",
+      "answer": "family",
+      "options": ["family", "big", "small", "tall"],
+      "hint": {
+        "translation": "семья",
+        "explanation": "Описываем людей и замечаем различия. Здесь «family» — «семья».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "The baby is big."
+      }
+    },
+    {
+      "id": "family-description-sentence-1",
+      "type": "sentence",
+      "wordId": "family",
+      "skillId": "describing",
+      "prompt": "Собери предложение",
+      "answer": "My family is big.",
+      "options": [],
+      "hint": {
+        "translation": "Моя семья большая.",
+        "explanation": "Сначала назови человека или семью. Затем поставь is и признак: My brother is tall. В таких предложениях is связывает человека и его описание.",
+        "steps": [
+          "Прочитай русский смысл: Моя семья большая.",
+          "Вспомни правило: Сначала назови человека или семью. Затем поставь is и признак: My brother is tall. В таких предложениях is связывает человека и его описание.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "My brother is tall."
+      }
+    },
+    {
+      "id": "family-description-sentence-2",
+      "type": "sentence",
+      "wordId": "tall",
+      "skillId": "describing",
+      "prompt": "Собери предложение",
+      "answer": "My brother is tall.",
+      "options": [],
+      "hint": {
+        "translation": "Мой брат высокий.",
+        "explanation": "Сначала назови человека или семью. Затем поставь is и признак: My brother is tall. В таких предложениях is связывает человека и его описание.",
+        "steps": [
+          "Прочитай русский смысл: Мой брат высокий.",
+          "Вспомни правило: Сначала назови человека или семью. Затем поставь is и признак: My brother is tall. В таких предложениях is связывает человека и его описание.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "My sister is small."
+      }
+    },
+    {
+      "id": "family-description-sentence-3",
+      "type": "sentence",
+      "wordId": "small",
+      "skillId": "describing",
+      "prompt": "Собери предложение",
+      "answer": "My sister is small.",
+      "options": [],
+      "hint": {
+        "translation": "Моя сестра маленькая.",
+        "explanation": "Сначала назови человека или семью. Затем поставь is и признак: My brother is tall. В таких предложениях is связывает человека и его описание.",
+        "steps": [
+          "Прочитай русский смысл: Моя сестра маленькая.",
+          "Вспомни правило: Сначала назови человека или семью. Затем поставь is и признак: My brother is tall. В таких предложениях is связывает человека и его описание.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "My family is big."
+      }
+    }
+  ]
+}

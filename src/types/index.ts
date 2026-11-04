@@ -48,6 +48,10 @@ export interface AudioAsset {
   sha256: string;
 }
 export interface Lesson {
+  module: string;
+  description: string;
+  source: string;
+  coverWordId: string;
   id: string;
   title: string;
   subtitle: string;
@@ -69,6 +73,8 @@ export interface SkillProgress {
 }
 export interface LearningProgress {
   schemaVersion: 1;
+  completedRuns?: number;
+  lastCompletedAt?: number;
   lessonId: string;
   currentExerciseId: string | null;
   completed: string[];
@@ -83,4 +89,10 @@ export interface LearningProgress {
   remedialDone: string[];
   settings: { slow: boolean; reduceMotion: boolean };
   updatedAt: number;
+}
+
+export interface ProgressBundle {
+  schemaVersion: 2;
+  selectedLessonId: string;
+  lessons: LearningProgress[];
 }

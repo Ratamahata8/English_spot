@@ -1,0 +1,544 @@
+{
+  "id": "whose-toys",
+  "title": "Whose Toy Is This?",
+  "subtitle": "Spotlight 3 · Unit 7 · чья это вещь",
+  "module": "Модуль 4 · Игрушки и комната",
+  "source": "Unit 7 · чья это вещь",
+  "description": "Спрашиваем о владельце игрушек.",
+  "coverWordId": "aeroplane",
+  "vocabulary": [
+    {
+      "id": "aeroplane",
+      "en": "aeroplane",
+      "ru": "самолёт",
+      "ipa": "/ˈeərəpleɪn/",
+      "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «aeroplane» — «самолёт».",
+      "example": "It is an aeroplane.",
+      "image": "illustrations/aeroplane.svg"
+    },
+    {
+      "id": "elephant",
+      "en": "elephant",
+      "ru": "слон",
+      "ipa": "/ˈelɪfənt/",
+      "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «elephant» — «слон».",
+      "example": "It is an elephant.",
+      "image": "illustrations/elephant.svg"
+    },
+    {
+      "id": "musical-box",
+      "en": "musical box",
+      "ru": "музыкальная шкатулка",
+      "ipa": "/ˈmjuːzɪkəl bɒks/",
+      "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «musical box» — «музыкальная шкатулка».",
+      "example": "It is a musical box.",
+      "image": "illustrations/musical-box.svg"
+    },
+    {
+      "id": "rocking-horse",
+      "en": "rocking horse",
+      "ru": "лошадка-качалка",
+      "ipa": "/ˈrɒkɪŋ hɔːs/",
+      "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «rocking horse» — «лошадка-качалка».",
+      "example": "It is a rocking horse.",
+      "image": "illustrations/rocking-horse.svg"
+    },
+    {
+      "id": "tea-set",
+      "en": "tea set",
+      "ru": "чайный сервиз",
+      "ipa": "/ˈtiː set/",
+      "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «tea set» — «чайный сервиз».",
+      "example": "It is a tea set.",
+      "image": "illustrations/tea-set.svg"
+    },
+    {
+      "id": "train",
+      "en": "train",
+      "ru": "поезд",
+      "ipa": "/treɪn/",
+      "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «train» — «поезд».",
+      "example": "This is my train.",
+      "image": "illustrations/train.svg"
+    }
+  ],
+  "lexicon": [],
+  "grammar": [
+    {
+      "id": "possession",
+      "title": "Чья вещь: имя + апостроф и s",
+      "text": "Whose означает «чей». Sam's train — поезд Сэма: к имени добавили апостроф и s. Это не множественное число. His — «его», her — «её». Поставь владельца перед названием игрушки.",
+      "examples": ["It is Sam's train.", "Whose train is this?", "This is her elephant."]
+    }
+  ],
+  "remedial": [
+    {
+      "id": "possession",
+      "title": "Чья вещь: имя + апостроф и s",
+      "available": true,
+      "explanation": "Whose означает «чей». Sam's train — поезд Сэма: к имени добавили апостроф и s. Это не множественное число. His — «его», her — «её». Поставь владельца перед названием игрушки.",
+      "example": "It is Sam's train.",
+      "question": "Что означает Sam's train?",
+      "answer": "поезд Сэма",
+      "options": ["поезд Сэма", "несколько поездов"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "whose-toys-study-aeroplane",
+      "type": "study",
+      "wordId": "aeroplane",
+      "skillId": "aeroplane",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "aeroplane",
+      "options": ["aeroplane", "elephant", "musical-box", "rocking-horse"],
+      "hint": {
+        "translation": "самолёт",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «aeroplane» — «самолёт».",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "It is an elephant."
+      }
+    },
+    {
+      "id": "whose-toys-study-elephant",
+      "type": "study",
+      "wordId": "elephant",
+      "skillId": "elephant",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "elephant",
+      "options": ["elephant", "musical-box", "rocking-horse", "tea-set"],
+      "hint": {
+        "translation": "слон",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «elephant» — «слон».",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "It is a musical box."
+      }
+    },
+    {
+      "id": "whose-toys-study-musical-box",
+      "type": "study",
+      "wordId": "musical-box",
+      "skillId": "musical-box",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "musical box",
+      "options": ["musical-box", "rocking-horse", "tea-set", "train"],
+      "hint": {
+        "translation": "музыкальная шкатулка",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «musical box» — «музыкальная шкатулка».",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "It is a rocking horse."
+      }
+    },
+    {
+      "id": "whose-toys-study-rocking-horse",
+      "type": "study",
+      "wordId": "rocking-horse",
+      "skillId": "rocking-horse",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "rocking horse",
+      "options": ["rocking-horse", "tea-set", "train", "aeroplane"],
+      "hint": {
+        "translation": "лошадка-качалка",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «rocking horse» — «лошадка-качалка».",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "It is a tea set."
+      }
+    },
+    {
+      "id": "whose-toys-study-tea-set",
+      "type": "study",
+      "wordId": "tea-set",
+      "skillId": "tea-set",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "tea set",
+      "options": ["tea-set", "train", "aeroplane", "elephant"],
+      "hint": {
+        "translation": "чайный сервиз",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «tea set» — «чайный сервиз».",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "This is my train."
+      }
+    },
+    {
+      "id": "whose-toys-study-train",
+      "type": "study",
+      "wordId": "train",
+      "skillId": "train",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "train",
+      "options": ["train", "aeroplane", "elephant", "musical-box"],
+      "hint": {
+        "translation": "поезд",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «train» — «поезд».",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "It is an aeroplane."
+      }
+    },
+    {
+      "id": "whose-toys-picture-aeroplane",
+      "type": "picture",
+      "wordId": "aeroplane",
+      "skillId": "aeroplane",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "aeroplane",
+      "options": ["aeroplane", "elephant", "musical-box", "rocking-horse"],
+      "hint": {
+        "translation": "самолёт",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «aeroplane» — «самолёт».",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "It is an elephant."
+      }
+    },
+    {
+      "id": "whose-toys-picture-elephant",
+      "type": "picture",
+      "wordId": "elephant",
+      "skillId": "elephant",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "elephant",
+      "options": ["elephant", "musical-box", "rocking-horse", "tea-set"],
+      "hint": {
+        "translation": "слон",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «elephant» — «слон».",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "It is a musical box."
+      }
+    },
+    {
+      "id": "whose-toys-picture-musical-box",
+      "type": "picture",
+      "wordId": "musical-box",
+      "skillId": "musical-box",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "musical box",
+      "options": ["musical-box", "rocking-horse", "tea-set", "train"],
+      "hint": {
+        "translation": "музыкальная шкатулка",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «musical box» — «музыкальная шкатулка».",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "It is a rocking horse."
+      }
+    },
+    {
+      "id": "whose-toys-picture-rocking-horse",
+      "type": "picture",
+      "wordId": "rocking-horse",
+      "skillId": "rocking-horse",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "rocking horse",
+      "options": ["rocking-horse", "tea-set", "train", "aeroplane"],
+      "hint": {
+        "translation": "лошадка-качалка",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «rocking horse» — «лошадка-качалка».",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "It is a tea set."
+      }
+    },
+    {
+      "id": "whose-toys-picture-tea-set",
+      "type": "picture",
+      "wordId": "tea-set",
+      "skillId": "tea-set",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "tea set",
+      "options": ["tea-set", "train", "aeroplane", "elephant"],
+      "hint": {
+        "translation": "чайный сервиз",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «tea set» — «чайный сервиз».",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "This is my train."
+      }
+    },
+    {
+      "id": "whose-toys-picture-train",
+      "type": "picture",
+      "wordId": "train",
+      "skillId": "train",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "train",
+      "options": ["train", "aeroplane", "elephant", "musical-box"],
+      "hint": {
+        "translation": "поезд",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «train» — «поезд».",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "It is an aeroplane."
+      }
+    },
+    {
+      "id": "whose-toys-word-aeroplane",
+      "type": "word",
+      "wordId": "aeroplane",
+      "skillId": "aeroplane",
+      "prompt": "Как это называется по-английски?",
+      "answer": "aeroplane",
+      "options": ["aeroplane", "elephant", "musical-box", "rocking-horse"],
+      "hint": {
+        "translation": "самолёт",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «aeroplane» — «самолёт».",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "It is an elephant."
+      }
+    },
+    {
+      "id": "whose-toys-word-elephant",
+      "type": "word",
+      "wordId": "elephant",
+      "skillId": "elephant",
+      "prompt": "Как это называется по-английски?",
+      "answer": "elephant",
+      "options": ["elephant", "musical-box", "rocking-horse", "tea-set"],
+      "hint": {
+        "translation": "слон",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «elephant» — «слон».",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "It is a musical box."
+      }
+    },
+    {
+      "id": "whose-toys-word-musical-box",
+      "type": "word",
+      "wordId": "musical-box",
+      "skillId": "musical-box",
+      "prompt": "Как это называется по-английски?",
+      "answer": "musical box",
+      "options": ["musical-box", "rocking-horse", "tea-set", "train"],
+      "hint": {
+        "translation": "музыкальная шкатулка",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «musical box» — «музыкальная шкатулка».",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "It is a rocking horse."
+      }
+    },
+    {
+      "id": "whose-toys-word-rocking-horse",
+      "type": "word",
+      "wordId": "rocking-horse",
+      "skillId": "rocking-horse",
+      "prompt": "Как это называется по-английски?",
+      "answer": "rocking horse",
+      "options": ["rocking-horse", "tea-set", "train", "aeroplane"],
+      "hint": {
+        "translation": "лошадка-качалка",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «rocking horse» — «лошадка-качалка».",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "It is a tea set."
+      }
+    },
+    {
+      "id": "whose-toys-word-tea-set",
+      "type": "word",
+      "wordId": "tea-set",
+      "skillId": "tea-set",
+      "prompt": "Как это называется по-английски?",
+      "answer": "tea set",
+      "options": ["tea-set", "train", "aeroplane", "elephant"],
+      "hint": {
+        "translation": "чайный сервиз",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «tea set» — «чайный сервиз».",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "This is my train."
+      }
+    },
+    {
+      "id": "whose-toys-word-train",
+      "type": "word",
+      "wordId": "train",
+      "skillId": "train",
+      "prompt": "Как это называется по-английски?",
+      "answer": "train",
+      "options": ["train", "aeroplane", "elephant", "musical-box"],
+      "hint": {
+        "translation": "поезд",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «train» — «поезд».",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "It is an aeroplane."
+      }
+    },
+    {
+      "id": "whose-toys-letters-aeroplane",
+      "type": "letters",
+      "wordId": "aeroplane",
+      "skillId": "aeroplane",
+      "prompt": "Собери слово из букв",
+      "answer": "aeroplane",
+      "options": ["aeroplane", "elephant", "musical-box", "rocking-horse"],
+      "hint": {
+        "translation": "самолёт",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «aeroplane» — «самолёт».",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "It is an elephant."
+      }
+    },
+    {
+      "id": "whose-toys-letters-elephant",
+      "type": "letters",
+      "wordId": "elephant",
+      "skillId": "elephant",
+      "prompt": "Собери слово из букв",
+      "answer": "elephant",
+      "options": ["elephant", "musical-box", "rocking-horse", "tea-set"],
+      "hint": {
+        "translation": "слон",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «elephant» — «слон».",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "It is a musical box."
+      }
+    },
+    {
+      "id": "whose-toys-letters-train",
+      "type": "letters",
+      "wordId": "train",
+      "skillId": "train",
+      "prompt": "Собери слово из букв",
+      "answer": "train",
+      "options": ["train", "aeroplane", "elephant", "musical-box"],
+      "hint": {
+        "translation": "поезд",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «train» — «поезд».",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "It is an aeroplane."
+      }
+    },
+    {
+      "id": "whose-toys-sentence-1",
+      "type": "sentence",
+      "wordId": "train",
+      "skillId": "possession",
+      "prompt": "Собери предложение",
+      "answer": "It is Sam's train.",
+      "options": [],
+      "hint": {
+        "translation": "Это поезд Сэма.",
+        "explanation": "Whose означает «чей». Sam's train — поезд Сэма: к имени добавили апостроф и s. Это не множественное число. His — «его», her — «её». Поставь владельца перед названием игрушки.",
+        "steps": [
+          "Вспомни смысл: Это поезд Сэма.",
+          "Выбери начало по правилу: Whose означает «чей». Sam's train — поезд Сэма: к имени добавили апостроф и s. Это не множественное число. His — «его», her — «её». Поставь владельца перед названием игрушки.",
+          "Проверь, что предмет и действие стоят на своих местах."
+        ],
+        "example": "It is Sam's train."
+      }
+    },
+    {
+      "id": "whose-toys-sentence-2",
+      "type": "sentence",
+      "wordId": "train",
+      "skillId": "possession",
+      "prompt": "Собери предложение",
+      "answer": "Whose train is this?",
+      "options": [],
+      "hint": {
+        "translation": "Чей это поезд?",
+        "explanation": "Whose означает «чей». Sam's train — поезд Сэма: к имени добавили апостроф и s. Это не множественное число. His — «его», her — «её». Поставь владельца перед названием игрушки.",
+        "steps": [
+          "Вспомни смысл: Чей это поезд?",
+          "Выбери начало по правилу: Whose означает «чей». Sam's train — поезд Сэма: к имени добавили апостроф и s. Это не множественное число. His — «его», her — «её». Поставь владельца перед названием игрушки.",
+          "Проверь, что предмет и действие стоят на своих местах."
+        ],
+        "example": "It is Sam's train."
+      }
+    },
+    {
+      "id": "whose-toys-sentence-3",
+      "type": "sentence",
+      "wordId": "elephant",
+      "skillId": "possession",
+      "prompt": "Собери предложение",
+      "answer": "This is her elephant.",
+      "options": [],
+      "hint": {
+        "translation": "Это её слон.",
+        "explanation": "Whose означает «чей». Sam's train — поезд Сэма: к имени добавили апостроф и s. Это не множественное число. His — «его», her — «её». Поставь владельца перед названием игрушки.",
+        "steps": [
+          "Вспомни смысл: Это её слон.",
+          "Выбери начало по правилу: Whose означает «чей». Sam's train — поезд Сэма: к имени добавили апостроф и s. Это не множественное число. His — «его», her — «её». Поставь владельца перед названием игрушки.",
+          "Проверь, что предмет и действие стоят на своих местах."
+        ],
+        "example": "It is Sam's train."
+      }
+    }
+  ]
+}

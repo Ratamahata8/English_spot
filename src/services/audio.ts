@@ -9,7 +9,9 @@ export async function playAudio(text: string, slow = false): Promise<void> {
     active.pause();
     active.currentTime = 0;
   }
-  const audio = new Audio(`${import.meta.env.BASE_URL}audio/en-GB/${asset.path}`);
+  const audio = new Audio(
+    `${import.meta.env.BASE_URL}audio/en-GB/${asset.path}?v=${asset.sha256.slice(0, 12)}`,
+  );
   audio.playbackRate = slow ? 0.75 : 1;
   audio.preservesPitch = true;
   active = audio;

@@ -15,6 +15,7 @@ async def main():
     parser.add_argument('--force',action='store_true')
     parser.add_argument('--engine', choices=['edge','espeak'],default='edge')
     parser.add_argument('--limit',type=int)
+    parser.add_argument('--prune',action='store_true',help='Remove manifest entries and recordings no longer referenced by content')
     args=parser.parse_args()
     OUT.mkdir(parents=True,exist_ok=True)
     target=OUT/'manifest.json'
@@ -51,6 +52,19 @@ async def main():
         pending.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
         pending.replace(target)
         print(f'{len(manifest)}/{len(texts())}: {text}',flush=True)
+    if args.prune:
+        if args.limit is not None:
+            raise ValueError('--prune cannot be combined with --limit')
+        expected=set(texts())
+        stale=[manifest.pop(text) for text in list(manifest) if text not in expected]
+        retained={a['path'] for a in manifest.values()}
+        for asset in stale:
+            if asset['path'] not in retained:
+                (OUT/asset['path']).unlink(missing_ok=True)
+        pending=target.with_suffix('.tmp')
+        pending.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
+        pending.replace(target)
+        print(f'Removed unused recordings: {len(stale)}')
 if __name__=='__main__':
     try:
         asyncio.run(main())

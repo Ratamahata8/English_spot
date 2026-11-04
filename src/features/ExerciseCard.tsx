@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { lesson, byId } from '../lessons';
+import { getLesson, byId } from '../lessons';
 import { useProgress } from '../stores/progress';
 import {
   checkAnswer,
@@ -33,6 +33,7 @@ export function ExerciseCard({
   review: boolean;
 }) {
   const { progress: p, update } = useProgress();
+  const lesson = getLesson(p.lessonId);
   const [selected, setSelected] = useState('');
   const [indices, setIndices] = useState<number[]>([]);
   const [result, setResult] = useState<'correct' | 'wrong' | null>(null);
@@ -44,7 +45,7 @@ export function ExerciseCard({
   const [busy, setBusy] = useState(false);
   const [repeats, setRepeats] = useState(0);
   const hintBaseline = useRef(p.hintCount);
-  const w = byId(e.wordId);
+  const w = lesson.vocabulary.find((word) => word.id === e.wordId) || byId(e.wordId);
   const isArrange = e.type === 'letters' || e.type === 'sentence';
   const pieces = shuffled(
     e.type === 'letters' ? e.answer.split('') : e.answer.replace('.', '').split(' '),
@@ -99,7 +100,7 @@ export function ExerciseCard({
   };
   return (
     <>
-      <section className="exercise panel" aria-labelledby="exercise-title">
+      <section className="exercise panel" aria-labelledby="exercise-title" data-exercise={e.id}>
         <div className="exercise-meta">
           <span className="eyebrow">
             {
@@ -171,17 +172,7 @@ export function ExerciseCard({
                 <EnglishText text={w.en} />
               </div>
             )}
-            {e.type === 'sentence' && (
-              <p className="sentence-target">
-                Это{' '}
-                {w.id === 'school-bag'
-                  ? 'мой школьный портфель'
-                  : w.id === 'pencil'
-                    ? 'мой карандаш'
-                    : 'моя книга'}
-                .
-              </p>
-            )}
+            {e.type === 'sentence' && <p className="sentence-target">{e.hint.translation}</p>}
             {e.type !== 'picture' && (
               <AudioButton
                 text={e.type === 'sentence' ? e.answer : w.en}
@@ -273,8 +264,7 @@ export function ExerciseCard({
                     <strong>Отлично, получилось! ✨</strong>
                     {e.type === 'sentence' && (
                       <p>
-                        Сначала This is — «это», затем my — «мой», в конце — предмет.{' '}
-                        <EnglishText text={e.answer} />
+                        {e.hint.explanation} <EnglishText text={e.answer} />
                       </p>
                     )}
                   </>
