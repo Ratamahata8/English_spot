@@ -1,0 +1,922 @@
+[
+  {
+    "id": "rascal-intro",
+    "title": "Знакомься: Arthur + Rascal",
+    "page": 24,
+    "module": 1,
+    "lessonIds": ["welcome", "school-1a"],
+    "kind": "comic",
+    "image": "textbook/page-24.webp",
+    "lines": [
+      {
+        "id": "rascal-intro-1",
+        "en": "Hello. My name's Arthur.",
+        "ru": "Привет. Меня зовут Артур.",
+        "why": "My name’s — это my name is: «моё имя — …». Апостроф заменил букву i, а не обозначил владельца.",
+        "box": [38, 24, 30, 5],
+        "chunks": [
+          {
+            "en": "My name's",
+            "ru": "Меня зовут"
+          }
+        ]
+      },
+      {
+        "id": "rascal-intro-2",
+        "en": "Hi! I'm Rascal. I live with Arthur.",
+        "ru": "Привет! Я Раскал. Я живу с Артуром.",
+        "why": "I’m — короткое I am. I live означает «я живу», а with Arthur — «с Артуром».",
+        "box": [25, 53, 38, 6],
+        "chunks": [
+          {
+            "en": "I'm",
+            "ru": "Я …"
+          },
+          {
+            "en": "with Arthur",
+            "ru": "с Артуром"
+          }
+        ]
+      },
+      {
+        "id": "rascal-intro-3",
+        "en": "And my name's Tricksy! I live next door!",
+        "ru": "А меня зовут Трикси! Я живу по соседству!",
+        "why": "Next door — целое выражение «по соседству». Не нужно переводить его как «следующая дверь».",
+        "box": [43, 88, 47, 6],
+        "chunks": [
+          {
+            "en": "next door",
+            "ru": "по соседству"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rascal-1",
+    "title": "Arthur + Rascal · Episode 1",
+    "page": 42,
+    "module": 2,
+    "lessonIds": ["family", "family-description"],
+    "kind": "comic",
+    "image": "textbook/page-42.webp",
+    "lines": [
+      {
+        "id": "rascal-1-1",
+        "en": "Come on, Arthur. Let's go for Rascal!",
+        "ru": "Пойдём, Артур. Давай заберём Раскала!",
+        "why": "Let’s = let us: так предлагают сделать что-то вместе. Go for Rascal здесь значит «забрать Раскала».",
+        "box": [19, 35, 25, 7],
+        "chunks": [
+          {
+            "en": "Let's",
+            "ru": "Давай / давайте"
+          },
+          {
+            "en": "go for Rascal",
+            "ru": "заберём Раскала"
+          }
+        ]
+      },
+      {
+        "id": "rascal-1-2",
+        "en": "Hello, Rascal. Time to go home!",
+        "ru": "Привет, Раскал. Пора идти домой!",
+        "why": "Time to + действие значит «пора …». Перед home в go home предлог to не нужен.",
+        "box": [65, 16, 28, 8],
+        "chunks": [
+          {
+            "en": "Time to",
+            "ru": "Пора"
+          },
+          {
+            "en": "go home",
+            "ru": "идти домой"
+          }
+        ]
+      },
+      {
+        "id": "rascal-1-3",
+        "en": "Oh, good!",
+        "ru": "О, здорово!",
+        "why": "Oh передаёт эмоцию, а good здесь — радость от хорошей новости.",
+        "box": [79, 38, 15, 5],
+        "chunks": [
+          {
+            "en": "good",
+            "ru": "здорово"
+          }
+        ]
+      },
+      {
+        "id": "rascal-1-4",
+        "en": "Sit, Rascal. Sit!",
+        "ru": "Сидеть, Раскал. Сидеть!",
+        "why": "Команда начинается сразу с действия: Sit! Слово you в такой команде обычно не произносят.",
+        "box": [36, 45, 18, 5],
+        "chunks": [
+          {
+            "en": "Sit",
+            "ru": "Сидеть"
+          }
+        ]
+      },
+      {
+        "id": "rascal-1-5",
+        "en": "Oh, oh!",
+        "ru": "Ой-ой!",
+        "why": "Это междометие: Раскал чувствует, что сейчас что-то случится.",
+        "box": [43, 50, 14, 5],
+        "chunks": [
+          {
+            "en": "Oh, oh!",
+            "ru": "Ой-ой!"
+          }
+        ]
+      },
+      {
+        "id": "rascal-1-6",
+        "en": "Huh! Well done, Rascal!",
+        "ru": "Хм! Молодец, Раскал!",
+        "why": "Well done — готовая похвала «молодец», а не буквальное «хорошо сделан».",
+        "box": [18, 62, 32, 5],
+        "chunks": [
+          {
+            "en": "Well done",
+            "ru": "Молодец"
+          }
+        ]
+      },
+      {
+        "id": "rascal-1-7",
+        "en": "One, two, ...? Quick. Get the fish, Rascal!",
+        "ru": "Один, два…? Быстрее. Лови рыбу, Раскал!",
+        "why": "Quick! здесь значит «быстрее!». Get the fish — достань или поймай эту рыбу: значение get зависит от ситуации.",
+        "box": [50, 39, 29, 7],
+        "chunks": [
+          {
+            "en": "Get the fish",
+            "ru": "Лови рыбу"
+          },
+          {
+            "en": "Quick",
+            "ru": "Быстрее"
+          }
+        ]
+      },
+      {
+        "id": "rascal-1-8",
+        "en": "Hee, hee!",
+        "ru": "Хи-хи!",
+        "why": "Так в английских комиксах записывают смешок. Это звук, а не обычное предложение.",
+        "box": [71, 58, 15, 4],
+        "chunks": [
+          {
+            "en": "Hee, hee!",
+            "ru": "Хи-хи!"
+          }
+        ]
+      },
+      {
+        "id": "rascal-1-9",
+        "en": "Drop it, Tricksy!",
+        "ru": "Брось это, Трикси!",
+        "why": "Drop — команда «брось». It заменяет рыбу, о которой уже известно из рисунка.",
+        "box": [23, 86, 20, 5],
+        "chunks": [
+          {
+            "en": "Drop it",
+            "ru": "Брось это"
+          }
+        ]
+      },
+      {
+        "id": "rascal-1-10",
+        "en": "No! Agh!",
+        "ru": "Нет! А-а!",
+        "why": "No выражает протест. Agh передаёт крик, поэтому дословно разбирать его не нужно.",
+        "box": [42, 66, 14, 5],
+        "chunks": [
+          {
+            "en": "No",
+            "ru": "Нет"
+          }
+        ]
+      },
+      {
+        "id": "rascal-1-11",
+        "en": "Good boy, Rascal!",
+        "ru": "Молодец, Раскал!",
+        "why": "Good boy — обычная похвала псу. В этой ситуации естественный русский перевод — «молодец».",
+        "box": [69, 68, 22, 5],
+        "chunks": [
+          {
+            "en": "Good boy",
+            "ru": "Молодец"
+          }
+        ]
+      },
+      {
+        "id": "rascal-1-12",
+        "en": "Thanks, Arthur!",
+        "ru": "Спасибо, Артур!",
+        "why": "Thanks — короткий дружеский способ сказать thank you: «спасибо».",
+        "box": [65, 88, 23, 5],
+        "chunks": [
+          {
+            "en": "Thanks",
+            "ru": "Спасибо"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rascal-2",
+    "title": "Arthur + Rascal · Episode 2",
+    "page": 58,
+    "module": 3,
+    "lessonIds": ["food-likes", "lunch"],
+    "kind": "comic",
+    "image": "textbook/page-58.webp",
+    "lines": [
+      {
+        "id": "rascal-2-1",
+        "en": "Catch the ball, Rascal!",
+        "ru": "Лови мяч, Раскал!",
+        "why": "Catch — команда «лови». The ball — конкретный мяч, который мы видим в истории.",
+        "box": [13, 19, 29, 5],
+        "chunks": [
+          {
+            "en": "Catch",
+            "ru": "Лови"
+          },
+          {
+            "en": "the ball",
+            "ru": "этот мяч"
+          }
+        ]
+      },
+      {
+        "id": "rascal-2-2",
+        "en": "Oh, oh!!",
+        "ru": "Ой-ой!",
+        "why": "Раскал предчувствует неприятность. Это эмоциональный возглас, без скрытого правила.",
+        "box": [44, 27, 12, 5],
+        "chunks": [
+          {
+            "en": "Oh, oh!!",
+            "ru": "Ой-ой!"
+          }
+        ]
+      },
+      {
+        "id": "rascal-2-3",
+        "en": "Whose ball is this? Aha!",
+        "ru": "Чей это мяч? Ага!",
+        "why": "Whose спрашивает о владельце: «чей?». Не путай с who’s — сокращением who is («кто?»).",
+        "box": [65, 33, 28, 5],
+        "chunks": [
+          {
+            "en": "Whose",
+            "ru": "Чей"
+          }
+        ]
+      },
+      {
+        "id": "rascal-2-4",
+        "en": "Here's your ball, boys!",
+        "ru": "Вот ваш мяч, ребята!",
+        "why": "Here’s = here is: «вот». Your может означать и «твой», и «ваш»; здесь обращаются к двум друзьям.",
+        "box": [23, 43, 29, 5],
+        "chunks": [
+          {
+            "en": "Here's",
+            "ru": "Вот"
+          },
+          {
+            "en": "your",
+            "ru": "ваш"
+          }
+        ]
+      },
+      {
+        "id": "rascal-2-5",
+        "en": "Oh, no!",
+        "ru": "О нет!",
+        "why": "Oh усиливает эмоцию. Герой понимает, что произойдёт неприятность.",
+        "box": [26, 54, 12, 5],
+        "chunks": [
+          {
+            "en": "Oh, no!",
+            "ru": "О нет!"
+          }
+        ]
+      },
+      {
+        "id": "rascal-2-6",
+        "en": "Play with this ball, Tricksy!",
+        "ru": "Поиграй с этим мячом, Трикси!",
+        "why": "Play with — играть с чем-то. This ball означает «этот мяч», который сейчас предлагают.",
+        "box": [64, 43, 29, 5],
+        "chunks": [
+          {
+            "en": "Play with",
+            "ru": "Поиграй с"
+          },
+          {
+            "en": "this ball",
+            "ru": "этим мячом"
+          }
+        ]
+      },
+      {
+        "id": "rascal-2-7",
+        "en": "Help!",
+        "ru": "Помогите!",
+        "why": "Help! — короткий призыв о помощи. Одного слова достаточно.",
+        "box": [30, 69, 12, 5],
+        "chunks": [
+          {
+            "en": "Help",
+            "ru": "Помогите"
+          }
+        ]
+      },
+      {
+        "id": "rascal-2-8",
+        "en": "Come on, boys, bath time!",
+        "ru": "Пойдёмте, ребята, пора купаться!",
+        "why": "Come on здесь приглашает идти. Bath time — короткое «время купаться», полное предложение не обязательно.",
+        "box": [41, 71, 33, 5],
+        "chunks": [
+          {
+            "en": "bath time",
+            "ru": "пора купаться"
+          }
+        ]
+      },
+      {
+        "id": "rascal-2-9",
+        "en": "Hee, hee!",
+        "ru": "Хи-хи!",
+        "why": "Это запись смешка. Трикси смеётся над тем, что друзьям придётся купаться.",
+        "box": [80, 67, 14, 5],
+        "chunks": [
+          {
+            "en": "Hee, hee!",
+            "ru": "Хи-хи!"
+          }
+        ]
+      },
+      {
+        "id": "rascal-2-10",
+        "en": "Oh, oh!!",
+        "ru": "Ой-ой!",
+        "why": "Повтор того же возгласа: Раскал снова ждёт неприятность.",
+        "box": [75, 85, 14, 5],
+        "chunks": [
+          {
+            "en": "Oh, oh!!",
+            "ru": "Ой-ой!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rascal-3",
+    "title": "Arthur + Rascal · Episode 3",
+    "page": 76,
+    "module": 4,
+    "lessonIds": ["toys", "whose-toys", "room"],
+    "kind": "comic",
+    "image": "textbook/page-76.webp",
+    "lines": [
+      {
+        "id": "rascal-3-1",
+        "en": "Here you are, Rascal.",
+        "ru": "Вот, держи, Раскал.",
+        "why": "Here you are говорят, когда что-то дают. В этой сцене это «вот, держи», а не «здесь ты находишься».",
+        "box": [16, 20, 27, 4],
+        "chunks": [
+          {
+            "en": "Here you are",
+            "ru": "Вот, держи"
+          }
+        ]
+      },
+      {
+        "id": "rascal-3-2",
+        "en": "Oh, goody!",
+        "ru": "Ура, здорово!",
+        "why": "Goody! — радостный, немного детский возглас. Здесь герой радуется игрушке.",
+        "box": [20, 38, 18, 4],
+        "chunks": [
+          {
+            "en": "goody",
+            "ru": "ура, здорово"
+          }
+        ]
+      },
+      {
+        "id": "rascal-3-3",
+        "en": "Arthur, I've got a new toy!",
+        "ru": "Артур, у меня новая игрушка!",
+        "why": "I’ve got = I have got: «у меня есть». A new toy — одна новая игрушка, о которой говорят впервые.",
+        "box": [44, 26, 33, 4],
+        "chunks": [
+          {
+            "en": "I've got",
+            "ru": "У меня есть"
+          },
+          {
+            "en": "a new toy",
+            "ru": "новая игрушка"
+          }
+        ]
+      },
+      {
+        "id": "rascal-3-4",
+        "en": "What is it?",
+        "ru": "Что это?",
+        "why": "Вопрос начинается с What, потом идут is и it. В обычном утверждении порядок другой: It is …",
+        "box": [76, 34, 16, 5],
+        "chunks": [
+          {
+            "en": "What",
+            "ru": "Что"
+          },
+          {
+            "en": "it",
+            "ru": "это"
+          }
+        ]
+      },
+      {
+        "id": "rascal-3-5",
+        "en": "I don't know, but it's a lot of fun!",
+        "ru": "Я не знаю, но с ней очень весело!",
+        "why": "Don’t = do not; it’s = it is. A lot of fun — «очень весело». It здесь относится к игрушке, поэтому переводим по смыслу.",
+        "box": [10, 42, 24, 6],
+        "chunks": [
+          {
+            "en": "don't know",
+            "ru": "не знаю"
+          },
+          {
+            "en": "a lot of fun",
+            "ru": "очень весело"
+          }
+        ]
+      },
+      {
+        "id": "rascal-3-6",
+        "en": "Be careful, Rascal!",
+        "ru": "Осторожно, Раскал!",
+        "why": "Be careful — предупреждение «будь осторожен». Be нужно перед careful, потому что careful — признак, а не действие.",
+        "box": [41, 45, 26, 4],
+        "chunks": [
+          {
+            "en": "Be careful",
+            "ru": "Будь осторожен"
+          }
+        ]
+      },
+      {
+        "id": "rascal-3-7",
+        "en": "Oh, oh!",
+        "ru": "Ой-ой!",
+        "why": "Это реакция на разбитое окно. Междометие передаёт тревогу.",
+        "box": [73, 54, 14, 5],
+        "chunks": [
+          {
+            "en": "Oh, oh!",
+            "ru": "Ой-ой!"
+          }
+        ]
+      },
+      {
+        "id": "rascal-3-8",
+        "en": "Where's that silly dog?",
+        "ru": "Где этот глупый пёс?",
+        "why": "Where’s = where is: «где?». That dog — тот самый пёс, о котором говорят. Silly здесь означает «глупый».",
+        "box": [13, 85, 29, 4],
+        "chunks": [
+          {
+            "en": "Where's",
+            "ru": "Где"
+          },
+          {
+            "en": "silly dog",
+            "ru": "глупый пёс"
+          }
+        ]
+      },
+      {
+        "id": "rascal-3-9",
+        "en": "Tricksy! You naughty cat!",
+        "ru": "Трикси! Ах ты проказник!",
+        "why": "You naughty cat! — эмоциональное обращение к коту: «Ах ты непослушный кот!» Здесь это не обычное предложение с действием.",
+        "box": [47, 83, 31, 5],
+        "chunks": [
+          {
+            "en": "naughty",
+            "ru": "непослушный, проказливый"
+          }
+        ]
+      },
+      {
+        "id": "rascal-3-10",
+        "en": "Hee, hee! My new toy's great!",
+        "ru": "Хи-хи! Моя новая игрушка — просто чудо!",
+        "why": "Toy’s здесь = toy is: «игрушка — …». После сокращения стоит great («отличная»), поэтому это не обозначение владельца.",
+        "box": [65, 67, 27, 6],
+        "chunks": [
+          {
+            "en": "toy's great",
+            "ru": "игрушка отличная"
+          },
+          {
+            "en": "Hee, hee!",
+            "ru": "Хи-хи!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "school-chat",
+    "title": "School again! · Разговор",
+    "page": 10,
+    "module": 1,
+    "lessonIds": ["school-1a", "welcome"],
+    "kind": "dialogue",
+    "image": "textbook/page-10.webp",
+    "lines": [
+      {
+        "id": "school-chat-1",
+        "en": "What's this?",
+        "ru": "Что это?",
+        "why": "What’s = what is. This указывает на предмет рядом: «это».",
+        "box": [10, 54, 17, 4],
+        "chunks": [
+          {
+            "en": "What's this",
+            "ru": "Что это"
+          }
+        ]
+      },
+      {
+        "id": "school-chat-2",
+        "en": "It's a school bag!",
+        "ru": "Это школьный портфель!",
+        "why": "It’s = it is. A стоит перед одним предметом: a school bag. School bag — два слова, но один предмет.",
+        "box": [31, 54, 22, 5],
+        "chunks": [
+          {
+            "en": "a school bag",
+            "ru": "школьный портфель"
+          }
+        ]
+      },
+      {
+        "id": "school-chat-3",
+        "en": "What's your name?",
+        "ru": "Как тебя зовут?",
+        "why": "Буквально: «Какое твоё имя?» Your name — «твоё имя». По-русски естественно говорить «Как тебя зовут?».",
+        "box": [65, 61, 25, 5],
+        "chunks": [
+          {
+            "en": "your name",
+            "ru": "твоё имя"
+          }
+        ]
+      },
+      {
+        "id": "school-chat-4",
+        "en": "M-A-Y-A.",
+        "ru": "М-А-Й-Я.",
+        "why": "Имя произносят по английским названиям букв: em, ay, why, ay. Это помогает уточнить написание имени.",
+        "box": [74, 66, 18, 4],
+        "chunks": [
+          {
+            "en": "M-A-Y-A",
+            "ru": "Майя, имя по буквам"
+          }
+        ]
+      },
+      {
+        "id": "school-chat-5",
+        "en": "Ah! Maya!",
+        "ru": "А! Майя!",
+        "why": "Ah! означает, что собеседник догадался и узнал имя.",
+        "box": [63, 80, 15, 5],
+        "chunks": [
+          {
+            "en": "Ah",
+            "ru": "А! Понятно!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "subjects-chat",
+    "title": "School subjects · Любимый предмет",
+    "page": 14,
+    "module": 1,
+    "lessonIds": ["subjects"],
+    "kind": "dialogue",
+    "image": "textbook/page-14.webp",
+    "lines": [
+      {
+        "id": "subjects-chat-1",
+        "en": "What's your favourite subject?",
+        "ru": "Какой твой любимый предмет?",
+        "why": "Favourite — «любимый», а subject здесь — школьный предмет. What’s = what is.",
+        "box": [11, 81, 42, 3],
+        "chunks": [
+          {
+            "en": "favourite subject",
+            "ru": "любимый предмет"
+          }
+        ]
+      },
+      {
+        "id": "subjects-chat-2",
+        "en": "Art. What about you?",
+        "ru": "Рисование. А у тебя?",
+        "why": "What about you? возвращает собеседнику тот же вопрос. Полностью повторять вопрос не нужно.",
+        "box": [11, 84, 32, 3],
+        "chunks": [
+          {
+            "en": "What about you",
+            "ru": "А у тебя"
+          },
+          {
+            "en": "Art",
+            "ru": "рисование"
+          }
+        ]
+      },
+      {
+        "id": "subjects-chat-3",
+        "en": "I like Music.",
+        "ru": "Мне нравится музыка.",
+        "why": "I like — «мне нравится». После I глагол like не получает окончание -s.",
+        "box": [11, 86, 26, 3],
+        "chunks": [
+          {
+            "en": "I like",
+            "ru": "Мне нравится"
+          },
+          {
+            "en": "Music",
+            "ru": "музыка"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "family-chat",
+    "title": "A new member! · Моя семья",
+    "page": 26,
+    "module": 2,
+    "lessonIds": ["family"],
+    "kind": "dialogue",
+    "image": "textbook/page-26.webp",
+    "lines": [
+      {
+        "id": "family-chat-1",
+        "en": "Look! This is my grandma, Rosie!",
+        "ru": "Смотри! Это моя бабушка Рози!",
+        "why": "This is … — так представляют человека. My grandma — «моя бабушка». Имя Rosie уточняет, как её зовут.",
+        "box": [22, 88, 38, 5],
+        "chunks": [
+          {
+            "en": "This is",
+            "ru": "Это"
+          },
+          {
+            "en": "my grandma",
+            "ru": "моя бабушка"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "food-chat",
+    "title": "He loves jelly! · Любимая еда",
+    "page": 44,
+    "module": 3,
+    "lessonIds": ["food-likes"],
+    "kind": "dialogue",
+    "image": "textbook/page-44.webp",
+    "lines": [
+      {
+        "id": "food-chat-1",
+        "en": "What's your favourite food?",
+        "ru": "Какая твоя любимая еда?",
+        "why": "What’s = what is. Food — еда вообще; здесь не надо добавлять окончание -s.",
+        "box": [15, 62, 34, 5],
+        "chunks": [
+          {
+            "en": "favourite food",
+            "ru": "любимая еда"
+          }
+        ]
+      },
+      {
+        "id": "food-chat-2",
+        "en": "Pizza, yum! What about you?",
+        "ru": "Пицца, ням! А у тебя?",
+        "why": "Yum! — радостное «ням!». What about you? предлагает другому рассказать о своей любимой еде.",
+        "box": [38, 75, 35, 5],
+        "chunks": [
+          {
+            "en": "yum",
+            "ru": "ням"
+          },
+          {
+            "en": "What about you",
+            "ru": "А у тебя"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lunch-chat",
+    "title": "In my lunch box! · Вежливая просьба",
+    "page": 48,
+    "module": 3,
+    "lessonIds": ["lunch"],
+    "kind": "dialogue",
+    "image": "textbook/page-48.webp",
+    "lines": [
+      {
+        "id": "lunch-chat-1",
+        "en": "Can I have some meat and potatoes, please?",
+        "ru": "Можно мне немного мяса и картошки, пожалуйста?",
+        "why": "Can I have …, please? — вежливая просьба дать что-то. Some подходит для просьбы о еде, даже если это вопрос.",
+        "box": [11, 54, 52, 3],
+        "chunks": [
+          {
+            "en": "Can I have",
+            "ru": "Можно мне"
+          },
+          {
+            "en": "some meat and potatoes",
+            "ru": "немного мяса и картошки"
+          },
+          {
+            "en": "please",
+            "ru": "пожалуйста"
+          }
+        ]
+      },
+      {
+        "id": "lunch-chat-2",
+        "en": "Here you are.",
+        "ru": "Вот, держи.",
+        "why": "Так отвечают, когда передают то, что попросили. Перевод зависит от ситуации, а не от каждого слова отдельно.",
+        "box": [11, 57, 25, 3],
+        "chunks": [
+          {
+            "en": "Here you are",
+            "ru": "Вот, держи"
+          }
+        ]
+      },
+      {
+        "id": "lunch-chat-3",
+        "en": "Thank you.",
+        "ru": "Спасибо.",
+        "why": "Thank you — вежливый способ поблагодарить. В дружеской беседе можно короче: Thanks!",
+        "box": [11, 59, 23, 3],
+        "chunks": [
+          {
+            "en": "Thank you",
+            "ru": "Спасибо"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "toys-chat",
+    "title": "Toys for little Betsy! · Чья игрушка?",
+    "page": 60,
+    "module": 4,
+    "lessonIds": ["toys", "whose-toys"],
+    "kind": "dialogue",
+    "image": "textbook/page-60.webp",
+    "lines": [
+      {
+        "id": "toys-chat-1",
+        "en": "Whose is this musical box?",
+        "ru": "Чья это музыкальная шкатулка?",
+        "why": "Whose спрашивает о владельце: «чей?». Musical box — одно название предмета из двух слов.",
+        "box": [11, 71, 33, 6],
+        "chunks": [
+          {
+            "en": "Whose",
+            "ru": "Чья"
+          },
+          {
+            "en": "musical box",
+            "ru": "музыкальная шкатулка"
+          }
+        ]
+      },
+      {
+        "id": "toys-chat-2",
+        "en": "It's Mum's.",
+        "ru": "Мамина.",
+        "why": "It’s = it is, а Mum’s означает «мамина»: апостроф с s показывает владельца. Одна запись ’s может выполнять разные роли.",
+        "box": [62, 74, 16, 5],
+        "chunks": [
+          {
+            "en": "It's",
+            "ru": "Это …"
+          },
+          {
+            "en": "Mum's",
+            "ru": "мамина"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "room-chat",
+    "title": "In my room! · Вещи и владельцы",
+    "page": 64,
+    "module": 4,
+    "lessonIds": ["room", "whose-toys"],
+    "kind": "dialogue",
+    "image": "textbook/page-64.webp",
+    "lines": [
+      {
+        "id": "room-chat-1",
+        "en": "What's this?",
+        "ru": "Что это?",
+        "why": "What’s = what is. This указывает на вещь, о которой спрашивают.",
+        "box": [11, 58, 23, 3],
+        "chunks": [
+          {
+            "en": "What's this",
+            "ru": "Что это"
+          }
+        ]
+      },
+      {
+        "id": "room-chat-2",
+        "en": "It's a computer.",
+        "ru": "Это компьютер.",
+        "why": "It’s = it is. A computer — один компьютер, который мы сейчас называем.",
+        "box": [11, 61, 26, 3],
+        "chunks": [
+          {
+            "en": "a computer",
+            "ru": "компьютер"
+          }
+        ]
+      },
+      {
+        "id": "room-chat-3",
+        "en": "Whose is it?",
+        "ru": "Чей он?",
+        "why": "Whose спрашивает, кому принадлежит предмет. It заменяет computer, чтобы не повторять название.",
+        "box": [54, 58, 20, 3],
+        "chunks": [
+          {
+            "en": "Whose",
+            "ru": "Чей"
+          },
+          {
+            "en": "it",
+            "ru": "он, этот предмет"
+          }
+        ]
+      },
+      {
+        "id": "room-chat-4",
+        "en": "It's Roy's.",
+        "ru": "Роя.",
+        "why": "Roy’s — «принадлежит Рою». It’s = it is. Первый апостроф сокращает is, а второй показывает владельца.",
+        "box": [54, 61, 20, 3],
+        "chunks": [
+          {
+            "en": "Roy's",
+            "ru": "Роя"
+          }
+        ]
+      }
+    ]
+  }
+]

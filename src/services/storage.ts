@@ -1,5 +1,6 @@
 import Dexie, { type Table } from 'dexie';
 import type { LearningProgress, ProgressBundle } from '../types';
+import { type ReaderProgress, validateReader } from '../textbook';
 import { initialProgress } from './learning';
 import { lesson, lessons, getLesson, lexicon } from '../lessons';
 export interface ProgressRepository {
@@ -14,11 +15,13 @@ export interface ProgressRepository {
 }
 class ProgressDB extends Dexie {
   progress!: Table<LearningProgress, string>;
+  reader!: Table<ReaderProgress, string>;
   preferences!: Table<{ key: string; value: string }, string>;
   constructor(name = 'english-spot') {
     super(name);
     this.version(1).stores({ progress: 'lessonId' });
     this.version(2).stores({ progress: 'lessonId', preferences: 'key' });
+    this.version(3).stores({ progress: 'lessonId', preferences: 'key', reader: 'sceneId' });
   }
 }
 export function validateImport(value: unknown): LearningProgress {
@@ -130,17 +133,34 @@ export class IndexedDBProgressRepository implements ProgressRepository {
     return p;
   }
   async resetAll() {
-    await this.db.transaction('rw', this.db.progress, this.db.preferences, async () => {
-      await this.db.progress.clear();
-      await this.db.preferences.clear();
-    });
+    await this.db.transaction(
+      'rw',
+      this.db.progress,
+      this.db.preferences,
+      this.db.reader,
+      async () => {
+        await this.db.progress.clear();
+        await this.db.preferences.clear();
+        await this.db.reader.clear();
+      },
+    );
   }
   async replaceAll(bundle: ProgressBundle) {
-    await this.db.transaction('rw', this.db.progress, this.db.preferences, async () => {
-      await this.db.progress.clear();
-      await this.db.progress.bulkPut(bundle.lessons);
-      await this.db.preferences.put({ key: 'selectedLesson', value: bundle.selectedLessonId });
-    });
+    await this.db.transaction(
+      'rw',
+      this.db.progress,
+      this.db.preferences,
+      this.db.reader,
+      async () => {
+        await this.db.progress.clear();
+        await this.db.progress.bulkPut(bundle.lessons);
+        if (bundle.reader !== undefined) {
+          await this.db.reader.clear();
+          await this.db.reader.bulkPut(validateReader(bundle.reader));
+        }
+        await this.db.preferences.put({ key: 'selectedLesson', value: bundle.selectedLessonId });
+      },
+    );
   }
 }
 export function validateBundle(value: unknown): ProgressBundle {
@@ -164,6 +184,23 @@ export function validateBundle(value: unknown): ProgressBundle {
   const records = data.lessons.map(validateImport);
   if (new Set(records.map((p) => p.lessonId)).size !== records.length)
     throw Error('В файле повторяется один урок.');
-  return { schemaVersion: 2, selectedLessonId: data.selectedLessonId, lessons: records };
+  return {
+    schemaVersion: 2,
+    selectedLessonId: data.selectedLessonId,
+    lessons: records,
+    ...(data.reader === undefined ? {} : { reader: validateReader(data.reader) }),
+  };
 }
 export const progressRepository: ProgressRepository = new IndexedDBProgressRepository();
+
+export function createReaderRepository(name = 'english-spot') {
+  const readerDB = new ProgressDB(name);
+  return {
+    loadAll: async () => validateReader(await readerDB.reader.toArray()),
+    save: async (record: ReaderProgress) => {
+      validateReader([record]);
+      await readerDB.reader.put(record);
+    },
+  };
+}
+export const readerRepository = createReaderRepository();

@@ -63,6 +63,12 @@ export function Home() {
           обучение требует аудио.
         </div>
       )}
+      <Link to="/textbook" className="textbook-banner">
+        <span className="book-label">НОВОЕ / УЧЕБНИК</span>
+        <h2>А что они говорят?</h2>
+        <p>Открой комикс, нажми на облачко — услышь реплику и узнай, что она значит.</p>
+        <strong>Открыть страницы →</strong>
+      </Link>
       <section className="stats-strip" aria-label="Твой прогресс">
         <div>
           <span className="stat-icon sage">▧</span>
