@@ -120,3 +120,13 @@ it('статистика пройденных тем не исчезает пр�
   expect(s.completed).toBe(1);
   expect(s.runs).toBe(1);
 });
+
+it('родительское повторение включает ручную очередь и верные ответы с подсказкой', async () => {
+  const { reviewWords } = await import('../src/services/learning');
+  const p = { ...initialProgress(), reviewIds: ['book'] };
+  expect(reviewWords(p, true).map((w) => w.id)).toContain('book');
+  const e = lesson.exercises.find((e) => e.type === 'word')!;
+  const hinted = recordAttempt(initialProgress(), e, true, true);
+  expect(hinted.stats[e.wordId].errors).toBe(0);
+  expect(reviewWords(hinted, true).map((w) => w.id)).toContain(e.wordId);
+});

@@ -111,3 +111,21 @@ test('старая резервная копия первого урока им�
     .click();
   await expect(page.locator('.english-title')).toHaveText('Maths');
 });
+
+test('родитель может повторить вручную добавленное слово без прошлых ошибок', async ({ page }) => {
+  await page.goto('#/dictionary');
+  await page
+    .locator('.word-card')
+    .filter({ has: page.locator('.word-name').filter({ hasText: /^book$/ }) })
+    .getByRole('button', { name: 'Добавить в повторение', exact: false })
+    .click();
+  await page.goto('#/parents');
+  await page.getByRole('link', { name: 'Повторить ошибки →', exact: true }).click();
+  await expect(
+    page.getByRole('heading', { name: 'Как это называется по-английски?' }),
+  ).toBeVisible();
+  await page.locator('[data-option="book"]').click();
+  await page.getByRole('button', { name: 'Проверить', exact: true }).click();
+  await page.getByRole('button', { name: 'Дальше →', exact: true }).click();
+  await expect(page.getByRole('heading', { name: 'Повторение завершено!' })).toBeVisible();
+});

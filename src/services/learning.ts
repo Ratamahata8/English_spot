@@ -194,3 +194,10 @@ export function summarize(records: Record<string, LearningProgress>) {
     hintCount: values.reduce((n, p) => n + p.hintCount, 0),
   };
 }
+
+/** Parent recommendations include both recorded errors and explicit review requests. */
+export function reviewWords(p: LearningProgress, includeErrors = false) {
+  return includeErrors
+    ? lexicon.filter((w) => p.reviewIds.includes(w.id) || (p.stats[w.id]?.errors || 0) > 0)
+    : dueWords(p);
+}
