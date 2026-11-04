@@ -7,6 +7,7 @@ interface State {
   progress: LearningProgress;
   records: Record<string, LearningProgress>;
   ready: boolean;
+  saving: number;
   error: string;
   init: () => Promise<void>;
   update: (fn: (p: LearningProgress) => LearningProgress, lessonId?: string) => Promise<void>;
@@ -20,6 +21,7 @@ export const useProgress = create<State>((set, get) => ({
   progress: initialProgress(),
   records: {},
   ready: false,
+  saving: 0,
   error: '',
   init: async () => {
     try {
@@ -41,6 +43,7 @@ export const useProgress = create<State>((set, get) => ({
       get().progress.lessonId === id ? get().progress : get().records[id] || initialProgress(id);
     const progress = { ...fn(base), updatedAt: Date.now() };
     set((s) => ({
+      saving: s.saving + 1,
       ...(s.progress.lessonId === id ? { progress } : {}),
       records: { ...s.records, [id]: progress },
     }));
@@ -50,6 +53,8 @@ export const useProgress = create<State>((set, get) => ({
       set({ error: '' });
     } catch {
       set({ error: 'Прогресс пока не сохранён. Не закрывай вкладку: проверь доступ к хранилищу.' });
+    } finally {
+      set((s) => ({ saving: Math.max(0, s.saving - 1) }));
     }
   },
   selectLesson: async (id, restart = false) => {
