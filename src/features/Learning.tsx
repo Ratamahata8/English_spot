@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link, useSearchParams, useParams } from 'react-router-dom';
-import { getLesson, lessons, lexicon } from '../lessons';
+import { getLesson, lessons } from '../lessons';
 import { useProgress } from '../stores/progress';
-import { completeExercise, dueWords, reviewExercise } from '../services/learning';
+import { completeExercise, reviewWords, reviewExercise } from '../services/learning';
 import { HintToggle } from '../components/Hints';
 import { stopAudio } from '../services/audio';
 import { ExerciseCard } from './ExerciseCard';
@@ -11,12 +11,7 @@ export function Learning() {
   const lesson = getLesson(p.lessonId);
   const [params] = useSearchParams();
   const review = params.has('review');
-  const [reviewQueue] = useState(() =>
-    (params.has('errors')
-      ? lexicon.filter((w) => (p.stats[w.id]?.errors || 0) > 0)
-      : dueWords(p)
-    ).map((w) => w.id),
-  );
+  const [reviewQueue] = useState(() => reviewWords(p, params.has('errors')).map((w) => w.id));
   const [reviewIndex, setReviewIndex] = useState(0);
   const base = lesson.exercises.find((e) => e.id === p.currentExerciseId);
   const word = reviewQueue[reviewIndex];

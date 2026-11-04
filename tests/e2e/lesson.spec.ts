@@ -103,11 +103,14 @@ test('первый урок целиком: ошибка, подсказки, п
   await page.goto('#/parents');
   await expect(page.getByRole('heading', { name: 'Родительский кабинет' })).toBeVisible();
   await page.getByRole('link', { name: 'Повторить ошибки →' }).click();
-  while (await page.locator('.option').count()) {
-    const current = await page.locator('.task-image').getAttribute('alt');
-    const w = lesson.vocabulary.find((w) => w.ru === current)!;
+  // These two words received the deliberate errors above. Wait for the actual
+  // review task after routing; an immediate DOM count can still see the parent screen.
+  for (const id of ['school', 'school-bag']) {
+    await expect(page.locator('.exercise')).toHaveAttribute('data-exercise', 'review-' + id);
+    const w = lesson.vocabulary.find((w) => w.id === id)!;
     await page.locator(`[data-option="${w.en}"]`).click();
     await page.getByRole('button', { name: 'Проверить', exact: true }).click();
+    await expect(page.getByText('Отлично, получилось! ✨', { exact: true })).toBeVisible();
     await page.getByRole('button', { name: 'Дальше →', exact: true }).click();
   }
   await expect(page.getByRole('heading', { name: 'Повторение завершено!' })).toBeVisible();
