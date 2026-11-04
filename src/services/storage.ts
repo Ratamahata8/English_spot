@@ -1,28 +1,40 @@
 import Dexie, { type Table } from 'dexie';
-import type { LearningProgress } from '../types';
+import type { LearningProgress, ProgressBundle } from '../types';
 import { initialProgress } from './learning';
-import { lesson, lexicon } from '../lessons';
+import { lesson, lessons, getLesson, lexicon } from '../lessons';
 export interface ProgressRepository {
-  load(): Promise<LearningProgress>;
+  load(id?: string): Promise<LearningProgress>;
+  loadAll(): Promise<LearningProgress[]>;
+  selected(): Promise<string>;
+  select(id: string): Promise<void>;
+  replaceAll(bundle: ProgressBundle): Promise<void>;
+  resetAll(): Promise<void>;
   save(p: LearningProgress): Promise<void>;
-  reset(): Promise<LearningProgress>;
+  reset(id?: string): Promise<LearningProgress>;
 }
 class ProgressDB extends Dexie {
   progress!: Table<LearningProgress, string>;
-  constructor() {
-    super('english-spot');
+  preferences!: Table<{ key: string; value: string }, string>;
+  constructor(name = 'english-spot') {
+    super(name);
     this.version(1).stores({ progress: 'lessonId' });
+    this.version(2).stores({ progress: 'lessonId', preferences: 'key' });
   }
 }
 export function validateImport(value: unknown): LearningProgress {
   if (!value || typeof value !== 'object') throw Error('Файл не содержит прогресс.');
   const p = value as LearningProgress;
-  const exerciseIds = new Set(lesson.exercises.map((e) => e.id));
-  const skillIds = new Set([...lexicon.map((w) => w.id), 'this-is', 'my-your']);
+  if (p.schemaVersion !== 1 || !lessons.some((l) => l.id === p.lessonId))
+    throw Error('Неподдерживаемая версия или неверные задания.');
+  const target = getLesson(p.lessonId);
+  const exerciseIds = new Set(target.exercises.map((e) => e.id));
+  const skillIds = new Set([
+    ...lexicon.map((w) => w.id),
+    ...lessons.flatMap((l) => [...l.grammar.map((g) => g.id), ...l.remedial.map((r) => r.id)]),
+  ]);
   const wordIds = new Set(lexicon.map((w) => w.id));
   if (
     p.schemaVersion !== 1 ||
-    p.lessonId !== lesson.id ||
     !Array.isArray(p.completed) ||
     p.completed.some((id) => !exerciseIds.has(id)) ||
     new Set(p.completed).size !== p.completed.length
@@ -48,7 +60,7 @@ export function validateImport(value: unknown): LearningProgress {
     !Array.isArray(p.reviewIds) ||
     p.reviewIds.some((id) => !wordIds.has(id)) ||
     !Array.isArray(p.remedialDone) ||
-    p.remedialDone.some((id) => !['this-is', 'my-your'].includes(id))
+    p.remedialDone.some((id) => !target.remedial.some((r) => r.id === id && r.available))
   )
     throw Error('Некорректная очередь повторения.');
   if (
@@ -73,21 +85,85 @@ export function validateImport(value: unknown): LearningProgress {
       (p.currentExerciseId === null || p.completed.includes(p.currentExerciseId)))
   )
     throw Error('Неверная точка продолжения.');
-  return structuredClone(p);
+  if (
+    p.completedRuns !== undefined &&
+    (!Number.isInteger(p.completedRuns) || p.completedRuns < Number(p.lessonComplete))
+  )
+    throw Error('Неверный счётчик прохождений.');
+  if (
+    p.lastCompletedAt !== undefined &&
+    (!Number.isFinite(p.lastCompletedAt) || p.lastCompletedAt < 0)
+  )
+    throw Error('Неверная дата прохождения.');
+  return {
+    ...structuredClone(p),
+    completedRuns: p.completedRuns ?? Number(p.lessonComplete),
+    lastCompletedAt: p.lastCompletedAt || 0,
+  };
 }
 export class IndexedDBProgressRepository implements ProgressRepository {
-  private db = new ProgressDB();
-  async load() {
-    const p = await this.db.progress.get(lesson.id);
-    return p ? validateImport(p) : initialProgress();
+  private db: ProgressDB;
+  constructor(name = 'english-spot') {
+    this.db = new ProgressDB(name);
+  }
+  async load(id = lesson.id) {
+    const p = await this.db.progress.get(id);
+    return p ? validateImport(p) : initialProgress(id);
+  }
+  async loadAll() {
+    return (await this.db.progress.toArray()).map(validateImport);
+  }
+  async selected() {
+    const value = (await this.db.preferences.get('selectedLesson'))?.value;
+    return value && lessons.some((l) => l.id === value) ? value : lesson.id;
+  }
+  async select(id: string) {
+    getLesson(id);
+    await this.db.preferences.put({ key: 'selectedLesson', value: id });
   }
   async save(p: LearningProgress) {
     await this.db.progress.put(p);
   }
-  async reset() {
-    const p = initialProgress();
+  async reset(id = lesson.id) {
+    const p = initialProgress(id);
     await this.save(p);
     return p;
   }
+  async resetAll() {
+    await this.db.transaction('rw', this.db.progress, this.db.preferences, async () => {
+      await this.db.progress.clear();
+      await this.db.preferences.clear();
+    });
+  }
+  async replaceAll(bundle: ProgressBundle) {
+    await this.db.transaction('rw', this.db.progress, this.db.preferences, async () => {
+      await this.db.progress.clear();
+      await this.db.progress.bulkPut(bundle.lessons);
+      await this.db.preferences.put({ key: 'selectedLesson', value: bundle.selectedLessonId });
+    });
+  }
+}
+export function validateBundle(value: unknown): ProgressBundle {
+  if (
+    value &&
+    typeof value === 'object' &&
+    (value as { schemaVersion: unknown }).schemaVersion === 1
+  ) {
+    const p = validateImport(value);
+    return { schemaVersion: 2, selectedLessonId: p.lessonId, lessons: [p] };
+  }
+  const data = value as ProgressBundle;
+  if (
+    !data ||
+    data.schemaVersion !== 2 ||
+    !Array.isArray(data.lessons) ||
+    data.lessons.length > lessons.length ||
+    !lessons.some((l) => l.id === data.selectedLessonId)
+  )
+    throw Error('Неподдерживаемая версия или неверные задания.');
+  const records = data.lessons.map(validateImport);
+  if (new Set(records.map((p) => p.lessonId)).size !== records.length)
+    throw Error('В файле повторяется один урок.');
+  return { schemaVersion: 2, selectedLessonId: data.selectedLessonId, lessons: records };
 }
 export const progressRepository: ProgressRepository = new IndexedDBProgressRepository();

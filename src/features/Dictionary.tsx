@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { words } from '../lessons';
+import { words, lessons } from '../lessons';
 import { useProgress } from '../stores/progress';
-import { mastered } from '../services/learning';
+import { mastered, summarize } from '../services/learning';
 import { EnglishText, HintToggle } from '../components/Hints';
 import { AudioButton } from '../components/AudioButton';
 import { Illustration } from '../components/Illustration';
@@ -9,6 +9,9 @@ import { PageHeading } from '../components/PageHeading';
 export function Dictionary() {
   const p = useProgress((s) => s.progress);
   const update = useProgress((s) => s.update);
+  const summary = summarize(useProgress((s) => s.records));
+  const [filter, setFilter] = useState('all');
+  const visibleWords = filter === 'all' ? words : lessons.find((l) => l.id === filter)!.vocabulary;
   const [search, setSearch] = useState('');
   return (
     <>
@@ -29,13 +32,28 @@ export function Dictionary() {
         </label>
         <HintToggle />
       </div>
+      <label className="dictionary-filter">
+        Тема:{' '}
+        <select
+          aria-label="Тема словаря"
+          value={filter}
+          onChange={(e) => setFilter(e.target.value)}
+        >
+          <option value="all">Все темы · {words.length} слов</option>
+          {lessons.map((l) => (
+            <option key={l.id} value={l.id}>
+              {l.title}
+            </option>
+          ))}
+        </select>
+      </label>
       <div className="dictionary-grid">
-        {words
+        {visibleWords
           .filter((w) => `${w.en} ${w.ru}`.toLowerCase().includes(search.toLowerCase().trim()))
           .map((w) => (
             <article key={w.id} className="word-card panel">
-              <span className={`word-status ${mastered(p.stats[w.id]) ? 'done' : ''}`}>
-                {mastered(p.stats[w.id])
+              <span className={`word-status ${mastered(summary.stats[w.id]) ? 'done' : ''}`}>
+                {mastered(summary.stats[w.id])
                   ? '✓ Освоено'
                   : p.reviewIds.includes(w.id)
                     ? '↻ Повторить'
@@ -59,7 +77,7 @@ export function Dictionary() {
             </article>
           ))}
       </div>
-      {!words.some((w) =>
+      {!visibleWords.some((w) =>
         `${w.en} ${w.ru}`.toLowerCase().includes(search.toLowerCase().trim()),
       ) && <p className="empty">Такого слова пока нет. Попробуй другое.</p>}
     </>

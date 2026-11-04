@@ -1,0 +1,941 @@
+{
+  "id": "numbers-one",
+  "title": "Numbers: 1–10",
+  "subtitle": "Spotlight 3 · Unit 1 · числа",
+  "module": "Модуль 1 · Школа",
+  "description": "Считаем от одного до десяти.",
+  "source": "Unit 1 · числа",
+  "coverWordId": "one",
+  "vocabulary": [
+    {
+      "id": "one",
+      "en": "one",
+      "ru": "один",
+      "ipa": "/wʌn/",
+      "explanation": "Считаем от одного до десяти. Здесь «one» — «один».",
+      "example": "I am one.",
+      "image": "illustrations/one.svg"
+    },
+    {
+      "id": "two",
+      "en": "two",
+      "ru": "два",
+      "ipa": "/tuː/",
+      "explanation": "Считаем от одного до десяти. Здесь «two» — «два».",
+      "example": "I am two.",
+      "image": "illustrations/two.svg"
+    },
+    {
+      "id": "three",
+      "en": "three",
+      "ru": "три",
+      "ipa": "/θriː/",
+      "explanation": "Считаем от одного до десяти. Здесь «three» — «три».",
+      "example": "I am three.",
+      "image": "illustrations/three.svg"
+    },
+    {
+      "id": "four",
+      "en": "four",
+      "ru": "четыре",
+      "ipa": "/fɔː/",
+      "explanation": "Считаем от одного до десяти. Здесь «four» — «четыре».",
+      "example": "I am four.",
+      "image": "illustrations/four.svg"
+    },
+    {
+      "id": "five",
+      "en": "five",
+      "ru": "пять",
+      "ipa": "/faɪv/",
+      "explanation": "Считаем от одного до десяти. Здесь «five» — «пять».",
+      "example": "I am five.",
+      "image": "illustrations/five.svg"
+    },
+    {
+      "id": "six",
+      "en": "six",
+      "ru": "шесть",
+      "ipa": "/sɪks/",
+      "explanation": "Считаем от одного до десяти. Здесь «six» — «шесть».",
+      "example": "I am six.",
+      "image": "illustrations/six.svg"
+    },
+    {
+      "id": "seven",
+      "en": "seven",
+      "ru": "семь",
+      "ipa": "/ˈsevən/",
+      "explanation": "Считаем от одного до десяти. Здесь «seven» — «семь».",
+      "example": "I am seven.",
+      "image": "illustrations/seven.svg"
+    },
+    {
+      "id": "eight",
+      "en": "eight",
+      "ru": "восемь",
+      "ipa": "/eɪt/",
+      "explanation": "Считаем от одного до десяти. Здесь «eight» — «восемь».",
+      "example": "I am eight.",
+      "image": "illustrations/eight.svg"
+    },
+    {
+      "id": "nine",
+      "en": "nine",
+      "ru": "девять",
+      "ipa": "/naɪn/",
+      "explanation": "Считаем от одного до десяти. Здесь «nine» — «девять».",
+      "example": "I am nine.",
+      "image": "illustrations/nine.svg"
+    },
+    {
+      "id": "ten",
+      "en": "ten",
+      "ru": "десять",
+      "ipa": "/ten/",
+      "explanation": "Считаем от одного до десяти. Здесь «ten» — «десять».",
+      "example": "I am ten.",
+      "image": "illustrations/ten.svg"
+    }
+  ],
+  "lexicon": [],
+  "grammar": [
+    {
+      "id": "age",
+      "title": "Говорим о возрасте",
+      "text": "В английском о возрасте говорят I am — буквально «я есть». I am seven означает «Мне семь лет». Не добавляй русское «мне» отдельным английским словом.",
+      "examples": ["I am seven.", "I am eight.", "I am nine."]
+    }
+  ],
+  "remedial": [
+    {
+      "id": "age",
+      "title": "Говорим о возрасте",
+      "available": true,
+      "explanation": "В английском о возрасте говорят I am — буквально «я есть». I am seven означает «Мне семь лет». Не добавляй русское «мне» отдельным английским словом.",
+      "example": "I am nine.",
+      "question": "Как начать фразу о своём возрасте?",
+      "answer": "I am",
+      "options": ["I am", "I like"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "numbers-one-study-one",
+      "type": "study",
+      "wordId": "one",
+      "skillId": "one",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "one",
+      "options": ["one", "two", "three", "four"],
+      "hint": {
+        "translation": "один",
+        "explanation": "Считаем от одного до десяти. Здесь «one» — «один».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am two."
+      }
+    },
+    {
+      "id": "numbers-one-study-two",
+      "type": "study",
+      "wordId": "two",
+      "skillId": "two",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "two",
+      "options": ["two", "three", "four", "five"],
+      "hint": {
+        "translation": "два",
+        "explanation": "Считаем от одного до десяти. Здесь «two» — «два».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am three."
+      }
+    },
+    {
+      "id": "numbers-one-study-three",
+      "type": "study",
+      "wordId": "three",
+      "skillId": "three",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "three",
+      "options": ["three", "four", "five", "six"],
+      "hint": {
+        "translation": "три",
+        "explanation": "Считаем от одного до десяти. Здесь «three» — «три».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am four."
+      }
+    },
+    {
+      "id": "numbers-one-study-four",
+      "type": "study",
+      "wordId": "four",
+      "skillId": "four",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "four",
+      "options": ["four", "five", "six", "seven"],
+      "hint": {
+        "translation": "четыре",
+        "explanation": "Считаем от одного до десяти. Здесь «four» — «четыре».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am five."
+      }
+    },
+    {
+      "id": "numbers-one-study-five",
+      "type": "study",
+      "wordId": "five",
+      "skillId": "five",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "five",
+      "options": ["five", "six", "seven", "eight"],
+      "hint": {
+        "translation": "пять",
+        "explanation": "Считаем от одного до десяти. Здесь «five» — «пять».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am six."
+      }
+    },
+    {
+      "id": "numbers-one-study-six",
+      "type": "study",
+      "wordId": "six",
+      "skillId": "six",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "six",
+      "options": ["six", "seven", "eight", "nine"],
+      "hint": {
+        "translation": "шесть",
+        "explanation": "Считаем от одного до десяти. Здесь «six» — «шесть».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am seven."
+      }
+    },
+    {
+      "id": "numbers-one-study-seven",
+      "type": "study",
+      "wordId": "seven",
+      "skillId": "seven",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "seven",
+      "options": ["seven", "eight", "nine", "ten"],
+      "hint": {
+        "translation": "семь",
+        "explanation": "Считаем от одного до десяти. Здесь «seven» — «семь».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am eight."
+      }
+    },
+    {
+      "id": "numbers-one-study-eight",
+      "type": "study",
+      "wordId": "eight",
+      "skillId": "eight",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "eight",
+      "options": ["eight", "nine", "ten", "one"],
+      "hint": {
+        "translation": "восемь",
+        "explanation": "Считаем от одного до десяти. Здесь «eight» — «восемь».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am nine."
+      }
+    },
+    {
+      "id": "numbers-one-study-nine",
+      "type": "study",
+      "wordId": "nine",
+      "skillId": "nine",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "nine",
+      "options": ["nine", "ten", "one", "two"],
+      "hint": {
+        "translation": "девять",
+        "explanation": "Считаем от одного до десяти. Здесь «nine» — «девять».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am ten."
+      }
+    },
+    {
+      "id": "numbers-one-study-ten",
+      "type": "study",
+      "wordId": "ten",
+      "skillId": "ten",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "ten",
+      "options": ["ten", "one", "two", "three"],
+      "hint": {
+        "translation": "десять",
+        "explanation": "Считаем от одного до десяти. Здесь «ten» — «десять».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am one."
+      }
+    },
+    {
+      "id": "numbers-one-picture-one",
+      "type": "picture",
+      "wordId": "one",
+      "skillId": "one",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "one",
+      "options": ["one", "two", "three", "four"],
+      "hint": {
+        "translation": "один",
+        "explanation": "Считаем от одного до десяти. Здесь «one» — «один».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am two."
+      }
+    },
+    {
+      "id": "numbers-one-picture-two",
+      "type": "picture",
+      "wordId": "two",
+      "skillId": "two",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "two",
+      "options": ["two", "three", "four", "five"],
+      "hint": {
+        "translation": "два",
+        "explanation": "Считаем от одного до десяти. Здесь «two» — «два».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am three."
+      }
+    },
+    {
+      "id": "numbers-one-picture-three",
+      "type": "picture",
+      "wordId": "three",
+      "skillId": "three",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "three",
+      "options": ["three", "four", "five", "six"],
+      "hint": {
+        "translation": "три",
+        "explanation": "Считаем от одного до десяти. Здесь «three» — «три».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am four."
+      }
+    },
+    {
+      "id": "numbers-one-picture-four",
+      "type": "picture",
+      "wordId": "four",
+      "skillId": "four",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "four",
+      "options": ["four", "five", "six", "seven"],
+      "hint": {
+        "translation": "четыре",
+        "explanation": "Считаем от одного до десяти. Здесь «four» — «четыре».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am five."
+      }
+    },
+    {
+      "id": "numbers-one-picture-five",
+      "type": "picture",
+      "wordId": "five",
+      "skillId": "five",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "five",
+      "options": ["five", "six", "seven", "eight"],
+      "hint": {
+        "translation": "пять",
+        "explanation": "Считаем от одного до десяти. Здесь «five» — «пять».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am six."
+      }
+    },
+    {
+      "id": "numbers-one-picture-six",
+      "type": "picture",
+      "wordId": "six",
+      "skillId": "six",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "six",
+      "options": ["six", "seven", "eight", "nine"],
+      "hint": {
+        "translation": "шесть",
+        "explanation": "Считаем от одного до десяти. Здесь «six» — «шесть».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am seven."
+      }
+    },
+    {
+      "id": "numbers-one-picture-seven",
+      "type": "picture",
+      "wordId": "seven",
+      "skillId": "seven",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "seven",
+      "options": ["seven", "eight", "nine", "ten"],
+      "hint": {
+        "translation": "семь",
+        "explanation": "Считаем от одного до десяти. Здесь «seven» — «семь».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am eight."
+      }
+    },
+    {
+      "id": "numbers-one-picture-eight",
+      "type": "picture",
+      "wordId": "eight",
+      "skillId": "eight",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "eight",
+      "options": ["eight", "nine", "ten", "one"],
+      "hint": {
+        "translation": "восемь",
+        "explanation": "Считаем от одного до десяти. Здесь «eight» — «восемь».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am nine."
+      }
+    },
+    {
+      "id": "numbers-one-picture-nine",
+      "type": "picture",
+      "wordId": "nine",
+      "skillId": "nine",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "nine",
+      "options": ["nine", "ten", "one", "two"],
+      "hint": {
+        "translation": "девять",
+        "explanation": "Считаем от одного до десяти. Здесь «nine» — «девять».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am ten."
+      }
+    },
+    {
+      "id": "numbers-one-picture-ten",
+      "type": "picture",
+      "wordId": "ten",
+      "skillId": "ten",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "ten",
+      "options": ["ten", "one", "two", "three"],
+      "hint": {
+        "translation": "десять",
+        "explanation": "Считаем от одного до десяти. Здесь «ten» — «десять».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am one."
+      }
+    },
+    {
+      "id": "numbers-one-word-one",
+      "type": "word",
+      "wordId": "one",
+      "skillId": "one",
+      "prompt": "Как это называется по-английски?",
+      "answer": "one",
+      "options": ["one", "two", "three", "four"],
+      "hint": {
+        "translation": "один",
+        "explanation": "Считаем от одного до десяти. Здесь «one» — «один».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am two."
+      }
+    },
+    {
+      "id": "numbers-one-word-two",
+      "type": "word",
+      "wordId": "two",
+      "skillId": "two",
+      "prompt": "Как это называется по-английски?",
+      "answer": "two",
+      "options": ["two", "three", "four", "five"],
+      "hint": {
+        "translation": "два",
+        "explanation": "Считаем от одного до десяти. Здесь «two» — «два».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am three."
+      }
+    },
+    {
+      "id": "numbers-one-word-three",
+      "type": "word",
+      "wordId": "three",
+      "skillId": "three",
+      "prompt": "Как это называется по-английски?",
+      "answer": "three",
+      "options": ["three", "four", "five", "six"],
+      "hint": {
+        "translation": "три",
+        "explanation": "Считаем от одного до десяти. Здесь «three» — «три».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am four."
+      }
+    },
+    {
+      "id": "numbers-one-word-four",
+      "type": "word",
+      "wordId": "four",
+      "skillId": "four",
+      "prompt": "Как это называется по-английски?",
+      "answer": "four",
+      "options": ["four", "five", "six", "seven"],
+      "hint": {
+        "translation": "четыре",
+        "explanation": "Считаем от одного до десяти. Здесь «four» — «четыре».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am five."
+      }
+    },
+    {
+      "id": "numbers-one-word-five",
+      "type": "word",
+      "wordId": "five",
+      "skillId": "five",
+      "prompt": "Как это называется по-английски?",
+      "answer": "five",
+      "options": ["five", "six", "seven", "eight"],
+      "hint": {
+        "translation": "пять",
+        "explanation": "Считаем от одного до десяти. Здесь «five» — «пять».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am six."
+      }
+    },
+    {
+      "id": "numbers-one-word-six",
+      "type": "word",
+      "wordId": "six",
+      "skillId": "six",
+      "prompt": "Как это называется по-английски?",
+      "answer": "six",
+      "options": ["six", "seven", "eight", "nine"],
+      "hint": {
+        "translation": "шесть",
+        "explanation": "Считаем от одного до десяти. Здесь «six» — «шесть».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am seven."
+      }
+    },
+    {
+      "id": "numbers-one-word-seven",
+      "type": "word",
+      "wordId": "seven",
+      "skillId": "seven",
+      "prompt": "Как это называется по-английски?",
+      "answer": "seven",
+      "options": ["seven", "eight", "nine", "ten"],
+      "hint": {
+        "translation": "семь",
+        "explanation": "Считаем от одного до десяти. Здесь «seven» — «семь».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am eight."
+      }
+    },
+    {
+      "id": "numbers-one-word-eight",
+      "type": "word",
+      "wordId": "eight",
+      "skillId": "eight",
+      "prompt": "Как это называется по-английски?",
+      "answer": "eight",
+      "options": ["eight", "nine", "ten", "one"],
+      "hint": {
+        "translation": "восемь",
+        "explanation": "Считаем от одного до десяти. Здесь «eight» — «восемь».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am nine."
+      }
+    },
+    {
+      "id": "numbers-one-word-nine",
+      "type": "word",
+      "wordId": "nine",
+      "skillId": "nine",
+      "prompt": "Как это называется по-английски?",
+      "answer": "nine",
+      "options": ["nine", "ten", "one", "two"],
+      "hint": {
+        "translation": "девять",
+        "explanation": "Считаем от одного до десяти. Здесь «nine» — «девять».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am ten."
+      }
+    },
+    {
+      "id": "numbers-one-word-ten",
+      "type": "word",
+      "wordId": "ten",
+      "skillId": "ten",
+      "prompt": "Как это называется по-английски?",
+      "answer": "ten",
+      "options": ["ten", "one", "two", "three"],
+      "hint": {
+        "translation": "десять",
+        "explanation": "Считаем от одного до десяти. Здесь «ten» — «десять».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am one."
+      }
+    },
+    {
+      "id": "numbers-one-letters-one",
+      "type": "letters",
+      "wordId": "one",
+      "skillId": "one",
+      "prompt": "Собери слово из букв",
+      "answer": "one",
+      "options": ["one", "two", "three", "four"],
+      "hint": {
+        "translation": "один",
+        "explanation": "Считаем от одного до десяти. Здесь «one» — «один».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am two."
+      }
+    },
+    {
+      "id": "numbers-one-letters-two",
+      "type": "letters",
+      "wordId": "two",
+      "skillId": "two",
+      "prompt": "Собери слово из букв",
+      "answer": "two",
+      "options": ["two", "three", "four", "five"],
+      "hint": {
+        "translation": "два",
+        "explanation": "Считаем от одного до десяти. Здесь «two» — «два».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am three."
+      }
+    },
+    {
+      "id": "numbers-one-letters-three",
+      "type": "letters",
+      "wordId": "three",
+      "skillId": "three",
+      "prompt": "Собери слово из букв",
+      "answer": "three",
+      "options": ["three", "four", "five", "six"],
+      "hint": {
+        "translation": "три",
+        "explanation": "Считаем от одного до десяти. Здесь «three» — «три».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am four."
+      }
+    },
+    {
+      "id": "numbers-one-letters-four",
+      "type": "letters",
+      "wordId": "four",
+      "skillId": "four",
+      "prompt": "Собери слово из букв",
+      "answer": "four",
+      "options": ["four", "five", "six", "seven"],
+      "hint": {
+        "translation": "четыре",
+        "explanation": "Считаем от одного до десяти. Здесь «four» — «четыре».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am five."
+      }
+    },
+    {
+      "id": "numbers-one-letters-five",
+      "type": "letters",
+      "wordId": "five",
+      "skillId": "five",
+      "prompt": "Собери слово из букв",
+      "answer": "five",
+      "options": ["five", "six", "seven", "eight"],
+      "hint": {
+        "translation": "пять",
+        "explanation": "Считаем от одного до десяти. Здесь «five» — «пять».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am six."
+      }
+    },
+    {
+      "id": "numbers-one-letters-six",
+      "type": "letters",
+      "wordId": "six",
+      "skillId": "six",
+      "prompt": "Собери слово из букв",
+      "answer": "six",
+      "options": ["six", "seven", "eight", "nine"],
+      "hint": {
+        "translation": "шесть",
+        "explanation": "Считаем от одного до десяти. Здесь «six» — «шесть».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am seven."
+      }
+    },
+    {
+      "id": "numbers-one-letters-seven",
+      "type": "letters",
+      "wordId": "seven",
+      "skillId": "seven",
+      "prompt": "Собери слово из букв",
+      "answer": "seven",
+      "options": ["seven", "eight", "nine", "ten"],
+      "hint": {
+        "translation": "семь",
+        "explanation": "Считаем от одного до десяти. Здесь «seven» — «семь».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am eight."
+      }
+    },
+    {
+      "id": "numbers-one-letters-eight",
+      "type": "letters",
+      "wordId": "eight",
+      "skillId": "eight",
+      "prompt": "Собери слово из букв",
+      "answer": "eight",
+      "options": ["eight", "nine", "ten", "one"],
+      "hint": {
+        "translation": "восемь",
+        "explanation": "Считаем от одного до десяти. Здесь «eight» — «восемь».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am nine."
+      }
+    },
+    {
+      "id": "numbers-one-letters-nine",
+      "type": "letters",
+      "wordId": "nine",
+      "skillId": "nine",
+      "prompt": "Собери слово из букв",
+      "answer": "nine",
+      "options": ["nine", "ten", "one", "two"],
+      "hint": {
+        "translation": "девять",
+        "explanation": "Считаем от одного до десяти. Здесь «nine» — «девять».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am ten."
+      }
+    },
+    {
+      "id": "numbers-one-letters-ten",
+      "type": "letters",
+      "wordId": "ten",
+      "skillId": "ten",
+      "prompt": "Собери слово из букв",
+      "answer": "ten",
+      "options": ["ten", "one", "two", "three"],
+      "hint": {
+        "translation": "десять",
+        "explanation": "Считаем от одного до десяти. Здесь «ten» — «десять».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I am one."
+      }
+    },
+    {
+      "id": "numbers-one-sentence-1",
+      "type": "sentence",
+      "wordId": "seven",
+      "skillId": "age",
+      "prompt": "Собери предложение",
+      "answer": "I am seven.",
+      "options": [],
+      "hint": {
+        "translation": "Мне семь лет.",
+        "explanation": "В английском о возрасте говорят I am — буквально «я есть». I am seven означает «Мне семь лет». Не добавляй русское «мне» отдельным английским словом.",
+        "steps": [
+          "Прочитай русский смысл: Мне семь лет.",
+          "Вспомни правило: В английском о возрасте говорят I am — буквально «я есть». I am seven означает «Мне семь лет». Не добавляй русское «мне» отдельным английским словом.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "I am eight."
+      }
+    },
+    {
+      "id": "numbers-one-sentence-2",
+      "type": "sentence",
+      "wordId": "eight",
+      "skillId": "age",
+      "prompt": "Собери предложение",
+      "answer": "I am eight.",
+      "options": [],
+      "hint": {
+        "translation": "Мне восемь лет.",
+        "explanation": "В английском о возрасте говорят I am — буквально «я есть». I am seven означает «Мне семь лет». Не добавляй русское «мне» отдельным английским словом.",
+        "steps": [
+          "Прочитай русский смысл: Мне восемь лет.",
+          "Вспомни правило: В английском о возрасте говорят I am — буквально «я есть». I am seven означает «Мне семь лет». Не добавляй русское «мне» отдельным английским словом.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "I am nine."
+      }
+    },
+    {
+      "id": "numbers-one-sentence-3",
+      "type": "sentence",
+      "wordId": "nine",
+      "skillId": "age",
+      "prompt": "Собери предложение",
+      "answer": "I am nine.",
+      "options": [],
+      "hint": {
+        "translation": "Мне девять лет.",
+        "explanation": "В английском о возрасте говорят I am — буквально «я есть». I am seven означает «Мне семь лет». Не добавляй русское «мне» отдельным английским словом.",
+        "steps": [
+          "Прочитай русский смысл: Мне девять лет.",
+          "Вспомни правило: В английском о возрасте говорят I am — буквально «я есть». I am seven означает «Мне семь лет». Не добавляй русское «мне» отдельным английским словом.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "I am seven."
+      }
+    }
+  ]
+}

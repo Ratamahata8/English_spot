@@ -1,0 +1,796 @@
+{
+  "id": "food-likes",
+  "title": "Food I Like",
+  "subtitle": "Spotlight 3 · Unit 5 · еда и предпочтения",
+  "module": "Модуль 3 · Еда",
+  "description": "Говорим о любимой еде и напитках.",
+  "source": "Unit 5 · еда и предпочтения",
+  "coverWordId": "cheese",
+  "vocabulary": [
+    {
+      "id": "cheese",
+      "en": "cheese",
+      "ru": "сыр",
+      "ipa": "/tʃiːz/",
+      "explanation": "Говорим о любимой еде и напитках. Здесь «cheese» — «сыр».",
+      "example": "I like cheese.",
+      "image": "illustrations/cheese.svg"
+    },
+    {
+      "id": "chicken",
+      "en": "chicken",
+      "ru": "курица",
+      "ipa": "/ˈtʃɪkɪn/",
+      "explanation": "Говорим о любимой еде и напитках. Здесь «chicken» — «курица».",
+      "example": "I like chicken.",
+      "image": "illustrations/chicken.svg"
+    },
+    {
+      "id": "egg",
+      "en": "egg",
+      "ru": "яйцо",
+      "ipa": "/eɡ/",
+      "explanation": "Говорим о любимой еде и напитках. Здесь «egg» — «яйцо».",
+      "example": "I like eggs.",
+      "image": "illustrations/egg.svg"
+    },
+    {
+      "id": "jelly",
+      "en": "jelly",
+      "ru": "желе",
+      "ipa": "/ˈdʒeli/",
+      "explanation": "Говорим о любимой еде и напитках. Здесь «jelly» — «желе».",
+      "example": "He likes jelly.",
+      "image": "illustrations/jelly.svg"
+    },
+    {
+      "id": "lemonade",
+      "en": "lemonade",
+      "ru": "лимонад",
+      "ipa": "/ˌleməˈneɪd/",
+      "explanation": "Говорим о любимой еде и напитках. Здесь «lemonade» — «лимонад».",
+      "example": "I like lemonade.",
+      "image": "illustrations/lemonade.svg"
+    },
+    {
+      "id": "milk",
+      "en": "milk",
+      "ru": "молоко",
+      "ipa": "/mɪlk/",
+      "explanation": "Говорим о любимой еде и напитках. Здесь «milk» — «молоко».",
+      "example": "I do not like milk.",
+      "image": "illustrations/milk.svg"
+    },
+    {
+      "id": "bread",
+      "en": "bread",
+      "ru": "хлеб",
+      "ipa": "/bred/",
+      "explanation": "Говорим о любимой еде и напитках. Здесь «bread» — «хлеб».",
+      "example": "I like bread.",
+      "image": "illustrations/bread.svg"
+    },
+    {
+      "id": "ice-cream",
+      "en": "ice cream",
+      "ru": "мороженое",
+      "ipa": "/ˌaɪs ˈkriːm/",
+      "explanation": "Говорим о любимой еде и напитках. Здесь «ice cream» — «мороженое».",
+      "example": "I like ice cream.",
+      "image": "illustrations/ice-cream.svg"
+    }
+  ],
+  "lexicon": [],
+  "grammar": [
+    {
+      "id": "food-like",
+      "title": "Like, likes и отрицание",
+      "text": "I like — «мне нравится». После he или she к like добавляем s: He likes jelly. Чтобы сказать «не нравится» о себе, используй I do not like. Вопрос начинается с Do you или Does he. После does у like нет окончания s.",
+      "examples": [
+        "I like cheese.",
+        "He likes jelly.",
+        "I do not like milk.",
+        "Do you like cheese?",
+        "Does he like milk?"
+      ]
+    }
+  ],
+  "remedial": [
+    {
+      "id": "food-like",
+      "title": "Like, likes и отрицание",
+      "available": true,
+      "explanation": "I like — «мне нравится». После he или she к like добавляем s: He likes jelly. Чтобы сказать «не нравится» о себе, используй I do not like.",
+      "example": "I do not like milk.",
+      "question": "Что подходит после He?",
+      "answer": "likes",
+      "options": ["like", "likes"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "food-likes-study-cheese",
+      "type": "study",
+      "wordId": "cheese",
+      "skillId": "cheese",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "cheese",
+      "options": ["cheese", "chicken", "egg", "jelly"],
+      "hint": {
+        "translation": "сыр",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «cheese» — «сыр».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like chicken."
+      }
+    },
+    {
+      "id": "food-likes-study-chicken",
+      "type": "study",
+      "wordId": "chicken",
+      "skillId": "chicken",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "chicken",
+      "options": ["chicken", "egg", "jelly", "lemonade"],
+      "hint": {
+        "translation": "курица",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «chicken» — «курица».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like eggs."
+      }
+    },
+    {
+      "id": "food-likes-study-egg",
+      "type": "study",
+      "wordId": "egg",
+      "skillId": "egg",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "egg",
+      "options": ["egg", "jelly", "lemonade", "milk"],
+      "hint": {
+        "translation": "яйцо",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «egg» — «яйцо».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "He likes jelly."
+      }
+    },
+    {
+      "id": "food-likes-study-jelly",
+      "type": "study",
+      "wordId": "jelly",
+      "skillId": "jelly",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "jelly",
+      "options": ["jelly", "lemonade", "milk", "bread"],
+      "hint": {
+        "translation": "желе",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «jelly» — «желе».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like lemonade."
+      }
+    },
+    {
+      "id": "food-likes-study-lemonade",
+      "type": "study",
+      "wordId": "lemonade",
+      "skillId": "lemonade",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "lemonade",
+      "options": ["lemonade", "milk", "bread", "ice-cream"],
+      "hint": {
+        "translation": "лимонад",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «lemonade» — «лимонад».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I do not like milk."
+      }
+    },
+    {
+      "id": "food-likes-study-milk",
+      "type": "study",
+      "wordId": "milk",
+      "skillId": "milk",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "milk",
+      "options": ["milk", "bread", "ice-cream", "cheese"],
+      "hint": {
+        "translation": "молоко",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «milk» — «молоко».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like bread."
+      }
+    },
+    {
+      "id": "food-likes-study-bread",
+      "type": "study",
+      "wordId": "bread",
+      "skillId": "bread",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "bread",
+      "options": ["bread", "ice-cream", "cheese", "chicken"],
+      "hint": {
+        "translation": "хлеб",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «bread» — «хлеб».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like ice cream."
+      }
+    },
+    {
+      "id": "food-likes-study-ice-cream",
+      "type": "study",
+      "wordId": "ice-cream",
+      "skillId": "ice-cream",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "ice cream",
+      "options": ["ice-cream", "cheese", "chicken", "egg"],
+      "hint": {
+        "translation": "мороженое",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «ice cream» — «мороженое».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like cheese."
+      }
+    },
+    {
+      "id": "food-likes-picture-cheese",
+      "type": "picture",
+      "wordId": "cheese",
+      "skillId": "cheese",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "cheese",
+      "options": ["cheese", "chicken", "egg", "jelly"],
+      "hint": {
+        "translation": "сыр",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «cheese» — «сыр».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like chicken."
+      }
+    },
+    {
+      "id": "food-likes-picture-chicken",
+      "type": "picture",
+      "wordId": "chicken",
+      "skillId": "chicken",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "chicken",
+      "options": ["chicken", "egg", "jelly", "lemonade"],
+      "hint": {
+        "translation": "курица",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «chicken» — «курица».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like eggs."
+      }
+    },
+    {
+      "id": "food-likes-picture-egg",
+      "type": "picture",
+      "wordId": "egg",
+      "skillId": "egg",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "egg",
+      "options": ["egg", "jelly", "lemonade", "milk"],
+      "hint": {
+        "translation": "яйцо",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «egg» — «яйцо».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "He likes jelly."
+      }
+    },
+    {
+      "id": "food-likes-picture-jelly",
+      "type": "picture",
+      "wordId": "jelly",
+      "skillId": "jelly",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "jelly",
+      "options": ["jelly", "lemonade", "milk", "bread"],
+      "hint": {
+        "translation": "желе",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «jelly» — «желе».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like lemonade."
+      }
+    },
+    {
+      "id": "food-likes-picture-lemonade",
+      "type": "picture",
+      "wordId": "lemonade",
+      "skillId": "lemonade",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "lemonade",
+      "options": ["lemonade", "milk", "bread", "ice-cream"],
+      "hint": {
+        "translation": "лимонад",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «lemonade» — «лимонад».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I do not like milk."
+      }
+    },
+    {
+      "id": "food-likes-picture-milk",
+      "type": "picture",
+      "wordId": "milk",
+      "skillId": "milk",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "milk",
+      "options": ["milk", "bread", "ice-cream", "cheese"],
+      "hint": {
+        "translation": "молоко",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «milk» — «молоко».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like bread."
+      }
+    },
+    {
+      "id": "food-likes-picture-bread",
+      "type": "picture",
+      "wordId": "bread",
+      "skillId": "bread",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "bread",
+      "options": ["bread", "ice-cream", "cheese", "chicken"],
+      "hint": {
+        "translation": "хлеб",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «bread» — «хлеб».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like ice cream."
+      }
+    },
+    {
+      "id": "food-likes-picture-ice-cream",
+      "type": "picture",
+      "wordId": "ice-cream",
+      "skillId": "ice-cream",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "ice cream",
+      "options": ["ice-cream", "cheese", "chicken", "egg"],
+      "hint": {
+        "translation": "мороженое",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «ice cream» — «мороженое».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like cheese."
+      }
+    },
+    {
+      "id": "food-likes-word-cheese",
+      "type": "word",
+      "wordId": "cheese",
+      "skillId": "cheese",
+      "prompt": "Как это называется по-английски?",
+      "answer": "cheese",
+      "options": ["cheese", "chicken", "egg", "jelly"],
+      "hint": {
+        "translation": "сыр",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «cheese» — «сыр».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like chicken."
+      }
+    },
+    {
+      "id": "food-likes-word-chicken",
+      "type": "word",
+      "wordId": "chicken",
+      "skillId": "chicken",
+      "prompt": "Как это называется по-английски?",
+      "answer": "chicken",
+      "options": ["chicken", "egg", "jelly", "lemonade"],
+      "hint": {
+        "translation": "курица",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «chicken» — «курица».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like eggs."
+      }
+    },
+    {
+      "id": "food-likes-word-egg",
+      "type": "word",
+      "wordId": "egg",
+      "skillId": "egg",
+      "prompt": "Как это называется по-английски?",
+      "answer": "egg",
+      "options": ["egg", "jelly", "lemonade", "milk"],
+      "hint": {
+        "translation": "яйцо",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «egg» — «яйцо».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "He likes jelly."
+      }
+    },
+    {
+      "id": "food-likes-word-jelly",
+      "type": "word",
+      "wordId": "jelly",
+      "skillId": "jelly",
+      "prompt": "Как это называется по-английски?",
+      "answer": "jelly",
+      "options": ["jelly", "lemonade", "milk", "bread"],
+      "hint": {
+        "translation": "желе",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «jelly» — «желе».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like lemonade."
+      }
+    },
+    {
+      "id": "food-likes-word-lemonade",
+      "type": "word",
+      "wordId": "lemonade",
+      "skillId": "lemonade",
+      "prompt": "Как это называется по-английски?",
+      "answer": "lemonade",
+      "options": ["lemonade", "milk", "bread", "ice-cream"],
+      "hint": {
+        "translation": "лимонад",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «lemonade» — «лимонад».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I do not like milk."
+      }
+    },
+    {
+      "id": "food-likes-word-milk",
+      "type": "word",
+      "wordId": "milk",
+      "skillId": "milk",
+      "prompt": "Как это называется по-английски?",
+      "answer": "milk",
+      "options": ["milk", "bread", "ice-cream", "cheese"],
+      "hint": {
+        "translation": "молоко",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «milk» — «молоко».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like bread."
+      }
+    },
+    {
+      "id": "food-likes-word-bread",
+      "type": "word",
+      "wordId": "bread",
+      "skillId": "bread",
+      "prompt": "Как это называется по-английски?",
+      "answer": "bread",
+      "options": ["bread", "ice-cream", "cheese", "chicken"],
+      "hint": {
+        "translation": "хлеб",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «bread» — «хлеб».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like ice cream."
+      }
+    },
+    {
+      "id": "food-likes-word-ice-cream",
+      "type": "word",
+      "wordId": "ice-cream",
+      "skillId": "ice-cream",
+      "prompt": "Как это называется по-английски?",
+      "answer": "ice cream",
+      "options": ["ice-cream", "cheese", "chicken", "egg"],
+      "hint": {
+        "translation": "мороженое",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «ice cream» — «мороженое».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like cheese."
+      }
+    },
+    {
+      "id": "food-likes-letters-cheese",
+      "type": "letters",
+      "wordId": "cheese",
+      "skillId": "cheese",
+      "prompt": "Собери слово из букв",
+      "answer": "cheese",
+      "options": ["cheese", "chicken", "egg", "jelly"],
+      "hint": {
+        "translation": "сыр",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «cheese» — «сыр».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like chicken."
+      }
+    },
+    {
+      "id": "food-likes-letters-chicken",
+      "type": "letters",
+      "wordId": "chicken",
+      "skillId": "chicken",
+      "prompt": "Собери слово из букв",
+      "answer": "chicken",
+      "options": ["chicken", "egg", "jelly", "lemonade"],
+      "hint": {
+        "translation": "курица",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «chicken» — «курица».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like eggs."
+      }
+    },
+    {
+      "id": "food-likes-letters-egg",
+      "type": "letters",
+      "wordId": "egg",
+      "skillId": "egg",
+      "prompt": "Собери слово из букв",
+      "answer": "egg",
+      "options": ["egg", "jelly", "lemonade", "milk"],
+      "hint": {
+        "translation": "яйцо",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «egg» — «яйцо».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "He likes jelly."
+      }
+    },
+    {
+      "id": "food-likes-letters-jelly",
+      "type": "letters",
+      "wordId": "jelly",
+      "skillId": "jelly",
+      "prompt": "Собери слово из букв",
+      "answer": "jelly",
+      "options": ["jelly", "lemonade", "milk", "bread"],
+      "hint": {
+        "translation": "желе",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «jelly» — «желе».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like lemonade."
+      }
+    },
+    {
+      "id": "food-likes-letters-lemonade",
+      "type": "letters",
+      "wordId": "lemonade",
+      "skillId": "lemonade",
+      "prompt": "Собери слово из букв",
+      "answer": "lemonade",
+      "options": ["lemonade", "milk", "bread", "ice-cream"],
+      "hint": {
+        "translation": "лимонад",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «lemonade» — «лимонад».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I do not like milk."
+      }
+    },
+    {
+      "id": "food-likes-letters-milk",
+      "type": "letters",
+      "wordId": "milk",
+      "skillId": "milk",
+      "prompt": "Собери слово из букв",
+      "answer": "milk",
+      "options": ["milk", "bread", "ice-cream", "cheese"],
+      "hint": {
+        "translation": "молоко",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «milk» — «молоко».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like bread."
+      }
+    },
+    {
+      "id": "food-likes-letters-bread",
+      "type": "letters",
+      "wordId": "bread",
+      "skillId": "bread",
+      "prompt": "Собери слово из букв",
+      "answer": "bread",
+      "options": ["bread", "ice-cream", "cheese", "chicken"],
+      "hint": {
+        "translation": "хлеб",
+        "explanation": "Говорим о любимой еде и напитках. Здесь «bread» — «хлеб».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I like ice cream."
+      }
+    },
+    {
+      "id": "food-likes-sentence-1",
+      "type": "sentence",
+      "wordId": "cheese",
+      "skillId": "food-like",
+      "prompt": "Собери предложение",
+      "answer": "I like cheese.",
+      "options": [],
+      "hint": {
+        "translation": "Мне нравится сыр.",
+        "explanation": "I like — «мне нравится». После he или she к like добавляем s: He likes jelly. Чтобы сказать «не нравится» о себе, используй I do not like.",
+        "steps": [
+          "Прочитай русский смысл: Мне нравится сыр.",
+          "Вспомни правило: I like — «мне нравится». После he или she к like добавляем s: He likes jelly. Чтобы сказать «не нравится» о себе, используй I do not like.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "He likes jelly."
+      }
+    },
+    {
+      "id": "food-likes-sentence-2",
+      "type": "sentence",
+      "wordId": "jelly",
+      "skillId": "food-like",
+      "prompt": "Собери предложение",
+      "answer": "He likes jelly.",
+      "options": [],
+      "hint": {
+        "translation": "Ему нравится желе.",
+        "explanation": "I like — «мне нравится». После he или she к like добавляем s: He likes jelly. Чтобы сказать «не нравится» о себе, используй I do not like.",
+        "steps": [
+          "Прочитай русский смысл: Ему нравится желе.",
+          "Вспомни правило: I like — «мне нравится». После he или she к like добавляем s: He likes jelly. Чтобы сказать «не нравится» о себе, используй I do not like.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "I do not like milk."
+      }
+    },
+    {
+      "id": "food-likes-sentence-3",
+      "type": "sentence",
+      "wordId": "milk",
+      "skillId": "food-like",
+      "prompt": "Собери предложение",
+      "answer": "I do not like milk.",
+      "options": [],
+      "hint": {
+        "translation": "Мне не нравится молоко.",
+        "explanation": "I like — «мне нравится». После he или she к like добавляем s: He likes jelly. Чтобы сказать «не нравится» о себе, используй I do not like.",
+        "steps": [
+          "Прочитай русский смысл: Мне не нравится молоко.",
+          "Вспомни правило: I like — «мне нравится». После he или she к like добавляем s: He likes jelly. Чтобы сказать «не нравится» о себе, используй I do not like.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "I like cheese."
+      }
+    },
+    {
+      "id": "food-likes-sentence-4",
+      "type": "sentence",
+      "wordId": "cheese",
+      "skillId": "food-like",
+      "prompt": "Собери предложение",
+      "answer": "Do you like cheese?",
+      "options": [],
+      "hint": {
+        "translation": "Тебе нравится сыр?",
+        "explanation": "I like — «мне нравится». После he или she к like добавляем s: He likes jelly. Чтобы сказать «не нравится» о себе, используй I do not like. Вопрос начинается с Do you или Does he. После does у like нет окончания s.",
+        "steps": [
+          "Вспомни смысл: Тебе нравится сыр?",
+          "Выбери начало по правилу: I like — «мне нравится». После he или she к like добавляем s: He likes jelly. Чтобы сказать «не нравится» о себе, используй I do not like. Вопрос начинается с Do you или Does he. После does у like нет окончания s.",
+          "Проверь, что предмет и действие стоят на своих местах."
+        ],
+        "example": "I like cheese."
+      }
+    },
+    {
+      "id": "food-likes-sentence-5",
+      "type": "sentence",
+      "wordId": "milk",
+      "skillId": "food-like",
+      "prompt": "Собери предложение",
+      "answer": "Does he like milk?",
+      "options": [],
+      "hint": {
+        "translation": "Ему нравится молоко?",
+        "explanation": "I like — «мне нравится». После he или she к like добавляем s: He likes jelly. Чтобы сказать «не нравится» о себе, используй I do not like. Вопрос начинается с Do you или Does he. После does у like нет окончания s.",
+        "steps": [
+          "Вспомни смысл: Ему нравится молоко?",
+          "Выбери начало по правилу: I like — «мне нравится». После he или she к like добавляем s: He likes jelly. Чтобы сказать «не нравится» о себе, используй I do not like. Вопрос начинается с Do you или Does he. После does у like нет окончания s.",
+          "Проверь, что предмет и действие стоят на своих местах."
+        ],
+        "example": "I like cheese."
+      }
+    }
+  ]
+}

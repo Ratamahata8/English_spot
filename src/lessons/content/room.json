@@ -1,0 +1,601 @@
+{
+  "id": "room",
+  "title": "In My Room",
+  "subtitle": "Spotlight 3 · Unit 8 · комната, this / that / these / those",
+  "module": "Модуль 4 · Игрушки и комната",
+  "description": "Называем вещи рядом и вдалеке.",
+  "source": "Unit 8 · комната, this / that / these / those",
+  "coverWordId": "armchair",
+  "vocabulary": [
+    {
+      "id": "armchair",
+      "en": "armchair",
+      "ru": "кресло",
+      "ipa": "/ˈɑːmtʃeə/",
+      "explanation": "Называем вещи рядом и вдалеке. Здесь «armchair» — «кресло».",
+      "example": "This is my armchair.",
+      "image": "illustrations/armchair.svg"
+    },
+    {
+      "id": "computer",
+      "en": "computer",
+      "ru": "компьютер",
+      "ipa": "/kəmˈpjuːtə/",
+      "explanation": "Называем вещи рядом и вдалеке. Здесь «computer» — «компьютер».",
+      "example": "This is my computer.",
+      "image": "illustrations/computer.svg"
+    },
+    {
+      "id": "desk",
+      "en": "desk",
+      "ru": "письменный стол",
+      "ipa": "/desk/",
+      "explanation": "Называем вещи рядом и вдалеке. Здесь «desk» — «письменный стол».",
+      "example": "This is my desk.",
+      "image": "illustrations/desk.svg"
+    },
+    {
+      "id": "tv",
+      "en": "TV",
+      "ru": "телевизор",
+      "ipa": "/ˌtiː ˈviː/",
+      "explanation": "Называем вещи рядом и вдалеке. Здесь «TV» — «телевизор».",
+      "example": "This is my TV.",
+      "image": "illustrations/tv.svg"
+    },
+    {
+      "id": "bed",
+      "en": "bed",
+      "ru": "кровать",
+      "ipa": "/bed/",
+      "explanation": "Называем вещи рядом и вдалеке. Здесь «bed» — «кровать».",
+      "example": "That is my bed.",
+      "image": "illustrations/bed.svg"
+    },
+    {
+      "id": "chair",
+      "en": "chair",
+      "ru": "стул",
+      "ipa": "/tʃeə/",
+      "explanation": "Называем вещи рядом и вдалеке. Здесь «chair» — «стул».",
+      "example": "These are my chairs.",
+      "image": "illustrations/chair.svg"
+    }
+  ],
+  "lexicon": [],
+  "grammar": [
+    {
+      "id": "this-these",
+      "title": "Один или несколько, рядом или далеко",
+      "text": "This — один предмет рядом, that — один вдалеке. These — несколько рядом, those — несколько вдалеке. С this и that ставим is, с these и those — are.",
+      "examples": ["This is my desk.", "That is my bed.", "These are my chairs."]
+    }
+  ],
+  "remedial": [
+    {
+      "id": "this-these",
+      "title": "Один или несколько, рядом или далеко",
+      "available": true,
+      "explanation": "This — один предмет рядом, that — один вдалеке. These — несколько рядом, those — несколько вдалеке. С this и that ставим is, с these и those — are.",
+      "example": "These are my chairs.",
+      "question": "Что подходит для нескольких предметов рядом?",
+      "answer": "these",
+      "options": ["this", "these"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "room-study-armchair",
+      "type": "study",
+      "wordId": "armchair",
+      "skillId": "armchair",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "armchair",
+      "options": ["armchair", "computer", "desk", "tv"],
+      "hint": {
+        "translation": "кресло",
+        "explanation": "Называем вещи рядом и вдалеке. Здесь «armchair» — «кресло».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my computer."
+      }
+    },
+    {
+      "id": "room-study-computer",
+      "type": "study",
+      "wordId": "computer",
+      "skillId": "computer",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "computer",
+      "options": ["computer", "desk", "tv", "bed"],
+      "hint": {
+        "translation": "компьютер",
+        "explanation": "Называем вещи рядом и вдалеке. Здесь «computer» — «компьютер».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my desk."
+      }
+    },
+    {
+      "id": "room-study-desk",
+      "type": "study",
+      "wordId": "desk",
+      "skillId": "desk",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "desk",
+      "options": ["desk", "tv", "bed", "chair"],
+      "hint": {
+        "translation": "письменный стол",
+        "explanation": "Называем вещи рядом и вдалеке. Здесь «desk» — «письменный стол».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my TV."
+      }
+    },
+    {
+      "id": "room-study-tv",
+      "type": "study",
+      "wordId": "tv",
+      "skillId": "tv",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "TV",
+      "options": ["tv", "bed", "chair", "armchair"],
+      "hint": {
+        "translation": "телевизор",
+        "explanation": "Называем вещи рядом и вдалеке. Здесь «TV» — «телевизор».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "That is my bed."
+      }
+    },
+    {
+      "id": "room-study-bed",
+      "type": "study",
+      "wordId": "bed",
+      "skillId": "bed",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "bed",
+      "options": ["bed", "chair", "armchair", "computer"],
+      "hint": {
+        "translation": "кровать",
+        "explanation": "Называем вещи рядом и вдалеке. Здесь «bed» — «кровать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "These are my chairs."
+      }
+    },
+    {
+      "id": "room-study-chair",
+      "type": "study",
+      "wordId": "chair",
+      "skillId": "chair",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "chair",
+      "options": ["chair", "armchair", "computer", "desk"],
+      "hint": {
+        "translation": "стул",
+        "explanation": "Называем вещи рядом и вдалеке. Здесь «chair» — «стул».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my armchair."
+      }
+    },
+    {
+      "id": "room-picture-armchair",
+      "type": "picture",
+      "wordId": "armchair",
+      "skillId": "armchair",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "armchair",
+      "options": ["armchair", "computer", "desk", "tv"],
+      "hint": {
+        "translation": "кресло",
+        "explanation": "Называем вещи рядом и вдалеке. Здесь «armchair» — «кресло».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my computer."
+      }
+    },
+    {
+      "id": "room-picture-computer",
+      "type": "picture",
+      "wordId": "computer",
+      "skillId": "computer",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "computer",
+      "options": ["computer", "desk", "tv", "bed"],
+      "hint": {
+        "translation": "компьютер",
+        "explanation": "Называем вещи рядом и вдалеке. Здесь «computer» — «компьютер».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my desk."
+      }
+    },
+    {
+      "id": "room-picture-desk",
+      "type": "picture",
+      "wordId": "desk",
+      "skillId": "desk",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "desk",
+      "options": ["desk", "tv", "bed", "chair"],
+      "hint": {
+        "translation": "письменный стол",
+        "explanation": "Называем вещи рядом и вдалеке. Здесь «desk» — «письменный стол».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my TV."
+      }
+    },
+    {
+      "id": "room-picture-tv",
+      "type": "picture",
+      "wordId": "tv",
+      "skillId": "tv",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "TV",
+      "options": ["tv", "bed", "chair", "armchair"],
+      "hint": {
+        "translation": "телевизор",
+        "explanation": "Называем вещи рядом и вдалеке. Здесь «TV» — «телевизор».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "That is my bed."
+      }
+    },
+    {
+      "id": "room-picture-bed",
+      "type": "picture",
+      "wordId": "bed",
+      "skillId": "bed",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "bed",
+      "options": ["bed", "chair", "armchair", "computer"],
+      "hint": {
+        "translation": "кровать",
+        "explanation": "Называем вещи рядом и вдалеке. Здесь «bed» — «кровать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "These are my chairs."
+      }
+    },
+    {
+      "id": "room-picture-chair",
+      "type": "picture",
+      "wordId": "chair",
+      "skillId": "chair",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "chair",
+      "options": ["chair", "armchair", "computer", "desk"],
+      "hint": {
+        "translation": "стул",
+        "explanation": "Называем вещи рядом и вдалеке. Здесь «chair» — «стул».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my armchair."
+      }
+    },
+    {
+      "id": "room-word-armchair",
+      "type": "word",
+      "wordId": "armchair",
+      "skillId": "armchair",
+      "prompt": "Как это называется по-английски?",
+      "answer": "armchair",
+      "options": ["armchair", "computer", "desk", "tv"],
+      "hint": {
+        "translation": "кресло",
+        "explanation": "Называем вещи рядом и вдалеке. Здесь «armchair» — «кресло».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my computer."
+      }
+    },
+    {
+      "id": "room-word-computer",
+      "type": "word",
+      "wordId": "computer",
+      "skillId": "computer",
+      "prompt": "Как это называется по-английски?",
+      "answer": "computer",
+      "options": ["computer", "desk", "tv", "bed"],
+      "hint": {
+        "translation": "компьютер",
+        "explanation": "Называем вещи рядом и вдалеке. Здесь «computer» — «компьютер».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my desk."
+      }
+    },
+    {
+      "id": "room-word-desk",
+      "type": "word",
+      "wordId": "desk",
+      "skillId": "desk",
+      "prompt": "Как это называется по-английски?",
+      "answer": "desk",
+      "options": ["desk", "tv", "bed", "chair"],
+      "hint": {
+        "translation": "письменный стол",
+        "explanation": "Называем вещи рядом и вдалеке. Здесь «desk» — «письменный стол».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my TV."
+      }
+    },
+    {
+      "id": "room-word-tv",
+      "type": "word",
+      "wordId": "tv",
+      "skillId": "tv",
+      "prompt": "Как это называется по-английски?",
+      "answer": "TV",
+      "options": ["tv", "bed", "chair", "armchair"],
+      "hint": {
+        "translation": "телевизор",
+        "explanation": "Называем вещи рядом и вдалеке. Здесь «TV» — «телевизор».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "That is my bed."
+      }
+    },
+    {
+      "id": "room-word-bed",
+      "type": "word",
+      "wordId": "bed",
+      "skillId": "bed",
+      "prompt": "Как это называется по-английски?",
+      "answer": "bed",
+      "options": ["bed", "chair", "armchair", "computer"],
+      "hint": {
+        "translation": "кровать",
+        "explanation": "Называем вещи рядом и вдалеке. Здесь «bed» — «кровать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "These are my chairs."
+      }
+    },
+    {
+      "id": "room-word-chair",
+      "type": "word",
+      "wordId": "chair",
+      "skillId": "chair",
+      "prompt": "Как это называется по-английски?",
+      "answer": "chair",
+      "options": ["chair", "armchair", "computer", "desk"],
+      "hint": {
+        "translation": "стул",
+        "explanation": "Называем вещи рядом и вдалеке. Здесь «chair» — «стул».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my armchair."
+      }
+    },
+    {
+      "id": "room-letters-armchair",
+      "type": "letters",
+      "wordId": "armchair",
+      "skillId": "armchair",
+      "prompt": "Собери слово из букв",
+      "answer": "armchair",
+      "options": ["armchair", "computer", "desk", "tv"],
+      "hint": {
+        "translation": "кресло",
+        "explanation": "Называем вещи рядом и вдалеке. Здесь «armchair» — «кресло».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my computer."
+      }
+    },
+    {
+      "id": "room-letters-computer",
+      "type": "letters",
+      "wordId": "computer",
+      "skillId": "computer",
+      "prompt": "Собери слово из букв",
+      "answer": "computer",
+      "options": ["computer", "desk", "tv", "bed"],
+      "hint": {
+        "translation": "компьютер",
+        "explanation": "Называем вещи рядом и вдалеке. Здесь «computer» — «компьютер».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my desk."
+      }
+    },
+    {
+      "id": "room-letters-desk",
+      "type": "letters",
+      "wordId": "desk",
+      "skillId": "desk",
+      "prompt": "Собери слово из букв",
+      "answer": "desk",
+      "options": ["desk", "tv", "bed", "chair"],
+      "hint": {
+        "translation": "письменный стол",
+        "explanation": "Называем вещи рядом и вдалеке. Здесь «desk» — «письменный стол».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my TV."
+      }
+    },
+    {
+      "id": "room-letters-tv",
+      "type": "letters",
+      "wordId": "tv",
+      "skillId": "tv",
+      "prompt": "Собери слово из букв",
+      "answer": "TV",
+      "options": ["tv", "bed", "chair", "armchair"],
+      "hint": {
+        "translation": "телевизор",
+        "explanation": "Называем вещи рядом и вдалеке. Здесь «TV» — «телевизор».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "That is my bed."
+      }
+    },
+    {
+      "id": "room-letters-bed",
+      "type": "letters",
+      "wordId": "bed",
+      "skillId": "bed",
+      "prompt": "Собери слово из букв",
+      "answer": "bed",
+      "options": ["bed", "chair", "armchair", "computer"],
+      "hint": {
+        "translation": "кровать",
+        "explanation": "Называем вещи рядом и вдалеке. Здесь «bed» — «кровать».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "These are my chairs."
+      }
+    },
+    {
+      "id": "room-letters-chair",
+      "type": "letters",
+      "wordId": "chair",
+      "skillId": "chair",
+      "prompt": "Собери слово из букв",
+      "answer": "chair",
+      "options": ["chair", "armchair", "computer", "desk"],
+      "hint": {
+        "translation": "стул",
+        "explanation": "Называем вещи рядом и вдалеке. Здесь «chair» — «стул».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my armchair."
+      }
+    },
+    {
+      "id": "room-sentence-1",
+      "type": "sentence",
+      "wordId": "desk",
+      "skillId": "this-these",
+      "prompt": "Собери предложение",
+      "answer": "This is my desk.",
+      "options": [],
+      "hint": {
+        "translation": "Это мой письменный стол рядом.",
+        "explanation": "This — один предмет рядом, that — один вдалеке. These — несколько рядом, those — несколько вдалеке. С this и that ставим is, с these и those — are.",
+        "steps": [
+          "Прочитай русский смысл: Это мой письменный стол рядом.",
+          "Вспомни правило: This — один предмет рядом, that — один вдалеке. These — несколько рядом, those — несколько вдалеке. С this и that ставим is, с these и those — are.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "That is my bed."
+      }
+    },
+    {
+      "id": "room-sentence-2",
+      "type": "sentence",
+      "wordId": "bed",
+      "skillId": "this-these",
+      "prompt": "Собери предложение",
+      "answer": "That is my bed.",
+      "options": [],
+      "hint": {
+        "translation": "То — моя кровать вдалеке.",
+        "explanation": "This — один предмет рядом, that — один вдалеке. These — несколько рядом, those — несколько вдалеке. С this и that ставим is, с these и those — are.",
+        "steps": [
+          "Прочитай русский смысл: То — моя кровать вдалеке.",
+          "Вспомни правило: This — один предмет рядом, that — один вдалеке. These — несколько рядом, those — несколько вдалеке. С this и that ставим is, с these и those — are.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "These are my chairs."
+      }
+    },
+    {
+      "id": "room-sentence-3",
+      "type": "sentence",
+      "wordId": "chair",
+      "skillId": "this-these",
+      "prompt": "Собери предложение",
+      "answer": "These are my chairs.",
+      "options": [],
+      "hint": {
+        "translation": "Это мои стулья рядом.",
+        "explanation": "This — один предмет рядом, that — один вдалеке. These — несколько рядом, those — несколько вдалеке. С this и that ставим is, с these и those — are.",
+        "steps": [
+          "Прочитай русский смысл: Это мои стулья рядом.",
+          "Вспомни правило: This — один предмет рядом, that — один вдалеке. These — несколько рядом, those — несколько вдалеке. С this и that ставим is, с these и those — are.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "This is my desk."
+      }
+    }
+  ]
+}

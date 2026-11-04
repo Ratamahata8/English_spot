@@ -1,0 +1,601 @@
+{
+  "id": "welcome",
+  "title": "Hello, Colours!",
+  "subtitle": "Spotlight 3 · Starter Unit · приветствие и цвета",
+  "module": "Подготовка и праздники",
+  "description": "Вспоминаем цвета и знакомимся.",
+  "source": "Starter Unit · приветствие и цвета",
+  "coverWordId": "red",
+  "vocabulary": [
+    {
+      "id": "red",
+      "en": "red",
+      "ru": "красный",
+      "ipa": "/red/",
+      "explanation": "Вспоминаем цвета и знакомимся. Здесь «red» — «красный».",
+      "example": "My book is red.",
+      "image": "illustrations/red.svg"
+    },
+    {
+      "id": "blue",
+      "en": "blue",
+      "ru": "синий",
+      "ipa": "/bluː/",
+      "explanation": "Вспоминаем цвета и знакомимся. Здесь «blue» — «синий».",
+      "example": "My pen is blue.",
+      "image": "illustrations/blue.svg"
+    },
+    {
+      "id": "green",
+      "en": "green",
+      "ru": "зелёный",
+      "ipa": "/ɡriːn/",
+      "explanation": "Вспоминаем цвета и знакомимся. Здесь «green» — «зелёный».",
+      "example": "My ruler is green.",
+      "image": "illustrations/green.svg"
+    },
+    {
+      "id": "yellow",
+      "en": "yellow",
+      "ru": "жёлтый",
+      "ipa": "/ˈjeləʊ/",
+      "explanation": "Вспоминаем цвета и знакомимся. Здесь «yellow» — «жёлтый».",
+      "example": "My book is yellow.",
+      "image": "illustrations/yellow.svg"
+    },
+    {
+      "id": "orange",
+      "en": "orange",
+      "ru": "оранжевый",
+      "ipa": "/ˈɒrɪndʒ/",
+      "explanation": "Вспоминаем цвета и знакомимся. Здесь «orange» — «оранжевый».",
+      "example": "My book is orange.",
+      "image": "illustrations/orange.svg"
+    },
+    {
+      "id": "black",
+      "en": "black",
+      "ru": "чёрный",
+      "ipa": "/blæk/",
+      "explanation": "Вспоминаем цвета и знакомимся. Здесь «black» — «чёрный».",
+      "example": "My book is black.",
+      "image": "illustrations/black.svg"
+    }
+  ],
+  "lexicon": [],
+  "grammar": [
+    {
+      "id": "colours",
+      "title": "Называем цвет предмета",
+      "text": "Сначала назови предмет, затем добавь is и цвет: My book is red. Цвет не меняется, даже если по-русски мы говорим «красная» или «красный».",
+      "examples": ["My book is red.", "My pen is blue.", "My ruler is green."]
+    }
+  ],
+  "remedial": [
+    {
+      "id": "colours",
+      "title": "Называем цвет предмета",
+      "available": true,
+      "explanation": "Сначала назови предмет, затем добавь is и цвет: My book is red. Цвет не меняется, даже если по-русски мы говорим «красная» или «красный».",
+      "example": "My ruler is green.",
+      "question": "Где стоит цвет в My book is red?",
+      "answer": "в конце",
+      "options": ["в начале", "в конце"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "welcome-study-red",
+      "type": "study",
+      "wordId": "red",
+      "skillId": "red",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "red",
+      "options": ["red", "blue", "green", "yellow"],
+      "hint": {
+        "translation": "красный",
+        "explanation": "Вспоминаем цвета и знакомимся. Здесь «red» — «красный».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My pen is blue."
+      }
+    },
+    {
+      "id": "welcome-study-blue",
+      "type": "study",
+      "wordId": "blue",
+      "skillId": "blue",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "blue",
+      "options": ["blue", "green", "yellow", "orange"],
+      "hint": {
+        "translation": "синий",
+        "explanation": "Вспоминаем цвета и знакомимся. Здесь «blue» — «синий».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My ruler is green."
+      }
+    },
+    {
+      "id": "welcome-study-green",
+      "type": "study",
+      "wordId": "green",
+      "skillId": "green",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "green",
+      "options": ["green", "yellow", "orange", "black"],
+      "hint": {
+        "translation": "зелёный",
+        "explanation": "Вспоминаем цвета и знакомимся. Здесь «green» — «зелёный».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My book is yellow."
+      }
+    },
+    {
+      "id": "welcome-study-yellow",
+      "type": "study",
+      "wordId": "yellow",
+      "skillId": "yellow",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "yellow",
+      "options": ["yellow", "orange", "black", "red"],
+      "hint": {
+        "translation": "жёлтый",
+        "explanation": "Вспоминаем цвета и знакомимся. Здесь «yellow» — «жёлтый».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My book is orange."
+      }
+    },
+    {
+      "id": "welcome-study-orange",
+      "type": "study",
+      "wordId": "orange",
+      "skillId": "orange",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "orange",
+      "options": ["orange", "black", "red", "blue"],
+      "hint": {
+        "translation": "оранжевый",
+        "explanation": "Вспоминаем цвета и знакомимся. Здесь «orange» — «оранжевый».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My book is black."
+      }
+    },
+    {
+      "id": "welcome-study-black",
+      "type": "study",
+      "wordId": "black",
+      "skillId": "black",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "black",
+      "options": ["black", "red", "blue", "green"],
+      "hint": {
+        "translation": "чёрный",
+        "explanation": "Вспоминаем цвета и знакомимся. Здесь «black» — «чёрный».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My book is red."
+      }
+    },
+    {
+      "id": "welcome-picture-red",
+      "type": "picture",
+      "wordId": "red",
+      "skillId": "red",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "red",
+      "options": ["red", "blue", "green", "yellow"],
+      "hint": {
+        "translation": "красный",
+        "explanation": "Вспоминаем цвета и знакомимся. Здесь «red» — «красный».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My pen is blue."
+      }
+    },
+    {
+      "id": "welcome-picture-blue",
+      "type": "picture",
+      "wordId": "blue",
+      "skillId": "blue",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "blue",
+      "options": ["blue", "green", "yellow", "orange"],
+      "hint": {
+        "translation": "синий",
+        "explanation": "Вспоминаем цвета и знакомимся. Здесь «blue» — «синий».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My ruler is green."
+      }
+    },
+    {
+      "id": "welcome-picture-green",
+      "type": "picture",
+      "wordId": "green",
+      "skillId": "green",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "green",
+      "options": ["green", "yellow", "orange", "black"],
+      "hint": {
+        "translation": "зелёный",
+        "explanation": "Вспоминаем цвета и знакомимся. Здесь «green» — «зелёный».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My book is yellow."
+      }
+    },
+    {
+      "id": "welcome-picture-yellow",
+      "type": "picture",
+      "wordId": "yellow",
+      "skillId": "yellow",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "yellow",
+      "options": ["yellow", "orange", "black", "red"],
+      "hint": {
+        "translation": "жёлтый",
+        "explanation": "Вспоминаем цвета и знакомимся. Здесь «yellow» — «жёлтый».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My book is orange."
+      }
+    },
+    {
+      "id": "welcome-picture-orange",
+      "type": "picture",
+      "wordId": "orange",
+      "skillId": "orange",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "orange",
+      "options": ["orange", "black", "red", "blue"],
+      "hint": {
+        "translation": "оранжевый",
+        "explanation": "Вспоминаем цвета и знакомимся. Здесь «orange» — «оранжевый».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My book is black."
+      }
+    },
+    {
+      "id": "welcome-picture-black",
+      "type": "picture",
+      "wordId": "black",
+      "skillId": "black",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "black",
+      "options": ["black", "red", "blue", "green"],
+      "hint": {
+        "translation": "чёрный",
+        "explanation": "Вспоминаем цвета и знакомимся. Здесь «black» — «чёрный».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My book is red."
+      }
+    },
+    {
+      "id": "welcome-word-red",
+      "type": "word",
+      "wordId": "red",
+      "skillId": "red",
+      "prompt": "Как это называется по-английски?",
+      "answer": "red",
+      "options": ["red", "blue", "green", "yellow"],
+      "hint": {
+        "translation": "красный",
+        "explanation": "Вспоминаем цвета и знакомимся. Здесь «red» — «красный».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My pen is blue."
+      }
+    },
+    {
+      "id": "welcome-word-blue",
+      "type": "word",
+      "wordId": "blue",
+      "skillId": "blue",
+      "prompt": "Как это называется по-английски?",
+      "answer": "blue",
+      "options": ["blue", "green", "yellow", "orange"],
+      "hint": {
+        "translation": "синий",
+        "explanation": "Вспоминаем цвета и знакомимся. Здесь «blue» — «синий».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My ruler is green."
+      }
+    },
+    {
+      "id": "welcome-word-green",
+      "type": "word",
+      "wordId": "green",
+      "skillId": "green",
+      "prompt": "Как это называется по-английски?",
+      "answer": "green",
+      "options": ["green", "yellow", "orange", "black"],
+      "hint": {
+        "translation": "зелёный",
+        "explanation": "Вспоминаем цвета и знакомимся. Здесь «green» — «зелёный».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My book is yellow."
+      }
+    },
+    {
+      "id": "welcome-word-yellow",
+      "type": "word",
+      "wordId": "yellow",
+      "skillId": "yellow",
+      "prompt": "Как это называется по-английски?",
+      "answer": "yellow",
+      "options": ["yellow", "orange", "black", "red"],
+      "hint": {
+        "translation": "жёлтый",
+        "explanation": "Вспоминаем цвета и знакомимся. Здесь «yellow» — «жёлтый».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My book is orange."
+      }
+    },
+    {
+      "id": "welcome-word-orange",
+      "type": "word",
+      "wordId": "orange",
+      "skillId": "orange",
+      "prompt": "Как это называется по-английски?",
+      "answer": "orange",
+      "options": ["orange", "black", "red", "blue"],
+      "hint": {
+        "translation": "оранжевый",
+        "explanation": "Вспоминаем цвета и знакомимся. Здесь «orange» — «оранжевый».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My book is black."
+      }
+    },
+    {
+      "id": "welcome-word-black",
+      "type": "word",
+      "wordId": "black",
+      "skillId": "black",
+      "prompt": "Как это называется по-английски?",
+      "answer": "black",
+      "options": ["black", "red", "blue", "green"],
+      "hint": {
+        "translation": "чёрный",
+        "explanation": "Вспоминаем цвета и знакомимся. Здесь «black» — «чёрный».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My book is red."
+      }
+    },
+    {
+      "id": "welcome-letters-red",
+      "type": "letters",
+      "wordId": "red",
+      "skillId": "red",
+      "prompt": "Собери слово из букв",
+      "answer": "red",
+      "options": ["red", "blue", "green", "yellow"],
+      "hint": {
+        "translation": "красный",
+        "explanation": "Вспоминаем цвета и знакомимся. Здесь «red» — «красный».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My pen is blue."
+      }
+    },
+    {
+      "id": "welcome-letters-blue",
+      "type": "letters",
+      "wordId": "blue",
+      "skillId": "blue",
+      "prompt": "Собери слово из букв",
+      "answer": "blue",
+      "options": ["blue", "green", "yellow", "orange"],
+      "hint": {
+        "translation": "синий",
+        "explanation": "Вспоминаем цвета и знакомимся. Здесь «blue» — «синий».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My ruler is green."
+      }
+    },
+    {
+      "id": "welcome-letters-green",
+      "type": "letters",
+      "wordId": "green",
+      "skillId": "green",
+      "prompt": "Собери слово из букв",
+      "answer": "green",
+      "options": ["green", "yellow", "orange", "black"],
+      "hint": {
+        "translation": "зелёный",
+        "explanation": "Вспоминаем цвета и знакомимся. Здесь «green» — «зелёный».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My book is yellow."
+      }
+    },
+    {
+      "id": "welcome-letters-yellow",
+      "type": "letters",
+      "wordId": "yellow",
+      "skillId": "yellow",
+      "prompt": "Собери слово из букв",
+      "answer": "yellow",
+      "options": ["yellow", "orange", "black", "red"],
+      "hint": {
+        "translation": "жёлтый",
+        "explanation": "Вспоминаем цвета и знакомимся. Здесь «yellow» — «жёлтый».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My book is orange."
+      }
+    },
+    {
+      "id": "welcome-letters-orange",
+      "type": "letters",
+      "wordId": "orange",
+      "skillId": "orange",
+      "prompt": "Собери слово из букв",
+      "answer": "orange",
+      "options": ["orange", "black", "red", "blue"],
+      "hint": {
+        "translation": "оранжевый",
+        "explanation": "Вспоминаем цвета и знакомимся. Здесь «orange» — «оранжевый».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My book is black."
+      }
+    },
+    {
+      "id": "welcome-letters-black",
+      "type": "letters",
+      "wordId": "black",
+      "skillId": "black",
+      "prompt": "Собери слово из букв",
+      "answer": "black",
+      "options": ["black", "red", "blue", "green"],
+      "hint": {
+        "translation": "чёрный",
+        "explanation": "Вспоминаем цвета и знакомимся. Здесь «black» — «чёрный».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "My book is red."
+      }
+    },
+    {
+      "id": "welcome-sentence-1",
+      "type": "sentence",
+      "wordId": "red",
+      "skillId": "colours",
+      "prompt": "Собери предложение",
+      "answer": "My book is red.",
+      "options": [],
+      "hint": {
+        "translation": "Моя книга красная.",
+        "explanation": "Сначала назови предмет, затем добавь is и цвет: My book is red. Цвет не меняется, даже если по-русски мы говорим «красная» или «красный».",
+        "steps": [
+          "Прочитай русский смысл: Моя книга красная.",
+          "Вспомни правило: Сначала назови предмет, затем добавь is и цвет: My book is red. Цвет не меняется, даже если по-русски мы говорим «красная» или «красный».",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "My pen is blue."
+      }
+    },
+    {
+      "id": "welcome-sentence-2",
+      "type": "sentence",
+      "wordId": "blue",
+      "skillId": "colours",
+      "prompt": "Собери предложение",
+      "answer": "My pen is blue.",
+      "options": [],
+      "hint": {
+        "translation": "Моя ручка синяя.",
+        "explanation": "Сначала назови предмет, затем добавь is и цвет: My book is red. Цвет не меняется, даже если по-русски мы говорим «красная» или «красный».",
+        "steps": [
+          "Прочитай русский смысл: Моя ручка синяя.",
+          "Вспомни правило: Сначала назови предмет, затем добавь is и цвет: My book is red. Цвет не меняется, даже если по-русски мы говорим «красная» или «красный».",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "My ruler is green."
+      }
+    },
+    {
+      "id": "welcome-sentence-3",
+      "type": "sentence",
+      "wordId": "green",
+      "skillId": "colours",
+      "prompt": "Собери предложение",
+      "answer": "My ruler is green.",
+      "options": [],
+      "hint": {
+        "translation": "Моя линейка зелёная.",
+        "explanation": "Сначала назови предмет, затем добавь is и цвет: My book is red. Цвет не меняется, даже если по-русски мы говорим «красная» или «красный».",
+        "steps": [
+          "Прочитай русский смысл: Моя линейка зелёная.",
+          "Вспомни правило: Сначала назови предмет, затем добавь is и цвет: My book is red. Цвет не меняется, даже если по-русски мы говорим «красная» или «красный».",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "My book is red."
+      }
+    }
+  ]
+}

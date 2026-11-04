@@ -10,7 +10,7 @@ it('все уникальные учебные строки соответств
   for (const text of audioTexts()) {
     const a = assets[text];
     expect(a.text).toBe(text);
-    expect(a.voice).toMatch(/en-gb|en-GB/);
+    expect(a.voice).toBe('en-GB-SoniaNeural');
     const path = `public/audio/en-GB/${a.path}`;
     expect(existsSync(path), text).toBe(true);
     const bytes = readFileSync(path);
@@ -18,6 +18,6 @@ it('все уникальные учебные строки соответств
     expect(createHash('sha256').update(bytes).digest('hex')).toBe(a.sha256);
   }
 });
-it('восемь основных слов и лексические единицы подсказок озвучены', () => {
+it('все слова программы и лексические единицы подсказок озвучены', () => {
   for (const w of lexicon) expect((manifest as Record<string, AudioAsset>)[w.en]).toBeDefined();
 });

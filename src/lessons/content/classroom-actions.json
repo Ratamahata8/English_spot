@@ -1,0 +1,601 @@
+{
+  "id": "classroom-actions",
+  "title": "Listen and Learn",
+  "subtitle": "Spotlight 3 · Unit 1 · команды",
+  "module": "Модуль 1 · Школа",
+  "source": "Unit 1 · команды",
+  "description": "Понимаем простые просьбы учителя.",
+  "coverWordId": "open",
+  "vocabulary": [
+    {
+      "id": "open",
+      "en": "open",
+      "ru": "открой",
+      "ipa": "/ˈəʊpən/",
+      "explanation": "Это команда: «открой». Скажи действие первым.",
+      "example": "Open your book.",
+      "image": "illustrations/open.svg"
+    },
+    {
+      "id": "close",
+      "en": "close",
+      "ru": "закрой",
+      "ipa": "/kləʊz/",
+      "explanation": "Это команда: «закрой». Скажи действие первым.",
+      "example": "Close your book.",
+      "image": "illustrations/close.svg"
+    },
+    {
+      "id": "stand",
+      "en": "stand",
+      "ru": "встань",
+      "ipa": "/stænd/",
+      "explanation": "Это команда: «встань». Скажи действие первым.",
+      "example": "Stand up.",
+      "image": "illustrations/stand.svg"
+    },
+    {
+      "id": "sit",
+      "en": "sit",
+      "ru": "сядь",
+      "ipa": "/sɪt/",
+      "explanation": "Это команда: «сядь». Скажи действие первым.",
+      "example": "Sit down.",
+      "image": "illustrations/sit.svg"
+    },
+    {
+      "id": "listen",
+      "en": "listen",
+      "ru": "слушай",
+      "ipa": "/ˈlɪsən/",
+      "explanation": "Это команда: «слушай». Скажи действие первым.",
+      "example": "Listen.",
+      "image": "illustrations/listen.svg"
+    },
+    {
+      "id": "read",
+      "en": "read",
+      "ru": "читай",
+      "ipa": "/riːd/",
+      "explanation": "Это команда: «читай». Скажи действие первым.",
+      "example": "Read your book.",
+      "image": "illustrations/read.svg"
+    }
+  ],
+  "lexicon": [],
+  "grammar": [
+    {
+      "id": "imperative",
+      "title": "Команда начинается с действия",
+      "text": "Чтобы попросить открыть книгу, начни с Open. Не нужно добавлять I или is. Затем скажи, что открыть: Open your book. Stand up — «встань», Sit down — «сядь».",
+      "examples": ["Open your book.", "Close your book.", "Sit down."]
+    }
+  ],
+  "remedial": [
+    {
+      "id": "imperative",
+      "title": "Команда начинается с действия",
+      "available": true,
+      "explanation": "Чтобы попросить открыть книгу, начни с Open. Не нужно добавлять I или is. Затем скажи, что открыть: Open your book. Stand up — «встань», Sit down — «сядь».",
+      "example": "Open your book.",
+      "question": "С чего начать команду «Открой свою книгу»?",
+      "answer": "Open",
+      "options": ["Open", "I"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "classroom-actions-study-open",
+      "type": "study",
+      "wordId": "open",
+      "skillId": "open",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "open",
+      "options": ["open", "close", "stand", "sit"],
+      "hint": {
+        "translation": "открой",
+        "explanation": "Это команда: «открой». Скажи действие первым.",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "Close your book."
+      }
+    },
+    {
+      "id": "classroom-actions-study-close",
+      "type": "study",
+      "wordId": "close",
+      "skillId": "close",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "close",
+      "options": ["close", "stand", "sit", "listen"],
+      "hint": {
+        "translation": "закрой",
+        "explanation": "Это команда: «закрой». Скажи действие первым.",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "Stand up."
+      }
+    },
+    {
+      "id": "classroom-actions-study-stand",
+      "type": "study",
+      "wordId": "stand",
+      "skillId": "stand",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "stand",
+      "options": ["stand", "sit", "listen", "read"],
+      "hint": {
+        "translation": "встань",
+        "explanation": "Это команда: «встань». Скажи действие первым.",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "Sit down."
+      }
+    },
+    {
+      "id": "classroom-actions-study-sit",
+      "type": "study",
+      "wordId": "sit",
+      "skillId": "sit",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "sit",
+      "options": ["sit", "listen", "read", "open"],
+      "hint": {
+        "translation": "сядь",
+        "explanation": "Это команда: «сядь». Скажи действие первым.",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "Listen."
+      }
+    },
+    {
+      "id": "classroom-actions-study-listen",
+      "type": "study",
+      "wordId": "listen",
+      "skillId": "listen",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "listen",
+      "options": ["listen", "read", "open", "close"],
+      "hint": {
+        "translation": "слушай",
+        "explanation": "Это команда: «слушай». Скажи действие первым.",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "Read your book."
+      }
+    },
+    {
+      "id": "classroom-actions-study-read",
+      "type": "study",
+      "wordId": "read",
+      "skillId": "read",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "read",
+      "options": ["read", "open", "close", "stand"],
+      "hint": {
+        "translation": "читай",
+        "explanation": "Это команда: «читай». Скажи действие первым.",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "Open your book."
+      }
+    },
+    {
+      "id": "classroom-actions-picture-open",
+      "type": "picture",
+      "wordId": "open",
+      "skillId": "open",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "open",
+      "options": ["open", "close", "stand", "sit"],
+      "hint": {
+        "translation": "открой",
+        "explanation": "Это команда: «открой». Скажи действие первым.",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "Close your book."
+      }
+    },
+    {
+      "id": "classroom-actions-picture-close",
+      "type": "picture",
+      "wordId": "close",
+      "skillId": "close",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "close",
+      "options": ["close", "stand", "sit", "listen"],
+      "hint": {
+        "translation": "закрой",
+        "explanation": "Это команда: «закрой». Скажи действие первым.",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "Stand up."
+      }
+    },
+    {
+      "id": "classroom-actions-picture-stand",
+      "type": "picture",
+      "wordId": "stand",
+      "skillId": "stand",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "stand",
+      "options": ["stand", "sit", "listen", "read"],
+      "hint": {
+        "translation": "встань",
+        "explanation": "Это команда: «встань». Скажи действие первым.",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "Sit down."
+      }
+    },
+    {
+      "id": "classroom-actions-picture-sit",
+      "type": "picture",
+      "wordId": "sit",
+      "skillId": "sit",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "sit",
+      "options": ["sit", "listen", "read", "open"],
+      "hint": {
+        "translation": "сядь",
+        "explanation": "Это команда: «сядь». Скажи действие первым.",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "Listen."
+      }
+    },
+    {
+      "id": "classroom-actions-picture-listen",
+      "type": "picture",
+      "wordId": "listen",
+      "skillId": "listen",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "listen",
+      "options": ["listen", "read", "open", "close"],
+      "hint": {
+        "translation": "слушай",
+        "explanation": "Это команда: «слушай». Скажи действие первым.",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "Read your book."
+      }
+    },
+    {
+      "id": "classroom-actions-picture-read",
+      "type": "picture",
+      "wordId": "read",
+      "skillId": "read",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "read",
+      "options": ["read", "open", "close", "stand"],
+      "hint": {
+        "translation": "читай",
+        "explanation": "Это команда: «читай». Скажи действие первым.",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "Open your book."
+      }
+    },
+    {
+      "id": "classroom-actions-word-open",
+      "type": "word",
+      "wordId": "open",
+      "skillId": "open",
+      "prompt": "Как это называется по-английски?",
+      "answer": "open",
+      "options": ["open", "close", "stand", "sit"],
+      "hint": {
+        "translation": "открой",
+        "explanation": "Это команда: «открой». Скажи действие первым.",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "Close your book."
+      }
+    },
+    {
+      "id": "classroom-actions-word-close",
+      "type": "word",
+      "wordId": "close",
+      "skillId": "close",
+      "prompt": "Как это называется по-английски?",
+      "answer": "close",
+      "options": ["close", "stand", "sit", "listen"],
+      "hint": {
+        "translation": "закрой",
+        "explanation": "Это команда: «закрой». Скажи действие первым.",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "Stand up."
+      }
+    },
+    {
+      "id": "classroom-actions-word-stand",
+      "type": "word",
+      "wordId": "stand",
+      "skillId": "stand",
+      "prompt": "Как это называется по-английски?",
+      "answer": "stand",
+      "options": ["stand", "sit", "listen", "read"],
+      "hint": {
+        "translation": "встань",
+        "explanation": "Это команда: «встань». Скажи действие первым.",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "Sit down."
+      }
+    },
+    {
+      "id": "classroom-actions-word-sit",
+      "type": "word",
+      "wordId": "sit",
+      "skillId": "sit",
+      "prompt": "Как это называется по-английски?",
+      "answer": "sit",
+      "options": ["sit", "listen", "read", "open"],
+      "hint": {
+        "translation": "сядь",
+        "explanation": "Это команда: «сядь». Скажи действие первым.",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "Listen."
+      }
+    },
+    {
+      "id": "classroom-actions-word-listen",
+      "type": "word",
+      "wordId": "listen",
+      "skillId": "listen",
+      "prompt": "Как это называется по-английски?",
+      "answer": "listen",
+      "options": ["listen", "read", "open", "close"],
+      "hint": {
+        "translation": "слушай",
+        "explanation": "Это команда: «слушай». Скажи действие первым.",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "Read your book."
+      }
+    },
+    {
+      "id": "classroom-actions-word-read",
+      "type": "word",
+      "wordId": "read",
+      "skillId": "read",
+      "prompt": "Как это называется по-английски?",
+      "answer": "read",
+      "options": ["read", "open", "close", "stand"],
+      "hint": {
+        "translation": "читай",
+        "explanation": "Это команда: «читай». Скажи действие первым.",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "Open your book."
+      }
+    },
+    {
+      "id": "classroom-actions-letters-open",
+      "type": "letters",
+      "wordId": "open",
+      "skillId": "open",
+      "prompt": "Собери слово из букв",
+      "answer": "open",
+      "options": ["open", "close", "stand", "sit"],
+      "hint": {
+        "translation": "открой",
+        "explanation": "Это команда: «открой». Скажи действие первым.",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "Close your book."
+      }
+    },
+    {
+      "id": "classroom-actions-letters-close",
+      "type": "letters",
+      "wordId": "close",
+      "skillId": "close",
+      "prompt": "Собери слово из букв",
+      "answer": "close",
+      "options": ["close", "stand", "sit", "listen"],
+      "hint": {
+        "translation": "закрой",
+        "explanation": "Это команда: «закрой». Скажи действие первым.",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "Stand up."
+      }
+    },
+    {
+      "id": "classroom-actions-letters-stand",
+      "type": "letters",
+      "wordId": "stand",
+      "skillId": "stand",
+      "prompt": "Собери слово из букв",
+      "answer": "stand",
+      "options": ["stand", "sit", "listen", "read"],
+      "hint": {
+        "translation": "встань",
+        "explanation": "Это команда: «встань». Скажи действие первым.",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "Sit down."
+      }
+    },
+    {
+      "id": "classroom-actions-letters-sit",
+      "type": "letters",
+      "wordId": "sit",
+      "skillId": "sit",
+      "prompt": "Собери слово из букв",
+      "answer": "sit",
+      "options": ["sit", "listen", "read", "open"],
+      "hint": {
+        "translation": "сядь",
+        "explanation": "Это команда: «сядь». Скажи действие первым.",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "Listen."
+      }
+    },
+    {
+      "id": "classroom-actions-letters-listen",
+      "type": "letters",
+      "wordId": "listen",
+      "skillId": "listen",
+      "prompt": "Собери слово из букв",
+      "answer": "listen",
+      "options": ["listen", "read", "open", "close"],
+      "hint": {
+        "translation": "слушай",
+        "explanation": "Это команда: «слушай». Скажи действие первым.",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "Read your book."
+      }
+    },
+    {
+      "id": "classroom-actions-letters-read",
+      "type": "letters",
+      "wordId": "read",
+      "skillId": "read",
+      "prompt": "Собери слово из букв",
+      "answer": "read",
+      "options": ["read", "open", "close", "stand"],
+      "hint": {
+        "translation": "читай",
+        "explanation": "Это команда: «читай». Скажи действие первым.",
+        "steps": [
+          "Посмотри на рисунок.",
+          "Послушай слово медленно.",
+          "Вспомни первый звук и значение слова."
+        ],
+        "example": "Open your book."
+      }
+    },
+    {
+      "id": "classroom-actions-sentence-1",
+      "type": "sentence",
+      "wordId": "open",
+      "skillId": "imperative",
+      "prompt": "Собери предложение",
+      "answer": "Open your book.",
+      "options": [],
+      "hint": {
+        "translation": "Открой свою книгу.",
+        "explanation": "Чтобы попросить открыть книгу, начни с Open. Не нужно добавлять I или is. Затем скажи, что открыть: Open your book. Stand up — «встань», Sit down — «сядь».",
+        "steps": [
+          "Вспомни смысл: Открой свою книгу.",
+          "Выбери начало по правилу: Чтобы попросить открыть книгу, начни с Open. Не нужно добавлять I или is. Затем скажи, что открыть: Open your book. Stand up — «встань», Sit down — «сядь».",
+          "Проверь, что предмет и действие стоят на своих местах."
+        ],
+        "example": "Open your book."
+      }
+    },
+    {
+      "id": "classroom-actions-sentence-2",
+      "type": "sentence",
+      "wordId": "close",
+      "skillId": "imperative",
+      "prompt": "Собери предложение",
+      "answer": "Close your book.",
+      "options": [],
+      "hint": {
+        "translation": "Закрой свою книгу.",
+        "explanation": "Чтобы попросить открыть книгу, начни с Open. Не нужно добавлять I или is. Затем скажи, что открыть: Open your book. Stand up — «встань», Sit down — «сядь».",
+        "steps": [
+          "Вспомни смысл: Закрой свою книгу.",
+          "Выбери начало по правилу: Чтобы попросить открыть книгу, начни с Open. Не нужно добавлять I или is. Затем скажи, что открыть: Open your book. Stand up — «встань», Sit down — «сядь».",
+          "Проверь, что предмет и действие стоят на своих местах."
+        ],
+        "example": "Open your book."
+      }
+    },
+    {
+      "id": "classroom-actions-sentence-3",
+      "type": "sentence",
+      "wordId": "sit",
+      "skillId": "imperative",
+      "prompt": "Собери предложение",
+      "answer": "Sit down.",
+      "options": [],
+      "hint": {
+        "translation": "Сядь.",
+        "explanation": "Чтобы попросить открыть книгу, начни с Open. Не нужно добавлять I или is. Затем скажи, что открыть: Open your book. Stand up — «встань», Sit down — «сядь».",
+        "steps": [
+          "Вспомни смысл: Сядь.",
+          "Выбери начало по правилу: Чтобы попросить открыть книгу, начни с Open. Не нужно добавлять I или is. Затем скажи, что открыть: Open your book. Stand up — «встань», Sit down — «сядь».",
+          "Проверь, что предмет и действие стоят на своих местах."
+        ],
+        "example": "Open your book."
+      }
+    }
+  ]
+}

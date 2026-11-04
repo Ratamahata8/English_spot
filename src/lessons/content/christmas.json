@@ -1,0 +1,582 @@
+{
+  "id": "christmas",
+  "title": "Christmas Colours",
+  "subtitle": "Spotlight 3 · Christmas · праздничные слова",
+  "module": "Подготовка и праздники",
+  "description": "Описываем праздничные предметы.",
+  "source": "Christmas · праздничные слова",
+  "coverWordId": "christmas-tree",
+  "vocabulary": [
+    {
+      "id": "christmas-tree",
+      "en": "Christmas tree",
+      "ru": "рождественская ёлка",
+      "ipa": "/ˈkrɪsməs triː/",
+      "explanation": "Описываем праздничные предметы. Здесь «Christmas tree» — «рождественская ёлка».",
+      "example": "The tree is green.",
+      "image": "illustrations/christmas-tree.svg"
+    },
+    {
+      "id": "present",
+      "en": "present",
+      "ru": "подарок",
+      "ipa": "/ˈprezənt/",
+      "explanation": "Описываем праздничные предметы. Здесь «present» — «подарок».",
+      "example": "The present is red.",
+      "image": "illustrations/present.svg"
+    },
+    {
+      "id": "card",
+      "en": "card",
+      "ru": "открытка",
+      "ipa": "/kɑːd/",
+      "explanation": "Описываем праздничные предметы. Здесь «card» — «открытка».",
+      "example": "The card is blue.",
+      "image": "illustrations/card.svg"
+    },
+    {
+      "id": "bell",
+      "en": "bell",
+      "ru": "колокольчик",
+      "ipa": "/bel/",
+      "explanation": "Описываем праздничные предметы. Здесь «bell» — «колокольчик».",
+      "example": "This is my bell.",
+      "image": "illustrations/bell.svg"
+    },
+    {
+      "id": "snow",
+      "en": "snow",
+      "ru": "снег",
+      "ipa": "/snəʊ/",
+      "explanation": "Описываем праздничные предметы. Здесь «snow» — «снег».",
+      "example": "The snow is white.",
+      "image": "illustrations/snow.svg"
+    },
+    {
+      "id": "candle",
+      "en": "candle",
+      "ru": "свеча",
+      "ipa": "/ˈkændəl/",
+      "explanation": "Описываем праздничные предметы. Здесь «candle» — «свеча».",
+      "example": "This is my candle.",
+      "image": "illustrations/candle.svg"
+    }
+  ],
+  "lexicon": [],
+  "grammar": [
+    {
+      "id": "the",
+      "title": "Когда предмет уже известен: the",
+      "text": "The ставим перед предметом, о котором собеседник уже знает. The present — этот, знакомый нам подарок. После предмета поставь is, затем цвет.",
+      "examples": ["The tree is green.", "The present is red.", "The card is blue."]
+    }
+  ],
+  "remedial": [
+    {
+      "id": "the",
+      "title": "Когда предмет уже известен: the",
+      "available": true,
+      "explanation": "The ставим перед предметом, о котором собеседник уже знает. The present — этот, знакомый нам подарок. После предмета поставь is, затем цвет.",
+      "example": "The card is blue.",
+      "question": "Что означает the present, если подарок уже перед нами?",
+      "answer": "этот подарок",
+      "options": ["этот подарок", "любой подарок"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "christmas-study-christmas-tree",
+      "type": "study",
+      "wordId": "christmas-tree",
+      "skillId": "christmas-tree",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "Christmas tree",
+      "options": ["christmas-tree", "present", "card", "bell"],
+      "hint": {
+        "translation": "рождественская ёлка",
+        "explanation": "Описываем праздничные предметы. Здесь «Christmas tree» — «рождественская ёлка».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "The present is red."
+      }
+    },
+    {
+      "id": "christmas-study-present",
+      "type": "study",
+      "wordId": "present",
+      "skillId": "present",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "present",
+      "options": ["present", "card", "bell", "snow"],
+      "hint": {
+        "translation": "подарок",
+        "explanation": "Описываем праздничные предметы. Здесь «present» — «подарок».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "The card is blue."
+      }
+    },
+    {
+      "id": "christmas-study-card",
+      "type": "study",
+      "wordId": "card",
+      "skillId": "card",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "card",
+      "options": ["card", "bell", "snow", "candle"],
+      "hint": {
+        "translation": "открытка",
+        "explanation": "Описываем праздничные предметы. Здесь «card» — «открытка».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my bell."
+      }
+    },
+    {
+      "id": "christmas-study-bell",
+      "type": "study",
+      "wordId": "bell",
+      "skillId": "bell",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "bell",
+      "options": ["bell", "snow", "candle", "christmas-tree"],
+      "hint": {
+        "translation": "колокольчик",
+        "explanation": "Описываем праздничные предметы. Здесь «bell» — «колокольчик».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "The snow is white."
+      }
+    },
+    {
+      "id": "christmas-study-snow",
+      "type": "study",
+      "wordId": "snow",
+      "skillId": "snow",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "snow",
+      "options": ["snow", "candle", "christmas-tree", "present"],
+      "hint": {
+        "translation": "снег",
+        "explanation": "Описываем праздничные предметы. Здесь «snow» — «снег».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my candle."
+      }
+    },
+    {
+      "id": "christmas-study-candle",
+      "type": "study",
+      "wordId": "candle",
+      "skillId": "candle",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "candle",
+      "options": ["candle", "christmas-tree", "present", "card"],
+      "hint": {
+        "translation": "свеча",
+        "explanation": "Описываем праздничные предметы. Здесь «candle» — «свеча».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "The tree is green."
+      }
+    },
+    {
+      "id": "christmas-picture-christmas-tree",
+      "type": "picture",
+      "wordId": "christmas-tree",
+      "skillId": "christmas-tree",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "Christmas tree",
+      "options": ["christmas-tree", "present", "card", "bell"],
+      "hint": {
+        "translation": "рождественская ёлка",
+        "explanation": "Описываем праздничные предметы. Здесь «Christmas tree» — «рождественская ёлка».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "The present is red."
+      }
+    },
+    {
+      "id": "christmas-picture-present",
+      "type": "picture",
+      "wordId": "present",
+      "skillId": "present",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "present",
+      "options": ["present", "card", "bell", "snow"],
+      "hint": {
+        "translation": "подарок",
+        "explanation": "Описываем праздничные предметы. Здесь «present» — «подарок».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "The card is blue."
+      }
+    },
+    {
+      "id": "christmas-picture-card",
+      "type": "picture",
+      "wordId": "card",
+      "skillId": "card",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "card",
+      "options": ["card", "bell", "snow", "candle"],
+      "hint": {
+        "translation": "открытка",
+        "explanation": "Описываем праздничные предметы. Здесь «card» — «открытка».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my bell."
+      }
+    },
+    {
+      "id": "christmas-picture-bell",
+      "type": "picture",
+      "wordId": "bell",
+      "skillId": "bell",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "bell",
+      "options": ["bell", "snow", "candle", "christmas-tree"],
+      "hint": {
+        "translation": "колокольчик",
+        "explanation": "Описываем праздничные предметы. Здесь «bell» — «колокольчик».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "The snow is white."
+      }
+    },
+    {
+      "id": "christmas-picture-snow",
+      "type": "picture",
+      "wordId": "snow",
+      "skillId": "snow",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "snow",
+      "options": ["snow", "candle", "christmas-tree", "present"],
+      "hint": {
+        "translation": "снег",
+        "explanation": "Описываем праздничные предметы. Здесь «snow» — «снег».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my candle."
+      }
+    },
+    {
+      "id": "christmas-picture-candle",
+      "type": "picture",
+      "wordId": "candle",
+      "skillId": "candle",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "candle",
+      "options": ["candle", "christmas-tree", "present", "card"],
+      "hint": {
+        "translation": "свеча",
+        "explanation": "Описываем праздничные предметы. Здесь «candle» — «свеча».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "The tree is green."
+      }
+    },
+    {
+      "id": "christmas-word-christmas-tree",
+      "type": "word",
+      "wordId": "christmas-tree",
+      "skillId": "christmas-tree",
+      "prompt": "Как это называется по-английски?",
+      "answer": "Christmas tree",
+      "options": ["christmas-tree", "present", "card", "bell"],
+      "hint": {
+        "translation": "рождественская ёлка",
+        "explanation": "Описываем праздничные предметы. Здесь «Christmas tree» — «рождественская ёлка».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "The present is red."
+      }
+    },
+    {
+      "id": "christmas-word-present",
+      "type": "word",
+      "wordId": "present",
+      "skillId": "present",
+      "prompt": "Как это называется по-английски?",
+      "answer": "present",
+      "options": ["present", "card", "bell", "snow"],
+      "hint": {
+        "translation": "подарок",
+        "explanation": "Описываем праздничные предметы. Здесь «present» — «подарок».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "The card is blue."
+      }
+    },
+    {
+      "id": "christmas-word-card",
+      "type": "word",
+      "wordId": "card",
+      "skillId": "card",
+      "prompt": "Как это называется по-английски?",
+      "answer": "card",
+      "options": ["card", "bell", "snow", "candle"],
+      "hint": {
+        "translation": "открытка",
+        "explanation": "Описываем праздничные предметы. Здесь «card» — «открытка».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my bell."
+      }
+    },
+    {
+      "id": "christmas-word-bell",
+      "type": "word",
+      "wordId": "bell",
+      "skillId": "bell",
+      "prompt": "Как это называется по-английски?",
+      "answer": "bell",
+      "options": ["bell", "snow", "candle", "christmas-tree"],
+      "hint": {
+        "translation": "колокольчик",
+        "explanation": "Описываем праздничные предметы. Здесь «bell» — «колокольчик».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "The snow is white."
+      }
+    },
+    {
+      "id": "christmas-word-snow",
+      "type": "word",
+      "wordId": "snow",
+      "skillId": "snow",
+      "prompt": "Как это называется по-английски?",
+      "answer": "snow",
+      "options": ["snow", "candle", "christmas-tree", "present"],
+      "hint": {
+        "translation": "снег",
+        "explanation": "Описываем праздничные предметы. Здесь «snow» — «снег».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my candle."
+      }
+    },
+    {
+      "id": "christmas-word-candle",
+      "type": "word",
+      "wordId": "candle",
+      "skillId": "candle",
+      "prompt": "Как это называется по-английски?",
+      "answer": "candle",
+      "options": ["candle", "christmas-tree", "present", "card"],
+      "hint": {
+        "translation": "свеча",
+        "explanation": "Описываем праздничные предметы. Здесь «candle» — «свеча».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "The tree is green."
+      }
+    },
+    {
+      "id": "christmas-letters-present",
+      "type": "letters",
+      "wordId": "present",
+      "skillId": "present",
+      "prompt": "Собери слово из букв",
+      "answer": "present",
+      "options": ["present", "card", "bell", "snow"],
+      "hint": {
+        "translation": "подарок",
+        "explanation": "Описываем праздничные предметы. Здесь «present» — «подарок».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "The card is blue."
+      }
+    },
+    {
+      "id": "christmas-letters-card",
+      "type": "letters",
+      "wordId": "card",
+      "skillId": "card",
+      "prompt": "Собери слово из букв",
+      "answer": "card",
+      "options": ["card", "bell", "snow", "candle"],
+      "hint": {
+        "translation": "открытка",
+        "explanation": "Описываем праздничные предметы. Здесь «card» — «открытка».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my bell."
+      }
+    },
+    {
+      "id": "christmas-letters-bell",
+      "type": "letters",
+      "wordId": "bell",
+      "skillId": "bell",
+      "prompt": "Собери слово из букв",
+      "answer": "bell",
+      "options": ["bell", "snow", "candle", "christmas-tree"],
+      "hint": {
+        "translation": "колокольчик",
+        "explanation": "Описываем праздничные предметы. Здесь «bell» — «колокольчик».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "The snow is white."
+      }
+    },
+    {
+      "id": "christmas-letters-snow",
+      "type": "letters",
+      "wordId": "snow",
+      "skillId": "snow",
+      "prompt": "Собери слово из букв",
+      "answer": "snow",
+      "options": ["snow", "candle", "christmas-tree", "present"],
+      "hint": {
+        "translation": "снег",
+        "explanation": "Описываем праздничные предметы. Здесь «snow» — «снег».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my candle."
+      }
+    },
+    {
+      "id": "christmas-letters-candle",
+      "type": "letters",
+      "wordId": "candle",
+      "skillId": "candle",
+      "prompt": "Собери слово из букв",
+      "answer": "candle",
+      "options": ["candle", "christmas-tree", "present", "card"],
+      "hint": {
+        "translation": "свеча",
+        "explanation": "Описываем праздничные предметы. Здесь «candle» — «свеча».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "The tree is green."
+      }
+    },
+    {
+      "id": "christmas-sentence-1",
+      "type": "sentence",
+      "wordId": "christmas-tree",
+      "skillId": "the",
+      "prompt": "Собери предложение",
+      "answer": "The tree is green.",
+      "options": [],
+      "hint": {
+        "translation": "Эта ёлка зелёная.",
+        "explanation": "The ставим перед предметом, о котором собеседник уже знает. The present — этот, знакомый нам подарок. После предмета поставь is, затем цвет.",
+        "steps": [
+          "Прочитай русский смысл: Эта ёлка зелёная.",
+          "Вспомни правило: The ставим перед предметом, о котором собеседник уже знает. The present — этот, знакомый нам подарок. После предмета поставь is, затем цвет.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "The present is red."
+      }
+    },
+    {
+      "id": "christmas-sentence-2",
+      "type": "sentence",
+      "wordId": "present",
+      "skillId": "the",
+      "prompt": "Собери предложение",
+      "answer": "The present is red.",
+      "options": [],
+      "hint": {
+        "translation": "Этот подарок красный.",
+        "explanation": "The ставим перед предметом, о котором собеседник уже знает. The present — этот, знакомый нам подарок. После предмета поставь is, затем цвет.",
+        "steps": [
+          "Прочитай русский смысл: Этот подарок красный.",
+          "Вспомни правило: The ставим перед предметом, о котором собеседник уже знает. The present — этот, знакомый нам подарок. После предмета поставь is, затем цвет.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "The card is blue."
+      }
+    },
+    {
+      "id": "christmas-sentence-3",
+      "type": "sentence",
+      "wordId": "card",
+      "skillId": "the",
+      "prompt": "Собери предложение",
+      "answer": "The card is blue.",
+      "options": [],
+      "hint": {
+        "translation": "Эта открытка синяя.",
+        "explanation": "The ставим перед предметом, о котором собеседник уже знает. The present — этот, знакомый нам подарок. После предмета поставь is, затем цвет.",
+        "steps": [
+          "Прочитай русский смысл: Эта открытка синяя.",
+          "Вспомни правило: The ставим перед предметом, о котором собеседник уже знает. The present — этот, знакомый нам подарок. После предмета поставь is, затем цвет.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "The tree is green."
+      }
+    }
+  ]
+}

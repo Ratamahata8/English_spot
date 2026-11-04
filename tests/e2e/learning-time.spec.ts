@@ -41,6 +41,7 @@ test('время и занятия не начисляются для пусто
     completed: lesson.exercises.map((e) => e.id),
     currentExerciseId: null,
     lessonComplete: true,
+    completedRuns: 1,
   };
   page.on('dialog', (d) => d.accept());
   await page.getByLabel('Импортировать JSON', { exact: true }).setInputFiles({
@@ -64,7 +65,7 @@ test('таймер считает активное повторение и ос�
   await page.goto('#/dictionary');
   await page
     .locator('.word-card')
-    .filter({ has: page.getByText('book', { exact: true }) })
+    .filter({ has: page.locator('.word-name').filter({ hasText: /^book$/ }) })
     .getByRole('button', { name: 'Добавить в повторение', exact: false })
     .click();
   await page.goto('#/learn?review=1');

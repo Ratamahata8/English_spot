@@ -1,0 +1,601 @@
+{
+  "id": "shapes",
+  "title": "Shapes Around Us",
+  "subtitle": "Spotlight 3 · Unit 2 · формы",
+  "module": "Модуль 1 · Школа",
+  "description": "Находим формы в знакомых предметах.",
+  "source": "Unit 2 · формы",
+  "coverWordId": "circle",
+  "vocabulary": [
+    {
+      "id": "circle",
+      "en": "circle",
+      "ru": "круг",
+      "ipa": "/ˈsɜːkəl/",
+      "explanation": "Находим формы в знакомых предметах. Здесь «circle» — «круг».",
+      "example": "It is a circle.",
+      "image": "illustrations/circle.svg"
+    },
+    {
+      "id": "square",
+      "en": "square",
+      "ru": "квадрат",
+      "ipa": "/skweə/",
+      "explanation": "Находим формы в знакомых предметах. Здесь «square» — «квадрат».",
+      "example": "It is a square.",
+      "image": "illustrations/square.svg"
+    },
+    {
+      "id": "triangle",
+      "en": "triangle",
+      "ru": "треугольник",
+      "ipa": "/ˈtraɪæŋɡəl/",
+      "explanation": "Находим формы в знакомых предметах. Здесь «triangle» — «треугольник».",
+      "example": "It is a triangle.",
+      "image": "illustrations/triangle.svg"
+    },
+    {
+      "id": "rectangle",
+      "en": "rectangle",
+      "ru": "прямоугольник",
+      "ipa": "/ˈrektæŋɡəl/",
+      "explanation": "Находим формы в знакомых предметах. Здесь «rectangle» — «прямоугольник».",
+      "example": "It is a rectangle.",
+      "image": "illustrations/rectangle.svg"
+    },
+    {
+      "id": "star",
+      "en": "star",
+      "ru": "звезда",
+      "ipa": "/stɑː/",
+      "explanation": "Находим формы в знакомых предметах. Здесь «star» — «звезда».",
+      "example": "It is a star.",
+      "image": "illustrations/star.svg"
+    },
+    {
+      "id": "heart",
+      "en": "heart",
+      "ru": "сердечко",
+      "ipa": "/hɑːt/",
+      "explanation": "Находим формы в знакомых предметах. Здесь «heart» — «сердечко».",
+      "example": "It is a heart.",
+      "image": "illustrations/heart.svg"
+    }
+  ],
+  "lexicon": [],
+  "grammar": [
+    {
+      "id": "it-is",
+      "title": "Называем форму",
+      "text": "It is — «это». Перед названием одного предмета ставим a: It is a circle. Сначала укажи на предмет, затем назови его форму.",
+      "examples": ["It is a circle.", "It is a square.", "It is a triangle."]
+    }
+  ],
+  "remedial": [
+    {
+      "id": "it-is",
+      "title": "Называем форму",
+      "available": true,
+      "explanation": "It is — «это». Перед названием одного предмета ставим a: It is a circle. Сначала укажи на предмет, затем назови его форму.",
+      "example": "It is a triangle.",
+      "question": "Как сказать «это» в начале такого предложения?",
+      "answer": "It is",
+      "options": ["It is", "I have"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "shapes-study-circle",
+      "type": "study",
+      "wordId": "circle",
+      "skillId": "circle",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "circle",
+      "options": ["circle", "square", "triangle", "rectangle"],
+      "hint": {
+        "translation": "круг",
+        "explanation": "Находим формы в знакомых предметах. Здесь «circle» — «круг».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a square."
+      }
+    },
+    {
+      "id": "shapes-study-square",
+      "type": "study",
+      "wordId": "square",
+      "skillId": "square",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "square",
+      "options": ["square", "triangle", "rectangle", "star"],
+      "hint": {
+        "translation": "квадрат",
+        "explanation": "Находим формы в знакомых предметах. Здесь «square» — «квадрат».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a triangle."
+      }
+    },
+    {
+      "id": "shapes-study-triangle",
+      "type": "study",
+      "wordId": "triangle",
+      "skillId": "triangle",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "triangle",
+      "options": ["triangle", "rectangle", "star", "heart"],
+      "hint": {
+        "translation": "треугольник",
+        "explanation": "Находим формы в знакомых предметах. Здесь «triangle» — «треугольник».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a rectangle."
+      }
+    },
+    {
+      "id": "shapes-study-rectangle",
+      "type": "study",
+      "wordId": "rectangle",
+      "skillId": "rectangle",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "rectangle",
+      "options": ["rectangle", "star", "heart", "circle"],
+      "hint": {
+        "translation": "прямоугольник",
+        "explanation": "Находим формы в знакомых предметах. Здесь «rectangle» — «прямоугольник».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a star."
+      }
+    },
+    {
+      "id": "shapes-study-star",
+      "type": "study",
+      "wordId": "star",
+      "skillId": "star",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "star",
+      "options": ["star", "heart", "circle", "square"],
+      "hint": {
+        "translation": "звезда",
+        "explanation": "Находим формы в знакомых предметах. Здесь «star» — «звезда».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a heart."
+      }
+    },
+    {
+      "id": "shapes-study-heart",
+      "type": "study",
+      "wordId": "heart",
+      "skillId": "heart",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "heart",
+      "options": ["heart", "circle", "square", "triangle"],
+      "hint": {
+        "translation": "сердечко",
+        "explanation": "Находим формы в знакомых предметах. Здесь «heart» — «сердечко».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a circle."
+      }
+    },
+    {
+      "id": "shapes-picture-circle",
+      "type": "picture",
+      "wordId": "circle",
+      "skillId": "circle",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "circle",
+      "options": ["circle", "square", "triangle", "rectangle"],
+      "hint": {
+        "translation": "круг",
+        "explanation": "Находим формы в знакомых предметах. Здесь «circle» — «круг».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a square."
+      }
+    },
+    {
+      "id": "shapes-picture-square",
+      "type": "picture",
+      "wordId": "square",
+      "skillId": "square",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "square",
+      "options": ["square", "triangle", "rectangle", "star"],
+      "hint": {
+        "translation": "квадрат",
+        "explanation": "Находим формы в знакомых предметах. Здесь «square» — «квадрат».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a triangle."
+      }
+    },
+    {
+      "id": "shapes-picture-triangle",
+      "type": "picture",
+      "wordId": "triangle",
+      "skillId": "triangle",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "triangle",
+      "options": ["triangle", "rectangle", "star", "heart"],
+      "hint": {
+        "translation": "треугольник",
+        "explanation": "Находим формы в знакомых предметах. Здесь «triangle» — «треугольник».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a rectangle."
+      }
+    },
+    {
+      "id": "shapes-picture-rectangle",
+      "type": "picture",
+      "wordId": "rectangle",
+      "skillId": "rectangle",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "rectangle",
+      "options": ["rectangle", "star", "heart", "circle"],
+      "hint": {
+        "translation": "прямоугольник",
+        "explanation": "Находим формы в знакомых предметах. Здесь «rectangle» — «прямоугольник».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a star."
+      }
+    },
+    {
+      "id": "shapes-picture-star",
+      "type": "picture",
+      "wordId": "star",
+      "skillId": "star",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "star",
+      "options": ["star", "heart", "circle", "square"],
+      "hint": {
+        "translation": "звезда",
+        "explanation": "Находим формы в знакомых предметах. Здесь «star» — «звезда».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a heart."
+      }
+    },
+    {
+      "id": "shapes-picture-heart",
+      "type": "picture",
+      "wordId": "heart",
+      "skillId": "heart",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "heart",
+      "options": ["heart", "circle", "square", "triangle"],
+      "hint": {
+        "translation": "сердечко",
+        "explanation": "Находим формы в знакомых предметах. Здесь «heart» — «сердечко».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a circle."
+      }
+    },
+    {
+      "id": "shapes-word-circle",
+      "type": "word",
+      "wordId": "circle",
+      "skillId": "circle",
+      "prompt": "Как это называется по-английски?",
+      "answer": "circle",
+      "options": ["circle", "square", "triangle", "rectangle"],
+      "hint": {
+        "translation": "круг",
+        "explanation": "Находим формы в знакомых предметах. Здесь «circle» — «круг».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a square."
+      }
+    },
+    {
+      "id": "shapes-word-square",
+      "type": "word",
+      "wordId": "square",
+      "skillId": "square",
+      "prompt": "Как это называется по-английски?",
+      "answer": "square",
+      "options": ["square", "triangle", "rectangle", "star"],
+      "hint": {
+        "translation": "квадрат",
+        "explanation": "Находим формы в знакомых предметах. Здесь «square» — «квадрат».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a triangle."
+      }
+    },
+    {
+      "id": "shapes-word-triangle",
+      "type": "word",
+      "wordId": "triangle",
+      "skillId": "triangle",
+      "prompt": "Как это называется по-английски?",
+      "answer": "triangle",
+      "options": ["triangle", "rectangle", "star", "heart"],
+      "hint": {
+        "translation": "треугольник",
+        "explanation": "Находим формы в знакомых предметах. Здесь «triangle» — «треугольник».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a rectangle."
+      }
+    },
+    {
+      "id": "shapes-word-rectangle",
+      "type": "word",
+      "wordId": "rectangle",
+      "skillId": "rectangle",
+      "prompt": "Как это называется по-английски?",
+      "answer": "rectangle",
+      "options": ["rectangle", "star", "heart", "circle"],
+      "hint": {
+        "translation": "прямоугольник",
+        "explanation": "Находим формы в знакомых предметах. Здесь «rectangle» — «прямоугольник».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a star."
+      }
+    },
+    {
+      "id": "shapes-word-star",
+      "type": "word",
+      "wordId": "star",
+      "skillId": "star",
+      "prompt": "Как это называется по-английски?",
+      "answer": "star",
+      "options": ["star", "heart", "circle", "square"],
+      "hint": {
+        "translation": "звезда",
+        "explanation": "Находим формы в знакомых предметах. Здесь «star» — «звезда».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a heart."
+      }
+    },
+    {
+      "id": "shapes-word-heart",
+      "type": "word",
+      "wordId": "heart",
+      "skillId": "heart",
+      "prompt": "Как это называется по-английски?",
+      "answer": "heart",
+      "options": ["heart", "circle", "square", "triangle"],
+      "hint": {
+        "translation": "сердечко",
+        "explanation": "Находим формы в знакомых предметах. Здесь «heart» — «сердечко».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a circle."
+      }
+    },
+    {
+      "id": "shapes-letters-circle",
+      "type": "letters",
+      "wordId": "circle",
+      "skillId": "circle",
+      "prompt": "Собери слово из букв",
+      "answer": "circle",
+      "options": ["circle", "square", "triangle", "rectangle"],
+      "hint": {
+        "translation": "круг",
+        "explanation": "Находим формы в знакомых предметах. Здесь «circle» — «круг».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a square."
+      }
+    },
+    {
+      "id": "shapes-letters-square",
+      "type": "letters",
+      "wordId": "square",
+      "skillId": "square",
+      "prompt": "Собери слово из букв",
+      "answer": "square",
+      "options": ["square", "triangle", "rectangle", "star"],
+      "hint": {
+        "translation": "квадрат",
+        "explanation": "Находим формы в знакомых предметах. Здесь «square» — «квадрат».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a triangle."
+      }
+    },
+    {
+      "id": "shapes-letters-triangle",
+      "type": "letters",
+      "wordId": "triangle",
+      "skillId": "triangle",
+      "prompt": "Собери слово из букв",
+      "answer": "triangle",
+      "options": ["triangle", "rectangle", "star", "heart"],
+      "hint": {
+        "translation": "треугольник",
+        "explanation": "Находим формы в знакомых предметах. Здесь «triangle» — «треугольник».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a rectangle."
+      }
+    },
+    {
+      "id": "shapes-letters-rectangle",
+      "type": "letters",
+      "wordId": "rectangle",
+      "skillId": "rectangle",
+      "prompt": "Собери слово из букв",
+      "answer": "rectangle",
+      "options": ["rectangle", "star", "heart", "circle"],
+      "hint": {
+        "translation": "прямоугольник",
+        "explanation": "Находим формы в знакомых предметах. Здесь «rectangle» — «прямоугольник».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a star."
+      }
+    },
+    {
+      "id": "shapes-letters-star",
+      "type": "letters",
+      "wordId": "star",
+      "skillId": "star",
+      "prompt": "Собери слово из букв",
+      "answer": "star",
+      "options": ["star", "heart", "circle", "square"],
+      "hint": {
+        "translation": "звезда",
+        "explanation": "Находим формы в знакомых предметах. Здесь «star» — «звезда».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a heart."
+      }
+    },
+    {
+      "id": "shapes-letters-heart",
+      "type": "letters",
+      "wordId": "heart",
+      "skillId": "heart",
+      "prompt": "Собери слово из букв",
+      "answer": "heart",
+      "options": ["heart", "circle", "square", "triangle"],
+      "hint": {
+        "translation": "сердечко",
+        "explanation": "Находим формы в знакомых предметах. Здесь «heart» — «сердечко».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a circle."
+      }
+    },
+    {
+      "id": "shapes-sentence-1",
+      "type": "sentence",
+      "wordId": "circle",
+      "skillId": "it-is",
+      "prompt": "Собери предложение",
+      "answer": "It is a circle.",
+      "options": [],
+      "hint": {
+        "translation": "Это круг.",
+        "explanation": "It is — «это». Перед названием одного предмета ставим a: It is a circle. Сначала укажи на предмет, затем назови его форму.",
+        "steps": [
+          "Прочитай русский смысл: Это круг.",
+          "Вспомни правило: It is — «это». Перед названием одного предмета ставим a: It is a circle. Сначала укажи на предмет, затем назови его форму.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "It is a square."
+      }
+    },
+    {
+      "id": "shapes-sentence-2",
+      "type": "sentence",
+      "wordId": "square",
+      "skillId": "it-is",
+      "prompt": "Собери предложение",
+      "answer": "It is a square.",
+      "options": [],
+      "hint": {
+        "translation": "Это квадрат.",
+        "explanation": "It is — «это». Перед названием одного предмета ставим a: It is a circle. Сначала укажи на предмет, затем назови его форму.",
+        "steps": [
+          "Прочитай русский смысл: Это квадрат.",
+          "Вспомни правило: It is — «это». Перед названием одного предмета ставим a: It is a circle. Сначала укажи на предмет, затем назови его форму.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "It is a triangle."
+      }
+    },
+    {
+      "id": "shapes-sentence-3",
+      "type": "sentence",
+      "wordId": "triangle",
+      "skillId": "it-is",
+      "prompt": "Собери предложение",
+      "answer": "It is a triangle.",
+      "options": [],
+      "hint": {
+        "translation": "Это треугольник.",
+        "explanation": "It is — «это». Перед названием одного предмета ставим a: It is a circle. Сначала укажи на предмет, затем назови его форму.",
+        "steps": [
+          "Прочитай русский смысл: Это треугольник.",
+          "Вспомни правило: It is — «это». Перед названием одного предмета ставим a: It is a circle. Сначала укажи на предмет, затем назови его форму.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "It is a circle."
+      }
+    }
+  ]
+}

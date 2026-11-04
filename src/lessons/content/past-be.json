@@ -1,0 +1,601 @@
+{
+  "id": "past-be",
+  "title": "When I Was Little",
+  "subtitle": "Spotlight 3 · Unit 4 · was / were",
+  "module": "Модуль 2 · Семья",
+  "description": "Говорим о том, какими были раньше.",
+  "source": "Unit 4 · was / were",
+  "coverWordId": "happy",
+  "vocabulary": [
+    {
+      "id": "happy",
+      "en": "happy",
+      "ru": "весёлый",
+      "ipa": "/ˈhæpi/",
+      "explanation": "Говорим о том, какими были раньше. Здесь «happy» — «весёлый».",
+      "example": "I was happy.",
+      "image": "illustrations/happy.svg"
+    },
+    {
+      "id": "sad",
+      "en": "sad",
+      "ru": "грустный",
+      "ipa": "/sæd/",
+      "explanation": "Говорим о том, какими были раньше. Здесь «sad» — «грустный».",
+      "example": "I was sad.",
+      "image": "illustrations/sad.svg"
+    },
+    {
+      "id": "noisy",
+      "en": "noisy",
+      "ru": "шумный",
+      "ipa": "/ˈnɔɪzi/",
+      "explanation": "Говорим о том, какими были раньше. Здесь «noisy» — «шумный».",
+      "example": "They were noisy.",
+      "image": "illustrations/noisy.svg"
+    },
+    {
+      "id": "quiet",
+      "en": "quiet",
+      "ru": "тихий",
+      "ipa": "/ˈkwaɪət/",
+      "explanation": "Говорим о том, какими были раньше. Здесь «quiet» — «тихий».",
+      "example": "She was quiet.",
+      "image": "illustrations/quiet.svg"
+    },
+    {
+      "id": "naughty",
+      "en": "naughty",
+      "ru": "непослушный",
+      "ipa": "/ˈnɔːti/",
+      "explanation": "Говорим о том, какими были раньше. Здесь «naughty» — «непослушный».",
+      "example": "I was naughty.",
+      "image": "illustrations/naughty.svg"
+    },
+    {
+      "id": "cute",
+      "en": "cute",
+      "ru": "милый",
+      "ipa": "/kjuːt/",
+      "explanation": "Говорим о том, какими были раньше. Здесь «cute» — «милый».",
+      "example": "I was cute.",
+      "image": "illustrations/cute.svg"
+    }
+  ],
+  "lexicon": [],
+  "grammar": [
+    {
+      "id": "past-be",
+      "title": "Говорим о прошлом: was и were",
+      "text": "Was и were помогают сказать «был» или «были». С I, he, she, it выбираем was. С you, we, they — were. В конце добавляем описание.",
+      "examples": ["I was happy.", "She was quiet.", "They were noisy."]
+    }
+  ],
+  "remedial": [
+    {
+      "id": "past-be",
+      "title": "Говорим о прошлом: was и were",
+      "available": true,
+      "explanation": "Was и were помогают сказать «был» или «были». С I, he, she, it выбираем was. С you, we, they — were. В конце добавляем описание.",
+      "example": "They were noisy.",
+      "question": "Что подходит после They в прошлом времени?",
+      "answer": "were",
+      "options": ["was", "were"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "past-be-study-happy",
+      "type": "study",
+      "wordId": "happy",
+      "skillId": "happy",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "happy",
+      "options": ["happy", "sad", "noisy", "quiet"],
+      "hint": {
+        "translation": "весёлый",
+        "explanation": "Говорим о том, какими были раньше. Здесь «happy» — «весёлый».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I was sad."
+      }
+    },
+    {
+      "id": "past-be-study-sad",
+      "type": "study",
+      "wordId": "sad",
+      "skillId": "sad",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "sad",
+      "options": ["sad", "noisy", "quiet", "naughty"],
+      "hint": {
+        "translation": "грустный",
+        "explanation": "Говорим о том, какими были раньше. Здесь «sad» — «грустный».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "They were noisy."
+      }
+    },
+    {
+      "id": "past-be-study-noisy",
+      "type": "study",
+      "wordId": "noisy",
+      "skillId": "noisy",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "noisy",
+      "options": ["noisy", "quiet", "naughty", "cute"],
+      "hint": {
+        "translation": "шумный",
+        "explanation": "Говорим о том, какими были раньше. Здесь «noisy» — «шумный».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "She was quiet."
+      }
+    },
+    {
+      "id": "past-be-study-quiet",
+      "type": "study",
+      "wordId": "quiet",
+      "skillId": "quiet",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "quiet",
+      "options": ["quiet", "naughty", "cute", "happy"],
+      "hint": {
+        "translation": "тихий",
+        "explanation": "Говорим о том, какими были раньше. Здесь «quiet» — «тихий».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I was naughty."
+      }
+    },
+    {
+      "id": "past-be-study-naughty",
+      "type": "study",
+      "wordId": "naughty",
+      "skillId": "naughty",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "naughty",
+      "options": ["naughty", "cute", "happy", "sad"],
+      "hint": {
+        "translation": "непослушный",
+        "explanation": "Говорим о том, какими были раньше. Здесь «naughty» — «непослушный».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I was cute."
+      }
+    },
+    {
+      "id": "past-be-study-cute",
+      "type": "study",
+      "wordId": "cute",
+      "skillId": "cute",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "cute",
+      "options": ["cute", "happy", "sad", "noisy"],
+      "hint": {
+        "translation": "милый",
+        "explanation": "Говорим о том, какими были раньше. Здесь «cute» — «милый».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I was happy."
+      }
+    },
+    {
+      "id": "past-be-picture-happy",
+      "type": "picture",
+      "wordId": "happy",
+      "skillId": "happy",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "happy",
+      "options": ["happy", "sad", "noisy", "quiet"],
+      "hint": {
+        "translation": "весёлый",
+        "explanation": "Говорим о том, какими были раньше. Здесь «happy» — «весёлый».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I was sad."
+      }
+    },
+    {
+      "id": "past-be-picture-sad",
+      "type": "picture",
+      "wordId": "sad",
+      "skillId": "sad",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "sad",
+      "options": ["sad", "noisy", "quiet", "naughty"],
+      "hint": {
+        "translation": "грустный",
+        "explanation": "Говорим о том, какими были раньше. Здесь «sad» — «грустный».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "They were noisy."
+      }
+    },
+    {
+      "id": "past-be-picture-noisy",
+      "type": "picture",
+      "wordId": "noisy",
+      "skillId": "noisy",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "noisy",
+      "options": ["noisy", "quiet", "naughty", "cute"],
+      "hint": {
+        "translation": "шумный",
+        "explanation": "Говорим о том, какими были раньше. Здесь «noisy» — «шумный».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "She was quiet."
+      }
+    },
+    {
+      "id": "past-be-picture-quiet",
+      "type": "picture",
+      "wordId": "quiet",
+      "skillId": "quiet",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "quiet",
+      "options": ["quiet", "naughty", "cute", "happy"],
+      "hint": {
+        "translation": "тихий",
+        "explanation": "Говорим о том, какими были раньше. Здесь «quiet» — «тихий».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I was naughty."
+      }
+    },
+    {
+      "id": "past-be-picture-naughty",
+      "type": "picture",
+      "wordId": "naughty",
+      "skillId": "naughty",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "naughty",
+      "options": ["naughty", "cute", "happy", "sad"],
+      "hint": {
+        "translation": "непослушный",
+        "explanation": "Говорим о том, какими были раньше. Здесь «naughty» — «непослушный».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I was cute."
+      }
+    },
+    {
+      "id": "past-be-picture-cute",
+      "type": "picture",
+      "wordId": "cute",
+      "skillId": "cute",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "cute",
+      "options": ["cute", "happy", "sad", "noisy"],
+      "hint": {
+        "translation": "милый",
+        "explanation": "Говорим о том, какими были раньше. Здесь «cute» — «милый».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I was happy."
+      }
+    },
+    {
+      "id": "past-be-word-happy",
+      "type": "word",
+      "wordId": "happy",
+      "skillId": "happy",
+      "prompt": "Как это называется по-английски?",
+      "answer": "happy",
+      "options": ["happy", "sad", "noisy", "quiet"],
+      "hint": {
+        "translation": "весёлый",
+        "explanation": "Говорим о том, какими были раньше. Здесь «happy» — «весёлый».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I was sad."
+      }
+    },
+    {
+      "id": "past-be-word-sad",
+      "type": "word",
+      "wordId": "sad",
+      "skillId": "sad",
+      "prompt": "Как это называется по-английски?",
+      "answer": "sad",
+      "options": ["sad", "noisy", "quiet", "naughty"],
+      "hint": {
+        "translation": "грустный",
+        "explanation": "Говорим о том, какими были раньше. Здесь «sad» — «грустный».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "They were noisy."
+      }
+    },
+    {
+      "id": "past-be-word-noisy",
+      "type": "word",
+      "wordId": "noisy",
+      "skillId": "noisy",
+      "prompt": "Как это называется по-английски?",
+      "answer": "noisy",
+      "options": ["noisy", "quiet", "naughty", "cute"],
+      "hint": {
+        "translation": "шумный",
+        "explanation": "Говорим о том, какими были раньше. Здесь «noisy» — «шумный».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "She was quiet."
+      }
+    },
+    {
+      "id": "past-be-word-quiet",
+      "type": "word",
+      "wordId": "quiet",
+      "skillId": "quiet",
+      "prompt": "Как это называется по-английски?",
+      "answer": "quiet",
+      "options": ["quiet", "naughty", "cute", "happy"],
+      "hint": {
+        "translation": "тихий",
+        "explanation": "Говорим о том, какими были раньше. Здесь «quiet» — «тихий».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I was naughty."
+      }
+    },
+    {
+      "id": "past-be-word-naughty",
+      "type": "word",
+      "wordId": "naughty",
+      "skillId": "naughty",
+      "prompt": "Как это называется по-английски?",
+      "answer": "naughty",
+      "options": ["naughty", "cute", "happy", "sad"],
+      "hint": {
+        "translation": "непослушный",
+        "explanation": "Говорим о том, какими были раньше. Здесь «naughty» — «непослушный».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I was cute."
+      }
+    },
+    {
+      "id": "past-be-word-cute",
+      "type": "word",
+      "wordId": "cute",
+      "skillId": "cute",
+      "prompt": "Как это называется по-английски?",
+      "answer": "cute",
+      "options": ["cute", "happy", "sad", "noisy"],
+      "hint": {
+        "translation": "милый",
+        "explanation": "Говорим о том, какими были раньше. Здесь «cute» — «милый».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I was happy."
+      }
+    },
+    {
+      "id": "past-be-letters-happy",
+      "type": "letters",
+      "wordId": "happy",
+      "skillId": "happy",
+      "prompt": "Собери слово из букв",
+      "answer": "happy",
+      "options": ["happy", "sad", "noisy", "quiet"],
+      "hint": {
+        "translation": "весёлый",
+        "explanation": "Говорим о том, какими были раньше. Здесь «happy» — «весёлый».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I was sad."
+      }
+    },
+    {
+      "id": "past-be-letters-sad",
+      "type": "letters",
+      "wordId": "sad",
+      "skillId": "sad",
+      "prompt": "Собери слово из букв",
+      "answer": "sad",
+      "options": ["sad", "noisy", "quiet", "naughty"],
+      "hint": {
+        "translation": "грустный",
+        "explanation": "Говорим о том, какими были раньше. Здесь «sad» — «грустный».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "They were noisy."
+      }
+    },
+    {
+      "id": "past-be-letters-noisy",
+      "type": "letters",
+      "wordId": "noisy",
+      "skillId": "noisy",
+      "prompt": "Собери слово из букв",
+      "answer": "noisy",
+      "options": ["noisy", "quiet", "naughty", "cute"],
+      "hint": {
+        "translation": "шумный",
+        "explanation": "Говорим о том, какими были раньше. Здесь «noisy» — «шумный».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "She was quiet."
+      }
+    },
+    {
+      "id": "past-be-letters-quiet",
+      "type": "letters",
+      "wordId": "quiet",
+      "skillId": "quiet",
+      "prompt": "Собери слово из букв",
+      "answer": "quiet",
+      "options": ["quiet", "naughty", "cute", "happy"],
+      "hint": {
+        "translation": "тихий",
+        "explanation": "Говорим о том, какими были раньше. Здесь «quiet» — «тихий».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I was naughty."
+      }
+    },
+    {
+      "id": "past-be-letters-naughty",
+      "type": "letters",
+      "wordId": "naughty",
+      "skillId": "naughty",
+      "prompt": "Собери слово из букв",
+      "answer": "naughty",
+      "options": ["naughty", "cute", "happy", "sad"],
+      "hint": {
+        "translation": "непослушный",
+        "explanation": "Говорим о том, какими были раньше. Здесь «naughty» — «непослушный».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I was cute."
+      }
+    },
+    {
+      "id": "past-be-letters-cute",
+      "type": "letters",
+      "wordId": "cute",
+      "skillId": "cute",
+      "prompt": "Собери слово из букв",
+      "answer": "cute",
+      "options": ["cute", "happy", "sad", "noisy"],
+      "hint": {
+        "translation": "милый",
+        "explanation": "Говорим о том, какими были раньше. Здесь «cute» — «милый».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "I was happy."
+      }
+    },
+    {
+      "id": "past-be-sentence-1",
+      "type": "sentence",
+      "wordId": "happy",
+      "skillId": "past-be",
+      "prompt": "Собери предложение",
+      "answer": "I was happy.",
+      "options": [],
+      "hint": {
+        "translation": "Я был весёлым.",
+        "explanation": "Was и were помогают сказать «был» или «были». С I, he, she, it выбираем was. С you, we, they — were. В конце добавляем описание.",
+        "steps": [
+          "Прочитай русский смысл: Я был весёлым.",
+          "Вспомни правило: Was и were помогают сказать «был» или «были». С I, he, she, it выбираем was. С you, we, they — were. В конце добавляем описание.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "She was quiet."
+      }
+    },
+    {
+      "id": "past-be-sentence-2",
+      "type": "sentence",
+      "wordId": "quiet",
+      "skillId": "past-be",
+      "prompt": "Собери предложение",
+      "answer": "She was quiet.",
+      "options": [],
+      "hint": {
+        "translation": "Она была тихой.",
+        "explanation": "Was и were помогают сказать «был» или «были». С I, he, she, it выбираем was. С you, we, they — were. В конце добавляем описание.",
+        "steps": [
+          "Прочитай русский смысл: Она была тихой.",
+          "Вспомни правило: Was и were помогают сказать «был» или «были». С I, he, she, it выбираем was. С you, we, they — were. В конце добавляем описание.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "They were noisy."
+      }
+    },
+    {
+      "id": "past-be-sentence-3",
+      "type": "sentence",
+      "wordId": "noisy",
+      "skillId": "past-be",
+      "prompt": "Собери предложение",
+      "answer": "They were noisy.",
+      "options": [],
+      "hint": {
+        "translation": "Они были шумными.",
+        "explanation": "Was и were помогают сказать «был» или «были». С I, he, she, it выбираем was. С you, we, they — were. В конце добавляем описание.",
+        "steps": [
+          "Прочитай русский смысл: Они были шумными.",
+          "Вспомни правило: Was и were помогают сказать «был» или «были». С I, he, she, it выбираем was. С you, we, they — were. В конце добавляем описание.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "I was happy."
+      }
+    }
+  ]
+}

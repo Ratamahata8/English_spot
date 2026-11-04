@@ -895,7 +895,7 @@
       "answer": "This is my school bag.",
       "options": ["school-bag", "pen", "pencil", "rubber"],
       "hint": {
-        "translation": "Это моя школьный портфель",
+        "translation": "Это мой школьный портфель.",
         "explanation": "This указывает на предмет рядом. Is связывает слова, my означает «мой». Название предмета — в конце.",
         "steps": [
           "Посмотри на предмет и вспомни его значение.",
@@ -914,7 +914,7 @@
       "answer": "This is my pencil.",
       "options": ["pencil", "rubber", "ruler", "book"],
       "hint": {
-        "translation": "Это моя карандаш",
+        "translation": "Это мой карандаш.",
         "explanation": "This указывает на предмет рядом. Is связывает слова, my означает «мой». Название предмета — в конце.",
         "steps": [
           "Посмотри на предмет и вспомни его значение.",
@@ -933,7 +933,7 @@
       "answer": "This is my book.",
       "options": ["book", "pencil-case", "school", "school-bag"],
       "hint": {
-        "translation": "Это моя книга",
+        "translation": "Это моя книга.",
         "explanation": "This указывает на предмет рядом. Is связывает слова, my означает «мой». Название предмета — в конце.",
         "steps": [
           "Посмотри на предмет и вспомни его значение.",
@@ -943,5 +943,9 @@
         "example": "This is your book."
       }
     }
-  ]
+  ],
+  "module": "Модуль 1 · Школа",
+  "description": "Школьные вещи и первые предложения.",
+  "source": "Unit 1a · стр. 10",
+  "coverWordId": "school-bag"
 }

@@ -1,16 +1,19 @@
-import { lesson, words } from '../lessons';
+import { lesson, lessons, words } from '../lessons';
 import { useProgress } from '../stores/progress';
-import { percent, mastered } from '../services/learning';
+import { percent, summarize } from '../services/learning';
 import { PageHeading } from '../components/PageHeading';
 export function Achievements() {
   const p = useProgress((s) => s.progress);
-  const count = words.filter((w) => mastered(p.stats[w.id])).length;
+  const records = useProgress((s) => s.records);
+  const summary = summarize(records);
+  const count = summary.learned;
+  const first = records[lesson.id];
   const badges = [
     {
       icon: '✦',
       title: 'Первый шаг',
       text: 'Заверши первое задание',
-      done: p.completed.length > 0,
+      done: Object.values(records).some((v) => v.completed.length > 0 || v.completedRuns),
     },
     {
       icon: '♫',
@@ -18,10 +21,20 @@ export function Achievements() {
       text: 'Познакомься со всеми словами',
       done: lesson.exercises
         .filter((e) => e.type === 'study')
-        .every((e) => p.completed.includes(e.id)),
+        .every((e) => first?.completed.includes(e.id)),
     },
-    { icon: '⚑', title: 'Снова в школу', text: 'Пройди первый урок', done: p.lessonComplete },
-    { icon: '✺', title: 'Слова с тобой', text: 'Освой все восемь слов', done: count === 8 },
+    {
+      icon: '⚑',
+      title: 'Снова в школу',
+      text: 'Пройди первый урок',
+      done: (first?.completedRuns ?? Number(first?.lessonComplete)) > 0,
+    },
+    {
+      icon: '✺',
+      title: 'Слова с тобой',
+      text: 'Освой слова всех тем',
+      done: count === words.length,
+    },
   ];
   return (
     <>
@@ -31,12 +44,12 @@ export function Achievements() {
         description="Мы ценим старание. Ты учишься, когда пробуешь!"
       />
       <div className="achievement-summary panel">
-        <strong>{percent(p)}%</strong>
+        <strong>{Math.round((summary.completed / lessons.length) * 100)}%</strong>
         <div>
-          <h2>Твоего первого приключения</h2>
+          <h2>Учебной программы</h2>
           <p>
-            {count} освоенных слов · {p.lessonComplete ? 1 : 0} пройденных уроков · {p.successful}{' '}
-            успешных упражнений
+            {count} освоенных слов · {summary.completed} пройденных уроков · {summary.successful}{' '}
+            успешных упражнений · {summary.runs} завершённых прохождений
           </p>
         </div>
       </div>

@@ -1,0 +1,544 @@
+{
+  "id": "toys",
+  "title": "My Toy Box",
+  "subtitle": "Spotlight 3 · Unit 7 · игрушки, a / an",
+  "module": "Модуль 4 · Игрушки и комната",
+  "description": "Рассказываем об игрушках и выбираем a / an.",
+  "source": "Unit 7 · игрушки, a / an",
+  "coverWordId": "aeroplane",
+  "vocabulary": [
+    {
+      "id": "aeroplane",
+      "en": "aeroplane",
+      "ru": "самолёт",
+      "ipa": "/ˈeərəpleɪn/",
+      "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «aeroplane» — «самолёт».",
+      "example": "It is an aeroplane.",
+      "image": "illustrations/aeroplane.svg"
+    },
+    {
+      "id": "elephant",
+      "en": "elephant",
+      "ru": "слон",
+      "ipa": "/ˈelɪfənt/",
+      "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «elephant» — «слон».",
+      "example": "It is an elephant.",
+      "image": "illustrations/elephant.svg"
+    },
+    {
+      "id": "musical-box",
+      "en": "musical box",
+      "ru": "музыкальная шкатулка",
+      "ipa": "/ˈmjuːzɪkəl bɒks/",
+      "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «musical box» — «музыкальная шкатулка».",
+      "example": "It is a musical box.",
+      "image": "illustrations/musical-box.svg"
+    },
+    {
+      "id": "rocking-horse",
+      "en": "rocking horse",
+      "ru": "лошадка-качалка",
+      "ipa": "/ˈrɒkɪŋ hɔːs/",
+      "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «rocking horse» — «лошадка-качалка».",
+      "example": "It is a rocking horse.",
+      "image": "illustrations/rocking-horse.svg"
+    },
+    {
+      "id": "tea-set",
+      "en": "tea set",
+      "ru": "чайный сервиз",
+      "ipa": "/ˈtiː set/",
+      "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «tea set» — «чайный сервиз».",
+      "example": "It is a tea set.",
+      "image": "illustrations/tea-set.svg"
+    },
+    {
+      "id": "train",
+      "en": "train",
+      "ru": "поезд",
+      "ipa": "/treɪn/",
+      "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «train» — «поезд».",
+      "example": "This is my train.",
+      "image": "illustrations/train.svg"
+    }
+  ],
+  "lexicon": [],
+  "grammar": [
+    {
+      "id": "articles",
+      "title": "A или an — слушаем первый звук",
+      "text": "Перед одним предметом ставим a или an. Если слово начинается с гласного звука, выбираем an: an elephant. Перед согласным звуком — a: a train. Слушай звук, а не только смотри на букву.",
+      "examples": ["It is an aeroplane.", "It is an elephant.", "This is my train."]
+    }
+  ],
+  "remedial": [
+    {
+      "id": "articles",
+      "title": "A или an — слушаем первый звук",
+      "available": true,
+      "explanation": "Перед одним предметом ставим a или an. Если слово начинается с гласного звука, выбираем an: an elephant. Перед согласным звуком — a: a train. Слушай звук, а не только смотри на букву.",
+      "example": "This is my train.",
+      "question": "Что нужно перед elephant?",
+      "answer": "an",
+      "options": ["a", "an"]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "toys-study-aeroplane",
+      "type": "study",
+      "wordId": "aeroplane",
+      "skillId": "aeroplane",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "aeroplane",
+      "options": ["aeroplane", "elephant", "musical-box", "rocking-horse"],
+      "hint": {
+        "translation": "самолёт",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «aeroplane» — «самолёт».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is an elephant."
+      }
+    },
+    {
+      "id": "toys-study-elephant",
+      "type": "study",
+      "wordId": "elephant",
+      "skillId": "elephant",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "elephant",
+      "options": ["elephant", "musical-box", "rocking-horse", "tea-set"],
+      "hint": {
+        "translation": "слон",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «elephant» — «слон».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a musical box."
+      }
+    },
+    {
+      "id": "toys-study-musical-box",
+      "type": "study",
+      "wordId": "musical-box",
+      "skillId": "musical-box",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "musical box",
+      "options": ["musical-box", "rocking-horse", "tea-set", "train"],
+      "hint": {
+        "translation": "музыкальная шкатулка",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «musical box» — «музыкальная шкатулка».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a rocking horse."
+      }
+    },
+    {
+      "id": "toys-study-rocking-horse",
+      "type": "study",
+      "wordId": "rocking-horse",
+      "skillId": "rocking-horse",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "rocking horse",
+      "options": ["rocking-horse", "tea-set", "train", "aeroplane"],
+      "hint": {
+        "translation": "лошадка-качалка",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «rocking horse» — «лошадка-качалка».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a tea set."
+      }
+    },
+    {
+      "id": "toys-study-tea-set",
+      "type": "study",
+      "wordId": "tea-set",
+      "skillId": "tea-set",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "tea set",
+      "options": ["tea-set", "train", "aeroplane", "elephant"],
+      "hint": {
+        "translation": "чайный сервиз",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «tea set» — «чайный сервиз».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my train."
+      }
+    },
+    {
+      "id": "toys-study-train",
+      "type": "study",
+      "wordId": "train",
+      "skillId": "train",
+      "prompt": "Посмотри, послушай и повтори",
+      "answer": "train",
+      "options": ["train", "aeroplane", "elephant", "musical-box"],
+      "hint": {
+        "translation": "поезд",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «train» — «поезд».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is an aeroplane."
+      }
+    },
+    {
+      "id": "toys-picture-aeroplane",
+      "type": "picture",
+      "wordId": "aeroplane",
+      "skillId": "aeroplane",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "aeroplane",
+      "options": ["aeroplane", "elephant", "musical-box", "rocking-horse"],
+      "hint": {
+        "translation": "самолёт",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «aeroplane» — «самолёт».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is an elephant."
+      }
+    },
+    {
+      "id": "toys-picture-elephant",
+      "type": "picture",
+      "wordId": "elephant",
+      "skillId": "elephant",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "elephant",
+      "options": ["elephant", "musical-box", "rocking-horse", "tea-set"],
+      "hint": {
+        "translation": "слон",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «elephant» — «слон».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a musical box."
+      }
+    },
+    {
+      "id": "toys-picture-musical-box",
+      "type": "picture",
+      "wordId": "musical-box",
+      "skillId": "musical-box",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "musical box",
+      "options": ["musical-box", "rocking-horse", "tea-set", "train"],
+      "hint": {
+        "translation": "музыкальная шкатулка",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «musical box» — «музыкальная шкатулка».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a rocking horse."
+      }
+    },
+    {
+      "id": "toys-picture-rocking-horse",
+      "type": "picture",
+      "wordId": "rocking-horse",
+      "skillId": "rocking-horse",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "rocking horse",
+      "options": ["rocking-horse", "tea-set", "train", "aeroplane"],
+      "hint": {
+        "translation": "лошадка-качалка",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «rocking horse» — «лошадка-качалка».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a tea set."
+      }
+    },
+    {
+      "id": "toys-picture-tea-set",
+      "type": "picture",
+      "wordId": "tea-set",
+      "skillId": "tea-set",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "tea set",
+      "options": ["tea-set", "train", "aeroplane", "elephant"],
+      "hint": {
+        "translation": "чайный сервиз",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «tea set» — «чайный сервиз».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my train."
+      }
+    },
+    {
+      "id": "toys-picture-train",
+      "type": "picture",
+      "wordId": "train",
+      "skillId": "train",
+      "prompt": "Послушай и выбери картинку",
+      "answer": "train",
+      "options": ["train", "aeroplane", "elephant", "musical-box"],
+      "hint": {
+        "translation": "поезд",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «train» — «поезд».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is an aeroplane."
+      }
+    },
+    {
+      "id": "toys-word-aeroplane",
+      "type": "word",
+      "wordId": "aeroplane",
+      "skillId": "aeroplane",
+      "prompt": "Как это называется по-английски?",
+      "answer": "aeroplane",
+      "options": ["aeroplane", "elephant", "musical-box", "rocking-horse"],
+      "hint": {
+        "translation": "самолёт",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «aeroplane» — «самолёт».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is an elephant."
+      }
+    },
+    {
+      "id": "toys-word-elephant",
+      "type": "word",
+      "wordId": "elephant",
+      "skillId": "elephant",
+      "prompt": "Как это называется по-английски?",
+      "answer": "elephant",
+      "options": ["elephant", "musical-box", "rocking-horse", "tea-set"],
+      "hint": {
+        "translation": "слон",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «elephant» — «слон».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a musical box."
+      }
+    },
+    {
+      "id": "toys-word-musical-box",
+      "type": "word",
+      "wordId": "musical-box",
+      "skillId": "musical-box",
+      "prompt": "Как это называется по-английски?",
+      "answer": "musical box",
+      "options": ["musical-box", "rocking-horse", "tea-set", "train"],
+      "hint": {
+        "translation": "музыкальная шкатулка",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «musical box» — «музыкальная шкатулка».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a rocking horse."
+      }
+    },
+    {
+      "id": "toys-word-rocking-horse",
+      "type": "word",
+      "wordId": "rocking-horse",
+      "skillId": "rocking-horse",
+      "prompt": "Как это называется по-английски?",
+      "answer": "rocking horse",
+      "options": ["rocking-horse", "tea-set", "train", "aeroplane"],
+      "hint": {
+        "translation": "лошадка-качалка",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «rocking horse» — «лошадка-качалка».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a tea set."
+      }
+    },
+    {
+      "id": "toys-word-tea-set",
+      "type": "word",
+      "wordId": "tea-set",
+      "skillId": "tea-set",
+      "prompt": "Как это называется по-английски?",
+      "answer": "tea set",
+      "options": ["tea-set", "train", "aeroplane", "elephant"],
+      "hint": {
+        "translation": "чайный сервиз",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «tea set» — «чайный сервиз».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "This is my train."
+      }
+    },
+    {
+      "id": "toys-word-train",
+      "type": "word",
+      "wordId": "train",
+      "skillId": "train",
+      "prompt": "Как это называется по-английски?",
+      "answer": "train",
+      "options": ["train", "aeroplane", "elephant", "musical-box"],
+      "hint": {
+        "translation": "поезд",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «train» — «поезд».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is an aeroplane."
+      }
+    },
+    {
+      "id": "toys-letters-aeroplane",
+      "type": "letters",
+      "wordId": "aeroplane",
+      "skillId": "aeroplane",
+      "prompt": "Собери слово из букв",
+      "answer": "aeroplane",
+      "options": ["aeroplane", "elephant", "musical-box", "rocking-horse"],
+      "hint": {
+        "translation": "самолёт",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «aeroplane» — «самолёт».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is an elephant."
+      }
+    },
+    {
+      "id": "toys-letters-elephant",
+      "type": "letters",
+      "wordId": "elephant",
+      "skillId": "elephant",
+      "prompt": "Собери слово из букв",
+      "answer": "elephant",
+      "options": ["elephant", "musical-box", "rocking-horse", "tea-set"],
+      "hint": {
+        "translation": "слон",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «elephant» — «слон».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is a musical box."
+      }
+    },
+    {
+      "id": "toys-letters-train",
+      "type": "letters",
+      "wordId": "train",
+      "skillId": "train",
+      "prompt": "Собери слово из букв",
+      "answer": "train",
+      "options": ["train", "aeroplane", "elephant", "musical-box"],
+      "hint": {
+        "translation": "поезд",
+        "explanation": "Рассказываем об игрушках и выбираем a / an. Здесь «train» — «поезд».",
+        "steps": [
+          "Послушай слово и рассмотри рисунок.",
+          "Вспомни значение. Можно послушать медленно.",
+          "Если собираешь буквы, произнеси первый звук и найди его букву."
+        ],
+        "example": "It is an aeroplane."
+      }
+    },
+    {
+      "id": "toys-sentence-1",
+      "type": "sentence",
+      "wordId": "aeroplane",
+      "skillId": "articles",
+      "prompt": "Собери предложение",
+      "answer": "It is an aeroplane.",
+      "options": [],
+      "hint": {
+        "translation": "Это самолёт.",
+        "explanation": "Перед одним предметом ставим a или an. Если слово начинается с гласного звука, выбираем an: an elephant. Перед согласным звуком — a: a train. Слушай звук, а не только смотри на букву.",
+        "steps": [
+          "Прочитай русский смысл: Это самолёт.",
+          "Вспомни правило: Перед одним предметом ставим a или an. Если слово начинается с гласного звука, выбираем an: an elephant. Перед согласным звуком — a: a train. Слушай звук, а не только смотри на букву.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "It is an elephant."
+      }
+    },
+    {
+      "id": "toys-sentence-2",
+      "type": "sentence",
+      "wordId": "elephant",
+      "skillId": "articles",
+      "prompt": "Собери предложение",
+      "answer": "It is an elephant.",
+      "options": [],
+      "hint": {
+        "translation": "Это слон.",
+        "explanation": "Перед одним предметом ставим a или an. Если слово начинается с гласного звука, выбираем an: an elephant. Перед согласным звуком — a: a train. Слушай звук, а не только смотри на букву.",
+        "steps": [
+          "Прочитай русский смысл: Это слон.",
+          "Вспомни правило: Перед одним предметом ставим a или an. Если слово начинается с гласного звука, выбираем an: an elephant. Перед согласным звуком — a: a train. Слушай звук, а не только смотри на букву.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "This is my train."
+      }
+    },
+    {
+      "id": "toys-sentence-3",
+      "type": "sentence",
+      "wordId": "train",
+      "skillId": "articles",
+      "prompt": "Собери предложение",
+      "answer": "This is my train.",
+      "options": [],
+      "hint": {
+        "translation": "Это мой поезд.",
+        "explanation": "Перед одним предметом ставим a или an. Если слово начинается с гласного звука, выбираем an: an elephant. Перед согласным звуком — a: a train. Слушай звук, а не только смотри на букву.",
+        "steps": [
+          "Прочитай русский смысл: Это мой поезд.",
+          "Вспомни правило: Перед одним предметом ставим a или an. Если слово начинается с гласного звука, выбираем an: an elephant. Перед согласным звуком — a: a train. Слушай звук, а не только смотри на букву.",
+          "Разбери похожий пример, затем попробуй своё предложение."
+        ],
+        "example": "It is an aeroplane."
+      }
+    }
+  ]
+}

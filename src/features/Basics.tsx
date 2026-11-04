@@ -1,22 +1,27 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { lesson } from '../lessons';
+import { getLesson } from '../lessons';
 import { EnglishText, HintToggle } from '../components/Hints';
 import { AudioButton } from '../components/AudioButton';
+import { useProgress } from '../stores/progress';
 import { PageHeading } from '../components/PageHeading';
 export function Basics() {
+  const lesson = getLesson(useProgress((s) => s.progress.lessonId));
   const [topic, setTopic] = useState(
-    new URLSearchParams(window.location.hash.split('?')[1]).get('topic') || 'this-is',
+    new URLSearchParams(window.location.hash.split('?')[1]).get('topic') ||
+      lesson.remedial.find((r) => r.available)!.id,
   );
   const [answer, setAnswer] = useState('');
   const [msg, setMsg] = useState('');
-  const r = lesson.remedial.find((r) => r.id === topic && r.available)!;
+  const r =
+    lesson.remedial.find((r) => r.id === topic && r.available) ||
+    lesson.remedial.find((r) => r.available)!;
   return (
     <>
       <PageHeading
         eyebrow="Разбираемся без спешки"
         title="Маленькая база"
-        description="Два мини-урока, которые помогут строить предложения."
+        description="Короткие объяснения к выбранному уроку."
       />
       <HintToggle />
       <div className="hint-tabs spaced">
