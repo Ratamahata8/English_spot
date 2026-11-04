@@ -1,3 +1,4 @@
+import { scenes } from '../textbook';
 import { Link, useNavigate } from 'react-router-dom';
 import { lessons } from '../lessons';
 import { useProgress } from '../stores/progress';
@@ -44,6 +45,14 @@ export function Curriculum() {
                     <Illustration id={l.coverWordId} />
                     <h3>{l.title}</h3>
                     <p>{l.description}</p>
+                    {scenes.some((s) => s.lessonIds.includes(l.id)) && (
+                      <Link
+                        className="textbook-lesson-link"
+                        to={'/textbook/' + scenes.find((s) => s.lessonIds.includes(l.id))!.id}
+                      >
+                        Страница учебника с подсказками ↗
+                      </Link>
+                    )}
                     <small>
                       {l.vocabulary.length} слов · {l.exercises.length} заданий · 5 игр
                     </small>

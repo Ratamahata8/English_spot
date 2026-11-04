@@ -1,0 +1,296 @@
+{
+  "Привет. Меня зовут Артур.": {
+    "text": "Привет. Меня зовут Артур.",
+    "path": "9057772e4cbc870b0b07.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "f98ad5287e1243726bbfcc948177b321af5949aef6be12e05e8e8a8bc54ca285"
+  },
+  "Привет! Я Раскал. Я живу с Артуром.": {
+    "text": "Привет! Я Раскал. Я живу с Артуром.",
+    "path": "35b30a7dcc991d06d7d4.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "7889f7f2cc4de2b44a3fc55474f6c81b4817c3431df006a7ec135ae9d390f385"
+  },
+  "А меня зовут Трикси! Я живу по соседству!": {
+    "text": "А меня зовут Трикси! Я живу по соседству!",
+    "path": "0a80daffda0068ffce9a.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "121ea78fa37ab4403771cd3f7bcb5303a09be3d8abc4249349e6d35adb7b718d"
+  },
+  "Пойдём, Артур. Давай заберём Раскала!": {
+    "text": "Пойдём, Артур. Давай заберём Раскала!",
+    "path": "a7fc5495a6b3553f4acc.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "fc3a05823ad3c937f274a0489135e97bc748ef81f2251c7f67de692405facf3a"
+  },
+  "Привет, Раскал. Пора идти домой!": {
+    "text": "Привет, Раскал. Пора идти домой!",
+    "path": "41282313c487aa4a3f99.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "6b9e8da5cdd93ac8e58fcc6c84a22fac48fe02453de6a460957bf8040144b145"
+  },
+  "О, здорово!": {
+    "text": "О, здорово!",
+    "path": "c86b504c80ab8868194e.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "2c9b4f26e1057d6c65b28b494397e65abdb7aa534d272d474f49c4433018381f"
+  },
+  "Сидеть, Раскал. Сидеть!": {
+    "text": "Сидеть, Раскал. Сидеть!",
+    "path": "68ae149f0a77c2520930.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "af1fdd3f9c008f9560fe96cb149ad4b3474d56995463f3c6abe62ecbd08c3ab3"
+  },
+  "Ой-ой!": {
+    "text": "Ой-ой!",
+    "path": "942042f9fe6fd9e3de8a.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "424b63cb6fd0f964650234d6e2f9439517e1bed5e2b2a44907c5abede6c478bc"
+  },
+  "Хм! Молодец, Раскал!": {
+    "text": "Хм! Молодец, Раскал!",
+    "path": "ee53e8bea6bd32a2752a.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "6fc6185c2f4bd94a6356adca4106b36cc93f1594fafa2658c52f48bb6d3fd89b"
+  },
+  "Один, два…? Быстрее. Лови рыбу, Раскал!": {
+    "text": "Один, два…? Быстрее. Лови рыбу, Раскал!",
+    "path": "96e14cc56c28c17d7c22.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "2491617c0e0a9fc019bfb067043ffdcfea8412289e1d49b174991a4c9d37826a"
+  },
+  "Хи-хи!": {
+    "text": "Хи-хи!",
+    "path": "479454955669d1c58a92.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "5a439bd8fc0d5bc7d7979886f01b484f38ee7442b9e790aa6e4e50c73ada4861"
+  },
+  "Брось это, Трикси!": {
+    "text": "Брось это, Трикси!",
+    "path": "8f81291afd8cebb848f2.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "c2329c5a6418aea6b0b01eed07d5417b0fa66e80398dcb71f59f3a1be5e2235f"
+  },
+  "Нет! А-а!": {
+    "text": "Нет! А-а!",
+    "path": "b7decf6891ff2ea32f63.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "11bdd18de5edafd036f8b8ed5c3487bb9d6ad7b19e1e733c6be09d5c2e1e4f87"
+  },
+  "Молодец, Раскал!": {
+    "text": "Молодец, Раскал!",
+    "path": "c28be02103211e77f8ba.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "bf8325a108c79cd9faef1a557cfb98827c00423ada4d40b52f6c1b8c36a0d62c"
+  },
+  "Спасибо, Артур!": {
+    "text": "Спасибо, Артур!",
+    "path": "80d14b6d02c552dfde4a.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "e8eff4f49a19d9c4b3364e91d5ee04bceabc29b77cb9bcb2a0ba6071cad913b6"
+  },
+  "Лови мяч, Раскал!": {
+    "text": "Лови мяч, Раскал!",
+    "path": "06b44076fa66389fa65f.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "8433ef374b97d47845b6cda6fc874c2f484d1b999803cc260d7651a14b0c8750"
+  },
+  "Чей это мяч? Ага!": {
+    "text": "Чей это мяч? Ага!",
+    "path": "7167c1660323f122d5c5.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "8139af372b0b32241f9962d45a2c6530bae87ad296a7e3f7d45f2c889429b910"
+  },
+  "Вот ваш мяч, ребята!": {
+    "text": "Вот ваш мяч, ребята!",
+    "path": "3ea02f228a48091498a1.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "b64abb135dd708bc705c80db8402ff004670c56d4d9dc81860022918deecb806"
+  },
+  "О нет!": {
+    "text": "О нет!",
+    "path": "da3ca338a8dc76f98fc9.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "e4e1693ac0a84ffcd4560d97d7b083ef28ba8007ec76c2a2b13c1897293262f4"
+  },
+  "Поиграй с этим мячом, Трикси!": {
+    "text": "Поиграй с этим мячом, Трикси!",
+    "path": "d312ddbf6da614f400c0.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "7af6d4e32eb5c9d0bd0cecc530b690559fb6269e4cd909799b5d7c3df780dfaf"
+  },
+  "Помогите!": {
+    "text": "Помогите!",
+    "path": "1e529d82b323582a08d9.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "8e950715c8acaae3af92f43702da7c710e6910f61dbf816f4db6a8a2e55758c5"
+  },
+  "Пойдёмте, ребята, пора купаться!": {
+    "text": "Пойдёмте, ребята, пора купаться!",
+    "path": "470c808a54ee2acb44aa.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "e6e94ca874c3284101f84021fd16cee874f78ab4474a4a57f3232609639b1f2a"
+  },
+  "Вот, держи, Раскал.": {
+    "text": "Вот, держи, Раскал.",
+    "path": "5337f3c7f0bab76da576.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "bad31a9ad90e2b2cc9a1f0ea450c273531bc861a996d565a4f83383aeceed578"
+  },
+  "Ура, здорово!": {
+    "text": "Ура, здорово!",
+    "path": "5f17414b2aa75789b940.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "e2c511fb29404e12bb3452c8d8cc7f5eb98a77cf541264d4a393ced77e6460f5"
+  },
+  "Артур, у меня новая игрушка!": {
+    "text": "Артур, у меня новая игрушка!",
+    "path": "0b5846260d20b66b4153.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "38fa99aebc197ee0eea41e39b7cfe73f65236f29c0978907969f5152427de7a6"
+  },
+  "Что это?": {
+    "text": "Что это?",
+    "path": "6d01e644b98ee4b25a2f.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "73578e0ada1ca0ca4fc2cfc5c88d4c8530538ab0c40d3c78ae66c2267f97202b"
+  },
+  "Я не знаю, но с ней очень весело!": {
+    "text": "Я не знаю, но с ней очень весело!",
+    "path": "df8fcc0a0196ce09bade.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "7a2159e6b47bac51ca218b3e247787493e72943a1b92f9db37efa5e00dd3e391"
+  },
+  "Осторожно, Раскал!": {
+    "text": "Осторожно, Раскал!",
+    "path": "96db71c422b9c6fec9a5.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "85a0440148be94bb12975520bb03fd16631530faa946405ab1fb75af5367b663"
+  },
+  "Где этот глупый пёс?": {
+    "text": "Где этот глупый пёс?",
+    "path": "25c62e2841e4de679d43.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "01456c7624e254e6ed2e84b1199e6e3e6faff3e7f7db70c61e5660bc7b02cd09"
+  },
+  "Трикси! Ах ты проказник!": {
+    "text": "Трикси! Ах ты проказник!",
+    "path": "eafd081a84942bbe49bf.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "f4e17d9faff789afa2db460111930f2a7d7e386c8920b4fd709c5d7aac870889"
+  },
+  "Хи-хи! Моя новая игрушка — просто чудо!": {
+    "text": "Хи-хи! Моя новая игрушка — просто чудо!",
+    "path": "eb77a431784171258be8.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "2ceeff627308e878d7304c583d2742582c7f8088aaaff0cbdf3d41f101e8395d"
+  },
+  "Это школьный портфель!": {
+    "text": "Это школьный портфель!",
+    "path": "d151f263b1de12daef48.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "afd18928f6a8d2e10539f152c8fb8ac90c2687e176b301b53b8403b5cd6fd437"
+  },
+  "Как тебя зовут?": {
+    "text": "Как тебя зовут?",
+    "path": "462ae0c3f5e0ba40de73.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "6edba5167b6690f513ba66779ac1e28f795ee18e1dfd4772d5921b23adceceee"
+  },
+  "М-А-Й-Я.": {
+    "text": "М-А-Й-Я.",
+    "path": "edfb6d756094fdd3eca7.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "fc77f27e87882dff2b3105748db7d5a300701249d874def4c6eca57eb9b75c5b"
+  },
+  "А! Майя!": {
+    "text": "А! Майя!",
+    "path": "2e87f0df03ad91425552.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "bd8c6b05984b1ccc4fcf0dc5cd6651bad7015829d368fb84f74f3820931888a5"
+  },
+  "Какой твой любимый предмет?": {
+    "text": "Какой твой любимый предмет?",
+    "path": "42570b82524e78a339e6.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "48e8f57bea3ef81468b9946cb9436eefd269ac2b86a6a541cdb64cf70e838e47"
+  },
+  "Рисование. А у тебя?": {
+    "text": "Рисование. А у тебя?",
+    "path": "044dcb6830db53b4c747.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "7a4886fba7597b9a1de0510bf5dee96926f26536aa465303ea33bfeb996b2fcc"
+  },
+  "Мне нравится музыка.": {
+    "text": "Мне нравится музыка.",
+    "path": "75904cbe953caff0b9de.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "79b4246e7c117056ab2aa040d6ad696b26fe6dd11d28f44f9038017b3f95e3cc"
+  },
+  "Смотри! Это моя бабушка Рози!": {
+    "text": "Смотри! Это моя бабушка Рози!",
+    "path": "81c71d9014db266d997e.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "7ed8103a2ae97d5c023a18b670737596f0be2c3c7b25587014b05e5b40ae010f"
+  },
+  "Какая твоя любимая еда?": {
+    "text": "Какая твоя любимая еда?",
+    "path": "2934151241089db0b29e.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "826d2294815dfe86b5fdea7542ce7d363eb167b58989e1169cea130864e4f0d5"
+  },
+  "Пицца, ням! А у тебя?": {
+    "text": "Пицца, ням! А у тебя?",
+    "path": "8ebdb9e5477ea4cf8baa.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "7e2251f76e2eb80a06ae486d5eab79d5c84d8e67ef87e962d991a7a039220233"
+  },
+  "Можно мне немного мяса и картошки, пожалуйста?": {
+    "text": "Можно мне немного мяса и картошки, пожалуйста?",
+    "path": "a1f0269735192069e04f.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "022cc0b3d32fb9f562da0d544da3dbcf3006b9e8869afc7e9679c6a54df010ac"
+  },
+  "Вот, держи.": {
+    "text": "Вот, держи.",
+    "path": "09b31ccf3a6554232604.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "40e95d78d6cd72fc83977d9319073a4e04ec2f032a38e069f94620a42c907e92"
+  },
+  "Спасибо.": {
+    "text": "Спасибо.",
+    "path": "d34921bc56be01bba3a1.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "1af04a2d78e9159724ff702f9402cc3d21f676da60f54ebbcf6ec8e7b2be4e96"
+  },
+  "Чья это музыкальная шкатулка?": {
+    "text": "Чья это музыкальная шкатулка?",
+    "path": "9cbbe4366d7bf0c35dd0.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "f6a476a0aea4ed21fa5447ccca1555eac4e9b13910ed3b05bb1c5156d14523f8"
+  },
+  "Мамина.": {
+    "text": "Мамина.",
+    "path": "417c5eabe0c3c95882a8.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "eada7116c3a9ccc98fe426d80759ea22dab9aa38764a9a27366b299729c5a917"
+  },
+  "Это компьютер.": {
+    "text": "Это компьютер.",
+    "path": "6e837a06d8cfd8279ccf.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "7cfe7524ccb166567e20cd13b8293cd996848f45504799617c1a0c44d71ecffe"
+  },
+  "Чей он?": {
+    "text": "Чей он?",
+    "path": "d4025ba27b68cef0499a.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "ef7fbd4455c59705bd8379daecbafa196561dd42fbd547af6982623985611002"
+  },
+  "Роя.": {
+    "text": "Роя.",
+    "path": "84e3932b23ee8b3561e8.mp3",
+    "voice": "ru-RU-SvetlanaNeural",
+    "sha256": "2963cbe78bafa1294aac6c762acd9f4e8d3773018c12441a565583eed08d42c3"
+  }
+}

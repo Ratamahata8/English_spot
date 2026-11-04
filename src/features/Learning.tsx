@@ -7,7 +7,7 @@ import { HintToggle } from '../components/Hints';
 import { stopAudio } from '../services/audio';
 import { ExerciseCard } from './ExerciseCard';
 export function Learning() {
-  const { progress: p, update } = useProgress();
+  const { progress: p, update, saving } = useProgress();
   const lesson = getLesson(p.lessonId);
   const [params] = useSearchParams();
   const review = params.has('review');
@@ -49,6 +49,14 @@ export function Learning() {
       flush();
     };
   }, [active, update, p.lessonId]);
+  // The completion screen promises a resumable result: wait for IndexedDB,
+  // including the final timer flush, before exposing it to navigation/reload.
+  if (finished && saving > 0)
+    return (
+      <section className="finish panel" aria-busy="true">
+        <p role="status">Сохраняем результат…</p>
+      </section>
+    );
   if (finished)
     return (
       <section className="finish panel">

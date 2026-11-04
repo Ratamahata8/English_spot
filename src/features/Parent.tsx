@@ -1,3 +1,4 @@
+import { readerRepository } from '../services/storage';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { words, lexicon, lessons } from '../lessons';
@@ -21,22 +22,27 @@ export function Parent() {
       (summary.stats[w.id]?.errors || 0) > 1,
   );
   const count = summary.learned;
-  function exportData() {
-    const url = URL.createObjectURL(
-      new Blob([JSON.stringify(buildExport(), null, 2)], { type: 'application/json' }),
-    );
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = 'english-spot-progress.json';
-    a.click();
-    URL.revokeObjectURL(url);
+  async function exportData() {
+    try {
+      const bundle = { ...buildExport(), reader: await readerRepository.loadAll() };
+      const url = URL.createObjectURL(
+        new Blob([JSON.stringify(bundle, null, 2)], { type: 'application/json' }),
+      );
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'english-spot-progress.json';
+      a.click();
+      URL.revokeObjectURL(url);
+    } catch {
+      setMessage('Не удалось подготовить резервную копию. Проверь доступ к хранилищу и повтори.');
+    }
   }
   return (
     <>
       <PageHeading
         eyebrow="Рядом с ребёнком"
         title="Родительский кабинет"
-        description="Прогресс хранится в IndexedDB этого браузера. Это не обычный кеш: закрытие вкладки его не удаляет. Экспортируйте резервную копию перед очисткой данных сайта."
+        description="Прогресс хранится в IndexedDB этого браузера. Это не обычный кеш: закрытие вкладки его не удаляет. Экспорт включает уроки, отметки реплик и сохранённые фразы. Сделайте копию перед очисткой данных сайта."
       />
       <div className="parent-stats">
         {[

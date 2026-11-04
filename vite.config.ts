@@ -9,6 +9,7 @@ export default defineConfig({
       output: {
         manualChunks(id) {
           if (id.includes('node_modules')) return 'vendor';
+          if (id.includes('/src/textbook/') && id.endsWith('.json')) return 'textbook-content';
           if (id.includes('/src/lessons/') && id.endsWith('.json')) return 'course-content';
         },
       },

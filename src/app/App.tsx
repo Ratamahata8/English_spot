@@ -1,3 +1,4 @@
+import { Textbook, TextbookRoute } from '../features/Textbook';
 import { useEffect } from 'react';
 import { HashRouter, NavLink, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { Home, Curriculum, Dictionary, Achievements, Parent, Basics } from '../features/Pages';
@@ -6,6 +7,7 @@ import { HintsProvider } from '../components/Hints';
 import { useProgress } from '../stores/progress';
 const nav = [
   ['/', '⌂', 'Главная'],
+  ['/textbook', '▥', 'Учебник'],
   ['/curriculum', '▧', 'Мои уроки'],
   ['/dictionary', '▤', 'Словарь'],
   ['/achievements', '✦', 'Достижения'],
@@ -93,6 +95,8 @@ function Shell() {
           )}
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/textbook" element={<Textbook />} />
+            <Route path="/textbook/:sceneId" element={<TextbookRoute />} />
             <Route path="/curriculum" element={<Curriculum />} />
             <Route path="/dictionary" element={<Dictionary />} />
             <Route path="/achievements" element={<Achievements />} />

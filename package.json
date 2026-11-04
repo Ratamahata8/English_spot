@@ -10,10 +10,11 @@
     "check:audio": "python3 scripts/validate_audio.py",
     "test": "vitest run",
     "test:e2e": "playwright test",
-    "build": "npm run typecheck && npm run check:content && npm run check:audio && vite build",
+    "build": "npm run typecheck && npm run check:content && npm run check:audio && npm run check:textbook && vite build",
     "preview": "vite preview --host 0.0.0.0",
     "format": "prettier --write src scripts/*.ts tests *.ts *.json *.html .github/workflows/*.yml",
-    "format:check": "prettier --check src scripts/*.ts tests *.ts *.json *.html .github/workflows/*.yml"
+    "format:check": "prettier --check src scripts/*.ts tests *.ts *.json *.html .github/workflows/*.yml",
+    "check:textbook": "python3 scripts/textbook_audio.py"
   },
   "dependencies": {
     "dexie": "^4.2.0",

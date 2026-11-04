@@ -92,6 +92,7 @@ export interface LearningProgress {
 }
 
 export interface ProgressBundle {
+  reader?: import('../textbook').ReaderProgress[];
   schemaVersion: 2;
   selectedLessonId: string;
   lessons: LearningProgress[];
