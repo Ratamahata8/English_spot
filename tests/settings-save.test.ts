@@ -60,3 +60,43 @@ it('немедленная перезагрузка восстанавливае
     vi.unstubAllGlobals();
   }
 });
+
+it('первая настройка восстанавливается без записи урока: время создания пустого состояния не вытесняет сохранённый выбор', async () => {
+  const values = new Map<string, string>();
+  vi.stubGlobal('localStorage', {
+    getItem: (key: string) => values.get(key) ?? null,
+    setItem: (key: string, value: string) => values.set(key, value),
+    removeItem: (key: string) => values.delete(key),
+  });
+  const now = vi.spyOn(Date, 'now').mockReturnValue(1000);
+  await progressRepository.resetAll();
+  const p = initialProgress();
+  useProgress.setState({ progress: p, records: {}, ready: true, saving: 0, error: '' });
+  let release!: () => void;
+  const pending = new Promise<void>((resolve) => {
+    release = resolve;
+  });
+  const original = progressRepository.save.bind(progressRepository);
+  const save = vi.spyOn(progressRepository, 'save').mockImplementationOnce(async (value) => {
+    await pending;
+    await original(value);
+  });
+  let write: Promise<void> | undefined;
+  try {
+    write = useProgress
+      .getState()
+      .update((p) => ({ ...p, settings: { slow: true, reduceMotion: true } }));
+    expect(await progressRepository.loadAll()).toEqual([]);
+    now.mockReturnValue(10000);
+    await useProgress.getState().init();
+    expect(useProgress.getState().progress.settings).toEqual({ slow: true, reduceMotion: true });
+    expect((await progressRepository.load()).settings.reduceMotion).toBe(true);
+    expect(useProgress.getState().progress.completed).toEqual([]);
+  } finally {
+    release();
+    await write;
+    save.mockRestore();
+    now.mockRestore();
+    vi.unstubAllGlobals();
+  }
+});

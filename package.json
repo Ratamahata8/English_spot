@@ -15,8 +15,9 @@
     "format": "prettier --write src scripts/*.ts tests *.ts *.json *.html .github/workflows/*.yml",
     "format:check": "prettier --check src scripts/*.ts tests *.ts *.json *.html .github/workflows/*.yml",
     "check:textbook": "python3 scripts/textbook_audio.py",
-    "check:workbook": "node --import tsx scripts/validate_workbook.ts && npm run check:editions && python3 scripts/workbook_audio.py",
-    "check:editions": "node --import tsx scripts/validate_editions.ts"
+    "check:workbook": "node --import tsx scripts/validate_workbook.ts && npm run check:editions && npm run check:video && python3 scripts/workbook_audio.py",
+    "check:editions": "node --import tsx scripts/validate_editions.ts",
+    "check:video": "node --import tsx scripts/validate_video_content.ts"
   },
   "dependencies": {
     "dexie": "^4.2.0",

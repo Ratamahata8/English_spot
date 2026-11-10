@@ -1,0 +1,3775 @@
+[
+  {
+    "id": "wb26-intro-01",
+    "title": "Слова вокруг нас",
+    "mechanic": "table",
+    "skillIds": ["vocabulary"],
+    "wordIds": [
+      "wf26-3c6a36b640fc",
+      "wf26-47c215b5f70e",
+      "wf26-18e1dd392168",
+      "wf-b1f51a511f1d",
+      "wf26-7a5179eecc0f",
+      "wf26-16477688c0e0",
+      "wf26-8218f3d6780a",
+      "wf26-44c3e574dac5",
+      "wf-a5add1365529",
+      "wf26-b474a99a2705",
+      "wf26-74fa5327cc0f",
+      "wf-1b001706a418",
+      "wf26-da30e45705f7",
+      "wf26-3a7bd3e2360a",
+      "wf26-c006c7e3ab14",
+      "wf26-5eb67f9f8409",
+      "wf-3d7eb3d3dab1",
+      "wf26-24bbcd13b648",
+      "wf26-d9705d8ee25f",
+      "wf26-569d7dc1611b",
+      "wf26-3eb874ba0149",
+      "wf26-47c5c28cae25",
+      "wf26-4cf35cf87435",
+      "wf26-9ed1515819de",
+      "wf26-aa3a05d9d57c",
+      "wf26-3eefa42d5206",
+      "wf26-01ea5ddd3be5",
+      "wf26-3abafce5bc54",
+      "wf26-54f6d9fbe8ee",
+      "wf26-0d4fc4a78d37",
+      "wf26-018fa96a4471",
+      "wf26-defae04158b9",
+      "wf26-3ed1f621d7a2",
+      "wf26-554f4d3dafc8",
+      "wf26-4b02e0c6135a",
+      "wf26-474a744f02d8",
+      "wf26-1980d3927f07",
+      "wf26-622a494d3ea8",
+      "wf26-e83664255c69",
+      "wf26-c685a2c9bab2",
+      "wf26-a05e6feb79c8",
+      "wf26-0b4bd77cec70",
+      "wf26-ba8d3e6a2d8b",
+      "wf26-1eb4d6a000ef",
+      "wf26-3171d89ad005",
+      "wf26-3486577cd905",
+      "wf26-8bc345e4ff21",
+      "wf26-12b04e920e09",
+      "wf26-96a590d999db",
+      "wf-e971c330aab8",
+      "wf-f6bc36134480",
+      "wf26-4c1666c3ad86",
+      "wf26-86b50be19a43",
+      "wf-bb3c78a5ebce",
+      "wf26-07a407c6cad8",
+      "wf26-066ce812dca2"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "matching",
+        "prompt": "Выбери группу для каждого слова.",
+        "rows": [
+          {
+            "label": "ear",
+            "answers": ["Части тела"]
+          },
+          {
+            "label": "eye",
+            "answers": ["Части тела"]
+          },
+          {
+            "label": "hat",
+            "answers": ["Одежда"]
+          },
+          {
+            "label": "red",
+            "answers": ["Цвета"]
+          },
+          {
+            "label": "bird",
+            "answers": ["Животные"]
+          },
+          {
+            "label": "blue",
+            "answers": ["Цвета"]
+          }
+        ],
+        "why": "Сравни смысл каждой пары.",
+        "options": ["Животные", "Одежда", "Цвета", "Части тела"]
+      },
+      {
+        "mode": "matching",
+        "prompt": "Выбери группу для каждого слова.",
+        "rows": [
+          {
+            "label": "coat",
+            "answers": ["Одежда"]
+          },
+          {
+            "label": "doll",
+            "answers": ["Игрушки"]
+          },
+          {
+            "label": "feet",
+            "answers": ["Части тела"]
+          },
+          {
+            "label": "fish",
+            "answers": ["Животные"]
+          },
+          {
+            "label": "frog",
+            "answers": ["Животные"]
+          },
+          {
+            "label": "hand",
+            "answers": ["Части тела"]
+          }
+        ],
+        "why": "Сравни смысл каждой пары.",
+        "options": ["Животные", "Игрушки", "Одежда", "Части тела"]
+      },
+      {
+        "mode": "matching",
+        "prompt": "Выбери группу для каждого слова.",
+        "rows": [
+          {
+            "label": "yoyo",
+            "answers": ["Игрушки"]
+          },
+          {
+            "label": "apple",
+            "answers": ["Еда и напитки"]
+          },
+          {
+            "label": "black",
+            "answers": ["Цвета"]
+          },
+          {
+            "label": "brown",
+            "answers": ["Цвета"]
+          },
+          {
+            "label": "chair",
+            "answers": ["Предметы в комнате"]
+          },
+          {
+            "label": "chimp",
+            "answers": ["Животные"]
+          }
+        ],
+        "why": "Сравни смысл каждой пары.",
+        "options": ["Еда и напитки", "Животные", "Игрушки", "Предметы в комнате", "Цвета"]
+      },
+      {
+        "mode": "matching",
+        "prompt": "Выбери группу для каждого слова.",
+        "rows": [
+          {
+            "label": "chips",
+            "answers": ["Еда и напитки"]
+          },
+          {
+            "label": "daddy",
+            "answers": ["Семья"]
+          },
+          {
+            "label": "jeans",
+            "answers": ["Одежда"]
+          },
+          {
+            "label": "mouse",
+            "answers": ["Животные"]
+          },
+          {
+            "label": "mouth",
+            "answers": ["Части тела"]
+          },
+          {
+            "label": "pizza",
+            "answers": ["Еда и напитки"]
+          }
+        ],
+        "why": "Сравни смысл каждой пары.",
+        "options": ["Еда и напитки", "Животные", "Одежда", "Семья", "Части тела"]
+      },
+      {
+        "mode": "matching",
+        "prompt": "Выбери группу для каждого слова.",
+        "rows": [
+          {
+            "label": "radio",
+            "answers": ["Предметы в комнате"]
+          },
+          {
+            "label": "shelf",
+            "answers": ["Предметы в комнате"]
+          },
+          {
+            "label": "shoes",
+            "answers": ["Одежда"]
+          },
+          {
+            "label": "skirt",
+            "answers": ["Одежда"]
+          },
+          {
+            "label": "socks",
+            "answers": ["Одежда"]
+          },
+          {
+            "label": "table",
+            "answers": ["Предметы в комнате"]
+          }
+        ],
+        "why": "Сравни смысл каждой пары.",
+        "options": ["Одежда", "Предметы в комнате"]
+      },
+      {
+        "mode": "matching",
+        "prompt": "Выбери группу для каждого слова.",
+        "rows": [
+          {
+            "label": "white",
+            "answers": ["Цвета"]
+          },
+          {
+            "label": "autumn",
+            "answers": ["Времена года"]
+          },
+          {
+            "label": "burger",
+            "answers": ["Еда и напитки"]
+          },
+          {
+            "label": "jacket",
+            "answers": ["Одежда"]
+          },
+          {
+            "label": "puppet",
+            "answers": ["Игрушки"]
+          },
+          {
+            "label": "shorts",
+            "answers": ["Одежда"]
+          }
+        ],
+        "why": "Сравни смысл каждой пары.",
+        "options": ["Времена года", "Еда и напитки", "Игрушки", "Одежда", "Цвета"]
+      },
+      {
+        "mode": "matching",
+        "prompt": "Выбери группу для каждого слова.",
+        "rows": [
+          {
+            "label": "sister",
+            "answers": ["Семья"]
+          },
+          {
+            "label": "spring",
+            "answers": ["Времена года"]
+          },
+          {
+            "label": "summer",
+            "answers": ["Времена года"]
+          },
+          {
+            "label": "yellow",
+            "answers": ["Цвета"]
+          },
+          {
+            "label": "bedroom",
+            "answers": ["Части дома"]
+          },
+          {
+            "label": "brother",
+            "answers": ["Семья"]
+          }
+        ],
+        "why": "Сравни смысл каждой пары.",
+        "options": ["Времена года", "Семья", "Цвета", "Части дома"]
+      },
+      {
+        "mode": "matching",
+        "prompt": "Выбери группу для каждого слова.",
+        "rows": [
+          {
+            "label": "grandma",
+            "answers": ["Семья"]
+          },
+          {
+            "label": "grandpa",
+            "answers": ["Семья"]
+          },
+          {
+            "label": "kitchen",
+            "answers": ["Части дома"]
+          },
+          {
+            "label": "bathroom",
+            "answers": ["Части дома"]
+          },
+          {
+            "label": "magician",
+            "answers": ["Артисты цирка"]
+          },
+          {
+            "label": "dark hair",
+            "answers": ["Описание волос"]
+          }
+        ],
+        "why": "Сравни смысл каждой пары.",
+        "options": ["Артисты цирка", "Описание волос", "Семья", "Части дома"]
+      },
+      {
+        "mode": "matching",
+        "prompt": "Выбери группу для каждого слова.",
+        "rows": [
+          {
+            "label": "fair hair",
+            "answers": ["Описание волос"]
+          },
+          {
+            "label": "ice cream",
+            "answers": ["Еда и напитки"]
+          },
+          {
+            "label": "teddy bear",
+            "answers": ["Игрушки"]
+          },
+          {
+            "label": "living room",
+            "answers": ["Части дома"]
+          },
+          {
+            "label": "toy soldier",
+            "answers": ["Игрушки"]
+          },
+          {
+            "label": "orange juice",
+            "answers": ["Еда и напитки"]
+          }
+        ],
+        "why": "Сравни смысл каждой пары.",
+        "options": ["Еда и напитки", "Игрушки", "Описание волос", "Части дома"]
+      },
+      {
+        "mode": "matching",
+        "prompt": "Выбери группу для каждого слова.",
+        "rows": [
+          {
+            "label": "chocolate cake",
+            "answers": ["Еда и напитки"]
+          },
+          {
+            "label": "jack-in-the-box",
+            "answers": ["Игрушки"]
+          }
+        ],
+        "why": "Сравни смысл каждой пары.",
+        "options": ["Еда и напитки", "Игрушки"]
+      }
+    ]
+  },
+  {
+    "id": "wb26-intro-02",
+    "title": "Один и несколько",
+    "mechanic": "plural",
+    "skillIds": ["plural", "plural-es", "numbers"],
+    "wordIds": [
+      "wf26-0d4fc4a78d37",
+      "wf26-0f53133ce57c",
+      "wf26-431ba1c69367",
+      "wf26-c06b0cfe0cc5",
+      "wf26-8f5c570f55dd",
+      "wf26-5a6ae5c8d6d8",
+      "wf-dc9c5edb8b2d",
+      "wf26-132a1a391cce",
+      "wf26-26f8567f2569"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "text",
+        "prompt": "Напиши число и слово: 2 / table",
+        "answers": ["two tables"],
+        "why": "После числа больше одного нужно множественное число: обычно -s, после s, x, ch — -es."
+      },
+      {
+        "mode": "text",
+        "prompt": "Напиши число и слово: 3 / toy",
+        "answers": ["three toys"],
+        "why": "После числа больше одного нужно множественное число: обычно -s, после s, x, ch — -es."
+      },
+      {
+        "mode": "text",
+        "prompt": "Напиши число и слово: 4 / girl",
+        "answers": ["four girls"],
+        "why": "После числа больше одного нужно множественное число: обычно -s, после s, x, ch — -es."
+      },
+      {
+        "mode": "text",
+        "prompt": "Напиши число и слово: 2 / flower",
+        "answers": ["two flowers"],
+        "why": "После числа больше одного нужно множественное число: обычно -s, после s, x, ch — -es."
+      },
+      {
+        "mode": "text",
+        "prompt": "Напиши число и слово: 3 / sandwich",
+        "answers": ["three sandwiches"],
+        "why": "После числа больше одного нужно множественное число: обычно -s, после s, x, ch — -es."
+      },
+      {
+        "mode": "text",
+        "prompt": "Напиши число и слово: 2 / T-shirt",
+        "answers": ["two T-shirts"],
+        "why": "После числа больше одного нужно множественное число: обычно -s, после s, x, ch — -es."
+      },
+      {
+        "mode": "text",
+        "prompt": "Напиши число и слово: 4 / tree",
+        "answers": ["four trees"],
+        "why": "После числа больше одного нужно множественное число: обычно -s, после s, x, ch — -es."
+      },
+      {
+        "mode": "text",
+        "prompt": "Напиши число и слово: 2 / glass",
+        "answers": ["two glasses"],
+        "why": "После числа больше одного нужно множественное число: обычно -s, после s, x, ch — -es."
+      },
+      {
+        "mode": "text",
+        "prompt": "Напиши число и слово: 3 / box",
+        "answers": ["three boxes"],
+        "why": "После числа больше одного нужно множественное число: обычно -s, после s, x, ch — -es."
+      }
+    ]
+  },
+  {
+    "id": "wb26-intro-03",
+    "title": "Кто это?",
+    "mechanic": "matching",
+    "skillIds": ["pronouns"],
+    "wordIds": [
+      "wf-372f7e2fd2d0",
+      "wf-2cda85e504e1",
+      "wf-2ad8a7049d7c",
+      "wf-151e58a83130",
+      "wf26-1eb4d6a000ef",
+      "wf26-1980d3927f07",
+      "wf26-0d4fc4a78d37",
+      "wf26-4aa7989d7298",
+      "wf26-0b4bd77cec70",
+      "wf26-0863fde42a57",
+      "wf26-aa3a05d9d57c",
+      "wf26-3eb874ba0149"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "matching",
+        "prompt": "Подбери пары. Каждое слово можно послушать.",
+        "rows": [
+          {
+            "label": "grandpa",
+            "answers": ["he"]
+          },
+          {
+            "label": "sister",
+            "answers": ["she"]
+          },
+          {
+            "label": "table",
+            "answers": ["it"]
+          },
+          {
+            "label": "dolls",
+            "answers": ["they"]
+          },
+          {
+            "label": "brother",
+            "answers": ["he"]
+          },
+          {
+            "label": "mummy",
+            "answers": ["she"]
+          },
+          {
+            "label": "radio",
+            "answers": ["it"]
+          },
+          {
+            "label": "jeans",
+            "answers": ["they"]
+          }
+        ],
+        "why": "He — он, she — она, it — один предмет, they — несколько.",
+        "options": ["he", "it", "she", "they"]
+      }
+    ]
+  },
+  {
+    "id": "wb26-intro-04",
+    "title": "Где лежит предмет?",
+    "mechanic": "translation",
+    "skillIds": ["place-prepositions"],
+    "wordIds": [
+      "wf-582967534d0f",
+      "wf26-b8d31e852725",
+      "wf26-d767748a6037",
+      "wf26-46ba34770bcc",
+      "wf26-26f8567f2569",
+      "wf-3d7eb3d3dab1",
+      "wf26-0d4fc4a78d37",
+      "wf-d6e21286621a",
+      "wf26-1f1c5b2fad77",
+      "wf26-3eefa42d5206"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "choice",
+        "prompt": "Что значит in the box?",
+        "answers": ["в коробке"],
+        "options": ["в коробке", "на коробке"],
+        "why": "In — внутри, on — на поверхности, under — под предметом, near — рядом."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Что значит under the chair?",
+        "answers": ["под стулом"],
+        "options": ["под стулом", "на стуле"],
+        "why": "In — внутри, on — на поверхности, under — под предметом, near — рядом."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Что значит on the table?",
+        "answers": ["на столе"],
+        "options": ["на столе", "под столом"],
+        "why": "In — внутри, on — на поверхности, under — под предметом, near — рядом."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Что значит near the house?",
+        "answers": ["рядом с домом"],
+        "options": ["рядом с домом", "в доме"],
+        "why": "In — внутри, on — на поверхности, under — под предметом, near — рядом."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Что значит in the room?",
+        "answers": ["в комнате"],
+        "options": ["в комнате", "под комнатой"],
+        "why": "In — внутри, on — на поверхности, under — под предметом, near — рядом."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Что значит under the shelf?",
+        "answers": ["под полкой"],
+        "options": ["под полкой", "на полке"],
+        "why": "In — внутри, on — на поверхности, under — под предметом, near — рядом."
+      }
+    ]
+  },
+  {
+    "id": "wb26-intro-05",
+    "title": "Am, is или are?",
+    "mechanic": "grammar",
+    "skillIds": ["be"],
+    "wordIds": [
+      "wf-de7d1b721a1e",
+      "wf-372f7e2fd2d0",
+      "wf-2cda85e504e1",
+      "wf-2ad8a7049d7c",
+      "wf-dc7c811b9561",
+      "wf-bb0347a468d9",
+      "wf-151e58a83130",
+      "wf-ab6db599234d",
+      "wf-fa51fd49abf6",
+      "wf-ba78973ddcf9"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "choice",
+        "prompt": "I ___ nine.",
+        "answers": ["am"],
+        "options": ["am", "is"],
+        "why": "I — am; he, she, it — is; you, we, they — are."
+      },
+      {
+        "mode": "choice",
+        "prompt": "He ___ happy.",
+        "answers": ["is"],
+        "options": ["is", "are"],
+        "why": "I — am; he, she, it — is; you, we, they — are."
+      },
+      {
+        "mode": "choice",
+        "prompt": "The dolls ___ in the box.",
+        "answers": ["are"],
+        "options": ["are", "is"],
+        "why": "I — am; he, she, it — is; you, we, they — are."
+      },
+      {
+        "mode": "choice",
+        "prompt": "We ___ at home.",
+        "answers": ["are"],
+        "options": ["are", "am"],
+        "why": "I — am; he, she, it — is; you, we, they — are."
+      },
+      {
+        "mode": "choice",
+        "prompt": "It ___ cold.",
+        "answers": ["is"],
+        "options": ["is", "are"],
+        "why": "I — am; he, she, it — is; you, we, they — are."
+      },
+      {
+        "mode": "choice",
+        "prompt": "You ___ my friend.",
+        "answers": ["are"],
+        "options": ["are", "is"],
+        "why": "I — am; he, she, it — is; you, we, they — are."
+      },
+      {
+        "mode": "choice",
+        "prompt": "My sister ___ in the room.",
+        "answers": ["is"],
+        "options": ["is", "am"],
+        "why": "I — am; he, she, it — is; you, we, they — are."
+      },
+      {
+        "mode": "choice",
+        "prompt": "They ___ at school.",
+        "answers": ["are"],
+        "options": ["are", "is"],
+        "why": "I — am; he, she, it — is; you, we, they — are."
+      }
+    ]
+  },
+  {
+    "id": "wb26-intro-06",
+    "title": "Что умеют животные?",
+    "mechanic": "grammar",
+    "skillIds": ["can"],
+    "wordIds": [
+      "wf-9f584196e7fe",
+      "wf26-a4076e68ddda",
+      "wf26-b474a99a2705",
+      "wf26-7a5179eecc0f",
+      "wf26-cd6357efdd96",
+      "wf26-fd62862b6dc2",
+      "wf26-74fa5327cc0f",
+      "wf-77af778b51ab",
+      "wf26-24bbcd13b648",
+      "wf26-d493f8869139",
+      "wf26-f4debdb7ab7d",
+      "wf-acba25512100",
+      "wf-6bdaf554e420",
+      "wf26-d73d3e7a7e1d"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "choice",
+        "prompt": "Рыба умеет плавать.",
+        "answers": ["A fish can swim."],
+        "options": ["A fish can swim.", "A fish can't swim."],
+        "why": "Выбери обычное умение животного. Can — умеет; can't — не умеет."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Птица умеет летать.",
+        "answers": ["A bird can fly."],
+        "options": ["A bird can fly.", "A bird can't fly."],
+        "why": "Выбери обычное умение животного. Can — умеет; can't — не умеет."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Собака умеет бегать.",
+        "answers": ["A dog can run."],
+        "options": ["A dog can run.", "A dog can't run."],
+        "why": "Выбери обычное умение животного. Can — умеет; can't — не умеет."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Лошадь не умеет летать.",
+        "answers": ["A horse can't fly."],
+        "options": ["A horse can't fly.", "A horse can fly."],
+        "why": "Выбери обычное умение животного. Can — умеет; can't — не умеет."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Лягушка умеет прыгать.",
+        "answers": ["A frog can jump."],
+        "options": ["A frog can jump.", "A frog can't jump."],
+        "why": "Выбери обычное умение животного. Can — умеет; can't — не умеет."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Кошка умеет лазать.",
+        "answers": ["A cat can climb."],
+        "options": ["A cat can climb.", "A cat can't climb."],
+        "why": "Выбери обычное умение животного. Can — умеет; can't — не умеет."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Шимпанзе умеет лазать.",
+        "answers": ["A chimp can climb."],
+        "options": ["A chimp can climb.", "A chimp can't climb."],
+        "why": "Выбери обычное умение животного. Can — умеет; can't — не умеет."
+      }
+    ]
+  },
+  {
+    "id": "wb26-intro-07",
+    "title": "Что умеем мы?",
+    "mechanic": "template",
+    "skillIds": ["can"],
+    "wordIds": [
+      "wf-9f584196e7fe",
+      "wf26-a4076e68ddda",
+      "wf26-0863fde42a57",
+      "wf26-569d7dc1611b",
+      "wf26-ba8d3e6a2d8b",
+      "wf26-1eb4d6a000ef",
+      "wf26-0b4bd77cec70",
+      "wf26-1980d3927f07"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "template",
+        "prompt": "Выбери фразы, которые подходят тебе. Верных вариантов может быть несколько.",
+        "slots": [
+          {
+            "label": "I",
+            "options": ["I can sing.", "I can swim.", "I can't fly."]
+          },
+          {
+            "label": "My mummy",
+            "options": ["My mummy can sing.", "My mummy can swim.", "My mummy can't fly."]
+          },
+          {
+            "label": "My daddy",
+            "options": ["My daddy can sing.", "My daddy can swim.", "My daddy can't fly."]
+          },
+          {
+            "label": "My grandma",
+            "options": ["My grandma can sing.", "My grandma can swim.", "My grandma can't fly."]
+          },
+          {
+            "label": "My grandpa",
+            "options": ["My grandpa can sing.", "My grandpa can swim.", "My grandpa can't fly."]
+          },
+          {
+            "label": "My brother",
+            "options": ["My brother can sing.", "My brother can swim.", "My brother can't fly."]
+          },
+          {
+            "label": "My sister",
+            "options": ["My sister can sing.", "My sister can swim.", "My sister can't fly."]
+          }
+        ],
+        "why": "Получился твой вариант. Это тренировка построения фразы, личные факты не оцениваются как знание правила."
+      }
+    ]
+  },
+  {
+    "id": "wb26-intro-08",
+    "title": "Вопрос с can",
+    "mechanic": "order",
+    "skillIds": ["can"],
+    "wordIds": [
+      "wf-9f584196e7fe",
+      "wf-bb0347a468d9",
+      "wf26-d493f8869139",
+      "wf-6342d0648a74",
+      "wf-6bdaf554e420",
+      "wf26-2c371c2ada73",
+      "wf26-d73d3e7a7e1d",
+      "wf-acba25512100",
+      "wf26-f4debdb7ab7d"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "order",
+        "prompt": "Собери предложение из всех частей.",
+        "tokens": ["swim?", "Can", "you"],
+        "answers": ["Can you swim?"],
+        "why": "Вопрос об умении: can → человек → действие."
+      },
+      {
+        "mode": "order",
+        "prompt": "Собери предложение из всех частей.",
+        "tokens": ["sing?", "Can", "you"],
+        "answers": ["Can you sing?"],
+        "why": "Вопрос об умении: can → человек → действие."
+      },
+      {
+        "mode": "order",
+        "prompt": "Собери предложение из всех частей.",
+        "tokens": ["jump?", "Can", "you"],
+        "answers": ["Can you jump?"],
+        "why": "Вопрос об умении: can → человек → действие."
+      },
+      {
+        "mode": "order",
+        "prompt": "Собери предложение из всех частей.",
+        "tokens": ["dance?", "Can", "you"],
+        "answers": ["Can you dance?"],
+        "why": "Вопрос об умении: can → человек → действие."
+      },
+      {
+        "mode": "order",
+        "prompt": "Собери предложение из всех частей.",
+        "tokens": ["climb?", "Can", "you"],
+        "answers": ["Can you climb?"],
+        "why": "Вопрос об умении: can → человек → действие."
+      },
+      {
+        "mode": "order",
+        "prompt": "Собери предложение из всех частей.",
+        "tokens": ["run?", "Can", "you"],
+        "answers": ["Can you run?"],
+        "why": "Вопрос об умении: can → человек → действие."
+      },
+      {
+        "mode": "order",
+        "prompt": "Собери предложение из всех частей.",
+        "tokens": ["fly?", "Can", "you"],
+        "answers": ["Can you fly?"],
+        "why": "Вопрос об умении: can → человек → действие."
+      }
+    ]
+  },
+  {
+    "id": "wb26-intro-09",
+    "title": "Короткий ответ с can",
+    "mechanic": "grammar",
+    "skillIds": ["can"],
+    "wordIds": [
+      "wf-9f584196e7fe",
+      "wf26-a4076e68ddda",
+      "wf-de7d1b721a1e",
+      "wf-372f7e2fd2d0",
+      "wf-2cda85e504e1",
+      "wf-151e58a83130",
+      "wf-dc7c811b9561",
+      "wf-2ad8a7049d7c"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "choice",
+        "prompt": "Can you swim? Да.",
+        "answers": ["Yes, I can."],
+        "options": ["Yes, I can.", "Yes, he can."],
+        "why": "Повтори помощник can в коротком ответе. Местоимение должно подходить вопросу."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Can she sing? Нет.",
+        "answers": ["No, she can't."],
+        "options": ["No, she can't.", "No, he can't."],
+        "why": "Повтори помощник can в коротком ответе. Местоимение должно подходить вопросу."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Can they jump? Да.",
+        "answers": ["Yes, they can."],
+        "options": ["Yes, they can.", "Yes, it can."],
+        "why": "Повтори помощник can в коротком ответе. Местоимение должно подходить вопросу."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Can he dance? Нет.",
+        "answers": ["No, he can't."],
+        "options": ["No, he can't.", "No, she can't."],
+        "why": "Повтори помощник can в коротком ответе. Местоимение должно подходить вопросу."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Can a bird fly? Да.",
+        "answers": ["Yes, it can."],
+        "options": ["Yes, it can.", "Yes, they can."],
+        "why": "Повтори помощник can в коротком ответе. Местоимение должно подходить вопросу."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Can a horse fly? Нет.",
+        "answers": ["No, it can't."],
+        "options": ["No, it can't.", "No, I can't."],
+        "why": "Повтори помощник can в коротком ответе. Местоимение должно подходить вопросу."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Can we sing? Да.",
+        "answers": ["Yes, we can."],
+        "options": ["Yes, we can.", "Yes, he can."],
+        "why": "Повтори помощник can в коротком ответе. Местоимение должно подходить вопросу."
+      }
+    ]
+  },
+  {
+    "id": "wb26-intro-10",
+    "title": "Have got или has got?",
+    "mechanic": "grammar",
+    "skillIds": ["have-got-questions"],
+    "wordIds": [
+      "wf-75de3c3c7bec",
+      "wf-2968ec9d80f1",
+      "wf26-96a590d999db",
+      "wf-92719fe0cf8c",
+      "wf26-0f53133ce57c",
+      "wf-d6e21286621a",
+      "wf26-23eeb69c681d",
+      "wf26-d77e22123e64",
+      "wf26-3bfcbeeee9f7"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "choice",
+        "prompt": "My brother ___ a book.",
+        "answers": ["has got"],
+        "options": ["has got", "have got"],
+        "why": "He, she, it — has got; I, you, we, they — have got."
+      },
+      {
+        "mode": "choice",
+        "prompt": "I ___ a toy.",
+        "answers": ["have got"],
+        "options": ["have got", "has got"],
+        "why": "He, she, it — has got; I, you, we, they — have got."
+      },
+      {
+        "mode": "choice",
+        "prompt": "They ___ a house.",
+        "answers": ["have got"],
+        "options": ["have got", "has got"],
+        "why": "He, she, it — has got; I, you, we, they — have got."
+      },
+      {
+        "mode": "choice",
+        "prompt": "She ___ fair hair.",
+        "answers": ["has got"],
+        "options": ["has got", "have got"],
+        "why": "He, she, it — has got; I, you, we, they — have got."
+      },
+      {
+        "mode": "choice",
+        "prompt": "We ___ a garden.",
+        "answers": ["have got"],
+        "options": ["have got", "has got"],
+        "why": "He, she, it — has got; I, you, we, they — have got."
+      },
+      {
+        "mode": "choice",
+        "prompt": "It ___ a big nose.",
+        "answers": ["has got"],
+        "options": ["has got", "have got"],
+        "why": "He, she, it — has got; I, you, we, they — have got."
+      },
+      {
+        "mode": "choice",
+        "prompt": "You ___ nice toys.",
+        "answers": ["have got"],
+        "options": ["have got", "has got"],
+        "why": "He, she, it — has got; I, you, we, they — have got."
+      }
+    ]
+  },
+  {
+    "id": "wb26-intro-11",
+    "title": "Есть или нет?",
+    "mechanic": "grammar",
+    "skillIds": ["have-got-questions"],
+    "wordIds": [
+      "wf-75de3c3c7bec",
+      "wf-2968ec9d80f1",
+      "wf26-2bce05d2ecc9",
+      "wf26-2b2961a431b2",
+      "wf26-0f53133ce57c",
+      "wf26-23eeb69c681d",
+      "wf-d6e21286621a",
+      "wf26-44c3e574dac5",
+      "wf26-aa3a05d9d57c"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "choice",
+        "prompt": "Используй сокращённую форму отрицания; остальные слова сохрани. У меня есть книга.",
+        "answers": ["I have got a book."],
+        "options": ["I have got a book.", "I haven't got a book."],
+        "why": "В отрицании have got меняется на haven't got, а has got — на hasn't got."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Используй сокращённую форму отрицания; остальные слова сохрани. У мамы нет машины.",
+        "answers": ["My mummy hasn't got a car."],
+        "options": ["My mummy hasn't got a car.", "My mummy has got a car."],
+        "why": "В отрицании have got меняется на haven't got, а has got — на hasn't got."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Используй сокращённую форму отрицания; остальные слова сохрани. У него есть игрушка.",
+        "answers": ["He has got a toy."],
+        "options": ["He has got a toy.", "He hasn't got a toy."],
+        "why": "В отрицании have got меняется на haven't got, а has got — на hasn't got."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Используй сокращённую форму отрицания; остальные слова сохрани. У них нет сада.",
+        "answers": ["They haven't got a garden."],
+        "options": ["They haven't got a garden.", "They have got a garden."],
+        "why": "В отрицании have got меняется на haven't got, а has got — на hasn't got."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Используй сокращённую форму отрицания; остальные слова сохрани. У нас есть дом.",
+        "answers": ["We have got a house."],
+        "options": ["We have got a house.", "We haven't got a house."],
+        "why": "В отрицании have got меняется на haven't got, а has got — на hasn't got."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Используй сокращённую форму отрицания; остальные слова сохрани. У неё нет куклы.",
+        "answers": ["She hasn't got a doll."],
+        "options": ["She hasn't got a doll.", "She has got a doll."],
+        "why": "В отрицании have got меняется на haven't got, а has got — на hasn't got."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Используй сокращённую форму отрицания; остальные слова сохрани. У дедушки есть радио.",
+        "answers": ["My grandpa has got a radio."],
+        "options": ["My grandpa has got a radio.", "My grandpa hasn't got a radio."],
+        "why": "В отрицании have got меняется на haven't got, а has got — на hasn't got."
+      }
+    ]
+  },
+  {
+    "id": "wb26-intro-12",
+    "title": "Вопрос о том, что есть",
+    "mechanic": "grammar",
+    "skillIds": ["have-got-questions"],
+    "wordIds": [
+      "wf-193c45b52819",
+      "wf-9150c74c5f92",
+      "wf-0497db517ef0",
+      "wf26-44c3e574dac5",
+      "wf-92719fe0cf8c",
+      "wf26-3bfcbeeee9f7",
+      "wf26-aa3a05d9d57c",
+      "wf-d6e21286621a"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "choice",
+        "prompt": "Спроси, есть ли у неё кукла.",
+        "answers": ["Has she got a doll?"],
+        "options": ["Has she got a doll?", "Have she got a doll?"],
+        "why": "В вопросе перенеси have или has перед человеком. Короткий ответ повторяет этого помощника."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Спроси о своём собеседнике.",
+        "answers": ["Have you got a book?"],
+        "options": ["Have you got a book?", "Has you got a book?"],
+        "why": "В вопросе перенеси have или has перед человеком. Короткий ответ повторяет этого помощника."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Спроси о нескольких детях.",
+        "answers": ["Have they got toys?"],
+        "options": ["Have they got toys?", "Has they got toys?"],
+        "why": "В вопросе перенеси have или has перед человеком. Короткий ответ повторяет этого помощника."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Спроси о нём.",
+        "answers": ["Has he got a radio?"],
+        "options": ["Has he got a radio?", "Have he got a radio?"],
+        "why": "В вопросе перенеси have или has перед человеком. Короткий ответ повторяет этого помощника."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Has she got a book? Да.",
+        "answers": ["Yes, she has."],
+        "options": ["Yes, she has.", "Yes, she have."],
+        "why": "В вопросе перенеси have или has перед человеком. Короткий ответ повторяет этого помощника."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Have they got a house? Нет.",
+        "answers": ["No, they haven't."],
+        "options": ["No, they haven't.", "No, they hasn't."],
+        "why": "В вопросе перенеси have или has перед человеком. Короткий ответ повторяет этого помощника."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Have you got a toy? Да.",
+        "answers": ["Yes, I have."],
+        "options": ["Yes, I have.", "Yes, I has."],
+        "why": "В вопросе перенеси have или has перед человеком. Короткий ответ повторяет этого помощника."
+      }
+    ]
+  },
+  {
+    "id": "wb26-intro-13",
+    "title": "Что нравится есть?",
+    "mechanic": "grammar",
+    "skillIds": ["like-now"],
+    "wordIds": [
+      "wf-cab2644828bc",
+      "wf26-867d4807aa6e",
+      "wf26-8825e76530f8",
+      "wf26-9ed1515819de",
+      "wf-e971c330aab8",
+      "wf26-cc86be2558a0",
+      "wf26-e4ba5cbd251c",
+      "wf26-1a6c1efa28d5",
+      "wf26-e25f64295614"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "choice",
+        "prompt": "Мне нравится молоко.",
+        "answers": ["I like milk."],
+        "options": ["I like milk.", "I don't like milk."],
+        "why": "I — like или don't like; he/she — likes или doesn't like."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Мне не нравится пицца.",
+        "answers": ["I don't like pizza."],
+        "options": ["I don't like pizza.", "I like pizza."],
+        "why": "I — like или don't like; he/she — likes или doesn't like."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Мне нравится мороженое.",
+        "answers": ["I like ice cream."],
+        "options": ["I like ice cream.", "I don't like ice cream."],
+        "why": "I — like или don't like; he/she — likes или doesn't like."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Мне не нравится горячее молоко.",
+        "answers": ["I don't like hot milk."],
+        "options": ["I don't like hot milk.", "I like hot milk."],
+        "why": "I — like или don't like; he/she — likes или doesn't like."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Мне нравятся бананы.",
+        "answers": ["I like bananas."],
+        "options": ["I like bananas.", "I don't like bananas."],
+        "why": "I — like или don't like; he/she — likes или doesn't like."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Мне не нравятся овощи.",
+        "answers": ["I don't like vegetables."],
+        "options": ["I don't like vegetables.", "I like vegetables."],
+        "why": "I — like или don't like; he/she — likes или doesn't like."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Мне нравятся бутерброды.",
+        "answers": ["I like sandwiches."],
+        "options": ["I like sandwiches.", "I don't like sandwiches."],
+        "why": "I — like или don't like; he/she — likes или doesn't like."
+      }
+    ]
+  },
+  {
+    "id": "wb26-intro-14",
+    "title": "Времена года и погода",
+    "mechanic": "grammar",
+    "skillIds": ["weather-now"],
+    "wordIds": [
+      "wf26-30c5461fc27b",
+      "wf26-e83664255c69",
+      "wf26-defae04158b9",
+      "wf26-622a494d3ea8",
+      "wf26-e272deecde72",
+      "wf26-7f5d1618e7d2",
+      "wf26-c2333a7e3a60",
+      "wf26-87480c5a4819",
+      "wf26-0f0aa408c183"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "choice",
+        "prompt": "Обычная зима:",
+        "answers": ["It is cold."],
+        "options": ["It is cold.", "It is hot."],
+        "why": "В обычном описании зима холодная, лето жаркое, осень ветреная, весна тёплая. Погода может отличаться в жизни."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Обычное лето:",
+        "answers": ["It is hot and sunny."],
+        "options": ["It is hot and sunny.", "It is cold."],
+        "why": "В обычном описании зима холодная, лето жаркое, осень ветреная, весна тёплая. Погода может отличаться в жизни."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Обычная осень:",
+        "answers": ["It is windy."],
+        "options": ["It is windy.", "It is hot."],
+        "why": "В обычном описании зима холодная, лето жаркое, осень ветреная, весна тёплая. Погода может отличаться в жизни."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Обычная весна:",
+        "answers": ["It is warm."],
+        "options": ["It is warm.", "It is cold."],
+        "why": "В обычном описании зима холодная, лето жаркое, осень ветреная, весна тёплая. Погода может отличаться в жизни."
+      }
+    ]
+  },
+  {
+    "id": "wb26-intro-15",
+    "title": "Что на тебе сейчас?",
+    "mechanic": "template",
+    "skillIds": ["clothes-now"],
+    "wordIds": [
+      "wf26-d3aa80dae306",
+      "wf26-5a6ae5c8d6d8",
+      "wf26-474a744f02d8",
+      "wf26-3abafce5bc54",
+      "wf26-8218f3d6780a",
+      "wf26-18e1dd392168",
+      "wf26-3eb874ba0149",
+      "wf26-554f4d3dafc8"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "template",
+        "prompt": "Выбери фразы, которые подходят тебе. Верных вариантов может быть несколько.",
+        "slots": [
+          {
+            "label": "Солнечно",
+            "options": ["I am wearing a T-shirt.", "I am wearing shorts.", "I am wearing a skirt."]
+          },
+          {
+            "label": "Холодно",
+            "options": ["I am wearing a coat.", "I am wearing a hat.", "I am wearing jeans."]
+          },
+          {
+            "label": "Дождь",
+            "options": ["I am wearing a jacket.", "I am wearing a coat."]
+          },
+          {
+            "label": "Ветрено",
+            "options": ["I am wearing a jacket.", "I am wearing jeans.", "I am wearing a coat."]
+          }
+        ],
+        "why": "Получился твой вариант. Это тренировка построения фразы, личные факты не оцениваются как знание правила."
+      }
+    ]
+  },
+  {
+    "id": "wb26-intro-16",
+    "title": "Выбери помощника",
+    "mechanic": "grammar",
+    "skillIds": [
+      "be",
+      "can",
+      "questions",
+      "like-now",
+      "have-got-questions",
+      "short-replies",
+      "there"
+    ],
+    "wordIds": [
+      "wf-ab6db599234d",
+      "wf-fa51fd49abf6",
+      "wf-ba78973ddcf9",
+      "wf-9f584196e7fe",
+      "wf26-a4076e68ddda",
+      "wf-ac0b52a2ae6e",
+      "wf26-961eb4369973",
+      "wf-df7682099c96",
+      "wf26-ff884419b76c",
+      "wf-2968ec9d80f1",
+      "wf26-e244f187f696"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "choice",
+        "prompt": "I ___ happy.",
+        "answers": ["am"],
+        "options": ["am", "are"],
+        "why": "Определи смысл и выбери подходящего помощника. В коротком ответе нужен тот же помощник, что в вопросе.",
+        "skillIds": ["be"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "A fish ___ swim.",
+        "answers": ["can"],
+        "options": ["can", "can't"],
+        "why": "Определи смысл и выбери подходящего помощника. В коротком ответе нужен тот же помощник, что в вопросе.",
+        "skillIds": ["can"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "How old ___ he?",
+        "answers": ["is"],
+        "options": ["is", "are"],
+        "why": "Определи смысл и выбери подходящего помощника. В коротком ответе нужен тот же помощник, что в вопросе.",
+        "skillIds": ["questions"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "They ___ at home.",
+        "answers": ["are"],
+        "options": ["are", "is"],
+        "why": "Определи смысл и выбери подходящего помощника. В коротком ответе нужен тот же помощник, что в вопросе.",
+        "skillIds": ["be"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "I like milk, but I ___ like hot milk.",
+        "answers": ["don't"],
+        "options": ["don't", "not"],
+        "why": "Определи смысл и выбери подходящего помощника. В коротком ответе нужен тот же помощник, что в вопросе.",
+        "skillIds": ["like-now"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "___ she got a book?",
+        "answers": ["Has"],
+        "options": ["Has", "Have"],
+        "why": "Определи смысл и выбери подходящего помощника. В коротком ответе нужен тот же помощник, что в вопросе.",
+        "skillIds": ["have-got-questions"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "My sister ___ five.",
+        "answers": ["is"],
+        "options": ["is", "are"],
+        "why": "Определи смысл и выбери подходящего помощника. В коротком ответе нужен тот же помощник, что в вопросе.",
+        "skillIds": ["be"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "Can he jump? Yes, he ___.",
+        "answers": ["can"],
+        "options": ["can", "is"],
+        "why": "Определи смысл и выбери подходящего помощника. В коротком ответе нужен тот же помощник, что в вопросе.",
+        "skillIds": ["can"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "Where is my brother? He ___ at school.",
+        "answers": ["is"],
+        "options": ["is", "are"],
+        "why": "Определи смысл и выбери подходящего помощника. В коротком ответе нужен тот же помощник, что в вопросе.",
+        "skillIds": ["be"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "___ she sing? Yes, she can.",
+        "answers": ["Can"],
+        "options": ["Can", "Does"],
+        "why": "Определи смысл и выбери подходящего помощника. В коротком ответе нужен тот же помощник, что в вопросе.",
+        "skillIds": ["can"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "Is it cold? No, it ___.",
+        "answers": ["isn't"],
+        "options": ["isn't", "not"],
+        "why": "Определи смысл и выбери подходящего помощника. В коротком ответе нужен тот же помощник, что в вопросе.",
+        "skillIds": ["short-replies"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "I ___ fly, but I can swim.",
+        "answers": ["can't"],
+        "options": ["can't", "am"],
+        "why": "Определи смысл и выбери подходящего помощника. В коротком ответе нужен тот же помощник, что в вопросе.",
+        "skillIds": ["can"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "Do you like Art? Yes, I ___.",
+        "answers": ["do"],
+        "options": ["do", "can"],
+        "why": "Определи смысл и выбери подходящего помощника. В коротком ответе нужен тот же помощник, что в вопросе.",
+        "skillIds": ["short-replies"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "Are they in the room? No, they ___.",
+        "answers": ["aren't"],
+        "options": ["aren't", "not"],
+        "why": "Определи смысл и выбери подходящего помощника. В коротком ответе нужен тот же помощник, что в вопросе.",
+        "skillIds": ["short-replies"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "Does she like milk? No, she ___.",
+        "answers": ["doesn't"],
+        "options": ["doesn't", "don't"],
+        "why": "Определи смысл и выбери подходящего помощника. В коротком ответе нужен тот же помощник, что в вопросе.",
+        "skillIds": ["like-now"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "There ___ books in the bag.",
+        "answers": ["are"],
+        "options": ["are", "is"],
+        "why": "Определи смысл и выбери подходящего помощника. В коротком ответе нужен тот же помощник, что в вопросе.",
+        "skillIds": ["there"]
+      }
+    ]
+  },
+  {
+    "id": "wb26-intro-17",
+    "title": "Подбери ответ",
+    "mechanic": "dialogue",
+    "skillIds": ["questions"],
+    "wordIds": [
+      "wf-82a3537ff0db",
+      "wf-c018019b6a8b",
+      "wf26-7f5d1618e7d2",
+      "wf26-e272deecde72",
+      "wf26-8218f3d6780a",
+      "wf-cba06b5736fa",
+      "wf26-e5e72beb4e3c",
+      "wf26-87480c5a4819",
+      "wf-b48111c10c65",
+      "wf26-3171d89ad005",
+      "wf-8044aae1f868",
+      "wf26-1137b15c7797",
+      "wf-6e317bcd6839",
+      "wf26-c1f026582fe6",
+      "wf-e971c330aab8",
+      "wf-9f584196e7fe"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "matching",
+        "prompt": "Подбери пары. Каждое слово можно послушать.",
+        "rows": [
+          {
+            "label": "Hello! My name is Sasha.",
+            "answers": ["Hello, Sasha!"]
+          },
+          {
+            "label": "What is your name?",
+            "answers": ["My name is Tom."]
+          },
+          {
+            "label": "How are you?",
+            "answers": ["Fine, thanks."]
+          },
+          {
+            "label": "This is my sister.",
+            "answers": ["Hello!"]
+          },
+          {
+            "label": "What is this?",
+            "answers": ["It is a book."]
+          },
+          {
+            "label": "What colour is the bag?",
+            "answers": ["It is blue."]
+          },
+          {
+            "label": "It is hot.",
+            "answers": ["Take off your coat."]
+          }
+        ],
+        "why": "Подбери ответ по смыслу: имя, цвет, состояние, возраст или просьба.",
+        "options": [
+          "Fine, thanks.",
+          "Hello!",
+          "Hello, Sasha!",
+          "It is a book.",
+          "It is blue.",
+          "My name is Tom.",
+          "Take off your coat."
+        ]
+      },
+      {
+        "mode": "matching",
+        "prompt": "Подбери пары. Каждое слово можно послушать.",
+        "rows": [
+          {
+            "label": "How old are you?",
+            "answers": ["I am eight."]
+          },
+          {
+            "label": "It is cold.",
+            "answers": ["Put on your coat."]
+          },
+          {
+            "label": "What is the weather like?",
+            "answers": ["It is windy."]
+          },
+          {
+            "label": "Where is my mummy?",
+            "answers": ["She is in the kitchen."]
+          },
+          {
+            "label": "How many books?",
+            "answers": ["Three books."]
+          },
+          {
+            "label": "What is your favourite food?",
+            "answers": ["Ice cream."]
+          },
+          {
+            "label": "Can you fly?",
+            "answers": ["No, I can't."]
+          }
+        ],
+        "why": "Найди, что именно хотят узнать: где, сколько, что нравится или умеешь ли ты.",
+        "options": [
+          "I am eight.",
+          "Ice cream.",
+          "It is windy.",
+          "No, I can't.",
+          "Put on your coat.",
+          "She is in the kitchen.",
+          "Three books."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wb26-intro-18",
+    "title": "Расскажи о себе",
+    "mechanic": "letter",
+    "skillIds": ["letter-writing", "questions", "clothes-now"],
+    "wordIds": [
+      "wf-82a3537ff0db",
+      "wf-cba06b5736fa",
+      "wf-cab2644828bc",
+      "wf26-c1f026582fe6",
+      "wf26-96a590d999db",
+      "wf26-12b04e920e09",
+      "wf26-d8fe183f5b8e",
+      "wf26-d3aa80dae306",
+      "wf-9f584196e7fe",
+      "wf-bbba57318f71",
+      "wf26-0f53133ce57c"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "template",
+        "prompt": "Выбери фразы, которые подходят тебе. Верных вариантов может быть несколько.",
+        "slots": [
+          {
+            "label": "Имя",
+            "options": ["My name is Sasha.", "My name is Tom."]
+          },
+          {
+            "label": "Возраст",
+            "options": ["I am eight.", "I am nine."]
+          },
+          {
+            "label": "Любимая еда",
+            "options": ["I like pizza.", "I like apples."]
+          },
+          {
+            "label": "Что не нравится",
+            "options": ["I don't like hot milk.", "I don't like bananas."]
+          },
+          {
+            "label": "Волосы",
+            "options": ["I have got fair hair.", "I have got dark hair."]
+          },
+          {
+            "label": "Глаза",
+            "options": ["I have got blue eyes.", "I have got green eyes."]
+          },
+          {
+            "label": "Одежда",
+            "options": ["I am wearing a T-shirt.", "I am wearing a jacket."]
+          },
+          {
+            "label": "Умение",
+            "options": ["I can swim.", "I can sing."]
+          },
+          {
+            "label": "Питомец",
+            "options": ["I have got a cat.", "I have got a dog."]
+          },
+          {
+            "label": "Игрушка",
+            "options": ["My favourite toy is a ball.", "My favourite toy is a teddy bear."]
+          }
+        ],
+        "why": "Получился твой вариант. Это тренировка построения фразы, личные факты не оцениваются как знание правила."
+      }
+    ]
+  },
+  {
+    "id": "wb26-entry-01",
+    "title": "Что лишнее?",
+    "mechanic": "odd",
+    "skillIds": ["vocabulary"],
+    "wordIds": [
+      "wf26-0863fde42a57",
+      "wf26-ba8d3e6a2d8b",
+      "wf26-1980d3927f07",
+      "wf-92719fe0cf8c",
+      "wf26-16477688c0e0",
+      "wf26-c685a2c9bab2",
+      "wf26-018fa96a4471",
+      "wf26-cd6357efdd96",
+      "wf26-3171d89ad005",
+      "wf26-a05e6feb79c8",
+      "wf26-4c1666c3ad86",
+      "wf26-b474a99a2705",
+      "wf-3d7eb3d3dab1",
+      "wf26-0d4fc4a78d37",
+      "wf-c5052532c220",
+      "wf26-3a7bd3e2360a",
+      "wf26-f5903f51e341",
+      "wf26-0c7aae56ebe5",
+      "wf26-e4ba5cbd251c",
+      "wf26-aa3a05d9d57c",
+      "wf-acba25512100",
+      "wf-6bdaf554e420",
+      "wf26-d493f8869139",
+      "wf26-9ed1515819de",
+      "wf26-44c3e574dac5",
+      "wf-f6bc36134480",
+      "wf26-86b50be19a43",
+      "wf26-8825e76530f8",
+      "wf26-3abafce5bc54",
+      "wf26-3eb874ba0149",
+      "wf26-474a744f02d8",
+      "wf26-4cf35cf87435",
+      "wf26-30c5461fc27b",
+      "wf26-e83664255c69",
+      "wf26-defae04158b9",
+      "wf26-54f6d9fbe8ee",
+      "wf26-7f5d1618e7d2",
+      "wf26-c2333a7e3a60",
+      "wf26-87480c5a4819",
+      "wf26-0b4bd77cec70"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "choice",
+        "prompt": "Найди слово из другой группы.",
+        "options": ["mummy", "grandma", "sister", "book"],
+        "answers": ["book"],
+        "why": "Остальные три слова объединяет одна тема."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Найди слово из другой группы.",
+        "options": ["blue", "yellow", "white", "dog"],
+        "answers": ["dog"],
+        "why": "Остальные три слова объединяет одна тема."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Найди слово из другой группы.",
+        "options": ["kitchen", "bedroom", "living room", "fish"],
+        "answers": ["fish"],
+        "why": "Остальные три слова объединяет одна тема."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Найди слово из другой группы.",
+        "options": ["chair", "table", "bed", "apple"],
+        "answers": ["apple"],
+        "why": "Остальные три слова объединяет одна тема."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Найди слово из другой группы.",
+        "options": ["apples", "oranges", "bananas", "radio"],
+        "answers": ["radio"],
+        "why": "Остальные три слова объединяет одна тема."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Найди слово из другой группы.",
+        "options": ["run", "jump", "swim", "pizza"],
+        "answers": ["pizza"],
+        "why": "Остальные три слова объединяет одна тема."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Найди слово из другой группы.",
+        "options": ["doll", "teddy bear", "toy soldier", "milk"],
+        "answers": ["milk"],
+        "why": "Остальные три слова объединяет одна тема."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Найди слово из другой группы.",
+        "options": ["skirt", "jeans", "shorts", "mouth"],
+        "answers": ["mouth"],
+        "why": "Остальные три слова объединяет одна тема."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Найди слово из другой группы.",
+        "options": ["winter", "summer", "autumn", "socks"],
+        "answers": ["socks"],
+        "why": "Остальные три слова объединяет одна тема."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Найди слово из другой группы.",
+        "options": ["hot", "sunny", "windy", "brother"],
+        "answers": ["brother"],
+        "why": "Остальные три слова объединяет одна тема."
+      }
+    ]
+  },
+  {
+    "id": "wb26-entry-02",
+    "title": "Сколько предметов?",
+    "mechanic": "plural",
+    "skillIds": ["plural", "plural-es", "numbers"],
+    "wordIds": [
+      "wf-3fc4ccfe7458",
+      "wf-8b5b9db0c13d",
+      "wf-04efaf080f5a",
+      "wf-7692c3ad3540",
+      "wf26-8f5c570f55dd",
+      "wf26-0f53133ce57c",
+      "wf26-a05e6feb79c8",
+      "wf26-86b50be19a43",
+      "wf26-23eeb69c681d",
+      "wf26-fd62862b6dc2"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "text",
+        "prompt": "Напиши число и нужную форму: two / sandwich",
+        "answers": ["two sandwiches"],
+        "why": "Сначала посмотри на число. Один предмет остаётся в единственном числе, несколько — во множественном."
+      },
+      {
+        "mode": "text",
+        "prompt": "Напиши число и нужную форму: three / toy",
+        "answers": ["three toys"],
+        "why": "Сначала посмотри на число. Один предмет остаётся в единственном числе, несколько — во множественном."
+      },
+      {
+        "mode": "text",
+        "prompt": "Напиши число и нужную форму: four / bedroom",
+        "answers": ["four bedrooms"],
+        "why": "Сначала посмотри на число. Один предмет остаётся в единственном числе, несколько — во множественном."
+      },
+      {
+        "mode": "text",
+        "prompt": "Напиши число и нужную форму: two / toy soldier",
+        "answers": ["two toy soldiers"],
+        "why": "Сначала посмотри на число. Один предмет остаётся в единственном числе, несколько — во множественном."
+      },
+      {
+        "mode": "text",
+        "prompt": "Напиши число и нужную форму: one / garden",
+        "answers": ["one garden"],
+        "why": "Сначала посмотри на число. Один предмет остаётся в единственном числе, несколько — во множественном."
+      },
+      {
+        "mode": "text",
+        "prompt": "Напиши число и нужную форму: three / horse",
+        "answers": ["three horses"],
+        "why": "Сначала посмотри на число. Один предмет остаётся в единственном числе, несколько — во множественном."
+      }
+    ]
+  },
+  {
+    "id": "wb26-entry-03",
+    "title": "Прочитай короткие сообщения",
+    "mechanic": "reading",
+    "skillIds": [
+      "pronouns",
+      "place-prepositions",
+      "be",
+      "have-got-questions",
+      "vocabulary",
+      "can",
+      "like-now"
+    ],
+    "wordIds": [
+      "wf-038468518ad8",
+      "wf-75857a458999",
+      "wf26-90a6d53df47e",
+      "wf-582967534d0f",
+      "wf26-200d4260b6ac",
+      "wf-ab6db599234d",
+      "wf-fa51fd49abf6",
+      "wf-193c45b52819",
+      "wf26-1980d3927f07",
+      "wf26-96a590d999db",
+      "wf26-d8fe183f5b8e",
+      "wf-9f584196e7fe",
+      "wf26-8825e76530f8",
+      "wf-e971c330aab8"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "choice",
+        "prompt": "___ name is Sasha.",
+        "answers": ["My"],
+        "options": ["My", "I"],
+        "why": "Прочитай всю маленькую фразу: смысл и грамматика помогают выбрать слово.",
+        "skillIds": ["pronouns"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "Передай смысл «Я из России»: I am ___ Russia.",
+        "answers": ["from"],
+        "options": ["from", "in"],
+        "why": "Прочитай всю маленькую фразу: смысл и грамматика помогают выбрать слово.",
+        "skillIds": ["place-prepositions"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "I live ___ Tver.",
+        "answers": ["in"],
+        "options": ["in", "on"],
+        "why": "Прочитай всю маленькую фразу: смысл и грамматика помогают выбрать слово.",
+        "skillIds": ["place-prepositions"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "I ___ nine.",
+        "answers": ["am"],
+        "options": ["am", "is"],
+        "why": "Прочитай всю маленькую фразу: смысл и грамматика помогают выбрать слово.",
+        "skillIds": ["be"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "This ___ my family.",
+        "answers": ["is"],
+        "options": ["is", "are"],
+        "why": "Прочитай всю маленькую фразу: смысл и грамматика помогают выбрать слово.",
+        "skillIds": ["be"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "I ___ got a sister.",
+        "answers": ["have"],
+        "options": ["have", "has"],
+        "why": "Прочитай всю маленькую фразу: смысл и грамматика помогают выбрать слово.",
+        "skillIds": ["have-got-questions"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "She is my ___.",
+        "answers": ["sister"],
+        "options": ["sister", "kitchen"],
+        "why": "Прочитай всю маленькую фразу: смысл и грамматика помогают выбрать слово.",
+        "skillIds": ["vocabulary"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "У меня светлые волосы: I have got ___ hair.",
+        "answers": ["fair"],
+        "options": ["fair", "big"],
+        "why": "Прочитай всю маленькую фразу: смысл и грамматика помогают выбрать слово.",
+        "skillIds": ["vocabulary"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "Мои глаза зелёные: My ___ are green.",
+        "answers": ["eyes"],
+        "options": ["eyes", "ears"],
+        "why": "Прочитай всю маленькую фразу: смысл и грамматика помогают выбрать слово.",
+        "skillIds": ["vocabulary"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "I ___ swim.",
+        "answers": ["can"],
+        "options": ["can", "am"],
+        "why": "Прочитай всю маленькую фразу: смысл и грамматика помогают выбрать слово.",
+        "skillIds": ["can"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "My sister ___ like milk.",
+        "answers": ["doesn't"],
+        "options": ["doesn't", "don't"],
+        "why": "Прочитай всю маленькую фразу: смысл и грамматика помогают выбрать слово.",
+        "skillIds": ["like-now"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "She ___ ice cream.",
+        "answers": ["likes"],
+        "options": ["likes", "like"],
+        "why": "Прочитай всю маленькую фразу: смысл и грамматика помогают выбрать слово.",
+        "skillIds": ["like-now"]
+      }
+    ]
+  },
+  {
+    "id": "wb26-entry-04",
+    "title": "Пойми вопрос",
+    "mechanic": "dialogue",
+    "skillIds": ["questions", "can", "have-got-questions", "clothes-now"],
+    "wordIds": [
+      "wf-b48111c10c65",
+      "wf26-cd6357efdd96",
+      "wf26-23eeb69c681d",
+      "wf26-c1f026582fe6",
+      "wf26-9ed1515819de",
+      "wf26-b474a99a2705",
+      "wf-9f584196e7fe",
+      "wf26-4aa7989d7298",
+      "wf26-26f8567f2569",
+      "wf26-e5e72beb4e3c",
+      "wf26-c2333a7e3a60",
+      "wf26-4dc2159bba05",
+      "wf26-96a590d999db",
+      "wf-cba06b5736fa",
+      "wf26-1980d3927f07",
+      "wf26-d3aa80dae306",
+      "wf26-554f4d3dafc8",
+      "wf-193c45b52819",
+      "wf26-0b4bd77cec70"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "matching",
+        "prompt": "Подбери пары. Каждое слово можно послушать.",
+        "rows": [
+          {
+            "label": "Where is the dog?",
+            "answers": ["It is in the garden."]
+          },
+          {
+            "label": "What is your favourite food?",
+            "answers": ["Pizza."]
+          },
+          {
+            "label": "Can a fish climb?",
+            "answers": ["No, it can't."]
+          },
+          {
+            "label": "Where are the dolls?",
+            "answers": ["They are in the box."]
+          },
+          {
+            "label": "What is the weather like?",
+            "answers": ["It is sunny."]
+          }
+        ],
+        "why": "Выбирай ответ именно на этот вопрос: о месте, еде, умении или погоде.",
+        "options": [
+          "It is in the garden.",
+          "It is sunny.",
+          "No, it can't.",
+          "Pizza.",
+          "They are in the box."
+        ]
+      },
+      {
+        "mode": "matching",
+        "prompt": "Подбери пары. Каждое слово можно послушать.",
+        "rows": [
+          {
+            "label": "Can you swim?",
+            "answers": ["Yes, I can."]
+          },
+          {
+            "label": "Is your hair dark?",
+            "answers": ["No, it is fair."]
+          },
+          {
+            "label": "How old is your sister?",
+            "answers": ["She is eight."]
+          },
+          {
+            "label": "What are you wearing?",
+            "answers": ["A jacket."]
+          },
+          {
+            "label": "Have you got a brother?",
+            "answers": ["No, I haven't."]
+          }
+        ],
+        "why": "Помощник и местоимение в ответе должны подходить вопросу.",
+        "options": [
+          "A jacket.",
+          "No, I haven't.",
+          "No, it is fair.",
+          "She is eight.",
+          "Yes, I can."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wb26-entry-05",
+    "title": "Собери предложения",
+    "mechanic": "order",
+    "skillIds": ["word-order", "questions", "can", "like-now"],
+    "wordIds": [
+      "wf26-a05e6feb79c8",
+      "wf-619d1dac1c13",
+      "wf-372f7e2fd2d0",
+      "wf26-3171d89ad005",
+      "wf-8044aae1f868",
+      "wf-cba06b5736fa",
+      "wf-151e58a83130",
+      "wf-cab2644828bc",
+      "wf26-cc86be2558a0",
+      "wf26-c1f026582fe6",
+      "wf26-9ed1515819de",
+      "wf-9f584196e7fe",
+      "wf26-d493f8869139",
+      "wf26-f4debdb7ab7d",
+      "wf-6bdaf554e420",
+      "wf-2968ec9d80f1",
+      "wf26-96a590d999db",
+      "wf26-c2333a7e3a60"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "order",
+        "prompt": "Собери предложение из всех частей.",
+        "tokens": ["in", "my", "bedroom.", "I", "am"],
+        "answers": ["I am in my bedroom."],
+        "why": "Сначала поставь того, о ком говоришь, затем действие и остальные слова."
+      },
+      {
+        "mode": "order",
+        "prompt": "Собери предложение из всех частей.",
+        "tokens": ["my", "school", "bag.", "This", "is"],
+        "answers": ["This is my school bag."],
+        "why": "Сначала поставь того, о ком говоришь, затем действие и остальные слова."
+      },
+      {
+        "mode": "order",
+        "prompt": "Собери предложение из всех частей.",
+        "tokens": ["in", "the", "kitchen?", "Is", "he"],
+        "answers": ["Is he in the kitchen?"],
+        "why": "Сначала поставь того, о ком говоришь, затем действие и остальные слова."
+      },
+      {
+        "mode": "order",
+        "prompt": "Собери предложение из всех частей.",
+        "tokens": ["are", "they?", "How", "old"],
+        "answers": ["How old are they?"],
+        "why": "Сначала поставь того, о ком говоришь, затем действие и остальные слова."
+      },
+      {
+        "mode": "order",
+        "prompt": "Собери предложение из всех частей.",
+        "tokens": ["like", "hot", "milk.", "I", "don't"],
+        "answers": ["I don't like hot milk."],
+        "why": "Сначала поставь того, о ком говоришь, затем действие и остальные слова."
+      },
+      {
+        "mode": "order",
+        "prompt": "Собери предложение из всех частей.",
+        "tokens": ["food", "is", "pizza.", "My", "favourite"],
+        "answers": ["My favourite food is pizza."],
+        "why": "Сначала поставь того, о ком говоришь, затем действие и остальные слова."
+      },
+      {
+        "mode": "order",
+        "prompt": "Собери предложение из всех частей.",
+        "tokens": ["swim.", "She", "can"],
+        "answers": ["She can swim."],
+        "why": "Сначала поставь того, о ком говоришь, затем действие и остальные слова."
+      },
+      {
+        "mode": "order",
+        "prompt": "Собери предложение из всех частей.",
+        "tokens": ["fly.", "He", "can't"],
+        "answers": ["He can't fly."],
+        "why": "Сначала поставь того, о ком говоришь, затем действие и остальные слова."
+      },
+      {
+        "mode": "order",
+        "prompt": "Собери предложение из всех частей.",
+        "tokens": ["jump?", "Can", "you"],
+        "answers": ["Can you jump?"],
+        "why": "Сначала поставь того, о ком говоришь, затем действие и остальные слова."
+      },
+      {
+        "mode": "order",
+        "prompt": "Собери предложение из всех частей.",
+        "tokens": ["got", "fair", "hair.", "She", "has"],
+        "answers": ["She has got fair hair."],
+        "why": "Сначала поставь того, о ком говоришь, затем действие и остальные слова."
+      },
+      {
+        "mode": "order",
+        "prompt": "Собери предложение из всех частей.",
+        "tokens": ["sunny.", "It", "is"],
+        "answers": ["It is sunny."],
+        "why": "Сначала поставь того, о ком говоришь, затем действие и остальные слова."
+      }
+    ]
+  },
+  {
+    "id": "wb26-entry-06",
+    "title": "Твоё сообщение",
+    "mechanic": "letter",
+    "skillIds": ["letter-writing", "questions", "clothes-now"],
+    "wordIds": [
+      "wf-82a3537ff0db",
+      "wf26-90a6d53df47e",
+      "wf26-247610f4dedd",
+      "wf26-200d4260b6ac",
+      "wf26-d8fe183f5b8e",
+      "wf26-4dc2159bba05",
+      "wf-9f584196e7fe",
+      "wf26-c1f026582fe6",
+      "wf-cab2644828bc",
+      "wf26-e5e72beb4e3c",
+      "wf26-d3aa80dae306"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "template",
+        "prompt": "Выбери фразы, которые подходят тебе. Верных вариантов может быть несколько.",
+        "slots": [
+          {
+            "label": "Имя",
+            "options": ["My name is Sasha.", "My name is Tom."]
+          },
+          {
+            "label": "Возраст",
+            "options": ["I am eight.", "I am nine."]
+          },
+          {
+            "label": "Страна",
+            "options": ["I am from Russia."]
+          },
+          {
+            "label": "Город",
+            "options": ["I live in Tver."]
+          },
+          {
+            "label": "Волосы",
+            "options": ["I have got fair hair.", "I have got dark hair."]
+          },
+          {
+            "label": "Глаза",
+            "options": ["I have got blue eyes.", "I have got green eyes."]
+          },
+          {
+            "label": "Одежда",
+            "options": ["I am wearing a T-shirt.", "I am wearing a jacket."]
+          },
+          {
+            "label": "Умение",
+            "options": ["I can swim.", "I can sing."]
+          },
+          {
+            "label": "Любимая еда",
+            "options": ["My favourite food is pizza.", "My favourite food is ice cream."]
+          },
+          {
+            "label": "Что нравится",
+            "options": ["I like apples.", "I like bananas."]
+          },
+          {
+            "label": "Что не нравится",
+            "options": ["I don't like hot milk.", "I don't like chips."]
+          },
+          {
+            "label": "Погода",
+            "options": ["It is sunny.", "It is cold."]
+          }
+        ],
+        "why": "Получился твой вариант. Это тренировка построения фразы, личные факты не оцениваются как знание правила."
+      }
+    ]
+  },
+  {
+    "id": "wb26-m1a-01",
+    "title": "Школьные вещи",
+    "mechanic": "matching",
+    "skillIds": ["vocabulary"],
+    "wordIds": [
+      "wf-92719fe0cf8c",
+      "wf-5972814068a1",
+      "wf-e21a6b0cb193",
+      "wf-058ce9bd95f5",
+      "wf-13809668fb43",
+      "wf-619d1dac1c13",
+      "wf-3b74bc54b6c2",
+      "wf-d64debd942d7"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "matching",
+        "prompt": "Выбери подходящую пару в каждой строке.",
+        "rows": [
+          {
+            "label": "book",
+            "answers": ["книга"]
+          },
+          {
+            "label": "ruler",
+            "answers": ["линейка"]
+          },
+          {
+            "label": "pen",
+            "answers": ["ручка"]
+          },
+          {
+            "label": "rubber",
+            "answers": ["ластик"]
+          },
+          {
+            "label": "pencil",
+            "answers": ["карандаш"]
+          },
+          {
+            "label": "school bag",
+            "answers": ["портфель"]
+          },
+          {
+            "label": "pencil case",
+            "answers": ["пенал"]
+          },
+          {
+            "label": "school",
+            "answers": ["школа"]
+          }
+        ],
+        "options": [
+          "книга",
+          "линейка",
+          "ручка",
+          "ластик",
+          "карандаш",
+          "портфель",
+          "пенал",
+          "школа"
+        ],
+        "why": "Сопоставляй название предмета со значением. School bag — целое название портфеля.",
+        "skillIds": ["vocabulary"]
+      }
+    ]
+  },
+  {
+    "id": "wb26-m1a-02",
+    "title": "Восстанови названия",
+    "mechanic": "letters",
+    "skillIds": ["spelling"],
+    "wordIds": [
+      "wf-92719fe0cf8c",
+      "wf-5972814068a1",
+      "wf-e21a6b0cb193",
+      "wf-058ce9bd95f5",
+      "wf-13809668fb43",
+      "wf-619d1dac1c13",
+      "wf-3b74bc54b6c2",
+      "wf-d64debd942d7"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "text",
+        "prompt": "b__k",
+        "answers": ["book"],
+        "why": "Восстанови слово целиком. Сравни его начало и конец с изученными названиями.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "r___r",
+        "answers": ["ruler"],
+        "why": "Восстанови слово целиком. Сравни его начало и конец с изученными названиями.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "p_n",
+        "answers": ["pen"],
+        "why": "Восстанови слово целиком. Сравни его начало и конец с изученными названиями.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "r____r",
+        "answers": ["rubber"],
+        "why": "Восстанови слово целиком. Сравни его начало и конец с изученными названиями.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "p____l",
+        "answers": ["pencil"],
+        "why": "Восстанови слово целиком. Сравни его начало и конец с изученными названиями.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "s________g",
+        "answers": ["school bag"],
+        "why": "Восстанови слово целиком. Сравни его начало и конец с изученными названиями.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "p_________e",
+        "answers": ["pencil case"],
+        "why": "Восстанови слово целиком. Сравни его начало и конец с изученными названиями.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "s____l",
+        "answers": ["school"],
+        "why": "Восстанови слово целиком. Сравни его начало и конец с изученными названиями.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      }
+    ]
+  },
+  {
+    "id": "wb26-m1a-03",
+    "title": "Назови предмет",
+    "mechanic": "order",
+    "skillIds": ["word-order", "phrases"],
+    "wordIds": [
+      "wf-d64debd942d7",
+      "wf-619d1dac1c13",
+      "wf-3b74bc54b6c2",
+      "wf-e21a6b0cb193",
+      "wf-13809668fb43",
+      "wf-058ce9bd95f5",
+      "wf-5972814068a1",
+      "wf-92719fe0cf8c"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "order",
+        "prompt": "Ответь на вопрос «Что это?» Это школа.",
+        "tokens": ["school.", "It's", "a"],
+        "answers": ["It's a school."],
+        "why": "Сначала It is или It's, затем a и название предмета."
+      },
+      {
+        "mode": "order",
+        "prompt": "Ответь на вопрос «Что это?» Это портфель.",
+        "tokens": ["school", "bag.", "It's", "a"],
+        "answers": ["It's a school bag."],
+        "why": "Сначала It is или It's, затем a и название предмета."
+      },
+      {
+        "mode": "order",
+        "prompt": "Ответь на вопрос «Что это?» Это пенал.",
+        "tokens": ["pencil", "case.", "It's", "a"],
+        "answers": ["It's a pencil case."],
+        "why": "Сначала It is или It's, затем a и название предмета."
+      },
+      {
+        "mode": "order",
+        "prompt": "Ответь на вопрос «Что это?» Это ручка.",
+        "tokens": ["pen.", "It's", "a"],
+        "answers": ["It's a pen."],
+        "why": "Сначала It is или It's, затем a и название предмета."
+      },
+      {
+        "mode": "order",
+        "prompt": "Ответь на вопрос «Что это?» Это карандаш.",
+        "tokens": ["pencil.", "It's", "a"],
+        "answers": ["It's a pencil."],
+        "why": "Сначала It is или It's, затем a и название предмета."
+      },
+      {
+        "mode": "order",
+        "prompt": "Ответь на вопрос «Что это?» Это ластик.",
+        "tokens": ["rubber.", "It's", "a"],
+        "answers": ["It's a rubber."],
+        "why": "Сначала It is или It's, затем a и название предмета."
+      },
+      {
+        "mode": "order",
+        "prompt": "Ответь на вопрос «Что это?» Это линейка.",
+        "tokens": ["ruler.", "It's", "a"],
+        "answers": ["It's a ruler."],
+        "why": "Сначала It is или It's, затем a и название предмета."
+      },
+      {
+        "mode": "order",
+        "prompt": "Ответь на вопрос «Что это?» Это книга.",
+        "tokens": ["book.", "It's", "a"],
+        "answers": ["It's a book."],
+        "why": "Сначала It is или It's, затем a и название предмета."
+      }
+    ]
+  },
+  {
+    "id": "wb26-m1a-04",
+    "title": "Алфавитная полка",
+    "mechanic": "alphabet",
+    "skillIds": ["alphabet"],
+    "wordIds": [
+      "wf-13809668fb43",
+      "wf-d64debd942d7",
+      "wf-e21a6b0cb193",
+      "wf-92719fe0cf8c",
+      "wf-5972814068a1",
+      "wf-058ce9bd95f5"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "order",
+        "prompt": "Расставь четыре слова по алфавиту.",
+        "tokens": ["school", "rubber", "pencil", "book"],
+        "answers": ["book | pencil | rubber | school"],
+        "why": "Сравни первые буквы: b, p, r, s."
+      }
+    ]
+  },
+  {
+    "id": "wb26-m1a-05",
+    "title": "Несколько школьных вещей",
+    "mechanic": "plural",
+    "skillIds": ["plural"],
+    "wordIds": [
+      "wf-92719fe0cf8c",
+      "wf-6e317bcd6839",
+      "wf-058ce9bd95f5",
+      "wf-5972814068a1",
+      "wf-6202c8a7fd1c",
+      "wf-e21a6b0cb193",
+      "wf-55015dcc0231",
+      "wf-13809668fb43",
+      "wf-3b74bc54b6c2"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "text",
+        "prompt": "Один: book. Несколько: ___",
+        "answers": ["books"],
+        "why": "Добавь -s или -es. В сочетании pencil case меняется последнее слово: pencil cases.",
+        "caseSensitive": false,
+        "skillIds": ["plural"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Один: rubber. Несколько: ___",
+        "answers": ["rubbers"],
+        "why": "Добавь -s или -es. В сочетании pencil case меняется последнее слово: pencil cases.",
+        "caseSensitive": false,
+        "skillIds": ["plural"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Один: ruler. Несколько: ___",
+        "answers": ["rulers"],
+        "why": "Добавь -s или -es. В сочетании pencil case меняется последнее слово: pencil cases.",
+        "caseSensitive": false,
+        "skillIds": ["plural"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Один: pen. Несколько: ___",
+        "answers": ["pens"],
+        "why": "Добавь -s или -es. В сочетании pencil case меняется последнее слово: pencil cases.",
+        "caseSensitive": false,
+        "skillIds": ["plural"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Один: pencil. Несколько: ___",
+        "answers": ["pencils"],
+        "why": "Добавь -s или -es. В сочетании pencil case меняется последнее слово: pencil cases.",
+        "caseSensitive": false,
+        "skillIds": ["plural"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Один: pencil case. Несколько: ___",
+        "answers": ["pencil cases"],
+        "why": "Добавь -s или -es. В сочетании pencil case меняется последнее слово: pencil cases.",
+        "caseSensitive": false,
+        "skillIds": ["plural"]
+      }
+    ]
+  },
+  {
+    "id": "wb26-m1a-06",
+    "title": "В твоём портфеле",
+    "mechanic": "template",
+    "skillIds": ["have-got"],
+    "wordIds": [
+      "wf-92719fe0cf8c",
+      "wf-5972814068a1",
+      "wf-e21a6b0cb193",
+      "wf-058ce9bd95f5",
+      "wf-13809668fb43",
+      "wf-619d1dac1c13",
+      "wf-3b74bc54b6c2",
+      "wf-d64debd942d7"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "template",
+        "prompt": "Составь свой вариант. Все предложенные варианты подходят.",
+        "slots": [
+          {
+            "label": "Выбери первую фразу",
+            "options": ["I've got a ruler.", "I've got a book.", "I've got pens."]
+          },
+          {
+            "label": "Добавь ещё одну фразу",
+            "options": ["I've got a pencil case.", "I've got a pen.", "I've got rubbers."]
+          }
+        ],
+        "why": "Ты выбираешь содержимое сам. A нужно перед одним предметом; перед pens и rubbers его нет.",
+        "skillIds": ["have-got"]
+      }
+    ]
+  },
+  {
+    "id": "wb26-m1a-07",
+    "title": "Собери знакомство",
+    "mechanic": "dialogue",
+    "skillIds": ["questions", "word-order"],
+    "wordIds": ["wf-2cf24dba5fb0", "wf-82a3537ff0db", "wf-cba06b5736fa", "wf-edcd8e701a2d"],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "order",
+        "prompt": "Нажимай на части в нужном порядке.",
+        "tokens": [
+          "How old are you, Tom?",
+          "Hello! My name is Anna.",
+          "I'm nine.",
+          "Hello, Anna! My name is Tom.",
+          "I'm ten. And you?"
+        ],
+        "answers": [
+          "Hello! My name is Anna. | Hello, Anna! My name is Tom. | How old are you, Tom? | I'm ten. And you? | I'm nine."
+        ],
+        "why": "Сначала поздоровайся и назови имя, затем спроси возраст. And you? возвращает вопрос собеседнику.",
+        "skillIds": ["questions", "word-order"]
+      }
+    ]
+  },
+  {
+    "id": "wb26-m1a-08",
+    "title": "Пойми команду",
+    "mechanic": "translation",
+    "skillIds": ["imperatives", "sentence-meaning"],
+    "wordIds": [
+      "wf26-9c19636ddea2",
+      "wf-0695b563acde",
+      "wf-2744ccd10c75",
+      "wf26-4cd0e21a9a07",
+      "wf-d64debd942d7",
+      "wf-ce213852297e",
+      "wf-df7682099c96",
+      "wf-46599c5bb5c3",
+      "wf26-089001a35679",
+      "wf26-acd6beff7c34",
+      "wf-acba25512100"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "matching",
+        "prompt": "Подбери пары. Каждое слово можно послушать.",
+        "rows": [
+          {
+            "label": "Come with me!",
+            "answers": ["Пойдём со мной!"]
+          },
+          {
+            "label": "Go to school!",
+            "answers": ["Иди в школу!"]
+          },
+          {
+            "label": "Get your schoolbag!",
+            "answers": ["Возьми портфель!"]
+          },
+          {
+            "label": "Don't be late!",
+            "answers": ["Не опаздывай!"]
+          },
+          {
+            "label": "Don't be noisy!",
+            "answers": ["Не шуми!"]
+          },
+          {
+            "label": "Don't run!",
+            "answers": ["Не бегай!"]
+          }
+        ],
+        "why": "В просьбе действие стоит первым. Don't делает команду запретом.",
+        "options": [
+          "Возьми портфель!",
+          "Иди в школу!",
+          "Не бегай!",
+          "Не опаздывай!",
+          "Не шуми!",
+          "Пойдём со мной!"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wb26-m1a-09",
+    "title": "Найди числа",
+    "mechanic": "wordsearch",
+    "skillIds": ["numbers", "spelling"],
+    "wordIds": [
+      "wf-e979074ebd56",
+      "wf-d1a749ad879b",
+      "wf-9ecc81f0a4b6",
+      "wf-fef8f41cdcd2",
+      "wf-c463967e5708",
+      "wf-f2ce341fdaa6",
+      "wf-2c5abdef2a0e",
+      "wf-34357b18abdd",
+      "wf-cde4e100efd2",
+      "wf-7c2c4df740f7"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "wordsearch",
+        "prompt": "Нажми начало и конец слова по горизонтали или вертикали. Можно выбрать координаты под сеткой.",
+        "grid": [
+          "SSASUTZSGF",
+          "OSKICQUSJO",
+          "KLMXAXMEBU",
+          "WUATWELVER",
+          "CTSEXJGELT",
+          "NINETEENEE",
+          "TWENTYNTVE",
+          "NWTHIRTEEN",
+          "PNFIFTEENT",
+          "EIGHTEENKX"
+        ],
+        "placements": [
+          {
+            "word": "eleven",
+            "start": [3, 8],
+            "end": [8, 8]
+          },
+          {
+            "word": "twelve",
+            "start": [3, 3],
+            "end": [3, 8]
+          },
+          {
+            "word": "thirteen",
+            "start": [7, 2],
+            "end": [7, 9]
+          },
+          {
+            "word": "fourteen",
+            "start": [0, 9],
+            "end": [7, 9]
+          },
+          {
+            "word": "fifteen",
+            "start": [8, 2],
+            "end": [8, 8]
+          },
+          {
+            "word": "sixteen",
+            "start": [0, 3],
+            "end": [6, 3]
+          },
+          {
+            "word": "seventeen",
+            "start": [1, 7],
+            "end": [9, 7]
+          },
+          {
+            "word": "eighteen",
+            "start": [9, 0],
+            "end": [9, 7]
+          },
+          {
+            "word": "nineteen",
+            "start": [5, 0],
+            "end": [5, 7]
+          },
+          {
+            "word": "twenty",
+            "start": [6, 0],
+            "end": [6, 5]
+          }
+        ],
+        "why": "Читайте подряд по строке или столбцу. При неверной паре координат попробуй другое начало.",
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "order",
+        "prompt": "Расставь числа по убыванию: от двадцати до одиннадцати.",
+        "tokens": [
+          "eleven",
+          "twelve",
+          "thirteen",
+          "fourteen",
+          "fifteen",
+          "sixteen",
+          "seventeen",
+          "eighteen",
+          "nineteen",
+          "twenty"
+        ],
+        "answers": [
+          "twenty | nineteen | eighteen | seventeen | sixteen | fifteen | fourteen | thirteen | twelve | eleven"
+        ],
+        "why": "По убыванию — от большего к меньшему: начни с twenty.",
+        "skillIds": ["numbers"]
+      }
+    ]
+  },
+  {
+    "id": "wb26-m1a-10",
+    "title": "Два звука буквы e",
+    "mechanic": "table",
+    "skillIds": ["phonics"],
+    "wordIds": [
+      "wf-372f7e2fd2d0",
+      "wf-dc7c811b9561",
+      "wf-2744ccd10c75",
+      "wf-2cda85e504e1",
+      "wf-62cb81b5904a",
+      "wf-34707c3f40df",
+      "wf-0e895c323cc7",
+      "wf-106a5842fc5f",
+      "wf-2998b3232d29",
+      "wf-8a798890fe93",
+      "wf-c5052532c220",
+      "wf-bbba57318f71",
+      "wf-b1f51a511f1d"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "matching",
+        "prompt": "Подбери пары. Каждое слово можно послушать.",
+        "rows": [
+          {
+            "label": "he",
+            "answers": ["/iː/"]
+          },
+          {
+            "label": "we",
+            "answers": ["/iː/"]
+          },
+          {
+            "label": "me",
+            "answers": ["/iː/"]
+          },
+          {
+            "label": "she",
+            "answers": ["/iː/"]
+          },
+          {
+            "label": "bee",
+            "answers": ["/iː/"]
+          },
+          {
+            "label": "egg",
+            "answers": ["/e/"]
+          },
+          {
+            "label": "clever",
+            "answers": ["/e/"]
+          },
+          {
+            "label": "help",
+            "answers": ["/e/"]
+          },
+          {
+            "label": "get",
+            "answers": ["/e/"]
+          },
+          {
+            "label": "yes",
+            "answers": ["/e/"]
+          },
+          {
+            "label": "bed",
+            "answers": ["/e/"]
+          },
+          {
+            "label": "pet",
+            "answers": ["/e/"]
+          },
+          {
+            "label": "red",
+            "answers": ["/e/"]
+          }
+        ],
+        "why": "В первой группе слышится долгий /iː/, во второй — короткий /e/.",
+        "options": ["/e/", "/iː/"]
+      }
+    ]
+  },
+  {
+    "id": "wb26-m1b-01",
+    "title": "Уроки в расписании",
+    "mechanic": "matching",
+    "skillIds": ["subjects"],
+    "wordIds": [
+      "wf-c83827727d78",
+      "wf-b6234d2ea0d6",
+      "wf-acc017392425",
+      "wf-bf8e5ca0b2d5",
+      "wf-cdf69b25a417",
+      "wf-259aa8ef98a8",
+      "wf-790fad4744a9",
+      "wf-d3cec9911225",
+      "wf-80f189984e5c",
+      "wf-4cb4ea25583c"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "matching",
+        "prompt": "Подбери пары. Каждое слово можно послушать.",
+        "rows": [
+          {
+            "label": "school subject",
+            "answers": ["школьный предмет"]
+          },
+          {
+            "label": "English",
+            "answers": ["английский"]
+          },
+          {
+            "label": "Maths",
+            "answers": ["математика"]
+          },
+          {
+            "label": "Geography",
+            "answers": ["география"]
+          },
+          {
+            "label": "PE",
+            "answers": ["физкультура"]
+          },
+          {
+            "label": "History",
+            "answers": ["история"]
+          },
+          {
+            "label": "Science",
+            "answers": ["естествознание"]
+          },
+          {
+            "label": "Art",
+            "answers": ["рисование"]
+          },
+          {
+            "label": "Music",
+            "answers": ["музыка"]
+          },
+          {
+            "label": "year",
+            "answers": ["год обучения, класс"]
+          }
+        ],
+        "why": "Сравни смысл каждой пары.",
+        "options": [
+          "английский",
+          "география",
+          "год обучения, класс",
+          "естествознание",
+          "история",
+          "математика",
+          "музыка",
+          "рисование",
+          "физкультура",
+          "школьный предмет"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wb26-m1b-02",
+    "title": "Буквы в названиях уроков",
+    "mechanic": "letters",
+    "skillIds": ["spelling"],
+    "wordIds": [
+      "wf-80f189984e5c",
+      "wf-d3cec9911225",
+      "wf-b6234d2ea0d6",
+      "wf-acc017392425",
+      "wf-790fad4744a9",
+      "wf-259aa8ef98a8",
+      "wf-bf8e5ca0b2d5",
+      "wf-cdf69b25a417"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "text",
+        "prompt": "M___c",
+        "answers": ["Music"],
+        "why": "Восстанови название школьного предмета. Заглавная буква в начале помогает вспомнить слово.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "A_t",
+        "answers": ["Art"],
+        "why": "Восстанови название школьного предмета. Заглавная буква в начале помогает вспомнить слово.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "E_____h",
+        "answers": ["English"],
+        "why": "Восстанови название школьного предмета. Заглавная буква в начале помогает вспомнить слово.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "M___s",
+        "answers": ["Maths"],
+        "why": "Восстанови название школьного предмета. Заглавная буква в начале помогает вспомнить слово.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "S_____e",
+        "answers": ["Science"],
+        "why": "Восстанови название школьного предмета. Заглавная буква в начале помогает вспомнить слово.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "H_____y",
+        "answers": ["History"],
+        "why": "Восстанови название школьного предмета. Заглавная буква в начале помогает вспомнить слово.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "G_______y",
+        "answers": ["Geography"],
+        "why": "Восстанови название школьного предмета. Заглавная буква в начале помогает вспомнить слово.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "P_",
+        "answers": ["PE"],
+        "why": "Восстанови название школьного предмета. Заглавная буква в начале помогает вспомнить слово.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      }
+    ]
+  },
+  {
+    "id": "wb26-m1b-03",
+    "title": "Предметы по алфавиту",
+    "mechanic": "alphabet",
+    "skillIds": ["alphabet"],
+    "wordIds": ["wf-790fad4744a9", "wf-b6234d2ea0d6", "wf-259aa8ef98a8", "wf-acc017392425"],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "order",
+        "prompt": "Нажимай на части в нужном порядке.",
+        "tokens": ["Science", "English", "Maths", "History"],
+        "answers": ["English | History | Maths | Science"],
+        "why": "Сначала E, затем H, M и S. Названия предметов начинаются с заглавной буквы.",
+        "skillIds": ["alphabet"]
+      }
+    ]
+  },
+  {
+    "id": "wb26-m1b-04",
+    "title": "Что делают на уроках?",
+    "mechanic": "table",
+    "skillIds": ["subjects", "sentence-meaning"],
+    "wordIds": [
+      "wf-b6234d2ea0d6",
+      "wf-aa304b5d1d72",
+      "wf-acc017392425",
+      "wf-80f189984e5c",
+      "wf-d3cec9911225",
+      "wf-cdf69b25a417",
+      "wf-3316348dbadf",
+      "wf-10fd874b68da",
+      "wf-6f8860eb5103",
+      "wf-6342d0648a74",
+      "wf-50f7becde477",
+      "wf-acba25512100",
+      "wf-6bdaf554e420",
+      "wf-aba4cc9b8af8",
+      "wf-baed83162394",
+      "wf-db944067d6c7"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "template",
+        "prompt": "Расскажи, что ты делаешь на своих уроках: выбери по одному действию. Действия могут повторяться. Единственного верного распределения здесь нет.",
+        "slots": [
+          {
+            "label": "English",
+            "options": [
+              "read",
+              "write",
+              "listen",
+              "sing",
+              "run",
+              "jump",
+              "draw",
+              "play",
+              "watch films"
+            ]
+          },
+          {
+            "label": "Russian",
+            "options": [
+              "read",
+              "write",
+              "listen",
+              "sing",
+              "run",
+              "jump",
+              "draw",
+              "play",
+              "watch films"
+            ]
+          },
+          {
+            "label": "Maths",
+            "options": [
+              "read",
+              "write",
+              "listen",
+              "sing",
+              "run",
+              "jump",
+              "draw",
+              "play",
+              "watch films"
+            ]
+          },
+          {
+            "label": "Music",
+            "options": [
+              "read",
+              "write",
+              "listen",
+              "sing",
+              "run",
+              "jump",
+              "draw",
+              "play",
+              "watch films"
+            ]
+          },
+          {
+            "label": "Art",
+            "options": [
+              "read",
+              "write",
+              "listen",
+              "sing",
+              "run",
+              "jump",
+              "draw",
+              "play",
+              "watch films"
+            ]
+          },
+          {
+            "label": "PE",
+            "options": [
+              "read",
+              "write",
+              "listen",
+              "sing",
+              "run",
+              "jump",
+              "draw",
+              "play",
+              "watch films"
+            ]
+          }
+        ],
+        "why": "Это личная таблица о твоих уроках. Выбранные действия можно повторять; послушай свой вариант. Работа с подсказанными словами не считается самостоятельным освоением."
+      }
+    ]
+  },
+  {
+    "id": "wb26-m1b-05",
+    "title": "Полная и короткая форма",
+    "mechanic": "grammar",
+    "skillIds": ["pronouns", "be", "contractions"],
+    "wordIds": [
+      "wf-de7d1b721a1e",
+      "wf-bb0347a468d9",
+      "wf-372f7e2fd2d0",
+      "wf-2cda85e504e1",
+      "wf-2ad8a7049d7c",
+      "wf-151e58a83130",
+      "wf-ab6db599234d",
+      "wf-fa51fd49abf6",
+      "wf-ba78973ddcf9"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "choice",
+        "prompt": "I ___ at school.",
+        "answers": ["am"],
+        "options": ["am", "is", "are"],
+        "why": "Найди местоимение: I → am; he/she/it → is; you/we/they → are.",
+        "diagnoses": {
+          "am": "pronouns",
+          "is": "pronouns",
+          "are": "pronouns"
+        },
+        "skillIds": ["be", "pronouns"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "You ___ happy.",
+        "answers": ["are"],
+        "options": ["am", "is", "are"],
+        "why": "Найди местоимение: I → am; he/she/it → is; you/we/they → are.",
+        "diagnoses": {
+          "am": "pronouns",
+          "is": "pronouns",
+          "are": "pronouns"
+        },
+        "skillIds": ["be", "pronouns"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "He ___ my friend.",
+        "answers": ["is"],
+        "options": ["am", "is", "are"],
+        "why": "Найди местоимение: I → am; he/she/it → is; you/we/they → are.",
+        "diagnoses": {
+          "am": "pronouns",
+          "is": "pronouns",
+          "are": "pronouns"
+        },
+        "skillIds": ["be", "pronouns"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "She ___ in Year 3.",
+        "answers": ["is"],
+        "options": ["am", "is", "are"],
+        "why": "Найди местоимение: I → am; he/she/it → is; you/we/they → are.",
+        "diagnoses": {
+          "am": "pronouns",
+          "is": "pronouns",
+          "are": "pronouns"
+        },
+        "skillIds": ["be", "pronouns"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "It ___ my pencil.",
+        "answers": ["is"],
+        "options": ["am", "is", "are"],
+        "why": "Найди местоимение: I → am; he/she/it → is; you/we/they → are.",
+        "diagnoses": {
+          "am": "pronouns",
+          "is": "pronouns",
+          "are": "pronouns"
+        },
+        "skillIds": ["be", "pronouns"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "They ___ happy.",
+        "answers": ["are"],
+        "options": ["am", "is", "are"],
+        "why": "Найди местоимение: I → am; he/she/it → is; you/we/they → are.",
+        "diagnoses": {
+          "am": "pronouns",
+          "is": "pronouns",
+          "are": "pronouns"
+        },
+        "skillIds": ["be", "pronouns"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Напиши кратко: I am at school.",
+        "answers": ["I'm at school."],
+        "why": "Апостроф заменяет буквы формы be.",
+        "caseSensitive": false,
+        "skillIds": ["contractions"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Напиши кратко: You are happy.",
+        "answers": ["You're happy."],
+        "why": "Апостроф заменяет буквы формы be.",
+        "caseSensitive": false,
+        "skillIds": ["contractions"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Напиши кратко: He is my friend.",
+        "answers": ["He's my friend."],
+        "why": "Апостроф заменяет буквы формы be.",
+        "caseSensitive": false,
+        "skillIds": ["contractions"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Напиши кратко: She is in Year 3.",
+        "answers": ["She's in Year 3."],
+        "why": "Апостроф заменяет буквы формы be.",
+        "caseSensitive": false,
+        "skillIds": ["contractions"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Напиши кратко: It is my pencil.",
+        "answers": ["It's my pencil."],
+        "why": "Апостроф заменяет буквы формы be.",
+        "caseSensitive": false,
+        "skillIds": ["contractions"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Напиши кратко: They are happy.",
+        "answers": ["They're happy."],
+        "why": "Апостроф заменяет буквы формы be.",
+        "caseSensitive": false,
+        "skillIds": ["contractions"]
+      }
+    ]
+  },
+  {
+    "id": "wb26-m1b-06",
+    "title": "Раскрой сокращение",
+    "mechanic": "grammar",
+    "skillIds": ["contractions"],
+    "wordIds": [
+      "wf-78f267c0e62e",
+      "wf-7dece7d7d99e",
+      "wf-24ceef1cb6b0",
+      "wf-dacbc48f0803",
+      "wf-10beaccfc7da"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "text",
+        "prompt": "What's your name?",
+        "answers": ["What is your name?"],
+        "why": "Разверни сокращённую связку. В этих фразах ’s означает is, а ’re — are."
+      },
+      {
+        "mode": "text",
+        "prompt": "They're at school.",
+        "answers": ["They are at school."],
+        "why": "Разверни сокращённую связку. В этих фразах ’s означает is, а ’re — are."
+      },
+      {
+        "mode": "text",
+        "prompt": "It's a book.",
+        "answers": ["It is a book."],
+        "why": "Разверни сокращённую связку. В этих фразах ’s означает is, а ’re — are."
+      },
+      {
+        "mode": "text",
+        "prompt": "My name's Tom.",
+        "answers": ["My name is Tom."],
+        "why": "Разверни сокращённую связку. В этих фразах ’s означает is, а ’re — are."
+      },
+      {
+        "mode": "text",
+        "prompt": "I'm nine.",
+        "answers": ["I am nine."],
+        "why": "Разверни сокращённую связку. В этих фразах ’s означает is, а ’re — are."
+      },
+      {
+        "mode": "text",
+        "prompt": "He's wearing a coat.",
+        "answers": ["He is wearing a coat."],
+        "why": "Разверни сокращённую связку. В этих фразах ’s означает is, а ’re — are."
+      },
+      {
+        "mode": "text",
+        "prompt": "You're not in the room.",
+        "answers": ["You are not in the room."],
+        "why": "Разверни сокращённую связку. В этих фразах ’s означает is, а ’re — are."
+      }
+    ]
+  },
+  {
+    "id": "wb26-m1b-07",
+    "title": "Выбери верную фразу",
+    "mechanic": "grammar",
+    "skillIds": ["be", "questions"],
+    "wordIds": ["wf-ab6db599234d", "wf-fa51fd49abf6", "wf-ba78973ddcf9", "wf-cba06b5736fa"],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "choice",
+        "prompt": "Спроси о годе обучения.",
+        "answers": ["What year are you in?"],
+        "options": ["What year are you in?", "What year you in?"],
+        "why": "Проверь порядок слов, связку be и сокращение. Возраст по-английски описывают через be."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Расскажи о годе обучения.",
+        "answers": ["I'm in Year 3."],
+        "options": ["I'm in Year 3.", "I'm Year 3."],
+        "why": "Проверь порядок слов, связку be и сокращение. Возраст по-английски описывают через be."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Спроси о её возрасте.",
+        "answers": ["How old is she?"],
+        "options": ["How old is she?", "How old she is?"],
+        "why": "Проверь порядок слов, связку be и сокращение. Возраст по-английски описывают через be."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Скажи о возрасте.",
+        "answers": ["She is nine years old."],
+        "options": ["She is nine years old.", "She has got nine years old."],
+        "why": "Проверь порядок слов, связку be и сокращение. Возраст по-английски описывают через be."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Спроси, что это.",
+        "answers": ["What's this?"],
+        "options": ["What's this?", "What's is this?"],
+        "why": "Проверь порядок слов, связку be и сокращение. Возраст по-английски описывают через be."
+      },
+      {
+        "mode": "choice",
+        "prompt": "Скажи, что это твой карандаш.",
+        "answers": ["It's my pencil."],
+        "options": ["It's my pencil.", "Its is my pencil."],
+        "why": "Проверь порядок слов, связку be и сокращение. Возраст по-английски описывают через be."
+      }
+    ]
+  },
+  {
+    "id": "wb26-m1b-08",
+    "title": "Вопросы и ответы",
+    "mechanic": "matching",
+    "skillIds": ["questions", "sentence-meaning"],
+    "wordIds": [
+      "wf-749ab2c0d06c",
+      "wf-8044aae1f868",
+      "wf-b48111c10c65",
+      "wf-775cf3abc9be",
+      "wf-82a3537ff0db"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "matching",
+        "prompt": "Подбери пары. Каждое слово можно послушать.",
+        "rows": [
+          {
+            "label": "What is your name?",
+            "answers": ["My name is Sasha."]
+          },
+          {
+            "label": "How old is she?",
+            "answers": ["She is eighteen."]
+          },
+          {
+            "label": "What year are you in?",
+            "answers": ["I am in Year 3."]
+          },
+          {
+            "label": "What is your favourite subject?",
+            "answers": ["English."]
+          },
+          {
+            "label": "Where are they?",
+            "answers": ["They are at school."]
+          },
+          {
+            "label": "What is this?",
+            "answers": ["It is a ruler."]
+          }
+        ],
+        "why": "Имя, возраст, год обучения, любимый предмет, место и вещь — разные вопросы.",
+        "options": [
+          "English.",
+          "I am in Year 3.",
+          "It is a ruler.",
+          "My name is Sasha.",
+          "She is eighteen.",
+          "They are at school."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wb26-m1b-09",
+    "title": "Команды на уроке",
+    "mechanic": "matching",
+    "skillIds": ["imperatives"],
+    "wordIds": [
+      "wf-43f7a37eecd4",
+      "wf-778443b4b10e",
+      "wf-2348f9987442",
+      "wf-310ff200149b",
+      "wf-8cceaf5c89e6",
+      "wf-e0afcdbf6ad4"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "matching",
+        "prompt": "Выбери подходящую пару в каждой строке.",
+        "rows": [
+          {
+            "label": "Open your book!",
+            "answers": ["Открой книгу!"]
+          },
+          {
+            "label": "Close your book!",
+            "answers": ["Закрой книгу!"]
+          },
+          {
+            "label": "Clap your hands!",
+            "answers": ["Хлопай в ладоши!"]
+          },
+          {
+            "label": "Sit down!",
+            "answers": ["Сядь!"]
+          },
+          {
+            "label": "Stand up!",
+            "answers": ["Встань!"]
+          },
+          {
+            "label": "Stamp your feet!",
+            "answers": ["Топай ногами!"]
+          }
+        ],
+        "options": [
+          "Открой книгу!",
+          "Закрой книгу!",
+          "Хлопай в ладоши!",
+          "Сядь!",
+          "Встань!",
+          "Топай ногами!"
+        ],
+        "why": "В команде сначала действие: stand, sit, open, close, clap, stamp.",
+        "skillIds": ["imperatives"]
+      }
+    ]
+  },
+  {
+    "id": "wb26-m1b-10",
+    "title": "Собери мысль",
+    "mechanic": "order",
+    "skillIds": ["word-order", "questions"],
+    "wordIds": [
+      "wf-de7d1b721a1e",
+      "wf-bb0347a468d9",
+      "wf-151e58a83130",
+      "wf-2348f9987442",
+      "wf-d64debd942d7"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "order",
+        "prompt": "Собери предложение из всех частей.",
+        "tokens": ["is", "Sasha.", "My", "name"],
+        "answers": ["My name is Sasha."],
+        "why": "Сначала поставь того, о ком говоришь, затем действие и остальные слова."
+      },
+      {
+        "mode": "order",
+        "prompt": "Собери предложение из всех частей.",
+        "tokens": ["nine", "years", "old.", "I", "am"],
+        "answers": ["I am nine years old."],
+        "why": "Сначала поставь того, о ком говоришь, затем действие и остальные слова."
+      },
+      {
+        "mode": "order",
+        "prompt": "Собери предложение из всех частей.",
+        "tokens": ["in", "Year", "3", "at", "school.", "I", "am"],
+        "answers": ["I am in Year 3 at school."],
+        "why": "Сначала поставь того, о ком говоришь, затем действие и остальные слова."
+      },
+      {
+        "mode": "order",
+        "prompt": "Собери предложение из всех частей.",
+        "tokens": ["Music", "and", "English.", "I", "like"],
+        "answers": ["I like Music and English."],
+        "why": "Сначала поставь того, о ком говоришь, затем действие и остальные слова."
+      },
+      {
+        "mode": "order",
+        "prompt": "Собери предложение из всех частей.",
+        "tokens": ["subjects", "are", "Art", "and", "Music.", "My", "favourite"],
+        "answers": ["My favourite subjects are Art and Music."],
+        "why": "Сначала поставь того, о ком говоришь, затем действие и остальные слова."
+      },
+      {
+        "mode": "order",
+        "prompt": "Собери предложение из всех частей.",
+        "tokens": ["my", "school.", "I", "like"],
+        "answers": ["I like my school."],
+        "why": "Сначала поставь того, о ком говоришь, затем действие и остальные слова."
+      }
+    ]
+  },
+  {
+    "id": "wb26-m1b-11",
+    "title": "Слова из двух частей",
+    "mechanic": "matching",
+    "skillIds": ["phrases"],
+    "wordIds": [
+      "wf-619d1dac1c13",
+      "wf-3b74bc54b6c2",
+      "wf-e971c330aab8",
+      "wf-bb3c78a5ebce",
+      "wf-f6bc36134480"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "matching",
+        "prompt": "Подбери пары. Каждое слово можно послушать.",
+        "rows": [
+          {
+            "label": "ice + cream",
+            "answers": ["ice cream"]
+          },
+          {
+            "label": "school + bag",
+            "answers": ["school bag"]
+          },
+          {
+            "label": "tree + house",
+            "answers": ["tree house"]
+          },
+          {
+            "label": "pencil + case",
+            "answers": ["pencil case"]
+          },
+          {
+            "label": "orange + juice",
+            "answers": ["orange juice"]
+          },
+          {
+            "label": "teddy + bear",
+            "answers": ["teddy bear"]
+          },
+          {
+            "label": "phone + number",
+            "answers": ["phone number"]
+          }
+        ],
+        "why": "Соедини части в знакомое название. В словаре такие сочетания можно изучать целиком.",
+        "options": [
+          "ice cream",
+          "orange juice",
+          "pencil case",
+          "phone number",
+          "school bag",
+          "teddy bear",
+          "tree house"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wb26-m1b-12",
+    "title": "Выбери по смыслу",
+    "mechanic": "grammar",
+    "skillIds": ["have-got", "subjects", "phrases", "numbers", "imperatives"],
+    "wordIds": [
+      "wf-75de3c3c7bec",
+      "wf26-f85b43067a28",
+      "wf-92719fe0cf8c",
+      "wf-775cf3abc9be",
+      "wf-a9491f4c1bf7",
+      "wf-80f189984e5c",
+      "wf-3b74bc54b6c2",
+      "wf-d64debd942d7",
+      "wf-c195d2d87562",
+      "wf-383ef3692834",
+      "wf-222b0bd51fce",
+      "wf-9ecc81f0a4b6",
+      "wf-8cceaf5c89e6",
+      "wf-45a229d57d35",
+      "wf-310ff200149b",
+      "wf-6e317bcd6839"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "choice",
+        "prompt": "I ___ a lovely book.",
+        "answers": ["have got"],
+        "options": ["have got", "am"],
+        "why": "О вещи, которая есть: have got.",
+        "skillIds": ["have-got"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "My favourite ___ is Music.",
+        "answers": ["subject"],
+        "options": ["subject", "food"],
+        "why": "Music — предмет в расписании.",
+        "skillIds": ["subjects"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "My rubber is in my ___ case.",
+        "answers": ["pencil"],
+        "options": ["pencil", "pen"],
+        "why": "Устойчивое название пенала: pencil case.",
+        "skillIds": ["phrases"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "We are in Year 3 at ___.",
+        "answers": ["school"],
+        "options": ["school", "home"],
+        "why": "Год обучения относится к школе.",
+        "skillIds": ["subjects"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "Eight plus five is ___.",
+        "answers": ["thirteen"],
+        "options": ["thirteen", "twelve"],
+        "why": "Восемь плюс пять — тринадцать.",
+        "skillIds": ["numbers"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "Clap your ___!",
+        "answers": ["hands"],
+        "options": ["hands", "feet"],
+        "why": "Хлопают в ладоши.",
+        "skillIds": ["imperatives"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "Close your ___!",
+        "answers": ["books"],
+        "options": ["books", "rulers"],
+        "why": "Закрывают книги, а не линейки.",
+        "skillIds": ["imperatives"]
+      }
+    ]
+  },
+  {
+    "id": "wb26-m1b-13",
+    "title": "Кто подходит?",
+    "mechanic": "grammar",
+    "skillIds": ["pronouns", "be"],
+    "wordIds": [
+      "wf-de7d1b721a1e",
+      "wf-bb0347a468d9",
+      "wf-372f7e2fd2d0",
+      "wf-2cda85e504e1",
+      "wf-2ad8a7049d7c",
+      "wf-dc7c811b9561",
+      "wf-151e58a83130"
+    ],
+    "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
+    "tasks": [
+      {
+        "mode": "choice",
+        "prompt": "___ am at school.",
+        "answers": ["I"],
+        "options": ["I", "he", "they"],
+        "why": "Am дружит только с I.",
+        "diagnoses": {
+          "he": "pronouns",
+          "they": "pronouns"
+        },
+        "skillIds": ["pronouns", "be"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "___ are happy.",
+        "answers": ["they"],
+        "options": ["she", "it", "they"],
+        "why": "С they употребляется are; с she и it — is.",
+        "diagnoses": {
+          "she": "pronouns",
+          "it": "pronouns"
+        },
+        "skillIds": ["pronouns", "be"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "___ is my pencil.",
+        "answers": ["it"],
+        "options": ["we", "it", "you"],
+        "why": "О предмете говорим it, к нему подходит is.",
+        "diagnoses": {},
+        "skillIds": ["pronouns", "be"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "How old are ___?",
+        "answers": ["you"],
+        "options": ["I", "you", "he"],
+        "why": "В этом вопросе are относится к you.",
+        "diagnoses": {},
+        "skillIds": ["pronouns", "be"]
+      }
+    ]
+  }
+]

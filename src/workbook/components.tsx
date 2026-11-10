@@ -18,12 +18,15 @@ export function workbookHints(context: string): VocabularyItem[] {
       contextualMeaning(w, context).context +
       '. ' +
       w.grammar +
-      (w.occurrences[0]?.sourceId === 'spotlight_workbook_2026_17'
-        ? ' Форма подтверждена отчётом по изданию 2026; точный номер упражнения не проверен.'
-        : ' Источник слова: сборник 2017. Употребление в издании 2026 ещё не проверено.'),
+      (w.occurrences.some((o) => o.sourceId === useWorkbook.getState().progress.sourceId)
+        ? ' Слово встречается в выбранном издании сборника.'
+        : ' Дополнительное слово для объяснения; источник указан в словаре.'),
     example: w.example.en,
     image: '',
     sourceFormId: w.id,
+    sourceEditionId:
+      w.occurrences.find((o) => o.sourceId === useWorkbook.getState().progress.sourceId)
+        ?.sourceId || w.occurrences[0]?.sourceId,
   }));
 }
 export function WorkbookText({ text, className = '' }: { text: string; className?: string }) {
@@ -106,7 +109,7 @@ export function SourceDictionaryLink({ id }: { id: string }) {
   return (
     <Link
       className="button"
-      to={`/dictionary?source=workbook&form=${id}&edition=${getWordForm(id)?.occurrences[0]?.sourceId}`}
+      to={`/dictionary?source=workbook&form=${id}&edition=${getWordForm(id)?.occurrences.find((o) => o.sourceId === useWorkbook.getState().progress.sourceId)?.sourceId || getWordForm(id)?.occurrences[0]?.sourceId}`}
       onClick={() => setEnabled(false)}
     >
       Словарная статья →

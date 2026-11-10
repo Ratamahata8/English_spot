@@ -85,5 +85,179 @@
         "why": "Одна книга — it, с ней was."
       }
     ]
+  },
+  {
+    "id": "plural-es",
+    "title": "Когда нужно -es",
+    "prerequisites": ["plural"],
+    "explanation": "Обычно к слову добавляют -s. После s, x и ch часто нужно -es. Если предмет один, форма остаётся обычной.",
+    "example": {
+      "en": "two boxes",
+      "ru": "две коробки"
+    },
+    "steps": [
+      "Пойми, о чём говоришь: кто, где, что есть или что умеет.",
+      "Найди слово-помощник и проверь обычную форму действия.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "Одна коробка и две коробки: box →",
+        "options": ["boxes", "boxs"],
+        "answer": "boxes",
+        "why": "После x добавь -es."
+      },
+      {
+        "prompt": "Два стакана: glass →",
+        "options": ["glasses", "glasss"],
+        "answer": "glasses",
+        "why": "После s добавь -es."
+      }
+    ]
+  },
+  {
+    "id": "have-got-questions",
+    "title": "Что у кого есть",
+    "prerequisites": ["have-got", "questions"],
+    "explanation": "He, she, it дружат с has got; остальные — с have got. В вопросе have или has ставим перед человеком. В отрицании добавляем not.",
+    "example": {
+      "en": "Has she got a book?",
+      "ru": "У неё есть книга?"
+    },
+    "steps": [
+      "Пойми, о чём говоришь: кто, где, что есть или что умеет.",
+      "Найди слово-помощник и проверь обычную форму действия.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "Спроси о нём.",
+        "options": ["Has he got a book?", "Have he got a book?"],
+        "answer": "Has he got a book?",
+        "why": "He дружит с has."
+      },
+      {
+        "prompt": "Have you got a book? — нет.",
+        "options": ["No, I haven't.", "No, I hasn't."],
+        "answer": "No, I haven't.",
+        "why": "Повтори have в коротком ответе о себе."
+      }
+    ]
+  },
+  {
+    "id": "like-now",
+    "title": "Нравится или не нравится",
+    "prerequisites": ["pronouns"],
+    "explanation": "I, you, we, they — like. He и she — likes. Для «не нравится» нужны don't like или doesn't like; после помощника окончание -s пропадает.",
+    "example": {
+      "en": "She likes milk.",
+      "ru": "Ей нравится молоко."
+    },
+    "steps": [
+      "Пойми, о чём говоришь: кто, где, что есть или что умеет.",
+      "Найди слово-помощник и проверь обычную форму действия.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "Она любит молоко.",
+        "options": ["She likes milk.", "She like milk."],
+        "answer": "She likes milk.",
+        "why": "С she в утверждении появляется -s."
+      },
+      {
+        "prompt": "Она не любит молоко.",
+        "options": ["She doesn't like milk.", "She doesn't likes milk."],
+        "answer": "She doesn't like milk.",
+        "why": "После doesn't глагол like без -s."
+      }
+    ]
+  },
+  {
+    "id": "weather-now",
+    "title": "Погода и времена года",
+    "prerequisites": ["vocabulary", "be"],
+    "explanation": "О погоде говорят It is или It's. В обычном описании зима холодная, весна тёплая, лето жаркое, осень ветреная. Настоящая погода может отличаться.",
+    "example": {
+      "en": "It is sunny.",
+      "ru": "Солнечно."
+    },
+    "steps": [
+      "Пойми, о чём говоришь: кто, где, что есть или что умеет.",
+      "Найди слово-помощник и проверь обычную форму действия.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "Как сказать «Холодно»?",
+        "options": ["It is cold.", "It are cold."],
+        "answer": "It is cold.",
+        "why": "В погодном описании it is."
+      },
+      {
+        "prompt": "Что означает windy?",
+        "options": ["Ветрено.", "Солнечно."],
+        "answer": "Ветрено.",
+        "why": "Windy — ветрено, sunny — солнечно."
+      }
+    ]
+  },
+  {
+    "id": "clothes-now",
+    "title": "Что на тебе сейчас",
+    "prerequisites": ["pronouns", "be"],
+    "explanation": "Чтобы сказать, что на тебе сейчас, начни I am wearing. Затем назови одежду. С I нужна форма am.",
+    "example": {
+      "en": "I am wearing a coat.",
+      "ru": "На мне пальто."
+    },
+    "steps": [
+      "Пойми, о чём говоришь: кто, где, что есть или что умеет.",
+      "Найди слово-помощник и проверь обычную форму действия.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "Выбери начало фразы о себе.",
+        "options": ["I am wearing a coat.", "I is wearing a coat."],
+        "answer": "I am wearing a coat.",
+        "why": "С I нужна am."
+      },
+      {
+        "prompt": "Нужно назвать одежду.",
+        "options": ["I am wearing a jacket.", "I am wearing a sandwich."],
+        "answer": "I am wearing a jacket.",
+        "why": "Jacket — куртка, а sandwich — еда."
+      }
+    ]
+  },
+  {
+    "id": "short-replies",
+    "title": "Ответь коротко",
+    "prerequisites": ["be", "can", "have-got-questions", "like-now"],
+    "explanation": "В коротком ответе повторяй помощник вопроса. Отвечаешь о себе — I; об одном человеке — he или she; о нескольких — they.",
+    "example": {
+      "en": "Can she swim? Yes, she can.",
+      "ru": "Она умеет плавать? Да."
+    },
+    "steps": [
+      "Пойми, о чём говоришь: кто, где, что есть или что умеет.",
+      "Найди слово-помощник и проверь обычную форму действия.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "Is he happy? — да.",
+        "options": ["Yes, he is.", "Yes, he can."],
+        "answer": "Yes, he is.",
+        "why": "Вопрос начинается с is, и в ответе is."
+      },
+      {
+        "prompt": "Have you got a book? — да.",
+        "options": ["Yes, I have.", "Yes, I am."],
+        "answer": "Yes, I have.",
+        "why": "Повтори have, отвечая о себе — I."
+      }
+    ]
   }
 ]

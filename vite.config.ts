@@ -9,6 +9,10 @@ export default defineConfig({
       output: {
         manualChunks(id) {
           if (id.includes('node_modules')) return 'vendor';
+          if (id.includes('/src/workbook/data/') && id.endsWith('lexicon.json'))
+            return id.includes('edition-2026') ? 'workbook-2026-lexicon' : 'workbook-2017-lexicon';
+          if (id.includes('/src/workbook/data/') && id.endsWith('entities.json'))
+            return 'workbook-entities';
           if (
             (id.includes('/src/workbook/data/') || id.endsWith('/content-coverage.json')) &&
             id.endsWith('.json')

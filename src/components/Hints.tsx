@@ -86,7 +86,7 @@ export function HintsProvider({ children }: { children: ReactNode }) {
                   '/dictionary?source=workbook&form=' +
                   word.sourceFormId +
                   '&edition=' +
-                  getWordForm(word.sourceFormId)?.occurrences[0]?.sourceId
+                  (word.sourceEditionId || getWordForm(word.sourceFormId)?.occurrences[0]?.sourceId)
                 }
                 onClick={() => setWord(null)}
               >
@@ -196,6 +196,7 @@ export function HintToggle() {
   return (
     <button
       className={`button hint-toggle ${enabled ? 'selected' : ''}`}
+      aria-label={enabled ? '? Нажми на слово' : '? Подсказки'}
       aria-pressed={enabled}
       onClick={() => setEnabled(!enabled)}
     >

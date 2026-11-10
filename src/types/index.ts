@@ -1,5 +1,6 @@
 export interface VocabularyItem {
   sourceFormId?: string;
+  sourceEditionId?: string;
   id: string;
   en: string;
   ru: string;

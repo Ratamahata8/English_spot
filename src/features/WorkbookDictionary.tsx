@@ -169,7 +169,14 @@ export function WorkbookDictionary() {
             onChange={(e) => setModule(e.target.value)}
           >
             <option value="all">Все модули</option>
-            <option value="revision">Повторение</option>
+            {edition === EDITION_2026 ? (
+              <>
+                <option value="intro">Вводный блок</option>
+                <option value="entry">Входной тест</option>
+              </>
+            ) : (
+              <option value="revision">Повторение</option>
+            )}
             {Array.from({ length: 8 }, (_, i) => (
               <option key={i} value={String(i + 1)}>
                 Модуль {i + 1}
@@ -233,7 +240,12 @@ export function WorkbookDictionary() {
                 Что значит <WorkbookText text={current.form} />?
               </h2>
               <small>
-                Источник слова: {editionLabel(current.occurrences[0].sourceId || edition)}
+                Источник слова:{' '}
+                {editionLabel(
+                  current.occurrences.find((o) => o.sourceId === edition)?.sourceId ||
+                    current.occurrences[0].sourceId ||
+                    edition,
+                )}
               </small>
               <WorkbookAudio text={current.form} />
               {[
@@ -383,7 +395,12 @@ export function WorkbookDictionary() {
                             : '№ ' + getSourceExercise(o.exerciseId)?.number}{' '}
                           · {getSourceExercise(o.exerciseId)?.lesson}{' '}
                           {!!getSourceExercise(o.exerciseId)?.adaptationIds.length ? (
-                            <Link to={'/workbook/' + o.exerciseId}>
+                            <Link
+                              to={
+                                '/workbook/' +
+                                (getSourceExercise(o.exerciseId)?.adaptationIds[0] || o.exerciseId)
+                              }
+                            >
                               {edition === EDITION_2026
                                 ? 'Тренировка по теме →'
                                 : 'Открыть задание →'}

@@ -4,6 +4,7 @@ dist/
 playwright-report/
 test-results/
 *.log
+*.tmp
 __pycache__/
 
 # Local credentials and machine-specific files
