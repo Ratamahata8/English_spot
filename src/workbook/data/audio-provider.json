@@ -1,0 +1,7 @@
+{
+  "provider": "edge",
+  "voice": "en-GB-SoniaNeural",
+  "dialect": "en-GB",
+  "runtime": "static-mp3",
+  "commercialRights": "not-verified"
+}

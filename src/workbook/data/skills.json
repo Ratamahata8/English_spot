@@ -1,0 +1,632 @@
+[
+  {
+    "id": "vocabulary",
+    "title": "Узнаём слова",
+    "prerequisites": [],
+    "explanation": "Сначала узнай значение слова. Картинка или перевод подскажут, о чём речь.",
+    "example": {
+      "en": "book",
+      "ru": "книга"
+    },
+    "steps": [
+      "Прочитай объяснение и послушай пример.",
+      "Найди знакомые слова и нужную конструкцию.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "Найди слово «книга».",
+        "options": ["book", "pen"],
+        "answer": "book",
+        "why": "Сначала узнай значение слова. Картинка или перевод подскажут, о чём речь."
+      },
+      {
+        "prompt": "Найди слово «линейка».",
+        "options": ["ruler", "rubber"],
+        "answer": "ruler",
+        "why": "Сначала узнай значение слова. Картинка или перевод подскажут, о чём речь."
+      }
+    ]
+  },
+  {
+    "id": "alphabet",
+    "title": "Алфавит",
+    "prerequisites": ["vocabulary"],
+    "explanation": "Сравни первые буквы. Если они одинаковые, сравни следующие. B идёт раньше P.",
+    "example": {
+      "en": "book",
+      "ru": "книга"
+    },
+    "steps": [
+      "Прочитай объяснение и послушай пример.",
+      "Найди знакомые слова и нужную конструкцию.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "Какое слово первым по алфавиту?",
+        "options": ["pen", "book"],
+        "answer": "book",
+        "why": "Сравни первые буквы. Если они одинаковые, сравни следующие. B идёт раньше P."
+      },
+      {
+        "prompt": "Какое слово первым по алфавиту?",
+        "options": ["ruler", "rubber"],
+        "answer": "rubber",
+        "why": "Сравни первые буквы. Если они одинаковые, сравни следующие. B идёт раньше P."
+      }
+    ]
+  },
+  {
+    "id": "spelling",
+    "title": "Буквы в слове",
+    "prerequisites": ["alphabet"],
+    "explanation": "Произнеси слово, посмотри на его буквы и восстанови пропуски. Сравни все буквы по порядку.",
+    "example": {
+      "en": "pencil",
+      "ru": "карандаш"
+    },
+    "steps": [
+      "Прочитай объяснение и послушай пример.",
+      "Найди знакомые слова и нужную конструкцию.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "Восстанови p_n:",
+        "options": ["pen", "pet"],
+        "answer": "pen",
+        "why": "Произнеси слово, посмотри на его буквы и восстанови пропуски. Сравни все буквы по порядку."
+      },
+      {
+        "prompt": "Как пишется «карандаш»?",
+        "options": ["pencil", "ruler"],
+        "answer": "pencil",
+        "why": "Произнеси слово, посмотри на его буквы и восстанови пропуски. Сравни все буквы по порядку."
+      }
+    ]
+  },
+  {
+    "id": "numbers",
+    "title": "Числа",
+    "prerequisites": ["vocabulary"],
+    "explanation": "Число можно записать цифрами или словом. Eleven — 11, twelve — 12. Сначала посчитай, затем запиши слово.",
+    "example": {
+      "en": "twelve",
+      "ru": "двенадцать"
+    },
+    "steps": [
+      "Прочитай объяснение и послушай пример.",
+      "Найди знакомые слова и нужную конструкцию.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "Как записать 15 словом?",
+        "options": ["fourteen", "fifteen"],
+        "answer": "fifteen",
+        "why": "Число можно записать цифрами или словом. Eleven — 11, twelve — 12. Сначала посчитай, затем запиши слово."
+      },
+      {
+        "prompt": "Посчитай 20 − 1.",
+        "options": ["nineteen", "eighteen"],
+        "answer": "nineteen",
+        "why": "Число можно записать цифрами или словом. Eleven — 11, twelve — 12. Сначала посчитай, затем запиши слово."
+      }
+    ]
+  },
+  {
+    "id": "plural",
+    "title": "Один и несколько",
+    "prerequisites": ["vocabulary"],
+    "explanation": "Когда предметов несколько, часто добавляем -s: book → books. После числа больше одного a уже не нужно.",
+    "example": {
+      "en": "books",
+      "ru": "книги"
+    },
+    "steps": [
+      "Прочитай объяснение и послушай пример.",
+      "Найди знакомые слова и нужную конструкцию.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "Как написать «книги»?",
+        "options": ["book", "books"],
+        "answer": "books",
+        "why": "Когда предметов несколько, часто добавляем -s: book → books. После числа больше одного a уже не нужно."
+      },
+      {
+        "prompt": "Предметов несколько. Как написать?",
+        "options": ["a pens", "pens"],
+        "answer": "pens",
+        "why": "Когда предметов несколько, часто добавляем -s: book → books. После числа больше одного a уже не нужно."
+      }
+    ]
+  },
+  {
+    "id": "phonics",
+    "title": "Слушаем звуки",
+    "prerequisites": ["vocabulary"],
+    "explanation": "Буква и звук — не одно и то же. В he звук /iː/ длинный, а в pen короткий /e/. Сначала послушай слово.",
+    "example": {
+      "en": "he",
+      "ru": "он"
+    },
+    "steps": [
+      "Прочитай объяснение и послушай пример.",
+      "Найди знакомые слова и нужную конструкцию.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "В каком слове долгий /iː/?",
+        "options": ["he", "pen"],
+        "answer": "he",
+        "why": "Буква и звук — не одно и то же. В he звук /iː/ длинный, а в pen короткий /e/. Сначала послушай слово."
+      },
+      {
+        "prompt": "В каком слове короткий /e/?",
+        "options": ["red", "bee"],
+        "answer": "red",
+        "why": "Буква и звук — не одно и то же. В he звук /iː/ длинный, а в pen короткий /e/. Сначала послушай слово."
+      }
+    ]
+  },
+  {
+    "id": "phrases",
+    "title": "Слова дружат",
+    "prerequisites": ["vocabulary"],
+    "explanation": "School bag — одно название из двух слов: портфель. Не переводи каждую половинку отдельно.",
+    "example": {
+      "en": "school bag",
+      "ru": "портфель"
+    },
+    "steps": [
+      "Прочитай объяснение и послушай пример.",
+      "Найди знакомые слова и нужную конструкцию.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "Как сказать «пенал»?",
+        "options": ["school bag", "pencil case"],
+        "answer": "pencil case",
+        "why": "School bag — одно название из двух слов: портфель. Не переводи каждую половинку отдельно."
+      },
+      {
+        "prompt": "Как сказать «портфель»?",
+        "options": ["school bag", "book"],
+        "answer": "school bag",
+        "why": "School bag — одно название из двух слов: портфель. Не переводи каждую половинку отдельно."
+      }
+    ]
+  },
+  {
+    "id": "pronouns",
+    "title": "Кто это?",
+    "prerequisites": ["vocabulary"],
+    "explanation": "I — я, you — ты или вы, he — он, she — она, it — предмет или животное, we — мы, they — они.",
+    "example": {
+      "en": "she",
+      "ru": "она"
+    },
+    "steps": [
+      "Прочитай объяснение и послушай пример.",
+      "Найди знакомые слова и нужную конструкцию.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "Найди «она».",
+        "options": ["he", "she"],
+        "answer": "she",
+        "why": "I — я, you — ты или вы, he — он, she — она, it — предмет или животное, we — мы, they — они."
+      },
+      {
+        "prompt": "Найди «мы».",
+        "options": ["we", "they"],
+        "answer": "we",
+        "why": "I — я, you — ты или вы, he — он, she — она, it — предмет или животное, we — мы, they — они."
+      }
+    ]
+  },
+  {
+    "id": "be",
+    "title": "Am, is или are?",
+    "prerequisites": ["pronouns"],
+    "explanation": "I → am. He, she, it → is. You, we, they → are. Сначала найди, о ком говорится.",
+    "example": {
+      "en": "I am happy.",
+      "ru": "Я рад."
+    },
+    "steps": [
+      "Прочитай объяснение и послушай пример.",
+      "Найди знакомые слова и нужную конструкцию.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "I ___ happy.",
+        "options": ["am", "is", "are"],
+        "answer": "am",
+        "why": "I → am. He, she, it → is. You, we, they → are. Сначала найди, о ком говорится."
+      },
+      {
+        "prompt": "They ___ at school.",
+        "options": ["am", "is", "are"],
+        "answer": "are",
+        "why": "I → am. He, she, it → is. You, we, they → are. Сначала найди, о ком говорится."
+      }
+    ]
+  },
+  {
+    "id": "contractions",
+    "title": "Короткая запись",
+    "prerequisites": ["be"],
+    "explanation": "Апостроф заменяет пропущенные буквы: I am → I’m, she is → she’s. После she’s got сокращено has, а не is.",
+    "example": {
+      "en": "I am happy.",
+      "ru": "Я рад."
+    },
+    "steps": [
+      "Прочитай объяснение и послушай пример.",
+      "Найди знакомые слова и нужную конструкцию.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "Раскрой I’m.",
+        "options": ["I am", "I is"],
+        "answer": "I am",
+        "why": "Апостроф заменяет пропущенные буквы: I am → I’m, she is → she’s. После she’s got сокращено has, а не is."
+      },
+      {
+        "prompt": "Что сокращено в She’s got a book?",
+        "options": ["she is", "she has"],
+        "answer": "she has",
+        "why": "Апостроф заменяет пропущенные буквы: I am → I’m, she is → she’s. После she’s got сокращено has, а не is."
+      }
+    ]
+  },
+  {
+    "id": "word-order",
+    "title": "Порядок слов",
+    "prerequisites": ["be"],
+    "explanation": "В утверждении сначала назови, о ком говоришь, затем добавь действие или форму am/is/are.",
+    "example": {
+      "en": "I like Art.",
+      "ru": "Мне нравится рисование."
+    },
+    "steps": [
+      "Прочитай объяснение и послушай пример.",
+      "Найди знакомые слова и нужную конструкцию.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "Скажи: «Я рад».",
+        "options": ["I am happy.", "Am happy I."],
+        "answer": "I am happy.",
+        "why": "В утверждении сначала назови, о ком говоришь, затем добавь действие или форму am/is/are."
+      },
+      {
+        "prompt": "Скажи: «Мне нравится рисование».",
+        "options": ["I like Art.", "Like Art I."],
+        "answer": "I like Art.",
+        "why": "В утверждении сначала назови, о ком говоришь, затем добавь действие или форму am/is/are."
+      }
+    ]
+  },
+  {
+    "id": "sentence-meaning",
+    "title": "Понимаем предложение",
+    "prerequisites": ["vocabulary"],
+    "explanation": "Найди знакомые кусочки. Сначала пойми, кто говорит, затем о чём он сообщает или спрашивает.",
+    "example": {
+      "en": "It is a pen.",
+      "ru": "Это ручка."
+    },
+    "steps": [
+      "Прочитай объяснение и послушай пример.",
+      "Найди знакомые слова и нужную конструкцию.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "Что спрашивают: Where are they?",
+        "options": ["Где они?", "Что это?"],
+        "answer": "Где они?",
+        "why": "Найди знакомые кусочки. Сначала пойми, кто говорит, затем о чём он сообщает или спрашивает."
+      },
+      {
+        "prompt": "Что спрашивают: What is this?",
+        "options": ["Что это?", "Где они?"],
+        "answer": "Что это?",
+        "why": "Найди знакомые кусочки. Сначала пойми, кто говорит, затем о чём он сообщает или спрашивает."
+      }
+    ]
+  },
+  {
+    "id": "questions",
+    "title": "Задаём вопрос",
+    "prerequisites": ["be", "word-order"],
+    "explanation": "В вопросе с be поставь am/is/are перед тем, о ком спрашиваешь. What is this? — Что это?",
+    "example": {
+      "en": "What is this?",
+      "ru": "Что это?"
+    },
+    "steps": [
+      "Прочитай объяснение и послушай пример.",
+      "Найди знакомые слова и нужную конструкцию.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "Спроси возраст.",
+        "options": ["How old are you?", "How old you are?"],
+        "answer": "How old are you?",
+        "why": "В вопросе с be поставь am/is/are перед тем, о ком спрашиваешь. What is this? — Что это?"
+      },
+      {
+        "prompt": "Спроси, где они.",
+        "options": ["Where are they?", "They are where?"],
+        "answer": "Where are they?",
+        "why": "В вопросе с be поставь am/is/are перед тем, о ком спрашиваешь. What is this? — Что это?"
+      }
+    ]
+  },
+  {
+    "id": "capitalization",
+    "title": "Заглавные буквы",
+    "prerequisites": ["alphabet"],
+    "explanation": "Начинай предложение с большой буквы. I — «я» — всегда большая. Имена, города и названия языков (English, Russian) тоже пишут с большой буквы. Названия обычных предметов, например art, можно писать со строчной.",
+    "example": {
+      "en": "I like English.",
+      "ru": "Мне нравится английский."
+    },
+    "steps": [
+      "Прочитай объяснение и послушай пример.",
+      "Найди знакомые слова и нужную конструкцию.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "Выбери правильную запись.",
+        "options": ["I like English.", "i like english."],
+        "answer": "I like English.",
+        "why": "Начинай предложение с большой буквы. I — «я» — всегда большая. Имена, города и названия языков (English, Russian) тоже пишут с большой буквы. Названия обычных предметов, например art, можно писать со строчной."
+      },
+      {
+        "prompt": "Выбери правильную запись имени.",
+        "options": ["My name is Anna.", "my name is anna."],
+        "answer": "My name is Anna.",
+        "why": "Начинай предложение с большой буквы. I — «я» — всегда большая. Имена и названия школьных предметов тоже пиши с большой буквы."
+      }
+    ]
+  },
+  {
+    "id": "letter-writing",
+    "title": "Короткое письмо",
+    "prerequisites": ["sentence-meaning", "capitalization"],
+    "explanation": "Поздоровайся, расскажи о себе, ответь другу и попрощайся. Личные ответы могут быть разными: проверяем построение, а не твои вкусы.",
+    "example": {
+      "en": "I like Music.",
+      "ru": "Мне нравится музыка."
+    },
+    "steps": [
+      "Прочитай объяснение и послушай пример.",
+      "Найди знакомые слова и нужную конструкцию.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "С чего начнём письмо Тому?",
+        "options": ["Hello, Tom!", "Love, Tom."],
+        "answer": "Hello, Tom!",
+        "why": "Поздоровайся, расскажи о себе, ответь другу и попрощайся. Личные ответы могут быть разными: проверяем построение, а не твои вкусы."
+      },
+      {
+        "prompt": "Как закончим письмо?",
+        "options": ["Love, Anna.", "My name is Anna."],
+        "answer": "Love, Anna.",
+        "why": "Поздоровайся, расскажи о себе, ответь другу и попрощайся. Личные ответы могут быть разными: проверяем построение, а не твои вкусы."
+      }
+    ]
+  },
+  {
+    "id": "have-got",
+    "title": "У меня есть",
+    "prerequisites": ["pronouns"],
+    "explanation": "I’ve got значит «у меня есть». Можно назвать один предмет с a или несколько предметов без a.",
+    "example": {
+      "en": "I have got a book.",
+      "ru": "У меня есть книга."
+    },
+    "steps": [
+      "Прочитай объяснение и послушай пример.",
+      "Найди знакомые слова и нужную конструкцию.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "У меня есть книга: I ___ a book.",
+        "options": ["have got", "am"],
+        "answer": "have got",
+        "why": "I’ve got значит «у меня есть». Можно назвать один предмет с a или несколько предметов без a."
+      },
+      {
+        "prompt": "Что означает I’ve got?",
+        "options": ["У меня есть.", "Я рад."],
+        "answer": "У меня есть.",
+        "why": "I’ve got значит «у меня есть». Можно назвать один предмет с a или несколько предметов без a."
+      }
+    ]
+  },
+  {
+    "id": "imperatives",
+    "title": "Команды",
+    "prerequisites": ["vocabulary"],
+    "explanation": "Команда начинается с действия. Open your book! — Открой книгу. Для запрета перед действием ставят Don’t.",
+    "example": {
+      "en": "Open your book!",
+      "ru": "Открой книгу!"
+    },
+    "steps": [
+      "Прочитай объяснение и послушай пример.",
+      "Найди знакомые слова и нужную конструкцию.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "Попроси открыть книгу.",
+        "options": ["Open your book!", "Close your book!"],
+        "answer": "Open your book!",
+        "why": "Команда начинается с действия. Open your book! — Открой книгу. Для запрета перед действием ставят Don’t."
+      },
+      {
+        "prompt": "Попроси сесть.",
+        "options": ["Stand up!", "Sit down!"],
+        "answer": "Sit down!",
+        "why": "Команда начинается с действия. Open your book! — Открой книгу. Для запрета перед действием ставят Don’t."
+      }
+    ]
+  },
+  {
+    "id": "subjects",
+    "title": "Школьные предметы",
+    "prerequisites": ["vocabulary"],
+    "explanation": "English — английский, Maths — математика, Music — музыка. Название предмета обычно пишут с большой буквы.",
+    "example": {
+      "en": "I like Maths.",
+      "ru": "Мне нравится математика."
+    },
+    "steps": [
+      "Прочитай объяснение и послушай пример.",
+      "Найди знакомые слова и нужную конструкцию.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "Найди математику.",
+        "options": ["Maths", "Music"],
+        "answer": "Maths",
+        "why": "English — английский, Maths — математика, Music — музыка. Название предмета обычно пишут с большой буквы."
+      },
+      {
+        "prompt": "Найди рисование.",
+        "options": ["Art", "English"],
+        "answer": "Art",
+        "why": "English — английский, Maths — математика, Music — музыка. Название предмета обычно пишут с большой буквы."
+      }
+    ]
+  },
+  {
+    "id": "can",
+    "title": "can",
+    "prerequisites": ["pronouns"],
+    "planned": true
+  },
+  {
+    "id": "simple",
+    "title": "simple",
+    "prerequisites": ["pronouns"],
+    "planned": true
+  },
+  {
+    "id": "possessives",
+    "title": "possessives",
+    "prerequisites": ["pronouns"],
+    "planned": true
+  },
+  {
+    "id": "reading",
+    "title": "reading",
+    "prerequisites": ["sentence-meaning"],
+    "planned": true
+  },
+  {
+    "id": "countable",
+    "title": "countable",
+    "prerequisites": ["plural"],
+    "planned": true
+  },
+  {
+    "id": "some-any",
+    "title": "some-any",
+    "prerequisites": ["countable"],
+    "planned": true
+  },
+  {
+    "id": "articles",
+    "title": "articles",
+    "prerequisites": ["vocabulary"],
+    "planned": true
+  },
+  {
+    "id": "demonstratives",
+    "title": "demonstratives",
+    "prerequisites": ["plural", "be"],
+    "planned": true
+  },
+  {
+    "id": "punctuation",
+    "title": "punctuation",
+    "prerequisites": ["questions"],
+    "planned": true
+  },
+  {
+    "id": "there",
+    "title": "there",
+    "prerequisites": ["be", "plural"],
+    "planned": true
+  },
+  {
+    "id": "ing",
+    "title": "ing",
+    "prerequisites": ["spelling"],
+    "planned": true
+  },
+  {
+    "id": "continuous",
+    "title": "continuous",
+    "prerequisites": ["pronouns", "be", "actions", "ing", "word-order"],
+    "planned": true
+  },
+  {
+    "id": "third-person",
+    "title": "third-person",
+    "prerequisites": ["spelling"],
+    "planned": true
+  },
+  {
+    "id": "time-prepositions",
+    "title": "time-prepositions",
+    "prerequisites": ["vocabulary"],
+    "planned": true
+  },
+  {
+    "id": "tenses",
+    "title": "tenses",
+    "prerequisites": ["simple", "continuous"],
+    "planned": true
+  },
+  {
+    "id": "actions",
+    "title": "Глаголы действия",
+    "planned": true,
+    "prerequisites": ["vocabulary"]
+  },
+  {
+    "id": "plural-irregular",
+    "title": "Особые формы нескольких предметов",
+    "planned": true,
+    "prerequisites": ["plural"]
+  },
+  {
+    "id": "place-prepositions",
+    "title": "Где находится предмет",
+    "planned": true,
+    "prerequisites": ["vocabulary"]
+  }
+]

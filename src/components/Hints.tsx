@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+import { useWorkbook } from '../workbook/store';
 import { createContext, useContext, useRef, useState, useEffect, type ReactNode } from 'react';
 import { lexicon } from '../lessons';
 import type { VocabularyItem } from '../types';
@@ -26,7 +28,9 @@ export function HintsProvider({ children }: { children: ReactNode }) {
     previousFocus.current = document.activeElement as HTMLElement;
     setAdded(false);
     setWord(w);
-    void update((p) => ({ ...p, hintCount: p.hintCount + 1 }));
+    if (w.sourceFormId)
+      void useWorkbook.getState().update((p) => ({ ...p, hintCount: p.hintCount + 1 }));
+    else void update((p) => ({ ...p, hintCount: p.hintCount + 1 }));
   };
   return (
     <Context.Provider value={{ enabled, setEnabled, open }}>
@@ -40,7 +44,10 @@ export function HintsProvider({ children }: { children: ReactNode }) {
             aria-label="Подсказка к слову"
             onClick={(e) => e.stopPropagation()}
             onKeyDown={(e) => {
-              if (e.key === 'Escape') setWord(null);
+              if (e.key === 'Escape') {
+                e.stopPropagation();
+                setWord(null);
+              }
               if (e.key === 'Tab') {
                 const focus = [...e.currentTarget.querySelectorAll<HTMLElement>('button')];
                 if (e.shiftKey && document.activeElement === focus[0]) {
@@ -71,13 +78,28 @@ export function HintsProvider({ children }: { children: ReactNode }) {
               {word.example}
               <AudioButton text={word.example} label="Пример" />
             </div>
+            {word.sourceFormId && (
+              <Link
+                className="button"
+                to={'/dictionary?source=workbook&form=' + word.sourceFormId}
+                onClick={() => setWord(null)}
+              >
+                К основной словарной статье →
+              </Link>
+            )}
             <button
               className="button primary"
               onClick={() => {
-                void update((p) => ({
-                  ...p,
-                  reviewIds: [...new Set([...p.reviewIds, word.id])],
-                }));
+                if (word.sourceFormId)
+                  void useWorkbook.getState().update((p) => ({
+                    ...p,
+                    reviewIds: [...new Set([...p.reviewIds, word.sourceFormId!])],
+                  }));
+                else
+                  void update((p) => ({
+                    ...p,
+                    reviewIds: [...new Set([...p.reviewIds, word.id])],
+                  }));
                 setAdded(true);
               }}
               disabled={added}
@@ -99,6 +121,7 @@ function Token({ text, word }: { text: string; word: VocabularyItem }) {
   };
   return (
     <span
+      lang="en-GB"
       role={enabled ? 'button' : undefined}
       tabIndex={enabled ? 0 : undefined}
       className={enabled ? 'word-token active' : 'word-token'}
@@ -135,18 +158,28 @@ function Token({ text, word }: { text: string; word: VocabularyItem }) {
     </span>
   );
 }
-export function EnglishText({ text, className = '' }: { text: string; className?: string }) {
+export function EnglishText({
+  text,
+  className = '',
+  entries: supplied,
+}: {
+  text: string;
+  className?: string;
+  entries?: VocabularyItem[];
+}) {
   // Longest phrase first: “school bag” and “pencil case” are single lexical units.
-  const entries = [...lexicon].sort((a, b) => b.en.length - a.en.length);
+  const entries = [...(supplied || lexicon)].sort((a, b) => b.en.length - a.en.length);
   const pattern = new RegExp(
-    `\\b(${entries.map((w) => w.en.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})\\b`,
+    `\\b(${entries.map((w) => w.en.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/'/g, "['’]")).join('|')})\\b`,
     'gi',
   );
   const parts = text.split(pattern);
   return (
-    <span lang="en-GB" className={className}>
+    <span lang={/[а-яё]/i.test(text) ? 'ru' : 'en-GB'} className={className}>
       {parts.map((s, i) => {
-        const word = entries.find((w) => w.en.toLowerCase() === s.toLowerCase());
+        const word = entries.find(
+          (w) => w.en.toLowerCase() === s.toLowerCase().replace(/[’‘]/g, "'"),
+        );
         return word ? <Token key={i} text={s} word={word} /> : <span key={i}>{s}</span>;
       })}
     </span>

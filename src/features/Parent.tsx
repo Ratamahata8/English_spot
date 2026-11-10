@@ -1,4 +1,6 @@
-import { readerRepository } from '../services/storage';
+import { useWorkbook } from '../workbook/store';
+import { WorkbookParent } from './WorkbookParent';
+import { workbookRepository, readerRepository } from '../services/storage';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { words, lexicon, lessons } from '../lessons';
@@ -24,7 +26,12 @@ export function Parent() {
   const count = summary.learned;
   async function exportData() {
     try {
-      const bundle = { ...buildExport(), reader: await readerRepository.loadAll() };
+      await useWorkbook.getState().flush();
+      const bundle = {
+        ...buildExport(),
+        reader: await readerRepository.loadAll(),
+        workbook: await workbookRepository.loadAll(),
+      };
       const url = URL.createObjectURL(
         new Blob([JSON.stringify(bundle, null, 2)], { type: 'application/json' }),
       );
@@ -42,7 +49,7 @@ export function Parent() {
       <PageHeading
         eyebrow="Рядом с ребёнком"
         title="Родительский кабинет"
-        description="Прогресс хранится в IndexedDB этого браузера. Это не обычный кеш: закрытие вкладки его не удаляет. Экспорт включает уроки, отметки реплик и сохранённые фразы. Сделайте копию перед очисткой данных сайта."
+        description="Прогресс хранится в IndexedDB этого браузера. Это не обычный кеш: закрытие вкладки его не удаляет. Экспорт включает уроки, отметки реплик, сохранённые фразы и весь прогресс сборника. Сделайте копию перед очисткой данных сайта."
       />
       <div className="parent-stats">
         {[
@@ -139,7 +146,12 @@ export function Parent() {
                   if (f.size > 2_000_000) throw Error('Слишком большой файл.');
                   const value = JSON.parse(await f.text());
                   if (window.confirm('Заменить текущий прогресс данными из файла?')) {
+                    await useWorkbook
+                      .getState()
+                      .flush()
+                      .catch(() => {});
                     await importData(value);
+                    await useWorkbook.getState().init(true);
                     setMessage('Прогресс восстановлен.');
                   }
                 } catch (err) {
@@ -156,7 +168,12 @@ export function Parent() {
                 window.confirm('Удалить весь прогресс? Перед удалением можно экспортировать его.')
               ) {
                 try {
+                  await useWorkbook
+                    .getState()
+                    .flush()
+                    .catch(() => {});
                   await reset();
+                  await useWorkbook.getState().init(true);
                   setMessage('Прогресс сброшен.');
                 } catch {
                   setMessage('Не удалось сбросить данные.');
@@ -169,6 +186,7 @@ export function Parent() {
           <p role="status">{message}</p>
         </section>
       </div>
+      <WorkbookParent />
       <section className="panel padding spaced">
         <h2>Как устроена помощь</h2>
         <p>

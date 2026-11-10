@@ -1,0 +1,39 @@
+{
+  "stage": "foundation-and-module-1",
+  "completeWorkbook": false,
+  "sourcePdfPages": 129,
+  "sourceExercises": 313,
+  "reviewedAdaptations": 33,
+  "remainingAdaptations": 280,
+  "interactiveSteps": 110,
+  "confirmedForms": 173,
+  "lexemes": 144,
+  "multiwordForms": 19,
+  "ipaReviewed": 173,
+  "publishedFormsWithoutSource": 0,
+  "lexicalCoveragePercent": null,
+  "ocrCandidates": 944,
+  "candidateSpellingsMatchingConfirmedForms": 129,
+  "pendingOcrSpellings": 815,
+  "workbookMp3": 476,
+  "reusedPriorMp3BySha256": 100,
+  "newSynthesizedMp3": 376,
+  "totalProjectMp3": 928,
+  "skillNodes": 36,
+  "availablePreparations": 18,
+  "preparationQuestions": 36,
+  "unitTests": 39,
+  "e2eTests": 73,
+  "remaining": [
+    "280 exercise adaptations",
+    "Full page-by-page lexical review and source linkage for future modules",
+    "Complete dictionary, including all confirmed service words and inflected forms",
+    "Commercial voice rights verification or licensed replacement"
+  ],
+  "notes": [
+    "Candidate spelling counts are not word counts or lexical coverage.",
+    "PDF/scans/raw OCR are not published.",
+    "Tests are rerun on the final PR head by CI."
+  ],
+  "expressionEntries": 13
+}

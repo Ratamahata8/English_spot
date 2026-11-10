@@ -1,0 +1,7070 @@
+{
+  "lexemes": [
+    {
+      "id": "lex-d64debd942d7",
+      "lemma": "school",
+      "ru": "школа",
+      "ipa": "skuːl",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-d64debd942d7"],
+      "pronunciationText": "school"
+    },
+    {
+      "id": "lex-619d1dac1c13",
+      "lemma": "school bag",
+      "ru": "портфель",
+      "ipa": "ˈskuːl bæɡ",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-619d1dac1c13", "wf-ce213852297e"],
+      "pronunciationText": "school bag"
+    },
+    {
+      "id": "lex-e21a6b0cb193",
+      "lemma": "pen",
+      "ru": "ручка",
+      "ipa": "pen",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-e21a6b0cb193", "wf-55015dcc0231"],
+      "pronunciationText": "pen"
+    },
+    {
+      "id": "lex-13809668fb43",
+      "lemma": "pencil",
+      "ru": "карандаш",
+      "ipa": "ˈpensəl",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-13809668fb43", "wf-24f896f7408e"],
+      "pronunciationText": "pencil"
+    },
+    {
+      "id": "lex-058ce9bd95f5",
+      "lemma": "rubber",
+      "ru": "ластик",
+      "ipa": "ˈrʌbə",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-058ce9bd95f5", "wf-3908cdabeb3a"],
+      "pronunciationText": "rubber"
+    },
+    {
+      "id": "lex-5972814068a1",
+      "lemma": "ruler",
+      "ru": "линейка",
+      "ipa": "ˈruːlə",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-5972814068a1", "wf-6202c8a7fd1c"],
+      "pronunciationText": "ruler"
+    },
+    {
+      "id": "lex-92719fe0cf8c",
+      "lemma": "book",
+      "ru": "книга",
+      "ipa": "bʊk",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-92719fe0cf8c", "wf-6e317bcd6839"],
+      "pronunciationText": "book"
+    },
+    {
+      "id": "lex-3b74bc54b6c2",
+      "lemma": "pencil case",
+      "ru": "пенал",
+      "ipa": "ˈpensəl keɪs",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-3b74bc54b6c2", "wf-50ecdf5881a7"],
+      "pronunciationText": "pencil case"
+    },
+    {
+      "id": "lex-b6234d2ea0d6",
+      "lemma": "English",
+      "ru": "английский",
+      "ipa": "ˈɪŋɡlɪʃ",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-b6234d2ea0d6"],
+      "pronunciationText": "English"
+    },
+    {
+      "id": "lex-acc017392425",
+      "lemma": "Maths",
+      "ru": "математика",
+      "ipa": "mæθs",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-acc017392425"],
+      "pronunciationText": "Maths"
+    },
+    {
+      "id": "lex-bf8e5ca0b2d5",
+      "lemma": "Geography",
+      "ru": "география",
+      "ipa": "dʒiˈɒɡrəfi",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-bf8e5ca0b2d5"],
+      "pronunciationText": "Geography"
+    },
+    {
+      "id": "lex-cdf69b25a417",
+      "lemma": "PE",
+      "ru": "физкультура",
+      "ipa": "ˌpiː ˈiː",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-cdf69b25a417"],
+      "pronunciationText": "PE"
+    },
+    {
+      "id": "lex-259aa8ef98a8",
+      "lemma": "History",
+      "ru": "история",
+      "ipa": "ˈhɪstəri",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-259aa8ef98a8"],
+      "pronunciationText": "History"
+    },
+    {
+      "id": "lex-790fad4744a9",
+      "lemma": "Science",
+      "ru": "естествознание",
+      "ipa": "ˈsaɪəns",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-790fad4744a9"],
+      "pronunciationText": "Science"
+    },
+    {
+      "id": "lex-d3cec9911225",
+      "lemma": "Art",
+      "ru": "рисование",
+      "ipa": "ɑːt",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-d3cec9911225"],
+      "pronunciationText": "Art"
+    },
+    {
+      "id": "lex-80f189984e5c",
+      "lemma": "Music",
+      "ru": "музыка",
+      "ipa": "ˈmjuːzɪk",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-80f189984e5c"],
+      "pronunciationText": "Music"
+    },
+    {
+      "id": "lex-c83827727d78",
+      "lemma": "school subject",
+      "ru": "школьный предмет",
+      "ipa": "ˈskuːl ˌsʌbdʒɪkt",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-c83827727d78"],
+      "pronunciationText": "school subject"
+    },
+    {
+      "id": "lex-4cb4ea25583c",
+      "lemma": "Year",
+      "ru": "год обучения, класс",
+      "ipa": "jɪə",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-4cb4ea25583c", "wf-1c50993b009c"],
+      "pronunciationText": "Year"
+    },
+    {
+      "id": "lex-e979074ebd56",
+      "lemma": "eleven",
+      "ru": "одиннадцать",
+      "ipa": "ɪˈlevən",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-e979074ebd56"],
+      "pronunciationText": "eleven"
+    },
+    {
+      "id": "lex-d1a749ad879b",
+      "lemma": "twelve",
+      "ru": "двенадцать",
+      "ipa": "twelv",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-d1a749ad879b"],
+      "pronunciationText": "twelve"
+    },
+    {
+      "id": "lex-9ecc81f0a4b6",
+      "lemma": "thirteen",
+      "ru": "тринадцать",
+      "ipa": "ˌθɜːˈtiːn",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-9ecc81f0a4b6"],
+      "pronunciationText": "thirteen"
+    },
+    {
+      "id": "lex-fef8f41cdcd2",
+      "lemma": "fourteen",
+      "ru": "четырнадцать",
+      "ipa": "ˌfɔːˈtiːn",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-fef8f41cdcd2"],
+      "pronunciationText": "fourteen"
+    },
+    {
+      "id": "lex-c463967e5708",
+      "lemma": "fifteen",
+      "ru": "пятнадцать",
+      "ipa": "ˌfɪfˈtiːn",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-c463967e5708"],
+      "pronunciationText": "fifteen"
+    },
+    {
+      "id": "lex-f2ce341fdaa6",
+      "lemma": "sixteen",
+      "ru": "шестнадцать",
+      "ipa": "ˌsɪksˈtiːn",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-f2ce341fdaa6"],
+      "pronunciationText": "sixteen"
+    },
+    {
+      "id": "lex-2c5abdef2a0e",
+      "lemma": "seventeen",
+      "ru": "семнадцать",
+      "ipa": "ˌsevənˈtiːn",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-2c5abdef2a0e"],
+      "pronunciationText": "seventeen"
+    },
+    {
+      "id": "lex-34357b18abdd",
+      "lemma": "eighteen",
+      "ru": "восемнадцать",
+      "ipa": "ˌeɪˈtiːn",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-34357b18abdd"],
+      "pronunciationText": "eighteen"
+    },
+    {
+      "id": "lex-cde4e100efd2",
+      "lemma": "nineteen",
+      "ru": "девятнадцать",
+      "ipa": "ˌnaɪnˈtiːn",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-cde4e100efd2"],
+      "pronunciationText": "nineteen"
+    },
+    {
+      "id": "lex-7c2c4df740f7",
+      "lemma": "twenty",
+      "ru": "двадцать",
+      "ipa": "ˈtwenti",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-7c2c4df740f7"],
+      "pronunciationText": "twenty"
+    },
+    {
+      "id": "lex-7692c3ad3540",
+      "lemma": "one",
+      "ru": "один",
+      "ipa": "wʌn",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-7692c3ad3540"],
+      "pronunciationText": "one"
+    },
+    {
+      "id": "lex-3fc4ccfe7458",
+      "lemma": "two",
+      "ru": "два",
+      "ipa": "tuː",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-3fc4ccfe7458"],
+      "pronunciationText": "two"
+    },
+    {
+      "id": "lex-8b5b9db0c13d",
+      "lemma": "three",
+      "ru": "три",
+      "ipa": "θriː",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-8b5b9db0c13d"],
+      "pronunciationText": "three"
+    },
+    {
+      "id": "lex-04efaf080f5a",
+      "lemma": "four",
+      "ru": "четыре",
+      "ipa": "fɔː",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-04efaf080f5a"],
+      "pronunciationText": "four"
+    },
+    {
+      "id": "lex-222b0bd51fce",
+      "lemma": "five",
+      "ru": "пять",
+      "ipa": "faɪv",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-222b0bd51fce"],
+      "pronunciationText": "five"
+    },
+    {
+      "id": "lex-3ba8d02b16fd",
+      "lemma": "seven",
+      "ru": "семь",
+      "ipa": "ˈsevən",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-3ba8d02b16fd"],
+      "pronunciationText": "seven"
+    },
+    {
+      "id": "lex-c195d2d87562",
+      "lemma": "eight",
+      "ru": "восемь",
+      "ipa": "eɪt",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-c195d2d87562"],
+      "pronunciationText": "eight"
+    },
+    {
+      "id": "lex-edcd8e701a2d",
+      "lemma": "nine",
+      "ru": "девять",
+      "ipa": "naɪn",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-edcd8e701a2d"],
+      "pronunciationText": "nine"
+    },
+    {
+      "id": "lex-e4432baa9081",
+      "lemma": "ten",
+      "ru": "десять",
+      "ipa": "ten",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-e4432baa9081"],
+      "pronunciationText": "ten"
+    },
+    {
+      "id": "lex-de7d1b721a1e",
+      "lemma": "I",
+      "ru": "я",
+      "ipa": "aɪ",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-de7d1b721a1e", "wf-038468518ad8", "wf-2744ccd10c75"],
+      "pronunciationText": "I"
+    },
+    {
+      "id": "lex-bb0347a468d9",
+      "lemma": "you",
+      "ru": "ты, вы",
+      "ipa": "juː",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-bb0347a468d9", "wf-4d040d3f6466"],
+      "pronunciationText": "you"
+    },
+    {
+      "id": "lex-372f7e2fd2d0",
+      "lemma": "he",
+      "ru": "он",
+      "ipa": "hiː",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-372f7e2fd2d0"],
+      "pronunciationText": "he"
+    },
+    {
+      "id": "lex-2cda85e504e1",
+      "lemma": "she",
+      "ru": "она",
+      "ipa": "ʃiː",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-2cda85e504e1"],
+      "pronunciationText": "she"
+    },
+    {
+      "id": "lex-2ad8a7049d7c",
+      "lemma": "it",
+      "ru": "это, он или она — о предмете",
+      "ipa": "ɪt",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-2ad8a7049d7c", "wf-ea103d6cb5c3"],
+      "pronunciationText": "it"
+    },
+    {
+      "id": "lex-dc7c811b9561",
+      "lemma": "we",
+      "ru": "мы",
+      "ipa": "wiː",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-dc7c811b9561"],
+      "pronunciationText": "we"
+    },
+    {
+      "id": "lex-151e58a83130",
+      "lemma": "they",
+      "ru": "они",
+      "ipa": "ðeɪ",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-151e58a83130"],
+      "pronunciationText": "they"
+    },
+    {
+      "id": "lex-46599c5bb5c3",
+      "lemma": "be",
+      "ru": "быть",
+      "ipa": "biː",
+      "normalizedOnly": false,
+      "wordFormIds": [
+        "wf-ab6db599234d",
+        "wf-fa51fd49abf6",
+        "wf-ba78973ddcf9",
+        "wf-78f267c0e62e",
+        "wf-ac88c595ceb0",
+        "wf-aff7dd72161b",
+        "wf-24ceef1cb6b0",
+        "wf-dacbc48f0803",
+        "wf-7dece7d7d99e",
+        "wf-46599c5bb5c3"
+      ],
+      "pronunciationText": "be"
+    },
+    {
+      "id": "lex-749ab2c0d06c",
+      "lemma": "what",
+      "ru": "что, какой",
+      "ipa": "wɒt",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-10beaccfc7da", "wf-749ab2c0d06c"],
+      "pronunciationText": "what"
+    },
+    {
+      "id": "lex-ac0b52a2ae6e",
+      "lemma": "do",
+      "ru": "делать; вспомогательный глагол",
+      "ipa": "duː",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-df7682099c96", "wf-ac0b52a2ae6e"],
+      "pronunciationText": "do"
+    },
+    {
+      "id": "lex-193c45b52819",
+      "lemma": "have",
+      "ru": "иметь",
+      "ipa": "hæv",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-8c64c149d95d", "wf-193c45b52819", "wf-9150c74c5f92"],
+      "pronunciationText": "have"
+    },
+    {
+      "id": "lex-1eb79602411e",
+      "lemma": "this",
+      "ru": "это, этот",
+      "ipa": "ðɪs",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-1eb79602411e"],
+      "pronunciationText": "this"
+    },
+    {
+      "id": "lex-b48111c10c65",
+      "lemma": "where",
+      "ru": "где",
+      "ipa": "weə",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-b48111c10c65"],
+      "pronunciationText": "where"
+    },
+    {
+      "id": "lex-8044aae1f868",
+      "lemma": "how",
+      "ru": "как",
+      "ipa": "haʊ",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-8044aae1f868"],
+      "pronunciationText": "how"
+    },
+    {
+      "id": "lex-cba06b5736fa",
+      "lemma": "old",
+      "ru": "лет — о возрасте; старый",
+      "ipa": "əʊld",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-cba06b5736fa"],
+      "pronunciationText": "old"
+    },
+    {
+      "id": "lex-82a3537ff0db",
+      "lemma": "name",
+      "ru": "имя",
+      "ipa": "neɪm",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-82a3537ff0db"],
+      "pronunciationText": "name"
+    },
+    {
+      "id": "lex-489f719cadf9",
+      "lemma": "happy",
+      "ru": "радостный",
+      "ipa": "ˈhæpi",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-489f719cadf9"],
+      "pronunciationText": "happy"
+    },
+    {
+      "id": "lex-45c9a6614fcc",
+      "lemma": "sad",
+      "ru": "грустный",
+      "ipa": "sæd",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-45c9a6614fcc"],
+      "pronunciationText": "sad"
+    },
+    {
+      "id": "lex-cde48537ca2c",
+      "lemma": "friend",
+      "ru": "друг",
+      "ipa": "frend",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-cde48537ca2c", "wf-2e4b9cc2428b"],
+      "pronunciationText": "friend"
+    },
+    {
+      "id": "lex-775cf3abc9be",
+      "lemma": "favourite",
+      "ru": "любимый",
+      "ipa": "ˈfeɪvərɪt",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-775cf3abc9be"],
+      "pronunciationText": "favourite"
+    },
+    {
+      "id": "lex-a9491f4c1bf7",
+      "lemma": "subject",
+      "ru": "предмет в школе",
+      "ipa": "ˈsʌbdʒɪkt",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-a9491f4c1bf7", "wf-e223d8ec1e64"],
+      "pronunciationText": "subject"
+    },
+    {
+      "id": "lex-b1d6b91b67c2",
+      "lemma": "at",
+      "ru": "в — о месте",
+      "ipa": "æt",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-b1d6b91b67c2"],
+      "pronunciationText": "at"
+    },
+    {
+      "id": "lex-582967534d0f",
+      "lemma": "in",
+      "ru": "в, внутри",
+      "ipa": "ɪn",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-582967534d0f"],
+      "pronunciationText": "in"
+    },
+    {
+      "id": "lex-6201111b83a0",
+      "lemma": "and",
+      "ru": "и",
+      "ipa": "ænd",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-6201111b83a0"],
+      "pronunciationText": "and"
+    },
+    {
+      "id": "lex-ca978112ca1b",
+      "lemma": "a",
+      "ru": "один предмет, впервые называемый",
+      "ipa": "ə, eɪ",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-ca978112ca1b"],
+      "pronunciationText": "a"
+    },
+    {
+      "id": "lex-b9776d7ddf45",
+      "lemma": "the",
+      "ru": "тот самый, уже известный предмет",
+      "ipa": "ðə",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-b9776d7ddf45"],
+      "pronunciationText": "the"
+    },
+    {
+      "id": "lex-e1bf1560b1c2",
+      "lemma": "is not",
+      "ru": "не является; не находится",
+      "ipa": "ɪz nɒt",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-e1bf1560b1c2"],
+      "pronunciationText": "is not"
+    },
+    {
+      "id": "lex-0497db517ef0",
+      "lemma": "got",
+      "ru": "часть have got — иметь",
+      "ipa": "ɡɒt",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-0497db517ef0"],
+      "pronunciationText": "got"
+    },
+    {
+      "id": "lex-75de3c3c7bec",
+      "lemma": "have got",
+      "ru": "иметь, у кого-то есть",
+      "ipa": "hæv ɡɒt",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-75de3c3c7bec"],
+      "pronunciationText": "have got"
+    },
+    {
+      "id": "lex-cab2644828bc",
+      "lemma": "like",
+      "ru": "нравиться",
+      "ipa": "laɪk",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-cab2644828bc"],
+      "pronunciationText": "like"
+    },
+    {
+      "id": "lex-3316348dbadf",
+      "lemma": "read",
+      "ru": "читать",
+      "ipa": "riːd",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-3316348dbadf"],
+      "pronunciationText": "read"
+    },
+    {
+      "id": "lex-10fd874b68da",
+      "lemma": "write",
+      "ru": "писать",
+      "ipa": "raɪt",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-10fd874b68da"],
+      "pronunciationText": "write"
+    },
+    {
+      "id": "lex-6f8860eb5103",
+      "lemma": "listen",
+      "ru": "слушать",
+      "ipa": "ˈlɪsən",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-6f8860eb5103"],
+      "pronunciationText": "listen"
+    },
+    {
+      "id": "lex-6342d0648a74",
+      "lemma": "sing",
+      "ru": "петь",
+      "ipa": "sɪŋ",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-6342d0648a74"],
+      "pronunciationText": "sing"
+    },
+    {
+      "id": "lex-acba25512100",
+      "lemma": "run",
+      "ru": "бегать",
+      "ipa": "rʌn",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-acba25512100"],
+      "pronunciationText": "run"
+    },
+    {
+      "id": "lex-6bdaf554e420",
+      "lemma": "jump",
+      "ru": "прыгать",
+      "ipa": "dʒʌmp",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-6bdaf554e420"],
+      "pronunciationText": "jump"
+    },
+    {
+      "id": "lex-50f7becde477",
+      "lemma": "draw",
+      "ru": "рисовать",
+      "ipa": "drɔː",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-50f7becde477"],
+      "pronunciationText": "draw"
+    },
+    {
+      "id": "lex-aba4cc9b8af8",
+      "lemma": "play",
+      "ru": "играть",
+      "ipa": "pleɪ",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-aba4cc9b8af8"],
+      "pronunciationText": "play"
+    },
+    {
+      "id": "lex-6de03f9e8221",
+      "lemma": "watch films",
+      "ru": "смотреть фильмы",
+      "ipa": "wɒtʃ fɪlmz",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-6de03f9e8221"],
+      "pronunciationText": "watch films"
+    },
+    {
+      "id": "lex-9f584196e7fe",
+      "lemma": "can",
+      "ru": "уметь, мочь",
+      "ipa": "kæn",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-9f584196e7fe"],
+      "pronunciationText": "can"
+    },
+    {
+      "id": "lex-2348f9987442",
+      "lemma": "open",
+      "ru": "открывать",
+      "ipa": "ˈəʊpən",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-2348f9987442"],
+      "pronunciationText": "open"
+    },
+    {
+      "id": "lex-310ff200149b",
+      "lemma": "close",
+      "ru": "закрывать",
+      "ipa": "kləʊz",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-310ff200149b"],
+      "pronunciationText": "close"
+    },
+    {
+      "id": "lex-8cceaf5c89e6",
+      "lemma": "clap",
+      "ru": "хлопать",
+      "ipa": "klæp",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-8cceaf5c89e6"],
+      "pronunciationText": "clap"
+    },
+    {
+      "id": "lex-1b001706a418",
+      "lemma": "hand",
+      "ru": "кисть руки",
+      "ipa": "hænd",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-45a229d57d35", "wf-1b001706a418"],
+      "pronunciationText": "hand"
+    },
+    {
+      "id": "lex-43f7a37eecd4",
+      "lemma": "stand up",
+      "ru": "встать",
+      "ipa": "stænd ʌp",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-43f7a37eecd4"],
+      "pronunciationText": "stand up"
+    },
+    {
+      "id": "lex-778443b4b10e",
+      "lemma": "sit down",
+      "ru": "сесть",
+      "ipa": "sɪt daʊn",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-778443b4b10e"],
+      "pronunciationText": "sit down"
+    },
+    {
+      "id": "lex-e0afcdbf6ad4",
+      "lemma": "stamp",
+      "ru": "топать",
+      "ipa": "stæmp",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-e0afcdbf6ad4"],
+      "pronunciationText": "stamp"
+    },
+    {
+      "id": "lex-22e4f6912a69",
+      "lemma": "foot",
+      "ru": "ступня",
+      "ipa": "fʊt",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-a5add1365529", "wf-22e4f6912a69"],
+      "pronunciationText": "foot"
+    },
+    {
+      "id": "lex-34707c3f40df",
+      "lemma": "egg",
+      "ru": "яйцо",
+      "ipa": "eɡ",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-34707c3f40df"],
+      "pronunciationText": "egg"
+    },
+    {
+      "id": "lex-0e895c323cc7",
+      "lemma": "clever",
+      "ru": "умный",
+      "ipa": "ˈklevə",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-0e895c323cc7"],
+      "pronunciationText": "clever"
+    },
+    {
+      "id": "lex-106a5842fc5f",
+      "lemma": "help",
+      "ru": "помогать",
+      "ipa": "help",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-106a5842fc5f"],
+      "pronunciationText": "help"
+    },
+    {
+      "id": "lex-2998b3232d29",
+      "lemma": "get",
+      "ru": "взять — в команде; получать",
+      "ipa": "ɡet",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-2998b3232d29"],
+      "pronunciationText": "get"
+    },
+    {
+      "id": "lex-8a798890fe93",
+      "lemma": "yes",
+      "ru": "да",
+      "ipa": "jes",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-8a798890fe93"],
+      "pronunciationText": "yes"
+    },
+    {
+      "id": "lex-c5052532c220",
+      "lemma": "bed",
+      "ru": "кровать",
+      "ipa": "bed",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-c5052532c220"],
+      "pronunciationText": "bed"
+    },
+    {
+      "id": "lex-bbba57318f71",
+      "lemma": "pet",
+      "ru": "питомец",
+      "ipa": "pet",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-bbba57318f71"],
+      "pronunciationText": "pet"
+    },
+    {
+      "id": "lex-62cb81b5904a",
+      "lemma": "bee",
+      "ru": "пчела",
+      "ipa": "biː",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-62cb81b5904a"],
+      "pronunciationText": "bee"
+    },
+    {
+      "id": "lex-b1f51a511f1d",
+      "lemma": "red",
+      "ru": "красный",
+      "ipa": "red",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-b1f51a511f1d"],
+      "pronunciationText": "red"
+    },
+    {
+      "id": "lex-dc9c5edb8b2d",
+      "lemma": "tree",
+      "ru": "дерево",
+      "ipa": "triː",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-dc9c5edb8b2d"],
+      "pronunciationText": "tree"
+    },
+    {
+      "id": "lex-aa304b5d1d72",
+      "lemma": "Russian",
+      "ru": "русский язык",
+      "ipa": "ˈrʌʃən",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-aa304b5d1d72"],
+      "pronunciationText": "Russian"
+    },
+    {
+      "id": "lex-d70afca61520",
+      "lemma": "Reading",
+      "ru": "чтение — школьный предмет",
+      "ipa": "ˈriːdɪŋ",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-d70afca61520"],
+      "pronunciationText": "Reading"
+    },
+    {
+      "id": "lex-238d7145e500",
+      "lemma": "Nature Study",
+      "ru": "окружающий мир",
+      "ipa": "ˈneɪtʃə ˌstʌdi",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-238d7145e500"],
+      "pronunciationText": "Nature Study"
+    },
+    {
+      "id": "lex-42781526b743",
+      "lemma": "Computer Study",
+      "ru": "информатика",
+      "ipa": "kəmˈpjuːtə ˌstʌdi",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-42781526b743"],
+      "pronunciationText": "Computer Study"
+    },
+    {
+      "id": "lex-1d7906c798c9",
+      "lemma": "Handicraft",
+      "ru": "труд, рукоделие",
+      "ipa": "ˈhændikrɑːft",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-1d7906c798c9"],
+      "pronunciationText": "Handicraft"
+    },
+    {
+      "id": "lex-e971c330aab8",
+      "lemma": "ice cream",
+      "ru": "мороженое",
+      "ipa": "ˌaɪs ˈkriːm",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-e971c330aab8"],
+      "pronunciationText": "ice cream"
+    },
+    {
+      "id": "lex-54ad3893e738",
+      "lemma": "tree house",
+      "ru": "домик на дереве",
+      "ipa": "ˈtriː haʊs",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-54ad3893e738"],
+      "pronunciationText": "tree house"
+    },
+    {
+      "id": "lex-bb3c78a5ebce",
+      "lemma": "orange juice",
+      "ru": "апельсиновый сок",
+      "ipa": "ˈɒrɪndʒ dʒuːs",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-bb3c78a5ebce"],
+      "pronunciationText": "orange juice"
+    },
+    {
+      "id": "lex-f6bc36134480",
+      "lemma": "teddy bear",
+      "ru": "плюшевый мишка",
+      "ipa": "ˈtedi beə",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-f6bc36134480"],
+      "pronunciationText": "teddy bear"
+    },
+    {
+      "id": "lex-3e7a939e96c4",
+      "lemma": "phone number",
+      "ru": "номер телефона",
+      "ipa": "ˈfəʊn ˌnʌmbə",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-3e7a939e96c4"],
+      "pronunciationText": "phone number"
+    },
+    {
+      "id": "lex-3d7eb3d3dab1",
+      "lemma": "chair",
+      "ru": "стул",
+      "ipa": "tʃeə",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-3d7eb3d3dab1"],
+      "pronunciationText": "chair"
+    },
+    {
+      "id": "lex-aa9e9b5c907d",
+      "lemma": "see",
+      "ru": "видеть",
+      "ipa": "siː",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-aa9e9b5c907d"],
+      "pronunciationText": "see"
+    },
+    {
+      "id": "lex-2cf24dba5fb0",
+      "lemma": "hello",
+      "ru": "привет",
+      "ipa": "həˈləʊ",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-2cf24dba5fb0"],
+      "pronunciationText": "hello"
+    },
+    {
+      "id": "lex-75857a458999",
+      "lemma": "from",
+      "ru": "из, откуда",
+      "ipa": "frɒm",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-75857a458999"],
+      "pronunciationText": "from"
+    },
+    {
+      "id": "lex-6089854c94ca",
+      "lemma": "London",
+      "ru": "Лондон",
+      "ipa": "ˈlʌndən",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-6089854c94ca"],
+      "pronunciationText": "London"
+    },
+    {
+      "id": "lex-cdc299378871",
+      "lemma": "but",
+      "ru": "но",
+      "ipa": "bʌt",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-cdc299378871"],
+      "pronunciationText": "but"
+    },
+    {
+      "id": "lex-4c6a4839f83d",
+      "lemma": "very",
+      "ru": "очень",
+      "ipa": "ˈveri",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-4c6a4839f83d"],
+      "pronunciationText": "very"
+    },
+    {
+      "id": "lex-a7722b765d15",
+      "lemma": "well",
+      "ru": "хорошо",
+      "ipa": "wel",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-a7722b765d15"],
+      "pronunciationText": "well"
+    },
+    {
+      "id": "lex-6382deaf1f5d",
+      "lemma": "football",
+      "ru": "футбол",
+      "ipa": "ˈfʊtbɔːl",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-6382deaf1f5d"],
+      "pronunciationText": "football"
+    },
+    {
+      "id": "lex-94c05f1c45a1",
+      "lemma": "too",
+      "ru": "тоже",
+      "ipa": "tuː",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-94c05f1c45a1"],
+      "pronunciationText": "too"
+    },
+    {
+      "id": "lex-77af778b51ab",
+      "lemma": "cat",
+      "ru": "кот",
+      "ipa": "kæt",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-77af778b51ab"],
+      "pronunciationText": "cat"
+    },
+    {
+      "id": "lex-a4262e1c9bcb",
+      "lemma": "about",
+      "ru": "о; в what about you — а у тебя?",
+      "ipa": "əˈbaʊt",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-a4262e1c9bcb"],
+      "pronunciationText": "about"
+    },
+    {
+      "id": "lex-686f746a95b6",
+      "lemma": "love",
+      "ru": "любовь; с любовью — в конце письма",
+      "ipa": "lʌv",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-686f746a95b6"],
+      "pronunciationText": "love"
+    },
+    {
+      "id": "lex-55579b557896",
+      "lemma": "Anna",
+      "ru": "Анна",
+      "ipa": "ˈænə",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-55579b557896"],
+      "pronunciationText": "Anna"
+    },
+    {
+      "id": "lex-e1608f75c5d7",
+      "lemma": "Tom",
+      "ru": "Том",
+      "ipa": "tɒm",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-e1608f75c5d7"],
+      "pronunciationText": "Tom"
+    },
+    {
+      "id": "lex-383ef3692834",
+      "lemma": "plus",
+      "ru": "плюс",
+      "ipa": "plʌs",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-383ef3692834"],
+      "pronunciationText": "plus"
+    },
+    {
+      "id": "lex-ea325d761f98",
+      "lemma": "an",
+      "ru": "артикль перед гласным звуком",
+      "ipa": "ən, æn",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-ea325d761f98"],
+      "pronunciationText": "an"
+    },
+    {
+      "id": "lex-a50f18c9639c",
+      "lemma": "come with me",
+      "ru": "пойдём со мной",
+      "ipa": "kʌm wɪð miː",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-a50f18c9639c"],
+      "pronunciationText": "come with me"
+    },
+    {
+      "id": "lex-923f8edc066c",
+      "lemma": "what about you",
+      "ru": "а у тебя, а ты?",
+      "ipa": "wɒt əˈbaʊt juː",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-923f8edc066c"],
+      "pronunciationText": "what about you"
+    },
+    {
+      "id": "lex-4cb0b250c625",
+      "lemma": "ice",
+      "ru": "лёд; часть ice cream — мороженое",
+      "ipa": "aɪs",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-4cb0b250c625"],
+      "pronunciationText": "ice"
+    },
+    {
+      "id": "lex-f3a22c1ce8e0",
+      "lemma": "cream",
+      "ru": "сливки; часть ice cream — мороженое",
+      "ipa": "kriːm",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-f3a22c1ce8e0"],
+      "pronunciationText": "cream"
+    },
+    {
+      "id": "lex-c018019b6a8b",
+      "lemma": "bag",
+      "ru": "сумка, портфель",
+      "ipa": "bæɡ",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-c018019b6a8b"],
+      "pronunciationText": "bag"
+    },
+    {
+      "id": "lex-bbfcd4160a1e",
+      "lemma": "case",
+      "ru": "футляр, пенал — в pencil case",
+      "ipa": "keɪs",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-bbfcd4160a1e"],
+      "pronunciationText": "case"
+    },
+    {
+      "id": "lex-1b4c9133da73",
+      "lemma": "orange",
+      "ru": "апельсин",
+      "ipa": "ˈɒrɪndʒ",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-1b4c9133da73"],
+      "pronunciationText": "orange"
+    },
+    {
+      "id": "lex-a5ad89565607",
+      "lemma": "juice",
+      "ru": "сок",
+      "ipa": "dʒuːs",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-a5ad89565607"],
+      "pronunciationText": "juice"
+    },
+    {
+      "id": "lex-8de85d6d6394",
+      "lemma": "teddy",
+      "ru": "плюшевый мишка",
+      "ipa": "ˈtedi",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-8de85d6d6394"],
+      "pronunciationText": "teddy"
+    },
+    {
+      "id": "lex-bc98bb50e809",
+      "lemma": "bear",
+      "ru": "медведь; в teddy bear — мишка",
+      "ipa": "beə",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-bc98bb50e809"],
+      "pronunciationText": "bear"
+    },
+    {
+      "id": "lex-d6e21286621a",
+      "lemma": "house",
+      "ru": "дом",
+      "ipa": "haʊs",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-d6e21286621a"],
+      "pronunciationText": "house"
+    },
+    {
+      "id": "lex-45569da57f4b",
+      "lemma": "phone",
+      "ru": "телефон",
+      "ipa": "fəʊn",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-45569da57f4b"],
+      "pronunciationText": "phone"
+    },
+    {
+      "id": "lex-12886f9d0005",
+      "lemma": "number",
+      "ru": "номер, число",
+      "ipa": "ˈnʌmbə",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-12886f9d0005"],
+      "pronunciationText": "number"
+    },
+    {
+      "id": "lex-d37a24b801c6",
+      "lemma": "stand",
+      "ru": "стоять; stand up — встань",
+      "ipa": "stænd",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-d37a24b801c6"],
+      "pronunciationText": "stand"
+    },
+    {
+      "id": "lex-75a288c0d689",
+      "lemma": "up",
+      "ru": "вверх; часть stand up",
+      "ipa": "ʌp",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-75a288c0d689"],
+      "pronunciationText": "up"
+    },
+    {
+      "id": "lex-584178e5e351",
+      "lemma": "sit",
+      "ru": "садиться; sit down — сядь",
+      "ipa": "sɪt",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-584178e5e351"],
+      "pronunciationText": "sit"
+    },
+    {
+      "id": "lex-908aec4512d8",
+      "lemma": "down",
+      "ru": "вниз; часть sit down",
+      "ipa": "daʊn",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-908aec4512d8"],
+      "pronunciationText": "down"
+    },
+    {
+      "id": "lex-baed83162394",
+      "lemma": "watch",
+      "ru": "смотреть",
+      "ipa": "wɒtʃ",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-baed83162394"],
+      "pronunciationText": "watch"
+    },
+    {
+      "id": "lex-d0607f7ad262",
+      "lemma": "film",
+      "ru": "фильм",
+      "ipa": "fɪlm",
+      "normalizedOnly": true,
+      "wordFormIds": ["wf-db944067d6c7"],
+      "pronunciationText": "film"
+    },
+    {
+      "id": "lex-0695b563acde",
+      "lemma": "with",
+      "ru": "с",
+      "ipa": "wɪð",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-0695b563acde"],
+      "pronunciationText": "with"
+    },
+    {
+      "id": "lex-254bb97b57f1",
+      "lemma": "not",
+      "ru": "не",
+      "ipa": "nɒt",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-254bb97b57f1"],
+      "pronunciationText": "not"
+    },
+    {
+      "id": "lex-2968ec9d80f1",
+      "lemma": "has got",
+      "ru": "у него или у неё есть",
+      "ipa": "hæz ɡɒt",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-2968ec9d80f1"],
+      "pronunciationText": "has got"
+    }
+  ],
+  "pronunciations": [
+    {
+      "id": "pron-wf-d64debd942d7",
+      "wordFormId": "wf-d64debd942d7",
+      "ipa": "skuːl",
+      "dialect": "en-GB",
+      "audioText": "school",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-619d1dac1c13",
+      "wordFormId": "wf-619d1dac1c13",
+      "ipa": "ˈskuːl bæɡ",
+      "dialect": "en-GB",
+      "audioText": "school bag",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-e21a6b0cb193",
+      "wordFormId": "wf-e21a6b0cb193",
+      "ipa": "pen",
+      "dialect": "en-GB",
+      "audioText": "pen",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-13809668fb43",
+      "wordFormId": "wf-13809668fb43",
+      "ipa": "ˈpensəl",
+      "dialect": "en-GB",
+      "audioText": "pencil",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-058ce9bd95f5",
+      "wordFormId": "wf-058ce9bd95f5",
+      "ipa": "ˈrʌbə",
+      "dialect": "en-GB",
+      "audioText": "rubber",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-5972814068a1",
+      "wordFormId": "wf-5972814068a1",
+      "ipa": "ˈruːlə",
+      "dialect": "en-GB",
+      "audioText": "ruler",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-92719fe0cf8c",
+      "wordFormId": "wf-92719fe0cf8c",
+      "ipa": "bʊk",
+      "dialect": "en-GB",
+      "audioText": "book",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-3b74bc54b6c2",
+      "wordFormId": "wf-3b74bc54b6c2",
+      "ipa": "ˈpensəl keɪs",
+      "dialect": "en-GB",
+      "audioText": "pencil case",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-b6234d2ea0d6",
+      "wordFormId": "wf-b6234d2ea0d6",
+      "ipa": "ˈɪŋɡlɪʃ",
+      "dialect": "en-GB",
+      "audioText": "English",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-acc017392425",
+      "wordFormId": "wf-acc017392425",
+      "ipa": "mæθs",
+      "dialect": "en-GB",
+      "audioText": "Maths",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-bf8e5ca0b2d5",
+      "wordFormId": "wf-bf8e5ca0b2d5",
+      "ipa": "dʒiˈɒɡrəfi",
+      "dialect": "en-GB",
+      "audioText": "Geography",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-cdf69b25a417",
+      "wordFormId": "wf-cdf69b25a417",
+      "ipa": "ˌpiː ˈiː",
+      "dialect": "en-GB",
+      "audioText": "PE",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-259aa8ef98a8",
+      "wordFormId": "wf-259aa8ef98a8",
+      "ipa": "ˈhɪstəri",
+      "dialect": "en-GB",
+      "audioText": "History",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-790fad4744a9",
+      "wordFormId": "wf-790fad4744a9",
+      "ipa": "ˈsaɪəns",
+      "dialect": "en-GB",
+      "audioText": "Science",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-d3cec9911225",
+      "wordFormId": "wf-d3cec9911225",
+      "ipa": "ɑːt",
+      "dialect": "en-GB",
+      "audioText": "Art",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-80f189984e5c",
+      "wordFormId": "wf-80f189984e5c",
+      "ipa": "ˈmjuːzɪk",
+      "dialect": "en-GB",
+      "audioText": "Music",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-c83827727d78",
+      "wordFormId": "wf-c83827727d78",
+      "ipa": "ˈskuːl ˌsʌbdʒɪkt",
+      "dialect": "en-GB",
+      "audioText": "school subject",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-4cb4ea25583c",
+      "wordFormId": "wf-4cb4ea25583c",
+      "ipa": "jɪə",
+      "dialect": "en-GB",
+      "audioText": "Year",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-e979074ebd56",
+      "wordFormId": "wf-e979074ebd56",
+      "ipa": "ɪˈlevən",
+      "dialect": "en-GB",
+      "audioText": "eleven",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-d1a749ad879b",
+      "wordFormId": "wf-d1a749ad879b",
+      "ipa": "twelv",
+      "dialect": "en-GB",
+      "audioText": "twelve",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-9ecc81f0a4b6",
+      "wordFormId": "wf-9ecc81f0a4b6",
+      "ipa": "ˌθɜːˈtiːn",
+      "dialect": "en-GB",
+      "audioText": "thirteen",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-fef8f41cdcd2",
+      "wordFormId": "wf-fef8f41cdcd2",
+      "ipa": "ˌfɔːˈtiːn",
+      "dialect": "en-GB",
+      "audioText": "fourteen",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-c463967e5708",
+      "wordFormId": "wf-c463967e5708",
+      "ipa": "ˌfɪfˈtiːn",
+      "dialect": "en-GB",
+      "audioText": "fifteen",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-f2ce341fdaa6",
+      "wordFormId": "wf-f2ce341fdaa6",
+      "ipa": "ˌsɪksˈtiːn",
+      "dialect": "en-GB",
+      "audioText": "sixteen",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-2c5abdef2a0e",
+      "wordFormId": "wf-2c5abdef2a0e",
+      "ipa": "ˌsevənˈtiːn",
+      "dialect": "en-GB",
+      "audioText": "seventeen",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-34357b18abdd",
+      "wordFormId": "wf-34357b18abdd",
+      "ipa": "ˌeɪˈtiːn",
+      "dialect": "en-GB",
+      "audioText": "eighteen",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-cde4e100efd2",
+      "wordFormId": "wf-cde4e100efd2",
+      "ipa": "ˌnaɪnˈtiːn",
+      "dialect": "en-GB",
+      "audioText": "nineteen",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-7c2c4df740f7",
+      "wordFormId": "wf-7c2c4df740f7",
+      "ipa": "ˈtwenti",
+      "dialect": "en-GB",
+      "audioText": "twenty",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-7692c3ad3540",
+      "wordFormId": "wf-7692c3ad3540",
+      "ipa": "wʌn",
+      "dialect": "en-GB",
+      "audioText": "one",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-3fc4ccfe7458",
+      "wordFormId": "wf-3fc4ccfe7458",
+      "ipa": "tuː",
+      "dialect": "en-GB",
+      "audioText": "two",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-8b5b9db0c13d",
+      "wordFormId": "wf-8b5b9db0c13d",
+      "ipa": "θriː",
+      "dialect": "en-GB",
+      "audioText": "three",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-04efaf080f5a",
+      "wordFormId": "wf-04efaf080f5a",
+      "ipa": "fɔː",
+      "dialect": "en-GB",
+      "audioText": "four",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-222b0bd51fce",
+      "wordFormId": "wf-222b0bd51fce",
+      "ipa": "faɪv",
+      "dialect": "en-GB",
+      "audioText": "five",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-3ba8d02b16fd",
+      "wordFormId": "wf-3ba8d02b16fd",
+      "ipa": "ˈsevən",
+      "dialect": "en-GB",
+      "audioText": "seven",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-c195d2d87562",
+      "wordFormId": "wf-c195d2d87562",
+      "ipa": "eɪt",
+      "dialect": "en-GB",
+      "audioText": "eight",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-edcd8e701a2d",
+      "wordFormId": "wf-edcd8e701a2d",
+      "ipa": "naɪn",
+      "dialect": "en-GB",
+      "audioText": "nine",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-e4432baa9081",
+      "wordFormId": "wf-e4432baa9081",
+      "ipa": "ten",
+      "dialect": "en-GB",
+      "audioText": "ten",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-55015dcc0231",
+      "wordFormId": "wf-55015dcc0231",
+      "ipa": "penz",
+      "dialect": "en-GB",
+      "audioText": "pens",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-6e317bcd6839",
+      "wordFormId": "wf-6e317bcd6839",
+      "ipa": "bʊks",
+      "dialect": "en-GB",
+      "audioText": "books",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-3908cdabeb3a",
+      "wordFormId": "wf-3908cdabeb3a",
+      "ipa": "ˈrʌbəz",
+      "dialect": "en-GB",
+      "audioText": "rubbers",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-6202c8a7fd1c",
+      "wordFormId": "wf-6202c8a7fd1c",
+      "ipa": "ˈruːləz",
+      "dialect": "en-GB",
+      "audioText": "rulers",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-24f896f7408e",
+      "wordFormId": "wf-24f896f7408e",
+      "ipa": "ˈpensəlz",
+      "dialect": "en-GB",
+      "audioText": "pencils",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-50ecdf5881a7",
+      "wordFormId": "wf-50ecdf5881a7",
+      "ipa": "ˈpensəl keɪsɪz",
+      "dialect": "en-GB",
+      "audioText": "pencil cases",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-de7d1b721a1e",
+      "wordFormId": "wf-de7d1b721a1e",
+      "ipa": "aɪ",
+      "dialect": "en-GB",
+      "audioText": "I",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-bb0347a468d9",
+      "wordFormId": "wf-bb0347a468d9",
+      "ipa": "juː",
+      "dialect": "en-GB",
+      "audioText": "you",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-372f7e2fd2d0",
+      "wordFormId": "wf-372f7e2fd2d0",
+      "ipa": "hiː",
+      "dialect": "en-GB",
+      "audioText": "he",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-2cda85e504e1",
+      "wordFormId": "wf-2cda85e504e1",
+      "ipa": "ʃiː",
+      "dialect": "en-GB",
+      "audioText": "she",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-2ad8a7049d7c",
+      "wordFormId": "wf-2ad8a7049d7c",
+      "ipa": "ɪt",
+      "dialect": "en-GB",
+      "audioText": "it",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-dc7c811b9561",
+      "wordFormId": "wf-dc7c811b9561",
+      "ipa": "wiː",
+      "dialect": "en-GB",
+      "audioText": "we",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-151e58a83130",
+      "wordFormId": "wf-151e58a83130",
+      "ipa": "ðeɪ",
+      "dialect": "en-GB",
+      "audioText": "they",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-ab6db599234d",
+      "wordFormId": "wf-ab6db599234d",
+      "ipa": "æm",
+      "dialect": "en-GB",
+      "audioText": "am",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-fa51fd49abf6",
+      "wordFormId": "wf-fa51fd49abf6",
+      "ipa": "ɪz",
+      "dialect": "en-GB",
+      "audioText": "is",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-ba78973ddcf9",
+      "wordFormId": "wf-ba78973ddcf9",
+      "ipa": "ɑː",
+      "dialect": "en-GB",
+      "audioText": "are",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-78f267c0e62e",
+      "wordFormId": "wf-78f267c0e62e",
+      "ipa": "aɪm",
+      "dialect": "en-GB",
+      "audioText": "I'm",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-ac88c595ceb0",
+      "wordFormId": "wf-ac88c595ceb0",
+      "ipa": "hiːz",
+      "dialect": "en-GB",
+      "audioText": "he's",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-aff7dd72161b",
+      "wordFormId": "wf-aff7dd72161b",
+      "ipa": "ʃiːz",
+      "dialect": "en-GB",
+      "audioText": "she's",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-24ceef1cb6b0",
+      "wordFormId": "wf-24ceef1cb6b0",
+      "ipa": "ɪts",
+      "dialect": "en-GB",
+      "audioText": "it's",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-dacbc48f0803",
+      "wordFormId": "wf-dacbc48f0803",
+      "ipa": "ðeə",
+      "dialect": "en-GB",
+      "audioText": "they're",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-7dece7d7d99e",
+      "wordFormId": "wf-7dece7d7d99e",
+      "ipa": "jʊə",
+      "dialect": "en-GB",
+      "audioText": "you're",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-10beaccfc7da",
+      "wordFormId": "wf-10beaccfc7da",
+      "ipa": "wɒts",
+      "dialect": "en-GB",
+      "audioText": "what's",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-df7682099c96",
+      "wordFormId": "wf-df7682099c96",
+      "ipa": "dəʊnt",
+      "dialect": "en-GB",
+      "audioText": "don't",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-8c64c149d95d",
+      "wordFormId": "wf-8c64c149d95d",
+      "ipa": "aɪv",
+      "dialect": "en-GB",
+      "audioText": "I've",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-038468518ad8",
+      "wordFormId": "wf-038468518ad8",
+      "ipa": "maɪ",
+      "dialect": "en-GB",
+      "audioText": "my",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-4d040d3f6466",
+      "wordFormId": "wf-4d040d3f6466",
+      "ipa": "jɔː",
+      "dialect": "en-GB",
+      "audioText": "your",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-1eb79602411e",
+      "wordFormId": "wf-1eb79602411e",
+      "ipa": "ðɪs",
+      "dialect": "en-GB",
+      "audioText": "this",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-749ab2c0d06c",
+      "wordFormId": "wf-749ab2c0d06c",
+      "ipa": "wɒt",
+      "dialect": "en-GB",
+      "audioText": "what",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-b48111c10c65",
+      "wordFormId": "wf-b48111c10c65",
+      "ipa": "weə",
+      "dialect": "en-GB",
+      "audioText": "where",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-8044aae1f868",
+      "wordFormId": "wf-8044aae1f868",
+      "ipa": "haʊ",
+      "dialect": "en-GB",
+      "audioText": "how",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-cba06b5736fa",
+      "wordFormId": "wf-cba06b5736fa",
+      "ipa": "əʊld",
+      "dialect": "en-GB",
+      "audioText": "old",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-82a3537ff0db",
+      "wordFormId": "wf-82a3537ff0db",
+      "ipa": "neɪm",
+      "dialect": "en-GB",
+      "audioText": "name",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-489f719cadf9",
+      "wordFormId": "wf-489f719cadf9",
+      "ipa": "ˈhæpi",
+      "dialect": "en-GB",
+      "audioText": "happy",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-45c9a6614fcc",
+      "wordFormId": "wf-45c9a6614fcc",
+      "ipa": "sæd",
+      "dialect": "en-GB",
+      "audioText": "sad",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-cde48537ca2c",
+      "wordFormId": "wf-cde48537ca2c",
+      "ipa": "frend",
+      "dialect": "en-GB",
+      "audioText": "friend",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-775cf3abc9be",
+      "wordFormId": "wf-775cf3abc9be",
+      "ipa": "ˈfeɪvərɪt",
+      "dialect": "en-GB",
+      "audioText": "favourite",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-a9491f4c1bf7",
+      "wordFormId": "wf-a9491f4c1bf7",
+      "ipa": "ˈsʌbdʒɪkt",
+      "dialect": "en-GB",
+      "audioText": "subject",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-e223d8ec1e64",
+      "wordFormId": "wf-e223d8ec1e64",
+      "ipa": "ˈsʌbdʒɪkts",
+      "dialect": "en-GB",
+      "audioText": "subjects",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-1c50993b009c",
+      "wordFormId": "wf-1c50993b009c",
+      "ipa": "jɪəz",
+      "dialect": "en-GB",
+      "audioText": "years",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-b1d6b91b67c2",
+      "wordFormId": "wf-b1d6b91b67c2",
+      "ipa": "æt",
+      "dialect": "en-GB",
+      "audioText": "at",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-582967534d0f",
+      "wordFormId": "wf-582967534d0f",
+      "ipa": "ɪn",
+      "dialect": "en-GB",
+      "audioText": "in",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-6201111b83a0",
+      "wordFormId": "wf-6201111b83a0",
+      "ipa": "ænd",
+      "dialect": "en-GB",
+      "audioText": "and",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-ca978112ca1b",
+      "wordFormId": "wf-ca978112ca1b",
+      "ipa": "ə, eɪ",
+      "dialect": "en-GB",
+      "audioText": "a",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-b9776d7ddf45",
+      "wordFormId": "wf-b9776d7ddf45",
+      "ipa": "ðə",
+      "dialect": "en-GB",
+      "audioText": "the",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-e1bf1560b1c2",
+      "wordFormId": "wf-e1bf1560b1c2",
+      "ipa": "ɪz nɒt",
+      "dialect": "en-GB",
+      "audioText": "is not",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-193c45b52819",
+      "wordFormId": "wf-193c45b52819",
+      "ipa": "hæv",
+      "dialect": "en-GB",
+      "audioText": "have",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-0497db517ef0",
+      "wordFormId": "wf-0497db517ef0",
+      "ipa": "ɡɒt",
+      "dialect": "en-GB",
+      "audioText": "got",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-75de3c3c7bec",
+      "wordFormId": "wf-75de3c3c7bec",
+      "ipa": "hæv ɡɒt",
+      "dialect": "en-GB",
+      "audioText": "have got",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-cab2644828bc",
+      "wordFormId": "wf-cab2644828bc",
+      "ipa": "laɪk",
+      "dialect": "en-GB",
+      "audioText": "like",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-3316348dbadf",
+      "wordFormId": "wf-3316348dbadf",
+      "ipa": "riːd",
+      "dialect": "en-GB",
+      "audioText": "read",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-10fd874b68da",
+      "wordFormId": "wf-10fd874b68da",
+      "ipa": "raɪt",
+      "dialect": "en-GB",
+      "audioText": "write",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-6f8860eb5103",
+      "wordFormId": "wf-6f8860eb5103",
+      "ipa": "ˈlɪsən",
+      "dialect": "en-GB",
+      "audioText": "listen",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-6342d0648a74",
+      "wordFormId": "wf-6342d0648a74",
+      "ipa": "sɪŋ",
+      "dialect": "en-GB",
+      "audioText": "sing",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-acba25512100",
+      "wordFormId": "wf-acba25512100",
+      "ipa": "rʌn",
+      "dialect": "en-GB",
+      "audioText": "run",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-6bdaf554e420",
+      "wordFormId": "wf-6bdaf554e420",
+      "ipa": "dʒʌmp",
+      "dialect": "en-GB",
+      "audioText": "jump",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-50f7becde477",
+      "wordFormId": "wf-50f7becde477",
+      "ipa": "drɔː",
+      "dialect": "en-GB",
+      "audioText": "draw",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-aba4cc9b8af8",
+      "wordFormId": "wf-aba4cc9b8af8",
+      "ipa": "pleɪ",
+      "dialect": "en-GB",
+      "audioText": "play",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-6de03f9e8221",
+      "wordFormId": "wf-6de03f9e8221",
+      "ipa": "wɒtʃ fɪlmz",
+      "dialect": "en-GB",
+      "audioText": "watch films",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-9f584196e7fe",
+      "wordFormId": "wf-9f584196e7fe",
+      "ipa": "kæn",
+      "dialect": "en-GB",
+      "audioText": "can",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-2348f9987442",
+      "wordFormId": "wf-2348f9987442",
+      "ipa": "ˈəʊpən",
+      "dialect": "en-GB",
+      "audioText": "open",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-310ff200149b",
+      "wordFormId": "wf-310ff200149b",
+      "ipa": "kləʊz",
+      "dialect": "en-GB",
+      "audioText": "close",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-8cceaf5c89e6",
+      "wordFormId": "wf-8cceaf5c89e6",
+      "ipa": "klæp",
+      "dialect": "en-GB",
+      "audioText": "clap",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-45a229d57d35",
+      "wordFormId": "wf-45a229d57d35",
+      "ipa": "hændz",
+      "dialect": "en-GB",
+      "audioText": "hands",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-43f7a37eecd4",
+      "wordFormId": "wf-43f7a37eecd4",
+      "ipa": "stænd ʌp",
+      "dialect": "en-GB",
+      "audioText": "stand up",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-778443b4b10e",
+      "wordFormId": "wf-778443b4b10e",
+      "ipa": "sɪt daʊn",
+      "dialect": "en-GB",
+      "audioText": "sit down",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-e0afcdbf6ad4",
+      "wordFormId": "wf-e0afcdbf6ad4",
+      "ipa": "stæmp",
+      "dialect": "en-GB",
+      "audioText": "stamp",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-a5add1365529",
+      "wordFormId": "wf-a5add1365529",
+      "ipa": "fiːt",
+      "dialect": "en-GB",
+      "audioText": "feet",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-34707c3f40df",
+      "wordFormId": "wf-34707c3f40df",
+      "ipa": "eɡ",
+      "dialect": "en-GB",
+      "audioText": "egg",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-0e895c323cc7",
+      "wordFormId": "wf-0e895c323cc7",
+      "ipa": "ˈklevə",
+      "dialect": "en-GB",
+      "audioText": "clever",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-106a5842fc5f",
+      "wordFormId": "wf-106a5842fc5f",
+      "ipa": "help",
+      "dialect": "en-GB",
+      "audioText": "help",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-2998b3232d29",
+      "wordFormId": "wf-2998b3232d29",
+      "ipa": "ɡet",
+      "dialect": "en-GB",
+      "audioText": "get",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-8a798890fe93",
+      "wordFormId": "wf-8a798890fe93",
+      "ipa": "jes",
+      "dialect": "en-GB",
+      "audioText": "yes",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-c5052532c220",
+      "wordFormId": "wf-c5052532c220",
+      "ipa": "bed",
+      "dialect": "en-GB",
+      "audioText": "bed",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-2744ccd10c75",
+      "wordFormId": "wf-2744ccd10c75",
+      "ipa": "miː",
+      "dialect": "en-GB",
+      "audioText": "me",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-bbba57318f71",
+      "wordFormId": "wf-bbba57318f71",
+      "ipa": "pet",
+      "dialect": "en-GB",
+      "audioText": "pet",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-62cb81b5904a",
+      "wordFormId": "wf-62cb81b5904a",
+      "ipa": "biː",
+      "dialect": "en-GB",
+      "audioText": "bee",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-b1f51a511f1d",
+      "wordFormId": "wf-b1f51a511f1d",
+      "ipa": "red",
+      "dialect": "en-GB",
+      "audioText": "red",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-dc9c5edb8b2d",
+      "wordFormId": "wf-dc9c5edb8b2d",
+      "ipa": "triː",
+      "dialect": "en-GB",
+      "audioText": "tree",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-aa304b5d1d72",
+      "wordFormId": "wf-aa304b5d1d72",
+      "ipa": "ˈrʌʃən",
+      "dialect": "en-GB",
+      "audioText": "Russian",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-d70afca61520",
+      "wordFormId": "wf-d70afca61520",
+      "ipa": "ˈriːdɪŋ",
+      "dialect": "en-GB",
+      "audioText": "Reading",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-238d7145e500",
+      "wordFormId": "wf-238d7145e500",
+      "ipa": "ˈneɪtʃə ˌstʌdi",
+      "dialect": "en-GB",
+      "audioText": "Nature Study",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-42781526b743",
+      "wordFormId": "wf-42781526b743",
+      "ipa": "kəmˈpjuːtə ˌstʌdi",
+      "dialect": "en-GB",
+      "audioText": "Computer Study",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-1d7906c798c9",
+      "wordFormId": "wf-1d7906c798c9",
+      "ipa": "ˈhændikrɑːft",
+      "dialect": "en-GB",
+      "audioText": "Handicraft",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-e971c330aab8",
+      "wordFormId": "wf-e971c330aab8",
+      "ipa": "ˌaɪs ˈkriːm",
+      "dialect": "en-GB",
+      "audioText": "ice cream",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-54ad3893e738",
+      "wordFormId": "wf-54ad3893e738",
+      "ipa": "ˈtriː haʊs",
+      "dialect": "en-GB",
+      "audioText": "tree house",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-bb3c78a5ebce",
+      "wordFormId": "wf-bb3c78a5ebce",
+      "ipa": "ˈɒrɪndʒ dʒuːs",
+      "dialect": "en-GB",
+      "audioText": "orange juice",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-f6bc36134480",
+      "wordFormId": "wf-f6bc36134480",
+      "ipa": "ˈtedi beə",
+      "dialect": "en-GB",
+      "audioText": "teddy bear",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-3e7a939e96c4",
+      "wordFormId": "wf-3e7a939e96c4",
+      "ipa": "ˈfəʊn ˌnʌmbə",
+      "dialect": "en-GB",
+      "audioText": "phone number",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-3d7eb3d3dab1",
+      "wordFormId": "wf-3d7eb3d3dab1",
+      "ipa": "tʃeə",
+      "dialect": "en-GB",
+      "audioText": "chair",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-aa9e9b5c907d",
+      "wordFormId": "wf-aa9e9b5c907d",
+      "ipa": "siː",
+      "dialect": "en-GB",
+      "audioText": "see",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-2cf24dba5fb0",
+      "wordFormId": "wf-2cf24dba5fb0",
+      "ipa": "həˈləʊ",
+      "dialect": "en-GB",
+      "audioText": "hello",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-75857a458999",
+      "wordFormId": "wf-75857a458999",
+      "ipa": "frɒm",
+      "dialect": "en-GB",
+      "audioText": "from",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-6089854c94ca",
+      "wordFormId": "wf-6089854c94ca",
+      "ipa": "ˈlʌndən",
+      "dialect": "en-GB",
+      "audioText": "London",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-cdc299378871",
+      "wordFormId": "wf-cdc299378871",
+      "ipa": "bʌt",
+      "dialect": "en-GB",
+      "audioText": "but",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-4c6a4839f83d",
+      "wordFormId": "wf-4c6a4839f83d",
+      "ipa": "ˈveri",
+      "dialect": "en-GB",
+      "audioText": "very",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-a7722b765d15",
+      "wordFormId": "wf-a7722b765d15",
+      "ipa": "wel",
+      "dialect": "en-GB",
+      "audioText": "well",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-6382deaf1f5d",
+      "wordFormId": "wf-6382deaf1f5d",
+      "ipa": "ˈfʊtbɔːl",
+      "dialect": "en-GB",
+      "audioText": "football",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-94c05f1c45a1",
+      "wordFormId": "wf-94c05f1c45a1",
+      "ipa": "tuː",
+      "dialect": "en-GB",
+      "audioText": "too",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-77af778b51ab",
+      "wordFormId": "wf-77af778b51ab",
+      "ipa": "kæt",
+      "dialect": "en-GB",
+      "audioText": "cat",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-ea103d6cb5c3",
+      "wordFormId": "wf-ea103d6cb5c3",
+      "ipa": "ɪts",
+      "dialect": "en-GB",
+      "audioText": "its",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-a4262e1c9bcb",
+      "wordFormId": "wf-a4262e1c9bcb",
+      "ipa": "əˈbaʊt",
+      "dialect": "en-GB",
+      "audioText": "about",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-686f746a95b6",
+      "wordFormId": "wf-686f746a95b6",
+      "ipa": "lʌv",
+      "dialect": "en-GB",
+      "audioText": "love",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-55579b557896",
+      "wordFormId": "wf-55579b557896",
+      "ipa": "ˈænə",
+      "dialect": "en-GB",
+      "audioText": "Anna",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-e1608f75c5d7",
+      "wordFormId": "wf-e1608f75c5d7",
+      "ipa": "tɒm",
+      "dialect": "en-GB",
+      "audioText": "Tom",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-383ef3692834",
+      "wordFormId": "wf-383ef3692834",
+      "ipa": "plʌs",
+      "dialect": "en-GB",
+      "audioText": "plus",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-2e4b9cc2428b",
+      "wordFormId": "wf-2e4b9cc2428b",
+      "ipa": "frendz",
+      "dialect": "en-GB",
+      "audioText": "friends",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-ea325d761f98",
+      "wordFormId": "wf-ea325d761f98",
+      "ipa": "ən, æn",
+      "dialect": "en-GB",
+      "audioText": "an",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-46599c5bb5c3",
+      "wordFormId": "wf-46599c5bb5c3",
+      "ipa": "biː",
+      "dialect": "en-GB",
+      "audioText": "be",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-a50f18c9639c",
+      "wordFormId": "wf-a50f18c9639c",
+      "ipa": "kʌm wɪð miː",
+      "dialect": "en-GB",
+      "audioText": "come with me",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-923f8edc066c",
+      "wordFormId": "wf-923f8edc066c",
+      "ipa": "wɒt əˈbaʊt juː",
+      "dialect": "en-GB",
+      "audioText": "what about you",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-9150c74c5f92",
+      "wordFormId": "wf-9150c74c5f92",
+      "ipa": "hæz",
+      "dialect": "en-GB",
+      "audioText": "has",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-4cb0b250c625",
+      "wordFormId": "wf-4cb0b250c625",
+      "ipa": "aɪs",
+      "dialect": "en-GB",
+      "audioText": "ice",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-f3a22c1ce8e0",
+      "wordFormId": "wf-f3a22c1ce8e0",
+      "ipa": "kriːm",
+      "dialect": "en-GB",
+      "audioText": "cream",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-c018019b6a8b",
+      "wordFormId": "wf-c018019b6a8b",
+      "ipa": "bæɡ",
+      "dialect": "en-GB",
+      "audioText": "bag",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-bbfcd4160a1e",
+      "wordFormId": "wf-bbfcd4160a1e",
+      "ipa": "keɪs",
+      "dialect": "en-GB",
+      "audioText": "case",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-1b4c9133da73",
+      "wordFormId": "wf-1b4c9133da73",
+      "ipa": "ˈɒrɪndʒ",
+      "dialect": "en-GB",
+      "audioText": "orange",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-a5ad89565607",
+      "wordFormId": "wf-a5ad89565607",
+      "ipa": "dʒuːs",
+      "dialect": "en-GB",
+      "audioText": "juice",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-8de85d6d6394",
+      "wordFormId": "wf-8de85d6d6394",
+      "ipa": "ˈtedi",
+      "dialect": "en-GB",
+      "audioText": "teddy",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-bc98bb50e809",
+      "wordFormId": "wf-bc98bb50e809",
+      "ipa": "beə",
+      "dialect": "en-GB",
+      "audioText": "bear",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-d6e21286621a",
+      "wordFormId": "wf-d6e21286621a",
+      "ipa": "haʊs",
+      "dialect": "en-GB",
+      "audioText": "house",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-45569da57f4b",
+      "wordFormId": "wf-45569da57f4b",
+      "ipa": "fəʊn",
+      "dialect": "en-GB",
+      "audioText": "phone",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-12886f9d0005",
+      "wordFormId": "wf-12886f9d0005",
+      "ipa": "ˈnʌmbə",
+      "dialect": "en-GB",
+      "audioText": "number",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-d37a24b801c6",
+      "wordFormId": "wf-d37a24b801c6",
+      "ipa": "stænd",
+      "dialect": "en-GB",
+      "audioText": "stand",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-75a288c0d689",
+      "wordFormId": "wf-75a288c0d689",
+      "ipa": "ʌp",
+      "dialect": "en-GB",
+      "audioText": "up",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-584178e5e351",
+      "wordFormId": "wf-584178e5e351",
+      "ipa": "sɪt",
+      "dialect": "en-GB",
+      "audioText": "sit",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-908aec4512d8",
+      "wordFormId": "wf-908aec4512d8",
+      "ipa": "daʊn",
+      "dialect": "en-GB",
+      "audioText": "down",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-baed83162394",
+      "wordFormId": "wf-baed83162394",
+      "ipa": "wɒtʃ",
+      "dialect": "en-GB",
+      "audioText": "watch",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-db944067d6c7",
+      "wordFormId": "wf-db944067d6c7",
+      "ipa": "fɪlmz",
+      "dialect": "en-GB",
+      "audioText": "films",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-ce213852297e",
+      "wordFormId": "wf-ce213852297e",
+      "ipa": "ˈskuːlbæɡ",
+      "dialect": "en-GB",
+      "audioText": "schoolbag",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-0695b563acde",
+      "wordFormId": "wf-0695b563acde",
+      "ipa": "wɪð",
+      "dialect": "en-GB",
+      "audioText": "with",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-254bb97b57f1",
+      "wordFormId": "wf-254bb97b57f1",
+      "ipa": "nɒt",
+      "dialect": "en-GB",
+      "audioText": "not",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-ac0b52a2ae6e",
+      "wordFormId": "wf-ac0b52a2ae6e",
+      "ipa": "duː",
+      "dialect": "en-GB",
+      "audioText": "do",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-1b001706a418",
+      "wordFormId": "wf-1b001706a418",
+      "ipa": "hænd",
+      "dialect": "en-GB",
+      "audioText": "hand",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-22e4f6912a69",
+      "wordFormId": "wf-22e4f6912a69",
+      "ipa": "fʊt",
+      "dialect": "en-GB",
+      "audioText": "foot",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-2968ec9d80f1",
+      "wordFormId": "wf-2968ec9d80f1",
+      "ipa": "hæz ɡɒt",
+      "dialect": "en-GB",
+      "audioText": "has got",
+      "review": "reviewed"
+    }
+  ],
+  "meanings": [
+    {
+      "ru": "школа",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-d64debd942d7-meaning-0",
+      "wordFormId": "wf-d64debd942d7"
+    },
+    {
+      "ru": "портфель",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-619d1dac1c13-meaning-0",
+      "wordFormId": "wf-619d1dac1c13"
+    },
+    {
+      "ru": "ручка",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-e21a6b0cb193-meaning-0",
+      "wordFormId": "wf-e21a6b0cb193"
+    },
+    {
+      "ru": "карандаш",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-13809668fb43-meaning-0",
+      "wordFormId": "wf-13809668fb43"
+    },
+    {
+      "ru": "ластик",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-058ce9bd95f5-meaning-0",
+      "wordFormId": "wf-058ce9bd95f5"
+    },
+    {
+      "ru": "линейка",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-5972814068a1-meaning-0",
+      "wordFormId": "wf-5972814068a1"
+    },
+    {
+      "ru": "книга",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-92719fe0cf8c-meaning-0",
+      "wordFormId": "wf-92719fe0cf8c"
+    },
+    {
+      "ru": "пенал",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-3b74bc54b6c2-meaning-0",
+      "wordFormId": "wf-3b74bc54b6c2"
+    },
+    {
+      "ru": "английский",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-b6234d2ea0d6-meaning-0",
+      "wordFormId": "wf-b6234d2ea0d6"
+    },
+    {
+      "ru": "математика",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-acc017392425-meaning-0",
+      "wordFormId": "wf-acc017392425"
+    },
+    {
+      "ru": "география",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-bf8e5ca0b2d5-meaning-0",
+      "wordFormId": "wf-bf8e5ca0b2d5"
+    },
+    {
+      "ru": "физкультура",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-cdf69b25a417-meaning-0",
+      "wordFormId": "wf-cdf69b25a417"
+    },
+    {
+      "ru": "история",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-259aa8ef98a8-meaning-0",
+      "wordFormId": "wf-259aa8ef98a8"
+    },
+    {
+      "ru": "естествознание",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-790fad4744a9-meaning-0",
+      "wordFormId": "wf-790fad4744a9"
+    },
+    {
+      "ru": "рисование",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-d3cec9911225-meaning-0",
+      "wordFormId": "wf-d3cec9911225"
+    },
+    {
+      "ru": "музыка",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-80f189984e5c-meaning-0",
+      "wordFormId": "wf-80f189984e5c"
+    },
+    {
+      "ru": "школьный предмет",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-c83827727d78-meaning-0",
+      "wordFormId": "wf-c83827727d78"
+    },
+    {
+      "ru": "год обучения, класс",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-4cb4ea25583c-meaning-0",
+      "wordFormId": "wf-4cb4ea25583c"
+    },
+    {
+      "ru": "одиннадцать",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-e979074ebd56-meaning-0",
+      "wordFormId": "wf-e979074ebd56"
+    },
+    {
+      "ru": "двенадцать",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-d1a749ad879b-meaning-0",
+      "wordFormId": "wf-d1a749ad879b"
+    },
+    {
+      "ru": "тринадцать",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-9ecc81f0a4b6-meaning-0",
+      "wordFormId": "wf-9ecc81f0a4b6"
+    },
+    {
+      "ru": "четырнадцать",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-fef8f41cdcd2-meaning-0",
+      "wordFormId": "wf-fef8f41cdcd2"
+    },
+    {
+      "ru": "пятнадцать",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-c463967e5708-meaning-0",
+      "wordFormId": "wf-c463967e5708"
+    },
+    {
+      "ru": "шестнадцать",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-f2ce341fdaa6-meaning-0",
+      "wordFormId": "wf-f2ce341fdaa6"
+    },
+    {
+      "ru": "семнадцать",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-2c5abdef2a0e-meaning-0",
+      "wordFormId": "wf-2c5abdef2a0e"
+    },
+    {
+      "ru": "восемнадцать",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-34357b18abdd-meaning-0",
+      "wordFormId": "wf-34357b18abdd"
+    },
+    {
+      "ru": "девятнадцать",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-cde4e100efd2-meaning-0",
+      "wordFormId": "wf-cde4e100efd2"
+    },
+    {
+      "ru": "двадцать",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-7c2c4df740f7-meaning-0",
+      "wordFormId": "wf-7c2c4df740f7"
+    },
+    {
+      "ru": "один",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-7692c3ad3540-meaning-0",
+      "wordFormId": "wf-7692c3ad3540"
+    },
+    {
+      "ru": "два",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-3fc4ccfe7458-meaning-0",
+      "wordFormId": "wf-3fc4ccfe7458"
+    },
+    {
+      "ru": "три",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-8b5b9db0c13d-meaning-0",
+      "wordFormId": "wf-8b5b9db0c13d"
+    },
+    {
+      "ru": "четыре",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-04efaf080f5a-meaning-0",
+      "wordFormId": "wf-04efaf080f5a"
+    },
+    {
+      "ru": "пять",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-222b0bd51fce-meaning-0",
+      "wordFormId": "wf-222b0bd51fce"
+    },
+    {
+      "ru": "семь",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-3ba8d02b16fd-meaning-0",
+      "wordFormId": "wf-3ba8d02b16fd"
+    },
+    {
+      "ru": "восемь",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-c195d2d87562-meaning-0",
+      "wordFormId": "wf-c195d2d87562"
+    },
+    {
+      "ru": "девять",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-edcd8e701a2d-meaning-0",
+      "wordFormId": "wf-edcd8e701a2d"
+    },
+    {
+      "ru": "десять",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-e4432baa9081-meaning-0",
+      "wordFormId": "wf-e4432baa9081"
+    },
+    {
+      "ru": "ручки",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-55015dcc0231-meaning-0",
+      "wordFormId": "wf-55015dcc0231"
+    },
+    {
+      "ru": "книги",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-6e317bcd6839-meaning-0",
+      "wordFormId": "wf-6e317bcd6839"
+    },
+    {
+      "ru": "ластики",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-3908cdabeb3a-meaning-0",
+      "wordFormId": "wf-3908cdabeb3a"
+    },
+    {
+      "ru": "линейки",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-6202c8a7fd1c-meaning-0",
+      "wordFormId": "wf-6202c8a7fd1c"
+    },
+    {
+      "ru": "карандаши",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-24f896f7408e-meaning-0",
+      "wordFormId": "wf-24f896f7408e"
+    },
+    {
+      "ru": "пеналы",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-50ecdf5881a7-meaning-0",
+      "wordFormId": "wf-50ecdf5881a7"
+    },
+    {
+      "ru": "я",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-de7d1b721a1e-meaning-0",
+      "wordFormId": "wf-de7d1b721a1e"
+    },
+    {
+      "ru": "ты, вы",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-bb0347a468d9-meaning-0",
+      "wordFormId": "wf-bb0347a468d9"
+    },
+    {
+      "ru": "он",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-372f7e2fd2d0-meaning-0",
+      "wordFormId": "wf-372f7e2fd2d0"
+    },
+    {
+      "ru": "она",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-2cda85e504e1-meaning-0",
+      "wordFormId": "wf-2cda85e504e1"
+    },
+    {
+      "ru": "это, он или она — о предмете",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-2ad8a7049d7c-meaning-0",
+      "wordFormId": "wf-2ad8a7049d7c"
+    },
+    {
+      "ru": "мы",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-dc7c811b9561-meaning-0",
+      "wordFormId": "wf-dc7c811b9561"
+    },
+    {
+      "ru": "они",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-151e58a83130-meaning-0",
+      "wordFormId": "wf-151e58a83130"
+    },
+    {
+      "ru": "форма be после I",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-ab6db599234d-meaning-0",
+      "wordFormId": "wf-ab6db599234d"
+    },
+    {
+      "ru": "форма be после he, she, it",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-fa51fd49abf6-meaning-0",
+      "wordFormId": "wf-fa51fd49abf6"
+    },
+    {
+      "ru": "форма be после you, we, they",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-ba78973ddcf9-meaning-0",
+      "wordFormId": "wf-ba78973ddcf9"
+    },
+    {
+      "ru": "я — сокращение I am",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-78f267c0e62e-meaning-0",
+      "wordFormId": "wf-78f267c0e62e"
+    },
+    {
+      "ru": "он — сокращение he is",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-ac88c595ceb0-meaning-0",
+      "wordFormId": "wf-ac88c595ceb0"
+    },
+    {
+      "ru": "у него есть — сокращение has перед got",
+      "context": "Перед got сокращено has",
+      "when": "before-got",
+      "occurrence": {
+        "exerciseId": "wb-5-review-10",
+        "bookPage": 72,
+        "pdfPage": 73,
+        "text": "he's",
+        "verification": "visual"
+      },
+      "id": "wf-ac88c595ceb0-meaning-1",
+      "wordFormId": "wf-ac88c595ceb0"
+    },
+    {
+      "ru": "она — сокращение she is",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-aff7dd72161b-meaning-0",
+      "wordFormId": "wf-aff7dd72161b"
+    },
+    {
+      "ru": "у неё есть — сокращение has перед got",
+      "context": "Перед got сокращено has",
+      "when": "before-got",
+      "occurrence": {
+        "exerciseId": "wb-5-review-12",
+        "bookPage": 73,
+        "pdfPage": 74,
+        "text": "she's",
+        "verification": "visual"
+      },
+      "id": "wf-aff7dd72161b-meaning-1",
+      "wordFormId": "wf-aff7dd72161b"
+    },
+    {
+      "ru": "это — сокращение it is",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-24ceef1cb6b0-meaning-0",
+      "wordFormId": "wf-24ceef1cb6b0"
+    },
+    {
+      "ru": "у него есть — сокращение has перед got",
+      "context": "Перед got сокращено has",
+      "when": "before-got",
+      "occurrence": {
+        "exerciseId": "wb-5-10a-10b-7",
+        "bookPage": 69,
+        "pdfPage": 70,
+        "text": "it's",
+        "verification": "visual"
+      },
+      "id": "wf-24ceef1cb6b0-meaning-1",
+      "wordFormId": "wf-24ceef1cb6b0"
+    },
+    {
+      "ru": "они — сокращение they are",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-dacbc48f0803-meaning-0",
+      "wordFormId": "wf-dacbc48f0803"
+    },
+    {
+      "ru": "ты или вы — сокращение you are",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-7dece7d7d99e-meaning-0",
+      "wordFormId": "wf-7dece7d7d99e"
+    },
+    {
+      "ru": "что — сокращение what is",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-10beaccfc7da-meaning-0",
+      "wordFormId": "wf-10beaccfc7da"
+    },
+    {
+      "ru": "не — сокращение do not",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-df7682099c96-meaning-0",
+      "wordFormId": "wf-df7682099c96"
+    },
+    {
+      "ru": "я — сокращение I have",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-8c64c149d95d-meaning-0",
+      "wordFormId": "wf-8c64c149d95d"
+    },
+    {
+      "ru": "мой, моя",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-038468518ad8-meaning-0",
+      "wordFormId": "wf-038468518ad8"
+    },
+    {
+      "ru": "твой, ваш",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-4d040d3f6466-meaning-0",
+      "wordFormId": "wf-4d040d3f6466"
+    },
+    {
+      "ru": "это, этот",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-1eb79602411e-meaning-0",
+      "wordFormId": "wf-1eb79602411e"
+    },
+    {
+      "ru": "что, какой",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-749ab2c0d06c-meaning-0",
+      "wordFormId": "wf-749ab2c0d06c"
+    },
+    {
+      "ru": "где",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-b48111c10c65-meaning-0",
+      "wordFormId": "wf-b48111c10c65"
+    },
+    {
+      "ru": "как",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-8044aae1f868-meaning-0",
+      "wordFormId": "wf-8044aae1f868"
+    },
+    {
+      "ru": "лет — о возрасте; старый",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-cba06b5736fa-meaning-0",
+      "wordFormId": "wf-cba06b5736fa"
+    },
+    {
+      "ru": "имя",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-82a3537ff0db-meaning-0",
+      "wordFormId": "wf-82a3537ff0db"
+    },
+    {
+      "ru": "радостный",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-489f719cadf9-meaning-0",
+      "wordFormId": "wf-489f719cadf9"
+    },
+    {
+      "ru": "грустный",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-45c9a6614fcc-meaning-0",
+      "wordFormId": "wf-45c9a6614fcc"
+    },
+    {
+      "ru": "друг",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-cde48537ca2c-meaning-0",
+      "wordFormId": "wf-cde48537ca2c"
+    },
+    {
+      "ru": "любимый",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-775cf3abc9be-meaning-0",
+      "wordFormId": "wf-775cf3abc9be"
+    },
+    {
+      "ru": "предмет в школе",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-a9491f4c1bf7-meaning-0",
+      "wordFormId": "wf-a9491f4c1bf7"
+    },
+    {
+      "ru": "школьные предметы",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-e223d8ec1e64-meaning-0",
+      "wordFormId": "wf-e223d8ec1e64"
+    },
+    {
+      "ru": "годы; лет",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-1c50993b009c-meaning-0",
+      "wordFormId": "wf-1c50993b009c"
+    },
+    {
+      "ru": "в — о месте",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-b1d6b91b67c2-meaning-0",
+      "wordFormId": "wf-b1d6b91b67c2"
+    },
+    {
+      "ru": "в, внутри",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-582967534d0f-meaning-0",
+      "wordFormId": "wf-582967534d0f"
+    },
+    {
+      "ru": "и",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-6201111b83a0-meaning-0",
+      "wordFormId": "wf-6201111b83a0"
+    },
+    {
+      "ru": "один предмет, впервые называемый",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-ca978112ca1b-meaning-0",
+      "wordFormId": "wf-ca978112ca1b"
+    },
+    {
+      "ru": "тот самый, уже известный предмет",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-b9776d7ddf45-meaning-0",
+      "wordFormId": "wf-b9776d7ddf45"
+    },
+    {
+      "ru": "не является; не находится",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-e1bf1560b1c2-meaning-0",
+      "wordFormId": "wf-e1bf1560b1c2"
+    },
+    {
+      "ru": "иметь",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-193c45b52819-meaning-0",
+      "wordFormId": "wf-193c45b52819"
+    },
+    {
+      "ru": "часть have got — иметь",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-0497db517ef0-meaning-0",
+      "wordFormId": "wf-0497db517ef0"
+    },
+    {
+      "ru": "иметь, у кого-то есть",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-75de3c3c7bec-meaning-0",
+      "wordFormId": "wf-75de3c3c7bec"
+    },
+    {
+      "ru": "нравиться",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-cab2644828bc-meaning-0",
+      "wordFormId": "wf-cab2644828bc"
+    },
+    {
+      "ru": "читать",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-3316348dbadf-meaning-0",
+      "wordFormId": "wf-3316348dbadf"
+    },
+    {
+      "ru": "писать",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-10fd874b68da-meaning-0",
+      "wordFormId": "wf-10fd874b68da"
+    },
+    {
+      "ru": "слушать",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-6f8860eb5103-meaning-0",
+      "wordFormId": "wf-6f8860eb5103"
+    },
+    {
+      "ru": "петь",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-6342d0648a74-meaning-0",
+      "wordFormId": "wf-6342d0648a74"
+    },
+    {
+      "ru": "бегать",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-acba25512100-meaning-0",
+      "wordFormId": "wf-acba25512100"
+    },
+    {
+      "ru": "прыгать",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-6bdaf554e420-meaning-0",
+      "wordFormId": "wf-6bdaf554e420"
+    },
+    {
+      "ru": "рисовать",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-50f7becde477-meaning-0",
+      "wordFormId": "wf-50f7becde477"
+    },
+    {
+      "ru": "играть",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-aba4cc9b8af8-meaning-0",
+      "wordFormId": "wf-aba4cc9b8af8"
+    },
+    {
+      "ru": "смотреть фильмы",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-6de03f9e8221-meaning-0",
+      "wordFormId": "wf-6de03f9e8221"
+    },
+    {
+      "ru": "уметь, мочь",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-9f584196e7fe-meaning-0",
+      "wordFormId": "wf-9f584196e7fe"
+    },
+    {
+      "ru": "открывать",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-2348f9987442-meaning-0",
+      "wordFormId": "wf-2348f9987442"
+    },
+    {
+      "ru": "закрывать",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-310ff200149b-meaning-0",
+      "wordFormId": "wf-310ff200149b"
+    },
+    {
+      "ru": "хлопать",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-8cceaf5c89e6-meaning-0",
+      "wordFormId": "wf-8cceaf5c89e6"
+    },
+    {
+      "ru": "руки, кисти",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-45a229d57d35-meaning-0",
+      "wordFormId": "wf-45a229d57d35"
+    },
+    {
+      "ru": "встать",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-43f7a37eecd4-meaning-0",
+      "wordFormId": "wf-43f7a37eecd4"
+    },
+    {
+      "ru": "сесть",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-778443b4b10e-meaning-0",
+      "wordFormId": "wf-778443b4b10e"
+    },
+    {
+      "ru": "топать",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-e0afcdbf6ad4-meaning-0",
+      "wordFormId": "wf-e0afcdbf6ad4"
+    },
+    {
+      "ru": "ступни, ноги",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-a5add1365529-meaning-0",
+      "wordFormId": "wf-a5add1365529"
+    },
+    {
+      "ru": "яйцо",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-34707c3f40df-meaning-0",
+      "wordFormId": "wf-34707c3f40df"
+    },
+    {
+      "ru": "умный",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-0e895c323cc7-meaning-0",
+      "wordFormId": "wf-0e895c323cc7"
+    },
+    {
+      "ru": "помогать",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-106a5842fc5f-meaning-0",
+      "wordFormId": "wf-106a5842fc5f"
+    },
+    {
+      "ru": "взять — в команде; получать",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-2998b3232d29-meaning-0",
+      "wordFormId": "wf-2998b3232d29"
+    },
+    {
+      "ru": "да",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-8a798890fe93-meaning-0",
+      "wordFormId": "wf-8a798890fe93"
+    },
+    {
+      "ru": "кровать",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-c5052532c220-meaning-0",
+      "wordFormId": "wf-c5052532c220"
+    },
+    {
+      "ru": "меня; со мной после with",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-2744ccd10c75-meaning-0",
+      "wordFormId": "wf-2744ccd10c75"
+    },
+    {
+      "ru": "питомец",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-bbba57318f71-meaning-0",
+      "wordFormId": "wf-bbba57318f71"
+    },
+    {
+      "ru": "пчела",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-62cb81b5904a-meaning-0",
+      "wordFormId": "wf-62cb81b5904a"
+    },
+    {
+      "ru": "красный",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-b1f51a511f1d-meaning-0",
+      "wordFormId": "wf-b1f51a511f1d"
+    },
+    {
+      "ru": "дерево",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-dc9c5edb8b2d-meaning-0",
+      "wordFormId": "wf-dc9c5edb8b2d"
+    },
+    {
+      "ru": "русский язык",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-aa304b5d1d72-meaning-0",
+      "wordFormId": "wf-aa304b5d1d72"
+    },
+    {
+      "ru": "чтение — школьный предмет",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-d70afca61520-meaning-0",
+      "wordFormId": "wf-d70afca61520"
+    },
+    {
+      "ru": "окружающий мир",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-238d7145e500-meaning-0",
+      "wordFormId": "wf-238d7145e500"
+    },
+    {
+      "ru": "информатика",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-42781526b743-meaning-0",
+      "wordFormId": "wf-42781526b743"
+    },
+    {
+      "ru": "труд, рукоделие",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-1d7906c798c9-meaning-0",
+      "wordFormId": "wf-1d7906c798c9"
+    },
+    {
+      "ru": "мороженое",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-e971c330aab8-meaning-0",
+      "wordFormId": "wf-e971c330aab8"
+    },
+    {
+      "ru": "домик на дереве",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-54ad3893e738-meaning-0",
+      "wordFormId": "wf-54ad3893e738"
+    },
+    {
+      "ru": "апельсиновый сок",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-bb3c78a5ebce-meaning-0",
+      "wordFormId": "wf-bb3c78a5ebce"
+    },
+    {
+      "ru": "плюшевый мишка",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-f6bc36134480-meaning-0",
+      "wordFormId": "wf-f6bc36134480"
+    },
+    {
+      "ru": "номер телефона",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-3e7a939e96c4-meaning-0",
+      "wordFormId": "wf-3e7a939e96c4"
+    },
+    {
+      "ru": "стул",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-3d7eb3d3dab1-meaning-0",
+      "wordFormId": "wf-3d7eb3d3dab1"
+    },
+    {
+      "ru": "видеть",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-aa9e9b5c907d-meaning-0",
+      "wordFormId": "wf-aa9e9b5c907d"
+    },
+    {
+      "ru": "привет",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-2cf24dba5fb0-meaning-0",
+      "wordFormId": "wf-2cf24dba5fb0"
+    },
+    {
+      "ru": "из, откуда",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-75857a458999-meaning-0",
+      "wordFormId": "wf-75857a458999"
+    },
+    {
+      "ru": "Лондон",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-6089854c94ca-meaning-0",
+      "wordFormId": "wf-6089854c94ca"
+    },
+    {
+      "ru": "но",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-cdc299378871-meaning-0",
+      "wordFormId": "wf-cdc299378871"
+    },
+    {
+      "ru": "очень",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-4c6a4839f83d-meaning-0",
+      "wordFormId": "wf-4c6a4839f83d"
+    },
+    {
+      "ru": "хорошо",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-a7722b765d15-meaning-0",
+      "wordFormId": "wf-a7722b765d15"
+    },
+    {
+      "ru": "футбол",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-6382deaf1f5d-meaning-0",
+      "wordFormId": "wf-6382deaf1f5d"
+    },
+    {
+      "ru": "тоже",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-94c05f1c45a1-meaning-0",
+      "wordFormId": "wf-94c05f1c45a1"
+    },
+    {
+      "ru": "кот",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-77af778b51ab-meaning-0",
+      "wordFormId": "wf-77af778b51ab"
+    },
+    {
+      "ru": "его или её — о предмете или животном",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-ea103d6cb5c3-meaning-0",
+      "wordFormId": "wf-ea103d6cb5c3"
+    },
+    {
+      "ru": "о; в what about you — а у тебя?",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-a4262e1c9bcb-meaning-0",
+      "wordFormId": "wf-a4262e1c9bcb"
+    },
+    {
+      "ru": "любовь; с любовью — в конце письма",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-686f746a95b6-meaning-0",
+      "wordFormId": "wf-686f746a95b6"
+    },
+    {
+      "ru": "Анна",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-55579b557896-meaning-0",
+      "wordFormId": "wf-55579b557896"
+    },
+    {
+      "ru": "Том",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-e1608f75c5d7-meaning-0",
+      "wordFormId": "wf-e1608f75c5d7"
+    },
+    {
+      "ru": "плюс",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-383ef3692834-meaning-0",
+      "wordFormId": "wf-383ef3692834"
+    },
+    {
+      "ru": "друзья",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-2e4b9cc2428b-meaning-0",
+      "wordFormId": "wf-2e4b9cc2428b"
+    },
+    {
+      "ru": "артикль перед гласным звуком",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-ea325d761f98-meaning-0",
+      "wordFormId": "wf-ea325d761f98"
+    },
+    {
+      "ru": "быть",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-46599c5bb5c3-meaning-0",
+      "wordFormId": "wf-46599c5bb5c3"
+    },
+    {
+      "ru": "пойдём со мной",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-a50f18c9639c-meaning-0",
+      "wordFormId": "wf-a50f18c9639c"
+    },
+    {
+      "ru": "а у тебя, а ты?",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-923f8edc066c-meaning-0",
+      "wordFormId": "wf-923f8edc066c"
+    },
+    {
+      "ru": "имеет — форма have после he, she, it",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-9150c74c5f92-meaning-0",
+      "wordFormId": "wf-9150c74c5f92"
+    },
+    {
+      "ru": "лёд; часть ice cream — мороженое",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-4cb0b250c625-meaning-0",
+      "wordFormId": "wf-4cb0b250c625"
+    },
+    {
+      "ru": "сливки; часть ice cream — мороженое",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-f3a22c1ce8e0-meaning-0",
+      "wordFormId": "wf-f3a22c1ce8e0"
+    },
+    {
+      "ru": "сумка, портфель",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-c018019b6a8b-meaning-0",
+      "wordFormId": "wf-c018019b6a8b"
+    },
+    {
+      "ru": "футляр, пенал — в pencil case",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-bbfcd4160a1e-meaning-0",
+      "wordFormId": "wf-bbfcd4160a1e"
+    },
+    {
+      "ru": "апельсин",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-1b4c9133da73-meaning-0",
+      "wordFormId": "wf-1b4c9133da73"
+    },
+    {
+      "ru": "сок",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-a5ad89565607-meaning-0",
+      "wordFormId": "wf-a5ad89565607"
+    },
+    {
+      "ru": "плюшевый мишка",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-8de85d6d6394-meaning-0",
+      "wordFormId": "wf-8de85d6d6394"
+    },
+    {
+      "ru": "медведь; в teddy bear — мишка",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-bc98bb50e809-meaning-0",
+      "wordFormId": "wf-bc98bb50e809"
+    },
+    {
+      "ru": "дом",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-d6e21286621a-meaning-0",
+      "wordFormId": "wf-d6e21286621a"
+    },
+    {
+      "ru": "телефон",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-45569da57f4b-meaning-0",
+      "wordFormId": "wf-45569da57f4b"
+    },
+    {
+      "ru": "номер, число",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-12886f9d0005-meaning-0",
+      "wordFormId": "wf-12886f9d0005"
+    },
+    {
+      "ru": "стоять; stand up — встань",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-d37a24b801c6-meaning-0",
+      "wordFormId": "wf-d37a24b801c6"
+    },
+    {
+      "ru": "вверх; часть stand up",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-75a288c0d689-meaning-0",
+      "wordFormId": "wf-75a288c0d689"
+    },
+    {
+      "ru": "садиться; sit down — сядь",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-584178e5e351-meaning-0",
+      "wordFormId": "wf-584178e5e351"
+    },
+    {
+      "ru": "вниз; часть sit down",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-908aec4512d8-meaning-0",
+      "wordFormId": "wf-908aec4512d8"
+    },
+    {
+      "ru": "смотреть",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-baed83162394-meaning-0",
+      "wordFormId": "wf-baed83162394"
+    },
+    {
+      "ru": "фильмы",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-db944067d6c7-meaning-0",
+      "wordFormId": "wf-db944067d6c7"
+    },
+    {
+      "ru": "портфель — слитное написание school bag",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-ce213852297e-meaning-0",
+      "wordFormId": "wf-ce213852297e"
+    },
+    {
+      "ru": "с",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-0695b563acde-meaning-0",
+      "wordFormId": "wf-0695b563acde"
+    },
+    {
+      "ru": "не",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-254bb97b57f1-meaning-0",
+      "wordFormId": "wf-254bb97b57f1"
+    },
+    {
+      "ru": "делать; вспомогательный глагол",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-ac0b52a2ae6e-meaning-0",
+      "wordFormId": "wf-ac0b52a2ae6e"
+    },
+    {
+      "ru": "кисть руки",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-1b001706a418-meaning-0",
+      "wordFormId": "wf-1b001706a418"
+    },
+    {
+      "ru": "ступня",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-22e4f6912a69-meaning-0",
+      "wordFormId": "wf-22e4f6912a69"
+    },
+    {
+      "ru": "у него или у неё есть",
+      "context": "В этом сборнике",
+      "when": "default",
+      "id": "wf-2968ec9d80f1-meaning-0",
+      "wordFormId": "wf-2968ec9d80f1"
+    }
+  ],
+  "occurrences": [
+    {
+      "id": "wf-d64debd942d7-occurrence-0",
+      "wordFormId": "wf-d64debd942d7",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-1",
+      "bookPage": 13,
+      "pdfPage": 14,
+      "text": "school",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-619d1dac1c13-occurrence-0",
+      "wordFormId": "wf-619d1dac1c13",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-1",
+      "bookPage": 13,
+      "pdfPage": 14,
+      "text": "school bag",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-e21a6b0cb193-occurrence-0",
+      "wordFormId": "wf-e21a6b0cb193",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-1",
+      "bookPage": 13,
+      "pdfPage": 14,
+      "text": "pen",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-13809668fb43-occurrence-0",
+      "wordFormId": "wf-13809668fb43",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-1",
+      "bookPage": 13,
+      "pdfPage": 14,
+      "text": "pencil",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-058ce9bd95f5-occurrence-0",
+      "wordFormId": "wf-058ce9bd95f5",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-1",
+      "bookPage": 13,
+      "pdfPage": 14,
+      "text": "rubber",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-5972814068a1-occurrence-0",
+      "wordFormId": "wf-5972814068a1",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-1",
+      "bookPage": 13,
+      "pdfPage": 14,
+      "text": "ruler",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-92719fe0cf8c-occurrence-0",
+      "wordFormId": "wf-92719fe0cf8c",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-1",
+      "bookPage": 13,
+      "pdfPage": 14,
+      "text": "book",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-3b74bc54b6c2-occurrence-0",
+      "wordFormId": "wf-3b74bc54b6c2",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-1",
+      "bookPage": 13,
+      "pdfPage": 14,
+      "text": "pencil case",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-b6234d2ea0d6-occurrence-0",
+      "wordFormId": "wf-b6234d2ea0d6",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-1",
+      "bookPage": 16,
+      "pdfPage": 17,
+      "text": "English",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-acc017392425-occurrence-0",
+      "wordFormId": "wf-acc017392425",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-1",
+      "bookPage": 16,
+      "pdfPage": 17,
+      "text": "Maths",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-bf8e5ca0b2d5-occurrence-0",
+      "wordFormId": "wf-bf8e5ca0b2d5",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-1",
+      "bookPage": 16,
+      "pdfPage": 17,
+      "text": "Geography",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-cdf69b25a417-occurrence-0",
+      "wordFormId": "wf-cdf69b25a417",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-1",
+      "bookPage": 16,
+      "pdfPage": 17,
+      "text": "PE",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-259aa8ef98a8-occurrence-0",
+      "wordFormId": "wf-259aa8ef98a8",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-1",
+      "bookPage": 16,
+      "pdfPage": 17,
+      "text": "History",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-790fad4744a9-occurrence-0",
+      "wordFormId": "wf-790fad4744a9",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-1",
+      "bookPage": 16,
+      "pdfPage": 17,
+      "text": "Science",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-d3cec9911225-occurrence-0",
+      "wordFormId": "wf-d3cec9911225",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-1",
+      "bookPage": 16,
+      "pdfPage": 17,
+      "text": "Art",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-80f189984e5c-occurrence-0",
+      "wordFormId": "wf-80f189984e5c",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-1",
+      "bookPage": 16,
+      "pdfPage": 17,
+      "text": "Music",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-c83827727d78-occurrence-0",
+      "wordFormId": "wf-c83827727d78",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-1",
+      "bookPage": 16,
+      "pdfPage": 17,
+      "text": "school subject",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-4cb4ea25583c-occurrence-0",
+      "wordFormId": "wf-4cb4ea25583c",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-1",
+      "bookPage": 16,
+      "pdfPage": 17,
+      "text": "Year",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-e979074ebd56-occurrence-0",
+      "wordFormId": "wf-e979074ebd56",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-9",
+      "bookPage": 15,
+      "pdfPage": 16,
+      "text": "eleven",
+      "verification": "visual",
+      "kind": "word-grid"
+    },
+    {
+      "id": "wf-d1a749ad879b-occurrence-0",
+      "wordFormId": "wf-d1a749ad879b",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-9",
+      "bookPage": 15,
+      "pdfPage": 16,
+      "text": "twelve",
+      "verification": "visual",
+      "kind": "word-grid"
+    },
+    {
+      "id": "wf-9ecc81f0a4b6-occurrence-0",
+      "wordFormId": "wf-9ecc81f0a4b6",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-9",
+      "bookPage": 15,
+      "pdfPage": 16,
+      "text": "thirteen",
+      "verification": "visual",
+      "kind": "word-grid"
+    },
+    {
+      "id": "wf-fef8f41cdcd2-occurrence-0",
+      "wordFormId": "wf-fef8f41cdcd2",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-9",
+      "bookPage": 15,
+      "pdfPage": 16,
+      "text": "fourteen",
+      "verification": "visual",
+      "kind": "word-grid"
+    },
+    {
+      "id": "wf-c463967e5708-occurrence-0",
+      "wordFormId": "wf-c463967e5708",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-9",
+      "bookPage": 15,
+      "pdfPage": 16,
+      "text": "fifteen",
+      "verification": "visual",
+      "kind": "word-grid"
+    },
+    {
+      "id": "wf-f2ce341fdaa6-occurrence-0",
+      "wordFormId": "wf-f2ce341fdaa6",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-9",
+      "bookPage": 15,
+      "pdfPage": 16,
+      "text": "sixteen",
+      "verification": "visual",
+      "kind": "word-grid"
+    },
+    {
+      "id": "wf-2c5abdef2a0e-occurrence-0",
+      "wordFormId": "wf-2c5abdef2a0e",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-9",
+      "bookPage": 15,
+      "pdfPage": 16,
+      "text": "seventeen",
+      "verification": "visual",
+      "kind": "word-grid"
+    },
+    {
+      "id": "wf-34357b18abdd-occurrence-0",
+      "wordFormId": "wf-34357b18abdd",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-9",
+      "bookPage": 15,
+      "pdfPage": 16,
+      "text": "eighteen",
+      "verification": "visual",
+      "kind": "word-grid"
+    },
+    {
+      "id": "wf-cde4e100efd2-occurrence-0",
+      "wordFormId": "wf-cde4e100efd2",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-9",
+      "bookPage": 15,
+      "pdfPage": 16,
+      "text": "nineteen",
+      "verification": "visual",
+      "kind": "word-grid"
+    },
+    {
+      "id": "wf-7c2c4df740f7-occurrence-0",
+      "wordFormId": "wf-7c2c4df740f7",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-9",
+      "bookPage": 15,
+      "pdfPage": 16,
+      "text": "twenty",
+      "verification": "visual",
+      "kind": "word-grid"
+    },
+    {
+      "id": "wf-7692c3ad3540-occurrence-0",
+      "wordFormId": "wf-7692c3ad3540",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-5-9a-9b-9",
+      "bookPage": 66,
+      "pdfPage": 67,
+      "text": "one",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-3fc4ccfe7458-occurrence-0",
+      "wordFormId": "wf-3fc4ccfe7458",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-6-12a-12b-6",
+      "bookPage": 80,
+      "pdfPage": 81,
+      "text": "two",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-8b5b9db0c13d-occurrence-0",
+      "wordFormId": "wf-8b5b9db0c13d",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-revision-2",
+      "bookPage": 5,
+      "pdfPage": 6,
+      "text": "three",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-04efaf080f5a-occurrence-0",
+      "wordFormId": "wf-04efaf080f5a",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-6-12a-12b-6",
+      "bookPage": 80,
+      "pdfPage": 81,
+      "text": "four",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-222b0bd51fce-occurrence-0",
+      "wordFormId": "wf-222b0bd51fce",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-7",
+      "bookPage": 18,
+      "pdfPage": 19,
+      "text": "five",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-3ba8d02b16fd-occurrence-0",
+      "wordFormId": "wf-3ba8d02b16fd",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-entry-3",
+      "bookPage": 11,
+      "pdfPage": 12,
+      "text": "seven",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-c195d2d87562-occurrence-0",
+      "wordFormId": "wf-c195d2d87562",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-10",
+      "bookPage": 19,
+      "pdfPage": 20,
+      "text": "eight",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-edcd8e701a2d-occurrence-0",
+      "wordFormId": "wf-edcd8e701a2d",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-7",
+      "bookPage": 14,
+      "pdfPage": 15,
+      "text": "nine",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-e4432baa9081-occurrence-0",
+      "wordFormId": "wf-e4432baa9081",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-6",
+      "bookPage": 18,
+      "pdfPage": 19,
+      "text": "ten",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-55015dcc0231-occurrence-0",
+      "wordFormId": "wf-55015dcc0231",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-5",
+      "bookPage": 14,
+      "pdfPage": 15,
+      "text": "pens",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-6e317bcd6839-occurrence-0",
+      "wordFormId": "wf-6e317bcd6839",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-11",
+      "bookPage": 24,
+      "pdfPage": 25,
+      "text": "books",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-3908cdabeb3a-occurrence-0",
+      "wordFormId": "wf-3908cdabeb3a",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-11",
+      "bookPage": 24,
+      "pdfPage": 25,
+      "text": "rubbers",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-6202c8a7fd1c-occurrence-0",
+      "wordFormId": "wf-6202c8a7fd1c",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-11",
+      "bookPage": 24,
+      "pdfPage": 25,
+      "text": "rulers",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-24f896f7408e-occurrence-0",
+      "wordFormId": "wf-24f896f7408e",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-4-review-8",
+      "bookPage": 60,
+      "pdfPage": 61,
+      "text": "pencils",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-50ecdf5881a7-occurrence-0",
+      "wordFormId": "wf-50ecdf5881a7",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-4-8a-8b-8",
+      "bookPage": 57,
+      "pdfPage": 58,
+      "text": "pencil cases",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-de7d1b721a1e-occurrence-0",
+      "wordFormId": "wf-de7d1b721a1e",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-12",
+      "bookPage": 24,
+      "pdfPage": 25,
+      "text": "I",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-bb0347a468d9-occurrence-0",
+      "wordFormId": "wf-bb0347a468d9",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-12",
+      "bookPage": 24,
+      "pdfPage": 25,
+      "text": "you",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-372f7e2fd2d0-occurrence-0",
+      "wordFormId": "wf-372f7e2fd2d0",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-12",
+      "bookPage": 24,
+      "pdfPage": 25,
+      "text": "he",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-2cda85e504e1-occurrence-0",
+      "wordFormId": "wf-2cda85e504e1",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-12",
+      "bookPage": 24,
+      "pdfPage": 25,
+      "text": "she",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-2ad8a7049d7c-occurrence-0",
+      "wordFormId": "wf-2ad8a7049d7c",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-12",
+      "bookPage": 24,
+      "pdfPage": 25,
+      "text": "it",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-dc7c811b9561-occurrence-0",
+      "wordFormId": "wf-dc7c811b9561",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-12",
+      "bookPage": 24,
+      "pdfPage": 25,
+      "text": "we",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-151e58a83130-occurrence-0",
+      "wordFormId": "wf-151e58a83130",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-12",
+      "bookPage": 24,
+      "pdfPage": 25,
+      "text": "they",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-ab6db599234d-occurrence-0",
+      "wordFormId": "wf-ab6db599234d",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-5",
+      "bookPage": 17,
+      "pdfPage": 18,
+      "text": "am",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-fa51fd49abf6-occurrence-0",
+      "wordFormId": "wf-fa51fd49abf6",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-5",
+      "bookPage": 17,
+      "pdfPage": 18,
+      "text": "is",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-ba78973ddcf9-occurrence-0",
+      "wordFormId": "wf-ba78973ddcf9",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-5",
+      "bookPage": 17,
+      "pdfPage": 18,
+      "text": "are",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-78f267c0e62e-occurrence-0",
+      "wordFormId": "wf-78f267c0e62e",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-6",
+      "bookPage": 18,
+      "pdfPage": 19,
+      "text": "I'm",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-ac88c595ceb0-occurrence-0",
+      "wordFormId": "wf-ac88c595ceb0",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-6",
+      "bookPage": 18,
+      "pdfPage": 19,
+      "text": "he's",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-aff7dd72161b-occurrence-0",
+      "wordFormId": "wf-aff7dd72161b",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-8",
+      "bookPage": 18,
+      "pdfPage": 19,
+      "text": "she's",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-24ceef1cb6b0-occurrence-0",
+      "wordFormId": "wf-24ceef1cb6b0",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-6",
+      "bookPage": 18,
+      "pdfPage": 19,
+      "text": "it's",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-dacbc48f0803-occurrence-0",
+      "wordFormId": "wf-dacbc48f0803",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-6",
+      "bookPage": 18,
+      "pdfPage": 19,
+      "text": "they're",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-7dece7d7d99e-occurrence-0",
+      "wordFormId": "wf-7dece7d7d99e",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-6",
+      "bookPage": 18,
+      "pdfPage": 19,
+      "text": "you're",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-10beaccfc7da-occurrence-0",
+      "wordFormId": "wf-10beaccfc7da",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-3",
+      "bookPage": 14,
+      "pdfPage": 15,
+      "text": "what's",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-df7682099c96-occurrence-0",
+      "wordFormId": "wf-df7682099c96",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-7",
+      "bookPage": 22,
+      "pdfPage": 23,
+      "text": "don't",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-8c64c149d95d-occurrence-0",
+      "wordFormId": "wf-8c64c149d95d",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-6",
+      "bookPage": 14,
+      "pdfPage": 15,
+      "text": "I've",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-038468518ad8-occurrence-0",
+      "wordFormId": "wf-038468518ad8",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-6",
+      "bookPage": 14,
+      "pdfPage": 15,
+      "text": "my",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-4d040d3f6466-occurrence-0",
+      "wordFormId": "wf-4d040d3f6466",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-8",
+      "bookPage": 15,
+      "pdfPage": 16,
+      "text": "your",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-1eb79602411e-occurrence-0",
+      "wordFormId": "wf-1eb79602411e",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-3",
+      "bookPage": 14,
+      "pdfPage": 15,
+      "text": "this",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-749ab2c0d06c-occurrence-0",
+      "wordFormId": "wf-749ab2c0d06c",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-7",
+      "bookPage": 18,
+      "pdfPage": 19,
+      "text": "what",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-b48111c10c65-occurrence-0",
+      "wordFormId": "wf-b48111c10c65",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-12",
+      "bookPage": 24,
+      "pdfPage": 25,
+      "text": "where",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-8044aae1f868-occurrence-0",
+      "wordFormId": "wf-8044aae1f868",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-12",
+      "bookPage": 24,
+      "pdfPage": 25,
+      "text": "how",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-cba06b5736fa-occurrence-0",
+      "wordFormId": "wf-cba06b5736fa",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-7",
+      "bookPage": 14,
+      "pdfPage": 15,
+      "text": "old",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-82a3537ff0db-occurrence-0",
+      "wordFormId": "wf-82a3537ff0db",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-6",
+      "bookPage": 18,
+      "pdfPage": 19,
+      "text": "name",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-489f719cadf9-occurrence-0",
+      "wordFormId": "wf-489f719cadf9",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-5",
+      "bookPage": 17,
+      "pdfPage": 18,
+      "text": "happy",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-45c9a6614fcc-occurrence-0",
+      "wordFormId": "wf-45c9a6614fcc",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-12",
+      "bookPage": 24,
+      "pdfPage": 25,
+      "text": "sad",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-cde48537ca2c-occurrence-0",
+      "wordFormId": "wf-cde48537ca2c",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-5",
+      "bookPage": 17,
+      "pdfPage": 18,
+      "text": "friend",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-775cf3abc9be-occurrence-0",
+      "wordFormId": "wf-775cf3abc9be",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-6",
+      "bookPage": 18,
+      "pdfPage": 19,
+      "text": "favourite",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-a9491f4c1bf7-occurrence-0",
+      "wordFormId": "wf-a9491f4c1bf7",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-6",
+      "bookPage": 18,
+      "pdfPage": 19,
+      "text": "subject",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-e223d8ec1e64-occurrence-0",
+      "wordFormId": "wf-e223d8ec1e64",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-10",
+      "bookPage": 19,
+      "pdfPage": 20,
+      "text": "subjects",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-1c50993b009c-occurrence-0",
+      "wordFormId": "wf-1c50993b009c",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-10",
+      "bookPage": 19,
+      "pdfPage": 20,
+      "text": "years",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-b1d6b91b67c2-occurrence-0",
+      "wordFormId": "wf-b1d6b91b67c2",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-5",
+      "bookPage": 17,
+      "pdfPage": 18,
+      "text": "at",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-582967534d0f-occurrence-0",
+      "wordFormId": "wf-582967534d0f",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-5",
+      "bookPage": 17,
+      "pdfPage": 18,
+      "text": "in",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-6201111b83a0-occurrence-0",
+      "wordFormId": "wf-6201111b83a0",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-10",
+      "bookPage": 19,
+      "pdfPage": 20,
+      "text": "and",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-ca978112ca1b-occurrence-0",
+      "wordFormId": "wf-ca978112ca1b",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-3",
+      "bookPage": 14,
+      "pdfPage": 15,
+      "text": "a",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-b9776d7ddf45-occurrence-0",
+      "wordFormId": "wf-b9776d7ddf45",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-6",
+      "bookPage": 18,
+      "pdfPage": 19,
+      "text": "the",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-e1bf1560b1c2-occurrence-0",
+      "wordFormId": "wf-e1bf1560b1c2",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-6",
+      "bookPage": 18,
+      "pdfPage": 19,
+      "text": "is not",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-193c45b52819-occurrence-0",
+      "wordFormId": "wf-193c45b52819",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-7",
+      "bookPage": 22,
+      "pdfPage": 23,
+      "text": "have",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-0497db517ef0-occurrence-0",
+      "wordFormId": "wf-0497db517ef0",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-6",
+      "bookPage": 14,
+      "pdfPage": 15,
+      "text": "got",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-75de3c3c7bec-occurrence-0",
+      "wordFormId": "wf-75de3c3c7bec",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-revision-10",
+      "bookPage": 8,
+      "pdfPage": 9,
+      "text": "have got",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-cab2644828bc-occurrence-0",
+      "wordFormId": "wf-cab2644828bc",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-10",
+      "bookPage": 19,
+      "pdfPage": 20,
+      "text": "like",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-3316348dbadf-occurrence-0",
+      "wordFormId": "wf-3316348dbadf",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-4",
+      "bookPage": 17,
+      "pdfPage": 18,
+      "text": "read",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-10fd874b68da-occurrence-0",
+      "wordFormId": "wf-10fd874b68da",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-4",
+      "bookPage": 17,
+      "pdfPage": 18,
+      "text": "write",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-6f8860eb5103-occurrence-0",
+      "wordFormId": "wf-6f8860eb5103",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-4",
+      "bookPage": 17,
+      "pdfPage": 18,
+      "text": "listen",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-6342d0648a74-occurrence-0",
+      "wordFormId": "wf-6342d0648a74",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-4",
+      "bookPage": 17,
+      "pdfPage": 18,
+      "text": "sing",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-acba25512100-occurrence-0",
+      "wordFormId": "wf-acba25512100",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-4",
+      "bookPage": 17,
+      "pdfPage": 18,
+      "text": "run",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-6bdaf554e420-occurrence-0",
+      "wordFormId": "wf-6bdaf554e420",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-4",
+      "bookPage": 17,
+      "pdfPage": 18,
+      "text": "jump",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-50f7becde477-occurrence-0",
+      "wordFormId": "wf-50f7becde477",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-4",
+      "bookPage": 17,
+      "pdfPage": 18,
+      "text": "draw",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-aba4cc9b8af8-occurrence-0",
+      "wordFormId": "wf-aba4cc9b8af8",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-4",
+      "bookPage": 17,
+      "pdfPage": 18,
+      "text": "play",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-6de03f9e8221-occurrence-0",
+      "wordFormId": "wf-6de03f9e8221",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-4",
+      "bookPage": 17,
+      "pdfPage": 18,
+      "text": "watch films",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-9f584196e7fe-occurrence-0",
+      "wordFormId": "wf-9f584196e7fe",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-9",
+      "bookPage": 23,
+      "pdfPage": 24,
+      "text": "can",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-2348f9987442-occurrence-0",
+      "wordFormId": "wf-2348f9987442",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-9",
+      "bookPage": 19,
+      "pdfPage": 20,
+      "text": "open",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-310ff200149b-occurrence-0",
+      "wordFormId": "wf-310ff200149b",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-9",
+      "bookPage": 19,
+      "pdfPage": 20,
+      "text": "close",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-8cceaf5c89e6-occurrence-0",
+      "wordFormId": "wf-8cceaf5c89e6",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-9",
+      "bookPage": 19,
+      "pdfPage": 20,
+      "text": "clap",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-45a229d57d35-occurrence-0",
+      "wordFormId": "wf-45a229d57d35",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-9",
+      "bookPage": 19,
+      "pdfPage": 20,
+      "text": "hands",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-43f7a37eecd4-occurrence-0",
+      "wordFormId": "wf-43f7a37eecd4",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-9",
+      "bookPage": 19,
+      "pdfPage": 20,
+      "text": "stand up",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-778443b4b10e-occurrence-0",
+      "wordFormId": "wf-778443b4b10e",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-9",
+      "bookPage": 19,
+      "pdfPage": 20,
+      "text": "sit down",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-e0afcdbf6ad4-occurrence-0",
+      "wordFormId": "wf-e0afcdbf6ad4",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-9",
+      "bookPage": 19,
+      "pdfPage": 20,
+      "text": "stamp",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-a5add1365529-occurrence-0",
+      "wordFormId": "wf-a5add1365529",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-9",
+      "bookPage": 19,
+      "pdfPage": 20,
+      "text": "feet",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-34707c3f40df-occurrence-0",
+      "wordFormId": "wf-34707c3f40df",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-10",
+      "bookPage": 16,
+      "pdfPage": 17,
+      "text": "egg",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-0e895c323cc7-occurrence-0",
+      "wordFormId": "wf-0e895c323cc7",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-10",
+      "bookPage": 16,
+      "pdfPage": 17,
+      "text": "clever",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-106a5842fc5f-occurrence-0",
+      "wordFormId": "wf-106a5842fc5f",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-10",
+      "bookPage": 16,
+      "pdfPage": 17,
+      "text": "help",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-2998b3232d29-occurrence-0",
+      "wordFormId": "wf-2998b3232d29",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-10",
+      "bookPage": 16,
+      "pdfPage": 17,
+      "text": "get",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-8a798890fe93-occurrence-0",
+      "wordFormId": "wf-8a798890fe93",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-10",
+      "bookPage": 16,
+      "pdfPage": 17,
+      "text": "yes",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-c5052532c220-occurrence-0",
+      "wordFormId": "wf-c5052532c220",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-10",
+      "bookPage": 16,
+      "pdfPage": 17,
+      "text": "bed",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-2744ccd10c75-occurrence-0",
+      "wordFormId": "wf-2744ccd10c75",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-10",
+      "bookPage": 16,
+      "pdfPage": 17,
+      "text": "me",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-bbba57318f71-occurrence-0",
+      "wordFormId": "wf-bbba57318f71",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-10",
+      "bookPage": 16,
+      "pdfPage": 17,
+      "text": "pet",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-62cb81b5904a-occurrence-0",
+      "wordFormId": "wf-62cb81b5904a",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-10",
+      "bookPage": 16,
+      "pdfPage": 17,
+      "text": "bee",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-b1f51a511f1d-occurrence-0",
+      "wordFormId": "wf-b1f51a511f1d",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-10",
+      "bookPage": 16,
+      "pdfPage": 17,
+      "text": "red",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-dc9c5edb8b2d-occurrence-0",
+      "wordFormId": "wf-dc9c5edb8b2d",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-10",
+      "bookPage": 16,
+      "pdfPage": 17,
+      "text": "tree",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-aa304b5d1d72-occurrence-0",
+      "wordFormId": "wf-aa304b5d1d72",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-7",
+      "bookPage": 22,
+      "pdfPage": 23,
+      "text": "Russian",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-d70afca61520-occurrence-0",
+      "wordFormId": "wf-d70afca61520",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-7",
+      "bookPage": 22,
+      "pdfPage": 23,
+      "text": "Reading",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-238d7145e500-occurrence-0",
+      "wordFormId": "wf-238d7145e500",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-7",
+      "bookPage": 22,
+      "pdfPage": 23,
+      "text": "Nature Study",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-42781526b743-occurrence-0",
+      "wordFormId": "wf-42781526b743",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-7",
+      "bookPage": 22,
+      "pdfPage": 23,
+      "text": "Computer Study",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-1d7906c798c9-occurrence-0",
+      "wordFormId": "wf-1d7906c798c9",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-7",
+      "bookPage": 22,
+      "pdfPage": 23,
+      "text": "Handicraft",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-e971c330aab8-occurrence-0",
+      "wordFormId": "wf-e971c330aab8",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-4",
+      "bookPage": 21,
+      "pdfPage": 22,
+      "text": "ice cream",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-54ad3893e738-occurrence-0",
+      "wordFormId": "wf-54ad3893e738",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-4",
+      "bookPage": 21,
+      "pdfPage": 22,
+      "text": "tree house",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-bb3c78a5ebce-occurrence-0",
+      "wordFormId": "wf-bb3c78a5ebce",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-4",
+      "bookPage": 21,
+      "pdfPage": 22,
+      "text": "orange juice",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-f6bc36134480-occurrence-0",
+      "wordFormId": "wf-f6bc36134480",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-4",
+      "bookPage": 21,
+      "pdfPage": 22,
+      "text": "teddy bear",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-3e7a939e96c4-occurrence-0",
+      "wordFormId": "wf-3e7a939e96c4",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-4",
+      "bookPage": 21,
+      "pdfPage": 22,
+      "text": "phone number",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-3d7eb3d3dab1-occurrence-0",
+      "wordFormId": "wf-3d7eb3d3dab1",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-1",
+      "bookPage": 19,
+      "pdfPage": 20,
+      "text": "chair",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-aa9e9b5c907d-occurrence-0",
+      "wordFormId": "wf-aa9e9b5c907d",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-1",
+      "bookPage": 20,
+      "pdfPage": 21,
+      "text": "see",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-2cf24dba5fb0-occurrence-0",
+      "wordFormId": "wf-2cf24dba5fb0",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-9",
+      "bookPage": 23,
+      "pdfPage": 24,
+      "text": "hello",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-75857a458999-occurrence-0",
+      "wordFormId": "wf-75857a458999",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-9",
+      "bookPage": 23,
+      "pdfPage": 24,
+      "text": "from",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-6089854c94ca-occurrence-0",
+      "wordFormId": "wf-6089854c94ca",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-9",
+      "bookPage": 23,
+      "pdfPage": 24,
+      "text": "London",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-cdc299378871-occurrence-0",
+      "wordFormId": "wf-cdc299378871",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-9",
+      "bookPage": 23,
+      "pdfPage": 24,
+      "text": "but",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-4c6a4839f83d-occurrence-0",
+      "wordFormId": "wf-4c6a4839f83d",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-9",
+      "bookPage": 23,
+      "pdfPage": 24,
+      "text": "very",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-a7722b765d15-occurrence-0",
+      "wordFormId": "wf-a7722b765d15",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-9",
+      "bookPage": 23,
+      "pdfPage": 24,
+      "text": "well",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-6382deaf1f5d-occurrence-0",
+      "wordFormId": "wf-6382deaf1f5d",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-9",
+      "bookPage": 23,
+      "pdfPage": 24,
+      "text": "football",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-94c05f1c45a1-occurrence-0",
+      "wordFormId": "wf-94c05f1c45a1",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-9",
+      "bookPage": 23,
+      "pdfPage": 24,
+      "text": "too",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-77af778b51ab-occurrence-0",
+      "wordFormId": "wf-77af778b51ab",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-9",
+      "bookPage": 23,
+      "pdfPage": 24,
+      "text": "cat",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-ea103d6cb5c3-occurrence-0",
+      "wordFormId": "wf-ea103d6cb5c3",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-9",
+      "bookPage": 23,
+      "pdfPage": 24,
+      "text": "its",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-a4262e1c9bcb-occurrence-0",
+      "wordFormId": "wf-a4262e1c9bcb",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-9",
+      "bookPage": 23,
+      "pdfPage": 24,
+      "text": "about",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-686f746a95b6-occurrence-0",
+      "wordFormId": "wf-686f746a95b6",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-9",
+      "bookPage": 23,
+      "pdfPage": 24,
+      "text": "love",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-55579b557896-occurrence-0",
+      "wordFormId": "wf-55579b557896",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-3-review-5",
+      "bookPage": 47,
+      "pdfPage": 48,
+      "text": "Anna",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-e1608f75c5d7-occurrence-0",
+      "wordFormId": "wf-e1608f75c5d7",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-9",
+      "bookPage": 23,
+      "pdfPage": 24,
+      "text": "Tom",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-383ef3692834-occurrence-0",
+      "wordFormId": "wf-383ef3692834",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-11",
+      "bookPage": 24,
+      "pdfPage": 25,
+      "text": "plus",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-2e4b9cc2428b-occurrence-0",
+      "wordFormId": "wf-2e4b9cc2428b",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-2-4a-4b-10",
+      "bookPage": 31,
+      "pdfPage": 32,
+      "text": "friends",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-ea325d761f98-occurrence-0",
+      "wordFormId": "wf-ea325d761f98",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-4-7a-7b-5",
+      "bookPage": 53,
+      "pdfPage": 54,
+      "text": "an",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-46599c5bb5c3-occurrence-0",
+      "wordFormId": "wf-46599c5bb5c3",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-5",
+      "bookPage": 17,
+      "pdfPage": 18,
+      "text": "be",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-a50f18c9639c-occurrence-0",
+      "wordFormId": "wf-a50f18c9639c",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-8",
+      "bookPage": 15,
+      "pdfPage": 16,
+      "text": "come with me",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-923f8edc066c-occurrence-0",
+      "wordFormId": "wf-923f8edc066c",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-9",
+      "bookPage": 23,
+      "pdfPage": 24,
+      "text": "what about you",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-9150c74c5f92-occurrence-0",
+      "wordFormId": "wf-9150c74c5f92",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-revision-10",
+      "bookPage": 8,
+      "pdfPage": 9,
+      "text": "has",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-4cb0b250c625-occurrence-0",
+      "wordFormId": "wf-4cb0b250c625",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-4",
+      "bookPage": 21,
+      "pdfPage": 22,
+      "text": "ice",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-f3a22c1ce8e0-occurrence-0",
+      "wordFormId": "wf-f3a22c1ce8e0",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-4",
+      "bookPage": 21,
+      "pdfPage": 22,
+      "text": "cream",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-c018019b6a8b-occurrence-0",
+      "wordFormId": "wf-c018019b6a8b",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-4",
+      "bookPage": 21,
+      "pdfPage": 22,
+      "text": "bag",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-bbfcd4160a1e-occurrence-0",
+      "wordFormId": "wf-bbfcd4160a1e",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-4",
+      "bookPage": 21,
+      "pdfPage": 22,
+      "text": "case",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-1b4c9133da73-occurrence-0",
+      "wordFormId": "wf-1b4c9133da73",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-4",
+      "bookPage": 21,
+      "pdfPage": 22,
+      "text": "orange",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-a5ad89565607-occurrence-0",
+      "wordFormId": "wf-a5ad89565607",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-4",
+      "bookPage": 21,
+      "pdfPage": 22,
+      "text": "juice",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-8de85d6d6394-occurrence-0",
+      "wordFormId": "wf-8de85d6d6394",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-4",
+      "bookPage": 21,
+      "pdfPage": 22,
+      "text": "teddy",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-bc98bb50e809-occurrence-0",
+      "wordFormId": "wf-bc98bb50e809",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-4",
+      "bookPage": 21,
+      "pdfPage": 22,
+      "text": "bear",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-d6e21286621a-occurrence-0",
+      "wordFormId": "wf-d6e21286621a",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-4",
+      "bookPage": 21,
+      "pdfPage": 22,
+      "text": "house",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-45569da57f4b-occurrence-0",
+      "wordFormId": "wf-45569da57f4b",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-4",
+      "bookPage": 21,
+      "pdfPage": 22,
+      "text": "phone",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-12886f9d0005-occurrence-0",
+      "wordFormId": "wf-12886f9d0005",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-4",
+      "bookPage": 21,
+      "pdfPage": 22,
+      "text": "number",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-d37a24b801c6-occurrence-0",
+      "wordFormId": "wf-d37a24b801c6",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-5",
+      "bookPage": 21,
+      "pdfPage": 22,
+      "text": "stand",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-75a288c0d689-occurrence-0",
+      "wordFormId": "wf-75a288c0d689",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-5",
+      "bookPage": 21,
+      "pdfPage": 22,
+      "text": "up",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-584178e5e351-occurrence-0",
+      "wordFormId": "wf-584178e5e351",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-5",
+      "bookPage": 21,
+      "pdfPage": 22,
+      "text": "sit",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-908aec4512d8-occurrence-0",
+      "wordFormId": "wf-908aec4512d8",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-review-5",
+      "bookPage": 21,
+      "pdfPage": 22,
+      "text": "down",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-baed83162394-occurrence-0",
+      "wordFormId": "wf-baed83162394",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-4",
+      "bookPage": 17,
+      "pdfPage": 18,
+      "text": "watch",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-db944067d6c7-occurrence-0",
+      "wordFormId": "wf-db944067d6c7",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-4",
+      "bookPage": 17,
+      "pdfPage": 18,
+      "text": "films",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-ce213852297e-occurrence-0",
+      "wordFormId": "wf-ce213852297e",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-7",
+      "bookPage": 15,
+      "pdfPage": 16,
+      "text": "schoolbag",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-0695b563acde-occurrence-0",
+      "wordFormId": "wf-0695b563acde",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-1a-1b-8",
+      "bookPage": 15,
+      "pdfPage": 16,
+      "text": "with",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-254bb97b57f1-occurrence-0",
+      "wordFormId": "wf-254bb97b57f1",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-1-2a-2b-6",
+      "bookPage": 18,
+      "pdfPage": 19,
+      "text": "not",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-ac0b52a2ae6e-occurrence-0",
+      "wordFormId": "wf-ac0b52a2ae6e",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-3-5a-5b-10",
+      "bookPage": 40,
+      "pdfPage": 41,
+      "text": "do",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-1b001706a418-occurrence-0",
+      "wordFormId": "wf-1b001706a418",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-revision-1",
+      "bookPage": 4,
+      "pdfPage": 5,
+      "text": "hand",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-22e4f6912a69-occurrence-0",
+      "wordFormId": "wf-22e4f6912a69",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-5-9a-9b-8",
+      "bookPage": 65,
+      "pdfPage": 66,
+      "text": "foot",
+      "verification": "visual",
+      "kind": "printed"
+    },
+    {
+      "id": "wf-2968ec9d80f1-occurrence-0",
+      "wordFormId": "wf-2968ec9d80f1",
+      "sourceId": "bykova-pospelova-2017-workbook-3",
+      "exerciseId": "wb-revision-10",
+      "bookPage": 8,
+      "pdfPage": 9,
+      "text": "has got",
+      "verification": "visual",
+      "kind": "printed"
+    }
+  ],
+  "examples": [
+    {
+      "id": "example-wf-d64debd942d7",
+      "wordFormId": "wf-d64debd942d7",
+      "en": "It is a school.",
+      "ru": "Это школа.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-619d1dac1c13",
+      "wordFormId": "wf-619d1dac1c13",
+      "en": "It is a school bag.",
+      "ru": "Это портфель.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-e21a6b0cb193",
+      "wordFormId": "wf-e21a6b0cb193",
+      "en": "It is a pen.",
+      "ru": "Это ручка.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-13809668fb43",
+      "wordFormId": "wf-13809668fb43",
+      "en": "It is a pencil.",
+      "ru": "Это карандаш.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-058ce9bd95f5",
+      "wordFormId": "wf-058ce9bd95f5",
+      "en": "It is a rubber.",
+      "ru": "Это ластик.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-5972814068a1",
+      "wordFormId": "wf-5972814068a1",
+      "en": "It is a ruler.",
+      "ru": "Это линейка.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-92719fe0cf8c",
+      "wordFormId": "wf-92719fe0cf8c",
+      "en": "It is a book.",
+      "ru": "Это книга.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-3b74bc54b6c2",
+      "wordFormId": "wf-3b74bc54b6c2",
+      "en": "It is a pencil case.",
+      "ru": "Это пенал.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-b6234d2ea0d6",
+      "wordFormId": "wf-b6234d2ea0d6",
+      "en": "I like English.",
+      "ru": "Мне нравится английский.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-acc017392425",
+      "wordFormId": "wf-acc017392425",
+      "en": "I like Maths.",
+      "ru": "Мне нравится математика.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-bf8e5ca0b2d5",
+      "wordFormId": "wf-bf8e5ca0b2d5",
+      "en": "I like Geography.",
+      "ru": "Мне нравится география.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-cdf69b25a417",
+      "wordFormId": "wf-cdf69b25a417",
+      "en": "I like PE.",
+      "ru": "Мне нравится физкультура.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-259aa8ef98a8",
+      "wordFormId": "wf-259aa8ef98a8",
+      "en": "I like History.",
+      "ru": "Мне нравится история.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-790fad4744a9",
+      "wordFormId": "wf-790fad4744a9",
+      "en": "I like Science.",
+      "ru": "Мне нравится естествознание.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-d3cec9911225",
+      "wordFormId": "wf-d3cec9911225",
+      "en": "I like Art.",
+      "ru": "Мне нравится рисование.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-80f189984e5c",
+      "wordFormId": "wf-80f189984e5c",
+      "en": "I like Music.",
+      "ru": "Мне нравится музыка.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-c83827727d78",
+      "wordFormId": "wf-c83827727d78",
+      "en": "Art is my favourite school subject.",
+      "ru": "Рисование — мой любимый школьный предмет.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-4cb4ea25583c",
+      "wordFormId": "wf-4cb4ea25583c",
+      "en": "I am in Year 3.",
+      "ru": "Я в третьем классе.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-e979074ebd56",
+      "wordFormId": "wf-e979074ebd56",
+      "en": "I have got eleven books.",
+      "ru": "У меня одиннадцать книг.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-d1a749ad879b",
+      "wordFormId": "wf-d1a749ad879b",
+      "en": "I have got twelve books.",
+      "ru": "У меня двенадцать книг.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-9ecc81f0a4b6",
+      "wordFormId": "wf-9ecc81f0a4b6",
+      "en": "I have got thirteen books.",
+      "ru": "У меня тринадцать книг.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-fef8f41cdcd2",
+      "wordFormId": "wf-fef8f41cdcd2",
+      "en": "I have got fourteen books.",
+      "ru": "У меня четырнадцать книг.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-c463967e5708",
+      "wordFormId": "wf-c463967e5708",
+      "en": "I have got fifteen books.",
+      "ru": "У меня пятнадцать книг.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-f2ce341fdaa6",
+      "wordFormId": "wf-f2ce341fdaa6",
+      "en": "I have got sixteen books.",
+      "ru": "У меня шестнадцать книг.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-2c5abdef2a0e",
+      "wordFormId": "wf-2c5abdef2a0e",
+      "en": "I have got seventeen books.",
+      "ru": "У меня семнадцать книг.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-34357b18abdd",
+      "wordFormId": "wf-34357b18abdd",
+      "en": "I have got eighteen books.",
+      "ru": "У меня восемнадцать книг.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-cde4e100efd2",
+      "wordFormId": "wf-cde4e100efd2",
+      "en": "I have got nineteen books.",
+      "ru": "У меня девятнадцать книг.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-7c2c4df740f7",
+      "wordFormId": "wf-7c2c4df740f7",
+      "en": "I have got twenty books.",
+      "ru": "У меня двадцать книг.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-7692c3ad3540",
+      "wordFormId": "wf-7692c3ad3540",
+      "en": "I have got one book.",
+      "ru": "У меня один книга.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-3fc4ccfe7458",
+      "wordFormId": "wf-3fc4ccfe7458",
+      "en": "I have got two books.",
+      "ru": "У меня два книг.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-8b5b9db0c13d",
+      "wordFormId": "wf-8b5b9db0c13d",
+      "en": "I have got three books.",
+      "ru": "У меня три книг.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-04efaf080f5a",
+      "wordFormId": "wf-04efaf080f5a",
+      "en": "I have got four books.",
+      "ru": "У меня четыре книг.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-222b0bd51fce",
+      "wordFormId": "wf-222b0bd51fce",
+      "en": "I have got five books.",
+      "ru": "У меня пять книг.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-3ba8d02b16fd",
+      "wordFormId": "wf-3ba8d02b16fd",
+      "en": "I have got seven books.",
+      "ru": "У меня семь книг.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-c195d2d87562",
+      "wordFormId": "wf-c195d2d87562",
+      "en": "I have got eight books.",
+      "ru": "У меня восемь книг.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-edcd8e701a2d",
+      "wordFormId": "wf-edcd8e701a2d",
+      "en": "I have got nine books.",
+      "ru": "У меня девять книг.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-e4432baa9081",
+      "wordFormId": "wf-e4432baa9081",
+      "en": "I have got ten books.",
+      "ru": "У меня десять книг.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-55015dcc0231",
+      "wordFormId": "wf-55015dcc0231",
+      "en": "I have got pens.",
+      "ru": "У меня есть ручки.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-6e317bcd6839",
+      "wordFormId": "wf-6e317bcd6839",
+      "en": "I have got books.",
+      "ru": "У меня есть книги.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-3908cdabeb3a",
+      "wordFormId": "wf-3908cdabeb3a",
+      "en": "I have got rubbers.",
+      "ru": "У меня есть ластики.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-6202c8a7fd1c",
+      "wordFormId": "wf-6202c8a7fd1c",
+      "en": "I have got rulers.",
+      "ru": "У меня есть линейки.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-24f896f7408e",
+      "wordFormId": "wf-24f896f7408e",
+      "en": "I have got pencils.",
+      "ru": "У меня есть карандаши.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-50ecdf5881a7",
+      "wordFormId": "wf-50ecdf5881a7",
+      "en": "I have got pencil cases.",
+      "ru": "У меня есть пеналы.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-de7d1b721a1e",
+      "wordFormId": "wf-de7d1b721a1e",
+      "en": "I am happy.",
+      "ru": "Я рад.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-bb0347a468d9",
+      "wordFormId": "wf-bb0347a468d9",
+      "en": "You are happy.",
+      "ru": "Ты рад.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-372f7e2fd2d0",
+      "wordFormId": "wf-372f7e2fd2d0",
+      "en": "He is at school.",
+      "ru": "Он в школе.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-2cda85e504e1",
+      "wordFormId": "wf-2cda85e504e1",
+      "en": "She is at school.",
+      "ru": "Она в школе.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-2ad8a7049d7c",
+      "wordFormId": "wf-2ad8a7049d7c",
+      "en": "It is a book.",
+      "ru": "Это книга.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-dc7c811b9561",
+      "wordFormId": "wf-dc7c811b9561",
+      "en": "We are at school.",
+      "ru": "Мы в школе.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-151e58a83130",
+      "wordFormId": "wf-151e58a83130",
+      "en": "They are at school.",
+      "ru": "Они в школе.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-ab6db599234d",
+      "wordFormId": "wf-ab6db599234d",
+      "en": "I am happy.",
+      "ru": "Я рад.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-fa51fd49abf6",
+      "wordFormId": "wf-fa51fd49abf6",
+      "en": "He is happy.",
+      "ru": "Он рад.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-ba78973ddcf9",
+      "wordFormId": "wf-ba78973ddcf9",
+      "en": "They are happy.",
+      "ru": "Они рады.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-78f267c0e62e",
+      "wordFormId": "wf-78f267c0e62e",
+      "en": "I'm happy.",
+      "ru": "Я рад.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-ac88c595ceb0",
+      "wordFormId": "wf-ac88c595ceb0",
+      "en": "He's at school.",
+      "ru": "Он в школе.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-aff7dd72161b",
+      "wordFormId": "wf-aff7dd72161b",
+      "en": "She's at school.",
+      "ru": "Она в школе.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-24ceef1cb6b0",
+      "wordFormId": "wf-24ceef1cb6b0",
+      "en": "It's a pencil.",
+      "ru": "Это карандаш.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-dacbc48f0803",
+      "wordFormId": "wf-dacbc48f0803",
+      "en": "They're at school.",
+      "ru": "Они в школе.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-7dece7d7d99e",
+      "wordFormId": "wf-7dece7d7d99e",
+      "en": "You're my friend.",
+      "ru": "Ты мой друг.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-10beaccfc7da",
+      "wordFormId": "wf-10beaccfc7da",
+      "en": "What's this?",
+      "ru": "Что это?",
+      "authored": true
+    },
+    {
+      "id": "example-wf-df7682099c96",
+      "wordFormId": "wf-df7682099c96",
+      "en": "I don't have Art.",
+      "ru": "У меня нет рисования.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-8c64c149d95d",
+      "wordFormId": "wf-8c64c149d95d",
+      "en": "I've got a pen.",
+      "ru": "У меня есть ручка.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-038468518ad8",
+      "wordFormId": "wf-038468518ad8",
+      "en": "My book is red.",
+      "ru": "Моя книга красная.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-4d040d3f6466",
+      "wordFormId": "wf-4d040d3f6466",
+      "en": "Open your book!",
+      "ru": "Открой свою книгу!",
+      "authored": true
+    },
+    {
+      "id": "example-wf-1eb79602411e",
+      "wordFormId": "wf-1eb79602411e",
+      "en": "This is my pen.",
+      "ru": "Это моя ручка.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-749ab2c0d06c",
+      "wordFormId": "wf-749ab2c0d06c",
+      "en": "What is this?",
+      "ru": "Что это?",
+      "authored": true
+    },
+    {
+      "id": "example-wf-b48111c10c65",
+      "wordFormId": "wf-b48111c10c65",
+      "en": "Where are they?",
+      "ru": "Где они?",
+      "authored": true
+    },
+    {
+      "id": "example-wf-8044aae1f868",
+      "wordFormId": "wf-8044aae1f868",
+      "en": "How old are you?",
+      "ru": "Сколько тебе лет?",
+      "authored": true
+    },
+    {
+      "id": "example-wf-cba06b5736fa",
+      "wordFormId": "wf-cba06b5736fa",
+      "en": "I am nine years old.",
+      "ru": "Мне девять лет.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-82a3537ff0db",
+      "wordFormId": "wf-82a3537ff0db",
+      "en": "My name is Anna.",
+      "ru": "Меня зовут Анна.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-489f719cadf9",
+      "wordFormId": "wf-489f719cadf9",
+      "en": "I am happy.",
+      "ru": "Я рад.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-45c9a6614fcc",
+      "wordFormId": "wf-45c9a6614fcc",
+      "en": "I am sad.",
+      "ru": "Мне грустно.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-cde48537ca2c",
+      "wordFormId": "wf-cde48537ca2c",
+      "en": "You are my friend.",
+      "ru": "Ты мой друг.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-775cf3abc9be",
+      "wordFormId": "wf-775cf3abc9be",
+      "en": "My favourite subject is Art.",
+      "ru": "Мой любимый предмет — рисование.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-a9491f4c1bf7",
+      "wordFormId": "wf-a9491f4c1bf7",
+      "en": "Music is my favourite subject.",
+      "ru": "Музыка — мой любимый предмет.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-e223d8ec1e64",
+      "wordFormId": "wf-e223d8ec1e64",
+      "en": "My favourite subjects are Art and Music.",
+      "ru": "Мои любимые предметы — рисование и музыка.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-1c50993b009c",
+      "wordFormId": "wf-1c50993b009c",
+      "en": "I am ten years old.",
+      "ru": "Мне десять лет.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-b1d6b91b67c2",
+      "wordFormId": "wf-b1d6b91b67c2",
+      "en": "I am at school.",
+      "ru": "Я в школе.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-582967534d0f",
+      "wordFormId": "wf-582967534d0f",
+      "en": "The pen is in my pencil case.",
+      "ru": "Ручка в моём пенале.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-6201111b83a0",
+      "wordFormId": "wf-6201111b83a0",
+      "en": "I like Art and Music.",
+      "ru": "Мне нравятся рисование и музыка.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-ca978112ca1b",
+      "wordFormId": "wf-ca978112ca1b",
+      "en": "It is a book.",
+      "ru": "Это книга.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-b9776d7ddf45",
+      "wordFormId": "wf-b9776d7ddf45",
+      "en": "Open the book!",
+      "ru": "Открой эту книгу!",
+      "authored": true
+    },
+    {
+      "id": "example-wf-e1bf1560b1c2",
+      "wordFormId": "wf-e1bf1560b1c2",
+      "en": "He is not at school.",
+      "ru": "Он не в школе.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-193c45b52819",
+      "wordFormId": "wf-193c45b52819",
+      "en": "I have Art.",
+      "ru": "У меня есть рисование.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-0497db517ef0",
+      "wordFormId": "wf-0497db517ef0",
+      "en": "I have got a pen.",
+      "ru": "У меня есть ручка.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-75de3c3c7bec",
+      "wordFormId": "wf-75de3c3c7bec",
+      "en": "I have got a ruler.",
+      "ru": "У меня есть линейка.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-cab2644828bc",
+      "wordFormId": "wf-cab2644828bc",
+      "en": "I like Maths.",
+      "ru": "Мне нравится математика.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-3316348dbadf",
+      "wordFormId": "wf-3316348dbadf",
+      "en": "I can read.",
+      "ru": "Я умею читать.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-10fd874b68da",
+      "wordFormId": "wf-10fd874b68da",
+      "en": "I can write.",
+      "ru": "Я умею писать.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-6f8860eb5103",
+      "wordFormId": "wf-6f8860eb5103",
+      "en": "I can listen.",
+      "ru": "Я умею слушать.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-6342d0648a74",
+      "wordFormId": "wf-6342d0648a74",
+      "en": "I can sing.",
+      "ru": "Я умею петь.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-acba25512100",
+      "wordFormId": "wf-acba25512100",
+      "en": "I can run.",
+      "ru": "Я умею бегать.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-6bdaf554e420",
+      "wordFormId": "wf-6bdaf554e420",
+      "en": "I can jump.",
+      "ru": "Я умею прыгать.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-50f7becde477",
+      "wordFormId": "wf-50f7becde477",
+      "en": "I can draw.",
+      "ru": "Я умею рисовать.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-aba4cc9b8af8",
+      "wordFormId": "wf-aba4cc9b8af8",
+      "en": "I can play.",
+      "ru": "Я умею играть.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-6de03f9e8221",
+      "wordFormId": "wf-6de03f9e8221",
+      "en": "I can watch films.",
+      "ru": "Я могу смотреть фильмы.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-9f584196e7fe",
+      "wordFormId": "wf-9f584196e7fe",
+      "en": "I can read.",
+      "ru": "Я умею читать.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-2348f9987442",
+      "wordFormId": "wf-2348f9987442",
+      "en": "Open your book!",
+      "ru": "Открой книгу!",
+      "authored": true
+    },
+    {
+      "id": "example-wf-310ff200149b",
+      "wordFormId": "wf-310ff200149b",
+      "en": "Close your book!",
+      "ru": "Закрой книгу!",
+      "authored": true
+    },
+    {
+      "id": "example-wf-8cceaf5c89e6",
+      "wordFormId": "wf-8cceaf5c89e6",
+      "en": "Clap your hands!",
+      "ru": "Хлопай в ладоши!",
+      "authored": true
+    },
+    {
+      "id": "example-wf-45a229d57d35",
+      "wordFormId": "wf-45a229d57d35",
+      "en": "Clap your hands!",
+      "ru": "Хлопай в ладоши!",
+      "authored": true
+    },
+    {
+      "id": "example-wf-43f7a37eecd4",
+      "wordFormId": "wf-43f7a37eecd4",
+      "en": "Stand up!",
+      "ru": "Встань!",
+      "authored": true
+    },
+    {
+      "id": "example-wf-778443b4b10e",
+      "wordFormId": "wf-778443b4b10e",
+      "en": "Sit down!",
+      "ru": "Сядь!",
+      "authored": true
+    },
+    {
+      "id": "example-wf-e0afcdbf6ad4",
+      "wordFormId": "wf-e0afcdbf6ad4",
+      "en": "Stamp your feet!",
+      "ru": "Топай ногами!",
+      "authored": true
+    },
+    {
+      "id": "example-wf-a5add1365529",
+      "wordFormId": "wf-a5add1365529",
+      "en": "Stamp your feet!",
+      "ru": "Топай ногами!",
+      "authored": true
+    },
+    {
+      "id": "example-wf-34707c3f40df",
+      "wordFormId": "wf-34707c3f40df",
+      "en": "It is an egg.",
+      "ru": "Это яйцо.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-0e895c323cc7",
+      "wordFormId": "wf-0e895c323cc7",
+      "en": "He is clever.",
+      "ru": "Он умный.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-106a5842fc5f",
+      "wordFormId": "wf-106a5842fc5f",
+      "en": "I can help.",
+      "ru": "Я могу помочь.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-2998b3232d29",
+      "wordFormId": "wf-2998b3232d29",
+      "en": "Get your school bag!",
+      "ru": "Возьми портфель!",
+      "authored": true
+    },
+    {
+      "id": "example-wf-8a798890fe93",
+      "wordFormId": "wf-8a798890fe93",
+      "en": "Yes, I can.",
+      "ru": "Да, я умею.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-c5052532c220",
+      "wordFormId": "wf-c5052532c220",
+      "en": "It is my bed.",
+      "ru": "Это моя кровать.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-2744ccd10c75",
+      "wordFormId": "wf-2744ccd10c75",
+      "en": "Come with me!",
+      "ru": "Пойдём со мной!",
+      "authored": true
+    },
+    {
+      "id": "example-wf-bbba57318f71",
+      "wordFormId": "wf-bbba57318f71",
+      "en": "I have got a pet.",
+      "ru": "У меня есть питомец.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-62cb81b5904a",
+      "wordFormId": "wf-62cb81b5904a",
+      "en": "It is a bee.",
+      "ru": "Это пчела.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-b1f51a511f1d",
+      "wordFormId": "wf-b1f51a511f1d",
+      "en": "My book is red.",
+      "ru": "Моя книга красная.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-dc9c5edb8b2d",
+      "wordFormId": "wf-dc9c5edb8b2d",
+      "en": "It is a tree.",
+      "ru": "Это дерево.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-aa304b5d1d72",
+      "wordFormId": "wf-aa304b5d1d72",
+      "en": "I like Russian.",
+      "ru": "Мне нравится русский язык.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-d70afca61520",
+      "wordFormId": "wf-d70afca61520",
+      "en": "I have Reading.",
+      "ru": "У меня есть чтение.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-238d7145e500",
+      "wordFormId": "wf-238d7145e500",
+      "en": "I have Nature Study.",
+      "ru": "У меня есть окружающий мир.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-42781526b743",
+      "wordFormId": "wf-42781526b743",
+      "en": "I have Computer Study.",
+      "ru": "У меня есть информатика.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-1d7906c798c9",
+      "wordFormId": "wf-1d7906c798c9",
+      "en": "I have Handicraft.",
+      "ru": "У меня есть труд.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-e971c330aab8",
+      "wordFormId": "wf-e971c330aab8",
+      "en": "I like ice cream.",
+      "ru": "Мне нравится мороженое.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-54ad3893e738",
+      "wordFormId": "wf-54ad3893e738",
+      "en": "It is my tree house.",
+      "ru": "Это мой домик на дереве.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-bb3c78a5ebce",
+      "wordFormId": "wf-bb3c78a5ebce",
+      "en": "I like orange juice.",
+      "ru": "Мне нравится апельсиновый сок.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-f6bc36134480",
+      "wordFormId": "wf-f6bc36134480",
+      "en": "It is my teddy bear.",
+      "ru": "Это мой плюшевый мишка.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-3e7a939e96c4",
+      "wordFormId": "wf-3e7a939e96c4",
+      "en": "What is your phone number?",
+      "ru": "Какой у тебя номер телефона?",
+      "authored": true
+    },
+    {
+      "id": "example-wf-3d7eb3d3dab1",
+      "wordFormId": "wf-3d7eb3d3dab1",
+      "en": "It is a chair.",
+      "ru": "Это стул.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-aa9e9b5c907d",
+      "wordFormId": "wf-aa9e9b5c907d",
+      "en": "I can see a tree.",
+      "ru": "Я вижу дерево.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-2cf24dba5fb0",
+      "wordFormId": "wf-2cf24dba5fb0",
+      "en": "Hello, Anna!",
+      "ru": "Привет, Анна!",
+      "authored": true
+    },
+    {
+      "id": "example-wf-75857a458999",
+      "wordFormId": "wf-75857a458999",
+      "en": "I am from London.",
+      "ru": "Я из Лондона.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-6089854c94ca",
+      "wordFormId": "wf-6089854c94ca",
+      "en": "I am from London.",
+      "ru": "Я из Лондона.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-cdc299378871",
+      "wordFormId": "wf-cdc299378871",
+      "en": "I like Art, but I have Music.",
+      "ru": "Мне нравится рисование, но у меня музыка.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-4c6a4839f83d",
+      "wordFormId": "wf-4c6a4839f83d",
+      "en": "He is very happy.",
+      "ru": "Он очень рад.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-a7722b765d15",
+      "wordFormId": "wf-a7722b765d15",
+      "en": "I can read well.",
+      "ru": "Я хорошо умею читать.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-6382deaf1f5d",
+      "wordFormId": "wf-6382deaf1f5d",
+      "en": "I can play football.",
+      "ru": "Я умею играть в футбол.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-94c05f1c45a1",
+      "wordFormId": "wf-94c05f1c45a1",
+      "en": "I like Art too.",
+      "ru": "Мне тоже нравится рисование.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-77af778b51ab",
+      "wordFormId": "wf-77af778b51ab",
+      "en": "My pet is a cat.",
+      "ru": "Мой питомец — кот.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-ea103d6cb5c3",
+      "wordFormId": "wf-ea103d6cb5c3",
+      "en": "Its name is Tom.",
+      "ru": "Его зовут Том.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-a4262e1c9bcb",
+      "wordFormId": "wf-a4262e1c9bcb",
+      "en": "What about you?",
+      "ru": "А у тебя?",
+      "authored": true
+    },
+    {
+      "id": "example-wf-686f746a95b6",
+      "wordFormId": "wf-686f746a95b6",
+      "en": "Love, Tom.",
+      "ru": "С любовью, Том.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-55579b557896",
+      "wordFormId": "wf-55579b557896",
+      "en": "My name is Anna.",
+      "ru": "Меня зовут Анна.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-e1608f75c5d7",
+      "wordFormId": "wf-e1608f75c5d7",
+      "en": "My name is Tom.",
+      "ru": "Меня зовут Том.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-383ef3692834",
+      "wordFormId": "wf-383ef3692834",
+      "en": "Eight plus five is thirteen.",
+      "ru": "Восемь плюс пять — тринадцать.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-2e4b9cc2428b",
+      "wordFormId": "wf-2e4b9cc2428b",
+      "en": "They are my friends.",
+      "ru": "Они мои друзья.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-ea325d761f98",
+      "wordFormId": "wf-ea325d761f98",
+      "en": "It is an egg.",
+      "ru": "Это яйцо.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-46599c5bb5c3",
+      "wordFormId": "wf-46599c5bb5c3",
+      "en": "Be happy!",
+      "ru": "Будь рад!",
+      "authored": true
+    },
+    {
+      "id": "example-wf-a50f18c9639c",
+      "wordFormId": "wf-a50f18c9639c",
+      "en": "Come with me!",
+      "ru": "Пойдём со мной!",
+      "authored": true
+    },
+    {
+      "id": "example-wf-923f8edc066c",
+      "wordFormId": "wf-923f8edc066c",
+      "en": "What about you?",
+      "ru": "А у тебя?",
+      "authored": true
+    },
+    {
+      "id": "example-wf-9150c74c5f92",
+      "wordFormId": "wf-9150c74c5f92",
+      "en": "He has got a book.",
+      "ru": "У него есть книга.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-4cb0b250c625",
+      "wordFormId": "wf-4cb0b250c625",
+      "en": "I like ice cream.",
+      "ru": "Мне нравится мороженое.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-f3a22c1ce8e0",
+      "wordFormId": "wf-f3a22c1ce8e0",
+      "en": "I like ice cream.",
+      "ru": "Мне нравится мороженое.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-c018019b6a8b",
+      "wordFormId": "wf-c018019b6a8b",
+      "en": "It is my school bag.",
+      "ru": "Это мой портфель.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-bbfcd4160a1e",
+      "wordFormId": "wf-bbfcd4160a1e",
+      "en": "It is my pencil case.",
+      "ru": "Это мой пенал.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-1b4c9133da73",
+      "wordFormId": "wf-1b4c9133da73",
+      "en": "I like orange juice.",
+      "ru": "Мне нравится апельсиновый сок.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-a5ad89565607",
+      "wordFormId": "wf-a5ad89565607",
+      "en": "I like orange juice.",
+      "ru": "Мне нравится апельсиновый сок.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-8de85d6d6394",
+      "wordFormId": "wf-8de85d6d6394",
+      "en": "It is a teddy bear.",
+      "ru": "Это плюшевый мишка.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-bc98bb50e809",
+      "wordFormId": "wf-bc98bb50e809",
+      "en": "It is a teddy bear.",
+      "ru": "Это плюшевый мишка.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-d6e21286621a",
+      "wordFormId": "wf-d6e21286621a",
+      "en": "It is my tree house.",
+      "ru": "Это мой домик на дереве.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-45569da57f4b",
+      "wordFormId": "wf-45569da57f4b",
+      "en": "What is your phone number?",
+      "ru": "Какой у тебя номер телефона?",
+      "authored": true
+    },
+    {
+      "id": "example-wf-12886f9d0005",
+      "wordFormId": "wf-12886f9d0005",
+      "en": "What is your phone number?",
+      "ru": "Какой у тебя номер телефона?",
+      "authored": true
+    },
+    {
+      "id": "example-wf-d37a24b801c6",
+      "wordFormId": "wf-d37a24b801c6",
+      "en": "Stand up!",
+      "ru": "Встань!",
+      "authored": true
+    },
+    {
+      "id": "example-wf-75a288c0d689",
+      "wordFormId": "wf-75a288c0d689",
+      "en": "Stand up!",
+      "ru": "Встань!",
+      "authored": true
+    },
+    {
+      "id": "example-wf-584178e5e351",
+      "wordFormId": "wf-584178e5e351",
+      "en": "Sit down!",
+      "ru": "Сядь!",
+      "authored": true
+    },
+    {
+      "id": "example-wf-908aec4512d8",
+      "wordFormId": "wf-908aec4512d8",
+      "en": "Sit down!",
+      "ru": "Сядь!",
+      "authored": true
+    },
+    {
+      "id": "example-wf-baed83162394",
+      "wordFormId": "wf-baed83162394",
+      "en": "I can watch films.",
+      "ru": "Я могу смотреть фильмы.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-db944067d6c7",
+      "wordFormId": "wf-db944067d6c7",
+      "en": "I can watch films.",
+      "ru": "Я могу смотреть фильмы.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-ce213852297e",
+      "wordFormId": "wf-ce213852297e",
+      "en": "It is my schoolbag.",
+      "ru": "Это мой портфель.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-0695b563acde",
+      "wordFormId": "wf-0695b563acde",
+      "en": "Come with me!",
+      "ru": "Пойдём со мной!",
+      "authored": true
+    },
+    {
+      "id": "example-wf-254bb97b57f1",
+      "wordFormId": "wf-254bb97b57f1",
+      "en": "He is not at school.",
+      "ru": "Он не в школе.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-ac0b52a2ae6e",
+      "wordFormId": "wf-ac0b52a2ae6e",
+      "en": "I do not have Art.",
+      "ru": "У меня нет рисования.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-1b001706a418",
+      "wordFormId": "wf-1b001706a418",
+      "en": "Clap your hands!",
+      "ru": "Хлопай в ладоши!",
+      "authored": true
+    },
+    {
+      "id": "example-wf-22e4f6912a69",
+      "wordFormId": "wf-22e4f6912a69",
+      "en": "Stamp your feet!",
+      "ru": "Топай ногами!",
+      "authored": true
+    },
+    {
+      "id": "example-wf-2968ec9d80f1",
+      "wordFormId": "wf-2968ec9d80f1",
+      "en": "He has got a book.",
+      "ru": "У него есть книга.",
+      "authored": true
+    }
+  ]
+}
