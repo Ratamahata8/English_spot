@@ -64,13 +64,13 @@ export function Home() {
         </div>
       )}
       <Link to="/workbook" className="textbook-banner">
-        <span className="book-label">СБОРНИК УПРАЖНЕНИЙ</span>
+        <span className="book-label">СБОРНИК · 17-е изд., 2026</span>
         <h2>Разберём задание вместе</h2>
         <p>Найди упражнение по странице. Подготовься, послушай слова и потренируйся без спешки.</p>
         <strong>Открыть сборник →</strong>
       </Link>
-      <Link to="/textbook" className="textbook-banner">
-        <span className="book-label">НОВОЕ / УЧЕБНИК</span>
+      <Link to="/textbook?view=reader" className="textbook-banner">
+        <span className="book-label">КОМИКСЫ / ОТДЕЛЬНЫЙ УЧЕБНИК</span>
         <h2>А что они говорят?</h2>
         <p>Открой комикс, нажми на облачко — услышь реплику и узнай, что она значит.</p>
         <strong>Открыть страницы →</strong>

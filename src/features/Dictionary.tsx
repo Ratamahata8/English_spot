@@ -1,3 +1,4 @@
+import { editionFromQuery } from '../workbook/editions';
 import { useSearchParams, Link } from 'react-router-dom';
 import { WorkbookDictionary } from './WorkbookDictionary';
 import { useState } from 'react';
@@ -10,11 +11,15 @@ import { Illustration } from '../components/Illustration';
 import { PageHeading } from '../components/PageHeading';
 export function Dictionary() {
   const [params] = useSearchParams();
-  const source = params.get('source') === 'workbook';
+  const source = params.get('source') !== 'lessons';
   return (
     <>
       <div className="reader-controls wb-dictionary-switch">
-        <Link className="button" aria-current={!source ? 'page' : undefined} to="/dictionary">
+        <Link
+          className="button"
+          aria-current={!source ? 'page' : undefined}
+          to="/dictionary?source=lessons"
+        >
           Словарь моих уроков
         </Link>
         <Link
@@ -25,7 +30,11 @@ export function Dictionary() {
           Словарь сборника
         </Link>
       </div>
-      {source ? <WorkbookDictionary /> : <LegacyDictionary />}
+      {source ? (
+        <WorkbookDictionary key={params.get('edition') || params.get('form') || 'default-2026'} />
+      ) : (
+        <LegacyDictionary />
+      )}
     </>
   );
 }

@@ -1,9 +1,12 @@
+import { EditionSelector, PendingEdition } from '../workbook/EditionControls';
+import { editionFromQuery, editionLabel, EDITION_2026 } from '../workbook/editions';
 import { useProgress } from '../stores/progress';
 import { useEffect, useState, useRef } from 'react';
 import { HintToggle } from '../components/Hints';
 import { Link, useSearchParams } from 'react-router-dom';
 import {
-  workbookWords,
+  wordsForEdition,
+  allWorkbookWords,
   workbookExercises,
   getWordForm,
   getSourceExercise,
@@ -21,12 +24,16 @@ import { mastered, evidence, recordWorkbookAttempt } from '../workbook/learning'
 export function WorkbookDictionary() {
   const slow = useProgress((s) => s.progress.settings.slow),
     updateSettings = useProgress((s) => s.update);
-  const { progress, init, update, error } = useWorkbook();
+  const [params] = useSearchParams();
+  const edition = params.has('edition')
+    ? editionFromQuery(params.get('edition'))
+    : getWordForm(params.get('form') || '')?.occurrences[0]?.sourceId || EDITION_2026;
+  const workbookWords = wordsForEdition(edition);
+  const { progress, initSource, update, error, ready } = useWorkbook();
   useEffect(() => {
-    void init();
-  }, [init]);
-  const [params] = useSearchParams(),
-    [search, setSearch] = useState(''),
+    void initSource(edition);
+  }, [initSource, edition]);
+  const [search, setSearch] = useState(''),
     [showForms, setShowForms] = useState(false),
     [module, setModule] = useState('all'),
     [pos, setPos] = useState('all'),
@@ -68,7 +75,7 @@ export function WorkbookDictionary() {
     : allGroups
         .map((g) => g.filter((w) => matching.some((m) => m.id === w.id)))
         .filter((g) => g.length > 0);
-  const reviewWords = workbookWords.filter(
+  const reviewWords = allWorkbookWords.filter(
     (w) =>
       progress.reviewIds.includes(w.id) ||
       (!!progress.words[w.id] && progress.words[w.id].due <= Date.now()),
@@ -94,14 +101,19 @@ export function WorkbookDictionary() {
       return next;
     });
   }
+  if (!ready) return <p role="status">Открываем словарь…</p>;
+  if (progress.sourceId !== edition) return <PendingEdition target={edition} />;
   return (
     <>
+      <EditionSelector edition={edition} />
       <div className="wb-dictionary-notice">
-        <h2>Лексика из сборника</h2>
+        <h2>Лексика из сборника · {editionLabel(edition)}</h2>
         <p>
           Публикуем только проверенные употребления. Сейчас — {workbookWords.length} форм и{' '}
           {[...new Set(workbookWords.map((w) => w.lexemeId))].length} основных статей. Полный
           словарь всех восьми модулей ещё сверяется: 100% покрытия не заявлено.
+          {edition === EDITION_2026 &&
+            ' Формы подтверждены отчётом, точные номера упражнений не установлены. Слова собственных примеров не выдаются за лексику редакции 2026.'}
         </p>
       </div>
       {error && (
@@ -190,9 +202,15 @@ export function WorkbookDictionary() {
         </label>
       </div>
       {lexeme && (
-        <Link className="button" to="/dictionary?source=workbook">
+        <Link className="button" to={'/dictionary?source=workbook&edition=' + edition}>
           Показать весь словарь сборника
         </Link>
+      )}
+      {reviewWords.some((w) => !workbookWords.some((active) => active.id === w.id)) && (
+        <p>
+          В очереди также есть слова из другого издания, сохранённые в тренировках. У каждого слова
+          указан его источник; это не подтверждение новой лексики сборника.
+        </p>
       )}
       <button
         className="button"
@@ -214,6 +232,9 @@ export function WorkbookDictionary() {
               <h2>
                 Что значит <WorkbookText text={current.form} />?
               </h2>
+              <small>
+                Источник слова: {editionLabel(current.occurrences[0].sourceId || edition)}
+              </small>
               <WorkbookAudio text={current.form} />
               {[
                 current.meanings[0].ru,
@@ -279,7 +300,14 @@ export function WorkbookDictionary() {
         {groups.map((group) => {
           const primary =
             group.find((w) => w.form.toLowerCase() === w.lemma.toLowerCase()) || group[0];
-          const lemma = getLexeme(primary.lexemeId)!;
+          const base = getLexeme(primary.lexemeId)!;
+          const lemma = {
+            ...base,
+            normalizedOnly: !workbookWords.some(
+              (w) =>
+                w.lexemeId === primary.lexemeId && w.form.toLowerCase() === w.lemma.toLowerCase(),
+            ),
+          };
           return (
             <article
               className="word-card panel wb-word-card"
@@ -348,11 +376,18 @@ export function WorkbookDictionary() {
                     <ul>
                       {w.occurrences.map((o, i) => (
                         <li key={i}>
-                          Стр. {o.bookPage}, PDF {o.pdfPage}, №{' '}
-                          {getSourceExercise(o.exerciseId)?.number} ·{' '}
-                          {getSourceExercise(o.exerciseId)?.lesson}{' '}
-                          {workbookExercises.some((e) => e.id === o.exerciseId) ? (
-                            <Link to={'/workbook/' + o.exerciseId}>Открыть задание →</Link>
+                          {editionLabel(o.sourceId || edition)} · Стр.{' '}
+                          {o.printedPages?.join('–') || o.bookPage} ·{' '}
+                          {o.exerciseNumber === null
+                            ? 'номер не проверен'
+                            : '№ ' + getSourceExercise(o.exerciseId)?.number}{' '}
+                          · {getSourceExercise(o.exerciseId)?.lesson}{' '}
+                          {!!getSourceExercise(o.exerciseId)?.adaptationIds.length ? (
+                            <Link to={'/workbook/' + o.exerciseId}>
+                              {edition === EDITION_2026
+                                ? 'Тренировка по теме →'
+                                : 'Открыть задание →'}
+                            </Link>
                           ) : (
                             <span>Адаптация этого задания ещё готовится</span>
                           )}

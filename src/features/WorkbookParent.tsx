@@ -1,28 +1,37 @@
+import { useSearchParams } from 'react-router-dom';
+import { EditionSelector, PendingEdition } from '../workbook/EditionControls';
+import { editionFromQuery, editionLabel } from '../workbook/editions';
+import { exercisesForEdition } from '../workbook';
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useWorkbook } from '../workbook/store';
 import { mastered } from '../workbook/learning';
 import { getSkill, workbookExercises } from '../workbook';
 export function WorkbookParent() {
-  const { progress: p, init } = useWorkbook();
+  const [params] = useSearchParams();
+  const edition = editionFromQuery(params.get('edition'));
+  const { progress: p, initSource, ready } = useWorkbook();
   useEffect(() => {
-    void init();
-  }, [init]);
+    void initSource(edition);
+  }, [initSource, edition]);
   const problems = Object.entries(p.grammar)
     .filter(([, k]) => (k.errors > 0 || k.hinted > 0) && (!mastered(k) || k.due <= Date.now()))
     .sort((a, b) => b[1].errors - a[1].errors);
   const days = [
     ...new Set(p.attempts.map((a) => new Date(a.at).toLocaleDateString('ru-RU'))),
   ].slice(-7);
-  const weak = workbookExercises.find((e) =>
+  const weak = exercisesForEdition(edition).find((e) =>
     e.skillIds.some((id) => problems.some(([skill]) => skill === id)),
   );
+  if (!ready) return <p role="status">Открываем статистику сборника…</p>;
+  if (p.sourceId !== edition) return <PendingEdition target={edition} />;
   return (
     <section className="panel padding spaced wb-parent">
-      <h2>Сборник: отдельная картина знаний</h2>
+      <h2>Сборник: отдельная картина знаний · {editionLabel(edition)}</h2>
+      <EditionSelector />
       <div className="parent-stats">
         {[
-          [p.completed.length, 'из 33 заданий выполнено'],
+          [p.completed.length, `из ${exercisesForEdition(edition).length} тренировок выполнено`],
           [Object.values(p.words).filter(mastered).length, 'форм освоено самостоятельно'],
           [Math.floor(p.seconds / 60), 'минут в заданиях и подготовке'],
           [p.hintCount, 'обращений к помощи'],
@@ -85,7 +94,7 @@ export function WorkbookParent() {
         {Object.values(p.preparations).reduce((a, b) => a + b, 0)}.
       </p>
       <div className="reader-controls">
-        <Link className="button" to="/dictionary?source=workbook">
+        <Link className="button" to={'/dictionary?source=workbook&edition=' + edition}>
           Повторить слова →
         </Link>
         <Link className="button" to={'/workbook/' + (weak?.id || p.currentId)}>

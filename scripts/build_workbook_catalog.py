@@ -56,6 +56,6 @@ for r in records:
   r['skillIds']=old[r['id']]['skillIds'];r['prerequisiteSkillIds']=old[r['id']]['prerequisiteSkillIds']
  if r['id'] in adaptations:
   a=adaptations[r['id']];r.update(status=old.get(r['id'],{}).get('status','implemented'),adaptationIds=[a['id']],skillIds=a['skillIds'],prerequisiteSkillIds=a['skillIds'],requiredWordIds=a['wordIds'],lexicalReview='reviewed',interactiveType=a['mechanic'])
-coverage=dict(schemaVersion=1,sourceId='bykova-pospelova-2017-workbook-3',sourcePdfPages=129,sourceBookPages=128,pdfPageOffset=1,catalogReview='visual-checked',lexicalReview='in_progress',exercises=records)
+coverage=dict(schemaVersion=1,sourceId='spotlight_workbook_2017_6',sourcePdfPages=129,sourceBookPages=128,pdfPageOffset=1,catalogReview='visual-checked',lexicalReview='in_progress',exercises=records)
 (ROOT/'content-coverage.json').write_text(json.dumps(coverage,ensure_ascii=False,indent=2)+'\n')
 print('Source exercises:',len(records))

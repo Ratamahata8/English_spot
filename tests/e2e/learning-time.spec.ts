@@ -62,7 +62,7 @@ test('таймер считает активное повторение и ос�
   page,
 }) => {
   await page.clock.install();
-  await page.goto('#/dictionary');
+  await page.goto('#/dictionary?source=lessons');
   await page
     .locator('.word-card')
     .filter({ has: page.locator('.word-name').filter({ hasText: /^book$/ }) })

@@ -27,8 +27,9 @@ export function validateWorkbookContent(checkAudio = true) {
     sourceExercises.length, 'Duplicate source IDs');
   require(sourceExercises.length === 313, 'Source index count changed; review all pages');
   for (const e of sourceExercises) {
-    require(e.pdfPage === e.bookPage + 1, 'Wrong source page ' + e.id);
-    require(e.bookPage >= 4 && e.bookPage <= 127, 'Invalid book page ' + e.id);
+    require(e.bookPage !== null && e.pdfPage === e.bookPage + 1, 'Wrong source page ' + e.id);
+    require(e.bookPage !== null && e.bookPage >= 4 && e.bookPage <= 127, 'Invalid book page ' +
+      e.id);
     require(e.skillIds.every((id) => !!getSkill(id)), 'Unknown skill ' + e.id);
     require(['not_started', 'in_progress', 'implemented', 'reviewed', 'blocked'].includes(
       e.status,
@@ -61,7 +62,8 @@ export function validateWorkbookContent(checkAudio = true) {
       const source = getSourceExercise(o.exerciseId);
       require(sourceIds.has(o.exerciseId) && o.verification === 'visual', 'Unconfirmed form ' +
         w.form);
-      require(o.pdfPage === o.bookPage + 1 &&
+      require(o.bookPage !== null &&
+        o.pdfPage === o.bookPage + 1 &&
         !!source &&
         (source.bookPage === o.bookPage ||
           source.continuationPages.includes(o.bookPage)), 'Incorrect occurrence ' + w.form);

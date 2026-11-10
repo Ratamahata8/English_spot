@@ -123,6 +123,7 @@ test('мобильный экран, поиск, настройки, экспо�
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   await page.screenshot({ path: 'test-results/home-mobile.png', fullPage: true });
   await page.getByRole('link', { name: 'Словарь', exact: true }).click();
+  await page.getByRole('link', { name: 'Словарь моих уроков', exact: true }).click();
   await page.getByRole('textbox', { name: 'Найти слово' }).fill('пенал');
   await expect(page.locator('.word-card')).toHaveCount(1);
   await expect(page.locator('.word-name')).toHaveText('pencil case');
@@ -147,7 +148,7 @@ test('мобильный экран, поиск, настройки, экспо�
   await expect(page.getByText('Неподдерживаемая версия или неверные задания.')).toBeVisible();
 });
 test('клавиатура и длинное нажатие открывают словарную помощь', async ({ page }) => {
-  await page.goto('#/dictionary');
+  await page.goto('#/dictionary?source=lessons');
   await page.getByRole('button', { name: 'Подсказки', exact: false }).click();
   const word = page.locator('.word-name .word-token').first();
   await word.focus();

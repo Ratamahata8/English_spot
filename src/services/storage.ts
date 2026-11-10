@@ -1,3 +1,4 @@
+import { EDITION_2017, LEGACY_SOURCE_ID } from '../workbook/editions';
 import { validateWorkbook } from '../workbook/learning';
 import type { WorkbookProgress } from '../workbook/types';
 import Dexie, { type Table } from 'dexie';
@@ -31,6 +32,20 @@ class ProgressDB extends Dexie {
       reader: 'sceneId',
       workbook: 'sourceId',
     });
+    this.version(5)
+      .stores({ progress: 'lessonId', preferences: 'key', reader: 'sceneId', workbook: 'sourceId' })
+      .upgrade(async (tx) => {
+        const table = tx.table('workbook');
+        const old = await table.get(LEGACY_SOURCE_ID);
+        if (old) {
+          if (await table.get(EDITION_2017))
+            throw Error(
+              'Два конфликтующих сохранения 2017: миграция остановлена без удаления данных.',
+            );
+          await table.put({ ...old, sourceId: EDITION_2017 });
+          await table.delete(LEGACY_SOURCE_ID);
+        }
+      });
   }
 }
 export function validateImport(value: unknown): LearningProgress {

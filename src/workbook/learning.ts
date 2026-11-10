@@ -1,7 +1,10 @@
+import { canonicalEdition, EDITION_2017, exerciseEdition } from './editions';
 import {
   workbookWords,
   SOURCE_ID,
   workbookExercises,
+  allWorkbookWords,
+  exercisesForEdition,
   getWorkbookExercise,
   workbookSkills,
   getSkill,
@@ -73,11 +76,11 @@ export function findWord(task: Task, start: number[], end: number[]): string | u
     .toLowerCase();
   return task.placements?.find((p) => p.word.toLowerCase() === text)?.word;
 }
-export function initialWorkbook(): WorkbookProgress {
+export function initialWorkbook(sourceId: string = EDITION_2017): WorkbookProgress {
   return {
     schemaVersion: 1,
-    sourceId: SOURCE_ID,
-    currentId: workbookExercises[0].id,
+    sourceId: canonicalEdition(sourceId),
+    currentId: exercisesForEdition(canonicalEdition(sourceId))[0].id,
     positions: {},
     completed: [],
     words: {},
@@ -150,7 +153,7 @@ export function recordWorkbookAttempt(
   if (exercise && attempt.kind === 'exercise') {
     const task = exercise.tasks[attempt.task];
     const apply = (target: string, correct: boolean) => {
-      const form = workbookWords.find((w) => normalize(w.form) === normalize(target));
+      const form = allWorkbookWords.find((w) => normalize(w.form) === normalize(target));
       if (form) p.words[form.id] = evidence(p.words[form.id], correct, attempt.hinted, attempt.at);
     };
     if (['matching', 'translation'].includes(exercise.mechanic) && task.mode === 'matching')
@@ -175,7 +178,15 @@ export function recordWorkbookAttempt(
       task.placements!.forEach((w) => apply(w.word, true));
     if (
       exercise.skillIds.some((s) =>
-        ['sentence-meaning', 'questions', 'letter-writing', 'word-order'].includes(s),
+        [
+          'sentence-meaning',
+          'questions',
+          'letter-writing',
+          'word-order',
+          'past-did',
+          'past-there',
+          'past-location',
+        ].includes(s),
       )
     )
       p.meaning[exercise.id] = evidence(
@@ -192,24 +203,26 @@ export function diagnose(task: Task, answer: Answer, skillIds: string[]): string
   return diagnosis ? [diagnosis] : skillIds;
 }
 export function validateWorkbook(value: unknown): WorkbookProgress[] {
-  if (!Array.isArray(value) || value.length > 1) throw Error('Неверное сохранение сборника.');
-  return value.map((raw) => {
-    const p = raw as WorkbookProgress;
+  if (!Array.isArray(value) || value.length > 2) throw Error('Неверное сохранение сборника.');
+  const result = value.map((raw) => {
+    const p = structuredClone(raw) as WorkbookProgress;
+    if (p) p.sourceId = canonicalEdition(p.sourceId);
+    const belongs = (id: string) => !!getWorkbookExercise(id) && exerciseEdition(id) === p.sourceId;
     if (
       !p ||
       p.schemaVersion !== 1 ||
-      p.sourceId !== SOURCE_ID ||
+      !belongs(p.currentId) ||
       !getWorkbookExercise(p.currentId) ||
       !Array.isArray(p.completed) ||
       new Set(p.completed).size !== p.completed.length ||
-      p.completed.some((id) => !getWorkbookExercise(id))
+      p.completed.some((id) => !belongs(id))
     )
       throw Error('Неизвестный сборник или задания.');
     if (!p.positions || typeof p.positions !== 'object' || Array.isArray(p.positions))
       throw Error('Нет позиций заданий.');
     for (const [id, index] of Object.entries(p.positions)) {
       const e = getWorkbookExercise(id);
-      if (!e || !Number.isInteger(index) || index < 0 || index > e.tasks.length)
+      if (!e || !belongs(id) || !Number.isInteger(index) || index < 0 || index > e.tasks.length)
         throw Error('Неверное место остановки.');
     }
     if (p.completed.some((id) => p.positions[id] !== getWorkbookExercise(id)!.tasks.length))
@@ -217,7 +230,7 @@ export function validateWorkbook(value: unknown): WorkbookProgress[] {
     for (const [stats, known] of [
       [p.words, (id: string) => !!getWordForm(id)],
       [p.grammar, (id: string) => workbookSkills.some((s) => s.id === id)],
-      [p.meaning, (id: string) => !!getWorkbookExercise(id)],
+      [p.meaning, (id: string) => belongs(id)],
     ] as const) {
       if (!stats || typeof stats !== 'object' || Array.isArray(stats))
         throw Error('Повреждены навыки.');
@@ -251,7 +264,7 @@ export function validateWorkbook(value: unknown): WorkbookProgress[] {
       p.attempts.some(
         (a) =>
           !a ||
-          !getWorkbookExercise(a.exerciseId) ||
+          !belongs(a.exerciseId) ||
           !Number.isInteger(a.task) ||
           a.task < 0 ||
           a.task >= getWorkbookExercise(a.exerciseId)!.tasks.length ||
@@ -267,4 +280,7 @@ export function validateWorkbook(value: unknown): WorkbookProgress[] {
       throw Error('Повреждены результаты.');
     return structuredClone(p);
   });
+  if (new Set(result.map((p) => p.sourceId)).size !== result.length)
+    throw Error('Дублируется издание.');
+  return result;
 }

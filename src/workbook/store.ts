@@ -1,3 +1,4 @@
+import { EDITION_2017, canonicalEdition } from './editions';
 import { create } from 'zustand';
 import { workbookRepository } from '../services/storage';
 import { initialWorkbook } from './learning';
@@ -10,10 +11,12 @@ interface State {
   error: string;
   init: (discardPending?: boolean) => Promise<void>;
   flush: () => Promise<void>;
+  initSource: (sourceId: string, discardPending?: boolean) => Promise<void>;
   update: (fn: (p: WorkbookProgress) => WorkbookProgress) => Promise<boolean>;
   retry: () => Promise<boolean>;
 }
 let writes = Promise.resolve();
+let readEpoch = 0;
 export const useWorkbook = create<State>((set, get) => ({
   progress: initialWorkbook(),
   ready: false,
@@ -23,8 +26,12 @@ export const useWorkbook = create<State>((set, get) => ({
   flush: async () => {
     await writes;
   },
-  init: async (discardPending = false) => {
+  init: (discardPending = false) => get().initSource(EDITION_2017, discardPending),
+  initSource: async (sourceId, discardPending = false) => {
+    const edition = canonicalEdition(sourceId);
+    const epoch = ++readEpoch;
     await writes.catch(() => {});
+    if (epoch !== readEpoch) return;
     if (get().dirty && !discardPending) {
       set({ ready: true });
       return;
@@ -32,8 +39,15 @@ export const useWorkbook = create<State>((set, get) => ({
     set({ ready: false });
     try {
       const records = await workbookRepository.loadAll();
-      set({ progress: records[0] || initialWorkbook(), ready: true, error: '', dirty: false });
+      if (epoch !== readEpoch) return;
+      set({
+        progress: records.find((p) => p.sourceId === edition) || initialWorkbook(edition),
+        ready: true,
+        error: '',
+        dirty: false,
+      });
     } catch {
+      if (epoch !== readEpoch) return;
       set({
         ready: true,
         error: 'Не удалось прочитать прогресс сборника. Проверь доступ к хранилищу.',

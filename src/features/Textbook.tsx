@@ -1,5 +1,6 @@
+import { Workbook } from './Workbook';
 import { useEffect, useRef, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useParams, useSearchParams } from 'react-router-dom';
 import {
   scenes,
   findScene,
@@ -12,6 +13,20 @@ import { playTextbook, stopAudio } from '../services/audio';
 import { getLesson } from '../lessons';
 const BASE = import.meta.env.BASE_URL;
 export function Textbook() {
+  const [params] = useSearchParams();
+  if (params.get('view') === 'reader') return <LegacyTextbook />;
+  return (
+    <>
+      <div className="reader-controls">
+        <Link className="button" to="/textbook?view=reader">
+          Комиксы учебника, часть 1 — отдельный источник →
+        </Link>
+      </div>
+      <Workbook />
+    </>
+  );
+}
+function LegacyTextbook() {
   const [search, setSearch] = useState('');
   const [module, setModule] = useState(0);
   const [records, setRecords] = useState<ReaderProgress[]>([]);
@@ -47,7 +62,7 @@ export function Textbook() {
         </h2>
         <p>
           4 комикса Arthur + Rascal и 7 разговорных страниц. Номер страницы — как в бумажном
-          учебнике.
+          учебнике. Это отдельный учебник, не сборник упражнений 2026.
         </p>
       </section>
       <div className="reader-filters">
@@ -133,7 +148,7 @@ export function TextbookRoute() {
   ) : (
     <section className="panel padding">
       <h1>Страница не найдена</h1>
-      <Link to="/textbook">Выбрать страницу →</Link>
+      <Link to="/textbook?view=reader">Выбрать страницу →</Link>
     </section>
   );
 }
@@ -266,13 +281,13 @@ function Reader({ scene }: { scene: TextbookScene }) {
   if (!ready) return <p role="status">Открываем страницу…</p>;
   return (
     <>
-      <Link className="reader-back" to="/textbook">
+      <Link className="reader-back" to="/textbook?view=reader">
         ← Все страницы
       </Link>
       <div className="page-heading">
         <div>
           <span className="eyebrow">
-            МОДУЛЬ {scene.module} / СТРАНИЦА {scene.page}
+            УЧЕБНИК, ЧАСТЬ 1 / МОДУЛЬ {scene.module} / СТРАНИЦА {scene.page}
           </span>
           <h1>{scene.title}</h1>
           <p>Выбери облачко на картинке или реплику в списке.</p>
@@ -336,8 +351,8 @@ function Reader({ scene }: { scene: TextbookScene }) {
             </div>
           </div>
           <p className="reader-credit">
-            Spotlight 3 · часть 1 · стр. {scene.page}. Увеличь картинку или выбери крупную кнопку
-            реплики ниже.
+            Spotlight 3 · часть 1 · стр. {scene.page} · отдельный источник, не сборник 2026. Увеличь
+            картинку или выбери крупную кнопку реплики ниже.
           </p>
         </section>
         <section

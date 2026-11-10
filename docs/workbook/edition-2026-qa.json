@@ -1,0 +1,53 @@
+{
+  "stage": "edition-2026-navigation-and-confirmed-topics",
+  "complete2026Coverage": false,
+  "existingInteractiveInventoryCount": 543,
+  "oldLessonInteractiveCount": 510,
+  "oldWorkbookAdaptationCount": 33,
+  "oldSourceCatalogCount": 313,
+  "verifiedExerciseComparisons": 0,
+  "confirmedIdenticalExercises": 0,
+  "confirmedChangedExercises": 0,
+  "unverifiedExistingInteractiveExercises": 543,
+  "newVerifiedSourceExercises": 0,
+  "newAuthoredTrainings": 4,
+  "newTrainingSteps": 24,
+  "confirmedAdditionalTopics": [
+    "Past Simple questions and negatives with did/didnt",
+    "there was / there were and past location"
+  ],
+  "newPreparationBlocks": 3,
+  "newPreparationQuestions": 6,
+  "newConfirmedWordForms": 6,
+  "newEditionLexemeGroups": 4,
+  "totalWorkbookWordForms": 179,
+  "totalWorkbookLexemes": 146,
+  "newFormsWithReviewedIpa": 6,
+  "newFormsWithoutReportProvenance": 0,
+  "newFormsWithVerifiedExactSourceExercise": 0,
+  "lexicalCoveragePercent": null,
+  "newMp3Files": 58,
+  "newSynthesizedRecordings": 56,
+  "reusedPriorRecordings": 2,
+  "workbookMp3": 534,
+  "totalProjectMp3": 986,
+  "unitTests": 47,
+  "e2eTests": 83,
+  "indexedDbVersion": 5,
+  "videoUploaded": true,
+  "videoViewed": false,
+  "videoBlocker": "Executor file transfer limit is 32 MiB; uploaded file exceeds it.",
+  "sourcesUsed": [
+    "edition_2026_navigation.json",
+    "English_spot_2026_edition17_audit.pdf",
+    "Existing verified 2017 data and prior source PDF"
+  ],
+  "remaining": [
+    "Readable access to the 2026 video or page scans for direct verification",
+    "Exact exercise-by-exercise correspondence for all existing content",
+    "Full 2026 lexical review",
+    "Implementation of other source-confirmed changes"
+  ],
+  "publication": "PR only; no merge or deployment by this task",
+  "uiSettingsRecovery": "Synchronous localStorage preference copy repairs an interrupted IndexedDB settings write on reload; exercise results remain in IndexedDB."
+}

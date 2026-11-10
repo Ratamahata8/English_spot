@@ -151,7 +151,9 @@ export function Parent() {
                       .flush()
                       .catch(() => {});
                     await importData(value);
-                    await useWorkbook.getState().init(true);
+                    await useWorkbook
+                      .getState()
+                      .initSource(useWorkbook.getState().progress.sourceId, true);
                     setMessage('Прогресс восстановлен.');
                   }
                 } catch (err) {
@@ -173,7 +175,9 @@ export function Parent() {
                     .flush()
                     .catch(() => {});
                   await reset();
-                  await useWorkbook.getState().init(true);
+                  await useWorkbook
+                    .getState()
+                    .initSource(useWorkbook.getState().progress.sourceId, true);
                   setMessage('Прогресс сброшен.');
                 } catch {
                   setMessage('Не удалось сбросить данные.');

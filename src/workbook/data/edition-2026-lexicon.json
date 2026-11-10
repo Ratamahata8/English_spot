@@ -1,0 +1,236 @@
+[
+  {
+    "id": "wf26-75ca3ca2ece2",
+    "lexemeId": "lex-ac0b52a2ae6e",
+    "form": "did",
+    "lemma": "do",
+    "lemmaObserved": false,
+    "ipa": "dɪd",
+    "ipaReview": "reviewed",
+    "partOfSpeech": "глагол",
+    "grammar": "В вопросе о прошлом did стоит перед человеком; после него действие без окончания.",
+    "meanings": [
+      {
+        "id": "wf26-75ca3ca2ece2-meaning-0",
+        "ru": "помощник вопроса о прошлом",
+        "context": "Подтверждённая грамматическая форма; пример написан для приложения.",
+        "when": "default"
+      }
+    ],
+    "occurrences": [
+      {
+        "sourceId": "spotlight_workbook_2026_17",
+        "exerciseId": "wb26-past-question",
+        "bookPage": null,
+        "pdfPage": null,
+        "printedPages": [82, 83],
+        "exerciseNumber": null,
+        "module": "5",
+        "text": "did",
+        "verification": "audit-report",
+        "evidenceReportPage": 2,
+        "evidenceTimestamp": "01:56"
+      }
+    ],
+    "example": {
+      "en": "Did you play?",
+      "ru": "Ты играл?",
+      "authored": true
+    }
+  },
+  {
+    "id": "wf26-ab7ae3ebb527",
+    "lexemeId": "lex-ac0b52a2ae6e",
+    "form": "didn't",
+    "lemma": "do",
+    "lemmaObserved": false,
+    "ipa": "ˈdɪd.ənt",
+    "ipaReview": "reviewed",
+    "partOfSpeech": "глагол",
+    "grammar": "Короткая запись did not. После неё обычная форма действия.",
+    "meanings": [
+      {
+        "id": "wf26-ab7ae3ebb527-meaning-0",
+        "ru": "не делал / не делала",
+        "context": "Подтверждённая грамматическая форма; пример написан для приложения.",
+        "when": "default"
+      }
+    ],
+    "occurrences": [
+      {
+        "sourceId": "spotlight_workbook_2026_17",
+        "exerciseId": "wb26-past-question",
+        "bookPage": null,
+        "pdfPage": null,
+        "printedPages": [82, 83],
+        "exerciseNumber": null,
+        "module": "5",
+        "text": "didn't",
+        "verification": "audit-report",
+        "evidenceReportPage": 2,
+        "evidenceTimestamp": "01:56"
+      }
+    ],
+    "example": {
+      "en": "I didn't play.",
+      "ru": "Я не играл.",
+      "authored": true
+    }
+  },
+  {
+    "id": "wf26-b63b99f6383b",
+    "lexemeId": "lex-46599c5bb5c3",
+    "form": "was",
+    "lemma": "be",
+    "lemmaObserved": false,
+    "ipa": "wɒz",
+    "ipaReview": "reviewed",
+    "partOfSpeech": "глагол",
+    "grammar": "Прошедшая форма be для одного предмета в there was.",
+    "meanings": [
+      {
+        "id": "wf26-b63b99f6383b-meaning-0",
+        "ru": "был / была / было",
+        "context": "Подтверждённая грамматическая форма; пример написан для приложения.",
+        "when": "default"
+      }
+    ],
+    "occurrences": [
+      {
+        "sourceId": "spotlight_workbook_2026_17",
+        "exerciseId": "wb26-there-past",
+        "bookPage": null,
+        "pdfPage": null,
+        "printedPages": [102, 103],
+        "exerciseNumber": null,
+        "module": "6",
+        "text": "was",
+        "verification": "audit-report",
+        "evidenceReportPage": 2,
+        "evidenceTimestamp": "02:32"
+      }
+    ],
+    "example": {
+      "en": "There was a book.",
+      "ru": "Там была книга.",
+      "authored": true
+    }
+  },
+  {
+    "id": "wf26-910adfb42464",
+    "lexemeId": "lex-46599c5bb5c3",
+    "form": "were",
+    "lemma": "be",
+    "lemmaObserved": false,
+    "ipa": "wɜː",
+    "ipaReview": "reviewed",
+    "partOfSpeech": "глагол",
+    "grammar": "Прошедшая форма be для нескольких предметов в there were.",
+    "meanings": [
+      {
+        "id": "wf26-910adfb42464-meaning-0",
+        "ru": "были",
+        "context": "Подтверждённая грамматическая форма; пример написан для приложения.",
+        "when": "default"
+      }
+    ],
+    "occurrences": [
+      {
+        "sourceId": "spotlight_workbook_2026_17",
+        "exerciseId": "wb26-there-past",
+        "bookPage": null,
+        "pdfPage": null,
+        "printedPages": [102, 103],
+        "exerciseNumber": null,
+        "module": "6",
+        "text": "were",
+        "verification": "audit-report",
+        "evidenceReportPage": 2,
+        "evidenceTimestamp": "02:32"
+      }
+    ],
+    "example": {
+      "en": "There were books.",
+      "ru": "Там были книги.",
+      "authored": true
+    }
+  },
+  {
+    "id": "wf26-1b57f5233c9b",
+    "lexemeId": "lex26-1b57f5233c9b",
+    "form": "there was",
+    "lemma": "there was",
+    "lemmaObserved": true,
+    "ipa": "ðeə wɒz",
+    "ipaReview": "reviewed",
+    "partOfSpeech": "выражение",
+    "grammar": "Один предмет в прошлом: there was.",
+    "meanings": [
+      {
+        "id": "wf26-1b57f5233c9b-meaning-0",
+        "ru": "там был / была / было",
+        "context": "Подтверждённая грамматическая форма; пример написан для приложения.",
+        "when": "default"
+      }
+    ],
+    "occurrences": [
+      {
+        "sourceId": "spotlight_workbook_2026_17",
+        "exerciseId": "wb26-there-past",
+        "bookPage": null,
+        "pdfPage": null,
+        "printedPages": [102, 103],
+        "exerciseNumber": null,
+        "module": "6",
+        "text": "there was",
+        "verification": "audit-report",
+        "evidenceReportPage": 2,
+        "evidenceTimestamp": "02:32"
+      }
+    ],
+    "example": {
+      "en": "There was a book.",
+      "ru": "Там была книга.",
+      "authored": true
+    }
+  },
+  {
+    "id": "wf26-faabba6788c3",
+    "lexemeId": "lex26-faabba6788c3",
+    "form": "there were",
+    "lemma": "there were",
+    "lemmaObserved": true,
+    "ipa": "ðeə wɜː",
+    "ipaReview": "reviewed",
+    "partOfSpeech": "выражение",
+    "grammar": "Несколько предметов в прошлом: there were.",
+    "meanings": [
+      {
+        "id": "wf26-faabba6788c3-meaning-0",
+        "ru": "там были",
+        "context": "Подтверждённая грамматическая форма; пример написан для приложения.",
+        "when": "default"
+      }
+    ],
+    "occurrences": [
+      {
+        "sourceId": "spotlight_workbook_2026_17",
+        "exerciseId": "wb26-there-past",
+        "bookPage": null,
+        "pdfPage": null,
+        "printedPages": [102, 103],
+        "exerciseNumber": null,
+        "module": "6",
+        "text": "there were",
+        "verification": "audit-report",
+        "evidenceReportPage": 2,
+        "evidenceTimestamp": "02:32"
+      }
+    ],
+    "example": {
+      "en": "There were books.",
+      "ru": "Там были книги.",
+      "authored": true
+    }
+  }
+]

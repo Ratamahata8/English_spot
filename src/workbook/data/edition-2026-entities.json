@@ -1,0 +1,252 @@
+{
+  "lexemes": [
+    {
+      "id": "lex26-1b57f5233c9b",
+      "lemma": "there was",
+      "ru": "там был / была / было",
+      "ipa": "ðeə wɒz",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf26-1b57f5233c9b"],
+      "pronunciationText": "there was"
+    },
+    {
+      "id": "lex26-faabba6788c3",
+      "lemma": "there were",
+      "ru": "там были",
+      "ipa": "ðeə wɜː",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf26-faabba6788c3"],
+      "pronunciationText": "there were"
+    }
+  ],
+  "pronunciations": [
+    {
+      "id": "pron-wf26-75ca3ca2ece2",
+      "wordFormId": "wf26-75ca3ca2ece2",
+      "ipa": "dɪd",
+      "dialect": "en-GB",
+      "audioText": "did",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf26-ab7ae3ebb527",
+      "wordFormId": "wf26-ab7ae3ebb527",
+      "ipa": "ˈdɪd.ənt",
+      "dialect": "en-GB",
+      "audioText": "didn't",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf26-b63b99f6383b",
+      "wordFormId": "wf26-b63b99f6383b",
+      "ipa": "wɒz",
+      "dialect": "en-GB",
+      "audioText": "was",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf26-910adfb42464",
+      "wordFormId": "wf26-910adfb42464",
+      "ipa": "wɜː",
+      "dialect": "en-GB",
+      "audioText": "were",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf26-1b57f5233c9b",
+      "wordFormId": "wf26-1b57f5233c9b",
+      "ipa": "ðeə wɒz",
+      "dialect": "en-GB",
+      "audioText": "there was",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf26-faabba6788c3",
+      "wordFormId": "wf26-faabba6788c3",
+      "ipa": "ðeə wɜː",
+      "dialect": "en-GB",
+      "audioText": "there were",
+      "review": "reviewed"
+    }
+  ],
+  "meanings": [
+    {
+      "id": "wf26-75ca3ca2ece2-meaning-0",
+      "ru": "помощник вопроса о прошлом",
+      "context": "Подтверждённая грамматическая форма; пример написан для приложения.",
+      "when": "default",
+      "wordFormId": "wf26-75ca3ca2ece2"
+    },
+    {
+      "id": "wf26-ab7ae3ebb527-meaning-0",
+      "ru": "не делал / не делала",
+      "context": "Подтверждённая грамматическая форма; пример написан для приложения.",
+      "when": "default",
+      "wordFormId": "wf26-ab7ae3ebb527"
+    },
+    {
+      "id": "wf26-b63b99f6383b-meaning-0",
+      "ru": "был / была / было",
+      "context": "Подтверждённая грамматическая форма; пример написан для приложения.",
+      "when": "default",
+      "wordFormId": "wf26-b63b99f6383b"
+    },
+    {
+      "id": "wf26-910adfb42464-meaning-0",
+      "ru": "были",
+      "context": "Подтверждённая грамматическая форма; пример написан для приложения.",
+      "when": "default",
+      "wordFormId": "wf26-910adfb42464"
+    },
+    {
+      "id": "wf26-1b57f5233c9b-meaning-0",
+      "ru": "там был / была / было",
+      "context": "Подтверждённая грамматическая форма; пример написан для приложения.",
+      "when": "default",
+      "wordFormId": "wf26-1b57f5233c9b"
+    },
+    {
+      "id": "wf26-faabba6788c3-meaning-0",
+      "ru": "там были",
+      "context": "Подтверждённая грамматическая форма; пример написан для приложения.",
+      "when": "default",
+      "wordFormId": "wf26-faabba6788c3"
+    }
+  ],
+  "occurrences": [
+    {
+      "id": "wf26-75ca3ca2ece2-occurrence-0",
+      "wordFormId": "wf26-75ca3ca2ece2",
+      "sourceId": "spotlight_workbook_2026_17",
+      "exerciseId": "wb26-past-question",
+      "bookPage": null,
+      "pdfPage": null,
+      "printedPages": [82, 83],
+      "exerciseNumber": null,
+      "module": "5",
+      "text": "did",
+      "verification": "audit-report",
+      "evidenceReportPage": 2,
+      "evidenceTimestamp": "01:56"
+    },
+    {
+      "id": "wf26-ab7ae3ebb527-occurrence-0",
+      "wordFormId": "wf26-ab7ae3ebb527",
+      "sourceId": "spotlight_workbook_2026_17",
+      "exerciseId": "wb26-past-question",
+      "bookPage": null,
+      "pdfPage": null,
+      "printedPages": [82, 83],
+      "exerciseNumber": null,
+      "module": "5",
+      "text": "didn't",
+      "verification": "audit-report",
+      "evidenceReportPage": 2,
+      "evidenceTimestamp": "01:56"
+    },
+    {
+      "id": "wf26-b63b99f6383b-occurrence-0",
+      "wordFormId": "wf26-b63b99f6383b",
+      "sourceId": "spotlight_workbook_2026_17",
+      "exerciseId": "wb26-there-past",
+      "bookPage": null,
+      "pdfPage": null,
+      "printedPages": [102, 103],
+      "exerciseNumber": null,
+      "module": "6",
+      "text": "was",
+      "verification": "audit-report",
+      "evidenceReportPage": 2,
+      "evidenceTimestamp": "02:32"
+    },
+    {
+      "id": "wf26-910adfb42464-occurrence-0",
+      "wordFormId": "wf26-910adfb42464",
+      "sourceId": "spotlight_workbook_2026_17",
+      "exerciseId": "wb26-there-past",
+      "bookPage": null,
+      "pdfPage": null,
+      "printedPages": [102, 103],
+      "exerciseNumber": null,
+      "module": "6",
+      "text": "were",
+      "verification": "audit-report",
+      "evidenceReportPage": 2,
+      "evidenceTimestamp": "02:32"
+    },
+    {
+      "id": "wf26-1b57f5233c9b-occurrence-0",
+      "wordFormId": "wf26-1b57f5233c9b",
+      "sourceId": "spotlight_workbook_2026_17",
+      "exerciseId": "wb26-there-past",
+      "bookPage": null,
+      "pdfPage": null,
+      "printedPages": [102, 103],
+      "exerciseNumber": null,
+      "module": "6",
+      "text": "there was",
+      "verification": "audit-report",
+      "evidenceReportPage": 2,
+      "evidenceTimestamp": "02:32"
+    },
+    {
+      "id": "wf26-faabba6788c3-occurrence-0",
+      "wordFormId": "wf26-faabba6788c3",
+      "sourceId": "spotlight_workbook_2026_17",
+      "exerciseId": "wb26-there-past",
+      "bookPage": null,
+      "pdfPage": null,
+      "printedPages": [102, 103],
+      "exerciseNumber": null,
+      "module": "6",
+      "text": "there were",
+      "verification": "audit-report",
+      "evidenceReportPage": 2,
+      "evidenceTimestamp": "02:32"
+    }
+  ],
+  "examples": [
+    {
+      "id": "example-wf26-75ca3ca2ece2",
+      "wordFormId": "wf26-75ca3ca2ece2",
+      "en": "Did you play?",
+      "ru": "Ты играл?",
+      "authored": true
+    },
+    {
+      "id": "example-wf26-ab7ae3ebb527",
+      "wordFormId": "wf26-ab7ae3ebb527",
+      "en": "I didn't play.",
+      "ru": "Я не играл.",
+      "authored": true
+    },
+    {
+      "id": "example-wf26-b63b99f6383b",
+      "wordFormId": "wf26-b63b99f6383b",
+      "en": "There was a book.",
+      "ru": "Там была книга.",
+      "authored": true
+    },
+    {
+      "id": "example-wf26-910adfb42464",
+      "wordFormId": "wf26-910adfb42464",
+      "en": "There were books.",
+      "ru": "Там были книги.",
+      "authored": true
+    },
+    {
+      "id": "example-wf26-1b57f5233c9b",
+      "wordFormId": "wf26-1b57f5233c9b",
+      "en": "There was a book.",
+      "ru": "Там была книга.",
+      "authored": true
+    },
+    {
+      "id": "example-wf26-faabba6788c3",
+      "wordFormId": "wf26-faabba6788c3",
+      "en": "There were books.",
+      "ru": "Там были книги.",
+      "authored": true
+    }
+  ]
+}

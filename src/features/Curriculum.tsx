@@ -1,3 +1,4 @@
+import { EditionCatalog } from '../workbook/EditionCatalog';
 import { scenes } from '../textbook';
 import { Link, useNavigate } from 'react-router-dom';
 import { lessons } from '../lessons';
@@ -27,6 +28,13 @@ export function Curriculum() {
         title="Мои уроки"
         description="Выбирай тему. Любой урок можно пройти ещё раз — столько, сколько нужно."
       />
+      <EditionCatalog />
+      <h2>Прежние свободные тренировки</h2>
+      <p>
+        Они сохраняют результаты и доступны для повторения. Их соответствие конкретным упражнениям
+        сборника 2026 ещё не проверено. Ссылки на комиксы ведут в отдельный учебник, не в новый
+        сборник.
+      </p>
       {modules.map((module) => (
         <section key={module} className="course-module">
           <h2>{module}</h2>
