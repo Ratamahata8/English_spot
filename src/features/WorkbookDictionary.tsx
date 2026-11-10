@@ -6,6 +6,7 @@ import { HintToggle } from '../components/Hints';
 import { Link, useSearchParams } from 'react-router-dom';
 import {
   wordsForEdition,
+  allWorkbookWords,
   workbookExercises,
   getWordForm,
   getSourceExercise,
@@ -74,7 +75,7 @@ export function WorkbookDictionary() {
     : allGroups
         .map((g) => g.filter((w) => matching.some((m) => m.id === w.id)))
         .filter((g) => g.length > 0);
-  const reviewWords = workbookWords.filter(
+  const reviewWords = allWorkbookWords.filter(
     (w) =>
       progress.reviewIds.includes(w.id) ||
       (!!progress.words[w.id] && progress.words[w.id].due <= Date.now()),
@@ -205,6 +206,12 @@ export function WorkbookDictionary() {
           Показать весь словарь сборника
         </Link>
       )}
+      {reviewWords.some((w) => !workbookWords.some((active) => active.id === w.id)) && (
+        <p>
+          В очереди также есть слова из другого издания, сохранённые в тренировках. У каждого слова
+          указан его источник; это не подтверждение новой лексики сборника.
+        </p>
+      )}
       <button
         className="button"
         onClick={() => {
@@ -225,6 +232,9 @@ export function WorkbookDictionary() {
               <h2>
                 Что значит <WorkbookText text={current.form} />?
               </h2>
+              <small>
+                Источник слова: {editionLabel(current.occurrences[0].sourceId || edition)}
+              </small>
               <WorkbookAudio text={current.form} />
               {[
                 current.meanings[0].ru,

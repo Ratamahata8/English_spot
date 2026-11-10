@@ -214,3 +214,33 @@ test('мобильная навигация 2026 и возврат в стары
   await expect(page.locator('.book-card')).toHaveCount(11);
   await page.screenshot({ path: '/tmp/edition2026-mobile.png' });
 });
+
+test('слово прежнего источника из новой тренировки доступно в повторении с честной редакцией', async ({
+  page,
+}) => {
+  await page.goto('#/workbook/wb26-there-past');
+  await expect(page.locator('[data-task]')).toHaveAttribute('data-task', '0');
+  await page.getByRole('button', { name: /\? Подсказки/ }).click();
+  await page.getByRole('button', { name: 'book', exact: true }).first().click();
+  const help = page.getByRole('dialog', { name: 'Подсказка к слову' });
+  await expect(help).toContainText('Источник слова: сборник 2017');
+  await help.getByRole('button', { name: 'Добавить в повторение', exact: true }).click();
+  await help.getByRole('button', { name: 'Закрыть подсказку' }).click();
+  await page.goto('#/dictionary?source=workbook');
+  await expect(page.getByLabel('Издание сборника')).toHaveValue(modern);
+  await page.getByRole('button', { name: 'Повторить сложные слова (1)', exact: true }).click();
+  const review = page.locator('.wb-word-review');
+  await expect(review).toContainText('Источник слова: 6-е изд., 2017');
+  await review.getByRole('radio', { name: 'книга', exact: true }).check();
+  await review.getByRole('button', { name: 'Проверить слово', exact: true }).click();
+  await expect(review.getByText('Верно!', { exact: true })).toBeVisible();
+  const book = JSON.parse(readFileSync('src/workbook/data/lexicon.json', 'utf8')).find(
+    (w: { form: string }) => w.form === 'book',
+  );
+  await expect
+    .poll(
+      async () =>
+        (await records(page)).find((p) => p.sourceId === modern)?.words[book.id]?.independent,
+    )
+    .toBe(1);
+});
