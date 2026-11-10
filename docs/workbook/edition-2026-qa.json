@@ -31,7 +31,7 @@
   "reusedPriorRecordings": 2,
   "workbookMp3": 534,
   "totalProjectMp3": 986,
-  "unitTests": 46,
+  "unitTests": 47,
   "e2eTests": 83,
   "indexedDbVersion": 5,
   "videoUploaded": true,
@@ -48,5 +48,6 @@
     "Full 2026 lexical review",
     "Implementation of other source-confirmed changes"
   ],
-  "publication": "PR only; no merge or deployment by this task"
+  "publication": "PR only; no merge or deployment by this task",
+  "uiSettingsRecovery": "Synchronous localStorage preference copy repairs an interrupted IndexedDB settings write on reload; exercise results remain in IndexedDB."
 }

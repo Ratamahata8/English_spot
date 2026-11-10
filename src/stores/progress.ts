@@ -1,3 +1,4 @@
+import { rememberSettings, recoverSettings, forgetSettings } from '../services/settings';
 import { create } from 'zustand';
 import type { LearningProgress, ProgressBundle } from '../types';
 import { initialProgress, restartLesson } from '../services/learning';
@@ -29,7 +30,18 @@ export const useProgress = create<State>((set, get) => ({
         (await progressRepository.loadAll()).map((p) => [p.lessonId, p]),
       );
       const id = await progressRepository.selected();
-      set({ records, progress: records[id] || initialProgress(id), ready: true });
+      const loaded = records[id] || initialProgress(id);
+      const progress = recoverSettings(loaded);
+      let error = '';
+      if (progress !== loaded) {
+        records[id] = progress;
+        try {
+          await progressRepository.save(progress);
+        } catch {
+          error = 'Настройки восстановлены, но запись IndexedDB пока недоступна.';
+        }
+      }
+      set({ records, progress, ready: true, error });
     } catch {
       set({
         ready: true,
@@ -42,6 +54,11 @@ export const useProgress = create<State>((set, get) => ({
     const base =
       get().progress.lessonId === id ? get().progress : get().records[id] || initialProgress(id);
     const progress = { ...fn(base), updatedAt: Date.now() };
+    if (
+      progress.settings.slow !== base.settings.slow ||
+      progress.settings.reduceMotion !== base.settings.reduceMotion
+    )
+      rememberSettings(progress);
     set((s) => ({
       saving: s.saving + 1,
       ...(s.progress.lessonId === id ? { progress } : {}),
@@ -65,11 +82,13 @@ export const useProgress = create<State>((set, get) => ({
     progress = { ...progress, settings: get().progress.settings };
     await progressRepository.save(progress);
     await progressRepository.select(id);
+    rememberSettings(progress);
     set((s) => ({ progress, records: { ...s.records, [id]: progress } }));
   },
   reset: async () => {
     await writes.catch(() => {});
     await progressRepository.resetAll();
+    forgetSettings();
     set({ progress: initialProgress(), records: {}, error: '' });
   },
   importData: async (v) => {
@@ -89,6 +108,7 @@ export const useProgress = create<State>((set, get) => ({
         error: '',
       });
     }
+    rememberSettings(get().progress);
   },
   exportData: () => ({
     schemaVersion: 2,
