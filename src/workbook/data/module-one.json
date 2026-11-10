@@ -1,0 +1,2045 @@
+[
+  {
+    "id": "wb-1-1a-1b-1",
+    "title": "Школьные вещи",
+    "mechanic": "matching",
+    "skillIds": ["vocabulary"],
+    "wordIds": [
+      "wf-92719fe0cf8c",
+      "wf-5972814068a1",
+      "wf-e21a6b0cb193",
+      "wf-058ce9bd95f5",
+      "wf-13809668fb43",
+      "wf-619d1dac1c13",
+      "wf-3b74bc54b6c2",
+      "wf-d64debd942d7"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "matching",
+        "prompt": "Выбери подходящую пару в каждой строке.",
+        "rows": [
+          {
+            "label": "book",
+            "answers": ["книга"]
+          },
+          {
+            "label": "ruler",
+            "answers": ["линейка"]
+          },
+          {
+            "label": "pen",
+            "answers": ["ручка"]
+          },
+          {
+            "label": "rubber",
+            "answers": ["ластик"]
+          },
+          {
+            "label": "pencil",
+            "answers": ["карандаш"]
+          },
+          {
+            "label": "school bag",
+            "answers": ["портфель"]
+          },
+          {
+            "label": "pencil case",
+            "answers": ["пенал"]
+          },
+          {
+            "label": "school",
+            "answers": ["школа"]
+          }
+        ],
+        "options": [
+          "книга",
+          "линейка",
+          "ручка",
+          "ластик",
+          "карандаш",
+          "портфель",
+          "пенал",
+          "школа"
+        ],
+        "why": "Сопоставляй название предмета со значением. School bag — целое название портфеля.",
+        "skillIds": ["vocabulary"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-1a-1b-2",
+    "title": "Восстанови буквы",
+    "mechanic": "letters",
+    "skillIds": ["spelling"],
+    "wordIds": [
+      "wf-92719fe0cf8c",
+      "wf-5972814068a1",
+      "wf-e21a6b0cb193",
+      "wf-058ce9bd95f5",
+      "wf-13809668fb43",
+      "wf-619d1dac1c13",
+      "wf-3b74bc54b6c2",
+      "wf-d64debd942d7"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "text",
+        "prompt": "b__k",
+        "answers": ["book"],
+        "why": "Восстанови слово целиком. Сравни его начало и конец с изученными названиями.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "r___r",
+        "answers": ["ruler"],
+        "why": "Восстанови слово целиком. Сравни его начало и конец с изученными названиями.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "p_n",
+        "answers": ["pen"],
+        "why": "Восстанови слово целиком. Сравни его начало и конец с изученными названиями.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "r____r",
+        "answers": ["rubber"],
+        "why": "Восстанови слово целиком. Сравни его начало и конец с изученными названиями.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "p____l",
+        "answers": ["pencil"],
+        "why": "Восстанови слово целиком. Сравни его начало и конец с изученными названиями.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "s________g",
+        "answers": ["school bag"],
+        "why": "Восстанови слово целиком. Сравни его начало и конец с изученными названиями.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "p_________e",
+        "answers": ["pencil case"],
+        "why": "Восстанови слово целиком. Сравни его начало и конец с изученными названиями.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "s____l",
+        "answers": ["school"],
+        "why": "Восстанови слово целиком. Сравни его начало и конец с изученными названиями.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-1a-1b-3",
+    "title": "Секретные названия",
+    "mechanic": "anagram",
+    "skillIds": ["spelling", "sentence-meaning"],
+    "wordIds": [
+      "wf-92719fe0cf8c",
+      "wf-5972814068a1",
+      "wf-e21a6b0cb193",
+      "wf-058ce9bd95f5",
+      "wf-13809668fb43",
+      "wf-619d1dac1c13",
+      "wf-3b74bc54b6c2",
+      "wf-d64debd942d7"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "text",
+        "prompt": "okob",
+        "answers": ["book"],
+        "why": "Все буквы уже есть. Пробелы в названии из двух слов нужно вернуть.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "rrlue",
+        "answers": ["ruler"],
+        "why": "Все буквы уже есть. Пробелы в названии из двух слов нужно вернуть.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "enp",
+        "answers": ["pen"],
+        "why": "Все буквы уже есть. Пробелы в названии из двух слов нужно вернуть.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "bbrrue",
+        "answers": ["rubber"],
+        "why": "Все буквы уже есть. Пробелы в названии из двух слов нужно вернуть.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "nciepl",
+        "answers": ["pencil"],
+        "why": "Все буквы уже есть. Пробелы в названии из двух слов нужно вернуть.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "haolsocbg",
+        "answers": ["school bag"],
+        "why": "Все буквы уже есть. Пробелы в названии из двух слов нужно вернуть.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "eipecanscl",
+        "answers": ["pencil case"],
+        "why": "Все буквы уже есть. Пробелы в названии из двух слов нужно вернуть.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "chlsoo",
+        "answers": ["school"],
+        "why": "Все буквы уже есть. Пробелы в названии из двух слов нужно вернуть.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Как сказать: «Это моя линейка»?",
+        "answers": ["This is my ruler.", "It's my ruler.", "It is my ruler."],
+        "why": "Сначала This is, затем my и название предмета.",
+        "caseSensitive": false,
+        "skillIds": ["sentence-meaning", "word-order"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-1a-1b-4",
+    "title": "Алфавитная полка",
+    "mechanic": "alphabet",
+    "skillIds": ["alphabet"],
+    "wordIds": [
+      "wf-13809668fb43",
+      "wf-d64debd942d7",
+      "wf-e21a6b0cb193",
+      "wf-92719fe0cf8c",
+      "wf-5972814068a1",
+      "wf-058ce9bd95f5"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "order",
+        "prompt": "Нажимай на части в нужном порядке.",
+        "tokens": ["pencil", "school", "pen", "book", "ruler", "rubber"],
+        "answers": ["book | pen | pencil | rubber | ruler | school"],
+        "why": "Сначала b, затем p, r и s. Если первые буквы одинаковые, сравни вторые и следующие.",
+        "skillIds": ["alphabet"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-1a-1b-5",
+    "title": "Предметов стало несколько",
+    "mechanic": "plural",
+    "skillIds": ["plural"],
+    "wordIds": [
+      "wf-92719fe0cf8c",
+      "wf-6e317bcd6839",
+      "wf-058ce9bd95f5",
+      "wf-3908cdabeb3a",
+      "wf-5972814068a1",
+      "wf-6202c8a7fd1c",
+      "wf-e21a6b0cb193",
+      "wf-55015dcc0231",
+      "wf-13809668fb43",
+      "wf-24f896f7408e",
+      "wf-3b74bc54b6c2",
+      "wf-50ecdf5881a7"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "text",
+        "prompt": "Один: book. Несколько: ___",
+        "answers": ["books"],
+        "why": "Добавь -s или -es. В сочетании pencil case меняется последнее слово: pencil cases.",
+        "caseSensitive": false,
+        "skillIds": ["plural"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Один: rubber. Несколько: ___",
+        "answers": ["rubbers"],
+        "why": "Добавь -s или -es. В сочетании pencil case меняется последнее слово: pencil cases.",
+        "caseSensitive": false,
+        "skillIds": ["plural"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Один: ruler. Несколько: ___",
+        "answers": ["rulers"],
+        "why": "Добавь -s или -es. В сочетании pencil case меняется последнее слово: pencil cases.",
+        "caseSensitive": false,
+        "skillIds": ["plural"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Один: pen. Несколько: ___",
+        "answers": ["pens"],
+        "why": "Добавь -s или -es. В сочетании pencil case меняется последнее слово: pencil cases.",
+        "caseSensitive": false,
+        "skillIds": ["plural"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Один: pencil. Несколько: ___",
+        "answers": ["pencils"],
+        "why": "Добавь -s или -es. В сочетании pencil case меняется последнее слово: pencil cases.",
+        "caseSensitive": false,
+        "skillIds": ["plural"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Один: pencil case. Несколько: ___",
+        "answers": ["pencil cases"],
+        "why": "Добавь -s или -es. В сочетании pencil case меняется последнее слово: pencil cases.",
+        "caseSensitive": false,
+        "skillIds": ["plural"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-1a-1b-6",
+    "title": "Что в твоём портфеле?",
+    "mechanic": "template",
+    "skillIds": ["have-got"],
+    "wordIds": [
+      "wf-92719fe0cf8c",
+      "wf-5972814068a1",
+      "wf-e21a6b0cb193",
+      "wf-058ce9bd95f5",
+      "wf-13809668fb43",
+      "wf-619d1dac1c13",
+      "wf-3b74bc54b6c2",
+      "wf-d64debd942d7"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "template",
+        "prompt": "Составь свой вариант. Все предложенные варианты подходят.",
+        "slots": [
+          {
+            "label": "Выбери первую фразу",
+            "options": ["I've got a ruler.", "I've got a book.", "I've got pens."]
+          },
+          {
+            "label": "Добавь ещё одну фразу",
+            "options": ["I've got a pencil case.", "I've got a pen.", "I've got rubbers."]
+          }
+        ],
+        "why": "Ты выбираешь содержимое сам. A нужно перед одним предметом; перед pens и rubbers его нет.",
+        "skillIds": ["have-got"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-1a-1b-7",
+    "title": "Собери знакомство",
+    "mechanic": "dialogue",
+    "skillIds": ["questions", "word-order"],
+    "wordIds": [
+      "wf-2cf24dba5fb0",
+      "wf-82a3537ff0db",
+      "wf-cba06b5736fa",
+      "wf-edcd8e701a2d",
+      "wf-e4432baa9081"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "order",
+        "prompt": "Нажимай на части в нужном порядке.",
+        "tokens": [
+          "How old are you, Tom?",
+          "Hello! My name is Anna.",
+          "I'm nine.",
+          "Hello, Anna! My name is Tom.",
+          "I'm ten. And you?"
+        ],
+        "answers": [
+          "Hello! My name is Anna. | Hello, Anna! My name is Tom. | How old are you, Tom? | I'm ten. And you? | I'm nine."
+        ],
+        "why": "Сначала поздоровайся и назови имя, затем спроси возраст. And you? возвращает вопрос собеседнику.",
+        "skillIds": ["questions", "word-order"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-1a-1b-8",
+    "title": "Пойми команду",
+    "mechanic": "translation",
+    "skillIds": ["imperatives", "sentence-meaning"],
+    "wordIds": [
+      "wf-2348f9987442",
+      "wf-310ff200149b",
+      "wf-8cceaf5c89e6",
+      "wf-45a229d57d35",
+      "wf-778443b4b10e"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "matching",
+        "prompt": "Выбери подходящую пару в каждой строке.",
+        "rows": [
+          {
+            "label": "Open your book!",
+            "answers": ["Открой книгу!"]
+          },
+          {
+            "label": "Close your book!",
+            "answers": ["Закрой книгу!"]
+          },
+          {
+            "label": "Clap your hands!",
+            "answers": ["Хлопай в ладоши!"]
+          },
+          {
+            "label": "Sit down!",
+            "answers": ["Сядь!"]
+          }
+        ],
+        "options": ["Открой книгу!", "Закрой книгу!", "Хлопай в ладоши!", "Сядь!"],
+        "why": "Команда начинается с действия. Слушай её и ищи подходящее действие по-русски.",
+        "skillIds": ["imperatives", "sentence-meaning"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-1a-1b-9",
+    "title": "Найди числа и расставь",
+    "mechanic": "wordsearch",
+    "skillIds": ["numbers", "spelling"],
+    "wordIds": [
+      "wf-e979074ebd56",
+      "wf-d1a749ad879b",
+      "wf-9ecc81f0a4b6",
+      "wf-fef8f41cdcd2",
+      "wf-c463967e5708",
+      "wf-f2ce341fdaa6",
+      "wf-2c5abdef2a0e",
+      "wf-34357b18abdd",
+      "wf-cde4e100efd2",
+      "wf-7c2c4df740f7"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "wordsearch",
+        "prompt": "Нажми начало и конец слова по горизонтали или вертикали. Можно выбрать координаты под сеткой.",
+        "grid": [
+          "SSASUTZSGF",
+          "OSKICQUSJO",
+          "KLMXAXMEBU",
+          "WUATWELVER",
+          "CTSEXJGELT",
+          "NINETEENEE",
+          "TWENTYNTVE",
+          "NWTHIRTEEN",
+          "PNFIFTEENT",
+          "EIGHTEENKX"
+        ],
+        "placements": [
+          {
+            "word": "eleven",
+            "start": [3, 8],
+            "end": [8, 8]
+          },
+          {
+            "word": "twelve",
+            "start": [3, 3],
+            "end": [3, 8]
+          },
+          {
+            "word": "thirteen",
+            "start": [7, 2],
+            "end": [7, 9]
+          },
+          {
+            "word": "fourteen",
+            "start": [0, 9],
+            "end": [7, 9]
+          },
+          {
+            "word": "fifteen",
+            "start": [8, 2],
+            "end": [8, 8]
+          },
+          {
+            "word": "sixteen",
+            "start": [0, 3],
+            "end": [6, 3]
+          },
+          {
+            "word": "seventeen",
+            "start": [1, 7],
+            "end": [9, 7]
+          },
+          {
+            "word": "eighteen",
+            "start": [9, 0],
+            "end": [9, 7]
+          },
+          {
+            "word": "nineteen",
+            "start": [5, 0],
+            "end": [5, 7]
+          },
+          {
+            "word": "twenty",
+            "start": [6, 0],
+            "end": [6, 5]
+          }
+        ],
+        "why": "Читайте подряд по строке или столбцу. При неверной паре координат попробуй другое начало.",
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "order",
+        "prompt": "Нажимай на части в нужном порядке.",
+        "tokens": [
+          "eleven",
+          "twelve",
+          "thirteen",
+          "fourteen",
+          "fifteen",
+          "sixteen",
+          "seventeen",
+          "eighteen",
+          "nineteen",
+          "twenty"
+        ],
+        "answers": [
+          "twenty | nineteen | eighteen | seventeen | sixteen | fifteen | fourteen | thirteen | twelve | eleven"
+        ],
+        "why": "По убыванию — от большего к меньшему: начни с twenty.",
+        "skillIds": ["numbers"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-1a-1b-10",
+    "title": "Два звука буквы e",
+    "mechanic": "table",
+    "skillIds": ["phonics"],
+    "wordIds": [
+      "wf-372f7e2fd2d0",
+      "wf-dc7c811b9561",
+      "wf-62cb81b5904a",
+      "wf-2cda85e504e1",
+      "wf-e21a6b0cb193",
+      "wf-b1f51a511f1d",
+      "wf-c5052532c220",
+      "wf-34707c3f40df",
+      "wf-106a5842fc5f",
+      "wf-0e895c323cc7"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "matching",
+        "prompt": "Выбери подходящую пару в каждой строке.",
+        "rows": [
+          {
+            "label": "he",
+            "answers": ["/iː/"]
+          },
+          {
+            "label": "we",
+            "answers": ["/iː/"]
+          },
+          {
+            "label": "bee",
+            "answers": ["/iː/"]
+          },
+          {
+            "label": "she",
+            "answers": ["/iː/"]
+          },
+          {
+            "label": "pen",
+            "answers": ["/e/"]
+          },
+          {
+            "label": "red",
+            "answers": ["/e/"]
+          },
+          {
+            "label": "bed",
+            "answers": ["/e/"]
+          },
+          {
+            "label": "egg",
+            "answers": ["/e/"]
+          },
+          {
+            "label": "help",
+            "answers": ["/e/"]
+          },
+          {
+            "label": "clever",
+            "answers": ["/e/"]
+          }
+        ],
+        "options": ["/iː/", "/e/"],
+        "why": "В he и bee звук /iː/ длинный. В pen и red звук /e/ короткий. Послушай слова перед распределением.",
+        "skillIds": ["phonics"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-2a-2b-1",
+    "title": "Предметы в расписании",
+    "mechanic": "matching",
+    "skillIds": ["subjects"],
+    "wordIds": [
+      "wf-80f189984e5c",
+      "wf-d3cec9911225",
+      "wf-b6234d2ea0d6",
+      "wf-acc017392425",
+      "wf-790fad4744a9",
+      "wf-259aa8ef98a8",
+      "wf-bf8e5ca0b2d5",
+      "wf-cdf69b25a417",
+      "wf-c83827727d78",
+      "wf-4cb4ea25583c"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "matching",
+        "prompt": "Выбери подходящую пару в каждой строке.",
+        "rows": [
+          {
+            "label": "Music",
+            "answers": ["музыка"]
+          },
+          {
+            "label": "Art",
+            "answers": ["рисование"]
+          },
+          {
+            "label": "English",
+            "answers": ["английский"]
+          },
+          {
+            "label": "Maths",
+            "answers": ["математика"]
+          },
+          {
+            "label": "Science",
+            "answers": ["естествознание"]
+          },
+          {
+            "label": "History",
+            "answers": ["история"]
+          },
+          {
+            "label": "Geography",
+            "answers": ["география"]
+          },
+          {
+            "label": "PE",
+            "answers": ["физкультура"]
+          },
+          {
+            "label": "school subject",
+            "answers": ["школьный предмет"]
+          },
+          {
+            "label": "Year",
+            "answers": ["год обучения, класс"]
+          }
+        ],
+        "options": [
+          "музыка",
+          "рисование",
+          "английский",
+          "математика",
+          "естествознание",
+          "история",
+          "география",
+          "физкультура",
+          "школьный предмет",
+          "год обучения, класс"
+        ],
+        "why": "Название предмета узнавай целиком: PE произносится как названия двух букв.",
+        "skillIds": ["subjects"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-2a-2b-2",
+    "title": "Буквы в расписании",
+    "mechanic": "letters",
+    "skillIds": ["spelling"],
+    "wordIds": [
+      "wf-80f189984e5c",
+      "wf-d3cec9911225",
+      "wf-b6234d2ea0d6",
+      "wf-acc017392425",
+      "wf-790fad4744a9",
+      "wf-259aa8ef98a8",
+      "wf-bf8e5ca0b2d5",
+      "wf-cdf69b25a417"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "text",
+        "prompt": "M___c",
+        "answers": ["Music"],
+        "why": "Восстанови название школьного предмета. Заглавная буква в начале помогает вспомнить слово.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "A_t",
+        "answers": ["Art"],
+        "why": "Восстанови название школьного предмета. Заглавная буква в начале помогает вспомнить слово.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "E_____h",
+        "answers": ["English"],
+        "why": "Восстанови название школьного предмета. Заглавная буква в начале помогает вспомнить слово.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "M___s",
+        "answers": ["Maths"],
+        "why": "Восстанови название школьного предмета. Заглавная буква в начале помогает вспомнить слово.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "S_____e",
+        "answers": ["Science"],
+        "why": "Восстанови название школьного предмета. Заглавная буква в начале помогает вспомнить слово.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "H_____y",
+        "answers": ["History"],
+        "why": "Восстанови название школьного предмета. Заглавная буква в начале помогает вспомнить слово.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "G_______y",
+        "answers": ["Geography"],
+        "why": "Восстанови название школьного предмета. Заглавная буква в начале помогает вспомнить слово.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      },
+      {
+        "mode": "text",
+        "prompt": "P_",
+        "answers": ["PE"],
+        "why": "Восстанови название школьного предмета. Заглавная буква в начале помогает вспомнить слово.",
+        "caseSensitive": false,
+        "skillIds": ["spelling"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-2a-2b-3",
+    "title": "Названия по алфавиту",
+    "mechanic": "alphabet",
+    "skillIds": ["alphabet"],
+    "wordIds": ["wf-790fad4744a9", "wf-b6234d2ea0d6", "wf-259aa8ef98a8", "wf-acc017392425"],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "order",
+        "prompt": "Нажимай на части в нужном порядке.",
+        "tokens": ["Science", "English", "Maths", "History"],
+        "answers": ["English | History | Maths | Science"],
+        "why": "Сначала E, затем H, M и S. Названия предметов начинаются с заглавной буквы.",
+        "skillIds": ["alphabet"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-2a-2b-4",
+    "title": "Что можно делать на уроках?",
+    "mechanic": "table",
+    "skillIds": ["subjects", "sentence-meaning"],
+    "wordIds": [
+      "wf-3316348dbadf",
+      "wf-10fd874b68da",
+      "wf-6f8860eb5103",
+      "wf-6342d0648a74",
+      "wf-acba25512100",
+      "wf-6bdaf554e420",
+      "wf-50f7becde477",
+      "wf-aba4cc9b8af8",
+      "wf-6de03f9e8221"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "matching",
+        "prompt": "Выбери одно подходящее действие. Подходящих вариантов может быть несколько.",
+        "rows": [
+          {
+            "label": "English",
+            "answers": ["read", "write", "listen", "sing", "watch films"]
+          },
+          {
+            "label": "Music",
+            "answers": ["sing", "listen", "play"]
+          },
+          {
+            "label": "Art",
+            "answers": ["draw", "listen"]
+          },
+          {
+            "label": "PE",
+            "answers": ["run", "jump", "play", "listen"]
+          }
+        ],
+        "options": [
+          "read",
+          "write",
+          "listen",
+          "sing",
+          "run",
+          "jump",
+          "draw",
+          "play",
+          "watch films"
+        ],
+        "why": "Мы принимаем разные разумные действия. На музыке можно слушать, петь или играть; на физкультуре — бегать, прыгать и играть.",
+        "skillIds": ["subjects", "sentence-meaning"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-2a-2b-5",
+    "title": "Полная и короткая форма be",
+    "mechanic": "grammar",
+    "skillIds": ["pronouns", "be", "contractions"],
+    "wordIds": [
+      "wf-de7d1b721a1e",
+      "wf-bb0347a468d9",
+      "wf-372f7e2fd2d0",
+      "wf-2cda85e504e1",
+      "wf-2ad8a7049d7c",
+      "wf-151e58a83130",
+      "wf-ab6db599234d",
+      "wf-fa51fd49abf6",
+      "wf-ba78973ddcf9"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "choice",
+        "prompt": "I ___ at school.",
+        "answers": ["am"],
+        "options": ["am", "is", "are"],
+        "why": "Найди местоимение: I → am; he/she/it → is; you/we/they → are.",
+        "diagnoses": {
+          "am": "pronouns",
+          "is": "pronouns",
+          "are": "pronouns"
+        },
+        "skillIds": ["be", "pronouns"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "You ___ happy.",
+        "answers": ["are"],
+        "options": ["am", "is", "are"],
+        "why": "Найди местоимение: I → am; he/she/it → is; you/we/they → are.",
+        "diagnoses": {
+          "am": "pronouns",
+          "is": "pronouns",
+          "are": "pronouns"
+        },
+        "skillIds": ["be", "pronouns"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "He ___ my friend.",
+        "answers": ["is"],
+        "options": ["am", "is", "are"],
+        "why": "Найди местоимение: I → am; he/she/it → is; you/we/they → are.",
+        "diagnoses": {
+          "am": "pronouns",
+          "is": "pronouns",
+          "are": "pronouns"
+        },
+        "skillIds": ["be", "pronouns"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "She ___ in Year 3.",
+        "answers": ["is"],
+        "options": ["am", "is", "are"],
+        "why": "Найди местоимение: I → am; he/she/it → is; you/we/they → are.",
+        "diagnoses": {
+          "am": "pronouns",
+          "is": "pronouns",
+          "are": "pronouns"
+        },
+        "skillIds": ["be", "pronouns"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "It ___ my pencil.",
+        "answers": ["is"],
+        "options": ["am", "is", "are"],
+        "why": "Найди местоимение: I → am; he/she/it → is; you/we/they → are.",
+        "diagnoses": {
+          "am": "pronouns",
+          "is": "pronouns",
+          "are": "pronouns"
+        },
+        "skillIds": ["be", "pronouns"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "They ___ happy.",
+        "answers": ["are"],
+        "options": ["am", "is", "are"],
+        "why": "Найди местоимение: I → am; he/she/it → is; you/we/they → are.",
+        "diagnoses": {
+          "am": "pronouns",
+          "is": "pronouns",
+          "are": "pronouns"
+        },
+        "skillIds": ["be", "pronouns"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Напиши кратко: I am at school.",
+        "answers": ["I'm at school."],
+        "why": "Апостроф заменяет буквы формы be.",
+        "caseSensitive": false,
+        "skillIds": ["contractions"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Напиши кратко: You are happy.",
+        "answers": ["You're happy."],
+        "why": "Апостроф заменяет буквы формы be.",
+        "caseSensitive": false,
+        "skillIds": ["contractions"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Напиши кратко: He is my friend.",
+        "answers": ["He's my friend."],
+        "why": "Апостроф заменяет буквы формы be.",
+        "caseSensitive": false,
+        "skillIds": ["contractions"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Напиши кратко: She is in Year 3.",
+        "answers": ["She's in Year 3."],
+        "why": "Апостроф заменяет буквы формы be.",
+        "caseSensitive": false,
+        "skillIds": ["contractions"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Напиши кратко: It is my pencil.",
+        "answers": ["It's my pencil."],
+        "why": "Апостроф заменяет буквы формы be.",
+        "caseSensitive": false,
+        "skillIds": ["contractions"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Напиши кратко: They are happy.",
+        "answers": ["They're happy."],
+        "why": "Апостроф заменяет буквы формы be.",
+        "caseSensitive": false,
+        "skillIds": ["contractions"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-2a-2b-6",
+    "title": "Раскрой сокращения",
+    "mechanic": "grammar",
+    "skillIds": ["contractions"],
+    "wordIds": [
+      "wf-78f267c0e62e",
+      "wf-7dece7d7d99e",
+      "wf-24ceef1cb6b0",
+      "wf-dacbc48f0803",
+      "wf-10beaccfc7da"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "text",
+        "prompt": "I'm happy.",
+        "answers": ["I am happy."],
+        "why": "Замени сокращение полной формой. Здесь после апострофа сокращено am, are или is.",
+        "caseSensitive": false,
+        "skillIds": ["contractions"]
+      },
+      {
+        "mode": "text",
+        "prompt": "You're at school.",
+        "answers": ["You are at school."],
+        "why": "Замени сокращение полной формой. Здесь после апострофа сокращено am, are или is.",
+        "caseSensitive": false,
+        "skillIds": ["contractions"]
+      },
+      {
+        "mode": "text",
+        "prompt": "It's a book.",
+        "answers": ["It is a book."],
+        "why": "Замени сокращение полной формой. Здесь после апострофа сокращено am, are или is.",
+        "caseSensitive": false,
+        "skillIds": ["contractions"]
+      },
+      {
+        "mode": "text",
+        "prompt": "They're my friends.",
+        "answers": ["They are my friends."],
+        "why": "Замени сокращение полной формой. Здесь после апострофа сокращено am, are или is.",
+        "caseSensitive": false,
+        "skillIds": ["contractions"]
+      },
+      {
+        "mode": "text",
+        "prompt": "What's this?",
+        "answers": ["What is this?"],
+        "why": "Замени сокращение полной формой. Здесь после апострофа сокращено am, are или is.",
+        "caseSensitive": false,
+        "skillIds": ["contractions"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-2a-2b-7",
+    "title": "Выбери верное предложение",
+    "mechanic": "grammar",
+    "skillIds": ["be", "questions"],
+    "wordIds": ["wf-ab6db599234d", "wf-fa51fd49abf6", "wf-ba78973ddcf9", "wf-cba06b5736fa"],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "choice",
+        "prompt": "Как спросить возраст?",
+        "answers": ["How old are you?"],
+        "options": ["How old are you?", "How old you are?"],
+        "why": "В вопросе are ставим перед you.",
+        "diagnoses": {
+          "How old you are?": "questions"
+        },
+        "skillIds": ["be", "questions"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "Скажи, что ты рад.",
+        "answers": ["I am happy."],
+        "options": ["I am happy.", "I are happy."],
+        "why": "После I нужна форма am.",
+        "diagnoses": {
+          "I are happy.": "be"
+        },
+        "skillIds": ["be", "questions"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "Как назвать предмет?",
+        "answers": ["It is my pencil."],
+        "options": ["It is my pencil.", "It is is my pencil."],
+        "why": "Одна форма is уже связывает части предложения.",
+        "diagnoses": {},
+        "skillIds": ["be", "questions"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-2a-2b-8",
+    "title": "Вопрос и ответ",
+    "mechanic": "matching",
+    "skillIds": ["questions", "sentence-meaning"],
+    "wordIds": [
+      "wf-749ab2c0d06c",
+      "wf-8044aae1f868",
+      "wf-b48111c10c65",
+      "wf-775cf3abc9be",
+      "wf-82a3537ff0db"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "matching",
+        "prompt": "Выбери подходящую пару в каждой строке.",
+        "rows": [
+          {
+            "label": "What is your name?",
+            "answers": ["My name is Anna."]
+          },
+          {
+            "label": "How old are you?",
+            "answers": ["I'm ten."]
+          },
+          {
+            "label": "What is your favourite subject?",
+            "answers": ["Music."]
+          },
+          {
+            "label": "Where are they?",
+            "answers": ["They are at school."]
+          },
+          {
+            "label": "What is this?",
+            "answers": ["It is a pencil."]
+          }
+        ],
+        "options": [
+          "My name is Anna.",
+          "I'm ten.",
+          "Music.",
+          "They are at school.",
+          "It is a pencil."
+        ],
+        "why": "Name спрашивает имя, how old — возраст, where — место. Отвечай именно на поставленный вопрос.",
+        "skillIds": ["questions", "sentence-meaning"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-2a-2b-9",
+    "title": "Услышь команду",
+    "mechanic": "matching",
+    "skillIds": ["imperatives"],
+    "wordIds": [
+      "wf-43f7a37eecd4",
+      "wf-778443b4b10e",
+      "wf-2348f9987442",
+      "wf-310ff200149b",
+      "wf-8cceaf5c89e6",
+      "wf-e0afcdbf6ad4"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "matching",
+        "prompt": "Выбери подходящую пару в каждой строке.",
+        "rows": [
+          {
+            "label": "Open your book!",
+            "answers": ["Открой книгу!"]
+          },
+          {
+            "label": "Close your book!",
+            "answers": ["Закрой книгу!"]
+          },
+          {
+            "label": "Clap your hands!",
+            "answers": ["Хлопай в ладоши!"]
+          },
+          {
+            "label": "Sit down!",
+            "answers": ["Сядь!"]
+          },
+          {
+            "label": "Stand up!",
+            "answers": ["Встань!"]
+          },
+          {
+            "label": "Stamp your feet!",
+            "answers": ["Топай ногами!"]
+          }
+        ],
+        "options": [
+          "Открой книгу!",
+          "Закрой книгу!",
+          "Хлопай в ладоши!",
+          "Сядь!",
+          "Встань!",
+          "Топай ногами!"
+        ],
+        "why": "В команде сначала действие: stand, sit, open, close, clap, stamp.",
+        "skillIds": ["imperatives"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-2a-2b-10",
+    "title": "Собери предложения",
+    "mechanic": "order",
+    "skillIds": ["word-order", "questions"],
+    "wordIds": [
+      "wf-de7d1b721a1e",
+      "wf-bb0347a468d9",
+      "wf-151e58a83130",
+      "wf-2348f9987442",
+      "wf-d64debd942d7"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "order",
+        "prompt": "Нажимай на части в нужном порядке.",
+        "tokens": ["happy.", "am", "I"],
+        "answers": ["I am happy."],
+        "why": "В утверждении сначала тот, о ком говорим. В вопросе форма be стоит перед местоимением. Команда начинается с действия.",
+        "skillIds": ["word-order", "questions"]
+      },
+      {
+        "mode": "order",
+        "prompt": "Нажимай на части в нужном порядке.",
+        "tokens": ["Music.", "like", "I"],
+        "answers": ["I like Music."],
+        "why": "В утверждении сначала тот, о ком говорим. В вопросе форма be стоит перед местоимением. Команда начинается с действия.",
+        "skillIds": ["word-order", "questions"]
+      },
+      {
+        "mode": "order",
+        "prompt": "Нажимай на части в нужном порядке.",
+        "tokens": ["your", "Open", "book!"],
+        "answers": ["Open your book!"],
+        "why": "В утверждении сначала тот, о ком говорим. В вопросе форма be стоит перед местоимением. Команда начинается с действия.",
+        "skillIds": ["word-order", "questions"]
+      },
+      {
+        "mode": "order",
+        "prompt": "Нажимай на части в нужном порядке.",
+        "tokens": ["at", "are", "They", "school."],
+        "answers": ["They are at school."],
+        "why": "В утверждении сначала тот, о ком говорим. В вопросе форма be стоит перед местоимением. Команда начинается с действия.",
+        "skillIds": ["word-order", "questions"]
+      },
+      {
+        "mode": "order",
+        "prompt": "Нажимай на части в нужном порядке.",
+        "tokens": ["my", "is", "This", "pencil."],
+        "answers": ["This is my pencil."],
+        "why": "В утверждении сначала тот, о ком говорим. В вопросе форма be стоит перед местоимением. Команда начинается с действия.",
+        "skillIds": ["word-order", "questions"]
+      },
+      {
+        "mode": "order",
+        "prompt": "Нажимай на части в нужном порядке.",
+        "tokens": ["old", "you?", "How", "are"],
+        "answers": ["How old are you?"],
+        "why": "В утверждении сначала тот, о ком говорим. В вопросе форма be стоит перед местоимением. Команда начинается с действия.",
+        "skillIds": ["word-order", "questions"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-review-1",
+    "title": "Кто здесь лишний?",
+    "mechanic": "odd",
+    "skillIds": ["vocabulary", "phonics"],
+    "wordIds": [
+      "wf-92719fe0cf8c",
+      "wf-e21a6b0cb193",
+      "wf-5972814068a1",
+      "wf-80f189984e5c",
+      "wf-e979074ebd56",
+      "wf-9ecc81f0a4b6",
+      "wf-d1a749ad879b",
+      "wf-c463967e5708",
+      "wf-62cb81b5904a",
+      "wf-dc9c5edb8b2d"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "choice",
+        "prompt": "Три вещи для школы и один предмет в расписании. Что лишнее?",
+        "answers": ["Music"],
+        "options": ["book", "pen", "Music", "ruler"],
+        "why": "Music — урок музыки, остальные — вещи.",
+        "diagnoses": {},
+        "skillIds": ["vocabulary", "phonics"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "Три нечётных числа и одно чётное.",
+        "answers": ["twelve"],
+        "options": ["eleven", "thirteen", "twelve", "fifteen"],
+        "why": "Двенадцать делится на два без остатка.",
+        "diagnoses": {},
+        "skillIds": ["vocabulary", "phonics"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "В трёх словах /iː/, в одном /e/.",
+        "answers": ["pen"],
+        "options": ["bee", "tree", "he", "pen"],
+        "why": "В pen слышим короткий /e/. Послушай остальные слова.",
+        "diagnoses": {},
+        "skillIds": ["vocabulary", "phonics"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-review-2",
+    "title": "Продолжи числовой ряд",
+    "mechanic": "gap",
+    "skillIds": ["numbers"],
+    "wordIds": [
+      "wf-e979074ebd56",
+      "wf-d1a749ad879b",
+      "wf-9ecc81f0a4b6",
+      "wf-fef8f41cdcd2",
+      "wf-c463967e5708",
+      "wf-f2ce341fdaa6",
+      "wf-2c5abdef2a0e",
+      "wf-34357b18abdd",
+      "wf-cde4e100efd2",
+      "wf-7c2c4df740f7"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "text",
+        "prompt": "11 → 13 → ___",
+        "answers": ["fifteen"],
+        "why": "Каждый раз прибавляем два. Ответ запиши английским словом.",
+        "caseSensitive": false,
+        "skillIds": ["numbers"]
+      },
+      {
+        "mode": "text",
+        "prompt": "20 → 18 → ___",
+        "answers": ["sixteen"],
+        "why": "Каждый раз вычитаем два.",
+        "caseSensitive": false,
+        "skillIds": ["numbers"]
+      },
+      {
+        "mode": "text",
+        "prompt": "12 → 15 → ___",
+        "answers": ["eighteen"],
+        "why": "Каждый раз прибавляем три.",
+        "caseSensitive": false,
+        "skillIds": ["numbers"]
+      },
+      {
+        "mode": "text",
+        "prompt": "19 → 17 → ___",
+        "answers": ["fifteen"],
+        "why": "Каждый раз вычитаем два.",
+        "caseSensitive": false,
+        "skillIds": ["numbers"]
+      },
+      {
+        "mode": "text",
+        "prompt": "11 + 1 → 11 + 2 → ___",
+        "answers": ["fourteen"],
+        "why": "Сначала 12, затем 13, потом 14.",
+        "caseSensitive": false,
+        "skillIds": ["numbers"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-review-3",
+    "title": "Числовой кроссворд",
+    "mechanic": "crossword",
+    "skillIds": ["numbers", "spelling"],
+    "wordIds": [
+      "wf-e979074ebd56",
+      "wf-f2ce341fdaa6",
+      "wf-d1a749ad879b",
+      "wf-34357b18abdd",
+      "wf-cde4e100efd2",
+      "wf-9ecc81f0a4b6"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "crossword",
+        "prompt": "Посчитай и запиши ответы английскими словами. Буквы попадут в новый кроссворд.",
+        "words": [
+          {
+            "answer": "eleven",
+            "row": 7,
+            "col": 0,
+            "direction": "across",
+            "clue": "8 + 3"
+          },
+          {
+            "answer": "sixteen",
+            "row": 3,
+            "col": 0,
+            "direction": "down",
+            "clue": "12 + 4"
+          },
+          {
+            "answer": "twelve",
+            "row": 5,
+            "col": 2,
+            "direction": "down",
+            "clue": "20 − 8"
+          },
+          {
+            "answer": "eighteen",
+            "row": 7,
+            "col": 4,
+            "direction": "down",
+            "clue": "9 + 9"
+          },
+          {
+            "answer": "nineteen",
+            "row": 0,
+            "col": 5,
+            "direction": "down",
+            "clue": "20 − 1"
+          },
+          {
+            "answer": "thirteen",
+            "row": 11,
+            "col": 4,
+            "direction": "across",
+            "clue": "8 + 5"
+          }
+        ],
+        "why": "Сначала реши пример, затем вспомни написание числа. В пересечениях буквы должны совпадать.",
+        "skillIds": ["numbers", "spelling"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-review-4",
+    "title": "Собери названия",
+    "mechanic": "matching",
+    "skillIds": ["phrases"],
+    "wordIds": [
+      "wf-619d1dac1c13",
+      "wf-3b74bc54b6c2",
+      "wf-e971c330aab8",
+      "wf-bb3c78a5ebce",
+      "wf-f6bc36134480",
+      "wf-54ad3893e738",
+      "wf-3e7a939e96c4"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "matching",
+        "prompt": "Выбери подходящую пару в каждой строке.",
+        "rows": [
+          {
+            "label": "school + bag",
+            "answers": ["school bag"]
+          },
+          {
+            "label": "pencil + case",
+            "answers": ["pencil case"]
+          },
+          {
+            "label": "ice + cream",
+            "answers": ["ice cream"]
+          },
+          {
+            "label": "orange + juice",
+            "answers": ["orange juice"]
+          },
+          {
+            "label": "teddy + bear",
+            "answers": ["teddy bear"]
+          },
+          {
+            "label": "tree + house",
+            "answers": ["tree house"]
+          },
+          {
+            "label": "phone + number",
+            "answers": ["phone number"]
+          }
+        ],
+        "options": [
+          "school bag",
+          "pencil case",
+          "ice cream",
+          "orange juice",
+          "teddy bear",
+          "tree house",
+          "phone number"
+        ],
+        "why": "Две половинки образуют одно название. Прочитай его целиком и найди перевод.",
+        "skillIds": ["phrases"]
+      },
+      {
+        "mode": "matching",
+        "prompt": "Выбери подходящую пару в каждой строке.",
+        "rows": [
+          {
+            "label": "school bag",
+            "answers": ["портфель"]
+          },
+          {
+            "label": "pencil case",
+            "answers": ["пенал"]
+          },
+          {
+            "label": "ice cream",
+            "answers": ["мороженое"]
+          },
+          {
+            "label": "orange juice",
+            "answers": ["апельсиновый сок"]
+          },
+          {
+            "label": "teddy bear",
+            "answers": ["плюшевый мишка"]
+          },
+          {
+            "label": "tree house",
+            "answers": ["домик на дереве"]
+          },
+          {
+            "label": "phone number",
+            "answers": ["номер телефона"]
+          }
+        ],
+        "options": [
+          "портфель",
+          "пенал",
+          "мороженое",
+          "апельсиновый сок",
+          "плюшевый мишка",
+          "домик на дереве",
+          "номер телефона"
+        ],
+        "why": "Смысл составного названия запоминаем целиком.",
+        "skillIds": ["phrases"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-review-5",
+    "title": "Собери команды",
+    "mechanic": "order",
+    "skillIds": ["imperatives", "phrases"],
+    "wordIds": [
+      "wf-2348f9987442",
+      "wf-310ff200149b",
+      "wf-8cceaf5c89e6",
+      "wf-45a229d57d35",
+      "wf-43f7a37eecd4",
+      "wf-778443b4b10e",
+      "wf-e0afcdbf6ad4",
+      "wf-a5add1365529"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "order",
+        "prompt": "Нажимай на части в нужном порядке.",
+        "tokens": ["book!", "your", "Open"],
+        "answers": ["Open your book!"],
+        "why": "Команда начинается с действия; your связывает вещь с собеседником.",
+        "skillIds": ["imperatives", "phrases"]
+      },
+      {
+        "mode": "order",
+        "prompt": "Нажимай на части в нужном порядке.",
+        "tokens": ["book!", "your", "Close"],
+        "answers": ["Close your book!"],
+        "why": "Команда начинается с действия; your связывает вещь с собеседником.",
+        "skillIds": ["imperatives", "phrases"]
+      },
+      {
+        "mode": "order",
+        "prompt": "Нажимай на части в нужном порядке.",
+        "tokens": ["hands!", "your", "Clap"],
+        "answers": ["Clap your hands!"],
+        "why": "Команда начинается с действия; your связывает вещь с собеседником.",
+        "skillIds": ["imperatives", "phrases"]
+      },
+      {
+        "mode": "order",
+        "prompt": "Нажимай на части в нужном порядке.",
+        "tokens": ["down!", "Sit"],
+        "answers": ["Sit down!"],
+        "why": "Команда начинается с действия; your связывает вещь с собеседником.",
+        "skillIds": ["imperatives", "phrases"]
+      },
+      {
+        "mode": "order",
+        "prompt": "Нажимай на части в нужном порядке.",
+        "tokens": ["up!", "Stand"],
+        "answers": ["Stand up!"],
+        "why": "Команда начинается с действия; your связывает вещь с собеседником.",
+        "skillIds": ["imperatives", "phrases"]
+      },
+      {
+        "mode": "order",
+        "prompt": "Нажимай на части в нужном порядке.",
+        "tokens": ["feet!", "your", "Stamp"],
+        "answers": ["Stamp your feet!"],
+        "why": "Команда начинается с действия; your связывает вещь с собеседником.",
+        "skillIds": ["imperatives", "phrases"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-review-6",
+    "title": "Найди предметы",
+    "mechanic": "wordsearch",
+    "skillIds": ["subjects", "spelling"],
+    "wordIds": [
+      "wf-80f189984e5c",
+      "wf-d3cec9911225",
+      "wf-b6234d2ea0d6",
+      "wf-acc017392425",
+      "wf-790fad4744a9",
+      "wf-259aa8ef98a8",
+      "wf-bf8e5ca0b2d5"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "wordsearch",
+        "prompt": "Нажми начало и конец слова по горизонтали или вертикали. Можно выбрать координаты под сеткой.",
+        "grid": [
+          "IFKLODEGGX",
+          "EBSCIENCED",
+          "QUURMJGKOH",
+          "MGAARTLVGG",
+          "QETMUSICRE",
+          "VUNACNSHAR",
+          "ALITOZHVPM",
+          "EKIHNULQHA",
+          "RHISTORYYB",
+          "IJXOFTVCHN"
+        ],
+        "placements": [
+          {
+            "word": "music",
+            "start": [4, 3],
+            "end": [4, 7]
+          },
+          {
+            "word": "art",
+            "start": [3, 3],
+            "end": [3, 5]
+          },
+          {
+            "word": "english",
+            "start": [0, 6],
+            "end": [6, 6]
+          },
+          {
+            "word": "maths",
+            "start": [4, 3],
+            "end": [8, 3]
+          },
+          {
+            "word": "science",
+            "start": [1, 2],
+            "end": [1, 8]
+          },
+          {
+            "word": "history",
+            "start": [8, 1],
+            "end": [8, 7]
+          },
+          {
+            "word": "geography",
+            "start": [0, 8],
+            "end": [8, 8]
+          }
+        ],
+        "why": "Читайте подряд по строке или столбцу. При неверной паре координат попробуй другое начало.",
+        "skillIds": ["subjects", "spelling"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-review-7",
+    "title": "Твоё расписание",
+    "mechanic": "template",
+    "skillIds": ["subjects", "word-order"],
+    "wordIds": [
+      "wf-80f189984e5c",
+      "wf-d3cec9911225",
+      "wf-b6234d2ea0d6",
+      "wf-acc017392425",
+      "wf-790fad4744a9",
+      "wf-259aa8ef98a8",
+      "wf-bf8e5ca0b2d5",
+      "wf-cdf69b25a417",
+      "wf-aa304b5d1d72",
+      "wf-d70afca61520",
+      "wf-238d7145e500",
+      "wf-42781526b743",
+      "wf-1d7906c798c9"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "template",
+        "prompt": "Составь свой вариант. Все предложенные варианты подходят.",
+        "slots": [
+          {
+            "label": "Что у тебя есть в расписании?",
+            "options": ["I have English.", "I have Art.", "I have Music."]
+          },
+          {
+            "label": "Какого урока нет?",
+            "options": ["I don't have PE.", "I don't have History.", "I don't have Geography."]
+          }
+        ],
+        "why": "Расписание у всех разное. Здесь нет единственного верного выбора — мы тренируем предложения I have и I don’t have.",
+        "skillIds": ["subjects", "word-order"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-review-8",
+    "title": "Почини предложения",
+    "mechanic": "correction",
+    "skillIds": ["be", "word-order", "contractions"],
+    "wordIds": ["wf-cab2644828bc", "wf-cba06b5736fa", "wf-749ab2c0d06c", "wf-038468518ad8"],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "text",
+        "prompt": "I am like Art.",
+        "answers": ["I like Art."],
+        "why": "Чтобы сказать «нравится», достаточно like; am здесь лишнее.",
+        "caseSensitive": false,
+        "skillIds": ["be", "word-order", "contractions"]
+      },
+      {
+        "mode": "text",
+        "prompt": "My the favourite subject is Music.",
+        "answers": ["My favourite subject is Music."],
+        "why": "Перед favourite subject уже стоит my, артикль the не нужен.",
+        "caseSensitive": false,
+        "skillIds": ["be", "word-order", "contractions"]
+      },
+      {
+        "mode": "text",
+        "prompt": "He is ten years.",
+        "answers": ["He is ten years old."],
+        "why": "В полном выражении возраста нужны years old.",
+        "caseSensitive": false,
+        "skillIds": ["be", "word-order", "contractions"]
+      },
+      {
+        "mode": "text",
+        "prompt": "What's is this?",
+        "answers": ["What is this?", "What's this?"],
+        "why": "What’s уже означает What is, повторять is не надо.",
+        "caseSensitive": false,
+        "skillIds": ["be", "word-order", "contractions"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-review-9",
+    "title": "Заглавные буквы в письме",
+    "mechanic": "correction",
+    "skillIds": ["capitalization"],
+    "wordIds": [
+      "wf-2cf24dba5fb0",
+      "wf-e1608f75c5d7",
+      "wf-6089854c94ca",
+      "wf-b6234d2ea0d6",
+      "wf-d3cec9911225",
+      "wf-de7d1b721a1e"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "text",
+        "prompt": "hello, anna!",
+        "answers": ["Hello, Anna!"],
+        "why": "Начало предложения и имя Anna — с большой буквы.",
+        "caseSensitive": true,
+        "skillIds": ["capitalization"]
+      },
+      {
+        "mode": "text",
+        "prompt": "i am from london.",
+        "answers": ["I am from London."],
+        "why": "I всегда большая. London — название города.",
+        "caseSensitive": true,
+        "skillIds": ["capitalization"]
+      },
+      {
+        "mode": "text",
+        "prompt": "i like art and english.",
+        "answers": ["I like art and English.", "I like Art and English."],
+        "why": "I и название языка English — с большой буквы. Art — обычный школьный предмет; здесь допустима и строчная буква.",
+        "caseSensitive": true,
+        "skillIds": ["capitalization"]
+      },
+      {
+        "mode": "text",
+        "prompt": "my name is tom.",
+        "answers": ["My name is Tom."],
+        "why": "В начале предложения большая буква; Tom — имя.",
+        "caseSensitive": true,
+        "skillIds": ["capitalization"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-review-10",
+    "title": "Ответь другу",
+    "mechanic": "letter",
+    "skillIds": ["letter-writing", "capitalization"],
+    "wordIds": [
+      "wf-2cf24dba5fb0",
+      "wf-82a3537ff0db",
+      "wf-775cf3abc9be",
+      "wf-a9491f4c1bf7",
+      "wf-686f746a95b6"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "template",
+        "prompt": "Составь свой вариант. Все предложенные варианты подходят.",
+        "slots": [
+          {
+            "label": "Поздоровайся",
+            "options": ["Hello, Tom!", "Hello, Anna!"]
+          },
+          {
+            "label": "Представься",
+            "options": ["My name is Anna.", "My name is Tom."]
+          },
+          {
+            "label": "Расскажи о любимом предмете",
+            "options": [
+              "My favourite subject is Music.",
+              "My favourite subject is Art.",
+              "My favourite subject is English."
+            ]
+          },
+          {
+            "label": "Задай встречный вопрос",
+            "options": ["What is your favourite subject?", "What about you?"]
+          },
+          {
+            "label": "Попрощайся",
+            "options": ["Love, Anna.", "Love, Tom."]
+          }
+        ],
+        "why": "Это письмо о тебе. Приложение проверяет, что все части заполнены. Любой выбранный вариант допустим; прослушай письмо по предложениям.",
+        "skillIds": ["letter-writing", "capitalization"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-review-11",
+    "title": "Выбери подходящее слово",
+    "mechanic": "grammar",
+    "skillIds": ["have-got", "subjects", "imperatives"],
+    "wordIds": [
+      "wf-75de3c3c7bec",
+      "wf-a9491f4c1bf7",
+      "wf-3b74bc54b6c2",
+      "wf-d64debd942d7",
+      "wf-9ecc81f0a4b6",
+      "wf-45a229d57d35",
+      "wf-6e317bcd6839"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "choice",
+        "prompt": "I ___ a pencil.",
+        "answers": ["have got"],
+        "options": ["am", "have got", "can"],
+        "why": "Здесь говорят о вещи, которая есть: have got.",
+        "diagnoses": {
+          "am": "have-got",
+          "can": "have-got"
+        },
+        "skillIds": ["have-got", "subjects", "imperatives"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "My favourite ___ is Science.",
+        "answers": ["subject"],
+        "options": ["subject", "school", "book"],
+        "why": "Science — предмет, значит subject.",
+        "diagnoses": {},
+        "skillIds": ["have-got", "subjects", "imperatives"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "Eight plus five is ___.",
+        "answers": ["thirteen"],
+        "options": ["eleven", "twelve", "thirteen"],
+        "why": "8 + 5 = 13.",
+        "diagnoses": {},
+        "skillIds": ["have-got", "subjects", "imperatives"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "Clap your ___!",
+        "answers": ["hands"],
+        "options": ["hands", "feet", "books"],
+        "why": "Clap your hands — хлопай в ладоши.",
+        "diagnoses": {},
+        "skillIds": ["have-got", "subjects", "imperatives"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-review-12",
+    "title": "Кто подходит к форме be?",
+    "mechanic": "grammar",
+    "skillIds": ["pronouns", "be"],
+    "wordIds": [
+      "wf-de7d1b721a1e",
+      "wf-bb0347a468d9",
+      "wf-372f7e2fd2d0",
+      "wf-2cda85e504e1",
+      "wf-2ad8a7049d7c",
+      "wf-dc7c811b9561",
+      "wf-151e58a83130"
+    ],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "choice",
+        "prompt": "___ am at school.",
+        "answers": ["I"],
+        "options": ["I", "he", "they"],
+        "why": "Am дружит только с I.",
+        "diagnoses": {
+          "he": "pronouns",
+          "they": "pronouns"
+        },
+        "skillIds": ["pronouns", "be"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "___ are happy.",
+        "answers": ["they"],
+        "options": ["she", "it", "they"],
+        "why": "С they употребляется are; с she и it — is.",
+        "diagnoses": {
+          "she": "pronouns",
+          "it": "pronouns"
+        },
+        "skillIds": ["pronouns", "be"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "___ is my pencil.",
+        "answers": ["it"],
+        "options": ["we", "it", "you"],
+        "why": "О предмете говорим it, к нему подходит is.",
+        "diagnoses": {},
+        "skillIds": ["pronouns", "be"]
+      },
+      {
+        "mode": "choice",
+        "prompt": "How old are ___?",
+        "answers": ["you"],
+        "options": ["I", "you", "he"],
+        "why": "В этом вопросе are относится к you.",
+        "diagnoses": {},
+        "skillIds": ["pronouns", "be"]
+      }
+    ]
+  },
+  {
+    "id": "wb-1-review-13",
+    "title": "Какой вопрос был задан?",
+    "mechanic": "translation",
+    "skillIds": ["questions", "sentence-meaning"],
+    "wordIds": ["wf-82a3537ff0db", "wf-cba06b5736fa", "wf-775cf3abc9be", "wf-b48111c10c65"],
+    "instruction": "Это новое задание на тот же навык, что и упражнение в сборнике. Попробуй решить самостоятельно.",
+    "tasks": [
+      {
+        "mode": "text",
+        "prompt": "Ответ: My name is Anna.",
+        "answers": ["What is your name?", "What's your name?"],
+        "why": "Чтобы узнать имя, спрашивают What is your name?",
+        "caseSensitive": false,
+        "skillIds": ["questions", "sentence-meaning"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Ответ: I am ten.",
+        "answers": ["How old are you?"],
+        "why": "How old спрашивает о возрасте.",
+        "caseSensitive": false,
+        "skillIds": ["questions", "sentence-meaning"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Ответ: My favourite subject is Music.",
+        "answers": ["What is your favourite subject?", "What's your favourite subject?"],
+        "why": "Спроси именно любимый школьный предмет.",
+        "caseSensitive": false,
+        "skillIds": ["questions", "sentence-meaning"]
+      },
+      {
+        "mode": "text",
+        "prompt": "Ответ: They are at school.",
+        "answers": ["Where are they?"],
+        "why": "Where — вопрос о месте.",
+        "caseSensitive": false,
+        "skillIds": ["questions", "sentence-meaning"]
+      }
+    ]
+  }
+]

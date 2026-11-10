@@ -1,0 +1,1707 @@
+{
+  "sourceId": "bykova-pospelova-2017-workbook-3",
+  "fileSha256": "a4acc45e6aed99ec82cbacf74a091af095817f73846abf53e8885db1a8bc7ffb",
+  "pdfPages": 129,
+  "exerciseIndexCount": 313,
+  "pages": [
+    {
+      "pdfPage": 1,
+      "bookPage": null,
+      "role": "cover",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1387,
+        1800
+      ],
+      "renderSha256": "e9a9b143dc3a02b3a4b6617576569e56d38843cc09853993d490e396fd09923d",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 2,
+      "bookPage": 1,
+      "role": "title",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1362,
+        1800
+      ],
+      "renderSha256": "ee7724a90110e7fc266a7c1b9304034ca535e18963a2493b91954cbc7342b0c3",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 3,
+      "bookPage": 2,
+      "role": "publication",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1365,
+        1800
+      ],
+      "renderSha256": "89f0634e2e13a04a5856e5076aca34e862c059e403a2e2aab212cd56c2abf7b2",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 4,
+      "bookPage": 3,
+      "role": "contents",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1350,
+        1800
+      ],
+      "renderSha256": "e359111efb86ba836b0caa4e4911abfaa094f12d948f6cdcadc0e5a2fabc3606",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 5,
+      "bookPage": 4,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1351,
+        1800
+      ],
+      "renderSha256": "b683c919e9ce95d9b70ab0f0915004e2da9fe61ad3a19b200eb2c3ae0e92c7b3",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 6,
+      "bookPage": 5,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1353,
+        1800
+      ],
+      "renderSha256": "e390402aa8be58f7c60a03ebefcce899aa2a64a578211640af95dcd57ce87948",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 7,
+      "bookPage": 6,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1353,
+        1800
+      ],
+      "renderSha256": "4f775696cb0840162f42a5ef4b66e45169cae917b5bf8f511a1291f94c8e4bdb",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 8,
+      "bookPage": 7,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1352,
+        1800
+      ],
+      "renderSha256": "a332486ef4597d0e249b48026226bf1c2483d8d50f6089da9727428fb5b609e3",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 9,
+      "bookPage": 8,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1353,
+        1800
+      ],
+      "renderSha256": "15164f52f751ab1e98a710c5fc9e93cfc560ce15285d7f65222ad74a438d8f55",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 10,
+      "bookPage": 9,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1352,
+        1800
+      ],
+      "renderSha256": "2b62f2dff19f7185d2277a607603a753f8f3e87391bf5f8d84c7448aa4150237",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 11,
+      "bookPage": 10,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1351,
+        1800
+      ],
+      "renderSha256": "3b67ac9b9baaf21960103a6ab2b1c607c5f91d873cf3619c3a4671477ef02241",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 12,
+      "bookPage": 11,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1350,
+        1800
+      ],
+      "renderSha256": "513f25147ba471b2deac7400107b88a4c3ac4409f937f5bcaf90703279cd97ab",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 13,
+      "bookPage": 12,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1352,
+        1800
+      ],
+      "renderSha256": "ce5223237e8ef4cbfd97c9338c118fbdea96fbf71582f2f27124ca19404255e2",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 14,
+      "bookPage": 13,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "in_progress",
+      "renderSize": [
+        1350,
+        1800
+      ],
+      "renderSha256": "4c96fb110ae02fb412c885d5c6c1f0a896dc6f2aeb7280a3e87bda062b41b29c",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 15,
+      "bookPage": 14,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "in_progress",
+      "renderSize": [
+        1350,
+        1800
+      ],
+      "renderSha256": "fc1254a41952fead2b28c2f39cced6efea5183b2ff1cf61f35e8505ec0278bee",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 16,
+      "bookPage": 15,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "in_progress",
+      "renderSize": [
+        1358,
+        1800
+      ],
+      "renderSha256": "bdf0097e5146ec9469b2a7bd89586c92732df6061604322d53e4e25c83b55d7e",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 17,
+      "bookPage": 16,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "in_progress",
+      "renderSize": [
+        1357,
+        1800
+      ],
+      "renderSha256": "1009ec4e336ae3da6a0ebe3acc9f716f51fd77eff76a69f459a2cc07c3a5679a",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 18,
+      "bookPage": 17,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "in_progress",
+      "renderSize": [
+        1352,
+        1800
+      ],
+      "renderSha256": "8a69ce9e2e53b30376211becb9e4e4bba47301083a1af0e4d94994e42e3c1e3c",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 19,
+      "bookPage": 18,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "in_progress",
+      "renderSize": [
+        1353,
+        1800
+      ],
+      "renderSha256": "29846ac4c0d724779e67e748455d8f10327d003359745ceb953443f71021949d",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 20,
+      "bookPage": 19,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "in_progress",
+      "renderSize": [
+        1351,
+        1800
+      ],
+      "renderSha256": "e9adb18272c2a4ad4f4caa7ecc3470d342dd54bed1afcd26527aa4672d3e5260",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 21,
+      "bookPage": 20,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "in_progress",
+      "renderSize": [
+        1352,
+        1800
+      ],
+      "renderSha256": "c42a149977576d389ea47da3cb0e14b46f2a6ee2a191df42f672aee0d6a2be58",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 22,
+      "bookPage": 21,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "in_progress",
+      "renderSize": [
+        1351,
+        1800
+      ],
+      "renderSha256": "b6e1f7a6bbabd55c2aeaf961b6280dc5d18b63d80c19a01808570907ccf78632",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 23,
+      "bookPage": 22,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "in_progress",
+      "renderSize": [
+        1352,
+        1800
+      ],
+      "renderSha256": "1e337e713ad57537e0edda922d2651c6a84fd5c206c2f27a9a78c3b4aece591b",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 24,
+      "bookPage": 23,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "in_progress",
+      "renderSize": [
+        1357,
+        1800
+      ],
+      "renderSha256": "669a5428fa9d485fe0c72422fd361d2a3138297a1fca9880851bfb1fc734e837",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 25,
+      "bookPage": 24,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "in_progress",
+      "renderSize": [
+        1353,
+        1800
+      ],
+      "renderSha256": "ce75eeb60b642d836dade11e15fc2cf02bb07de21a36807de709051c8d86e45e",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 26,
+      "bookPage": 25,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1354,
+        1800
+      ],
+      "renderSha256": "d956b8d162c649ac8c279c496dad602cfcd607ce986d86fe2e73f9360d6c7beb",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 27,
+      "bookPage": 26,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1356,
+        1800
+      ],
+      "renderSha256": "9c0e5c566fac3428b0fdcb1e9595bc145c49c5906f2783d71e7cd82d8beea063",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 28,
+      "bookPage": 27,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1352,
+        1800
+      ],
+      "renderSha256": "dffdf561edbdee380528fbd2b8e07b8eee44a85b0e8c893aebcfa6acd693840b",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 29,
+      "bookPage": 28,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1354,
+        1800
+      ],
+      "renderSha256": "b60e645fe21e75cc4cbe009a0f32417ff95bfb35a08d6e3f700532a370a89bd1",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 30,
+      "bookPage": 29,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1355,
+        1800
+      ],
+      "renderSha256": "73a2756077289a4ddb87b3ff321648d259b72101a5e8eda254a74ede968b4413",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 31,
+      "bookPage": 30,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1353,
+        1800
+      ],
+      "renderSha256": "a8109775613ed48342e9b234dc41b4718400aec9ac1465f69b0f52a0db25d608",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 32,
+      "bookPage": 31,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1353,
+        1800
+      ],
+      "renderSha256": "47373c4d105c7054b0d139d318b2e822e99c29f748c0d17fc66222096f4aa015",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 33,
+      "bookPage": 32,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1354,
+        1800
+      ],
+      "renderSha256": "ba081db0042598e087881c648c72cf4622e727d91f3a2a78fe0794de2181eb18",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 34,
+      "bookPage": 33,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1353,
+        1800
+      ],
+      "renderSha256": "e116d31621521f11b83f1402816e06ef639cf0d5de6223660e75a5a9a1af95c9",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 35,
+      "bookPage": 34,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1356,
+        1800
+      ],
+      "renderSha256": "43c9509410d3be03c6800484d1ca5af1a39e1e8d9fbda40379f4cc19cac48ab6",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 36,
+      "bookPage": 35,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1352,
+        1800
+      ],
+      "renderSha256": "d93c092c5a929479f3e6d7ffd25f98d0660da85973fa3b896c50d2fa75e217c9",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 37,
+      "bookPage": 36,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1352,
+        1800
+      ],
+      "renderSha256": "07f58270f02f7bee54db11ae387c025fa9695c79dd559216dd9663fb85b2ecf4",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 38,
+      "bookPage": 37,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1352,
+        1800
+      ],
+      "renderSha256": "17b8a5c9a77fc0846420ed97e20de96758b8adc2794346fdf39143368e549f35",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 39,
+      "bookPage": 38,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1355,
+        1800
+      ],
+      "renderSha256": "bb05816760af39d9f6d46e70b539a1fcc40be6a7fd81c999e488773bb06686a8",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 40,
+      "bookPage": 39,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1351,
+        1800
+      ],
+      "renderSha256": "d561d740bead7d90420874ee46c82dd21f9c3d9c020cbf8ec2244f4ac21324ce",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 41,
+      "bookPage": 40,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1352,
+        1800
+      ],
+      "renderSha256": "f9625a68c46055fae950f3a671cfb03c82e8746697502e1d9feb8e1a49ae6a40",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 42,
+      "bookPage": 41,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1351,
+        1800
+      ],
+      "renderSha256": "e2e3b01601d21317e58859bbdf64b7c3cecb2868d50638c33e2a0656bb2014f7",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 43,
+      "bookPage": 42,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1353,
+        1800
+      ],
+      "renderSha256": "f99c836c5fe2182ba2eb5ed12b359364239ef61ed99c3f432eb41839c6af8c8b",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 44,
+      "bookPage": 43,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1354,
+        1800
+      ],
+      "renderSha256": "cf54a16a4877290e5a5e426e7c3a991546f0a198bf883473ec19e62a3622b794",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 45,
+      "bookPage": 44,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1355,
+        1800
+      ],
+      "renderSha256": "85deea28419c1afe40133bb7101f773837c257ebe277c878d81491c656482797",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 46,
+      "bookPage": 45,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1352,
+        1800
+      ],
+      "renderSha256": "b0cd030aa010c63962fbbf3ddb4f83330afc4570f869680f0347ec2411aebc3d",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 47,
+      "bookPage": 46,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1354,
+        1800
+      ],
+      "renderSha256": "943fe4512878b6db381e756a8cca079f49baba2cf81689e65296d54e34106ddf",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 48,
+      "bookPage": 47,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1351,
+        1800
+      ],
+      "renderSha256": "56dd333c7566e5e00d78df76c32940f6a3bbfc1151c32c6a4736d4a3dc271853",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 49,
+      "bookPage": 48,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1353,
+        1800
+      ],
+      "renderSha256": "4b5f904df536e7c82e9235157474d79e5a6030a83ac53399a6a672ecdc425e76",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 50,
+      "bookPage": 49,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1360,
+        1800
+      ],
+      "renderSha256": "703317b54e7fff870ee13d00c6d19ed6893ec3f6f95613e718cbc9facd4de631",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 51,
+      "bookPage": 50,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1360,
+        1800
+      ],
+      "renderSha256": "44d0f1139d9cab55fa0df973fa6de8f9dd3c89447908eccce58ead1aa28b0592",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 52,
+      "bookPage": 51,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1354,
+        1800
+      ],
+      "renderSha256": "533b7260735573f89d5d32e2ae2262ad823b90c51b5634a69de29504fc6304cd",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 53,
+      "bookPage": 52,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1354,
+        1800
+      ],
+      "renderSha256": "8c67a54d3059cb2005a122c8d90ff97389665f7cb82086b9210a07752eec189d",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 54,
+      "bookPage": 53,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1355,
+        1800
+      ],
+      "renderSha256": "0f5c6bc947e3023cef8270373338c0a85da17728adb5dc783ca72bd2478ade3d",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 55,
+      "bookPage": 54,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1354,
+        1800
+      ],
+      "renderSha256": "b858d7d7b55c479bb55d54a92c83cd0c486b4b9d05fb8efd93f774c1680cd6aa",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 56,
+      "bookPage": 55,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1353,
+        1800
+      ],
+      "renderSha256": "b0a610e470e9e07ad055da547213751b8e44da28a9539f586c515d25f8e172c9",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 57,
+      "bookPage": 56,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1354,
+        1800
+      ],
+      "renderSha256": "4fc84c0785f8c1710e106817d1360a7f27cbddaca00f984eac18e073dc1a786b",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 58,
+      "bookPage": 57,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1355,
+        1800
+      ],
+      "renderSha256": "76b5128d91c14ce72244c09c92e57e5618a8bab784997093cbff74b8b1611e67",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 59,
+      "bookPage": 58,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1355,
+        1800
+      ],
+      "renderSha256": "5397a70b7d8f51889604fd66a160e68eba1a1aa9ce8df0874ce2b4b3700412ae",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 60,
+      "bookPage": 59,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1354,
+        1800
+      ],
+      "renderSha256": "765fc981b3ef8ab1997ba62b18e4bc9746826d870bed58da55950c4a73557772",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 61,
+      "bookPage": 60,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1354,
+        1800
+      ],
+      "renderSha256": "461b632daaf9edcc83e035f3a2c643b83c6faf12c4d6c2b9472b31eb25335fa3",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 62,
+      "bookPage": 61,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1356,
+        1800
+      ],
+      "renderSha256": "45defcecd08d8e9ad30b78498ffc94a316e0cfc44aad26cac57e1001514b87ec",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 63,
+      "bookPage": 62,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1356,
+        1800
+      ],
+      "renderSha256": "8e44251035c51ce83d49d0a35ac62a722564e11789aa82e1fa6a99d58f4fa183",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 64,
+      "bookPage": 63,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1353,
+        1800
+      ],
+      "renderSha256": "1116333571b342c559487364aa19bf3d21c480eccd10cc4a51fa0448c936b949",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 65,
+      "bookPage": 64,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1356,
+        1800
+      ],
+      "renderSha256": "80c77f363c386bdf266f66b888cfd17e4bccf3f56632bd494be7391abb0aa52e",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 66,
+      "bookPage": 65,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1354,
+        1800
+      ],
+      "renderSha256": "3e3c3318a90da56355a2178d56d8649ec3621f2b3bf60ec41df936c9f794b8a8",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 67,
+      "bookPage": 66,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1357,
+        1800
+      ],
+      "renderSha256": "bdcfe2bb62054bb3f553d2b3eb61a564cd3c9ebe85602ef602c36bbf9b4c0da8",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 68,
+      "bookPage": 67,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1355,
+        1800
+      ],
+      "renderSha256": "102e5d8ec6cdbe34b90d38d9f3839a136391b83b1720f14038007da89366f78a",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 69,
+      "bookPage": 68,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1358,
+        1800
+      ],
+      "renderSha256": "7fdbc8d313bd7257b0f50f84575631ed0fd807aebf85dc19b5d9fa79c24c12b6",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 70,
+      "bookPage": 69,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1362,
+        1800
+      ],
+      "renderSha256": "caf9eed8b0fa3383567854655483cfd1475f8296c52b4dd0cb10d1e05e008a54",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 71,
+      "bookPage": 70,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1362,
+        1800
+      ],
+      "renderSha256": "64ba843c7a791c7ace37c059a06ccf2adfd19e75d305913acbd7509cf41906f2",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 72,
+      "bookPage": 71,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1358,
+        1800
+      ],
+      "renderSha256": "d9c7cf01a9fb44a086b79472277356e34eae5fa8398100f68a72a8a7fbebb4c2",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 73,
+      "bookPage": 72,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1358,
+        1800
+      ],
+      "renderSha256": "2b27d8f3644ef407895917abec674f7df47b7fd0cbaf91a7ff4ffdc3d40d0b55",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 74,
+      "bookPage": 73,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1358,
+        1800
+      ],
+      "renderSha256": "0eb26a3de376bab89aa166f5a4f73c609f51c40e1133e37419aa7e0a5da83128",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 75,
+      "bookPage": 74,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1357,
+        1800
+      ],
+      "renderSha256": "93f829dc0e46b152709d08b76879ae4cbc9c128058bfb0dec4e1ec8d81b676c5",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 76,
+      "bookPage": 75,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1355,
+        1800
+      ],
+      "renderSha256": "8cf1fc2de1a7bc290d3e2ea552c218b9b1455f3a38c0d6a82d5a1eeed1ec9b47",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 77,
+      "bookPage": 76,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1356,
+        1800
+      ],
+      "renderSha256": "7b8da1c586cfa1b0a11387ab76ccd30cc9abd429de1602f329c15ab9c1951a0f",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 78,
+      "bookPage": 77,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1360,
+        1800
+      ],
+      "renderSha256": "f5512b9052001c522ae8dbeae5ae776c409e40b56daedddf7387919414ba5f17",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 79,
+      "bookPage": 78,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1362,
+        1800
+      ],
+      "renderSha256": "6566f4d1ba8c0c3d2963150f3c404ae5e4897dba3f4a27580eeadab1baec5232",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 80,
+      "bookPage": 79,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1356,
+        1800
+      ],
+      "renderSha256": "2884e5bc2f835539476a99c6332bb57906fbd18a5b524acc5f3c640874288faf",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 81,
+      "bookPage": 80,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1359,
+        1800
+      ],
+      "renderSha256": "e8ac74ca89359a7e0f1ba32945449d1bc34f6482efb1d5f67121f092094c3a4e",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 82,
+      "bookPage": 81,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1358,
+        1800
+      ],
+      "renderSha256": "0e08245bad70641f9b8599588a50d123491828b295ea239baf2547bc6e5109d9",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 83,
+      "bookPage": 82,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1356,
+        1800
+      ],
+      "renderSha256": "197a548072af94d5e0bb33dcba77275be38551ff1a3a95905b342e8a464b5750",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 84,
+      "bookPage": 83,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1354,
+        1800
+      ],
+      "renderSha256": "64af53c48ae5eb876f76d3134109cd4b0e480835694050f2617a2500725fbcff",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 85,
+      "bookPage": 84,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1356,
+        1800
+      ],
+      "renderSha256": "9283e0cd34bda0be6f3ea527e5bb94463908f88fc5bae83b0aee0c14b41735b8",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 86,
+      "bookPage": 85,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1357,
+        1800
+      ],
+      "renderSha256": "f6a60381c6dfc8bc068d94c956af7da9305702ba37c5f7407eb62f486c0b8f64",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 87,
+      "bookPage": 86,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1356,
+        1800
+      ],
+      "renderSha256": "bbafbb82dd308c581aaf2864537288aa6d83e626f32e307117685ce05ef5dcbd",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 88,
+      "bookPage": 87,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1361,
+        1800
+      ],
+      "renderSha256": "6903b4716a3feed6a25f2a1378b06118e7e2fbe573416fff86d7dd42819fe05b",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 89,
+      "bookPage": 88,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1362,
+        1800
+      ],
+      "renderSha256": "2288d4b9e9a180b5eb51a4250594d52602948d66bc8ce231bc971bf0a13de867",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 90,
+      "bookPage": 89,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1359,
+        1800
+      ],
+      "renderSha256": "34057304c747761b57536a1aa8a51acf3079603faa3f05f96b7a5e1eab12ae5a",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 91,
+      "bookPage": 90,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1358,
+        1800
+      ],
+      "renderSha256": "8f416c2639d668af1ecd65acc8f349a1785660ec609d11cc4fb3cf436d8d937c",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 92,
+      "bookPage": 91,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1363,
+        1800
+      ],
+      "renderSha256": "689e0d8e369584cc467d88f753eabea79aaca063d97fca751109fc4c535679d8",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 93,
+      "bookPage": 92,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1358,
+        1800
+      ],
+      "renderSha256": "6e9544d66138561be5a651f54eda0d0ae6d846afce64d4aea3442aa807ec968b",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 94,
+      "bookPage": 93,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1358,
+        1800
+      ],
+      "renderSha256": "ee7dec33d50a0fda02bd33826e9e5a85d8fb8d7e323f251e7195cf0b5fb14773",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 95,
+      "bookPage": 94,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1359,
+        1800
+      ],
+      "renderSha256": "dc36aff4a3e630cd6866e9adc71f0ac732dfede6c6281282c058124bb2f1c3db",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 96,
+      "bookPage": 95,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1358,
+        1800
+      ],
+      "renderSha256": "557fcb5a367854a15e34374e32764332e93526de482abc5a816d5b8f813c9f88",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 97,
+      "bookPage": 96,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1360,
+        1800
+      ],
+      "renderSha256": "2e7458f35481065c710794c7e8702de80d32b2af7c57928ddc9000680f9c9176",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 98,
+      "bookPage": 97,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1361,
+        1800
+      ],
+      "renderSha256": "7d27e6484607195a78789a3fc8f1da3d51fe10a6a3db4e19774e17ed5a03bad2",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 99,
+      "bookPage": 98,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1360,
+        1800
+      ],
+      "renderSha256": "4fd89c3d78ee51c70b08dd13d80b56bf0c39511dd7490ff28d1ff9d6e90d1781",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 100,
+      "bookPage": 99,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1360,
+        1800
+      ],
+      "renderSha256": "bd2cb771e39c73bef0c1400c45eb41fdfbef4a762ef1a87abbbc4c3166b65ddf",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 101,
+      "bookPage": 100,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1362,
+        1800
+      ],
+      "renderSha256": "e691b8b76136e43a7008b6ed94e1cebd3676e9d825e6120c67fa7a8d7a8768b4",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 102,
+      "bookPage": 101,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1360,
+        1800
+      ],
+      "renderSha256": "9635f12c622af14d21ae4780026fe2819668db0792875b07f0e2f4a60ef73dde",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 103,
+      "bookPage": 102,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1360,
+        1800
+      ],
+      "renderSha256": "10f9ce76bd2314dbceb496bdd19543ad53d1be5870ba4cc648d0216ed3d66800",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 104,
+      "bookPage": 103,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1360,
+        1800
+      ],
+      "renderSha256": "9474105675aac51836077686345f45bbd826c4b0ab6b084214ffd5e92ad27d33",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 105,
+      "bookPage": 104,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1361,
+        1800
+      ],
+      "renderSha256": "9cacffd5b3bae888ede8b9b24fe126e7faa8d51af7ce029ee9304fb058ebcd8e",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 106,
+      "bookPage": 105,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1360,
+        1800
+      ],
+      "renderSha256": "0b9c73b07a1b4810d914250aee0a213de416f0bac5111ce6d695461975a8b652",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 107,
+      "bookPage": 106,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1362,
+        1800
+      ],
+      "renderSha256": "2083af1fa55791043ffe78864a535cc05a5302f9e3d9e1247eaf517c840639d6",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 108,
+      "bookPage": 107,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1360,
+        1800
+      ],
+      "renderSha256": "21635f2d295fd453b952e79c226914d510436368ae6a92c0d6edbf3e68871f98",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 109,
+      "bookPage": 108,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1363,
+        1800
+      ],
+      "renderSha256": "1e94e5970d1facda04fa95db3e5e0fa573839b0524db98313e4a13252b6ec3f9",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 110,
+      "bookPage": 109,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1364,
+        1800
+      ],
+      "renderSha256": "f0df5d992c060e4fafe7e7b1745a197371a09aa878bb642076e4b1154a6a5160",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 111,
+      "bookPage": 110,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1369,
+        1800
+      ],
+      "renderSha256": "1235a15ef78c7ef3b2fb169acf4f2527fd94bb061832239ed0e6d526ebb79717",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 112,
+      "bookPage": 111,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1360,
+        1800
+      ],
+      "renderSha256": "1ae0ea4230839ada67416b74d0b082bca1cdaf6985ef1549cf8c260eb4e79ea8",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 113,
+      "bookPage": 112,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1360,
+        1800
+      ],
+      "renderSha256": "3ae51aa9b7f643802e957c1691e430215a5b96ac9b16c3cfbc78ab81fc44c053",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 114,
+      "bookPage": 113,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1360,
+        1800
+      ],
+      "renderSha256": "648399463e4b5d4f8320683e3e348c824b382968c77f33a62f06d088d78e7a16",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 115,
+      "bookPage": 114,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1360,
+        1800
+      ],
+      "renderSha256": "4a4d2fab315e29ec8e1ed1d7ee0f06a9d6212e6bed176fc0fed46898efd5780c",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 116,
+      "bookPage": 115,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1360,
+        1800
+      ],
+      "renderSha256": "90d5559059a0448390e348c966f8f7f303d628b7a3b5c11a7eb57f92db8f517e",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 117,
+      "bookPage": 116,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1366,
+        1800
+      ],
+      "renderSha256": "d667270c9bcca6bbfdd6cdd70ca23c155f201fb1ed6f07fc72812898baab5274",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 118,
+      "bookPage": 117,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1361,
+        1800
+      ],
+      "renderSha256": "3756aaf8d82a4d976ec53de03c55747f9494b3b2d2ba76b866b7e20c0c8cef75",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 119,
+      "bookPage": 118,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1363,
+        1800
+      ],
+      "renderSha256": "7810629e8203adde03aa8ab5582e541390eae319208dd7dd2a3e6a18a55772a9",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 120,
+      "bookPage": 119,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1359,
+        1800
+      ],
+      "renderSha256": "7c3d57fcaeb52092d445bee7b57b996ef5a5e2cfc78da97ecc8e8c36c625b2d0",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 121,
+      "bookPage": 120,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1361,
+        1800
+      ],
+      "renderSha256": "a16aa35110a464e88da37809f8de0a2198ccce1432f4742b6aac2b324fcf1f5a",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 122,
+      "bookPage": 121,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1364,
+        1800
+      ],
+      "renderSha256": "88582f3be2b7c50b0ca59cb0ff370349a829c609d829fe98700beee77b04b355",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 123,
+      "bookPage": 122,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1363,
+        1800
+      ],
+      "renderSha256": "722698f55c39543acb1831ffec79cfcdb33e70d0bc033c41877de893df7c6b9e",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 124,
+      "bookPage": 123,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1364,
+        1800
+      ],
+      "renderSha256": "f46518e3d2c1d858aa825c491ed3b46f288371b4ad659582074b2c805ecb1b39",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 125,
+      "bookPage": 124,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1370,
+        1800
+      ],
+      "renderSha256": "7ba5e01d3c8b7a233ea3e31e74af0fa0be2a5e16887eaf63f5afdd9644121081",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 126,
+      "bookPage": 125,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1361,
+        1800
+      ],
+      "renderSha256": "7f29d158bde5e2788e1b45c451b8c9c9ac5f58b78309f5bbcdfddabe609ba153",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 127,
+      "bookPage": 126,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1362,
+        1800
+      ],
+      "renderSha256": "be4b13bafc082e7187f653041ccfa276630c062cc17b79b484e8819dc27fac8f",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 128,
+      "bookPage": 127,
+      "role": "learning",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1363,
+        1800
+      ],
+      "renderSha256": "17fb70b4f4ec696738e2efee9f0caebba787ce4b958614ec6acfa521ec648e6a",
+      "ocrAvailable": true
+    },
+    {
+      "pdfPage": 129,
+      "bookPage": 128,
+      "role": "colophon",
+      "indexReview": "visual-checked",
+      "lexicalReview": "pending",
+      "renderSize": [
+        1363,
+        1800
+      ],
+      "renderSha256": "23d2d468d5088be4b518efdd3190ee6da4cae37321bf64d6f6e41dc3c79d1c2d",
+      "ocrAvailable": true
+    }
+  ],
+  "issues": [
+    {
+      "bookPage": 17,
+      "exercise": "wb-1-2a-2b-5",
+      "kind": "source-numbering",
+      "note": "Нумерация строк перескакивает с 4 на 6; отдельного упражнения не пропущено.",
+      "status": "resolved-visually"
+    },
+    {
+      "bookPage": 15,
+      "exercise": "wb-1-1a-1b-9",
+      "kind": "grid-ocr",
+      "note": "Числа в буквенной сетке проверены на увеличенном изображении, в том числе seventeen в девятом столбце.",
+      "status": "resolved-visually"
+    },
+    {
+      "pdfPages": "1–129",
+      "kind": "lexical-review",
+      "note": "Полное OCR выполнено. Публикуются только вручную подтверждённые формы; глобальная сверка всех слов и всех употреблений не завершена.",
+      "status": "in_progress"
+    }
+  ]
+}

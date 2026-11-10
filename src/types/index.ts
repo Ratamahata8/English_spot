@@ -1,4 +1,5 @@
 export interface VocabularyItem {
+  sourceFormId?: string;
   id: string;
   en: string;
   ru: string;
@@ -92,6 +93,7 @@ export interface LearningProgress {
 }
 
 export interface ProgressBundle {
+  workbook?: import('../workbook/types').WorkbookProgress[];
   reader?: import('../textbook').ReaderProgress[];
   schemaVersion: 2;
   selectedLessonId: string;

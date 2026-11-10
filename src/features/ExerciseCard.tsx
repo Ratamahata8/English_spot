@@ -1,3 +1,4 @@
+import { LegacyPreparation } from '../components/LegacyPreparation';
 import { useEffect, useRef, useState } from 'react';
 import { getLesson, byId } from '../lessons';
 import { useProgress } from '../stores/progress';
@@ -34,6 +35,7 @@ export function ExerciseCard({
 }) {
   const { progress: p, update } = useProgress();
   const lesson = getLesson(p.lessonId);
+  const [preparing, setPreparing] = useState(false);
   const [selected, setSelected] = useState('');
   const [indices, setIndices] = useState<number[]>([]);
   const [result, setResult] = useState<'correct' | 'wrong' | null>(null);
@@ -100,6 +102,7 @@ export function ExerciseCard({
   };
   return (
     <>
+      {preparing && <LegacyPreparation exercise={e} onClose={() => setPreparing(false)} />}
       <section className="exercise panel" aria-labelledby="exercise-title" data-exercise={e.id}>
         <div className="exercise-meta">
           <span className="eyebrow">
@@ -118,6 +121,16 @@ export function ExerciseCard({
           </button>
         </div>
         <h1 id="exercise-title">{e.prompt}</h1>
+        <button
+          className="button wb-legacy-prepare"
+          onClick={() => {
+            setPreparing(true);
+            setUsedHint(true);
+            void update((p) => ({ ...p, hintCount: p.hintCount + 1 }));
+          }}
+        >
+          Подготовиться к заданию
+        </button>
         {e.type === 'study' ? (
           <>
             <Illustration id={w.id} className="study-image" />

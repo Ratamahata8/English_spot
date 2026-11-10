@@ -1,3 +1,5 @@
+import { validateWorkbook } from '../workbook/learning';
+import type { WorkbookProgress } from '../workbook/types';
 import Dexie, { type Table } from 'dexie';
 import type { LearningProgress, ProgressBundle } from '../types';
 import { type ReaderProgress, validateReader } from '../textbook';
@@ -14,6 +16,7 @@ export interface ProgressRepository {
   reset(id?: string): Promise<LearningProgress>;
 }
 class ProgressDB extends Dexie {
+  workbook!: Table<WorkbookProgress, string>;
   progress!: Table<LearningProgress, string>;
   reader!: Table<ReaderProgress, string>;
   preferences!: Table<{ key: string; value: string }, string>;
@@ -22,6 +25,12 @@ class ProgressDB extends Dexie {
     this.version(1).stores({ progress: 'lessonId' });
     this.version(2).stores({ progress: 'lessonId', preferences: 'key' });
     this.version(3).stores({ progress: 'lessonId', preferences: 'key', reader: 'sceneId' });
+    this.version(4).stores({
+      progress: 'lessonId',
+      preferences: 'key',
+      reader: 'sceneId',
+      workbook: 'sourceId',
+    });
   }
 }
 export function validateImport(value: unknown): LearningProgress {
@@ -138,10 +147,12 @@ export class IndexedDBProgressRepository implements ProgressRepository {
       this.db.progress,
       this.db.preferences,
       this.db.reader,
+      this.db.workbook,
       async () => {
         await this.db.progress.clear();
         await this.db.preferences.clear();
         await this.db.reader.clear();
+        await this.db.workbook.clear();
       },
     );
   }
@@ -151,9 +162,14 @@ export class IndexedDBProgressRepository implements ProgressRepository {
       this.db.progress,
       this.db.preferences,
       this.db.reader,
+      this.db.workbook,
       async () => {
         await this.db.progress.clear();
         await this.db.progress.bulkPut(bundle.lessons);
+        if (bundle.workbook !== undefined) {
+          await this.db.workbook.clear();
+          await this.db.workbook.bulkPut(validateWorkbook(bundle.workbook));
+        }
         if (bundle.reader !== undefined) {
           await this.db.reader.clear();
           await this.db.reader.bulkPut(validateReader(bundle.reader));
@@ -188,6 +204,7 @@ export function validateBundle(value: unknown): ProgressBundle {
     schemaVersion: 2,
     selectedLessonId: data.selectedLessonId,
     lessons: records,
+    ...(data.workbook === undefined ? {} : { workbook: validateWorkbook(data.workbook) }),
     ...(data.reader === undefined ? {} : { reader: validateReader(data.reader) }),
   };
 }
@@ -204,3 +221,15 @@ export function createReaderRepository(name = 'english-spot') {
   };
 }
 export const readerRepository = createReaderRepository();
+
+export function createWorkbookRepository(name = 'english-spot') {
+  const db = new ProgressDB(name);
+  return {
+    loadAll: async () => validateWorkbook(await db.workbook.toArray()),
+    save: async (p: WorkbookProgress) => {
+      validateWorkbook([p]);
+      await db.workbook.put(p);
+    },
+  };
+}
+export const workbookRepository = createWorkbookRepository();

@@ -1,3 +1,4 @@
+import workbook from '../../public/audio/workbook/en-GB/manifest.json';
 import manifest from '../../public/audio/en-GB/manifest.json';
 import textbookEnglish from '../../public/audio/textbook/en-GB/manifest.json';
 import textbookRussian from '../../public/audio/textbook/ru-RU/manifest.json';
@@ -58,7 +59,8 @@ async function play(
   return untilEnd ? ended : true;
 }
 export async function playAudio(text: string, slow = false): Promise<void> {
-  await play(assets[text], 'en-GB', slow, false);
+  if (assets[text]) await play(assets[text], 'en-GB', slow, false);
+  else await play((workbook as Record<string, AudioAsset>)[text], 'workbook/en-GB', slow, false);
 }
 export function playTextbook(
   text: string,
@@ -72,3 +74,7 @@ export function playTextbook(
   return play(corpus[text], `textbook/${language}`, slow, true);
 }
 export const audioAvailable = Object.keys(assets).length > 0;
+
+export function playWorkbookClip(text: string, slow = false): Promise<boolean> {
+  return play((workbook as Record<string, AudioAsset>)[text], 'workbook/en-GB', slow, true);
+}

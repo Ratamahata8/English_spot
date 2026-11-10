@@ -1,0 +1,588 @@
+.wb-intro {
+  margin-bottom: 24px;
+}
+.wb-intro p {
+  margin: 12px 0 20px;
+  max-width: 780px;
+}
+.wb-coverage {
+  margin: 18px 0;
+}
+.wb-catalog {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin: 24px 0;
+}
+.wb-catalog-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  min-width: 0;
+}
+.wb-catalog-card h2 {
+  font-size: 22px;
+}
+.wb-catalog-card > span:not(.eyebrow) {
+  font-size: 12px;
+  color: #385a8c;
+}
+.wb-catalog-card .button {
+  margin-top: auto;
+  font-size: 13px;
+  white-space: normal;
+  text-align: center;
+}
+.wb-catalog-card.planned {
+  background: #f8faff;
+  box-shadow: none;
+  border-style: dashed;
+}
+.wb-module-progress {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  font-weight: 700;
+  color: #385a8c;
+}
+.wb-exercise > h1 {
+  margin: 12px 0;
+}
+.wb-exercise > .reader-controls {
+  margin: 20px 0;
+}
+.wb-prep-notice {
+  background: #edf4ff;
+  border-left: 4px solid #1259ef;
+  padding: 12px 16px;
+  font-size: 14px;
+}
+.wb-task-prompt {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 28px 0 20px;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+.wb-audio {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: center;
+  vertical-align: middle;
+  max-width: 100%;
+}
+.wb-audio .button {
+  font-size: 12px;
+  min-height: 36px;
+  padding: 7px 12px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.wb-audio > span[role='alert'] {
+  font-size: 12px;
+  color: #a43324;
+}
+.wb-input {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin: 14px 0;
+  font-size: 15px;
+  font-weight: 700;
+}
+.wb-input input {
+  width: 100%;
+  font-size: 18px;
+}
+.wb-choices {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  display: grid;
+  gap: 12px;
+}
+.wb-choice {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border: 1px solid #a9c2e8;
+  background: #f8fbff;
+  border-radius: 10px;
+  padding: 12px 15px;
+}
+.wb-choice > label {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex: 1;
+  min-height: 44px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.wb-choice input[type='radio'],
+.wb-quiz input[type='radio'],
+.wb-review-option input[type='radio'] {
+  min-height: 20px;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  padding: 0;
+  accent-color: #1259ef;
+}
+.wb-answer-tray {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  min-height: 85px;
+  border: 2px dashed #a5bde4;
+  border-radius: 12px;
+  padding: 14px;
+  background: #f1f6ff;
+  margin-bottom: 18px;
+}
+.wb-token-bank {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 16px 0;
+}
+.wb-token-bank .button,
+.wb-answer-tray .button {
+  white-space: normal;
+  line-height: 1.5;
+  text-align: left;
+}
+.wb-matching {
+  display: grid;
+  gap: 12px;
+}
+.wb-match-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  border: 1px solid #c9d9ee;
+  border-radius: 12px;
+  padding: 12px 15px;
+}
+.wb-match-row > div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  flex: 1;
+  min-width: 100px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.wb-match-row > label {
+  flex: 1;
+  min-width: 150px;
+}
+.wb-match-row select {
+  width: 100%;
+}
+.wb-template {
+  display: grid;
+  gap: 16px;
+}
+.wb-template > div {
+  border-left: 4px solid #ffce32;
+  padding: 12px 16px;
+  background: #f7faff;
+}
+.wb-template label {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  font-weight: 700;
+}
+.wb-template > div > .word-token,
+.wb-template > div > span {
+  margin-top: 9px;
+}
+.wb-template > div > span[lang] {
+  display: block;
+}
+.wb-feedback {
+  margin: 24px 0;
+}
+.wb-feedback:empty {
+  margin: 0;
+}
+.wb-feedback h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.wb-feedback p {
+  margin: 8px 0;
+}
+.wb-correct-answer {
+  background: #fff3ba;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+.wb-help {
+  background: #fff5c8;
+  border: 1px solid #ddc96e;
+  border-radius: 12px;
+  padding: 18px;
+  margin: 20px 0;
+}
+.wb-help h2 {
+  font-size: 20px;
+}
+.wb-help p {
+  margin: 8px 0;
+}
+.wb-grid-scroll {
+  max-width: 100%;
+  overflow: auto;
+  margin: 18px 0;
+  padding: 3px;
+}
+.wb-letter-grid {
+  display: grid;
+  width: max-content;
+  min-width: 280px;
+  gap: 2px;
+  background: #244570;
+  padding: 3px;
+}
+.wb-letter-grid > button {
+  display: grid;
+  place-items: center;
+  background: white;
+  color: #142b50;
+  font-size: 16px;
+  font-weight: 700;
+  width: 28px;
+  min-height: 28px;
+  border-radius: 0;
+}
+.wb-letter-grid.large > button {
+  width: 44px;
+  min-height: 44px;
+  font-size: 21px;
+}
+.wb-letter-grid > button.found {
+  background: #ffdf65;
+}
+.wb-coordinates {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  border: 1px solid #c7d8ef;
+  border-radius: 10px;
+  padding: 14px;
+  margin: 18px 0;
+}
+.wb-coordinates label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 12px;
+  flex: 1;
+  min-width: 100px;
+}
+.wb-search-targets {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 18px;
+}
+.wb-search-targets > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px;
+  border-bottom: 1px solid #d3e0f1;
+  flex-wrap: wrap;
+}
+.wb-crossword-grid {
+  display: grid;
+  width: max-content;
+  background: #e1eafa;
+  gap: 1px;
+  padding: 2px;
+}
+.wb-crossword-grid > span {
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  position: relative;
+  font-size: 16px;
+  font-weight: 700;
+}
+.wb-crossword-grid .cell {
+  background: #fff;
+  outline: 1px solid #385a8c;
+}
+.wb-crossword-grid .blank {
+  background: #e1eafa;
+}
+.wb-crossword-grid small {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  font-size: 8px;
+  font-weight: 400;
+}
+.wb-crossword-grid .conflict {
+  background: #ffb6ac;
+}
+.wb-legacy-prepare {
+  margin-bottom: 18px;
+  font-size: 13px;
+}
+.wb-preparation {
+  max-height: 90dvh;
+  overflow: auto;
+}
+.wb-preparation h2 {
+  margin: 12px 0;
+}
+.wb-preparation h3 {
+  font-size: 18px;
+  margin: 22px 0 12px;
+}
+.wb-preparation ol {
+  padding-left: 22px;
+  line-height: 1.7;
+  color: #405c80;
+}
+.wb-prerequisite-words {
+  display: grid;
+  gap: 8px;
+  background: #eef5ff;
+  padding: 14px;
+  border-radius: 9px;
+  margin-top: 18px;
+}
+.wb-prerequisite-words > div {
+  font-size: 14px;
+}
+.wb-example {
+  background: #eef5ff;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 16px 0;
+}
+.wb-example > span[lang] {
+  font-size: 19px;
+  font-weight: 700;
+}
+.wb-example p {
+  margin: 8px 0;
+}
+.wb-quiz {
+  display: grid;
+  gap: 10px;
+  border: 1px solid #c5d6ef;
+  border-radius: 10px;
+  padding: 14px;
+  margin: 20px 0;
+}
+.wb-quiz legend {
+  font-weight: 700;
+  padding: 0 6px;
+}
+.wb-quiz label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 44px;
+  padding: 8px;
+  background: #f2f7ff;
+  border-radius: 7px;
+}
+.wb-dictionary-switch {
+  margin-bottom: 24px;
+}
+.wb-dictionary-switch a[aria-current='page'] {
+  background: #ffdf65;
+}
+.wb-dictionary-notice {
+  background: #fff3ba;
+  border: 1px solid #dbc35e;
+  padding: 22px;
+  border-radius: 12px;
+  margin: 22px 0;
+}
+.wb-dictionary-notice h2 {
+  margin-bottom: 8px;
+}
+.wb-dictionary .wb-word-card {
+  display: block;
+  padding: 22px;
+}
+.wb-word-card > h2 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+.wb-word-card > .eyebrow {
+  display: block;
+}
+.wb-form {
+  border-top: 1px solid #d1dded;
+  padding-top: 18px;
+  margin-top: 18px;
+}
+.wb-form h3 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 22px;
+}
+.wb-form-status {
+  font-size: 11px;
+  font-weight: 400;
+  background: #edf4ff;
+  border-radius: 5px;
+  padding: 4px 8px;
+}
+.wb-form .ipa {
+  margin: 8px 0;
+}
+.wb-form details {
+  margin: 14px 0;
+}
+.wb-form summary {
+  padding: 10px 0;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
+}
+.wb-form li {
+  margin: 10px 0;
+  font-size: 13px;
+  color: #4a6080;
+}
+.wb-form li a {
+  display: block;
+  color: #1259ef;
+  padding: 7px 0;
+  font-weight: 700;
+}
+.wb-word-review {
+  margin: 20px 0;
+}
+.wb-review-option {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 48px;
+  border-bottom: 1px solid #d3e0f1;
+  padding: 9px 0;
+}
+.wb-word-review .wb-audio {
+  margin: 15px 0;
+}
+.wb-data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 13px;
+}
+.wb-data-table th,
+.wb-data-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #c7d7ef;
+}
+.wb-parent h3 {
+  margin-top: 22px;
+}
+.wb-parent p {
+  margin: 10px 0;
+}
+.wb-parent .parent-stats {
+  margin: 22px 0;
+}
+.wb-parent .parent-stats strong {
+  font-size: 28px;
+  color: #1259ef;
+}
+@media (max-width: 1100px) {
+  .wb-catalog {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 580px) {
+  .sidebar nav {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 1px;
+  }
+  .sidebar nav a {
+    font-size: 8px;
+    padding: 8px 0;
+  }
+  .sidebar nav a > span {
+    font-size: 21px;
+  }
+  .wb-catalog {
+    grid-template-columns: 1fr;
+  }
+  .wb-search-targets {
+    grid-template-columns: 1fr;
+  }
+  .wb-exercise .reader-controls .button {
+    font-size: 12px;
+  }
+  .wb-choice {
+    flex-wrap: wrap;
+  }
+  .wb-choice > label {
+    flex-basis: 100%;
+  }
+  .wb-task-prompt {
+    font-size: 18px;
+  }
+  .wb-match-row > div,
+  .wb-match-row > label {
+    flex-basis: 100%;
+  }
+  .wb-data-table th,
+  .wb-data-table td {
+    padding: 8px 4px;
+    font-size: 12px;
+  }
+  .wb-form h3 {
+    font-size: 20px;
+  }
+}
+.wb-word-picture {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  background: #e8f1ff;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px 8px 5px 0;
+  vertical-align: middle;
+}
+.wb-word-picture img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+.wb-prerequisite-words .wb-word-picture img {
+  width: 35px;
+  height: 35px;
+}

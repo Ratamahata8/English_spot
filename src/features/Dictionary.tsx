@@ -1,3 +1,5 @@
+import { useSearchParams, Link } from 'react-router-dom';
+import { WorkbookDictionary } from './WorkbookDictionary';
 import { useState } from 'react';
 import { words, lessons } from '../lessons';
 import { useProgress } from '../stores/progress';
@@ -7,6 +9,27 @@ import { AudioButton } from '../components/AudioButton';
 import { Illustration } from '../components/Illustration';
 import { PageHeading } from '../components/PageHeading';
 export function Dictionary() {
+  const [params] = useSearchParams();
+  const source = params.get('source') === 'workbook';
+  return (
+    <>
+      <div className="reader-controls wb-dictionary-switch">
+        <Link className="button" aria-current={!source ? 'page' : undefined} to="/dictionary">
+          Словарь моих уроков
+        </Link>
+        <Link
+          className="button"
+          aria-current={source ? 'page' : undefined}
+          to="/dictionary?source=workbook"
+        >
+          Словарь сборника
+        </Link>
+      </div>
+      {source ? <WorkbookDictionary /> : <LegacyDictionary />}
+    </>
+  );
+}
+function LegacyDictionary() {
   const p = useProgress((s) => s.progress);
   const update = useProgress((s) => s.update);
   const summary = summarize(useProgress((s) => s.records));
