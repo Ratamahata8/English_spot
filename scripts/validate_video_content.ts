@@ -106,6 +106,10 @@ export function validateVideoContent(checkAudio = true) {
     }
   }
   for (const w of edition2026Words) {
+    require(w.grammar.length > 20 &&
+      !/^(Написание подтверждено|Форма, подтверждённая|Форма множественного числа, подтверждённая)/.test(
+        w.grammar,
+      ), 'Grammar note replaced with provenance ' + w.form);
     require(w.ipaReview === 'reviewed' && w.ipa && !/[а-яё\d]/i.test(w.ipa), 'Invalid IPA ' +
       w.form);
     require(!!getLexeme(w.lexemeId), 'Missing base ' + w.form);
