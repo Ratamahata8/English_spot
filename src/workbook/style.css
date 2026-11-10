@@ -586,3 +586,26 @@
   width: 35px;
   height: 35px;
 }
+
+.wb-edition-select {
+  display: grid;
+  gap: 0.5rem;
+  max-width: 30rem;
+  margin-bottom: 1.4rem;
+  font-weight: 750;
+}
+.wb-edition-select select {
+  width: 100%;
+  min-height: 44px;
+  padding: 0.6rem;
+  border: 1px solid #7795c1;
+  border-radius: 0.7rem;
+  background: white;
+  color: #173661;
+}
+.wb-source-caveat {
+  padding: 1rem;
+  border: 1px solid #e4c259;
+  border-radius: 1rem;
+  background: #fff4bd;
+}

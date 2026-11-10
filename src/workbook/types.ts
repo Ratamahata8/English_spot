@@ -18,13 +18,19 @@ export type Mechanic =
   | 'template'
   | 'letter';
 export interface SourceExercise {
+  sourceId?: string;
+  printedPages?: number[];
+  validationStatus?: string;
+  sourceExerciseVerification?: string;
+  evidenceReportPage?: number;
+  evidenceTimestamp?: string;
   id: string;
   module: string;
   lesson: string;
-  bookPage: number;
-  pdfPage: number;
+  bookPage: number | null;
+  pdfPage: number | null;
   continuationPages: number[];
-  number: number;
+  number: number | null;
   sourceType: string;
   skillIds: string[];
   requiredWordIds: string[];
@@ -39,10 +45,15 @@ export interface SourceExercise {
 export interface Occurrence {
   sourceId?: string;
   exerciseId: string;
-  bookPage: number;
-  pdfPage: number;
+  bookPage: number | null;
+  pdfPage: number | null;
   text: string;
   verification: string;
+  printedPages?: number[];
+  exerciseNumber?: number | null;
+  module?: string;
+  evidenceReportPage?: number;
+  evidenceTimestamp?: string;
   kind?: string;
 }
 export interface Meaning {
@@ -89,6 +100,8 @@ export interface CrosswordWord {
   clue: string;
 }
 export interface Task {
+  answerIpa?: string;
+  hints?: string[];
   skillIds?: string[];
   mode: 'text' | 'choice' | 'order' | 'matching' | 'template' | 'wordsearch' | 'crossword';
   prompt: string;

@@ -11,6 +11,7 @@ def segments(text):
 def texts():
     folder=ROOT/'src/workbook/data'
     words=json.loads((folder/'lexicon.json').read_text());skills=json.loads((folder/'skills.json').read_text());exercises=json.loads((folder/'module-one.json').read_text())
+    words += json.loads((folder/'edition-2026-lexicon.json').read_text());skills += json.loads((folder/'edition-2026-skills.json').read_text());exercises += json.loads((folder/'edition-2026-exercises.json').read_text())
     result=[s for w in words for s in [w['form'],w['lemma'],w['example']['en']]]
     for s in skills:
         if s.get('planned'):continue
@@ -18,7 +19,7 @@ def texts():
     for e in exercises:
         for t in e['tasks']:
             if e['mechanic'] not in ['letters','anagram']:result += [t.get('prompt','')]
-            result += t.get('answers',[])+t.get('options',[])+t.get('tokens',[])
+            result += t.get('answers',[])+t.get('options',[])+t.get('tokens',[])+t.get('hints',[])
             for row in t.get('rows',[]):result += [row['label'],*row['answers']]
             for slot in t.get('slots',[]):result += slot['options']
             for placed in t.get('placements',[]):result += [placed['word']]

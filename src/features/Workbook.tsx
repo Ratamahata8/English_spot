@@ -1,8 +1,19 @@
+import { EditionSelector, PendingEdition } from '../workbook/EditionControls';
+import { EditionCatalog } from '../workbook/EditionCatalog';
+import {
+  EDITION_2017,
+  EDITION_2026,
+  editionFromQuery,
+  editionLabel,
+  exerciseEdition,
+} from '../workbook/editions';
 import { useEffect, useState, useRef, useCallback } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useParams, useSearchParams } from 'react-router-dom';
 import {
   sourceExercises,
   workbookExercises,
+  exercisesForEdition,
+  edition2026References,
   getWorkbookExercise,
   getSourceExercise,
   getWordForm,
@@ -16,26 +27,41 @@ import { Preparation } from '../workbook/Preparation';
 import { TaskRenderer } from '../workbook/TaskRenderer';
 import { stopAudio } from '../services/audio';
 import type { Answer, WorkbookExercise } from '../workbook/types';
-function useWorkbookInit() {
-  const init = useWorkbook((s) => s.init);
+function useWorkbookInit(sourceId: string = EDITION_2017) {
+  const init = useWorkbook((s) => s.initSource);
   useEffect(() => {
-    void init();
-  }, [init]);
+    void init(sourceId);
+  }, [init, sourceId]);
 }
 export function Workbook() {
+  const [params] = useSearchParams();
+  const edition = editionFromQuery(params.get('edition'));
+  return (
+    <>
+      <EditionSelector />
+      {edition === EDITION_2026 ? <EditionCatalog /> : <LegacyWorkbook />}
+    </>
+  );
+}
+function LegacyWorkbook() {
   useWorkbookInit();
   const { progress, ready, error } = useWorkbook();
+  const [lessonFilter, setLessonFilter] = useState(''),
+    [numberFilter, setNumberFilter] = useState('');
   const [module, setModule] = useState('1'),
     [page, setPage] = useState(''),
     [mode, setMode] = useState('sequence');
   const visible = sourceExercises.filter(
     (e) =>
       (module === 'all' || e.module === module) &&
+      (!lessonFilter || e.lesson.includes(lessonFilter)) &&
+      (!numberFilter || e.number === Number(numberFilter)) &&
       (!page || e.bookPage === Number(page) || e.continuationPages.includes(Number(page))),
   );
   const completed = sourceExercises.filter(
     (e) => e.module === module && progress.completed.includes(e.id),
   ).length;
+  if (ready && progress.sourceId !== EDITION_2017) return <PendingEdition target={EDITION_2017} />;
   return (
     <>
       <div className="page-heading">
@@ -66,7 +92,7 @@ export function Workbook() {
           >
             По учебнику
           </button>
-          <Link className="button" to="/dictionary?source=workbook">
+          <Link className="button" to={'/dictionary?source=workbook&edition=' + EDITION_2017}>
             Слова сборника →
           </Link>
         </div>
@@ -129,6 +155,26 @@ export function Workbook() {
           />
         </label>
       </div>
+      <div className="reader-filters">
+        <label>
+          Урок
+          <input
+            aria-label="Урок 2017"
+            value={lessonFilter}
+            onChange={(e) => setLessonFilter(e.target.value)}
+          />
+        </label>
+        <label>
+          Номер упражнения
+          <input
+            aria-label="Номер упражнения"
+            type="number"
+            min={1}
+            value={numberFilter}
+            onChange={(e) => setNumberFilter(e.target.value)}
+          />
+        </label>
+      </div>
       <p className="wb-coverage">
         {module === 'all'
           ? 'По всем разделам'
@@ -165,7 +211,7 @@ export function Workbook() {
                 · {source.lesson === 'review' ? 'ЗАКРЕПЛЕНИЕ' : source.lesson}
               </span>
               <h2>
-                Стр. {source.bookPage} · № {source.number}
+                {editionLabel(EDITION_2017)} · Стр. {source.bookPage} · № {source.number}
               </h2>
               <p>{ex?.title || 'Авторская адаптация ещё не подготовлена'}</p>
               {source.continuationPages.length > 0 && (
@@ -201,14 +247,15 @@ export function WorkbookRoute() {
         {getSourceExercise(exerciseId) ? 'Это упражнение ещё готовится' : 'Упражнение не найдено'}
       </h1>
       <p>Рабочая адаптация пока не опубликована.</p>
-      <Link className="button" to="/workbook">
+      <Link className="button" to={'/workbook?edition=' + EDITION_2017}>
         К сборнику →
       </Link>
     </section>
   );
 }
 function WorkbookSession({ exercise }: { exercise: WorkbookExercise }) {
-  useWorkbookInit();
+  const sourceId = exerciseEdition(exercise.id);
+  useWorkbookInit(sourceId);
   const { progress: p, update, ready, error, saving } = useWorkbook();
   const source = getSourceExercise(exercise.id)!;
   const index = p.positions[exercise.id] || 0;
@@ -236,11 +283,11 @@ function WorkbookSession({ exercise }: { exercise: WorkbookExercise }) {
   const hintBaseline = useRef(p.hintCount);
   const closePrep = useCallback(() => setPrep(null), []);
   useEffect(() => {
-    if (ready && p.currentId !== exercise.id)
+    if (ready && p.sourceId === sourceId && p.currentId !== exercise.id)
       void update((p) => ({ ...p, currentId: exercise.id }));
-  }, [ready, p.currentId, exercise.id, update]);
+  }, [ready, p.currentId, p.sourceId, sourceId, exercise.id, update]);
   useEffect(() => {
-    if (!ready || done) return;
+    if (!ready || p.sourceId !== sourceId || done) return;
     let last = Date.now();
     const flush = () => {
       const delta = Math.floor((Date.now() - last) / 1000);
@@ -257,7 +304,7 @@ function WorkbookSession({ exercise }: { exercise: WorkbookExercise }) {
       stopAudio();
       flush();
     };
-  }, [ready, done, exercise.id, update]);
+  }, [ready, done, exercise.id, sourceId, p.sourceId, update]);
   useEffect(() => {
     setAnswer({});
     setResult(null);
@@ -317,10 +364,13 @@ function WorkbookSession({ exercise }: { exercise: WorkbookExercise }) {
     setBusy(false);
   }
   if (!ready) return <p role="status">Открываем сборник…</p>;
-  const inModule = sourceExercises.filter((e) => e.module === source.module),
+  if (p.sourceId !== sourceId) return <PendingEdition target={sourceId} />;
+  const references = sourceId === EDITION_2026 ? edition2026References : sourceExercises;
+  const editionExercises = exercisesForEdition(sourceId);
+  const inModule = references.filter((e) => e.module === source.module),
     completed = p.completed.filter((id) => inModule.some((e) => e.id === id)).length;
   if (done) {
-    const nextExercise = workbookExercises[workbookExercises.indexOf(exercise) + 1];
+    const nextExercise = editionExercises[editionExercises.indexOf(exercise) + 1];
     return (
       <section className="finish panel">
         {saving ? (
@@ -337,7 +387,9 @@ function WorkbookSession({ exercise }: { exercise: WorkbookExercise }) {
             <span className="finish-star">✦</span>
             <h1>Упражнение выполнено!</h1>
             <p>
-              {exercise.title}. Прогресс модуля: {completed} / {inModule.length}.
+              {exercise.title}.{' '}
+              {sourceId === EDITION_2026 ? 'Прогресс доступных тренировок' : 'Прогресс модуля'}:{' '}
+              {completed} / {inModule.length}.
             </p>
             {error && (
               <div role="alert">
@@ -352,7 +404,9 @@ function WorkbookSession({ exercise }: { exercise: WorkbookExercise }) {
                 Следующее упражнение →
               </Link>
             ) : (
-              <p>Первый модуль завершён. Следующие модули ещё готовятся.</p>
+              <p>
+                Доступные тренировки этого издания завершены. Новые задания добавятся после сверки.
+              </p>
             )}
             <button
               className="button"
@@ -366,7 +420,7 @@ function WorkbookSession({ exercise }: { exercise: WorkbookExercise }) {
             >
               Потренироваться ещё раз
             </button>
-            <Link className="button" to="/workbook">
+            <Link className="button" to={'/workbook?edition=' + sourceId}>
               К сборнику
             </Link>
           </>
@@ -378,15 +432,23 @@ function WorkbookSession({ exercise }: { exercise: WorkbookExercise }) {
   return (
     <>
       <div className="lesson-top">
-        <Link to="/workbook">← К сборнику</Link>
+        <Link to={'/workbook?edition=' + sourceId}>← К сборнику</Link>
         <span>
-          Модуль {source.module} · {source.lesson} · стр. {source.bookPage} · № {source.number}
+          {editionLabel(sourceId)} · Модуль {source.module} · {source.lesson} · стр.{' '}
+          {source.printedPages?.join('–') || source.bookPage} ·{' '}
+          {source.number === null ? 'номер упражнения не проверен' : '№ ' + source.number}
         </span>
         <HintToggle />
       </div>
+      {sourceId === EDITION_2026 && (
+        <p className="wb-source-caveat">
+          Авторская тренировка по теме из отчёта. Номер упражнения сборника ещё сверяется.
+        </p>
+      )}
       <div className="wb-module-progress">
         <span>
-          Выполнено в модуле: {completed} / {inModule.length}
+          {sourceId === EDITION_2026 ? 'Выполнено тренировок' : 'Выполнено в модуле'}: {completed} /{' '}
+          {inModule.length}
         </span>
         <span>
           Шаг {index + 1} / {exercise.tasks.length}
@@ -456,7 +518,12 @@ function WorkbookSession({ exercise }: { exercise: WorkbookExercise }) {
             <h2>
               {hint === 1 ? 'Начни со слов' : hint === 2 ? 'Вспомни смысл' : 'Действуй по шагам'}
             </h2>
-            {hint === 1 ? (
+            {task.hints ? (
+              <>
+                <WorkbookText text={task.hints[hint - 1]} />
+                <WorkbookAudio text={task.hints[hint - 1]} slow={slow} />
+              </>
+            ) : hint === 1 ? (
               exercise.wordIds.slice(0, 5).map((id) => {
                 const w = getWordForm(id)!;
                 return (
@@ -490,9 +557,10 @@ function WorkbookSession({ exercise }: { exercise: WorkbookExercise }) {
           {result === true && (
             <>
               <h2>{task.mode === 'template' ? 'Твой вариант собран!' : 'Получилось!'}</h2>
-              <p>
+              <div>
                 <WorkbookText text={task.why} />
-              </p>
+                {task.answerIpa && <p className="ipa">/{task.answerIpa}/ · пример приложения</p>}
+              </div>
               {task.mode === 'template' && (
                 <p>
                   Это работа с опорой на шаблон. Её результат не считается самостоятельным освоением
@@ -522,7 +590,9 @@ function WorkbookSession({ exercise }: { exercise: WorkbookExercise }) {
           </button>
         )}
       </section>
-      {prep && <Preparation exercise={exercise} task={index} ids={prep} onClose={closePrep} />}
+      {prep && (
+        <Preparation exercise={exercise} task={index} ids={prep} onClose={closePrep} slow={slow} />
+      )}
     </>
   );
 }

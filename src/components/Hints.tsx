@@ -1,3 +1,4 @@
+import { getWordForm } from '../workbook';
 import { Link } from 'react-router-dom';
 import { useWorkbook } from '../workbook/store';
 import { createContext, useContext, useRef, useState, useEffect, type ReactNode } from 'react';
@@ -81,7 +82,12 @@ export function HintsProvider({ children }: { children: ReactNode }) {
             {word.sourceFormId && (
               <Link
                 className="button"
-                to={'/dictionary?source=workbook&form=' + word.sourceFormId}
+                to={
+                  '/dictionary?source=workbook&form=' +
+                  word.sourceFormId +
+                  '&edition=' +
+                  getWordForm(word.sourceFormId)?.occurrences[0]?.sourceId
+                }
                 onClick={() => setWord(null)}
               >
                 К основной словарной статье →

@@ -1,0 +1,89 @@
+[
+  {
+    "id": "past-did",
+    "title": "Вчера: did и didn't",
+    "prerequisites": ["pronouns"],
+    "explanation": "Когда спрашиваем о прошлом, ставим did перед человеком, а действие берём в обычной форме. В отрицании помогает didn't. Два маркера прошлого рядом не нужны.",
+    "example": {
+      "en": "Did you play?",
+      "ru": "Ты играл?"
+    },
+    "steps": [
+      "Найди слово-помощник и пойми, о каком времени речь.",
+      "После did или didn't возьми обычную форму действия.",
+      "Собери предложение и проверь его смысл."
+    ],
+    "practice": [
+      {
+        "prompt": "Как спросить «Ты играл?»",
+        "options": ["Did you play?", "Did you played?"],
+        "answer": "Did you play?",
+        "why": "После did нужен play, без окончания прошлого."
+      },
+      {
+        "prompt": "Как сказать «Я не играл»",
+        "options": ["I didn't play.", "I didn't played."],
+        "answer": "I didn't play.",
+        "why": "В didn't уже есть прошлое: действие без окончания."
+      }
+    ]
+  },
+  {
+    "id": "past-there",
+    "title": "Что было: there was / there were",
+    "prerequisites": ["pronouns", "be"],
+    "explanation": "There was — где-то был один предмет. There were — было несколько. Это рассказ о прошлом, а не о том, что есть сейчас.",
+    "example": {
+      "en": "There was a book.",
+      "ru": "Там была книга."
+    },
+    "steps": [
+      "Найди слово-помощник и пойми, о каком времени речь.",
+      "Посчитай предметы: один — was, несколько — were.",
+      "Собери предложение и проверь его смысл."
+    ],
+    "practice": [
+      {
+        "prompt": "Там была одна книга.",
+        "options": ["There was a book.", "There were a book."],
+        "answer": "There was a book.",
+        "why": "Одна книга: was."
+      },
+      {
+        "prompt": "Там были книги.",
+        "options": ["There was books.", "There were books."],
+        "answer": "There were books.",
+        "why": "Книг несколько: were."
+      }
+    ]
+  },
+  {
+    "id": "past-location",
+    "title": "Где это было?",
+    "prerequisites": ["past-there", "questions"],
+    "explanation": "Where was — где находился один предмет? Where were — где находились несколько? В ответе можно назвать место с in или at.",
+    "example": {
+      "en": "Where was the book?",
+      "ru": "Где была книга?"
+    },
+    "steps": [
+      "Найди слово-помощник и пойми, о каком времени речь.",
+      "Посчитай предметы: один — was, несколько — were.",
+      "Собери предложение и проверь его смысл."
+    ],
+    "practice": [
+      {
+        "prompt": "Как спросить о книгах?",
+        "options": ["Where was the books?", "Where were the books?"],
+        "answer": "Where were the books?",
+        "why": "Книг несколько: were."
+      },
+      {
+        "prompt": "Как ответить об одной книге?",
+        "options": ["It was in the bag.", "It were in the bag."],
+        "answer": "It was in the bag.",
+        "why": "Одна книга — it, с ней was."
+      }
+    ]
+  }
+]

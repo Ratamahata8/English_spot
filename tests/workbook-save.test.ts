@@ -66,3 +66,44 @@ it('сбой записи не теряет оптимистичный резу�
     load.mockRestore();
   }
 });
+
+it('при отказе записи смена издания удерживает старый результат до retry', async () => {
+  const store = useWorkbook;
+  store.setState({ progress: initialWorkbook(), ready: true, dirty: false, error: '' });
+  const save = vi.spyOn(workbookRepository, 'save');
+  const original = workbookRepository.save.bind(workbookRepository);
+  save.mockRejectedValueOnce(Error('quota'));
+  expect(await store.getState().update((p) => ({ ...p, hintCount: 7 }))).toBe(false);
+  await store.getState().initSource('spotlight_workbook_2026_17');
+  expect(store.getState().progress.sourceId).toBe('spotlight_workbook_2017_6');
+  expect(store.getState().progress.hintCount).toBe(7);
+  save.mockRestore();
+  expect(await store.getState().retry()).toBe(true);
+  await store.getState().initSource('spotlight_workbook_2026_17');
+  expect(store.getState().progress.hintCount).toBe(0);
+  await store.getState().init();
+  expect(store.getState().progress.hintCount).toBe(7);
+});
+it('запоздалое чтение прежней редакции не перезаписывает выбранную новую', async () => {
+  const store = useWorkbook;
+  store.setState({ progress: initialWorkbook(), ready: true, dirty: false, error: '' });
+  let release!: (p: ReturnType<typeof initialWorkbook>[]) => void;
+  const pending = new Promise<ReturnType<typeof initialWorkbook>[]>((resolve) => {
+    release = resolve;
+  });
+  const load = vi
+    .spyOn(workbookRepository, 'loadAll')
+    .mockImplementationOnce(() => pending)
+    .mockResolvedValueOnce([]);
+  try {
+    const old = store.getState().init();
+    await Promise.resolve();
+    await Promise.resolve();
+    await store.getState().initSource('spotlight_workbook_2026_17');
+    release([initialWorkbook()]);
+    await old;
+    expect(store.getState().progress.sourceId).toBe('spotlight_workbook_2026_17');
+  } finally {
+    load.mockRestore();
+  }
+});

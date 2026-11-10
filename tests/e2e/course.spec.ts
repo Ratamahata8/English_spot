@@ -113,7 +113,7 @@ test('старая резервная копия первого урока им�
 });
 
 test('родитель может повторить вручную добавленное слово без прошлых ошибок', async ({ page }) => {
-  await page.goto('#/dictionary');
+  await page.goto('#/dictionary?source=lessons');
   await page
     .locator('.word-card')
     .filter({ has: page.locator('.word-name').filter({ hasText: /^book$/ }) })

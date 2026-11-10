@@ -152,7 +152,7 @@ test('мобильный учебник: поиск страницы, нажат
   page,
 }) => {
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.goto('#/textbook');
+  await page.goto('#/textbook?view=reader');
   await page.getByLabel('Страница или название').fill('76');
   await expect(page.locator('.book-card')).toHaveCount(1);
   await page.locator('.book-card').click();

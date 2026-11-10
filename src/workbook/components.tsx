@@ -4,17 +4,23 @@ import { useProgress } from '../stores/progress';
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { EnglishText, useHints } from '../components/Hints';
-import { englishSegments, workbookWords, contextualMeaning } from './index';
+import { getWordForm, englishSegments, allWorkbookWords, contextualMeaning } from './index';
 import { useWorkbook } from './store';
 import { playWorkbookClip, stopAudio } from '../services/audio';
 import type { VocabularyItem } from '../types';
 export function workbookHints(context: string): VocabularyItem[] {
-  return workbookWords.map((w) => ({
+  return allWorkbookWords.map((w) => ({
     id: w.id,
     en: w.form,
     ru: contextualMeaning(w, context).ru,
     ipa: `/${w.ipa}/`,
-    explanation: contextualMeaning(w, context).context + '. ' + w.grammar,
+    explanation:
+      contextualMeaning(w, context).context +
+      '. ' +
+      w.grammar +
+      (w.occurrences[0]?.sourceId === 'spotlight_workbook_2026_17'
+        ? ' Форма подтверждена отчётом по изданию 2026; точный номер упражнения не проверен.'
+        : ' Источник слова: сборник 2017. Употребление в издании 2026 ещё не проверено.'),
     example: w.example.en,
     image: '',
     sourceFormId: w.id,
@@ -100,7 +106,7 @@ export function SourceDictionaryLink({ id }: { id: string }) {
   return (
     <Link
       className="button"
-      to={`/dictionary?source=workbook&form=${id}`}
+      to={`/dictionary?source=workbook&form=${id}&edition=${getWordForm(id)?.occurrences[0]?.sourceId}`}
       onClick={() => setEnabled(false)}
     >
       Словарная статья →
@@ -109,7 +115,7 @@ export function SourceDictionaryLink({ id }: { id: string }) {
 }
 
 export function WorkbookIllustration({ id }: { id: string }) {
-  const form = workbookWords.find((w) => w.id === id);
+  const form = allWorkbookWords.find((w) => w.id === id);
   const legacy = legacyWords.find((w) => w.en.toLowerCase() === form?.lemma.toLowerCase());
   if (!form || !legacy) return null;
   const plural =

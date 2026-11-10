@@ -114,7 +114,7 @@ test('ошибки → подходящая подготовка → исход�
           const read = db
             .transaction('workbook')
             .objectStore('workbook')
-            .get('bykova-pospelova-2017-workbook-3');
+            .get('spotlight_workbook_2017_6');
           read.onsuccess = () => {
             resolve(read.result);
             db.close();
@@ -128,7 +128,7 @@ test('ошибки → подходящая подготовка → исход�
   expect(saved.preparations.pronouns).toBe(1);
 });
 test('словарь: формы, IPA, контекст, реальный звук, помощь и повторение', async ({ page }) => {
-  await page.goto('#/dictionary?source=workbook');
+  await page.goto('#/dictionary?source=workbook&edition=spotlight_workbook_2017_6');
   await page.getByLabel('Слово сборника или перевод').fill('books');
   await page.getByLabel('Вид словаря').selectOption('forms');
   const form = page.locator('.wb-form');
@@ -171,7 +171,7 @@ test('продолжение шага, повторный проход и рез
                 read = db
                   .transaction('workbook')
                   .objectStore('workbook')
-                  .get('bykova-pospelova-2017-workbook-3');
+                  .get('spotlight_workbook_2017_6');
               read.onsuccess = () => {
                 resolve(read.result?.positions['wb-1-1a-1b-2'] ?? -1);
                 db.close();
@@ -206,7 +206,7 @@ test('мобильный выбор страницы, неготовые зад�
   page,
 }) => {
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.goto('#/workbook');
+  await page.goto('#/workbook?edition=spotlight_workbook_2017_6');
   await page.getByLabel('Печатная страница').fill('13');
   await expect(page.locator('.wb-catalog-card')).toHaveCount(3);
   await page.getByLabel('Раздел сборника').selectOption('2');
@@ -252,7 +252,7 @@ async function savedWorkbook(page: Page) {
           const read = db
             .transaction('workbook')
             .objectStore('workbook')
-            .get('bykova-pospelova-2017-workbook-3');
+            .get('spotlight_workbook_2017_6');
           read.onsuccess = () => {
             resolve(read.result);
             db.close();
@@ -300,7 +300,7 @@ test('ошибка хранилища блокирует завершение д
   ).toBeVisible();
 });
 test('подсказка при словарном повторении не даёт самостоятельного освоения', async ({ page }) => {
-  await page.goto('#/dictionary?source=workbook');
+  await page.goto('#/dictionary?source=workbook&edition=spotlight_workbook_2017_6');
   await page.getByLabel('Слово сборника или перевод').fill('books');
   await page.getByLabel('Вид словаря').selectOption('forms');
   await page
