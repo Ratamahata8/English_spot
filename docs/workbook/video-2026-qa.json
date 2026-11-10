@@ -40,8 +40,8 @@
   "verification": {
     "typecheck": "passed",
     "unit": {
-      "passed": 50,
-      "total": 50
+      "passed": 51,
+      "total": 51
     },
     "e2e": {
       "uniqueScenarios": 131,
@@ -50,7 +50,9 @@
       "postFixAffectedTotal": 58,
       "previousUnaffectedPassed": 73,
       "postReviewAffectedPassed": 7,
-      "postReviewAffectedTotal": 7
+      "postReviewAffectedTotal": 7,
+      "postSettingsFixPassed": 1,
+      "postSettingsFixTotal": 1
     },
     "productionBuild": "passed",
     "prettier": "passed",

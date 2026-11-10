@@ -17,7 +17,7 @@ export function rememberSettings(p: LearningProgress) {
     /* IndexedDB remains the primary save path when localStorage is unavailable. */
   }
 }
-export function recoverSettings(p: LearningProgress): LearningProgress {
+export function recoverSettings(p: LearningProgress, hasPersistedRecord = true): LearningProgress {
   try {
     if (typeof localStorage === 'undefined') return p;
     const raw = localStorage.getItem(SETTINGS_KEY);
@@ -27,7 +27,8 @@ export function recoverSettings(p: LearningProgress): LearningProgress {
       saved.schemaVersion !== 1 ||
       saved.lessonId !== p.lessonId ||
       !Number.isFinite(saved.updatedAt) ||
-      saved.updatedAt < p.updatedAt ||
+      // An empty state created on reload has no saved timestamp to outrank this recovery copy.
+      (hasPersistedRecord && saved.updatedAt < p.updatedAt) ||
       typeof saved.settings?.slow !== 'boolean' ||
       typeof saved.settings?.reduceMotion !== 'boolean'
     )

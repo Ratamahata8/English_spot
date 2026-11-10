@@ -31,7 +31,7 @@ export const useProgress = create<State>((set, get) => ({
       );
       const id = await progressRepository.selected();
       const loaded = records[id] || initialProgress(id);
-      const progress = recoverSettings(loaded);
+      const progress = recoverSettings(loaded, !!records[id]);
       let error = '';
       if (progress !== loaded) {
         records[id] = progress;
