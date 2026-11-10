@@ -40,8 +40,9 @@ export function EditionCatalog() {
           подсказками и пройти задание ещё раз.
         </p>
         <p>
-          Готовы вводный блок, входной тест и модуль 1: страницы 4–27. Остальные модули добавляются
-          постепенно.
+          Готовы вводный блок, входной тест и модули 1–8: 251 тренировка по страницам книги. В
+          тренировках свои примеры; они помогают разобраться с целью задания, а не заменяют все
+          подпункты печатного упражнения.
         </p>
         <div className="reader-controls">
           <Link className="button primary" to="/workbook/wb26-intro-01">
@@ -114,7 +115,12 @@ export function EditionCatalog() {
             <article className="panel padding" key={s.id} data-edition-section={s.id}>
               <h2>{s.title}</h2>
               <p>
-                {s.module === 'intro' || s.module === '1' ? 'Упражнения готовы' : 'Скоро появится'}
+                {
+                  edition2026Catalog.filter(
+                    (r) => r.module === s.module || (s.module === 'intro' && r.module === 'entry'),
+                  ).length
+                }{' '}
+                упражнений готовы
               </p>
               <button
                 className="button"
@@ -161,7 +167,7 @@ export function EditionCatalog() {
       </div>
       {!filtered.length && (
         <p role="status">
-          По этому запросу тренировка пока не готова. Выбери вводный блок или первый модуль.
+          По этому запросу ничего не найдено. Проверь страницу, номер и выбранный модуль.
         </p>
       )}
       <h2>Дополнительная практика</h2>

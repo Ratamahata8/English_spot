@@ -1,0 +1,2600 @@
+[
+  {
+    "module": "2",
+    "lesson": "3a-3b",
+    "page": 28,
+    "number": 1,
+    "kind": "match",
+    "topic": "family-small",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 39.25,
+    "frameSha256": "a3304279838c42146e673ff3e3add387c11592483c5abe54056721c433146188"
+  },
+  {
+    "module": "2",
+    "lesson": "3a-3b",
+    "page": 28,
+    "number": 2,
+    "kind": "letters",
+    "topic": "family-small",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 39.25,
+    "frameSha256": "a3304279838c42146e673ff3e3add387c11592483c5abe54056721c433146188"
+  },
+  {
+    "module": "2",
+    "lesson": "3a-3b",
+    "page": 29,
+    "number": 3,
+    "kind": "alphabet",
+    "topic": "family-small",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 39.25,
+    "frameSha256": "a3304279838c42146e673ff3e3add387c11592483c5abe54056721c433146188"
+  },
+  {
+    "module": "2",
+    "lesson": "3a-3b",
+    "page": 29,
+    "number": 4,
+    "kind": "personal",
+    "topic": "family-small",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 39.25,
+    "frameSha256": "a3304279838c42146e673ff3e3add387c11592483c5abe54056721c433146188"
+  },
+  {
+    "module": "2",
+    "lesson": "3a-3b",
+    "page": 29,
+    "number": 5,
+    "kind": "possessive",
+    "topic": "family-small",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 39.25,
+    "frameSha256": "a3304279838c42146e673ff3e3add387c11592483c5abe54056721c433146188"
+  },
+  {
+    "module": "2",
+    "lesson": "3a-3b",
+    "page": 29,
+    "number": 6,
+    "kind": "possessive-sentences",
+    "topic": "family-small",
+    "continuation": [
+      30
+    ],
+    "partial": false,
+    "timestamp": 39.25,
+    "frameSha256": "a3304279838c42146e673ff3e3add387c11592483c5abe54056721c433146188"
+  },
+  {
+    "module": "2",
+    "lesson": "3a-3b",
+    "page": 30,
+    "number": 7,
+    "kind": "translation",
+    "topic": "possessives",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 40.5,
+    "frameSha256": "82d77a9974797ae5dda7593c0ef99e56e8b8bab697dad216668d3b76be37c37c"
+  },
+  {
+    "module": "2",
+    "lesson": "3a-3b",
+    "page": 30,
+    "number": 8,
+    "kind": "possessive-table",
+    "topic": "possessives",
+    "continuation": [
+      31
+    ],
+    "partial": false,
+    "timestamp": 40.5,
+    "frameSha256": "82d77a9974797ae5dda7593c0ef99e56e8b8bab697dad216668d3b76be37c37c"
+  },
+  {
+    "module": "2",
+    "lesson": "3a-3b",
+    "page": 31,
+    "number": 9,
+    "kind": "ownership",
+    "topic": "possessives",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 40.5,
+    "frameSha256": "82d77a9974797ae5dda7593c0ef99e56e8b8bab697dad216668d3b76be37c37c"
+  },
+  {
+    "module": "2",
+    "lesson": "3a-3b",
+    "page": 32,
+    "number": 10,
+    "kind": "phonics",
+    "topic": "sound-a",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 45.5,
+    "frameSha256": "6a5e7e0b7b7f76de204a7d9093c28e108f76268325ee401dbb472fd8a425f14e"
+  },
+  {
+    "module": "2",
+    "lesson": "4a-4b",
+    "page": 32,
+    "number": 1,
+    "kind": "match",
+    "topic": "family-formal",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 45.5,
+    "frameSha256": "6a5e7e0b7b7f76de204a7d9093c28e108f76268325ee401dbb472fd8a425f14e"
+  },
+  {
+    "module": "2",
+    "lesson": "4a-4b",
+    "page": 32,
+    "number": 2,
+    "kind": "letters",
+    "topic": "family-formal",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 45.5,
+    "frameSha256": "6a5e7e0b7b7f76de204a7d9093c28e108f76268325ee401dbb472fd8a425f14e"
+  },
+  {
+    "module": "2",
+    "lesson": "4a-4b",
+    "page": 33,
+    "number": 3,
+    "kind": "alphabet",
+    "topic": "family-formal",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 45.5,
+    "frameSha256": "6a5e7e0b7b7f76de204a7d9093c28e108f76268325ee401dbb472fd8a425f14e"
+  },
+  {
+    "module": "2",
+    "lesson": "4a-4b",
+    "page": 33,
+    "number": 4,
+    "kind": "family-tree",
+    "topic": "family-formal",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 45.5,
+    "frameSha256": "6a5e7e0b7b7f76de204a7d9093c28e108f76268325ee401dbb472fd8a425f14e"
+  },
+  {
+    "module": "2",
+    "lesson": "4a-4b",
+    "page": 33,
+    "number": 5,
+    "kind": "family-questions",
+    "topic": "family-formal",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 45.5,
+    "frameSha256": "6a5e7e0b7b7f76de204a7d9093c28e108f76268325ee401dbb472fd8a425f14e"
+  },
+  {
+    "module": "2",
+    "lesson": "4a-4b",
+    "page": 34,
+    "number": 6,
+    "kind": "reading-be",
+    "topic": "family-formal",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 46.75,
+    "frameSha256": "44259f6f8a09816bdd0b8280ac3b94fcf3ef30bec6cd756ba8c99ec3d3f1060f"
+  },
+  {
+    "module": "2",
+    "lesson": "4a-4b",
+    "page": 34,
+    "number": 7,
+    "kind": "number-plural",
+    "topic": "school",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 46.75,
+    "frameSha256": "44259f6f8a09816bdd0b8280ac3b94fcf3ef30bec6cd756ba8c99ec3d3f1060f"
+  },
+  {
+    "module": "2",
+    "lesson": "4a-4b",
+    "page": 35,
+    "number": 8,
+    "kind": "singular-plural-choice",
+    "topic": "school",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 46.75,
+    "frameSha256": "44259f6f8a09816bdd0b8280ac3b94fcf3ef30bec6cd756ba8c99ec3d3f1060f"
+  },
+  {
+    "module": "2",
+    "lesson": "4a-4b",
+    "page": 35,
+    "number": 9,
+    "kind": "singular-plural",
+    "topic": "school",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 46.75,
+    "frameSha256": "44259f6f8a09816bdd0b8280ac3b94fcf3ef30bec6cd756ba8c99ec3d3f1060f"
+  },
+  {
+    "module": "2",
+    "lesson": "4a-4b",
+    "page": 35,
+    "number": 10,
+    "kind": "be-reply",
+    "topic": "school",
+    "continuation": [
+      36
+    ],
+    "partial": false,
+    "timestamp": 46.75,
+    "frameSha256": "44259f6f8a09816bdd0b8280ac3b94fcf3ef30bec6cd756ba8c99ec3d3f1060f"
+  },
+  {
+    "module": "2",
+    "lesson": "4a-4b",
+    "page": 36,
+    "number": 11,
+    "kind": "describe",
+    "topic": "description",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 49.75,
+    "frameSha256": "219d910f96ff16c6d1d61821cb90455c07dd1eeb319deb128c261c6825981f10"
+  },
+  {
+    "module": "2",
+    "lesson": "4a-4b",
+    "page": 36,
+    "number": 12,
+    "kind": "object-pronouns",
+    "topic": "family-formal",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 49.75,
+    "frameSha256": "219d910f96ff16c6d1d61821cb90455c07dd1eeb319deb128c261c6825981f10"
+  },
+  {
+    "module": "2",
+    "lesson": "4a-4b",
+    "page": 37,
+    "number": 13,
+    "kind": "reading-object",
+    "topic": "family-formal",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 49.75,
+    "frameSha256": "219d910f96ff16c6d1d61821cb90455c07dd1eeb319deb128c261c6825981f10"
+  },
+  {
+    "module": "2",
+    "lesson": "4a-4b",
+    "page": 37,
+    "number": 14,
+    "kind": "past-be",
+    "topic": "description",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 49.75,
+    "frameSha256": "219d910f96ff16c6d1d61821cb90455c07dd1eeb319deb128c261c6825981f10"
+  },
+  {
+    "module": "2",
+    "lesson": "4a-4b",
+    "page": 37,
+    "number": 15,
+    "kind": "past-place",
+    "topic": "places",
+    "continuation": [
+      38
+    ],
+    "partial": false,
+    "timestamp": 49.75,
+    "frameSha256": "219d910f96ff16c6d1d61821cb90455c07dd1eeb319deb128c261c6825981f10"
+  },
+  {
+    "module": "2",
+    "lesson": "4a-4b",
+    "page": 38,
+    "number": 16,
+    "kind": "past-reply",
+    "topic": "places",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 51.5,
+    "frameSha256": "802751615d71594841b4ea6015882b73255514b3615fbfb0e6b1452178423721"
+  },
+  {
+    "module": "2",
+    "lesson": "4a-4b",
+    "page": 39,
+    "number": 17,
+    "kind": "synonyms",
+    "topic": "family-formal",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 51.5,
+    "frameSha256": "802751615d71594841b4ea6015882b73255514b3615fbfb0e6b1452178423721"
+  },
+  {
+    "module": "2",
+    "lesson": "4a-4b",
+    "page": 39,
+    "number": 18,
+    "kind": "pronouns-choice",
+    "topic": "family-formal",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 51.5,
+    "frameSha256": "802751615d71594841b4ea6015882b73255514b3615fbfb0e6b1452178423721"
+  },
+  {
+    "module": "2",
+    "lesson": "4a-4b",
+    "page": 39,
+    "number": 19,
+    "kind": "past-place",
+    "topic": "places",
+    "continuation": [
+      40
+    ],
+    "partial": false,
+    "timestamp": 51.5,
+    "frameSha256": "802751615d71594841b4ea6015882b73255514b3615fbfb0e6b1452178423721"
+  },
+  {
+    "module": "2",
+    "lesson": "4a-4b",
+    "page": 40,
+    "number": 20,
+    "kind": "reading-gap",
+    "topic": "family-formal",
+    "continuation": [
+      41
+    ],
+    "partial": false,
+    "timestamp": 54.75,
+    "frameSha256": "fb17db4cf62b5c28547b88945f32ded190b93f1c58addccbb9829920c9b5d498"
+  },
+  {
+    "module": "2",
+    "lesson": "4a-4b",
+    "page": 41,
+    "number": 21,
+    "kind": "reading-questions",
+    "topic": "family-formal",
+    "continuation": [],
+    "partial": true,
+    "timestamp": 54.75,
+    "frameSha256": "fb17db4cf62b5c28547b88945f32ded190b93f1c58addccbb9829920c9b5d498"
+  },
+  {
+    "module": "3",
+    "lesson": "5a-5b",
+    "page": 42,
+    "number": 1,
+    "kind": "match",
+    "topic": "food-a",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 58.25,
+    "frameSha256": "107247aecbe017ae75ade15ac0ba3fcdcc17c9ed48249d981e329100287c016c"
+  },
+  {
+    "module": "3",
+    "lesson": "5a-5b",
+    "page": 42,
+    "number": 2,
+    "kind": "letters",
+    "topic": "food-a",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 58.25,
+    "frameSha256": "107247aecbe017ae75ade15ac0ba3fcdcc17c9ed48249d981e329100287c016c"
+  },
+  {
+    "module": "3",
+    "lesson": "5a-5b",
+    "page": 42,
+    "number": 3,
+    "kind": "alphabet",
+    "topic": "food-a",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 58.25,
+    "frameSha256": "107247aecbe017ae75ade15ac0ba3fcdcc17c9ed48249d981e329100287c016c"
+  },
+  {
+    "module": "3",
+    "lesson": "5a-5b",
+    "page": 43,
+    "number": 4,
+    "kind": "plural",
+    "topic": "food-count",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 58.25,
+    "frameSha256": "107247aecbe017ae75ade15ac0ba3fcdcc17c9ed48249d981e329100287c016c"
+  },
+  {
+    "module": "3",
+    "lesson": "5a-5b",
+    "page": 43,
+    "number": 5,
+    "kind": "categories",
+    "topic": "food-a",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 58.25,
+    "frameSha256": "107247aecbe017ae75ade15ac0ba3fcdcc17c9ed48249d981e329100287c016c"
+  },
+  {
+    "module": "3",
+    "lesson": "5a-5b",
+    "page": 44,
+    "number": 6,
+    "kind": "likes-table",
+    "topic": "food-a",
+    "continuation": [
+      45
+    ],
+    "partial": false,
+    "timestamp": 60.75,
+    "frameSha256": "94371f5b00c67b406d65446c45f848dc9bff91d1cbb797077f932f35a2f43f1d"
+  },
+  {
+    "module": "3",
+    "lesson": "5a-5b",
+    "page": 45,
+    "number": 7,
+    "kind": "personal-food",
+    "topic": "food-b",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 60.75,
+    "frameSha256": "94371f5b00c67b406d65446c45f848dc9bff91d1cbb797077f932f35a2f43f1d"
+  },
+  {
+    "module": "3",
+    "lesson": "5a-5b",
+    "page": 45,
+    "number": 8,
+    "kind": "do-does",
+    "topic": "food-a",
+    "continuation": [
+      46
+    ],
+    "partial": false,
+    "timestamp": 60.75,
+    "frameSha256": "94371f5b00c67b406d65446c45f848dc9bff91d1cbb797077f932f35a2f43f1d"
+  },
+  {
+    "module": "3",
+    "lesson": "5a-5b",
+    "page": 46,
+    "number": 9,
+    "kind": "present-fill",
+    "topic": "food-a",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 64.75,
+    "frameSha256": "74988a3afefa497ebf6bc65ce70f82adcf39470981ac75ce886777da0e447b01"
+  },
+  {
+    "module": "3",
+    "lesson": "5a-5b",
+    "page": 46,
+    "number": 10,
+    "kind": "phonics",
+    "topic": "sound-i",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 64.75,
+    "frameSha256": "74988a3afefa497ebf6bc65ce70f82adcf39470981ac75ce886777da0e447b01"
+  },
+  {
+    "module": "3",
+    "lesson": "6a-6b",
+    "page": 47,
+    "number": 1,
+    "kind": "match",
+    "topic": "food-b",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 64.75,
+    "frameSha256": "74988a3afefa497ebf6bc65ce70f82adcf39470981ac75ce886777da0e447b01"
+  },
+  {
+    "module": "3",
+    "lesson": "6a-6b",
+    "page": 47,
+    "number": 2,
+    "kind": "letters",
+    "topic": "food-b",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 64.75,
+    "frameSha256": "74988a3afefa497ebf6bc65ce70f82adcf39470981ac75ce886777da0e447b01"
+  },
+  {
+    "module": "3",
+    "lesson": "6a-6b",
+    "page": 48,
+    "number": 3,
+    "kind": "alphabet",
+    "topic": "food-b",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 66.0,
+    "frameSha256": "076483c1c7bc9ef2f6d4fda99fd8174d03ed8fa0665f38169d856f599bb9815c"
+  },
+  {
+    "module": "3",
+    "lesson": "6a-6b",
+    "page": 48,
+    "number": 4,
+    "kind": "countability",
+    "topic": "food-b",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 66.0,
+    "frameSha256": "076483c1c7bc9ef2f6d4fda99fd8174d03ed8fa0665f38169d856f599bb9815c"
+  },
+  {
+    "module": "3",
+    "lesson": "6a-6b",
+    "page": 48,
+    "number": 5,
+    "kind": "some-any",
+    "topic": "food-b",
+    "continuation": [
+      49
+    ],
+    "partial": false,
+    "timestamp": 66.0,
+    "frameSha256": "076483c1c7bc9ef2f6d4fda99fd8174d03ed8fa0665f38169d856f599bb9815c"
+  },
+  {
+    "module": "3",
+    "lesson": "6a-6b",
+    "page": 49,
+    "number": 6,
+    "kind": "some-any-table",
+    "topic": "food-b",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 66.0,
+    "frameSha256": "076483c1c7bc9ef2f6d4fda99fd8174d03ed8fa0665f38169d856f599bb9815c"
+  },
+  {
+    "module": "3",
+    "lesson": "6a-6b",
+    "page": 50,
+    "number": 7,
+    "kind": "article-some",
+    "topic": "room",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 68.0,
+    "frameSha256": "8e8f975ca40c661d849b383af1c3f51090b468a914ed97bd1a8fd00257622207"
+  },
+  {
+    "module": "3",
+    "lesson": "6a-6b",
+    "page": 50,
+    "number": 8,
+    "kind": "personal-food",
+    "topic": "food-b",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 68.0,
+    "frameSha256": "8e8f975ca40c661d849b383af1c3f51090b468a914ed97bd1a8fd00257622207"
+  },
+  {
+    "module": "3",
+    "lesson": "6a-6b",
+    "page": 51,
+    "number": 9,
+    "kind": "shopping",
+    "topic": "food-b",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 68.0,
+    "frameSha256": "8e8f975ca40c661d849b383af1c3f51090b468a914ed97bd1a8fd00257622207"
+  },
+  {
+    "module": "3",
+    "lesson": "6a-6b",
+    "page": 51,
+    "number": 10,
+    "kind": "dialogue",
+    "topic": "food-b",
+    "continuation": [
+      52
+    ],
+    "partial": false,
+    "timestamp": 68.0,
+    "frameSha256": "8e8f975ca40c661d849b383af1c3f51090b468a914ed97bd1a8fd00257622207"
+  },
+  {
+    "module": "3",
+    "lesson": "6a-6b",
+    "page": 52,
+    "number": 11,
+    "kind": "likes-table",
+    "topic": "food-b",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 72.75,
+    "frameSha256": "e4f848d35bfbc15bb3baa6d9f91f8f282cbfcea0088f136af3302fbd59b2feb0"
+  },
+  {
+    "module": "3",
+    "lesson": "6a-6b",
+    "page": 53,
+    "number": 12,
+    "kind": "personal-reply",
+    "topic": "food-b",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 72.75,
+    "frameSha256": "e4f848d35bfbc15bb3baa6d9f91f8f282cbfcea0088f136af3302fbd59b2feb0"
+  },
+  {
+    "module": "3",
+    "lesson": "6a-6b",
+    "page": 53,
+    "number": 13,
+    "kind": "dialogue-match",
+    "topic": "food-b",
+    "continuation": [
+      54
+    ],
+    "partial": false,
+    "timestamp": 72.75,
+    "frameSha256": "e4f848d35bfbc15bb3baa6d9f91f8f282cbfcea0088f136af3302fbd59b2feb0"
+  },
+  {
+    "module": "3",
+    "lesson": "6a-6b",
+    "page": 54,
+    "number": 14,
+    "kind": "order",
+    "topic": "food-b",
+    "continuation": [
+      55
+    ],
+    "partial": false,
+    "timestamp": 74.25,
+    "frameSha256": "726d680bafce6b540c194afae80e840ce1c90208cd2e441db6d3692d6ef1b19e"
+  },
+  {
+    "module": "3",
+    "lesson": "6a-6b",
+    "page": 55,
+    "number": 15,
+    "kind": "dialogue-gap",
+    "topic": "food-b",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 74.25,
+    "frameSha256": "726d680bafce6b540c194afae80e840ce1c90208cd2e441db6d3692d6ef1b19e"
+  },
+  {
+    "module": "3",
+    "lesson": "6a-6b",
+    "page": 55,
+    "number": 16,
+    "kind": "article-some",
+    "topic": "food-b",
+    "continuation": [
+      56
+    ],
+    "partial": false,
+    "timestamp": 74.25,
+    "frameSha256": "726d680bafce6b540c194afae80e840ce1c90208cd2e441db6d3692d6ef1b19e"
+  },
+  {
+    "module": "3",
+    "lesson": "6a-6b",
+    "page": 56,
+    "number": 17,
+    "kind": "reading-questions",
+    "topic": "food-b",
+    "continuation": [
+      57
+    ],
+    "partial": false,
+    "timestamp": 76.0,
+    "frameSha256": "13817a6190ea69a143bef844c06d0525a9282557b09d09abd437efa29fc0b910"
+  },
+  {
+    "module": "3",
+    "lesson": "6a-6b",
+    "page": 57,
+    "number": 18,
+    "kind": "reading-title",
+    "topic": "food-b",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 76.0,
+    "frameSha256": "13817a6190ea69a143bef844c06d0525a9282557b09d09abd437efa29fc0b910"
+  },
+  {
+    "module": "4",
+    "lesson": "7a-7b",
+    "page": 57,
+    "number": 1,
+    "kind": "match",
+    "topic": "toys",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 76.0,
+    "frameSha256": "13817a6190ea69a143bef844c06d0525a9282557b09d09abd437efa29fc0b910"
+  },
+  {
+    "module": "4",
+    "lesson": "7a-7b",
+    "page": 58,
+    "number": 2,
+    "kind": "letters",
+    "topic": "toys",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 82.0,
+    "frameSha256": "b9179243cf4a5461438b1a03ceecc9c400b64414dc635e20fd20d1fa6d212146"
+  },
+  {
+    "module": "4",
+    "lesson": "7a-7b",
+    "page": 58,
+    "number": 3,
+    "kind": "alphabet",
+    "topic": "toys",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 82.0,
+    "frameSha256": "b9179243cf4a5461438b1a03ceecc9c400b64414dc635e20fd20d1fa6d212146"
+  },
+  {
+    "module": "4",
+    "lesson": "7a-7b",
+    "page": 58,
+    "number": 4,
+    "kind": "a-an",
+    "topic": "toys",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 82.0,
+    "frameSha256": "b9179243cf4a5461438b1a03ceecc9c400b64414dc635e20fd20d1fa6d212146"
+  },
+  {
+    "module": "4",
+    "lesson": "7a-7b",
+    "page": 59,
+    "number": 5,
+    "kind": "possessive-s",
+    "topic": "toys",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 82.0,
+    "frameSha256": "b9179243cf4a5461438b1a03ceecc9c400b64414dc635e20fd20d1fa6d212146"
+  },
+  {
+    "module": "4",
+    "lesson": "7a-7b",
+    "page": 59,
+    "number": 6,
+    "kind": "possessive-translation",
+    "topic": "toys",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 82.0,
+    "frameSha256": "b9179243cf4a5461438b1a03ceecc9c400b64414dc635e20fd20d1fa6d212146"
+  },
+  {
+    "module": "4",
+    "lesson": "7a-7b",
+    "page": 60,
+    "number": 7,
+    "kind": "whose",
+    "topic": "toys",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 86.0,
+    "frameSha256": "bb74892551361351ff5ea23d1aaaf24a7e6191a7ebf655ec32e3eafeb28c865f"
+  },
+  {
+    "module": "4",
+    "lesson": "7a-7b",
+    "page": 60,
+    "number": 8,
+    "kind": "demonstrative-plural",
+    "topic": "toys",
+    "continuation": [
+      61
+    ],
+    "partial": false,
+    "timestamp": 86.0,
+    "frameSha256": "bb74892551361351ff5ea23d1aaaf24a7e6191a7ebf655ec32e3eafeb28c865f"
+  },
+  {
+    "module": "4",
+    "lesson": "7a-7b",
+    "page": 61,
+    "number": 9,
+    "kind": "demonstratives",
+    "topic": "toys",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 86.0,
+    "frameSha256": "bb74892551361351ff5ea23d1aaaf24a7e6191a7ebf655ec32e3eafeb28c865f"
+  },
+  {
+    "module": "4",
+    "lesson": "7a-7b",
+    "page": 61,
+    "number": 10,
+    "kind": "phonics",
+    "topic": "sound-o",
+    "continuation": [
+      62
+    ],
+    "partial": false,
+    "timestamp": 86.0,
+    "frameSha256": "bb74892551361351ff5ea23d1aaaf24a7e6191a7ebf655ec32e3eafeb28c865f"
+  },
+  {
+    "module": "4",
+    "lesson": "8a-8b",
+    "page": 62,
+    "number": 1,
+    "kind": "match",
+    "topic": "room",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 89.25,
+    "frameSha256": "bb2a01aab768684f76df9736bb6da44bea73f38c25d507af90be2f46024c30a6"
+  },
+  {
+    "module": "4",
+    "lesson": "8a-8b",
+    "page": 62,
+    "number": 2,
+    "kind": "letters",
+    "topic": "room",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 89.25,
+    "frameSha256": "bb2a01aab768684f76df9736bb6da44bea73f38c25d507af90be2f46024c30a6"
+  },
+  {
+    "module": "4",
+    "lesson": "8a-8b",
+    "page": 62,
+    "number": 3,
+    "kind": "alphabet",
+    "topic": "room",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 89.25,
+    "frameSha256": "bb2a01aab768684f76df9736bb6da44bea73f38c25d507af90be2f46024c30a6"
+  },
+  {
+    "module": "4",
+    "lesson": "8a-8b",
+    "page": 63,
+    "number": 4,
+    "kind": "be",
+    "topic": "room",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 89.25,
+    "frameSha256": "bb2a01aab768684f76df9736bb6da44bea73f38c25d507af90be2f46024c30a6"
+  },
+  {
+    "module": "4",
+    "lesson": "8a-8b",
+    "page": 63,
+    "number": 5,
+    "kind": "demonstrative-plural",
+    "topic": "room",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 89.25,
+    "frameSha256": "bb2a01aab768684f76df9736bb6da44bea73f38c25d507af90be2f46024c30a6"
+  },
+  {
+    "module": "4",
+    "lesson": "8a-8b",
+    "page": 64,
+    "number": 6,
+    "kind": "object-questions",
+    "topic": "room",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 91.0,
+    "frameSha256": "1c725adaab7085a8e41c640ee0e4194b4b538c872f31428f78dc9630bf7784e2"
+  },
+  {
+    "module": "4",
+    "lesson": "8a-8b",
+    "page": 65,
+    "number": 7,
+    "kind": "expand",
+    "topic": "room",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 91.0,
+    "frameSha256": "1c725adaab7085a8e41c640ee0e4194b4b538c872f31428f78dc9630bf7784e2"
+  },
+  {
+    "module": "4",
+    "lesson": "8a-8b",
+    "page": 65,
+    "number": 8,
+    "kind": "possessive-replace",
+    "topic": "room",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 91.0,
+    "frameSha256": "1c725adaab7085a8e41c640ee0e4194b4b538c872f31428f78dc9630bf7784e2"
+  },
+  {
+    "module": "4",
+    "lesson": "8a-8b",
+    "page": 66,
+    "number": 9,
+    "kind": "regular-past",
+    "topic": "actions",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 93.75,
+    "frameSha256": "20abf278f5b9dc5249fa35936f026be52b0210ea7d9e0290c2f86efd9868daae"
+  },
+  {
+    "module": "4",
+    "lesson": "8a-8b",
+    "page": 66,
+    "number": 10,
+    "kind": "personal-past",
+    "topic": "actions",
+    "continuation": [
+      67
+    ],
+    "partial": false,
+    "timestamp": 93.75,
+    "frameSha256": "20abf278f5b9dc5249fa35936f026be52b0210ea7d9e0290c2f86efd9868daae"
+  },
+  {
+    "module": "4",
+    "lesson": "8a-8b",
+    "page": 67,
+    "number": 11,
+    "kind": "past-negative",
+    "topic": "actions",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 93.75,
+    "frameSha256": "20abf278f5b9dc5249fa35936f026be52b0210ea7d9e0290c2f86efd9868daae"
+  },
+  {
+    "module": "4",
+    "lesson": "8a-8b",
+    "page": 67,
+    "number": 12,
+    "kind": "past-checklist",
+    "topic": "actions",
+    "continuation": [
+      68
+    ],
+    "partial": false,
+    "timestamp": 93.75,
+    "frameSha256": "20abf278f5b9dc5249fa35936f026be52b0210ea7d9e0290c2f86efd9868daae"
+  },
+  {
+    "module": "4",
+    "lesson": "8a-8b",
+    "page": 68,
+    "number": 13,
+    "kind": "past-questions",
+    "topic": "actions",
+    "continuation": [
+      69
+    ],
+    "partial": false,
+    "timestamp": 97.25,
+    "frameSha256": "575d1f78549b1dec830385d0c52478a0dc556b8d9b882f0dd26b7ca434c347a2"
+  },
+  {
+    "module": "4",
+    "lesson": "8a-8b",
+    "page": 69,
+    "number": 14,
+    "kind": "article-zero",
+    "topic": "room",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 97.25,
+    "frameSha256": "575d1f78549b1dec830385d0c52478a0dc556b8d9b882f0dd26b7ca434c347a2"
+  },
+  {
+    "module": "4",
+    "lesson": "8a-8b",
+    "page": 70,
+    "number": 15,
+    "kind": "be",
+    "topic": "room",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 101.0,
+    "frameSha256": "6a2b2b648f37951c75babf2aa6855b6989e906e87386496e4d353ba0247b7a8c"
+  },
+  {
+    "module": "4",
+    "lesson": "8a-8b",
+    "page": 70,
+    "number": 16,
+    "kind": "reading-gap",
+    "topic": "room",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 101.0,
+    "frameSha256": "6a2b2b648f37951c75babf2aa6855b6989e906e87386496e4d353ba0247b7a8c"
+  },
+  {
+    "module": "4",
+    "lesson": "8a-8b",
+    "page": 70,
+    "number": 17,
+    "kind": "order",
+    "topic": "room",
+    "continuation": [
+      71
+    ],
+    "partial": false,
+    "timestamp": 101.0,
+    "frameSha256": "6a2b2b648f37951c75babf2aa6855b6989e906e87386496e4d353ba0247b7a8c"
+  },
+  {
+    "module": "4",
+    "lesson": "8a-8b",
+    "page": 71,
+    "number": 18,
+    "kind": "reading-questions",
+    "topic": "room",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 101.0,
+    "frameSha256": "6a2b2b648f37951c75babf2aa6855b6989e906e87386496e4d353ba0247b7a8c"
+  },
+  {
+    "module": "4",
+    "lesson": "8a-8b",
+    "page": 71,
+    "number": 19,
+    "kind": "reading-gap",
+    "topic": "room",
+    "continuation": [
+      72
+    ],
+    "partial": false,
+    "timestamp": 101.0,
+    "frameSha256": "6a2b2b648f37951c75babf2aa6855b6989e906e87386496e4d353ba0247b7a8c"
+  },
+  {
+    "module": "4",
+    "lesson": "8a-8b",
+    "page": 72,
+    "number": 20,
+    "kind": "personal-hobbies",
+    "topic": "actions",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 102.75,
+    "frameSha256": "aa2f585a7536c13b08d822961b2e75caf97aa14b458376956dcd9eb44ba3eee1"
+  },
+  {
+    "module": "5",
+    "lesson": "9a-9b",
+    "page": 73,
+    "number": 1,
+    "kind": "match",
+    "topic": "animal-description",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 102.75,
+    "frameSha256": "aa2f585a7536c13b08d822961b2e75caf97aa14b458376956dcd9eb44ba3eee1"
+  },
+  {
+    "module": "5",
+    "lesson": "9a-9b",
+    "page": 73,
+    "number": 2,
+    "kind": "alphabet",
+    "topic": "animal-description",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 102.75,
+    "frameSha256": "aa2f585a7536c13b08d822961b2e75caf97aa14b458376956dcd9eb44ba3eee1"
+  },
+  {
+    "module": "5",
+    "lesson": "9a-9b",
+    "page": 73,
+    "number": 3,
+    "kind": "animal-adjectives",
+    "topic": "animal-description",
+    "continuation": [
+      74
+    ],
+    "partial": false,
+    "timestamp": 102.75,
+    "frameSha256": "aa2f585a7536c13b08d822961b2e75caf97aa14b458376956dcd9eb44ba3eee1"
+  },
+  {
+    "module": "5",
+    "lesson": "9a-9b",
+    "page": 74,
+    "number": 4,
+    "kind": "have-has",
+    "topic": "animals",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 104.5,
+    "frameSha256": "4298b6f5f0c3d716d60b373ac58695960c76578b38e02dbe793588c7a63835ee"
+  },
+  {
+    "module": "5",
+    "lesson": "9a-9b",
+    "page": 74,
+    "number": 5,
+    "kind": "animal-correction",
+    "topic": "animal-description",
+    "continuation": [
+      75
+    ],
+    "partial": false,
+    "timestamp": 104.5,
+    "frameSha256": "4298b6f5f0c3d716d60b373ac58695960c76578b38e02dbe793588c7a63835ee"
+  },
+  {
+    "module": "5",
+    "lesson": "9a-9b",
+    "page": 75,
+    "number": 6,
+    "kind": "have-questions",
+    "topic": "animals",
+    "continuation": [
+      76
+    ],
+    "partial": false,
+    "timestamp": 104.5,
+    "frameSha256": "4298b6f5f0c3d716d60b373ac58695960c76578b38e02dbe793588c7a63835ee"
+  },
+  {
+    "module": "5",
+    "lesson": "9a-9b",
+    "page": 76,
+    "number": 7,
+    "kind": "irregular-plural",
+    "topic": "animals",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 109.0,
+    "frameSha256": "48ffa16416eab59da504c75980cab5b8ad65c8a83493e851581025056f76222f"
+  },
+  {
+    "module": "5",
+    "lesson": "9a-9b",
+    "page": 76,
+    "number": 8,
+    "kind": "phonics",
+    "topic": "sound-y",
+    "continuation": [
+      77
+    ],
+    "partial": false,
+    "timestamp": 109.0,
+    "frameSha256": "48ffa16416eab59da504c75980cab5b8ad65c8a83493e851581025056f76222f"
+  },
+  {
+    "module": "5",
+    "lesson": "10a-10b",
+    "page": 77,
+    "number": 1,
+    "kind": "match",
+    "topic": "animals",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 109.0,
+    "frameSha256": "48ffa16416eab59da504c75980cab5b8ad65c8a83493e851581025056f76222f"
+  },
+  {
+    "module": "5",
+    "lesson": "10a-10b",
+    "page": 78,
+    "number": 2,
+    "kind": "letters",
+    "topic": "animals",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 111.0,
+    "frameSha256": "ba190ee5d98c11701aca64ecbde3ca3ae1bafbc2e39e7df96963d1030fd0f969"
+  },
+  {
+    "module": "5",
+    "lesson": "10a-10b",
+    "page": 78,
+    "number": 3,
+    "kind": "alphabet",
+    "topic": "animals",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 111.0,
+    "frameSha256": "ba190ee5d98c11701aca64ecbde3ca3ae1bafbc2e39e7df96963d1030fd0f969"
+  },
+  {
+    "module": "5",
+    "lesson": "10a-10b",
+    "page": 78,
+    "number": 4,
+    "kind": "can",
+    "topic": "animals",
+    "continuation": [
+      79
+    ],
+    "partial": false,
+    "timestamp": 111.0,
+    "frameSha256": "ba190ee5d98c11701aca64ecbde3ca3ae1bafbc2e39e7df96963d1030fd0f969"
+  },
+  {
+    "module": "5",
+    "lesson": "10a-10b",
+    "page": 79,
+    "number": 5,
+    "kind": "can-have-reply",
+    "topic": "animals",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 111.0,
+    "frameSha256": "ba190ee5d98c11701aca64ecbde3ca3ae1bafbc2e39e7df96963d1030fd0f969"
+  },
+  {
+    "module": "5",
+    "lesson": "10a-10b",
+    "page": 79,
+    "number": 6,
+    "kind": "expand",
+    "topic": "animals",
+    "continuation": [
+      80
+    ],
+    "partial": false,
+    "timestamp": 111.0,
+    "frameSha256": "ba190ee5d98c11701aca64ecbde3ca3ae1bafbc2e39e7df96963d1030fd0f969"
+  },
+  {
+    "module": "5",
+    "lesson": "10a-10b",
+    "page": 80,
+    "number": 7,
+    "kind": "is-has",
+    "topic": "animals",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 114.75,
+    "frameSha256": "d2d51a770c474de3e9b18e9946add2aadcd4edf8a3dcc2f96acde96ceab776c0"
+  },
+  {
+    "module": "5",
+    "lesson": "10a-10b",
+    "page": 80,
+    "number": 8,
+    "kind": "number-sequences",
+    "topic": "numbers",
+    "continuation": [
+      81
+    ],
+    "partial": false,
+    "timestamp": 114.75,
+    "frameSha256": "d2d51a770c474de3e9b18e9946add2aadcd4edf8a3dcc2f96acde96ceab776c0"
+  },
+  {
+    "module": "5",
+    "lesson": "10a-10b",
+    "page": 81,
+    "number": 9,
+    "kind": "irregular-past",
+    "topic": "past-verbs",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 114.75,
+    "frameSha256": "d2d51a770c474de3e9b18e9946add2aadcd4edf8a3dcc2f96acde96ceab776c0"
+  },
+  {
+    "module": "5",
+    "lesson": "10a-10b",
+    "page": 81,
+    "number": 10,
+    "kind": "past-fill",
+    "topic": "past-verbs",
+    "continuation": [
+      82
+    ],
+    "partial": false,
+    "timestamp": 114.75,
+    "frameSha256": "d2d51a770c474de3e9b18e9946add2aadcd4edf8a3dcc2f96acde96ceab776c0"
+  },
+  {
+    "module": "5",
+    "lesson": "10a-10b",
+    "page": 82,
+    "number": 11,
+    "kind": "past-table-questions",
+    "topic": "past-verbs",
+    "continuation": [
+      83
+    ],
+    "partial": false,
+    "timestamp": 119.5,
+    "frameSha256": "69947301edb8d2fcaa274ddf355c5436315512773d11f520a3a4e4899938b1f5"
+  },
+  {
+    "module": "5",
+    "lesson": "10a-10b",
+    "page": 83,
+    "number": 12,
+    "kind": "past-table",
+    "topic": "past-verbs",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 119.5,
+    "frameSha256": "69947301edb8d2fcaa274ddf355c5436315512773d11f520a3a4e4899938b1f5"
+  },
+  {
+    "module": "5",
+    "lesson": "10a-10b",
+    "page": 83,
+    "number": 13,
+    "kind": "past-negative",
+    "topic": "past-verbs",
+    "continuation": [
+      84
+    ],
+    "partial": false,
+    "timestamp": 119.5,
+    "frameSha256": "69947301edb8d2fcaa274ddf355c5436315512773d11f520a3a4e4899938b1f5"
+  },
+  {
+    "module": "5",
+    "lesson": "10a-10b",
+    "page": 84,
+    "number": 14,
+    "kind": "past-choice",
+    "topic": "past-verbs",
+    "continuation": [
+      85
+    ],
+    "partial": false,
+    "timestamp": 122.25,
+    "frameSha256": "3db7c0b17ccf521d86d8f483ea87704dfd11c67ea385767758ddc11a485d83b5"
+  },
+  {
+    "module": "5",
+    "lesson": "10a-10b",
+    "page": 85,
+    "number": 15,
+    "kind": "reading-past",
+    "topic": "past-verbs",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 122.25,
+    "frameSha256": "3db7c0b17ccf521d86d8f483ea87704dfd11c67ea385767758ddc11a485d83b5"
+  },
+  {
+    "module": "5",
+    "lesson": "10a-10b",
+    "page": 86,
+    "number": 16,
+    "kind": "mixed-reply",
+    "topic": "animals",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 125.75,
+    "frameSha256": "3f5722b6c96554c06827d532d93b667a037bfa41eaaec9749d1fccdf38192099"
+  },
+  {
+    "module": "5",
+    "lesson": "10a-10b",
+    "page": 86,
+    "number": 17,
+    "kind": "article-zero",
+    "topic": "animals",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 125.75,
+    "frameSha256": "3f5722b6c96554c06827d532d93b667a037bfa41eaaec9749d1fccdf38192099"
+  },
+  {
+    "module": "5",
+    "lesson": "10a-10b",
+    "page": 87,
+    "number": 18,
+    "kind": "can-have-be",
+    "topic": "animals",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 125.75,
+    "frameSha256": "3f5722b6c96554c06827d532d93b667a037bfa41eaaec9749d1fccdf38192099"
+  },
+  {
+    "module": "5",
+    "lesson": "10a-10b",
+    "page": 87,
+    "number": 19,
+    "kind": "reading-gap",
+    "topic": "animals",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 125.75,
+    "frameSha256": "3f5722b6c96554c06827d532d93b667a037bfa41eaaec9749d1fccdf38192099"
+  },
+  {
+    "module": "5",
+    "lesson": "10a-10b",
+    "page": 87,
+    "number": 20,
+    "kind": "order",
+    "topic": "animals",
+    "continuation": [
+      88
+    ],
+    "partial": false,
+    "timestamp": 125.75,
+    "frameSha256": "3f5722b6c96554c06827d532d93b667a037bfa41eaaec9749d1fccdf38192099"
+  },
+  {
+    "module": "5",
+    "lesson": "10a-10b",
+    "page": 88,
+    "number": 21,
+    "kind": "reading-gap",
+    "topic": "animals",
+    "continuation": [
+      89
+    ],
+    "partial": false,
+    "timestamp": 130.0,
+    "frameSha256": "f60d95b1b35604b32e81bfea5f12efd893ef10c07edaf01d1e52a986dbfaffaf"
+  },
+  {
+    "module": "5",
+    "lesson": "10a-10b",
+    "page": 89,
+    "number": 22,
+    "kind": "personal-pet-letter",
+    "topic": "animals",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 130.0,
+    "frameSha256": "f60d95b1b35604b32e81bfea5f12efd893ef10c07edaf01d1e52a986dbfaffaf"
+  },
+  {
+    "module": "6",
+    "lesson": "11a-11b",
+    "page": 90,
+    "number": 1,
+    "kind": "be",
+    "topic": "rooms",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 136.5,
+    "frameSha256": "682d167d4d059c0abcb2bf114231711ad6857ba569ec44332b10f1ac1baa9a5e"
+  },
+  {
+    "module": "6",
+    "lesson": "11a-11b",
+    "page": 90,
+    "number": 2,
+    "kind": "be-question",
+    "topic": "rooms",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 136.5,
+    "frameSha256": "682d167d4d059c0abcb2bf114231711ad6857ba569ec44332b10f1ac1baa9a5e"
+  },
+  {
+    "module": "6",
+    "lesson": "11a-11b",
+    "page": 90,
+    "number": 3,
+    "kind": "location-correction",
+    "topic": "rooms",
+    "continuation": [
+      91
+    ],
+    "partial": false,
+    "timestamp": 136.5,
+    "frameSha256": "682d167d4d059c0abcb2bf114231711ad6857ba569ec44332b10f1ac1baa9a5e"
+  },
+  {
+    "module": "6",
+    "lesson": "11a-11b",
+    "page": 91,
+    "number": 4,
+    "kind": "personal-location",
+    "topic": "rooms",
+    "continuation": [
+      92
+    ],
+    "partial": false,
+    "timestamp": 136.5,
+    "frameSha256": "682d167d4d059c0abcb2bf114231711ad6857ba569ec44332b10f1ac1baa9a5e"
+  },
+  {
+    "module": "6",
+    "lesson": "11a-11b",
+    "page": 92,
+    "number": 5,
+    "kind": "where",
+    "topic": "rooms",
+    "continuation": [
+      93
+    ],
+    "partial": false,
+    "timestamp": 138.25,
+    "frameSha256": "b0fb5fb38debf7330f3ff62dd0839386da8713489ca08e2b2d444a00d4361e83"
+  },
+  {
+    "module": "6",
+    "lesson": "11a-11b",
+    "page": 93,
+    "number": 6,
+    "kind": "correction",
+    "topic": "rooms",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 138.25,
+    "frameSha256": "b0fb5fb38debf7330f3ff62dd0839386da8713489ca08e2b2d444a00d4361e83"
+  },
+  {
+    "module": "6",
+    "lesson": "11a-11b",
+    "page": 93,
+    "number": 7,
+    "kind": "dialogue-match",
+    "topic": "rooms",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 138.25,
+    "frameSha256": "b0fb5fb38debf7330f3ff62dd0839386da8713489ca08e2b2d444a00d4361e83"
+  },
+  {
+    "module": "6",
+    "lesson": "11a-11b",
+    "page": 93,
+    "number": 8,
+    "kind": "phonics",
+    "topic": "sound-u",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 138.25,
+    "frameSha256": "b0fb5fb38debf7330f3ff62dd0839386da8713489ca08e2b2d444a00d4361e83"
+  },
+  {
+    "module": "6",
+    "lesson": "12a-12b",
+    "page": 94,
+    "number": 1,
+    "kind": "match",
+    "topic": "furniture",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 141.25,
+    "frameSha256": "da05551b6134189ee8f5bfcfa79caa2c2a30bd0627b242b974c1516ea696bcf5"
+  },
+  {
+    "module": "6",
+    "lesson": "12a-12b",
+    "page": 94,
+    "number": 2,
+    "kind": "letters",
+    "topic": "furniture",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 141.25,
+    "frameSha256": "da05551b6134189ee8f5bfcfa79caa2c2a30bd0627b242b974c1516ea696bcf5"
+  },
+  {
+    "module": "6",
+    "lesson": "12a-12b",
+    "page": 94,
+    "number": 3,
+    "kind": "alphabet",
+    "topic": "furniture",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 141.25,
+    "frameSha256": "da05551b6134189ee8f5bfcfa79caa2c2a30bd0627b242b974c1516ea696bcf5"
+  },
+  {
+    "module": "6",
+    "lesson": "12a-12b",
+    "page": 94,
+    "number": 4,
+    "kind": "number-plural",
+    "topic": "furniture",
+    "continuation": [
+      95
+    ],
+    "partial": false,
+    "timestamp": 141.25,
+    "frameSha256": "da05551b6134189ee8f5bfcfa79caa2c2a30bd0627b242b974c1516ea696bcf5"
+  },
+  {
+    "module": "6",
+    "lesson": "12a-12b",
+    "page": 95,
+    "number": 5,
+    "kind": "there",
+    "topic": "furniture",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 141.25,
+    "frameSha256": "da05551b6134189ee8f5bfcfa79caa2c2a30bd0627b242b974c1516ea696bcf5"
+  },
+  {
+    "module": "6",
+    "lesson": "12a-12b",
+    "page": 95,
+    "number": 6,
+    "kind": "there-negative",
+    "topic": "furniture",
+    "continuation": [
+      96
+    ],
+    "partial": false,
+    "timestamp": 141.25,
+    "frameSha256": "da05551b6134189ee8f5bfcfa79caa2c2a30bd0627b242b974c1516ea696bcf5"
+  },
+  {
+    "module": "6",
+    "lesson": "12a-12b",
+    "page": 96,
+    "number": 7,
+    "kind": "there-question",
+    "topic": "furniture",
+    "continuation": [
+      97
+    ],
+    "partial": false,
+    "timestamp": 145.25,
+    "frameSha256": "f51ea22b3f16a9d8da8af90bf335a121a7b98b9e726fc844870ff064a7c5a4e7"
+  },
+  {
+    "module": "6",
+    "lesson": "12a-12b",
+    "page": 97,
+    "number": 8,
+    "kind": "there-reply",
+    "topic": "furniture",
+    "continuation": [
+      98
+    ],
+    "partial": false,
+    "timestamp": 145.25,
+    "frameSha256": "f51ea22b3f16a9d8da8af90bf335a121a7b98b9e726fc844870ff064a7c5a4e7"
+  },
+  {
+    "module": "6",
+    "lesson": "12a-12b",
+    "page": 98,
+    "number": 9,
+    "kind": "there",
+    "topic": "furniture",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 150.5,
+    "frameSha256": "281b88897e77fba4cbbfe2440cb6bf462515ea1f2554a944bdcd77e5e347e46d"
+  },
+  {
+    "module": "6",
+    "lesson": "12a-12b",
+    "page": 98,
+    "number": 10,
+    "kind": "there-past",
+    "topic": "town",
+    "continuation": [
+      99
+    ],
+    "partial": false,
+    "timestamp": 150.5,
+    "frameSha256": "281b88897e77fba4cbbfe2440cb6bf462515ea1f2554a944bdcd77e5e347e46d"
+  },
+  {
+    "module": "6",
+    "lesson": "12a-12b",
+    "page": 99,
+    "number": 11,
+    "kind": "there-past-negative",
+    "topic": "town",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 150.5,
+    "frameSha256": "281b88897e77fba4cbbfe2440cb6bf462515ea1f2554a944bdcd77e5e347e46d"
+  },
+  {
+    "module": "6",
+    "lesson": "12a-12b",
+    "page": 100,
+    "number": 12,
+    "kind": "there-past-question",
+    "topic": "town",
+    "continuation": [
+      101
+    ],
+    "partial": true,
+    "timestamp": 151.75,
+    "frameSha256": "b2ecc207562ddb5cd0f1aee55a76623d03448b6693b9b93f74793253d7356ec6"
+  },
+  {
+    "module": "6",
+    "lesson": "12a-12b",
+    "page": 101,
+    "number": 13,
+    "kind": "there-past-reply",
+    "topic": "town",
+    "continuation": [
+      102
+    ],
+    "partial": false,
+    "timestamp": 151.75,
+    "frameSha256": "b2ecc207562ddb5cd0f1aee55a76623d03448b6693b9b93f74793253d7356ec6"
+  },
+  {
+    "module": "6",
+    "lesson": "12a-12b",
+    "page": 102,
+    "number": 14,
+    "kind": "there-past",
+    "topic": "town",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 153.5,
+    "frameSha256": "2a3b97565e023f144a30464385cb587240e08f4f34ec0e0556bab4b2fe73f7dc"
+  },
+  {
+    "module": "6",
+    "lesson": "12a-12b",
+    "page": 102,
+    "number": 15,
+    "kind": "personal-town",
+    "topic": "town",
+    "continuation": [
+      103
+    ],
+    "partial": false,
+    "timestamp": 153.5,
+    "frameSha256": "2a3b97565e023f144a30464385cb587240e08f4f34ec0e0556bab4b2fe73f7dc"
+  },
+  {
+    "module": "6",
+    "lesson": "12a-12b",
+    "page": 103,
+    "number": 16,
+    "kind": "dialogue-match",
+    "topic": "furniture",
+    "continuation": [
+      104
+    ],
+    "partial": false,
+    "timestamp": 153.5,
+    "frameSha256": "2a3b97565e023f144a30464385cb587240e08f4f34ec0e0556bab4b2fe73f7dc"
+  },
+  {
+    "module": "6",
+    "lesson": "12a-12b",
+    "page": 104,
+    "number": 17,
+    "kind": "article-zero",
+    "topic": "furniture",
+    "continuation": [],
+    "partial": true,
+    "timestamp": 155.25,
+    "frameSha256": "fa09badba7e60b2f24cd8377666061054f5f2ccf4b3d692aad0b7afc06462b68"
+  },
+  {
+    "module": "6",
+    "lesson": "12a-12b",
+    "page": 105,
+    "number": 18,
+    "kind": "there-where",
+    "topic": "furniture",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 155.25,
+    "frameSha256": "fa09badba7e60b2f24cd8377666061054f5f2ccf4b3d692aad0b7afc06462b68"
+  },
+  {
+    "module": "6",
+    "lesson": "12a-12b",
+    "page": 105,
+    "number": 19,
+    "kind": "reading-gap",
+    "topic": "furniture",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 155.25,
+    "frameSha256": "fa09badba7e60b2f24cd8377666061054f5f2ccf4b3d692aad0b7afc06462b68"
+  },
+  {
+    "module": "6",
+    "lesson": "12a-12b",
+    "page": 105,
+    "number": 20,
+    "kind": "order",
+    "topic": "furniture",
+    "continuation": [
+      106
+    ],
+    "partial": false,
+    "timestamp": 155.25,
+    "frameSha256": "fa09badba7e60b2f24cd8377666061054f5f2ccf4b3d692aad0b7afc06462b68"
+  },
+  {
+    "module": "6",
+    "lesson": "12a-12b",
+    "page": 106,
+    "number": 21,
+    "kind": "reading-questions",
+    "topic": "furniture",
+    "continuation": [
+      107
+    ],
+    "partial": false,
+    "timestamp": 158.5,
+    "frameSha256": "05e7419aa2e8ddee4e363d48638e167523fa6e3f50f380771e9b963ed8efc726"
+  },
+  {
+    "module": "6",
+    "lesson": "12a-12b",
+    "page": 107,
+    "number": 22,
+    "kind": "reading-gap",
+    "topic": "furniture",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 158.5,
+    "frameSha256": "05e7419aa2e8ddee4e363d48638e167523fa6e3f50f380771e9b963ed8efc726"
+  },
+  {
+    "module": "7",
+    "lesson": "13a-13b",
+    "page": 108,
+    "number": 1,
+    "kind": "match",
+    "topic": "actions-now",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 161.0,
+    "frameSha256": "d10fa3c2d543f184b960ee4ca3de3177abf7dd2f995da88c71cb88328e4e556a"
+  },
+  {
+    "module": "7",
+    "lesson": "13a-13b",
+    "page": 108,
+    "number": 2,
+    "kind": "expand",
+    "topic": "actions-now",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 161.0,
+    "frameSha256": "d10fa3c2d543f184b960ee4ca3de3177abf7dd2f995da88c71cb88328e4e556a"
+  },
+  {
+    "module": "7",
+    "lesson": "13a-13b",
+    "page": 109,
+    "number": 3,
+    "kind": "ing-spelling",
+    "topic": "actions-now",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 161.0,
+    "frameSha256": "d10fa3c2d543f184b960ee4ca3de3177abf7dd2f995da88c71cb88328e4e556a"
+  },
+  {
+    "module": "7",
+    "lesson": "13a-13b",
+    "page": 109,
+    "number": 4,
+    "kind": "continuous-be",
+    "topic": "actions-now",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 161.0,
+    "frameSha256": "d10fa3c2d543f184b960ee4ca3de3177abf7dd2f995da88c71cb88328e4e556a"
+  },
+  {
+    "module": "7",
+    "lesson": "13a-13b",
+    "page": 110,
+    "number": 5,
+    "kind": "continuous",
+    "topic": "actions-now",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 162.25,
+    "frameSha256": "e5dc938da41d965f4ab445d472cb2fe3df9b9e68f1390e19bdebb87edf7fc666"
+  },
+  {
+    "module": "7",
+    "lesson": "13a-13b",
+    "page": 110,
+    "number": 6,
+    "kind": "continuous-negative",
+    "topic": "actions-now",
+    "continuation": [
+      111
+    ],
+    "partial": false,
+    "timestamp": 162.25,
+    "frameSha256": "e5dc938da41d965f4ab445d472cb2fe3df9b9e68f1390e19bdebb87edf7fc666"
+  },
+  {
+    "module": "7",
+    "lesson": "13a-13b",
+    "page": 111,
+    "number": 7,
+    "kind": "continuous-question",
+    "topic": "actions-now",
+    "continuation": [
+      112
+    ],
+    "partial": false,
+    "timestamp": 162.25,
+    "frameSha256": "e5dc938da41d965f4ab445d472cb2fe3df9b9e68f1390e19bdebb87edf7fc666"
+  },
+  {
+    "module": "7",
+    "lesson": "13a-13b",
+    "page": 112,
+    "number": 8,
+    "kind": "continuous-mixed",
+    "topic": "actions-now",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 163.5,
+    "frameSha256": "6356608a2cc0996d5f56ad35239dfd67d0d17568c1146b2c923ca180b3b1855f"
+  },
+  {
+    "module": "7",
+    "lesson": "13a-13b",
+    "page": 113,
+    "number": 9,
+    "kind": "continuous-reply",
+    "topic": "actions-now",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 163.5,
+    "frameSha256": "6356608a2cc0996d5f56ad35239dfd67d0d17568c1146b2c923ca180b3b1855f"
+  },
+  {
+    "module": "7",
+    "lesson": "13a-13b",
+    "page": 113,
+    "number": 10,
+    "kind": "continuous-what",
+    "topic": "actions-now",
+    "continuation": [
+      114
+    ],
+    "partial": false,
+    "timestamp": 163.5,
+    "frameSha256": "6356608a2cc0996d5f56ad35239dfd67d0d17568c1146b2c923ca180b3b1855f"
+  },
+  {
+    "module": "7",
+    "lesson": "13a-13b",
+    "page": 114,
+    "number": 11,
+    "kind": "phonics",
+    "topic": "sound-ng",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 165.0,
+    "frameSha256": "f00425acb0334eb5b7b648df764636db6a2883783e8b904ee724a85af99b07b9"
+  },
+  {
+    "module": "7",
+    "lesson": "13a-13b",
+    "page": 115,
+    "number": 12,
+    "kind": "personal-hobbies",
+    "topic": "actions-now",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 165.0,
+    "frameSha256": "f00425acb0334eb5b7b648df764636db6a2883783e8b904ee724a85af99b07b9"
+  },
+  {
+    "module": "7",
+    "lesson": "14a-14b",
+    "page": 115,
+    "number": 1,
+    "kind": "match",
+    "topic": "leisure",
+    "continuation": [
+      116
+    ],
+    "partial": false,
+    "timestamp": 165.0,
+    "frameSha256": "f00425acb0334eb5b7b648df764636db6a2883783e8b904ee724a85af99b07b9"
+  },
+  {
+    "module": "7",
+    "lesson": "14a-14b",
+    "page": 116,
+    "number": 2,
+    "kind": "continuous",
+    "topic": "leisure",
+    "continuation": [
+      117
+    ],
+    "partial": false,
+    "timestamp": 167.5,
+    "frameSha256": "717032604c6b22da4fc18a2b57f22d85fd857eb53c84d2d99f9ce2232d74d766"
+  },
+  {
+    "module": "7",
+    "lesson": "14a-14b",
+    "page": 117,
+    "number": 3,
+    "kind": "continuous-correction",
+    "topic": "leisure",
+    "continuation": [
+      118
+    ],
+    "partial": false,
+    "timestamp": 167.5,
+    "frameSha256": "717032604c6b22da4fc18a2b57f22d85fd857eb53c84d2d99f9ce2232d74d766"
+  },
+  {
+    "module": "7",
+    "lesson": "14a-14b",
+    "page": 118,
+    "number": 4,
+    "kind": "continuous-question",
+    "topic": "leisure",
+    "continuation": [
+      119
+    ],
+    "partial": false,
+    "timestamp": 170.5,
+    "frameSha256": "b4a47989ae6413be0d20bc3062ac91187a5876d3450450a8ea584db82b1a1ef0"
+  },
+  {
+    "module": "7",
+    "lesson": "14a-14b",
+    "page": 119,
+    "number": 5,
+    "kind": "who-now",
+    "topic": "leisure",
+    "continuation": [],
+    "partial": true,
+    "timestamp": 170.5,
+    "frameSha256": "b4a47989ae6413be0d20bc3062ac91187a5876d3450450a8ea584db82b1a1ef0"
+  },
+  {
+    "module": "7",
+    "lesson": "14a-14b",
+    "page": 119,
+    "number": 6,
+    "kind": "continuous-be",
+    "topic": "leisure",
+    "continuation": [
+      120
+    ],
+    "partial": true,
+    "timestamp": 170.5,
+    "frameSha256": "b4a47989ae6413be0d20bc3062ac91187a5876d3450450a8ea584db82b1a1ef0"
+  },
+  {
+    "module": "7",
+    "lesson": "14a-14b",
+    "page": 120,
+    "number": 7,
+    "kind": "personal-now",
+    "topic": "leisure",
+    "continuation": [
+      121
+    ],
+    "partial": false,
+    "timestamp": 174.75,
+    "frameSha256": "f08e511fbbc5e60f7ad2c51b3a0cc6af567c55ab31e24b5a96e6ee6858f1a7bf"
+  },
+  {
+    "module": "7",
+    "lesson": "14a-14b",
+    "page": 121,
+    "number": 8,
+    "kind": "continuous-reply",
+    "topic": "leisure",
+    "continuation": [],
+    "partial": true,
+    "timestamp": 174.75,
+    "frameSha256": "f08e511fbbc5e60f7ad2c51b3a0cc6af567c55ab31e24b5a96e6ee6858f1a7bf"
+  },
+  {
+    "module": "7",
+    "lesson": "14a-14b",
+    "page": 121,
+    "number": 9,
+    "kind": "ordinal-order",
+    "topic": "ordinals",
+    "continuation": [],
+    "partial": true,
+    "timestamp": 174.75,
+    "frameSha256": "f08e511fbbc5e60f7ad2c51b3a0cc6af567c55ab31e24b5a96e6ee6858f1a7bf"
+  },
+  {
+    "module": "7",
+    "lesson": "14a-14b",
+    "page": 122,
+    "number": 10,
+    "kind": "ordinal-match",
+    "topic": "ordinals",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 176.25,
+    "frameSha256": "8291e1fc65a14ae8c698c9088b23e8f6c66f1e9671949be9eb9f1613ab308dd6"
+  },
+  {
+    "module": "7",
+    "lesson": "14a-14b",
+    "page": 122,
+    "number": 11,
+    "kind": "ordinal-match",
+    "topic": "ordinals",
+    "continuation": [
+      123
+    ],
+    "partial": false,
+    "timestamp": 176.25,
+    "frameSha256": "8291e1fc65a14ae8c698c9088b23e8f6c66f1e9671949be9eb9f1613ab308dd6"
+  },
+  {
+    "module": "7",
+    "lesson": "14a-14b",
+    "page": 123,
+    "number": 12,
+    "kind": "odd",
+    "topic": "ordinals",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 176.25,
+    "frameSha256": "8291e1fc65a14ae8c698c9088b23e8f6c66f1e9671949be9eb9f1613ab308dd6"
+  },
+  {
+    "module": "7",
+    "lesson": "14a-14b",
+    "page": 123,
+    "number": 13,
+    "kind": "order",
+    "topic": "leisure",
+    "continuation": [
+      124
+    ],
+    "partial": false,
+    "timestamp": 176.25,
+    "frameSha256": "8291e1fc65a14ae8c698c9088b23e8f6c66f1e9671949be9eb9f1613ab308dd6"
+  },
+  {
+    "module": "7",
+    "lesson": "14a-14b",
+    "page": 124,
+    "number": 14,
+    "kind": "dialogue-match",
+    "topic": "leisure",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 177.5,
+    "frameSha256": "7ee5fdef110063e211b69353f3db120d681429a79568ab813da4bfc46d6eb2c8"
+  },
+  {
+    "module": "7",
+    "lesson": "14a-14b",
+    "page": 124,
+    "number": 15,
+    "kind": "reading-gap",
+    "topic": "leisure",
+    "continuation": [
+      125
+    ],
+    "partial": false,
+    "timestamp": 177.5,
+    "frameSha256": "7ee5fdef110063e211b69353f3db120d681429a79568ab813da4bfc46d6eb2c8"
+  },
+  {
+    "module": "7",
+    "lesson": "14a-14b",
+    "page": 125,
+    "number": 16,
+    "kind": "reading-gap",
+    "topic": "leisure",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 177.5,
+    "frameSha256": "7ee5fdef110063e211b69353f3db120d681429a79568ab813da4bfc46d6eb2c8"
+  },
+  {
+    "module": "7",
+    "lesson": "14a-14b",
+    "page": 126,
+    "number": 17,
+    "kind": "reading-questions",
+    "topic": "leisure",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 180.5,
+    "frameSha256": "2ea8c806511f630df1a3992ada4ff808b79556e31bacb109e1b540aaa5cf2de9"
+  },
+  {
+    "module": "8",
+    "lesson": "15a-15b",
+    "page": 126,
+    "number": 1,
+    "kind": "match",
+    "topic": "days",
+    "continuation": [
+      127
+    ],
+    "partial": false,
+    "timestamp": 180.5,
+    "frameSha256": "2ea8c806511f630df1a3992ada4ff808b79556e31bacb109e1b540aaa5cf2de9"
+  },
+  {
+    "module": "8",
+    "lesson": "15a-15b",
+    "page": 127,
+    "number": 2,
+    "kind": "letters",
+    "topic": "days",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 180.5,
+    "frameSha256": "2ea8c806511f630df1a3992ada4ff808b79556e31bacb109e1b540aaa5cf2de9"
+  },
+  {
+    "module": "8",
+    "lesson": "15a-15b",
+    "page": 127,
+    "number": 3,
+    "kind": "alphabet",
+    "topic": "days",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 180.5,
+    "frameSha256": "2ea8c806511f630df1a3992ada4ff808b79556e31bacb109e1b540aaa5cf2de9"
+  },
+  {
+    "module": "8",
+    "lesson": "15a-15b",
+    "page": 127,
+    "number": 4,
+    "kind": "day-position",
+    "topic": "days",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 180.5,
+    "frameSha256": "2ea8c806511f630df1a3992ada4ff808b79556e31bacb109e1b540aaa5cf2de9"
+  },
+  {
+    "module": "8",
+    "lesson": "15a-15b",
+    "page": 128,
+    "number": 5,
+    "kind": "third-person",
+    "topic": "routine",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 182.75,
+    "frameSha256": "1ac338770b647ca77838eaeb2ed118a7fe6017e79c21b2945530ea0364002583"
+  },
+  {
+    "module": "8",
+    "lesson": "15a-15b",
+    "page": 128,
+    "number": 6,
+    "kind": "present-simple",
+    "topic": "routine",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 182.75,
+    "frameSha256": "1ac338770b647ca77838eaeb2ed118a7fe6017e79c21b2945530ea0364002583"
+  },
+  {
+    "module": "8",
+    "lesson": "15a-15b",
+    "page": 129,
+    "number": 7,
+    "kind": "phonics",
+    "topic": "sound-s",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 182.75,
+    "frameSha256": "1ac338770b647ca77838eaeb2ed118a7fe6017e79c21b2945530ea0364002583"
+  },
+  {
+    "module": "8",
+    "lesson": "15a-15b",
+    "page": 129,
+    "number": 8,
+    "kind": "present-negative",
+    "topic": "routine",
+    "continuation": [
+      130
+    ],
+    "partial": false,
+    "timestamp": 182.75,
+    "frameSha256": "1ac338770b647ca77838eaeb2ed118a7fe6017e79c21b2945530ea0364002583"
+  },
+  {
+    "module": "8",
+    "lesson": "15a-15b",
+    "page": 130,
+    "number": 9,
+    "kind": "do-does",
+    "topic": "routine",
+    "continuation": [
+      131
+    ],
+    "partial": false,
+    "timestamp": 184.5,
+    "frameSha256": "6f13bb65b3ac96cef93fc3ba88b2f18dec1bbb927396720523b2c28b330868e4"
+  },
+  {
+    "module": "8",
+    "lesson": "15a-15b",
+    "page": 131,
+    "number": 10,
+    "kind": "present-reply",
+    "topic": "routine",
+    "continuation": [
+      132
+    ],
+    "partial": false,
+    "timestamp": 184.5,
+    "frameSha256": "6f13bb65b3ac96cef93fc3ba88b2f18dec1bbb927396720523b2c28b330868e4"
+  },
+  {
+    "module": "8",
+    "lesson": "15a-15b",
+    "page": 132,
+    "number": 11,
+    "kind": "present-mixed",
+    "topic": "routine",
+    "continuation": [
+      133
+    ],
+    "partial": false,
+    "timestamp": 185.5,
+    "frameSha256": "36aebd05cb12d651233177c4ad3538e60c9ba9dcc1d24112dc9d582e26974bce"
+  },
+  {
+    "module": "8",
+    "lesson": "15a-15b",
+    "page": 133,
+    "number": 12,
+    "kind": "personal-routine",
+    "topic": "routine",
+    "continuation": [
+      134
+    ],
+    "partial": false,
+    "timestamp": 185.5,
+    "frameSha256": "36aebd05cb12d651233177c4ad3538e60c9ba9dcc1d24112dc9d582e26974bce"
+  },
+  {
+    "module": "8",
+    "lesson": "15a-15b",
+    "page": 134,
+    "number": 13,
+    "kind": "phonics",
+    "topic": "sound-c",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 188.0,
+    "frameSha256": "7f53db2feb4aab01e0e54ab0be3311e77c435eb0589c36b0969a8a7763e5d0b1"
+  },
+  {
+    "module": "8",
+    "lesson": "16a-16b",
+    "page": 134,
+    "number": 1,
+    "kind": "match",
+    "topic": "daily",
+    "continuation": [
+      135
+    ],
+    "partial": false,
+    "timestamp": 188.0,
+    "frameSha256": "7f53db2feb4aab01e0e54ab0be3311e77c435eb0589c36b0969a8a7763e5d0b1"
+  },
+  {
+    "module": "8",
+    "lesson": "16a-16b",
+    "page": 135,
+    "number": 2,
+    "kind": "time-preposition",
+    "topic": "daily",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 188.0,
+    "frameSha256": "7f53db2feb4aab01e0e54ab0be3311e77c435eb0589c36b0969a8a7763e5d0b1"
+  },
+  {
+    "module": "8",
+    "lesson": "16a-16b",
+    "page": 136,
+    "number": 3,
+    "kind": "simple-continuous",
+    "topic": "daily",
+    "continuation": [],
+    "partial": false,
+    "timestamp": 190.75,
+    "frameSha256": "63afc97ce61df73796204162a3827314309259706ea7b6f8b83a442abb798a40"
+  },
+  {
+    "module": "8",
+    "lesson": "16a-16b",
+    "page": 136,
+    "number": 4,
+    "kind": "simple-continuous",
+    "topic": "daily",
+    "continuation": [
+      137
+    ],
+    "partial": false,
+    "timestamp": 190.75,
+    "frameSha256": "63afc97ce61df73796204162a3827314309259706ea7b6f8b83a442abb798a40"
+  },
+  {
+    "module": "8",
+    "lesson": "16a-16b",
+    "page": 137,
+    "number": 5,
+    "kind": "mixed-negative",
+    "topic": "daily",
+    "continuation": [
+      138
+    ],
+    "partial": true,
+    "timestamp": 192.5,
+    "frameSha256": "621640a2e077777c687d48cc14609b75235444e36d5bb54eba5073b382f74ce2"
+  },
+  {
+    "module": "8",
+    "lesson": "16a-16b",
+    "page": 138,
+    "number": 6,
+    "kind": "mixed-question",
+    "topic": "daily",
+    "continuation": [
+      139
+    ],
+    "partial": false,
+    "timestamp": 193.75,
+    "frameSha256": "e48add4b5e25cd92873e3a2112094bc10e2c1be187ff10e77046e308b3fe5794"
+  },
+  {
+    "module": "8",
+    "lesson": "16a-16b",
+    "page": 139,
+    "number": 7,
+    "kind": "mixed-who",
+    "topic": "daily",
+    "continuation": [
+      140
+    ],
+    "partial": false,
+    "timestamp": 193.75,
+    "frameSha256": "e48add4b5e25cd92873e3a2112094bc10e2c1be187ff10e77046e308b3fe5794"
+  },
+  {
+    "module": "8",
+    "lesson": "16a-16b",
+    "page": 140,
+    "number": 8,
+    "kind": "mixed-choice",
+    "topic": "daily",
+    "continuation": [],
+    "partial": true,
+    "timestamp": 195.5,
+    "frameSha256": "d5fe5e4f57825058d9f257c42c154a9a0defb7c0b30304044353a553a03f6ef6"
+  },
+  {
+    "module": "8",
+    "lesson": "16a-16b",
+    "page": 140,
+    "number": 9,
+    "kind": "mixed-reply",
+    "topic": "daily",
+    "continuation": [
+      141
+    ],
+    "partial": true,
+    "timestamp": 195.5,
+    "frameSha256": "d5fe5e4f57825058d9f257c42c154a9a0defb7c0b30304044353a553a03f6ef6"
+  },
+  {
+    "module": "8",
+    "lesson": "16a-16b",
+    "page": 141,
+    "number": 10,
+    "kind": "personal-routine",
+    "topic": "daily",
+    "continuation": [
+      142
+    ],
+    "partial": true,
+    "timestamp": 195.5,
+    "frameSha256": "d5fe5e4f57825058d9f257c42c154a9a0defb7c0b30304044353a553a03f6ef6"
+  },
+  {
+    "module": "8",
+    "lesson": "16a-16b",
+    "page": 142,
+    "number": 11,
+    "kind": "order",
+    "topic": "daily",
+    "continuation": [
+      143
+    ],
+    "partial": false,
+    "timestamp": 197.0,
+    "frameSha256": "28ea51597aa84d27ea34ecfc050d6f9b54962c610deeb28b5f4c63f9203c8c8c"
+  },
+  {
+    "module": "8",
+    "lesson": "16a-16b",
+    "page": 143,
+    "number": 12,
+    "kind": "dialogue-match",
+    "topic": "daily",
+    "continuation": [
+      144
+    ],
+    "partial": true,
+    "timestamp": 197.0,
+    "frameSha256": "28ea51597aa84d27ea34ecfc050d6f9b54962c610deeb28b5f4c63f9203c8c8c"
+  },
+  {
+    "module": "8",
+    "lesson": "16a-16b",
+    "page": 144,
+    "number": 13,
+    "kind": "reading-gap",
+    "topic": "daily",
+    "continuation": [],
+    "partial": true,
+    "timestamp": 198.25,
+    "frameSha256": "54c4ded3d9d44c01999171509cd47fba3047ca8b1709bf34b13cd6bdb3370522"
+  }
+]

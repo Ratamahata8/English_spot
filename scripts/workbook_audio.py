@@ -11,7 +11,7 @@ def segments(text):
 def texts():
     folder=ROOT/'src/workbook/data'
     words=json.loads((folder/'lexicon.json').read_text());skills=json.loads((folder/'skills.json').read_text());exercises=json.loads((folder/'module-one.json').read_text())
-    words += json.loads((folder/'edition-2026-lexicon.json').read_text());skills += json.loads((folder/'edition-2026-skills.json').read_text());exercises += json.loads((folder/'edition-2026-exercises.json').read_text()) + json.loads((folder/'edition-2026-intro-module-one.json').read_text())
+    words += json.loads((folder/'edition-2026-lexicon.json').read_text());skills += json.loads((folder/'edition-2026-skills.json').read_text());exercises += json.loads((folder/'edition-2026-exercises.json').read_text()) + json.loads((folder/'edition-2026-intro-module-one.json').read_text()) + json.loads((folder/'edition-2026-rest.json').read_text());skills += json.loads((folder/'edition-2026-rest-skills.json').read_text())
     result=[s for w in words for s in [w['form'],w['lemma'],w['example']['en']]]
     for s in skills:
         if s.get('planned'):continue
@@ -30,7 +30,7 @@ def texts():
     return sorted(set(p for text in result for p in segments(text)),key=lambda x:(x.lower(),x))
 async def main():
     config=json.loads((ROOT/'src/workbook/data/audio-provider.json').read_text())
-    parser=argparse.ArgumentParser();parser.add_argument('--generate',action='store_true');parser.add_argument('--corpus',action='store_true');parser.add_argument('--provider',choices=['edge','import'],default=config['provider']);parser.add_argument('--import-dir',type=Path);args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--generate',action='store_true');parser.add_argument('--corpus',action='store_true');parser.add_argument('--jobs',type=int,default=4);parser.add_argument('--provider',choices=['edge','import'],default=config['provider']);parser.add_argument('--import-dir',type=Path);args=parser.parse_args()
     corpus=texts()
     if args.corpus:
         (ROOT/'src/workbook/data/audio-texts.json').write_text(json.dumps(corpus,ensure_ascii=False,indent=2)+'\n');print('Workbook audio corpus:',len(corpus));return
@@ -47,35 +47,42 @@ async def main():
         for folder in [ROOT/'public/audio/en-GB',ROOT/'public/audio/textbook/en-GB']:
             for text,asset in json.loads((folder/'manifest.json').read_text()).items():cache[text]=(folder,asset)
     generated=0;reused=0
-    for i,text in enumerate(corpus):
+    semaphore=asyncio.Semaphore(max(1,min(args.jobs,8)))
+    async def process(i,text):
+      nonlocal generated,reused
+      async with semaphore:
         filename=hashlib.sha256(text.encode()).hexdigest()[:20]+'.mp3';path=OUT/filename;asset=manifest.get(text,{})
         checksum=hashlib.sha256(path.read_bytes()).hexdigest() if path.exists() else None
-        if not(valid(path) and asset.get('sha256')==checksum and asset.get('voice')==voice):
+        good=checksum is not None and asset.get('sha256')==checksum and asset.get('voice')==voice
+        if good and not args.generate:good=await asyncio.to_thread(valid,path)
+        if not good:
             if not args.generate:raise RuntimeError('Missing or corrupt workbook MP3: '+text)
             cached=cache.get(text)
-            if cached and cached[1]['voice']==voice and valid(cached[0]/cached[1]['path']) and hashlib.sha256((cached[0]/cached[1]['path']).read_bytes()).hexdigest()==cached[1]['sha256']:
+            if cached and cached[1]['voice']==voice and await asyncio.to_thread(valid,cached[0]/cached[1]['path']) and hashlib.sha256((cached[0]/cached[1]['path']).read_bytes()).hexdigest()==cached[1]['sha256']:
                 shutil.copyfile(cached[0]/cached[1]['path'],path);reused+=1
             elif args.provider=='import':
                 incoming=args.import_dir/filename
-                if not valid(incoming):raise RuntimeError('Missing valid imported MP3: '+filename)
+                if not await asyncio.to_thread(valid,incoming):raise RuntimeError('Missing valid imported MP3: '+filename)
                 tmp=path.with_suffix('.tmp');shutil.copyfile(incoming,tmp);tmp.replace(path);generated+=1
             else:
                 tmp=path.with_suffix('.tmp')
                 try:
-                    for attempt in range(3):
+                    for attempt in range(4):
                         try:
                             await asyncio.wait_for(edge_tts.Communicate(text,voice,proxy=os.getenv('HTTPS_PROXY')).save(str(tmp)),45)
-                            if not valid(tmp):raise RuntimeError('Invalid MP3')
+                            if not await asyncio.to_thread(valid,tmp):raise RuntimeError('Invalid MP3')
                             break
                         except Exception:
-                            if attempt==2:raise
-                            await asyncio.sleep(2)
+                            if attempt==3:raise
+                            await asyncio.sleep(2*(attempt+1))
                     tmp.replace(path);generated+=1
                 finally:tmp.unlink(missing_ok=True)
             manifest[text]={'text':text,'path':filename,'voice':voice,'sha256':hashlib.sha256(path.read_bytes()).hexdigest()}
             tmp=target.with_suffix('.tmp');tmp.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n');tmp.replace(target)
-        if args.generate:print(f'{i+1}/{len(corpus)} {text}',flush=True)
-        else:subprocess.run(['ffmpeg','-v','error','-xerror','-i',str(path),'-f','null','-'],check=True,stdout=subprocess.DEVNULL,stderr=subprocess.PIPE)
+            print(f'{i+1}/{len(corpus)} {text[:100]}',flush=True)
+        if not args.generate:
+            await asyncio.to_thread(subprocess.run,['ffmpeg','-v','error','-xerror','-i',str(path),'-f','null','-'],check=True,stdout=subprocess.DEVNULL,stderr=subprocess.PIPE)
+    await asyncio.gather(*(process(i,text) for i,text in enumerate(corpus)))
     if args.generate:
         retained=set(corpus)
         for stale in list(manifest):

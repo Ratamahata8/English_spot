@@ -1,13 +1,13 @@
 import { defineConfig } from '@playwright/test';
 const production = process.env.E2E_PRODUCTION === '1';
-const port = production ? 4174 : 4173;
+const port = Number(process.env.E2E_PORT) || (production ? 4174 : 4173);
 const basePath = process.env.VITE_BASE_PATH || '/English_spot/';
 const baseURL = `http://127.0.0.1:${port}${basePath}`;
 export default defineConfig({
   testDir: 'tests/e2e',
   timeout: 120000,
   fullyParallel: false,
-  workers: 1,
+  workers: 4,
   use: {
     baseURL,
     headless: true,

@@ -7438,5 +7438,4751 @@
     "path": "d7015676f4294d5acba6.mp3",
     "voice": "en-GB-SoniaNeural",
     "sha256": "3b256d4ac00103ebb60380320f613ac974155672225b62a6bc6a225b76fb66b4"
+  },
+  "a ball.": {
+    "text": "a ball.",
+    "path": "fc602a72a57ef62389ba.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1959c4fb4a5c4d808fc563ea6f15c7617c19a73e983aa8def991670457a44a85"
+  },
+  "a bird": {
+    "text": "a bird",
+    "path": "9e5b3d53982c82e689e1.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "31e43aee9f5f8671e4c33c4ed177e6ab311bfc00ffc6cd95c65351c00c04101c"
+  },
+  "A bird": {
+    "text": "A bird",
+    "path": "b1d16849924e24c6058e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d6393e5cf3a145bda9fbc306fb0d9e0aab12249f29d6244e43473b771bda862d"
+  },
+  "a bike.": {
+    "text": "a bike.",
+    "path": "ff914e93e9aad09d38c1.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "da47dde829feeead45da5f69ee14b5eb90851a34495905d83259145a388494c9"
+  },
+  "a bird.": {
+    "text": "a bird.",
+    "path": "cd0518026a9f431e84d7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1fddd297599458028fe308f27fc2f79aa8bb722f8e3c0e7eece2be4c48ce4d41"
+  },
+  "A cat": {
+    "text": "A cat",
+    "path": "a7a8377f6368041e9224.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "78f7632e59329e9f1ebc69976817e9a85371aeff27e2d62bb4d91ffac40fca7b"
+  },
+  "a black cat.": {
+    "text": "a black cat.",
+    "path": "fd21deffa30b12d5b142.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "db380cdd060bb528d9e66d5d98b0ba5445174c38f984683f54888fa3590cf3d3"
+  },
+  "a chair.": {
+    "text": "a chair.",
+    "path": "28e60fe43fc0fd9190a6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "cc8a3f7e48f77ccc0d8133b984e578d584b8d3e40f852723a12dbdf21a751bad"
+  },
+  "A book is": {
+    "text": "A book is",
+    "path": "5603b9969f3c38a44dc3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "86357919a443207285e521ae84f49299ac42cbdcfcd509d972a91b4915edd08d"
+  },
+  "A day at the zoo": {
+    "text": "A day at the zoo",
+    "path": "5e7b72c901099457314d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "cb039c4b0db439bf9661239891eb810cff71d94fa7cb7f8c6a6d010ce2ac8ada"
+  },
+  "a blue sofa.": {
+    "text": "a blue sofa.",
+    "path": "5fc652a876fcc2fbcfd8.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4e5ebf4bb85adbb9851c3493bc3625421d0baea66eb855339954eafab22e53a4"
+  },
+  "a fridge": {
+    "text": "a fridge",
+    "path": "a741c068c2874f84d774.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b32a7ecbbc1b86ae89ba8839dde14e6d3fe7649942040816176dd23cf5b19b71"
+  },
+  "a game.": {
+    "text": "a game.",
+    "path": "03b0604c031529cba803.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a3cb90d1c6ac3ea2c37f455858e23a7843f38b4039e68b5d7d89577fc3f3cc88"
+  },
+  "a picture.": {
+    "text": "a picture.",
+    "path": "dc0a8b21a71a9b41478c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1d6956d57445a9cdfa58762bb9b0fcf2b8df88951cde56d95cb01aefb4c2b570"
+  },
+  "a mirror.": {
+    "text": "a mirror.",
+    "path": "2f59f89fa5669dbc6ffe.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "9f03f7a0c91685f28b558513fd8dd70bb4b5f3a298243e5f84550149d62f66ee"
+  },
+  "A sandwich, please.": {
+    "text": "A sandwich, please.",
+    "path": "411c09b8fc283aa369ad.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3d804c8641d4277e846b3315b6eb42963eed5b016f654df29a845b526a5071c1"
+  },
+  "A sandwich, thank you.": {
+    "text": "A sandwich, thank you.",
+    "path": "6d025423c74ed49b4be6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f7b5999d8bb68b0d76002da45f6ee8e0f867087af11a9d7c62639d28ee354479"
+  },
+  "a long tail": {
+    "text": "a long tail",
+    "path": "1723815524e4b5757305.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "10153050805aa82cd29d39123b416c17d2f8b0ac0ff45925e5bb3e9d4bbc9c7a"
+  },
+  "a short tail": {
+    "text": "a short tail",
+    "path": "f57915325c7d8bfe5f36.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "db0ef18d030098e34cd4e022870379626cf96b6f4b711401feaa9816c702b302"
+  },
+  "a sofa.": {
+    "text": "a sofa.",
+    "path": "552750610c511132714b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "faa874ff544bb3ab67a473fa24df0991371a747fb086b958f4e02f0acc00b953"
+  },
+  "aeroplane": {
+    "text": "aeroplane",
+    "path": "6d763c9f44939254ce53.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "20f0601b2274c9eb50aaec174bd9c5c032f179c8978f78027e71cd39f26cf8a2"
+  },
+  "a table": {
+    "text": "a table",
+    "path": "ad875d4bcb7fa0fef5d2.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "6958bc5e49db39ad84e2371b4e69742bfa0d9d14c53b2684722433f0a3aa6a1e"
+  },
+  "a sofa?": {
+    "text": "a sofa?",
+    "path": "5fd68e759ea2920c757b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "726134ae50a2a98649577968e5b4c0119631acc4acaadc60fef01a33a2fdd731"
+  },
+  "am not": {
+    "text": "am not",
+    "path": "34c6fb1ad91538ba3a0d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "101c275b06da77f342e22d2c15472bba4d8691d5a5838b893c57575d81274263"
+  },
+  "am, is": {
+    "text": "am, is",
+    "path": "7765d74a10ddc1e75563.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1971e5596fe8a9fe99519f3ebc1c972346fdbf7267076be0e0d0ef33f0808233"
+  },
+  "any": {
+    "text": "any",
+    "path": "d6a7cd2a7371b1a15d54.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c3010279030c22c7b09aad71070a8143ee7d85f3b30b23c82c5926458e4949e3"
+  },
+  "am painting": {
+    "text": "am painting",
+    "path": "a80c1ff1f9a5a339a8b0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3136ba5f87397c7b202a6625e8fa97c8f7d45a4792a4721a68056428522b8cdb"
+  },
+  "am having": {
+    "text": "am having",
+    "path": "bb2e75188923d8282d10.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4246019e595d543206e3c7e89573ee615f154ea042f32b57942a7c133bc457cb"
+  },
+  "apple.": {
+    "text": "apple.",
+    "path": "7e3bbfadcce61acb4d85.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f3da4d590e80fda45e06c0d162959963fb173d13331151ade5b81012714ef9e8"
+  },
+  "any.": {
+    "text": "any.",
+    "path": "74b3bc2f61e85757102c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2d02aa3a1beaffe1f17d8e183ae4554bf4443c2da72c9d241330ee5214c9b0c5"
+  },
+  "any books.": {
+    "text": "any books.",
+    "path": "ff8eb2dcb0aa4cac19da.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c7d40c93ac5450acac58be1c26fe7a8fe70cdd266a937281e9f0870a3c9caa3b"
+  },
+  "apples.": {
+    "text": "apples.",
+    "path": "fa8fb98b909de23e2be2.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e7dab1fe95a0c98f55c07d1415416b59f1a773065c6e929540e421a83296dea0"
+  },
+  "are not": {
+    "text": "are not",
+    "path": "dc49b334fa9faecc02c7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1f37945121849bc9124ceb6e9ebcfd9e25f3cb1b3015bd3cf283a7112ea867df"
+  },
+  "are playing": {
+    "text": "are playing",
+    "path": "9e1854abe3f0b484e7bd.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b0f4de3ab10e6fdff6c90ece95b49f7100d9d61fdd5fca423ff5477b559627a7"
+  },
+  "are balls.": {
+    "text": "are balls.",
+    "path": "718ab172b92fb8f3b9cb.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "358de3a8d7a98de10a905fd43026fe453df2445a74a6d9ded293a421a4e990d8"
+  },
+  "are pens.": {
+    "text": "are pens.",
+    "path": "ad45666c30118098269e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1c5c2011b27fe45baad8155e1502c8182b2ba28bef786d087a0995afe30c8dd6"
+  },
+  "Are there any books?": {
+    "text": "Are there any books?",
+    "path": "e8d4c507ca4a74fe6a49.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "53a1defb83b0424df649bf802c829dae2a381bda4cd01ac264c9cde0eb23e9ef"
+  },
+  "a fish": {
+    "text": "a fish",
+    "path": "101f962260228afc171b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c98f275e4d2f2511b553c5a651e7bc7021a22d7a8b2771103c2cf79b6456e14d"
+  },
+  "are swimming": {
+    "text": "are swimming",
+    "path": "8aa736ab16e02f12fe15.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5479139327a5171e415ed3e9d8d4e43c02c119e119dffc7e1402981ca58c622d"
+  },
+  "Are there": {
+    "text": "Are there",
+    "path": "f0bc4f14694a9b1ca9a0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f85831a7d31a914c94820bd7bef8ad62961c5fd812e8a6621ebc11b1a3e981ab"
+  },
+  "Are there chairs?": {
+    "text": "Are there chairs?",
+    "path": "494689e5c7518bb7e422.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e5c35bb4057c331aabc8e94188a88bd27a42fefa7a9a4aeeb0149bb2cb2fa35c"
+  },
+  "Are there two chairs?": {
+    "text": "Are there two chairs?",
+    "path": "5d560c9e6be589dda016.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f341dbd58d45f923956fc314028fffcb9c6587a24c2c1fafdd104fce5b1d9395"
+  },
+  "Are they playing a game?": {
+    "text": "Are they playing a game?",
+    "path": "f9c5b6196dc0913b770f.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "26ae2f91a104e33df493c3cd1ca36e6dc1d204fc33e4a279c1a02a4661bfa58c"
+  },
+  "Are they in the garden?": {
+    "text": "Are they in the garden?",
+    "path": "298774ffd62f36165c00.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5be2404691207a5f24ee598c1b24378b0236cd645938a17084ce66a55139e7fc"
+  },
+  "Are they swimming?": {
+    "text": "Are they swimming?",
+    "path": "48e8d0cf3635a7b73805.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "6cf90c27c4d56a2b342219bd30f4e61fb6fbdf70b72034bc44a4f9c147981e38"
+  },
+  "Are they playing now?": {
+    "text": "Are they playing now?",
+    "path": "c750cf2b5b4df7f7d707.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a2e1baaefce21e01558f0ad85f4dd4ee353cdb080d2128c0318ea882579e8681"
+  },
+  "armchair": {
+    "text": "armchair",
+    "path": "5a948ffe5f0f63845354.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2beb4cb4d36ecd8c0b816cf00aa0a291c636b60f7885e6e1db2dcd0c80cbb72e"
+  },
+  "are toys.": {
+    "text": "are toys.",
+    "path": "72f126ec87b7b06e841a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1e4cacd05e03ffb99c431d776ee499696c6b9d04f40a300fe7e928188b5e6097"
+  },
+  "at home yesterday.": {
+    "text": "at home yesterday.",
+    "path": "38150c730abcd3786144.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d96ae668f2dd919eae0972da7a09202f086e7da1036e0405bdd815ab5eac6e05"
+  },
+  "Are you at school?": {
+    "text": "Are you at school?",
+    "path": "a6f1e2156fc3aa7f8e28.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "de0020caed912d517708950516127e931954e5f4fe6ebd232ac136fd30b00228"
+  },
+  "at night": {
+    "text": "at night",
+    "path": "71c3ba883305b1df3870.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "fe3ad0eafc787bff94c2e0e3dcdc68e3e63ae427affc99d040d3b8506545d885"
+  },
+  "at school": {
+    "text": "at school",
+    "path": "0a9c1b69fb9cd906e1f0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "7d47fdc1a064ac162aa226862623d08d7dc05d710deaff488b4df032937aac2f"
+  },
+  "bag?": {
+    "text": "bag?",
+    "path": "34eb949503fdfea8118d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b8090e38cc875482e8ad46a5b13d359931e2e4146b14c7f7b62d2b0bc469a418"
+  },
+  "Are you swimming now?": {
+    "text": "Are you swimming now?",
+    "path": "d479ec33a81e2fed406f.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "16022174a8a575c429871db98887571fc8ca7bd5c98485aaaf34d07ba6b78e22"
+  },
+  "Ben": {
+    "text": "Ben",
+    "path": "030d756286e59f22a464.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "7b5756b63b83f5419e644aa2b87f8f8f2ed5182b4141b1509adf7a9b085e3e71"
+  },
+  "ball.": {
+    "text": "ball.",
+    "path": "3a222eda986f89c82190.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "82f6c152832b1cf7a649cd3076d74909258b843243d75bc0188980b5381ed206"
+  },
+  "ball is it?": {
+    "text": "ball is it?",
+    "path": "deae4bce5f1f0285ba81.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "07ca6ab24ecb92681955c04ab3165609f171417236ca8d11c0d2c2af3634535b"
+  },
+  "at the weekend.": {
+    "text": "at the weekend.",
+    "path": "8908a679c20ffa2f5399.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b89435dc0b7a5db093ee00d153a7cc7f43eba8d6204bac9366aff397d5fef9b5"
+  },
+  "Ben and Emma": {
+    "text": "Ben and Emma",
+    "path": "ae71c01565e02fff9c51.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "9f9f56bd25ed238146587059e65ab822a829e7e7edb221f5dedb52ad20a2ed82"
+  },
+  "Ben bag": {
+    "text": "Ben bag",
+    "path": "8615702ae55c7cccc821.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "8c0340e51d8fdb4f903fe421c8d56831adf4b2edbb2de006e9ee14eb3d133fbf"
+  },
+  "Ben ball": {
+    "text": "Ben ball",
+    "path": "f7f47e0f75c026665f07.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c1a69030f9d2322c7d6b5c5c069282010151fe14acc280fbd576a1cfaf8f3769"
+  },
+  "Ben is": {
+    "text": "Ben is",
+    "path": "ffd915332df87457112b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "eac0ace28e14cf69c635b20cad29fd57caa8d7f9a17f95328525322e20dadc0d"
+  },
+  "Ben's bag": {
+    "text": "Ben's bag",
+    "path": "75e530c81d21c3f36b85.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2e35526bfe49180357e10713f5796a00bed64472d3f87a43e908e38e09a5e66e"
+  },
+  "Ben's ball": {
+    "text": "Ben's ball",
+    "path": "0f0f67dbd2a9306b0259.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2b9db99a78ea7fcd964417c08c17ed1eff108aed0f32875dc42f8d167b001d87"
+  },
+  "Bens ball": {
+    "text": "Bens ball",
+    "path": "a9a1ccf5138109574664.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "08b583d3e0309c1ac1b1de1ea63dc10af28a0a815a152520dbe9727b4ae4ccf7"
+  },
+  "big ears": {
+    "text": "big ears",
+    "path": "159f9eadeac82f6143cd.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e4c90823524fec28e5ff2f1f2f735169ce2f9e2f1f5e6e36c8b3135d850edd65"
+  },
+  "bike": {
+    "text": "bike",
+    "path": "163c18e0068f0a59fdca.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "69fa876378138ce2b5a566ad0e2ec9f0cf9cf953ea06ce8fad1274cbd3b73e29"
+  },
+  "Ben has a small rabbit. It is white. It has long ears and a short tail. It can jump. Ben gives it a carrot every morning.": {
+    "text": "Ben has a small rabbit. It is white. It has long ears and a short tail. It can jump. Ben gives it a carrot every morning.",
+    "path": "aefa103fb969c9800680.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3bfee58870640f20fe9054acf86cbecc41f79aaf4f77f2fff65d8cb77610b02a"
+  },
+  "bird?": {
+    "text": "bird?",
+    "path": "ef3e5dc3222eef79afd1.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c3839cd9c9fc46312d0e7a30a497d6cc53f8e6f6fc9916289ecf1071bf981aa8"
+  },
+  "biscuits": {
+    "text": "biscuits",
+    "path": "040f4c812d026001c8e8.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "291e1964d81760098e7dcc47183b40bfcc1eb78a1ec4892d33f48148d58886a6"
+  },
+  "cake": {
+    "text": "cake",
+    "path": "32cdb619196200050ab0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a9a612d2ea427a81fc1bd9c3e2d3a16507985b7175879509530e778d1caad7c4"
+  },
+  "cake, name, cat": {
+    "text": "cake, name, cat",
+    "path": "c1d09c949143aeda5c08.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "bc64ec6e4529fc1729b96b610c80dd65641d39b3b55a5c9d1c5dc7278d8f8b19"
+  },
+  "bike, kite, fish": {
+    "text": "bike, kite, fish",
+    "path": "f8fe16ef92e10eaaf0f0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ad8e463a866a849083177820d3f83893faad9902cc9ed702a989dbf829a6e2e2"
+  },
+  "books?": {
+    "text": "books?",
+    "path": "c5e6fbba9187c62c5fd3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "653bd17903dcb5443e03da3f2c211d321f671c7ea4af4129e1d5634b0aa31ce0"
+  },
+  "came": {
+    "text": "came",
+    "path": "76806e2c372db5358a57.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "7e75bc0ed198080129549f1a17843937b92172fc2bf5fb020cf27cce18cf3639"
+  },
+  "Call": {
+    "text": "Call",
+    "path": "d6e645b7d2b2da646d44.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2c57ad59173260dd54718a65bddbc970a15507f9d1cc5e12fa9fed435206f29b"
+  },
+  "Can it swim?": {
+    "text": "Can it swim?",
+    "path": "f55dbff1ff148d46fc06.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5f351d60651b2c08c5b18a9f54ddf51762027e725f0cb870b79bff82d924d2d4"
+  },
+  "carrots.": {
+    "text": "carrots.",
+    "path": "356946f68bd4939619e5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c00872cbf3596726ffe3272f0bc32479380975a4bd58acf356b4d9a5453166cf"
+  },
+  "cars?": {
+    "text": "cars?",
+    "path": "6418166bd67ef4dd6498.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "efc4c6aea66ecbd36d85ea7c325385af60e07bd5fc083b5eac61abfbbdaf70cb"
+  },
+  "cheese": {
+    "text": "cheese",
+    "path": "873ac9ffea4dd04fa719.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "20e91dca5c85dac77a4e278a7b5c14462978ac0453d5246ccb323fc3fd8e7749"
+  },
+  "chairs?": {
+    "text": "chairs?",
+    "path": "c5b65335c2431371f757.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "62feddf46d5fe10e6c9bcd33e519f0bbaeedf59bdc257844cdd76c025b188e85"
+  },
+  "chicken": {
+    "text": "chicken",
+    "path": "811eb81b9d11d65a36c5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b994a403b4f14e46f87db67299c533066b4b90a0bded68ae91ebfe16d9af1810"
+  },
+  "cat, nice, pick": {
+    "text": "cat, nice, pick",
+    "path": "b63c918b03769119647a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b66a08297706b789b4639113f22376d23f8935bf591d3cfd0e6bca84c2ca56e2"
+  },
+  "childs": {
+    "text": "childs",
+    "path": "2ad442533965a212f250.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b483780f5b24e9acadbbb02cdc9027be4c098edbf6ce044f0d4dcb451b8529b0"
+  },
+  "Ben and Emma are in the park now. Ben is riding a bike. Emma is reading a book. Their mum is painting a picture. The sun is shining.": {
+    "text": "Ben and Emma are in the park now. Ben is riding a bike. Emma is reading a book. Their mum is painting a picture. The sun is shining.",
+    "path": "d2385dd394dffeff503c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "91b528339f7e840cc1d90a6fe02ed8608b7051ee9e4f9fd486b7954db5e6cb91"
+  },
+  "cheese sandwiches": {
+    "text": "cheese sandwiches",
+    "path": "2157d8734f07fe430c31.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "be55b09dcdb89b34ba9f45b08c6f81517a9abaefeeb6758f446d2d1af6368e43"
+  },
+  "clapping": {
+    "text": "clapping",
+    "path": "833be0c2b730c7f5e2cb.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c8ef4d15054f3a023d9594d9e187533459cc14806aecdeb992b53abe00bc3821"
+  },
+  "computer": {
+    "text": "computer",
+    "path": "aa97302150fce811425c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "63630ac5aaf7d4b5b21f05af2402ec7183040b3b378e458041fc429557cd1b05"
+  },
+  "clean": {
+    "text": "clean",
+    "path": "3b066804f6d1d077173c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3cda0bb34c747efcf4b89c0ea9800880639cb3a05e333d7b7d245589cfafb3a1"
+  },
+  "children, mouse": {
+    "text": "children, mouse",
+    "path": "a455ec887222ad0018e9.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3e51aebb79914193238e203d514da47d903329077ac6dcebd68c1609b709aa90"
+  },
+  "cleaned": {
+    "text": "cleaned",
+    "path": "c80f02a38f0a5550ec22.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e3a480f75f28eb5c2bbada809c2c001d429450ad8a8e7ae0d1566e824c89bd6b"
+  },
+  "cooker": {
+    "text": "cooker",
+    "path": "0eed4ace4f636b30def4.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "429a0742f5092b14983998664ab9256f555395a4ad4eb2c2c1fbcef23f0bab56"
+  },
+  "cupboard": {
+    "text": "cupboard",
+    "path": "928ae8cdaf7937ae8a8b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e5c73fef88f03549b5cb8d26de31104105bda95dcb42984b5c753dbabfaac282"
+  },
+  "crawl": {
+    "text": "crawl",
+    "path": "81a60f2038a06bd1346b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "939c2e2798bab8ad603f13815bbb0e5122e0aa3b88578960d387ecc0b45fce1d"
+  },
+  "d": {
+    "text": "d",
+    "path": "18ac3e7343f016890c51.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f182f3534df74b3c34b938eab8e34a95599a9a8f40d08d01d7eb5a76f89b0f6d"
+  },
+  "dad": {
+    "text": "dad",
+    "path": "6fe8ecbc1deafa51c2ec.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b8e97b22be1ac6a482b9f6fd89fb1f632a26b070a4117057af4a31558bf610a1"
+  },
+  "dad.": {
+    "text": "dad.",
+    "path": "792badec981670174953.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1b53f7542179a4f4986773869c9a2a8b7b5f0bfe69e4f9d67f96a55bc8672197"
+  },
+  "day off": {
+    "text": "day off",
+    "path": "745258937ad03cc2ad57.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "02ffc7f15f258189b378110d7a02cbc9a5a74707e1a1f29dd01d9e89d30d9896"
+  },
+  "day.": {
+    "text": "day.",
+    "path": "c7511b096455b2e3790b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "9d7ad631ca598f29931c74822cef1da4dedf0d1643db1afcbeaf675cf1160c32"
+  },
+  "day?": {
+    "text": "day?",
+    "path": "d5ff42a88537f8cf399d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "45075af8aa023ce5f4e6ad739e42f48afaa854a388b8fc1d1a964974ca530f68"
+  },
+  "did not": {
+    "text": "did not",
+    "path": "4c62feef7d0f94ca27e8.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "858b5bd47a213d050c47f54fc218c790571a23b07f00cc81b89428f62db5a13a"
+  },
+  "Did": {
+    "text": "Did",
+    "path": "62c1a97974dfe6848942.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "8a103d2f4f5002053d0a3ef07e47692fe5a7272120da30bac4cfeb36daeeea24"
+  },
+  "danceing": {
+    "text": "danceing",
+    "path": "7c3e8d998b369eca2e9a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "88ffa852c71cdbe0e3035f2b51dbef6a164be1b8791ee9c689f621a71cffd765"
+  },
+  "did not watch": {
+    "text": "did not watch",
+    "path": "c970db9fc51c6121ab1d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c253425166b6ffb7af7270b29541ea34c463f76ccbeff0078b30039e61d1b326"
+  },
+  "Did she go home?": {
+    "text": "Did she go home?",
+    "path": "d038826b9b69a3e00727.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "095d584c6483b2df0f524d20eb66f85f92d5e9e2d8d676a9c3ca8bb8674b1b97"
+  },
+  "did not watched": {
+    "text": "did not watched",
+    "path": "497caf71f78c7a750b92.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a27a8bf5e6ceef546bf540c58d8c0b5c9380e4e88f284b6bb39fe931c47f80e4"
+  },
+  "Did you": {
+    "text": "Did you",
+    "path": "6dbc090b26dab7c56a38.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a5e36869503ccee40a4c0c33c77c4ebfaf092f4eafe3bf6d6179e4afe42fcf70"
+  },
+  "Did they see a bird?": {
+    "text": "Did they see a bird?",
+    "path": "8eeb97ebfbaf376e5218.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "fcc665990069110c2a0056f578c3a98d52e219b79014f37652650ef082f6d89e"
+  },
+  "Did they": {
+    "text": "Did they",
+    "path": "677bdc4504fab0672675.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "172efb3a94087b4fdb462e29d8a436219396359a5345b66e167a4a8dcf0af261"
+  },
+  "did not: She did not": {
+    "text": "did not: She did not",
+    "path": "ea2864bb10dea7f41d49.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "50ed98a3445c3901173821a7478842cb75ba6defd798f5969e65cebc4c56cc62"
+  },
+  "Did you play yesterday?": {
+    "text": "Did you play yesterday?",
+    "path": "d4265623550c57987717.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d89cafa1528e020cf3413a7d4d8aeacebcd1ea5c7d081dbe78e2474c3ba94904"
+  },
+  "Do": {
+    "text": "Do",
+    "path": "30094e0bec0046da8f92.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "aeec78de6cb1fbede6904dcea2c714ab2f3dc2c5dd139f8eff5893138ec4f601"
+  },
+  "do not": {
+    "text": "do not",
+    "path": "9ad80878ed715fd6a1b1.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "9cea7e3730df6af37ee005a89c60b94b748f1398d9eb5fce90aaa251a5226d9c"
+  },
+  "Do they play every day?": {
+    "text": "Do they play every day?",
+    "path": "691974e79cd0c9a3dfdd.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "8e91f2fdbc7d16e525e692430083cab74345d69ff86831567773f75825e1e80d"
+  },
+  "do not like": {
+    "text": "do not like",
+    "path": "baf5eea76a68408aa293.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a7888308f7c774ea78d746df2f8c6c5bcb1f93438558cdd4d1b34fbe0a6d4cf6"
+  },
+  "Do they play games?": {
+    "text": "Do they play games?",
+    "path": "0d21cab7a51ece492c5c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c6c12ab4db5174b771fbead73eaabc4440f4a64c16f8b1e94478fec006c9dcb6"
+  },
+  "Do they play on Monday?": {
+    "text": "Do they play on Monday?",
+    "path": "3773a582c94efaeccce3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b707d2d28908b954b30f387aae3e9b3e32aa2caf8c7f21538987f5ac6070b8c8"
+  },
+  "Do you like milk?": {
+    "text": "Do you like milk?",
+    "path": "a17dc5c06e832ce2b030.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "88157588e156793f813e6354550f29ebd853680c7d45679a6863c5928eb3c492"
+  },
+  "Do you read every day?": {
+    "text": "Do you read every day?",
+    "path": "fe6561ba28dfd2ab7679.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0a0535b2694e3a46d280bc06332919aae0e2e374576bdd4a8489b37b8f244271"
+  },
+  "do not: We do not": {
+    "text": "do not: We do not",
+    "path": "a04f49342e3670ae83df.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "98dd26b8e2f3343cf4ff68badce34401fb91a576e18a551b5c99b0555b70900b"
+  },
+  "Do you read?": {
+    "text": "Do you read?",
+    "path": "6e70f28e7bcef23d9fca.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "25ab5dad5617633f95120225aab0a7d64a763958c95b75d610391037233ac261"
+  },
+  "Does he read books?": {
+    "text": "Does he read books?",
+    "path": "2db6b4f5fd55609d8745.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d35a27fa2cff8a73530ff993124186e3cae79e63190a9fa0f209fff815d874bc"
+  },
+  "Do you swim on Monday?": {
+    "text": "Do you swim on Monday?",
+    "path": "0ea2f24839a4535f57c4.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "9d53cf0a5ad85866a8662ac3cf4da79811307074423f12077509802a2a1ed5f4"
+  },
+  "Does he read?": {
+    "text": "Does he read?",
+    "path": "947f08d4136a766cf5ee.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "aeff2a3788c1734ea35d9de211516ba571b0ca513d611d73b45b119ac0783cb9"
+  },
+  "Does he": {
+    "text": "Does he",
+    "path": "69ac807bb83f7df62533.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "fc55a8cdabdbc0e354d770299b13ef075c799c0c5f82ec1b60f490cbbfc72546"
+  },
+  "Does Ben like rice?": {
+    "text": "Does Ben like rice?",
+    "path": "01f51590586c17d62a97.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f5bc2ba72fadf1dbf728d2e05987185c62fbd5315454b742b977ddebd6ea8954"
+  },
+  "does not": {
+    "text": "does not",
+    "path": "0320fb3682ad23a28a13.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "798b12ebca6df40ffd9bf16040d585ad17d83bc825bb7bafa61ee544345392ed"
+  },
+  "does not like": {
+    "text": "does not like",
+    "path": "f9d3bc587d12c92cb502.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "46e5e45bef1747d0e3ba58739150a52ca2d629ec65c1b44e571770d7c8b670e3"
+  },
+  "does: Does she": {
+    "text": "does: Does she",
+    "path": "08566fe7f6513c5d06a8.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0232e5cf2d1861fd971526bcbad5eb8ad5cd8b51efdd9a3b74547f9d03e17352"
+  },
+  "does not: He does not": {
+    "text": "does not: He does not",
+    "path": "fe6ba5fb4d085059d334.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a9b5def5f132ce4e812dff16442301ed0221b928e83aa4d7c4edfd267e54ee5a"
+  },
+  "Does she read every day?": {
+    "text": "Does she read every day?",
+    "path": "224e88c6763b331e50c6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "699494cddb58dde026250bea272cb34f3300a999101b668fc8eb0f77c538b3ca"
+  },
+  "doing?": {
+    "text": "doing?",
+    "path": "952e358ca0f9f834050c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3b2bd31c145b0a2118321b23773c7392cae60d47115b04b19c6beb15f85d2c6c"
+  },
+  "doll.": {
+    "text": "doll.",
+    "path": "b030f7a4c8a99b151931.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "9af52d08d37ba77aa6c3294ee704218002d2a7558bd1eac5ad36377d04890a19"
+  },
+  "drive a car": {
+    "text": "drive a car",
+    "path": "c3424bff6a7a04df6410.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "773bb755ff37d03d56cd2038e6a38756122c65a7efd156b5363dd1cd7a51680a"
+  },
+  "e": {
+    "text": "e",
+    "path": "3f79bb7b435b05321651.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "cc58b4d7de4a084c683fd2a496c5ff22587eb82be1e769ea14ba3179d1d66920"
+  },
+  "ears?": {
+    "text": "ears?",
+    "path": "24f37089bae267dd834c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ffc066d73e4c08d5a71300551cb3ddb645eb10bf050b47f5a538bef01312c002"
+  },
+  "eat a hot dog": {
+    "text": "eat a hot dog",
+    "path": "4c921753222499f0cadc.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4424c4331a0e769af643414439c6ac5f5ff766a82de9e29ee15d8a93c4eb5b95"
+  },
+  "ed": {
+    "text": "ed",
+    "path": "9c1623f0d38e28e9594f.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "53684167e651316aaab8c6fd356a41128ed1af514447c6f917d0409c4d0c0021"
+  },
+  "eggs.": {
+    "text": "eggs.",
+    "path": "2db2d65e5b18ee5cba52.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "57b0fbd8b56f5e18730fb92c1775eb350aaeb4fb87e7aeedbddfd0acf3468b9a"
+  },
+  "drink lemonade": {
+    "text": "drink lemonade",
+    "path": "fd525e9eb12516e57d51.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1aaa792fe025f02bfa061abf75cfe1dbddccdd9ef1892720aad019139aae243e"
+  },
+  "Emma": {
+    "text": "Emma",
+    "path": "d9dacb3ee168be4dbc39.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4007c05946bccac2d0972679b6720508877b01a3eab85ed9ab5fd74433de259e"
+  },
+  "eggs?": {
+    "text": "eggs?",
+    "path": "e8c844a5ed2bea709617.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0fa77c122687fe4a884651bb76916702ea5d8f45446343df832dfef9af150a5c"
+  },
+  "Does she swim?": {
+    "text": "Does she swim?",
+    "path": "f51e9eb58b9a55f24942.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d1a489939ccb2b524d4357ab0127e56f6b7f1a719fba71c8ea760244d57ff679"
+  },
+  "es": {
+    "text": "es",
+    "path": "c0bc1e08f9743b2d50d5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "eeefc59a6faf7d7bca873a6ff709b6edafe19f65f2da8ee140c7df26e78b4a29"
+  },
+  "eight, ninth, tenth.": {
+    "text": "eight, ninth, tenth.",
+    "path": "f224388ebd5f54bd4ef6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "21d74bedad85a4499415abac5a0f0ceed36e985752f9132640b2361b09b4ff8a"
+  },
+  "every": {
+    "text": "every",
+    "path": "66a424a9a958b152c1c3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "9e4f5fab814f6216220f9febc486cd1b1ca38f3a1855ac165c4b3c6c0720f428"
+  },
+  "Every day": {
+    "text": "Every day",
+    "path": "c4e42b974c335dc5cba0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "74e611834ec2f74af2ed7197fd474765fba15c5961f29b30f68f0f30728c56a0"
+  },
+  "every day.": {
+    "text": "every day.",
+    "path": "dfbfaa6cf162c0558d22.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "dc803ded119320f7da5ce8436f62f65abb5f7662b9da892a9b0f1b994954dd36"
+  },
+  "father": {
+    "text": "father",
+    "path": "88a1881f0025cf711750.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4722b15a9b93ce2223d5fb04c8584f44879359e66aecd9a5dacd4d0581b3c85c"
+  },
+  "face": {
+    "text": "face",
+    "path": "0282d9b79f42c74c1550.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5e88d433386f9fc3c793ab8ad36908c90df0441a6c86c0242141651cb9c96308"
+  },
+  "fifth": {
+    "text": "fifth",
+    "path": "1774b8eebdec58c5f119.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c73b4eb1607270f3a180408debee530ea90f27bdaa7b17d8d854c3c6ba914bda"
+  },
+  "feet. Fish": {
+    "text": "feet. Fish",
+    "path": "25219361995f77b8c291.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "67d960a90892c0cc56d711403f165bec01b2c9f3a383b451b49d41925f6648e9"
+  },
+  "find": {
+    "text": "find",
+    "path": "e6640de835ad09fb0a73.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "28c5a1f8856af533448d817d5ac13af0a25f99601838bbd654da3652c9abd5ed"
+  },
+  "Emma has a lunchbox. There are two apples and a sandwich in it. She likes cheese sandwiches. Ben has some milk. He does not like rice.": {
+    "text": "Emma has a lunchbox. There are two apples and a sandwich in it. She likes cheese sandwiches. Ben has some milk. He does not like rice.",
+    "path": "72148a40d27af82e0209.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "cd1c6618688a64fce513d21ff2800587e12cce09186ead27e4c458412d44cad3"
+  },
+  "first": {
+    "text": "first",
+    "path": "a7937b64b8caa58f0372.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2718bf60fe769cbc23dedf36db063520ad5b85ae7970bc9033f2c7522e0b8587"
+  },
+  "fifth, six, seventh.": {
+    "text": "fifth, six, seventh.",
+    "path": "0f187ca827820c4ffb00.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2226a911cbaafc41a13e38eda6f11c6670406ac6644681acf25ffaecb7a194d6"
+  },
+  "first, second, third.": {
+    "text": "first, second, third.",
+    "path": "ab04825635cbe24e599e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "fa0848e225d903ded6c993197018dae3faa6bace352460d0c8974d427e38e083"
+  },
+  "first, second, three, fourth.": {
+    "text": "first, second, three, fourth.",
+    "path": "9e598392abf80d4092c0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "8887096bdf930597d65f30b294546aadaf75c65b0d75fdeee60c82cc7baef0c2"
+  },
+  "first, two, third.": {
+    "text": "first, two, third.",
+    "path": "962b07af0c2b2012b3f7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "559dad0f45d887d93cd2fcdce828fd799bae44e1bf11a0e418e4e5d9660dc8e4"
+  },
+  "Emma gets up at seven. She has breakfast at eight. She goes to school on Monday. She reads every evening. It is Saturday now. Emma is playing with Ben.": {
+    "text": "Emma gets up at seven. She has breakfast at eight. She goes to school on Monday. She reads every evening. It is Saturday now. Emma is playing with Ben.",
+    "path": "9cc87d8eabedd6a31f23.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e19e74acef7776bac354d9e816e2c579de8f050d762f6f8ff212f8b0fb1317fe"
+  },
+  "fly a kite": {
+    "text": "fly a kite",
+    "path": "2ae2ddd8cf04817318a2.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "531b4207c8d14582a4db02e6a4850e17d31b2362da0a5b2f9fd83e529eef3315"
+  },
+  "fishs": {
+    "text": "fishs",
+    "path": "946dfaa459590dfa34d8.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f735317cf7aeac21ae20bd05d3bdc960ca4dc4c2e82f85846579e60c0e153598"
+  },
+  "forty": {
+    "text": "forty",
+    "path": "9cee2304bd633d42c35d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f4d62e4969da84fe391b71b3120641144d487350492976cffb3be8319ff29e89"
+  },
+  "found": {
+    "text": "found",
+    "path": "bcc649cfdb8cc557053d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3610d3ce966b2c45edca558f2dc7be49983fb4151dae701efb03bec27b494e77"
+  },
+  "fourth": {
+    "text": "fourth",
+    "path": "dc81b1d371a4072be7fc.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c95436fbece54ae018134d8b08d7bff45e005abffce8d85b2d1b4ebba789c7f7"
+  },
+  "fridge": {
+    "text": "fridge",
+    "path": "997bc249599b74191aa0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "91c953343d9cd610ef3931a21bf63e6c3f5f50512d41eaae39e6076170afd5c1"
+  },
+  "front": {
+    "text": "front",
+    "path": "2d8d693177ac44895fc0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5fd91f32bc71177b9859f7b7fa7a26abffdd2e1fcb1fb314443e56a37bf580cc"
+  },
+  "fruit": {
+    "text": "fruit",
+    "path": "9209526aaa61b0709dbb.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ef6db21139d77e0dd9a6b5e191a4f01d84023415d0636c10edb59d460d470a9e"
+  },
+  "funny": {
+    "text": "funny",
+    "path": "b22d1d8fe57525339540.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "86c6876d938726bd55fb7c7a876f554bb8137bf1b66be4f291607c3f34ca024f"
+  },
+  "funny.": {
+    "text": "funny.",
+    "path": "d76fa96bb27aea3ea25a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "eb3cf6b2e1a74bef2ef2c012240a6051eea34d4291d2f3e2a1df8ad0759db0cb"
+  },
+  "game?": {
+    "text": "game?",
+    "path": "050bc60d03dd48bdaf59.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "9d210b09227923fd22df96d841e253ec2c6f6d233d9a90027b7e50f983508906"
+  },
+  "games?": {
+    "text": "games?",
+    "path": "d0fd314ce4a143e056b2.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b6e7f8c3cf903bc777db054e042ad0ce25199e2950537771d91eff32ba7308a5"
+  },
+  "fruit, blue, uncle": {
+    "text": "fruit, blue, uncle",
+    "path": "ecb6312ed07a3157c053.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "19c5af33479cd5b1c712c21e4a0ef74319fb771f8c85a393288c22f12ad0bd33"
+  },
+  "gets": {
+    "text": "gets",
+    "path": "d3fb7168cbef420e2983.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "90d4cd73760e8b453b458f042ca937e154e7d98f1f4f17f8465db5c449ee2ef0"
+  },
+  "give": {
+    "text": "give",
+    "path": "0895a532e404a5c9ea96.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "8b5f30ec66a433c4e06e58c8e38b5595c189b114791b943bff0fdf49ce80e3fa"
+  },
+  "garden?": {
+    "text": "garden?",
+    "path": "8fa9c440d410d996e0da.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a063bdc4241e254e5c5d68e8bb6e7c10bb8e0f8528f806f02628aa365ae5e995"
+  },
+  "gives": {
+    "text": "gives",
+    "path": "64ea62de2928a9ace7ac.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1353663e6542e08338be80c1c6c58d04876c4429fe0745b08d6f97a31585278b"
+  },
+  "go to bed": {
+    "text": "go to bed",
+    "path": "108b0bd76496457e4e77.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e6f908af8ac47e99265c5ffb113b0be76e26ea0ff70c98992e153360933eb414"
+  },
+  "go?": {
+    "text": "go?",
+    "path": "a8074eba17565ade3d37.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f44b6a67f140f0b68340a971dc5b7c5eb3d6aa23a2bc14707b0b0a3433f1ac5e"
+  },
+  "grandfather": {
+    "text": "grandfather",
+    "path": "7ab7049973595a7f3568.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "cce674266f9dbcedb62b0a0d8bb359aebdc0ae53f99bd712ad014d934868fdd8"
+  },
+  "grandmother": {
+    "text": "grandmother",
+    "path": "c04d87aa70a7d16530de.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "9ae6b0132cc70be98640330d72a2decc09d8df54421e3c09ac72adebafb3f672"
+  },
+  "goes": {
+    "text": "goes",
+    "path": "f1537d8de0bbe107268e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "92a1fdea8773dbd29d798778ca5de53428e00def77153844c87430d1555547ab"
+  },
+  "had": {
+    "text": "had",
+    "path": "e02a753f0c060173d1fa.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f8685315c7dd1192c670230936a826aa281fe90e593d42675cd3795623b33c23"
+  },
+  "got a tail.": {
+    "text": "got a tail.",
+    "path": "147e18a938e3a164f271.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5379b4ba25b8c0625606a041ceeb9af1a4e06220a8a638b8626a22c320ccd12a"
+  },
+  "has got.": {
+    "text": "has got.",
+    "path": "f426d39b7f478934562e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0f006ef9464198ec92a0b9c83fe2ae091046a7c836857c5336df73e806d93818"
+  },
+  "have a shower": {
+    "text": "have a shower",
+    "path": "7e59a1dc1b13c0fd1623.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2cbc12ba33baafb5e21ee6f0d2ff268ddf8f37fce53a1097ce2c8537613f471f"
+  },
+  "have breakfast": {
+    "text": "have breakfast",
+    "path": "721b64eabf08a1d7b69a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a1fb080c930a1cd66ff7396a77ac7dc924afa907db015f5e583bfd6a7ac443e5"
+  },
+  "Has the cat got ears?": {
+    "text": "Has the cat got ears?",
+    "path": "56e3f1ae7844cf1ee6c6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "93cdd2ea1e8c81bac996dd66bb1ae44c8e51fa02914af1c736b35ce877d0b53c"
+  },
+  "Has it got a tail?": {
+    "text": "Has it got a tail?",
+    "path": "58def6424331bd111665.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ed99e0d86a3d8a5d9507d52c2970e860f1096af02654b92a4fcc37cb09d6d091"
+  },
+  "have lunch": {
+    "text": "have lunch",
+    "path": "b14052f3c7e95f703b8a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "7ed9e397cf1751f14b720cd7d707405e7aad529b1c6ff16f1f989b6c3e49e1c0"
+  },
+  "have supper": {
+    "text": "have supper",
+    "path": "454e2674a9c7cd07a480.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "283c8d5c03803b2db7d451719d130d2720b48b0f513f0e70a3025566c4c1bdd1"
+  },
+  "Have you got a pet?": {
+    "text": "Have you got a pet?",
+    "path": "b924c7332548ca17bc7d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "771d9e62d8dae4c31bb0735db4383e6086dbd9ec5bd71b583c3c77cb62d51fc3"
+  },
+  "Friday": {
+    "text": "Friday",
+    "path": "e21f3f372a46d4be7b49.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "319c52df9311634e13612a176758958b780f991ae4f1df56c0ab86fe49113c7c"
+  },
+  "Have they got wings?": {
+    "text": "Have they got wings?",
+    "path": "100774b3b28f4e1089f3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ca7dbe08df13e6eb3883cbd3200e85d9f4d89ee181eeb61d734191e67a017fb1"
+  },
+  "Have you got any milk?": {
+    "text": "Have you got any milk?",
+    "path": "a49e215266ec2ac87997.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c0dd00e16bbc20fe0924e2c731a47317df052f8e36e478946779641d1aed1c3e"
+  },
+  "He did not": {
+    "text": "He did not",
+    "path": "cc9025750f09a45bc078.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "7b97f30893d1cafcc745b699e9bf146ef7d51e0eb19c4cb3067d19bcedbc5fc5"
+  },
+  "He is": {
+    "text": "He is",
+    "path": "d68e25d4ebfbf8652e74.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e57188d7f686443d2795d2bd2947d12e863e47ce564dc2f581bbe66ec581ce7d"
+  },
+  "He has got a ball.": {
+    "text": "He has got a ball.",
+    "path": "bc9d1901813235be7f7b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "52efb857229dff24e4d0feab6db40055416bea724ce7b0093a943755f95d7967"
+  },
+  "He has happy.": {
+    "text": "He has happy.",
+    "path": "00dd9a77d126cde194ad.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c3a31b31ca20a66233bc49942a9e674717077abd6dd1bee1f44b319e7e5ba262"
+  },
+  "He is got a ball.": {
+    "text": "He is got a ball.",
+    "path": "87b644e1a14e25166885.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "71ed1cb489d48821d395f6c65b2b7462d59e6843c9d25425323b78b2b93df611"
+  },
+  "He is not": {
+    "text": "He is not",
+    "path": "b88af1d9a82b8b66a70a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "7c62216793b56bcf169bfca9436ec41de0d8c3ec9e71c42cbe499dfa470c7453"
+  },
+  "Her": {
+    "text": "Her",
+    "path": "13d25ae48872bee2aebf.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "616e9e0a81665da72ccfe37a8edb129aa4f35253ecd646c7e40d86911cc93356"
+  },
+  "He is not swimming.": {
+    "text": "He is not swimming.",
+    "path": "fc8826ed3c39ddba9e35.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "937e0dceecf942bc9d6dbb1ee14810287fca4812645e830e777d65343e67f4ca"
+  },
+  "He is playing.": {
+    "text": "He is playing.",
+    "path": "46bdac2eb08f3d894968.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "8c92f88c8c299e9adcce9ce56a87805823688ff886adfe9fbd7d36e42384e877"
+  },
+  "her": {
+    "text": "her",
+    "path": "354cbfc814262a7a81d3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f943473384125ecc98c9d718ea31311c19c4b08d85133445ce0d3782ba072379"
+  },
+  "Here you are.": {
+    "text": "Here you are.",
+    "path": "3f3d9f370444b48214a7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b01d51fbd1b18984a7561d51a47c10aef8ba10dad90daa2eec735e5388848dea"
+  },
+  "hers": {
+    "text": "hers",
+    "path": "7282dc5a2015eca4afb8.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4bd6772cbb6cb6bd850570bc535d39ff54a6f8dfa1a36cb1213476e72155d1f2"
+  },
+  "he like milk?": {
+    "text": "he like milk?",
+    "path": "9c18f6bdba626b6c17fe.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b831fe31931d8ca87e406e582565ead045d46039884f770a0665d75a4e17f99d"
+  },
+  "He’s got a ball.": {
+    "text": "He’s got a ball.",
+    "path": "26e1655d1d3d3c3198c9.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "19bbda47798acb3130f62ec230c5ce6732b165088b9cb2aef614ec54430b4009"
+  },
+  "His": {
+    "text": "His",
+    "path": "174d639ccc42297ed9d2.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "18ae304b10b8cb5459dbba8e4433cf708a37c3b9d98f58e894ecb6bc27a0ccfc"
+  },
+  "him": {
+    "text": "him",
+    "path": "5a7cf4ac138054a82f60.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4f5136620745235ca22a9d5b5c2dd5e4efd5a68761ee5d2ece04324db07edf30"
+  },
+  "his": {
+    "text": "his",
+    "path": "73c9c98668a34c54d131.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "bdaec6b28a825e6050ec86e1441b64253b8fcea060926d9faafaad039c3d8b8f"
+  },
+  "He’s happy.": {
+    "text": "He’s happy.",
+    "path": "5d4359cf358829cfb729.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "79a09e1aaa0717314a12492a6a81e1e3250e37fd2bf2d68cb46d86d0512f7e8e"
+  },
+  "Her brother": {
+    "text": "Her brother",
+    "path": "477e5920a35120410b2a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b18b3d03ac6ede2665c37e89376dafadb59adabb5b6331c9256bf879cef9e726"
+  },
+  "his sister": {
+    "text": "his sister",
+    "path": "9cd6e37573c287ef2441.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2f6b5baf9bae4baa87b28e02f4be7e5bb73529f7315a67140952d3058048e6d8"
+  },
+  "his dad": {
+    "text": "his dad",
+    "path": "85701128b9773f8f70a3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "789112f3920a524bdfd7b72e4121fd3170c1adf042ce3ed26dfc4b4080d39dfe"
+  },
+  "house.": {
+    "text": "house.",
+    "path": "6488f510d8c80ad9a796.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "6ba61e798d93c96b12dc108e2445e0ad61f9383ef17f018b7ebee9961f59d2af"
+  },
+  "home?": {
+    "text": "home?",
+    "path": "d4a15c0c315e116a8e8c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "864ffd2bbaa52a2ebd410d82bb60223b9e74441762ae8a9a2c3db4fc5f9a73ac"
+  },
+  "How many apples are there?": {
+    "text": "How many apples are there?",
+    "path": "b15b7a520254835abd6a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a0232c33decbb73a13d6b0bbe874064c30e1b026b2645d1d0796ffcf07447a8d"
+  },
+  "How much is it?": {
+    "text": "How much is it?",
+    "path": "abdfbb3951b780a17416.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f0553b64f9ac9f9926d88f41c6fb801ba3ad4af803e4d8bbe5fcc545d175cfde"
+  },
+  "How many chairs are there?": {
+    "text": "How many chairs are there?",
+    "path": "4213d141ac2ee5909768.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "35949a6803de625b20743638c8d21cf73d17f9ea14e08f35efaea13f74bf02a0"
+  },
+  "How much?": {
+    "text": "How much?",
+    "path": "06a1ee61a3f25ce69023.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "6fffe5f910560ffefd47b97b0af0ad58000445093f5bf01a808b13aceede23a6"
+  },
+  "I am at home.": {
+    "text": "I am at home.",
+    "path": "33e6826ad75578746b8e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "8354ee23c89a859f679e87ebc47247e4d8186d657e09366145f50402b2bc8abf"
+  },
+  "I am reading.": {
+    "text": "I am reading.",
+    "path": "c2c0d90ebcfe3bf61ba0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e81c829e864e09e1dd11fce128792bb5476ed9c2a88d75afae574e1f1838f26f"
+  },
+  "I am.": {
+    "text": "I am.",
+    "path": "5a4d28241178ab019584.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "80bf6088b45fec84b0c74a74d29462eb0f86e7d1978c5570ace299187e97be80"
+  },
+  "I can crawl.": {
+    "text": "I can crawl.",
+    "path": "5521988c8846c4876a81.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c50904174fd6094273acecc45bf6c6ac67923286e55b2ac00552b52192d85e47"
+  },
+  "I am playing.": {
+    "text": "I am playing.",
+    "path": "5363ad7e7d2cf425f664.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ab88f37e94cd3736d42004c9dd3ef9839ba8607f04b94cb00f8142f3c8da9a6d"
+  },
+  "I can drive a car.": {
+    "text": "I can drive a car.",
+    "path": "cdf3e3ed114738644996.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5592aa90ca6ae10e8cac411ead262f9d86786d1d35b9b072ea1537010243d65e"
+  },
+  "I can draw a pet.": {
+    "text": "I can draw a pet.",
+    "path": "fd6de343d3df3038fe49.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "41ac0a542406e6a3cba4e5ab7fdbba934734c4868e317d7920fb8c76b37917f8"
+  },
+  "I can drink lemonade.": {
+    "text": "I can drink lemonade.",
+    "path": "07a29d7ce1344a25cf13.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d0771c7667de7c5eb94abe02a2a292adf3b6cac7723ac7392d7b27445f714c62"
+  },
+  "I can have a shower.": {
+    "text": "I can have a shower.",
+    "path": "714b84b2edd90e543999.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "30d09a8911e3eb0e8b3499682efd9ffd579adf98806e36315134ad033bc9246d"
+  },
+  "I can go to bed.": {
+    "text": "I can go to bed.",
+    "path": "09173222e7de269bcf64.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f59f5ff113e224fc3d6bdc5b9e04e3599fd8acfb1ffda593f38d9af617f2f0aa"
+  },
+  "I can eat a hot dog.": {
+    "text": "I can eat a hot dog.",
+    "path": "0a69e0df5dfff4aa7bea.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "39264395bf7a9340f7354476d63fb5e939e72f5f367d184fcd7cf97f55078ae8"
+  },
+  "I can have breakfast.": {
+    "text": "I can have breakfast.",
+    "path": "ebddc997c433954b4243.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b794e86f41aa4dbb2e1228b7ac5917cefe594c981b86e8ebcb3d47ee5d6ce9b7"
+  },
+  "I am Ben. I have a sister. Her name is Emma. We live with our mum and dad. Emma has a black cat.": {
+    "text": "I am Ben. I have a sister. Her name is Emma. We live with our mum and dad. Emma has a black cat.",
+    "path": "fff67a907bb0d9caa792.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b629f1949c6a7d93ebfb79f1b34c8711e22d0e40d30a7f6b6f2cfb126820a68f"
+  },
+  "I can have lunch.": {
+    "text": "I can have lunch.",
+    "path": "1a0e28a624f100c9c0bf.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "8fd532f3870a258c711f7989cd6bfc895ed342c674c5e856f79eaa97f63d16eb"
+  },
+  "I can laugh.": {
+    "text": "I can laugh.",
+    "path": "9cda36b022b4e55dbbc0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "43852b643cdd3c5ace1f4bfe986b190af058d9c55ffe01b68a568a2725e789e2"
+  },
+  "I can make a sandcastle.": {
+    "text": "I can make a sandcastle.",
+    "path": "92d4238bd9f54db671f6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c293f55ddf6a0f1988132ca216ecc3bac3ba5a861aaac7f9ba9cee655b7b2f67"
+  },
+  "I can listen to music.": {
+    "text": "I can listen to music.",
+    "path": "578bd362b76d0f68301a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e92530e46e3512b0d2c0662e7b7fda8af975dcfb5a598eebed15468b52c5f4c9"
+  },
+  "I can paint a picture.": {
+    "text": "I can paint a picture.",
+    "path": "3aebfa8ca6e5a0b1bc97.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "18c2f39e9629b3b9a18c80d8dc55c218738c260d16aa57a8bdec561241395358"
+  },
+  "I can play basketball.": {
+    "text": "I can play basketball.",
+    "path": "0d0a654d32721814f6a6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e56953f925984dc381c085fa63de2e9e48b6a3945a2c513fc9325d3204b716de"
+  },
+  "I can play the piano.": {
+    "text": "I can play the piano.",
+    "path": "7489dff6e3a240bd1430.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c4792b945cf7f517610385056ab4e51d6535010e866d81655e00166486d5273a"
+  },
+  "I can ride a bike.": {
+    "text": "I can ride a bike.",
+    "path": "4eb09fdaa9c47eb7e180.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "de11b02ea4a3020ddd2e576e1fc3d28a0f50d95a6147c407cd6f7745a2eb3033"
+  },
+  "I can play soccer.": {
+    "text": "I can play soccer.",
+    "path": "92a5c2ed1344edefcf6d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "12d793ab1767c47c8d8cf8d2b87320f35e814a0d3cd20a45475dd3b9129a769e"
+  },
+  "I can sleep.": {
+    "text": "I can sleep.",
+    "path": "6c0f3a087e144dfb1281.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1344178583c62f11585cf4ac138a7d42c895f99af5ce5f20eb7e853758996bda"
+  },
+  "I can play with a pet.": {
+    "text": "I can play with a pet.",
+    "path": "9e199ef9f31159cd1b3f.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2ac9d8047575027f6269d2807ff286f833388c28def61caf2c2d6bb49a9ee3db"
+  },
+  "I can walk.": {
+    "text": "I can walk.",
+    "path": "e765c244f6e718a49a08.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e207b9869cfbae794f82790f77a2d1f9ba93378daeddbc8028d679b951419022"
+  },
+  "I can visit.": {
+    "text": "I can visit.",
+    "path": "cd874a320d734f3dcef8.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "812b5726cee344336d5f77776ae9f4036dfc8abd909031bdb28d43f7f8712f6e"
+  },
+  "I can watch TV.": {
+    "text": "I can watch TV.",
+    "path": "bd63df0220ba76e02bc9.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e097b349fc5a97c64b7205f4fdbbc6742633dd284085f2ec8846e459cfdef21c"
+  },
+  "I do not like milk.": {
+    "text": "I do not like milk.",
+    "path": "ddb4ff0078ebc6e72e70.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "91f6502bd93cc4dab1da835ca4e72821862d6676b5eb29390ef70e4fd4cacd0e"
+  },
+  "I do.": {
+    "text": "I do.",
+    "path": "7837be81885c529b9713.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "22b5ba5ed5dd2b1ad8c87b0898cf2a18001d14bf489fc6a31d16f229e0e4fdcc"
+  },
+  "I can have supper.": {
+    "text": "I can have supper.",
+    "path": "0fa78c232de418d17bfe.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2be9e36c1addcd7eb2fcb813719d81ffd7cb560d7f6dfea6c6ae923ee1f733c8"
+  },
+  "I get up at eight.": {
+    "text": "I get up at eight.",
+    "path": "d381ab379f02d2b090a9.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "afeaa4081cdcea6c8bf884bc40c2f1d290385cbe71477d84c84e77d221e41020"
+  },
+  "I get up at seven.": {
+    "text": "I get up at seven.",
+    "path": "a290d76e1b4faeac01c4.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "42ff0400b6d91f635531cbd1ee943ccfc1730ef450a6eb4367305d6d85847980"
+  },
+  "I can wear a mac.": {
+    "text": "I can wear a mac.",
+    "path": "337ae0b4f66eb24bb600.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "973f999dadf215fbe0e8bdeb56ef1b89f4a72dddf5d67ec3573a2e23581f95c5"
+  },
+  "I have a brother.": {
+    "text": "I have a brother.",
+    "path": "2af5f3f053fd19a91490.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "064c85b9f56f41b9bedf9c57ae3fbc7e1ad224e48567982707659968766010d1"
+  },
+  "I have a cat.": {
+    "text": "I have a cat.",
+    "path": "dcec1b9b3638698ad487.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ec5f76c40ba59f8a37d398cc680d21d70b0ea406455eef0a094a391ba7502a1b"
+  },
+  "I have a dog.": {
+    "text": "I have a dog.",
+    "path": "158a679debe179a72817.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "083d2a239f18b76824027bc1979e36fe6bdd22a46628a822de33dd4a6a590f59"
+  },
+  "I have a sister.": {
+    "text": "I have a sister.",
+    "path": "5c5dd28d914bf96297fc.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "6e1792acde088f27f2df76c6a4cd9d90cde3ac4b72a4027ee7d0d03a2c0d9fca"
+  },
+  "I have lunch at one.": {
+    "text": "I have lunch at one.",
+    "path": "5664ed6efcb2e10e36af.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "46bc9b28a9fc9f1b0b6ab70d1314ed00b1b1d483d8e942223c3cf51279913dd3"
+  },
+  "I have lunch at two.": {
+    "text": "I have lunch at two.",
+    "path": "a9e5496d7a7ec1505ef9.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "62c623d06139d08b1021bf10cfa7303a850bcf45f539583e2379051ec2169430"
+  },
+  "I have no pets.": {
+    "text": "I have no pets.",
+    "path": "c9bac0fb47c75ab93648.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "115d1587502054223a072d3aad710ad11e6ded1a7bc3b666abcde0e0f23591d1"
+  },
+  "I have no brothers.": {
+    "text": "I have no brothers.",
+    "path": "7d4409c13da4b5d855ee.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d318ea7f7c690ccbcd1328b7dc8a88a92911afb4f6381e7d7a5ef028aa955b06"
+  },
+  "I have some apples.": {
+    "text": "I have some apples.",
+    "path": "6e217ddcbcf2d2dd53a4.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "bc7f3d5fd5e835667ed960c5f56c014a74ed6c98c0c57c30ec5087f12889952f"
+  },
+  "I have no apples.": {
+    "text": "I have no apples.",
+    "path": "70b508e8dca286f4a6a6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e3850a608ae06d5dbc39508719a8bbda3aa05fa2a78ee4861b43bbfb2e3bc0b8"
+  },
+  "I can talk.": {
+    "text": "I can talk.",
+    "path": "a5231a3513d45ca903d7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "38f45462742060bddb074d4a9e8981c3449b8a8b03c7dda76434ee9a64d97c47"
+  },
+  "I have no sisters.": {
+    "text": "I have no sisters.",
+    "path": "65d271653e57f598aaee.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "410ebfcc9c000ef401c3b10c9d80636da731bdbef2e38a917e733d1c4fcf60c9"
+  },
+  "I like cats.": {
+    "text": "I like cats.",
+    "path": "f50910704651d2ad99ad.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4e39754aebaa6f04fba4d96189f0d4b21f886e423b69effc3234ba4cd25ed14c"
+  },
+  "I is reading.": {
+    "text": "I is reading.",
+    "path": "21cc2cb175c716bdd2bb.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "758685ba1edb31e36cb9886a41948a57128089991559bb80dda934dfea622260"
+  },
+  "I like dogs.": {
+    "text": "I like dogs.",
+    "path": "0834dc8075f4cddead76.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "09b2bfd124755d1e4961cba47a5b1a7783b1da6c62b5a8e61022797ee31e2bd6"
+  },
+  "I like lemonade.": {
+    "text": "I like lemonade.",
+    "path": "6f8f0769edbf17a091dc.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "899920dd9e846d3e52fb81fb8353c275ca517a3dcbb850d3986d3c63704cc1dd"
+  },
+  "I like biscuits.": {
+    "text": "I like biscuits.",
+    "path": "cc34c50e92a2f8eaa6bd.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "51a07d02674857036f9eee098f9cbae249f1714bb349adef060623618c0e1580"
+  },
+  "I like meat.": {
+    "text": "I like meat.",
+    "path": "de7450bedab909749f86.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d5112fca113fdeaa686be69b2e588dbee792050bc0bb2e35fba8cd07666799f7"
+  },
+  "I like cheese sandwiches.": {
+    "text": "I like cheese sandwiches.",
+    "path": "14652b9eb6ae556435d7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e55475c29f3c51c9360b23f0a9a6d270029a79610cce646827c0d041b8f2bded"
+  },
+  "I like jelly.": {
+    "text": "I like jelly.",
+    "path": "c4fbf72e0fbc544d07f8.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "cb9239a343e5df8b9245377a92979da852931e1514fb77079421fd8ea59e1af8"
+  },
+  "I like popcorn.": {
+    "text": "I like popcorn.",
+    "path": "aa0644d0e3ea56e89b3f.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "8233fc3e331785d3853e273b58a1fb8f0a72ef84e37cf44132c0c02e65c5d08b"
+  },
+  "I like potatoes.": {
+    "text": "I like potatoes.",
+    "path": "e2a5c73126a46eb5d585.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "7ce641c4f80a69278658db38496ca5c2ed7538f4c17298008d28424fe7299fe2"
+  },
+  "I like reading.": {
+    "text": "I like reading.",
+    "path": "928ce13f2c5126a2284f.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "34f09bda325981d8935bd26bd79f052587f7b2733f1e570e8030fdb71831f4e3"
+  },
+  "I like pasta.": {
+    "text": "I like pasta.",
+    "path": "ef3442f4058b367900f7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3bc7d1323b653531369615820e28dca75248929efa56b15f4c6e772b5d3e3b1c"
+  },
+  "I like rice.": {
+    "text": "I like rice.",
+    "path": "eea311f98b859463fbba.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "748778ad53c8473074143ffe55c00020c12e291244a7b0f65ff345893543b9d3"
+  },
+  "I played yesterday.": {
+    "text": "I played yesterday.",
+    "path": "912735196bd96fd0a6d2.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5dd1eed0c5e9e5c6bea5dfaca7d4a3ac7030f718d8fb1629b75eaed66ef330ad"
+  },
+  "I like swimming.": {
+    "text": "I like swimming.",
+    "path": "ed940aca02e4cc5e4c55.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "16671deb39379409169f77320e76ea24a704b46a41d28e708e945c03184f86a8"
+  },
+  "I walked yesterday.": {
+    "text": "I walked yesterday.",
+    "path": "c866e8387b312aa503c2.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1b80b0519811080f769f5805df3e13ca12979ea9b4785aca6041721489f21e6f"
+  },
+  "I was at home.": {
+    "text": "I was at home.",
+    "path": "5ed3b02fd5b9d3c977f9.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "03c15eea2fba6389554890d930d992ab4e6a0e26be9fb221630dc517ff427980"
+  },
+  "I swim on Monday.": {
+    "text": "I swim on Monday.",
+    "path": "b868ae24122f975b28c4.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f2a3850fedbb1f0db3f3dd618de866c1f4cbb77c213e39074a19f53bb0292862"
+  },
+  "I like sausages.": {
+    "text": "I like sausages.",
+    "path": "5547d45e462abcfae992.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0923c9ffb1f1be4e5ef99301839c46f25a6cb327fd38d3225f0bc1af57633805"
+  },
+  "I read on Monday.": {
+    "text": "I read on Monday.",
+    "path": "151d6d05f79b7eeee39e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a70adfd9a9bf8a456612ec2824b238e273bf12f4fc904e7698a37ae5613d3b37"
+  },
+  "in the afternoon": {
+    "text": "in the afternoon",
+    "path": "4cf62cfec6785bc289f9.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3ce3d6824d7014fddf12375dd341819513d0a9a84e4be79496acf4d2080d7dac"
+  },
+  "in the evening": {
+    "text": "in the evening",
+    "path": "e7c31f832731ea62834e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5f9a94a49f08e3d4be4d2b68f77d3ca747211b3853b170b3d982c26a1182257d"
+  },
+  "I was in the park.": {
+    "text": "I was in the park.",
+    "path": "b1e4269bd8d9f83b1562.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c47b35b87b7ec24b68f58ff720f7bfcbd087df286ade148fc8c436ed52f94430"
+  },
+  "ied.": {
+    "text": "ied.",
+    "path": "127a95945743bbd3b430.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "9add3928d66f3d23c2541f09ee3c58b8bb7569e09f1047c49020ba2a16788441"
+  },
+  "in the garden.": {
+    "text": "in the garden.",
+    "path": "f91dee297aaaae4610c3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c11a3e8daf5e3a1903f322a4bb774112228cf5b8db6bed8f4efe74d5cef810da"
+  },
+  "in the park": {
+    "text": "in the park",
+    "path": "9f08d5fae14aedd40a60.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "79593249b0029b1944e547a002eb7bacfe70400164ada1061a7b9d20ccc921de"
+  },
+  "in the morning": {
+    "text": "in the morning",
+    "path": "da632548ed26a6a6b9dd.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4a4e2e8d9fc9353a3236bea5d5203e9d3df3883883b7d1c8a34b7db262293d44"
+  },
+  "ies.": {
+    "text": "ies.",
+    "path": "e68240096402ce8a7f97.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d63bdadf4bb31a0683e8626257d9e90d9c1c2551fce994506d04eaff747e56cf"
+  },
+  "in the kitchen.": {
+    "text": "in the kitchen.",
+    "path": "fe6598b30e0de52e3a45.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4f8b2bb5e94db9d8042a45602d32fd573ec88d557ddc6028a7ea885cfa75ede4"
+  },
+  "ing": {
+    "text": "ing",
+    "path": "91af7d847f80f22c5ef0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f913cf7a50cfc64f2289c402ad823792bcd74e86be3f01251437d5caab99bc1a"
+  },
+  "in the park.": {
+    "text": "in the park.",
+    "path": "2a4ad71334cfa0652a6d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "cbbf2a478c4d187b945c53a645014c4076096ebe82787c1e2fda4af12f4534e5"
+  },
+  "ing.": {
+    "text": "ing.",
+    "path": "6a19f097035d31fa0fa7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b7a8b595f02a5b0c014785b295f2290021bdb7483b2e80e2afd525bb76aa3ef4"
+  },
+  "in the park now.": {
+    "text": "in the park now.",
+    "path": "d1a9374d416cc529d6ee.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b08ec69ab0d637e0fe72b14d4c70a3c3f50fd131b78dd90ac62f5b0cca56c988"
+  },
+  "in the.": {
+    "text": "in the.",
+    "path": "c02ffcc21ca579b49951.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f389e23fddbaf704611e203d78e9c9630eb9fb6ca3e507c998968a33a9768f81"
+  },
+  "ing: dance": {
+    "text": "ing: dance",
+    "path": "3846836f81638bc7c70d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "bb45aeb5a8ca8a47e192a2f8907f5e61b9a3ebeaf11a7effc55cb245aa890a93"
+  },
+  "ing: run": {
+    "text": "ing: run",
+    "path": "681ad2aebb75ee430052.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "af81f2c1c817911a8982d125aa282d36a0f3e3204fd950fb107aba801aca5fee"
+  },
+  "ing: make": {
+    "text": "ing: make",
+    "path": "a1ed25c209236b3d8df7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "64ee87bacd75f4ff8efdedb84cce9ad9fdd8222fbeb86fc5090f3ab5754cc04c"
+  },
+  "ing: play": {
+    "text": "ing: play",
+    "path": "f77f32353b6c86aa2aa3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "66113b7a5530acd2e7cf2859f6381bcea3dd79d34dc48b2d7edcdf426b193a69"
+  },
+  "ing?": {
+    "text": "ing?",
+    "path": "a224b79d9ed4bb61ddc4.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a29baf2bf8f0431dccdd14310995b193307036bfb6349d8a0fda413e2da66fb4"
+  },
+  "ing: swim": {
+    "text": "ing: swim",
+    "path": "598d5bd3e93195105538.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "18082d90e60b1f5831423e626fdc45862fcb6b994539533946fb6a314ac56172"
+  },
+  "is a ball.": {
+    "text": "is a ball.",
+    "path": "a71dfb820d71f88a5c5b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c06e19e4ba8f2c95a00b8890937693e3547561af4896b98b02a3ab429049ac69"
+  },
+  "is a toy.": {
+    "text": "is a toy.",
+    "path": "2cbf84bf4b38bc8ae006.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f01de750c357897e1da1755b58b210516a20c89081980f36d4b3d4b701ed072d"
+  },
+  "is a tree.": {
+    "text": "is a tree.",
+    "path": "df859df61f66d20a61e5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "31cb26572e12cac7325e159930bcf9b4bb487b445f88b568ca74b2ad7441b2a9"
+  },
+  "is reading": {
+    "text": "is reading",
+    "path": "3a496a464d642e575e63.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "597f722091ba36912e4d0225ca2d0f612c0742a2a16ebdfba53f09ef79060c65"
+  },
+  "is a sofa.": {
+    "text": "is a sofa.",
+    "path": "6daa9a27061e7f29f0fd.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "201e371f0ad8ca7f89ae41a283f38da540b7a755f15746c79422058284d26f6f"
+  },
+  "Is he at home?": {
+    "text": "Is he at home?",
+    "path": "248bc03fa65d87c025b0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ecd22728afa798da7f74d86b2b2d1ba7b3a8c478190230a7f9397da866695e95"
+  },
+  "Is she in the kitchen?": {
+    "text": "Is she in the kitchen?",
+    "path": "7cd529279d20faf94963.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "69a607e818977a2f963687659127b54e9699dddf329e57bda08b3fdf7e7cf117"
+  },
+  "Is she reading now?": {
+    "text": "Is she reading now?",
+    "path": "882381799df563e7579a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "fea66584e0c87a21a72192c9243d5b5635cfec975045b9f26552c1f2fce250fb"
+  },
+  "Is she at school?": {
+    "text": "Is she at school?",
+    "path": "ec4610e39a371814bfcf.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2d0d5fc7f3e2f9e15d6fc30aa3a144ca0c218ec890bb59f0b13e89bb35dc66da"
+  },
+  "Is there a mirror?": {
+    "text": "Is there a mirror?",
+    "path": "a7b70b95ee9d658606f0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "8a9ab20f28b22662f29888a3e9195579b1b3815a0f815e178d5394d2cce20065"
+  },
+  "is the sofa?": {
+    "text": "is the sofa?",
+    "path": "5ebb313a88a03bd5062a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "8d101008c00e32a42340cd520149bfd05a95ae8637073fdfe3aae0203f920e4a"
+  },
+  "Is she reading?": {
+    "text": "Is she reading?",
+    "path": "c53cfeeff674e53d2502.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0ddb1f51d07bd51dacf6fc1130aa609a8906db672da5a13e0d15d62d815d363f"
+  },
+  "Is there": {
+    "text": "Is there",
+    "path": "cb08de2ea1461ee12ac6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2670a58bf88df51610eb0a3d92ac7ee71fd981e1f58233bb50e5cd514613122e"
+  },
+  "it a carrot.": {
+    "text": "it a carrot.",
+    "path": "71d7e06c62fb69e7f8cf.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "cd4b936b9ae9f4fa359eceb81fa8a204eae5792685d6b34d281c438bdb2d8a3f"
+  },
+  "It is an apple.": {
+    "text": "It is an apple.",
+    "path": "b0b9491febb9dd31668e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e56134ec472316156e74db42bfe4e04c86a784a4c696082c70d20bc32d82d6cb"
+  },
+  "It can": {
+    "text": "It can",
+    "path": "f79b3f0da01f22a50bef.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a9d8549b46f3cff76894d92d8cf1e7f9c39037c90088f535669bc209f340f72c"
+  },
+  "Is there a sofa?": {
+    "text": "Is there a sofa?",
+    "path": "cc93585f64809dfa333a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "bc988c9c1ea38df749af8448bc3a1655870a1b684ff98f7a63e02365e0604acd"
+  },
+  "It is Friday.": {
+    "text": "It is Friday.",
+    "path": "89a73f9ab0aa0b2ba1cb.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "529ccd27f1ff0692e2c22175cf2e4388dfb5987c3b1e081fd3591067916a588b"
+  },
+  "It is Monday.": {
+    "text": "It is Monday.",
+    "path": "927fe4a1c32679747f38.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "28513460c208445615d8cc1690d149d2b091f9bbbe225ce0c50253b099abd2dc"
+  },
+  "It is Saturday.": {
+    "text": "It is Saturday.",
+    "path": "1b4484e5ed7e101c2390.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a65cb2b29fe349412987ef3d85d14dfacf861fb46394f98f701e2871f5cd107f"
+  },
+  "It is Ben's bag.": {
+    "text": "It is Ben's bag.",
+    "path": "47a5b0e63c9dbb4d5d74.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e6ae62a7c75d99aea1857bd6a4a1ad1d8e919b7d89171f385878eec0718e7207"
+  },
+  "It is Sunday.": {
+    "text": "It is Sunday.",
+    "path": "39abc0781ce42a4705a4.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ded960aa6235b9bbb4380c2b7864520de230e2bb9811e89316599f685614685b"
+  },
+  "It is Tuesday.": {
+    "text": "It is Tuesday.",
+    "path": "43e5fbff2af3d6a4a89b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "7d83510b70a6f0c975f8239c006c977f6eca485082bbc271f4174c9fd475aa41"
+  },
+  "It is Thursday.": {
+    "text": "It is Thursday.",
+    "path": "0f5a6da375db856d90d1.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a7ad2d63353dea6530e091becbd7b0446691b6f1dc659feb805d3088e0398af5"
+  },
+  "It is Wednesday.": {
+    "text": "It is Wednesday.",
+    "path": "e79b9d8aa1d526fdad64.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "05fb0ffcadfc60c28fed6927d3c19695aeb613d44630e8f56d39fc6ac088762e"
+  },
+  "it?": {
+    "text": "it?",
+    "path": "8354aace85dfc8a98a7d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e312ae22645742d61e29895316874cd44a7f629426e22f4b84dc76679b4b9e71"
+  },
+  "It is Ben's.": {
+    "text": "It is Ben's.",
+    "path": "e4d63a8b2f30d448ad6c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d25df31ad05c731b45cf1c69d56e444e1fde92423553169ab628bd6c07ac5c96"
+  },
+  "jelly": {
+    "text": "jelly",
+    "path": "22d8ec27fc129158128c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "61895b69eaec937e98976e7fe02cc48319ab86e76f681aed0cbc13e79bb4da9e"
+  },
+  "jumps": {
+    "text": "jumps",
+    "path": "ef30940a2d1b943c8007.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "9be2e258bfc5329feaabaff8bc26678a43f3597e5bb554f9c52dfe7aba8f3e94"
+  },
+  "I’m reading.": {
+    "text": "I’m reading.",
+    "path": "da0221d3067bdce86bb7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "206d3e855d7fbfb0172db1ed6b82807594724a18dc40c9ba844e336c3434b586"
+  },
+  "It’s funny. It": {
+    "text": "It’s funny. It",
+    "path": "a80270c65fefa0ec5f76.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "153f25685c456055f14694cb793908b999c218923dab8b67dc79dab34a5758c3"
+  },
+  "kitchen.": {
+    "text": "kitchen.",
+    "path": "3974d24fe37173746ad7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0fb0d1eed32240c8d8aad2a902525a95004cb5c6f3b0a6ecd4f063dcc4796fc5"
+  },
+  "lemonade": {
+    "text": "lemonade",
+    "path": "13cc358c604102b8449c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f482b51a42cf12d3195f0b6ee5e55acec72f24e2d08322a8d722cf0560e4d584"
+  },
+  "kite": {
+    "text": "kite",
+    "path": "8e8c7d42b456c9e4ec52.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a0a3dacc187038adebbde6814082e3cb83f81c4ba893944a1a90bbfee4cc2580"
+  },
+  "laugh": {
+    "text": "laugh",
+    "path": "31e289f536683cb9ce6c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b2ec33df5cc489a8b3d4b8f4554467ada9542cc41dcd41790f249fa3e02f4106"
+  },
+  "listen to music": {
+    "text": "listen to music",
+    "path": "af975d5cd8dacb5b001e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b148d8d403f8f6d652a9e2043ecf92d7d4e59c03193bfb4a13896d0257f8fdd1"
+  },
+  "lived": {
+    "text": "lived",
+    "path": "f4a048aaa845c7547fb5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "81a77b8cf59bc56973fe99823ac7e16dbeae5b469965ec43647105c364ae529f"
+  },
+  "It’s got a tail. It": {
+    "text": "It’s got a tail. It",
+    "path": "d199f6e528b6446df1d6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "768fbd439ffa782cafe1e42729f4fad280f92edf1b7471ecf9f5d8ca86412719"
+  },
+  "long": {
+    "text": "long",
+    "path": "fc66f021c67d064c1490.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a21e5a15a3e9104d7790cfe6c001aee7d3755a3f6c5e0e8b98491f77d81ba326"
+  },
+  "like rice.": {
+    "text": "like rice.",
+    "path": "1d42b7ae6c8d476b9ac8.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "113d8dfeaf2af92b0fc167fc7c905c8c37e7c5f1058789fbd4342ffee8439d04"
+  },
+  "live with mum and dad.": {
+    "text": "live with mum and dad.",
+    "path": "05a402175954a6fbb256.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "abd70dd01e66c51b9e74117657c52f33429a546e611b8e0d1a180ed7d943a5dd"
+  },
+  "Look at": {
+    "text": "Look at",
+    "path": "e43fa23cc4621d2b6730.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "19b0f0eefc6c5b7befa4518eda26ee8307de4050d53268b189da9348eb860191"
+  },
+  "long legs": {
+    "text": "long legs",
+    "path": "31ca3ccf17bc91bb556e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f1868ac8df7d7b4648136d35eaee1254d12a09b59dd5bcac79a42b2f4240f71e"
+  },
+  "long ears.": {
+    "text": "long ears.",
+    "path": "cb1e9e80d9192ca42c0d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "96fa06a7cd52e55630221d3009b160c3f2b776710ba11576b31c9b6e88eed0d0"
+  },
+  "Look at the aeroplane.": {
+    "text": "Look at the aeroplane.",
+    "path": "83d0f0f17637a8f02a16.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b056dffdf11cf51af31fbacc15f597ad24af2e2a63917b4c146162eabdbb6e5b"
+  },
+  "Look at Emma: Look at": {
+    "text": "Look at Emma: Look at",
+    "path": "63100d7d3ee1213e00b0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2a25f18d1cacfd51c07e7686924dc09ec0893912413ca38055c1dbc44202609f"
+  },
+  "Look at the armchair.": {
+    "text": "Look at the armchair.",
+    "path": "1bd74c0bcb76c0ac183a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a0928d30cd46eafa27d2ce8f99d54cef6b710fe4329d6efd2c83e459f4090c34"
+  },
+  "Look at the computer.": {
+    "text": "Look at the computer.",
+    "path": "7cffaddfc24281499b18.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "954b4a298f56c2acc6cd590772bdd15ae26504217a6d1fe586316816d2ff9e38"
+  },
+  "Look at the cupboard.": {
+    "text": "Look at the cupboard.",
+    "path": "0159971199e1ea89f962.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4254cddf5f9e4d5222710432143b9c604219a0b41abdc693c30b457e0590929b"
+  },
+  "Look at the fridge.": {
+    "text": "Look at the fridge.",
+    "path": "84133b8ec1eaa486aae4.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "766bb23ffd055bc329878298d512ed87fbb2b5855896063ba8e75b351a731468"
+  },
+  "Look at the cooker.": {
+    "text": "Look at the cooker.",
+    "path": "109b30325d34c836ce58.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ece7b5307c4114337c973728e48189d427167335dcc0cf21ecdb21fdabc3e306"
+  },
+  "Look at the face.": {
+    "text": "Look at the face.",
+    "path": "0a9eb2a60f1764806c68.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4643d425db1aac42ea26e79669a1eb1bc4e0e802bc46aaa913d49257ea7c0c91"
+  },
+  "Look at the fly a kite.": {
+    "text": "Look at the fly a kite.",
+    "path": "88a11149c1288248694a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "520fd59dd4434c3184b8d7c6219f61531225e7a500197d69ab58c9348a6392fc"
+  },
+  "Look at the grandfather.": {
+    "text": "Look at the grandfather.",
+    "path": "0d28cceb5e527c9d0dc1.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "26f018850c5a6ae1bfa74f160994e2d652c3f8d1c613714cccd33b5fc695ffec"
+  },
+  "Look at the grandmother.": {
+    "text": "Look at the grandmother.",
+    "path": "fe8ee1baff7e81ef61db.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "59c873a7ed1ca801e548df5748acf39131ceb528e28bdd172526f9f6508dd774"
+  },
+  "Look at the mirror.": {
+    "text": "Look at the mirror.",
+    "path": "dfd6f7dbf172e8dbf1b4.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b473015c5f1b05746a7f0e4ea38c11f0ea40774806633a3a459e19325202db8b"
+  },
+  "Look at the musical box.": {
+    "text": "Look at the musical box.",
+    "path": "631d24a091c21502ceea.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "029b95b87f833ca0181892901ebf8818abe60a828e30200ab49b8805022805d5"
+  },
+  "Look at the parrot.": {
+    "text": "Look at the parrot.",
+    "path": "24cae415a466f0377a94.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d2c99e6a51279919013ee1f1e7bf30d23c90a417a082ab874365ae0db5422a6d"
+  },
+  "Look at the park.": {
+    "text": "Look at the park.",
+    "path": "50023cd9282e4e1c300f.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5fefe442ede454d0f2582d988ba09b2a7ca711a9ab175070840aa2e9594b9fa1"
+  },
+  "Look at the rabbit.": {
+    "text": "Look at the rabbit.",
+    "path": "bb750bc08b7eb3fe5fbe.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "12cc5228a20b9953a6544d433ef8e02706212a1659491805432ae9be375835df"
+  },
+  "Look at the rocking horse.": {
+    "text": "Look at the rocking horse.",
+    "path": "dc4ea85d8edb89259fc0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "52293088a17cdfc5648d6ec737203a2e0a8da03c04b2b33098cfab7435339351"
+  },
+  "Look at the seahorse.": {
+    "text": "Look at the seahorse.",
+    "path": "c6e27e553588ab3cc122.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5c58329a861c625cb6dd81391e9cf702e9f76ada8c47f1de1c54ddb842a90a8f"
+  },
+  "Look at the relative.": {
+    "text": "Look at the relative.",
+    "path": "e7a8f9573766bd8d5605.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5f0d6449ea1ad40d3c793f8604b24564ae0814f7d8f64004d75246ac2be9e5c8"
+  },
+  "Look at the sofa.": {
+    "text": "Look at the sofa.",
+    "path": "5ef5e569408d657d9528.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "44508a520ea5b35f750dc3c39007bea7ad9067ade08caf491cf3e7515d637f18"
+  },
+  "Look at the spider.": {
+    "text": "Look at the spider.",
+    "path": "42190c1a25b63e81690b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "6fcf3cfdc7ce273e39634ae4ab9669ce78c2fdc07a26a4eb2185a4a485b0877f"
+  },
+  "Look!": {
+    "text": "Look!",
+    "path": "2b2e6386fdfb83273eea.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "8e9cadbe93103c9221832ad3aac17f561dcb1ca83d8a3a874ed580d330ce7632"
+  },
+  "Look at the tortoise.": {
+    "text": "Look at the tortoise.",
+    "path": "3d7ed2b537705ab45b8d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "74618191d196ac173944db530cd08b755414195bf15e6179975ece5f0322cd64"
+  },
+  "Look at the teaset.": {
+    "text": "Look at the teaset.",
+    "path": "d915caff2cf7e28cf48d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "bc86caa8f423e5fb163383708731929d19a6caf78c67e06818846a24487d3436"
+  },
+  "make": {
+    "text": "make",
+    "path": "d05aa2a15fb3c40efeeb.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c143af3048eef7fc83d427365873da017b333e74a937dd659c9016726fcfee7c"
+  },
+  "lunch now.": {
+    "text": "lunch now.",
+    "path": "3c1a3f993751c73ab9cb.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f14d6f1a4802f8fb83d2d590e553586a3335ba854e1e490ddfefd9ce7dac780c"
+  },
+  "Look! They": {
+    "text": "Look! They",
+    "path": "91b6b1dba0d546da3a02.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "524478c6e9ac5b68b06b50368d6294ff2aecacec3ce9c38bc6b9db1a05588324"
+  },
+  "making": {
+    "text": "making",
+    "path": "febb9f32c94e238e5f36.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a0feef811c847c66b56201da2b40fcbcd1c8bbc4e69428551ce1dcca0923e5f7"
+  },
+  "Lunch in a lunchbox": {
+    "text": "Lunch in a lunchbox",
+    "path": "2e744d589616554e8d1e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "6206837e32732fa72ad550216f7063948a149f104d0e0a78061ae36edf74230d"
+  },
+  "mans": {
+    "text": "mans",
+    "path": "4d193b62e9c2a066da34.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "9088a0018c659e7aa00e3554b43f23102f0e9fbc66f94e36f1c160080a1db41f"
+  },
+  "making.": {
+    "text": "making.",
+    "path": "8696ba8bd45ccac9af2d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "628de565fb5b54c74de1870dd2fdb1b436532504b2c318d06579249158e72718"
+  },
+  "make a sandcastle": {
+    "text": "make a sandcastle",
+    "path": "88182ab80c750fa5ed24.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3c42942900f6a077b366945f4775273b5d3c9914f5787e8482bc209874c9d1ec"
+  },
+  "meat": {
+    "text": "meat",
+    "path": "59d6d61431fce7d91388.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d20b97efa9d6b9b45d2eafed5f7f2982f02bcb71080801bd6b20543308c1dfd1"
+  },
+  "men": {
+    "text": "men",
+    "path": "08e3c4c91ca5c58e479e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "bf0b57e663b1b1d84e87ae3b693422b772e6fbf664515e212bb23c767b78b46b"
+  },
+  "makeing": {
+    "text": "makeing",
+    "path": "e326f6306cf8a06c9fe1.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "732cc77c6fbec6894bb9a28949d89232cd729bff19983ce05d912030d1803f34"
+  },
+  "Mia": {
+    "text": "Mia",
+    "path": "41509508705bc1b71f2e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "548ca904e6319a713b2595dc3244e989566cb2c2f5c73c6e0d7445eaac300f87"
+  },
+  "mice": {
+    "text": "mice",
+    "path": "604f8cb27ac7bb52ac56.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "eac7c886a54b712ae24c811e1b1be0910b90b4773cebb5d5c6ab850b5d4a8ba1"
+  },
+  "me, him, her, us, them.": {
+    "text": "me, him, her, us, them.",
+    "path": "063aedac359fbf51d58f.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ca07ffc39690f20a20411cafaeab748c13e1f9269d9ea962ec77b7a51b24771c"
+  },
+  "mirror": {
+    "text": "mirror",
+    "path": "00154761637ca746c354.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "725201fc43345559a76bb1760466cf954805fa68ba81d05ec9453ba664341415"
+  },
+  "Monday": {
+    "text": "Monday",
+    "path": "6a00dfc1dc867e8454c2.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "47fc11c43a0552202b449f006f16b1cdb38b818c84e4d9579278b3255711d1a7"
+  },
+  "mirror?": {
+    "text": "mirror?",
+    "path": "dcc6f713608507b974b3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "827220adab6b868abb5c6f617e6d0d9176366202623908595c9cc77d34533b04"
+  },
+  "milk?": {
+    "text": "milk?",
+    "path": "8af8a3c14fe6daf8bbe7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "bb3db86ad585d9b9d91f9bb79f06b01d2898eda001ac3bc412de851fe3372216"
+  },
+  "mice, tooth": {
+    "text": "mice, tooth",
+    "path": "cfae09b8736d382a5191.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "6b04ad7797c7ab05684e1e280fb6e5258456dff92459b61fcec2d65788be8d2d"
+  },
+  "Monday?": {
+    "text": "Monday?",
+    "path": "e43bf6b0a197ae880b3a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5f19bb0bde3098089844190e0dd9a172496111b098215a499d6955c14673ceb4"
+  },
+  "Monday.": {
+    "text": "Monday.",
+    "path": "348f44e27c2d77587478.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c29b4ff2ffda0495d3d5b86879056462379f5984c865d19dc6edea0506d22994"
+  },
+  "mother": {
+    "text": "mother",
+    "path": "cf0622ef2a661cd2f11b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "24f44b173cde423a60b88897f817531d8e6ee1f36c69da4736829e2b76a3fbd0"
+  },
+  "mum": {
+    "text": "mum",
+    "path": "f2d758f9e379babc91f1.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "49fdad45f3cd63337ff7dc9a20af2ed1342c1729197a5bf16a3b96f2c2db970d"
+  },
+  "Mum is painting": {
+    "text": "Mum is painting",
+    "path": "bded78b4de0212eeddd3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "aa597dd7eab2cf2a43a030d8337d5c61df096748414391f9a1343598ff33fa46"
+  },
+  "musical box": {
+    "text": "musical box",
+    "path": "884cf911af88336e2039.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5111b6ffd352ec8ca764140414d73143f996f2b1ce01c384a236c1613cb75b34"
+  },
+  "Monday is the first day.": {
+    "text": "Monday is the first day.",
+    "path": "7fc4debd131e00cdf1df.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b229c1aa588c58542fea821f4a309d56e58ec42d731930c44df510e25ee86057"
+  },
+  "mum, father": {
+    "text": "mum, father",
+    "path": "1d3716dfaa6cdc7dfdc6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "6ea67078e67a824584b162ad67f1bd58c3c0381b492f6d75b7cffba68f3c13f4"
+  },
+  "My family is big.": {
+    "text": "My family is big.",
+    "path": "40892838ee66a357e679.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "844314846b8c53957fd504411b944c2e5d14d04b30e6db20236cb91a9265a0b0"
+  },
+  "morning, afternoon, evening": {
+    "text": "morning, afternoon, evening",
+    "path": "530b9ca867f9d8d4efb9.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "12ffb50e560510f31a15e41f009eae4fe09cb70400d5a4ffa2407cae631827db"
+  },
+  "My dad is at home.": {
+    "text": "My dad is at home.",
+    "path": "eb8ee060a0ce8256e312.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b94ea4f67b71c53278c497bb819d95bcaea099a566de052cfadb00a96794a7f3"
+  },
+  "My favourite food is chicken.": {
+    "text": "My favourite food is chicken.",
+    "path": "5fafc19213f756e825bb.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d64839b8fed6e908083a17c533f67b4d96f519b77820bfe00463e2440f1c06f9"
+  },
+  "My dad is in the park.": {
+    "text": "My dad is in the park.",
+    "path": "1c24d0a23b26cc03114c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "7305b6bb8772dd39742209adb2790b308818ac5115ac93d731677d70b2113345"
+  },
+  "My family is small.": {
+    "text": "My family is small.",
+    "path": "d318c657b1b0a3751177.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c42bba1314a87b21234041e0cc4e24a801570dd1c22673edeef259b2772353b4"
+  },
+  "My friends are walking.": {
+    "text": "My friends are walking.",
+    "path": "149ad0049b3100a0baae.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "fcf26bcfe67de1095df462e598341cfb1ad5ac7fe9b1b5fc96b46446dd245634"
+  },
+  "My friends like dancing.": {
+    "text": "My friends like dancing.",
+    "path": "f8a95465949676778823.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "059f698e5f077ff98f4761a23cb9ecec03122a691715aa4c31d1d7af4c61e5d7"
+  },
+  "My friends are playing.": {
+    "text": "My friends are playing.",
+    "path": "079383311e59b301cff2.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "aac9be8dccca0105958ad1ac1e0ef09a67127feac9ee59b0c9dce5246bf5f612"
+  },
+  "My friends like playing.": {
+    "text": "My friends like playing.",
+    "path": "ee89637dd90c8cc3cdbe.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "cb089606f96df2f2ff0d55e6a0c9072d58427c94e43295f73fd86ef574844cbb"
+  },
+  "My mum is in the garden.": {
+    "text": "My mum is in the garden.",
+    "path": "cc99c7c53355db7e8be7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "84ac8ad72e4053f41d3cb6a6f1e35a15f61624dacd6792200f9b4541b627f5dd"
+  },
+  "My mum is reading.": {
+    "text": "My mum is reading.",
+    "path": "272b3647b99d205bced1.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a77ba8821f069cd24a22be9a2f78116c8fb1c971305b63cf8456eabf78b1a0f8"
+  },
+  "My mum is in the kitchen.": {
+    "text": "My mum is in the kitchen.",
+    "path": "5fcd34bcd5ab3147387b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "33813c51d65eae864a695cec74819da7383c3a2d7ef6fb618de8e5bc492a38f5"
+  },
+  "My mum is working.": {
+    "text": "My mum is working.",
+    "path": "170e7873f1ee049c753b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "24949c9183aa931f7e075cb3f885b91ae193dfb0588fafa2dca335e702b7bfd5"
+  },
+  "my room.": {
+    "text": "my room.",
+    "path": "96e610948f16213547e4.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "67c55d68b2c09fa0ad989c768f4abd873cf8cd19d898ad15661aec336afb5206"
+  },
+  "My mum likes walking.": {
+    "text": "My mum likes walking.",
+    "path": "700efe051670f73aaccd.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "7e1f2c43b7d3e01895e7c24da6b298a6541915a6c2aa48cf2cd4f7b22f640da4"
+  },
+  "My mum likes reading.": {
+    "text": "My mum likes reading.",
+    "path": "77d17f1d069f724e2d90.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f3aa30070a82041937667fdb7985a904ec0cadf494a0a8155abd16db5e8c7064"
+  },
+  "night": {
+    "text": "night",
+    "path": "176473d7313395b6e209.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c1c7b975c3ad73894363dbd9968dd5b44c0e26ceff9da63aee8fdae40e912f3c"
+  },
+  "ninth": {
+    "text": "ninth",
+    "path": "2ed280d84ad145eddf61.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d1acce5f08dc88119ecc22447a90b12ca4706a7d15b4d04838e4b9df6c4e0808"
+  },
+  "name is Emma.": {
+    "text": "name is Emma.",
+    "path": "fa3b9f41ee468dcaa7cc.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "635bca81b9f2cb51c68e4a0e1229989e349bf72d29ccdc5d1f4d9d6c5a824859"
+  },
+  "my, fly, funny": {
+    "text": "my, fly, funny",
+    "path": "272258e4c0bef98f1791.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "42243bd5a94bb45b76678270984cadd311c87bc2f291e70c7a71608455cdce07"
+  },
+  "No, he does not.": {
+    "text": "No, he does not.",
+    "path": "d6bbfbec48dd24646f64.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c36be2c948fa831984f96d9fc5c0450c07e1f69f4d04a8202637cf6e471b6089"
+  },
+  "No, she does not.": {
+    "text": "No, she does not.",
+    "path": "b9aed176dfb4b507d5e8.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f10202c6fa27a603600dee95b323fdb5a3c8025051caf40a49b0291aed6d9ecb"
+  },
+  "No, he was not.": {
+    "text": "No, he was not.",
+    "path": "7844fbce1eb13a8f67c5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e1f04c8d4fcb1c994de5fbcadccb49ec3818693a45ec8fc51908fcf099f1c39f"
+  },
+  "No, she are not.": {
+    "text": "No, she are not.",
+    "path": "11784a4ef06effbecbe5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "733271297de896b1b355c41426ca888de2f8604da1b31a700eff5771d3cb0349"
+  },
+  "No, there is not.": {
+    "text": "No, there is not.",
+    "path": "f073bcfdd1a31d180dba.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "418dc6c5f44aa603ce7c26205877ed80e847c4c7e713631a50ea9197ebf3c347"
+  },
+  "No, there are not.": {
+    "text": "No, there are not.",
+    "path": "6abcd33ecdd77e032199.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "40678535508ada6ca0392793ce017f5552421149c039351efed5646c61ac9500"
+  },
+  "No, she is not.": {
+    "text": "No, she is not.",
+    "path": "ab002d6a9c5f3776c05a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "477acc82239a0d214016dd0c1ec662c8692b37a052071ecc8284b557b3069687"
+  },
+  "No, they are not.": {
+    "text": "No, they are not.",
+    "path": "ea13e123d27e1b555ab1.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "019cd35e7707dc3b33ab1aaa176bf72637854ae6555a7954523b104cfc1876d3"
+  },
+  "No, there was not.": {
+    "text": "No, there was not.",
+    "path": "9621d7d5fd45579d7ea4.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f8b0aa99f242c5a8342f04c39051268bc049e08206a35261ce25d7fb394398d7"
+  },
+  "now.": {
+    "text": "now.",
+    "path": "e33eda6ebf590bfbb515.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "7d0e65f7e05fc451b60242b1f8b8281e3bfc9a129f618ef65e22a7b2dcf7a3ee"
+  },
+  "No, there were not.": {
+    "text": "No, there were not.",
+    "path": "132fc0e886156e77656a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5ff9861eee3a3d1961fe87abdac7a51440119a9d3e08e5f6d5a0a2abceb1028c"
+  },
+  "now?": {
+    "text": "now?",
+    "path": "f7cdbdf1bc8efda1afcb.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "89af396022191016f6c678127ed497aa6eb754a5267dbaa4f4367aa18fca73a8"
+  },
+  "nose, home, dog": {
+    "text": "nose, home, dog",
+    "path": "d3e8efd04171bd0ff4a3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "43763ebc77c64fa22fdbac7804512cf70497ce38a73484ce2def2161d89263e5"
+  },
+  "on Monday.": {
+    "text": "on Monday.",
+    "path": "059cf9147b54191b0479.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "6830f8f7dd189a4d9a9824f96871f4488cdad3824742ce451afac855061e4cb8"
+  },
+  "on the table": {
+    "text": "on the table",
+    "path": "7291f7ac83ea2738b723.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c30eb0853813125cf6dcb45946894fa7f99f234a0fccc9aba84d91419cf1abac"
+  },
+  "No, they do not.": {
+    "text": "No, they do not.",
+    "path": "a97225613f91e1ebd6a6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1b3bf6ecaaf8464185779d842bb19f2efa085ee8160734fe7564186c29504a72"
+  },
+  "On the table.": {
+    "text": "On the table.",
+    "path": "03d68501e9be8c84473b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b9132e4e804371efc62b68eb396cef925121384ae8aa996d10953880242f85ea"
+  },
+  "on.": {
+    "text": "on.",
+    "path": "543d3344651e25278064.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e54728b9486fb213e8c79506c639732c0a0208a4b9a586cc490b1049ad4fd868"
+  },
+  "our": {
+    "text": "our",
+    "path": "a6556e4852e2639053a3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0cf56081b2604a28862256c9381169b60468fd8996076f28ebf2257668ccc278"
+  },
+  "of the sofa.": {
+    "text": "of the sofa.",
+    "path": "e33acb7d7237805a4fb7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c82478186c3700c816bb857de0c82215c78b7c83823d5e641a43ce259ba52ea1"
+  },
+  "over there": {
+    "text": "over there",
+    "path": "aa572b28f43faac6dff6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "78b03ad9e48a3b8d3aaeae7d5e3bf210d804670ce75ea84b43b8db962eade7e3"
+  },
+  "paint": {
+    "text": "paint",
+    "path": "297e619db5ee855a68d5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "58a8eb11a0561e8c88057353d9211ba48495939fbd8ac2538e452f382bc13e70"
+  },
+  "painted": {
+    "text": "painted",
+    "path": "69eac68c8b5f51c61663.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c78a2f55c7345525739df5651c8783093654ab27b6b590728f990f1e05021773"
+  },
+  "paint a picture": {
+    "text": "paint a picture",
+    "path": "c557efda1e885ca9c44c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f0fceb99495aecb735ebecff5404de056f54f8353d97209841703358d0d6f234"
+  },
+  "painting": {
+    "text": "painting",
+    "path": "a54e5638bbc34d80ddd3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "849305882ffd6fde8432520554b5b7140ca8ee1786f17ac96bfd8646c68ab036"
+  },
+  "pasta": {
+    "text": "pasta",
+    "path": "a4c18ee0ada59e343691.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "6ea8988544c12cfb7d9872daf53db4c05d926ee5636445b41661438cb9858448"
+  },
+  "park": {
+    "text": "park",
+    "path": "4d3971de62245c94cd3d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0cf188b8a176138d2e3edb544b4d20797c2ca6ff974369f01ffccf88bda7902c"
+  },
+  "park?": {
+    "text": "park?",
+    "path": "737517ad60b7a08dc390.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "6de5cca642d8ea5175ce136f9986cc0ecda0d663f5bad664dfa9d6681740397e"
+  },
+  "parrot": {
+    "text": "parrot",
+    "path": "4488b8b86b1ac061dbe3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c0cc341366a4a9eb1caa627d068cb34fa8de33bbd97421b516424a7391682394"
+  },
+  "pick": {
+    "text": "pick",
+    "path": "8ce33c6c86e991f7b499.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d77b47953a04f4bec2e747db67b825a6a3da3802d315e4df88ea43e90ce047d3"
+  },
+  "picture.": {
+    "text": "picture.",
+    "path": "1e728094d142c6ba9f05.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5d1d6985270ff6c13aebe4cae1e55d816371cdd4e88632ca668940a9e23d6d8f"
+  },
+  "play basketball": {
+    "text": "play basketball",
+    "path": "5c5d7f98633a706a7ab1.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "df93fb439df75712cdc559e68efa0c60eecaa7dee982a8eea93ccacc829b71ae"
+  },
+  "pet?": {
+    "text": "pet?",
+    "path": "dece940eb18d4d122184.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "648db2216a878cba7b9ca22e17639b912ddded72a400c9155c1878c165be393b"
+  },
+  "play soccer": {
+    "text": "play soccer",
+    "path": "e30e6d6abf6ba6316d62.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e3713a162566d2d583cec7cf6dc0daab9b16a5930a2b1cd3d8613b4cf2223c8b"
+  },
+  "plaing": {
+    "text": "plaing",
+    "path": "99de7a4b0a8731391bd3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a5c63e4efc75b64f8a6725d25c399e9a752603366459747402ec01ff333cef01"
+  },
+  "played": {
+    "text": "played",
+    "path": "8000dce068b164c20509.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "846513399b421be76ada757443e65677301f9faab271e65fb4c188155251f37d"
+  },
+  "play the piano": {
+    "text": "play the piano",
+    "path": "aa8ed0a3a89e756a6fd0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "bf22f76b7ea65bbac70f770038816f9cab02c525ef84b99a43f698f77e5e85dd"
+  },
+  "play on Monday.": {
+    "text": "play on Monday.",
+    "path": "5d6cfc613a296f0d5d08.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a9886aac94dba3961161aeca956b0c1baf27dfbf0edc774dfa3f157fbf67a484"
+  },
+  "played.": {
+    "text": "played.",
+    "path": "17fe7039b0076153015a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "42c4612d9c0734fbc5c1b03953017dd369a1dfe997811fda733e2a322eddc45a"
+  },
+  "playing": {
+    "text": "playing",
+    "path": "0db79e63c5179b126361.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d7377f9735f9097760e15f6fed02eea887474abe95de5c8fc7616f6a7a141a78"
+  },
+  "playing now.": {
+    "text": "playing now.",
+    "path": "62e3d4b4de5ff37197ad.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3ae229468bf38d96202279f971313c037f5d22cc2812f71fc5b65714e2350c07"
+  },
+  "plays": {
+    "text": "plays",
+    "path": "bdfcc48f9c95491a3b80.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "be9d2a2a938f2363404db34d2e8929244eb6e454a3c6ac8195149e80fd21e5cd"
+  },
+  "play yesterday.": {
+    "text": "play yesterday.",
+    "path": "b88e14235e81c58d4ea4.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "22321fc341e3900d435a342d6ab287537e68aff2e18f6721bd8c3a72ef51719e"
+  },
+  "potatoes": {
+    "text": "potatoes",
+    "path": "292bdd381b06dfb9fee4.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0c7959de9c06b86160d600e3daa975192a16ce5893933d34082c61d4abf9cd5b"
+  },
+  "playing.": {
+    "text": "playing.",
+    "path": "feb88c9eefbf3928bf72.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "bb11cb8bcdb8a0e20e40941da0c7147a2b9ba25c481d0c5523ee61cc85001540"
+  },
+  "popcorn": {
+    "text": "popcorn",
+    "path": "0a4ef253e3fef22cb9d3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2a03a4bff1b1acf5cb6bfc1f4efb0314b405418da11a4f8439495a4cf7752a23"
+  },
+  "rabbit": {
+    "text": "rabbit",
+    "path": "d37d96b42ad43384915e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2427173dd962a71caadef399387c2e1ce3e2d8deb263209ef5c44ca3c3d7528f"
+  },
+  "reading": {
+    "text": "reading",
+    "path": "d70afca615203838da3d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b873b2d50bf0e2741b55b56838cdd0a845ed164cca247ff90c39146cda0e20ec"
+  },
+  "plays, runs, jumps": {
+    "text": "plays, runs, jumps",
+    "path": "61814908565c8a8bdee8.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d474d9b704ede38b2758e531bdae08043ed43bd7e82eb2ee48460e808f3718a6"
+  },
+  "read every day.": {
+    "text": "read every day.",
+    "path": "3129aba319be2e5ea6c7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c4344247b8cb5c711d266ff8b1c638879c51a22edc6c88f25f3ace2c31ec06c0"
+  },
+  "reading.": {
+    "text": "reading.",
+    "path": "247c72821aa36a40d565.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "7b62e38bd3e2445fbc646daad9f23753b98003c2575bf05dd3f8968a0c774adc"
+  },
+  "reads": {
+    "text": "reads",
+    "path": "3566cf23ecb6f832d67d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "69c609f7742c0996d68051ed588286bfc01301aba8c3e86a935a07ea8fb663cf"
+  },
+  "rice": {
+    "text": "rice",
+    "path": "209f76418ece7c936b65.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "27ae0e1487d5fd3387d1eab0e0d46f63ead49c7bccc4659c2bf4d0ef9747a256"
+  },
+  "Present Simple. Now": {
+    "text": "Present Simple. Now",
+    "path": "7384fae51b6d00c28b3a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b6ee7ff82e6ca040307f5eec063f45d6b006474d1b253943a936c523f7670254"
+  },
+  "reading now.": {
+    "text": "reading now.",
+    "path": "6ccd50b208c8fe6f3b7c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5e840262fe3711b3485d7894aa267817fdf1a7371a784c0a6931fd3fa18c0467"
+  },
+  "relative": {
+    "text": "relative",
+    "path": "d2d9e1f13413d3e07064.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f9d45357e377c91691ad0b66f08db2d51f97642808ac205338ccff48315c48ad"
+  },
+  "rice.": {
+    "text": "rice.",
+    "path": "8ca1b32a420ac41c3361.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "487ced4e32db2a03adaf98bead884a2fd5d0b7e1f14a0838d6922b172b4c0f11"
+  },
+  "ride": {
+    "text": "ride",
+    "path": "e049bd056f936d1b39b7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "7a41bc4d8a8832d099a0ba87b1fa8e0451d542f9f6268296250fabbcbedefa83"
+  },
+  "rocking horse": {
+    "text": "rocking horse",
+    "path": "f4a4d36d6fa4a4ec468b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f0c1c14f4207528ce871983323e6f960412ddd4a1d425fafff396636017b32d9"
+  },
+  "ride a bike": {
+    "text": "ride a bike",
+    "path": "64e3d9d0864b16b2097b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "7eb3773671ad687a5152411bd92c4eb54d21acfc1b6dce61ef7611c322bcb741"
+  },
+  "riding": {
+    "text": "riding",
+    "path": "c1e6de2c54a06869a615.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b235cab2429b516e647becba45d50beb5ee6d634dc78a1e605c57a50b6e0d705"
+  },
+  "runing": {
+    "text": "runing",
+    "path": "6790da7d028ecbd2d1d0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c979388d491544bb17d16ca97a8d67d41b4588bfc54f614b374836dd7ccefd8f"
+  },
+  "running": {
+    "text": "running",
+    "path": "c071cf5f5ed6f884cc70.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c52fe78be407973c1ca5e110591d62efc5cb6f4e710c59432a53b59a007fe9ec"
+  },
+  "runs": {
+    "text": "runs",
+    "path": "1f64fff08d787e732e04.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ce6c407284e831dd314c724ff0c4b3db4fe70f4b8f3fcd345926b57e44c7e27f"
+  },
+  "sandwich.": {
+    "text": "sandwich.",
+    "path": "b64b34c83685687ff406.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "790a7dd66e532464c8672615347bfb93a3f51688a7f466d16a71e823922c8641"
+  },
+  "sandwich?": {
+    "text": "sandwich?",
+    "path": "596716cabf10978b7285.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b46b7ef7d719b3f6b11f01017d38c35ef0029621c3407310b8d1c8b7788d5049"
+  },
+  "sandwiches.": {
+    "text": "sandwiches.",
+    "path": "12cf386cb257204db570.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ea1ce8c4707b59394f56ec02ef45f18a0e0b778bbd548bc97b445951765243ec"
+  },
+  "sausages": {
+    "text": "sausages",
+    "path": "b46852fb83db1d391b98.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5ae6484d44b2c25d6b8fe9393ccf29620ec6586b6273c348591741d0ebe34e26"
+  },
+  "Saturday": {
+    "text": "Saturday",
+    "path": "dbe35c7363c2f7ec747b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3fa8f04aacf98925c99946927e75fc8c5ff442a0a8acbd1d2da56d9562e89722"
+  },
+  "saw": {
+    "text": "saw",
+    "path": "dfc1a1888f01d9476764.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1b1ec949c0fdc1632c21b72aa786d6cdaa434972ae8f7c82ab35508fe4191452"
+  },
+  "school?": {
+    "text": "school?",
+    "path": "5482b59e540441699afb.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f8c23b73b0e2452b64849ef5544260238491e760f7eca3679c95e623f993b4ab"
+  },
+  "seahorse": {
+    "text": "seahorse",
+    "path": "8e5f948e5c8158fe617e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0470b00f29ecb4667b89605b2fcac709927805a0398d4e658fc3f9e9c560e1ae"
+  },
+  "second": {
+    "text": "second",
+    "path": "16367aacb67a4a017c8d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "cbe57cfd83a9e98e83e34de99a71a5d7dc244480df8f4f2bff266a1b266ce1d7"
+  },
+  "seven o’clock": {
+    "text": "seven o’clock",
+    "path": "c2ebfb9b908764392608.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e24b6ac0d453610a44da7583d0b14882ff0ecea9aada91b6b0c9eb31705f6694"
+  },
+  "seven.": {
+    "text": "seven.",
+    "path": "35f7ceb7f5a57797a16d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "6cc3421ce5e24ec28274ebeee2b619f27e797d8d55c9d740fdebda0b7791911e"
+  },
+  "s: Ben’s bag.": {
+    "text": "s: Ben’s bag.",
+    "path": "faacd8470011fcd26512.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ecbb481106c7b213767e49d5a60e9c585d60ae1056fe4bf199cd0ebe44cb92f1"
+  },
+  "seventh": {
+    "text": "seventh",
+    "path": "f0412d6deb4211f732c5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "71a1d8fd3985f62a2be1469e13b23832b47968dcc99cafd47e0e07f4c30023a9"
+  },
+  "She gets up at seven.": {
+    "text": "She gets up at seven.",
+    "path": "ff0a7c46f8d256cbd7f6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f5c165852a42df9cd8aeb1ea7e162843e067685ba912fdf18a9cfa3722b56b74"
+  },
+  "running.": {
+    "text": "running.",
+    "path": "b4f6dfa833c9dfcd638c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "be460a65e915c1940522c378b1c745b9c8f1704ca11b1356e95427838c0bb20c"
+  },
+  "She does.": {
+    "text": "She does.",
+    "path": "a8e1612fd4e090a0a8a1.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "41c928573a310b56461205c406a60b5aa374cd692814c9418b7be710fce9e1e5"
+  },
+  "She is making a toy.": {
+    "text": "She is making a toy.",
+    "path": "cc8a519ecd568e0c4905.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "22e8398d36216ed4eabd05f31eb51c3ec395fff21b2ad9ebf20e363d96742049"
+  },
+  "She goes to school": {
+    "text": "She goes to school",
+    "path": "e8b9b3f45821012f0471.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3af2085bb4689f15982f7aadbc230948619dde855e3f1b2a152ff6cde4a6be2a"
+  },
+  "She is not sleeping. She is reading.": {
+    "text": "She is not sleeping. She is reading.",
+    "path": "1ddcddc2f5a7894ce210.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2ee320a8b184c1144bc8cf1c1425063080ecec68a3e2d04b78928282df944afa"
+  },
+  "She is reading now.": {
+    "text": "She is reading now.",
+    "path": "865143c74e7fe0f983da.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "9cd9790e9f262ca54226e4cad021a64dbfa1ed8c009aeec2301c41d191c9afbf"
+  },
+  "She does not sleeping. She reading.": {
+    "text": "She does not sleeping. She reading.",
+    "path": "89c3154d9b0443d813c5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "dadf98f2792c22daf71454d632c6bc41e02fb63a51fec52883c15cf41e9b9086"
+  },
+  "She is.": {
+    "text": "She is.",
+    "path": "91fa6a49205ea6b5ee80.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a79fb99a473d605b6b4024bd59e40365015ce55637a008466ba3392a2c3f9062"
+  },
+  "She reads every day.": {
+    "text": "She reads every day.",
+    "path": "4a44770e1a72d85f80e3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "cf3c689a59be151f9916a51f43ff878ebfdfd1a1425b8d0027a9f70302786b5b"
+  },
+  "she.": {
+    "text": "she.",
+    "path": "c073b27c8d9b5fb7b4b9.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "550158b2e6f5ffb4b4c2cb9a993af221600b9b043da09aebec59df84a083780b"
+  },
+  "sheep": {
+    "text": "sheep",
+    "path": "5c599616ac500daae9e6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0718947d25f74fd3c19b6c3009492bf2e7f7b114653500b9b7cafe5de388109f"
+  },
+  "sheeps": {
+    "text": "sheeps",
+    "path": "00caeea7fa61f15d33ab.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e5b858245b80dd50c7503b20127859812fc3db7cd2a0828e56ab0e19aeaa5440"
+  },
+  "short": {
+    "text": "short",
+    "path": "f9b0078b5df596d2ea19.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1a6c4cddf776e88aec0c53b49e7e6ca876e558f5213b10f25578154b46d47f37"
+  },
+  "She reads": {
+    "text": "She reads",
+    "path": "40ba21b41ac20339dc44.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f47c281fbd94eaad4eab94535b1f44ae4ae46a2f75b9e4e93741a0edb9b80d63"
+  },
+  "shops?": {
+    "text": "shops?",
+    "path": "3f7f2b2c269a5b16814a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e7fbe79c537f689663a68b8f478d4bd25662920ecda59c7692cfd03a380b3931"
+  },
+  "She reads every day. She is reading now.": {
+    "text": "She reads every day. She is reading now.",
+    "path": "eafe7c779da9a846f489.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "67111fc857216888d1b1addb0c15dabeb11c50a8850161b8910a3b93f73497cc"
+  },
+  "six": {
+    "text": "six",
+    "path": "44778d82365e4af681c4.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "47a18e608cf076941e9640c09c180332f329338fc7f58c2317f2e8b5827694f2"
+  },
+  "sleeping": {
+    "text": "sleeping",
+    "path": "546f04bb7ac096c418d0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f24be4c9f36b5b10d9fec5dfd976961e91416c7a19e883baf70e88c8c1c4b1d9"
+  },
+  "sleep": {
+    "text": "sleep",
+    "path": "0afa5bb5d5f1787945e5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c6ed5b8cdf73363d6aaec089a12957df7b66993879f83480e2a46343749e8c67"
+  },
+  "small": {
+    "text": "small",
+    "path": "81db8ebbbbc69c6c6ad4.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "22ace048ededcf4b24dfce8395e12a574b033ad388f53930233bc264b98df5f9"
+  },
+  "sofa": {
+    "text": "sofa",
+    "path": "d32ce7bf0277fd2ca3b6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "7b30f08f9696aecbe1e7b9b414e98d67fe3e85c36440a01846b9705324e4dbe2"
+  },
+  "sing, long, pen": {
+    "text": "sing, long, pen",
+    "path": "32611cbda76c71904e05.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b0c1133160ba8d91ab74f0830b8c467ef69a75bb7ef38c4bdf053131c44818bb"
+  },
+  "some": {
+    "text": "some",
+    "path": "a6b46dd0d1ae5e86cbc8.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3e2e308613ed3b180c7a45b17bf97266d65bedafc90501a720618a55f954bd22"
+  },
+  "small ears": {
+    "text": "small ears",
+    "path": "147a25bb9b66232a054a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1d41e4d497aac6d05af57484644bef5f02cd26c77e1eaa8953104f4a60f87ff2"
+  },
+  "short legs": {
+    "text": "short legs",
+    "path": "f3a97cec317b2a87f626.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "fcaf6cff98ec5c40ae2c91fdb9b669af93713c8fb4808a3822dfc7c0623c5221"
+  },
+  "some.": {
+    "text": "some.",
+    "path": "2742994182497e3a1929.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "fee850a4771f3c600167f6c9640934fd2f2f25886f38b9559daf2f1fd71ae04b"
+  },
+  "spider": {
+    "text": "spider",
+    "path": "9bfa0b50a90e669907e7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1c63082c65eb07554e57b472033f6b8b8e9ee7f957c3333e4ec6a946ac632d86"
+  },
+  "studied": {
+    "text": "studied",
+    "path": "312d4d2ec507f40c5048.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "56e532331add6de5f75156a15f4052782bdd5f5d3c0c4a3ddaaa5feb7f9c29ac"
+  },
+  "studies": {
+    "text": "studies",
+    "path": "48d492d08e9d314c034c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1641b880ff8929a01e5ec0aa69e5cceeca5d6f65bcff6daabf4489a432388e7a"
+  },
+  "sofa?": {
+    "text": "sofa?",
+    "path": "173d3a6e212f9e99396a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "77117286c2c89d11a509ee80224bf0110b25dba270c7d544cb3d943faf0040a4"
+  },
+  "study": {
+    "text": "study",
+    "path": "0c87ed818fb90f3f88fa.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a05d8f7ae09cf7b1e33a99f379cb0ec3eb3c624cfe4bb4cf5d22ebee219f6992"
+  },
+  "Sunday": {
+    "text": "Sunday",
+    "path": "873fef760e5d001ba0a8.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "470ff213774d45429d697b73c6be12c44a3dced50f175b422c4b1b3eec48a804"
+  },
+  "swiming": {
+    "text": "swiming",
+    "path": "73cf6d2db2bbeaddc5ae.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ba93dfe06403817a1537169d874d34887e668f4506c5780d21aef285b0576f7f"
+  },
+  "Sunday.": {
+    "text": "Sunday.",
+    "path": "1b1a79c832b303ba75e8.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2ca188bb022d5295f37821d80b10ccc7f997a638857b9e4c9db3b2216c19c453"
+  },
+  "swimming": {
+    "text": "swimming",
+    "path": "7aab06cd90b6efabfbc5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "7e7a260d607664295e577809a13354af007fbe7b63ea17942dbe202ac1f1e3b5"
+  },
+  "swimming.": {
+    "text": "swimming.",
+    "path": "e2749b16e95f4470e304.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "02e892b2ee5f4ae6010c926056430cf2a7ee426adef9c99059af1a58e25d7f1a"
+  },
+  "swims": {
+    "text": "swims",
+    "path": "43e7018b6f3e7a16b6ce.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ba3e8317886df1ed69006ecc477af4589c5ba9e2a706bb9d1f0511eb38dbf92b"
+  },
+  "table.": {
+    "text": "table.",
+    "path": "e0275a5fbdb6f51193d4.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "777c56242b5bc070d9cb4705092ce426ba2fdeac8b360865fe0252878081f808"
+  },
+  "talk": {
+    "text": "talk",
+    "path": "ce7611e7481e75f085f6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "fd8c7e0a8e76670258f613478541d509c13c62cf0c33fd6f4b3add8545809904"
+  },
+  "swim on Monday.": {
+    "text": "swim on Monday.",
+    "path": "c32385e94b98ed7daf56.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b60cdbefd469c5a1b81426de0e085b872e46609609882920be9341a9e5dc63f1"
+  },
+  "teeth": {
+    "text": "teeth",
+    "path": "c9349dabb6a092747a12.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5ccd5bcc2bdbd163076c878ea94ff4f82b892a1d531ae64ff5b27c2b85169aa9"
+  },
+  "tail?": {
+    "text": "tail?",
+    "path": "e8108c2cc52bc2be19c0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b4619175cfc242dea28573453fe4895c3a5e82acd0886d46d737e0b1abcc1ae8"
+  },
+  "tenth": {
+    "text": "tenth",
+    "path": "f2d77eba1bf4519aa8cf.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "715e54ee7051b98e2c298de36e345e6ead55c0c7b1c5e23341d4a6f23dce31f4"
+  },
+  "Thank you.": {
+    "text": "Thank you.",
+    "path": "8569efc4ed5a6273140c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4078496a8cd73fe58e6f6a0edc6287434e230ea2134d0332567fec8be5a1bc77"
+  },
+  "teaset": {
+    "text": "teaset",
+    "path": "09eab8756a8ce83c2627.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0ac3a3c06b83838d08cc56364f7419a68af519424a3aa34604f1b00872b7eddc"
+  },
+  "that": {
+    "text": "that",
+    "path": "8e7fc0236af43df93406.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "6a3c625004976ac2c8c32db10d29daa56ba12a15a76c07ef6e22b5fd85c07dcf"
+  },
+  "th.": {
+    "text": "th.",
+    "path": "3b02b80bc7a6e18646e0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ca9a0cc08b3b7396a85292ced2ac42d8f57f23283edbb32e13b3d401fb0ea44c"
+  },
+  "teeth, foot": {
+    "text": "teeth, foot",
+    "path": "7fa5299ee775a4d9fdde.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "8b3f0350dc8c9eaa382a1f54fdd348a1886dece49e67eeeb34677c3755cd5661"
+  },
+  "That": {
+    "text": "That",
+    "path": "0f87c1aedc815b5b14c6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ff836de9e28aba4754375c15d10d71e4ca70f112d80d782ec7dcc8a14c9cac27"
+  },
+  "the evening.": {
+    "text": "the evening.",
+    "path": "ccc94a283c2568898cc3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e0de033cd7ce510920ce56ddc36e4a1e2bfa57d805a15cc8d3f91fc799139deb"
+  },
+  "the afternoon": {
+    "text": "the afternoon",
+    "path": "09d1314de0ac8260cc19.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b6b7561fde502b6f7cf3aa6f42a5084b288a2cf32a60583a66a8889aa283fb1f"
+  },
+  "the morning": {
+    "text": "the morning",
+    "path": "3b2dfce77f80050d6e99.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "47bfd6e31b11399cb04008fa13f7e9dda5a5fc51863e226acfe8ca26ee760bd7"
+  },
+  "the weekend": {
+    "text": "the weekend",
+    "path": "df77f2e66d70b4d4629c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "7a975ec3bf44fd82645cbefe2ee3ca48da19d59f4f04d5f5dc26af0e494a0e61"
+  },
+  "Their": {
+    "text": "Their",
+    "path": "577b7519150439444c9e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "036aa3f930d7f596a092d40933f9713b4dc7910ec19f355be408996cd5c6f155"
+  },
+  "their": {
+    "text": "their",
+    "path": "fd963e4fd45949aa80c5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e4793ccb1fb48078f5f62f688628203158d19947da42a33d540561e224a9a117"
+  },
+  "them": {
+    "text": "them",
+    "path": "c9a8dc336964db7fd6c7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3c3c64065ec7f13dc8482870cb635d6261f495fcaed13ee5427ccbe71a991ad4"
+  },
+  "Their family": {
+    "text": "Their family",
+    "path": "4ba9a511c28b2f1f4397.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "137c52c28a7c43407dd38b8cb352c1f3b27d89aaf9ea5e6a7f0837c62d00847e"
+  },
+  "The table is in": {
+    "text": "The table is in",
+    "path": "d3a7c4c071e4a771eacc.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4f29e833c9a1699487ddd7390747d20edbb7997b913886c114ee25f239ccbe4d"
+  },
+  "there are": {
+    "text": "there are",
+    "path": "426358579665799cd18d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f455ed616a8b6e5a1701b3fccb5701ae5e3d2be9cd41b8ceeb3bda6fc8b32289"
+  },
+  "the table.": {
+    "text": "the table.",
+    "path": "b13622514190f53d1465.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "67d174699c83eac3c4701b466ebd9746d40c7fad252503dd706c64e3d290b1fe"
+  },
+  "There are some apples.": {
+    "text": "There are some apples.",
+    "path": "7bbbd3b17fb04ed99573.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a440ea0d28ee680c64a8b1e42e8c09bfdcaa4846225405323700eac9af471f74"
+  },
+  "There are two chairs.": {
+    "text": "There are two chairs.",
+    "path": "8698894a966a0b3a7d9b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ec0f940051acc1ab235bd70bcf129372c73bd16d80c9d7536a9fa74ccaa94083"
+  },
+  "There is a book on the table.": {
+    "text": "There is a book on the table.",
+    "path": "a8e8797f94e7e50acaf2.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b9cf594f5cdd0b947739fa80a5abb584e8ead808624abdaae0ab33c784e1027b"
+  },
+  "There is some milk.": {
+    "text": "There is some milk.",
+    "path": "f99129d2adacb09484f7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3077ff1260869af0f741a93f65fedee62ba1cac414c554ea0b89d43672c543f4"
+  },
+  "There are not": {
+    "text": "There are not",
+    "path": "0dc6790a9874e1c38bca.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4502cb8137119cef8cd1603c86c318e5e6ad72d86620fc6c7d4a3b535f7356a9"
+  },
+  "There was a park.": {
+    "text": "There was a park.",
+    "path": "b6f2768e2c740e5560bd.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3c98d8b52ee578cb202eb0e20c793a3769c2c5c3b7c11aedf0d853e32f9079fd"
+  },
+  "There was a school.": {
+    "text": "There was a school.",
+    "path": "65649ad480e5158a9440.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "dbcbabaf9c62145c00ab234e70961ab36e396ec3b610a8884964e0e7a29f752e"
+  },
+  "these": {
+    "text": "these",
+    "path": "b808e156d18d1cecdcc1.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "300fa04dba0be3022be81f883ef3a3699203c06158594b77035a6990f5afcabb"
+  },
+  "These": {
+    "text": "These",
+    "path": "91273d498d3684093919.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "584807ab33fa5135faaf838dd25ff0c3a22fbd18b9243b1f926e80865f9956cf"
+  },
+  "there. Where": {
+    "text": "there. Where",
+    "path": "8e77399076a5bed213e2.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d8e547ddaf35490d053b7103b144413abbe745ab64d290983aaef66e4242c446"
+  },
+  "there were.": {
+    "text": "there were.",
+    "path": "9dfa4f4c6094533f7014.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "9c17a386e1903678e73454db2874899625571998ac1e3d72adc4e4a7de4661a4"
+  },
+  "These are my toys.": {
+    "text": "These are my toys.",
+    "path": "b6594aa0dd52ee288270.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "afab30543521e31bc39982fc4f9d8db3b85e15f940976fc45d9dd698b006667e"
+  },
+  "These are books.": {
+    "text": "These are books.",
+    "path": "2c9aee2a433b1cd45899.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "afac20f9d3cb0d8bed9609eb0dc5143c44e3e11148b4d6b87a7d7c6143144065"
+  },
+  "These are pens.": {
+    "text": "These are pens.",
+    "path": "902dfb851346a083789c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3be4e6962224a87a4fadbe72f0d6b8f42be895bcabb9c0a212714e2bd32482f6"
+  },
+  "They are playing now.": {
+    "text": "They are playing now.",
+    "path": "42b2786990bd1d22bb75.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d2f5b3acc5b67dd80f896f450e3c19e67650625cec016d5360b62b77e04fd027"
+  },
+  "they playing?": {
+    "text": "they playing?",
+    "path": "02fd3b5794f3b4a2b2ba.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ea84af1e1c444b02902265b9a5320202424fa97e99c209a27daaa8cd44bd05e7"
+  },
+  "third": {
+    "text": "third",
+    "path": "b1e99324505bd32da0e1.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e12dea30efb50927342eb88fc99cc82fa83a94aa1ad0e8e9b3a00446267e8585"
+  },
+  "They are not running. They are swimming.": {
+    "text": "They are not running. They are swimming.",
+    "path": "3bd86cd42dd419a00170.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "fecb7b234d6ac182c5d70f2b2b0563f272f97a7f1de2e6cca4762098c38ee0c2"
+  },
+  "This is a book.": {
+    "text": "This is a book.",
+    "path": "83a30d3fbd93cbb9d1e9.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3917f9cf8f6e6201c8117a5d74870107ba256e84fd0cd6b8f28ed3bba2b84ae8"
+  },
+  "This are pens.": {
+    "text": "This are pens.",
+    "path": "4790189c28d8e5a95c35.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "900c0d14e5343fd15438b4c7fb66df0746a5e2873bd04ba97b8ecd5f8cf5abd5"
+  },
+  "This is a pen.": {
+    "text": "This is a pen.",
+    "path": "5a3737e180810ef8afea.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "cc5bb358f6dafc639138fae901d543c356744d42274032052d4ed1584eed601a"
+  },
+  "They not run. They is swimming.": {
+    "text": "They not run. They is swimming.",
+    "path": "02930d69668fda1ef02b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c62aab23b5048c4ea1e573b8487f034fea49f8887ae3a75178aea46ac90e4915"
+  },
+  "This is her bag.": {
+    "text": "This is her bag.",
+    "path": "080cdacc76e35c544ab2.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "33c4829ceb6e1c2ddb48dc423c78e7b38f19bac9e561f0f481426d0bc1808437"
+  },
+  "those": {
+    "text": "those",
+    "path": "6120d7ff00ac60e0b8f9.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0ddf0980e90b62e0877f5dc5eeb0491e0534aaae06c63ff4c613e616a84d7412"
+  },
+  "Those": {
+    "text": "Those",
+    "path": "704bd2db5eb53cf79444.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e4ca46e167f467f9fb96b229b3d6fa43daca02dd624d825406bbe4bdd5a140ec"
+  },
+  "This are books.": {
+    "text": "This are books.",
+    "path": "75049a75d83716323d2d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "036101073ae410d7a32cc3f2d67958280b5d63c36a4d7ee1df332ff3ed886629"
+  },
+  "Thursday": {
+    "text": "Thursday",
+    "path": "fc2662062ffdef961002.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0ed2823e98aac98431e20916f956e262b2e9951c2e7e1dd4d60769e1b9943c6e"
+  },
+  "time": {
+    "text": "time",
+    "path": "336074805fc853987abe.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "941625e46a2a66d722cb9a878f5375ba6e1481507da271af233e39dc5af56384"
+  },
+  "to the park": {
+    "text": "to the park",
+    "path": "2dfa9a0c4463cf68c01a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "748e163288c058e3a6888b775d1f15398c4c4fb977ee23c7d8dadfba86689b09"
+  },
+  "Those is pen.": {
+    "text": "Those is pen.",
+    "path": "07663f86ba2d2b8948c2.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "cbd65c42267c5247812feda71fba8e4dfd2649303030967aada61c16f1a033a2"
+  },
+  "to school": {
+    "text": "to school",
+    "path": "553f141ce52df6e185ce.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "9b26b6f702466ef6fcda6bf2f66aea903bc83d933a3488b3f8c3074f73986537"
+  },
+  "tooth": {
+    "text": "tooth",
+    "path": "9722d4a4b59ce537542d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "61adc6d516f7522205ad9456137d1500e7d9bbcd3410de49d0e81a3d7a1485f6"
+  },
+  "tortoise": {
+    "text": "tortoise",
+    "path": "224ec67c8947961173b4.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "cd1d8c23b5ed6f1ebca4ab0f0bba2e73d4bcba2e363304e1788b36f3cd95259b"
+  },
+  "to the park.": {
+    "text": "to the park.",
+    "path": "16faba310645e5b6b444.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3d17bf0ae4fdb7d230b854bb1288693a654223906d0074adec4b5bfc467526cb"
+  },
+  "toys.": {
+    "text": "toys.",
+    "path": "a7fc1794cc6feecbba48.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b17fcc2ab837e7830121897ffb482b7605938b64ffb480bc57432c078885e098"
+  },
+  "train.": {
+    "text": "train.",
+    "path": "030c259411d0d55b97c6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "013b7e712e0136e7e34a4853f00ef4e8eb77e533a8f2d3095dbf60cc839a82ef"
+  },
+  "Tuesday": {
+    "text": "Tuesday",
+    "path": "7d8af1de1262f150187d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c342865bdec5d2f206aa4a9d0f670a4f777e85c67268736e9b121d35d3c8503c"
+  },
+  "TV yesterday.": {
+    "text": "TV yesterday.",
+    "path": "73b4d48d0c91240e6db0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "cdface0b5d26e756d8a6f8f5e333b5901f4cd74d1ce674fec37d2ee4b32fd282"
+  },
+  "twenty, thirty": {
+    "text": "twenty, thirty",
+    "path": "4e23105ecfd527118297.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "59319525ed162c0be13c3f2dc867c0732ba0a49e96a312842f3848f5c29a1da6"
+  },
+  "two apples.": {
+    "text": "two apples.",
+    "path": "9a10313a4de38c6ad9c0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "748e6da105d03aa6807e11007aec15abb501998408cc48759b1df8c62f376109"
+  },
+  "two chairs.": {
+    "text": "two chairs.",
+    "path": "babe48a5464069148919.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e05db849b33771afaaeeb78ef0649d2ffa2b68fe5b5ba7fb03d66e42570aca03"
+  },
+  "u.": {
+    "text": "u.",
+    "path": "c1caec8b528ff5eccde8.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d246328a7c0962cc4cdf12f1d2d54870e8bbe740fbcea50840a5c53e119c845a"
+  },
+  "Two pounds.": {
+    "text": "Two pounds.",
+    "path": "3921d3fb4cdbb037cad2.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "7c99133fdcd110aaa9039ac29041f118a0b69c2cae78d8780e547f0f2957a778"
+  },
+  "uncle": {
+    "text": "uncle",
+    "path": "3107ea0301a27894a212.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1dc6a7dc7c0e6853bc5edba9d26130516a652fb5fb8c8bac296df2a5c6737fd7"
+  },
+  "Two children are here.": {
+    "text": "Two children are here.",
+    "path": "217abb6e8990dfd423ea.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "67b26e0bce5214deb6e54d69b0b68f93a46abde22bd08229310a45e040f4e004"
+  },
+  "under the sofa": {
+    "text": "under the sofa",
+    "path": "7c1040c08d67d43134ad.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "317b6f2ab64c0de62f66a764e5a6bf7c16c01f823cc27e18ce842d0ee586427e"
+  },
+  "upside down": {
+    "text": "upside down",
+    "path": "88e45d9b2a569d64bb29.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "9fad04d2e4d7c1d80e5164e4e815031e035343d4120acc0ce027e2e1ef449980"
+  },
+  "This is Emma’s room. There is a blue sofa next to the window. There are two chairs. A small table is in front of the sofa. There is a book on the table.": {
+    "text": "This is Emma’s room. There is a blue sofa next to the window. There are two chairs. A small table is in front of the sofa. There is a book on the table.",
+    "path": "5ca8f202ec9db88c0140.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "daea25f931bbd2a6a4b673be760c8d4f2494c77927baf3d7345cb37fc292474c"
+  },
+  "up?": {
+    "text": "up?",
+    "path": "21c13d543fffb24dbd73.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "dbf0280cc26121e6c69bfd98c50e0a73f762115099d45369cf32b9125973d241"
+  },
+  "us": {
+    "text": "us",
+    "path": "79adb2a2fce5c6ba215f.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "27da3e439f002e1246565dbb0fb3c932c7e02edee7c3e099ded4984adbb63187"
+  },
+  "walked": {
+    "text": "walked",
+    "path": "2c158582949f34c9ef03.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "448c7184f6ee8a1b75d3fc0b22396196e3fa82aca8e0fe12645f0483fe83838d"
+  },
+  "visit": {
+    "text": "visit",
+    "path": "f0e68ac26df2184062ae.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0fe9743f5089f1040905cfc88b02a5dafe66c496547c9e5cad9126b1a6a0e19a"
+  },
+  "walk": {
+    "text": "walk",
+    "path": "7a6c4fac6c5cd7209ee2.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d4fac74f43f122967b0efde8e1f479ad8ca5ab774c4ef54a32284ba6b4ffbd89"
+  },
+  "up at seven.": {
+    "text": "up at seven.",
+    "path": "7af46b74df32a7078f3e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a20c8e9fb6b1bd0c3a90f507b77031c4c8b4f07ca9ca83c3907b56a7f3ee2f1b"
+  },
+  "was not": {
+    "text": "was not",
+    "path": "040b9ae48b6aa9677b1e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "033190a971bf319bf0f10e26fe84960acd8afa432a09d0363cc5ec70431c7cea"
+  },
+  "Was he happy?": {
+    "text": "Was he happy?",
+    "path": "a6c03ec30e9a0cd5ba3d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a0f746aa4ea032cee65a2821de1a61dad069396f085ec9c853b843ee91420927"
+  },
+  "Was there a park?": {
+    "text": "Was there a park?",
+    "path": "4ce750399a44297f5294.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "70812faab4342ceeca2b7c57504af7f280af45d7b303227047e5922bec2f58a1"
+  },
+  "wash": {
+    "text": "wash",
+    "path": "476994559e873a621c52.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "13dcd834640dad6254f97e853606eb040929873b431bae8f5ec816df273beead"
+  },
+  "washed": {
+    "text": "washed",
+    "path": "8e24b0d78a4ee1e49d28.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "32a9e3dd3ce1b7da957d6cdbb865cde244f34f61ad4dcbd35753e7840fa69cd9"
+  },
+  "Was there a school?": {
+    "text": "Was there a school?",
+    "path": "bc8bdd4cfb3c388980a9.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "86f220525b74f73dd162e5331e3d5744a59f244959febbb92c2688a57c3d02d8"
+  },
+  "watch TV": {
+    "text": "watch TV",
+    "path": "8e49f57feacbb27bd383.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0113493295ad2073c43c5a38e275351c7dc6854efaf2b44ade384aca0718ed5e"
+  },
+  "watches": {
+    "text": "watches",
+    "path": "e884d6537d639e2efad6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "7c27a34d58546672185c39a4dd4680968592a10cbde2807a136c3e3b0846eefb"
+  },
+  "water": {
+    "text": "water",
+    "path": "0f4168490e38b8447e11.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "18b13babab8462d772c33707f7a5e7b6ba22f3fc8bcf256ea54be9ec241c7613"
+  },
+  "We are": {
+    "text": "We are",
+    "path": "e9ade926edb4af4a6d1c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1a67a6f944806579b9d464844ba6bacb136bfe3aa28f27d6bd0c4dc0c466ae59"
+  },
+  "Was there a sofa?": {
+    "text": "Was there a sofa?",
+    "path": "6d70e30a30255d0b76d5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "415a60198c0fc1b8591b9dec166182f6e11d089dda2eefa16e3f6e34d0a8b9f5"
+  },
+  "We are at home.": {
+    "text": "We are at home.",
+    "path": "c8afbaac0afad56d5f08.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "acc381d15668161ac3287d86c1081a09b5cdd73c160faf4f1463cb17243997e5"
+  },
+  "We am at home.": {
+    "text": "We am at home.",
+    "path": "d15ff6a6b7cda9e6dc32.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a258066da2cdf91085a6052335e8b77653423364c4bcc015620f08afa43df75a"
+  },
+  "We played yesterday.": {
+    "text": "We played yesterday.",
+    "path": "1d2dfadea69f614f5a2c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "338d4c6eaa6dcb0a77013a00de7e8a16f8ce204bee5724a16d9528f7669c5522"
+  },
+  "Wednesday": {
+    "text": "Wednesday",
+    "path": "c0a6cc829cd087352947.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f74f1483bfb1295ad032a8ccd3a1606c7cb914fc59cc03b38a7755cda612b743"
+  },
+  "went": {
+    "text": "went",
+    "path": "bd7e83102fa3e6aa125f.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b07dfc57321be26acb3eab49feb9309857eab1cca8731f61bcba61bb52338b67"
+  },
+  "were not": {
+    "text": "were not",
+    "path": "090b632902b910eea11e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "206828e1077d334f19597e9fe29f1c52748a1e06a7c8535015158d1ffc796def"
+  },
+  "wear a mac": {
+    "text": "wear a mac",
+    "path": "b11fbbf92c0f1bc89b7c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1f50e50f5fa581978a4b8fd1a02d22b9b7fcd12fe717265e292fbdd831d2ce45"
+  },
+  "We is at home.": {
+    "text": "We is at home.",
+    "path": "c39555bc9845b5726813.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2e208465395bd9f4ad4745fc82066bbacdb61e04ca3a1a6f8ee1f2e5ad17a5b7"
+  },
+  "Were there chairs?": {
+    "text": "Were there chairs?",
+    "path": "91d39305aa43f5935397.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "eaf33fd2de04ab3e7365ce2fd1caa6ef99be876111fb32feb6c6535bdc578fc7"
+  },
+  "Were there two shops?": {
+    "text": "Were there two shops?",
+    "path": "5221bed183688ebfa735.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "79ef430f80ee8a6142b0d973dc8b805d4c42777fa5ba5c4c917d7600f04fa994"
+  },
+  "What": {
+    "text": "What",
+    "path": "f8cf83a76a98df2dd479.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "19a327f5c29b0970125b212987cbb233791276f22de076d02cfa7bb1a29fdb26"
+  },
+  "Were there any cars?": {
+    "text": "Were there any cars?",
+    "path": "85b4a4508eb3e56fb3ec.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b9b6ce62007aa40c4013a2ae182c4945df17a4322bb9678528ddfc80fc4b6d4d"
+  },
+  "What are you doing?": {
+    "text": "What are you doing?",
+    "path": "5abff00c28a3f309d137.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4e175e1ef9727eb0d1d3917875b2b07b5b5d0e0b7fc5d88eb2aa0bea8b4ad894"
+  },
+  "Were they at school?": {
+    "text": "Were they at school?",
+    "path": "6485460d44b1820fbb7a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "594b720773b58e2b90dfe03db215c36fe6990bbd24bef62e530a1729fafd3ede"
+  },
+  "We’re at home.": {
+    "text": "We’re at home.",
+    "path": "79510a72f8555bbdfaf0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "dadcc96a5f8203f2d42853883c9568902db4fd6ec2fce3ce69cb0bb2a3358c27"
+  },
+  "What colour is the cat?": {
+    "text": "What colour is the cat?",
+    "path": "68c383490130b322827a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f9128319f2e338617fce548fc035112f08c7b6f00a1bf2df49e5c6022f2103a2"
+  },
+  "What did he see?": {
+    "text": "What did he see?",
+    "path": "532773ef08d298df05ec.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "90e080cdf42e4b9a62a9adfe5a2791b55f2bba5a00da08bc1d39483ccf9255eb"
+  },
+  "What colour is the sofa?": {
+    "text": "What colour is the sofa?",
+    "path": "f92fe867571439a8d679.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e91ad2b8f6fbff307a7dd75bca34e2b94d86a5373aa4d3ee9bdf96f4a9df3470"
+  },
+  "What is he doing?": {
+    "text": "What is he doing?",
+    "path": "2cf8964d45b3d3d9935f.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c91062aa27e2143827bc43bb4c148c166c806555f3425a28a91b47894250c1fa"
+  },
+  "What does Emma like?": {
+    "text": "What does Emma like?",
+    "path": "e53231ee013bd784e5fe.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ce36eb9a5e8fc6d9602a9917c5921d80048eb40a757be178957073d1cc2812c1"
+  },
+  "What is Emma doing?": {
+    "text": "What is Emma doing?",
+    "path": "13c0f421080720e261cc.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "277d873229c7e66784028baa921a3524aca74e3c0bf820be5b3c57d269a389c7"
+  },
+  "What is his sister’s name?": {
+    "text": "What is his sister’s name?",
+    "path": "499515aeebaef6418e85.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4e68c32b26b167bb1aa172c7de0b23fc7d6b0d95898d8f0da8e7b70498aa82fa"
+  },
+  "What time do you get up?": {
+    "text": "What time do you get up?",
+    "path": "646c9e9fc193a94b7cb3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "6a045832544069c9a69526539c51e2c383cde91171cbdefef621a1f54aeacbf2"
+  },
+  "What would you like?": {
+    "text": "What would you like?",
+    "path": "c2c8f141d8d18e50d316.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d61696694b15a11c7218413ce3db098aa9acec740d440eb9b03e2504573da9a1"
+  },
+  "What is their mum doing?": {
+    "text": "What is their mum doing?",
+    "path": "b4692c3ddd01263734c8.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "53d5d4014b68a4ed3d3033560eecba65d06a998e63177574b6c97e3d7b39aeab"
+  },
+  "Where did he go?": {
+    "text": "Where did he go?",
+    "path": "122ca0d08a60e6a858b8.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "46d742b04fc40eaadba44bb4ab4f8309203c68e9a465ea6d596f22c2c0b5bad6"
+  },
+  "Where does he live?": {
+    "text": "Where does he live?",
+    "path": "98f2367aeefacf985945.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d66c3edf9a669a2216be33fe48d97a3ef3c4c518c41631724184d39189aee985"
+  },
+  "What is in front of the sofa?": {
+    "text": "What is in front of the sofa?",
+    "path": "35c600f16516c0faa431.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f94698d8ebb003b0ef8384abb818f2e8594f135f30e6c42ab9a077971631a211"
+  },
+  "Where is it?": {
+    "text": "Where is it?",
+    "path": "26dc5e5265eddbbce41e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2edd3dc9f281adaa64857839d035a592dc412259ae15e3dc9f0cb53b50ef0f15"
+  },
+  "Where did Ben go?": {
+    "text": "Where did Ben go?",
+    "path": "b9e098d3fba4c5385858.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "dbe9cb4359c1ae3d277e33ee3cafa488d338cd644dcf79be20380b2573be0dd4"
+  },
+  "Where were he?": {
+    "text": "Where were he?",
+    "path": "0f65fa987ffdfd73e586.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c7c8d979f820e7608e86099ee6877965760da8989bccdfaf0cf284bb119a2f74"
+  },
+  "Where is your bag?": {
+    "text": "Where is your bag?",
+    "path": "09e45fd23f4eb53e53bc.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ae888046b083578b107e73c58a7773ca397cb19732b6e8bdea7f020a3478b6a0"
+  },
+  "white.": {
+    "text": "white.",
+    "path": "cb812522e55fc5dd6e00.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "fe1d93940969543b9aa1c9865f1f15f423835b48240ecd5ac63e8d1e7a5e8ba7"
+  },
+  "Where was he?": {
+    "text": "Where was he?",
+    "path": "22cb50aa0bbf1efbd4cf.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d27547733382a1bb98a37cf9afb6e4bc29681c8d9aefe49a059b271df144fcc9"
+  },
+  "Who has a cat?": {
+    "text": "Who has a cat?",
+    "path": "18a19be2f1e245e2b6af.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "97850ef8b2b12e62171f45640fbfcbca9d89b4033ac3f6b6819cf58e11b67e41"
+  },
+  "Who has a sister?": {
+    "text": "Who has a sister?",
+    "path": "2c202d8c66c6aa39fb45.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "28c00a61e1d34f5ffee82ac6cba146eca7700127619255a48f5767613bfa161c"
+  },
+  "Who is playing?": {
+    "text": "Who is playing?",
+    "path": "b46283e8409ebb0d9cdc.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2b50e41db35be41c7a6b0902ebaa1569be01e13dae1689f6dc00a69c4b05b06b"
+  },
+  "Who did he play with?": {
+    "text": "Who did he play with?",
+    "path": "8fba061a5df08bdc2de7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "32ce9f596b7a32ea122a77db3ac626703d92d63011cf790d5841d53d07306f74"
+  },
+  "Who has some milk?": {
+    "text": "Who has some milk?",
+    "path": "300238e0d419b232c127.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a7ffb7afc53efab22a78aa66c08bfd8b16c3796b88d882993d5052ff1d871343"
+  },
+  "Who is sleeping?": {
+    "text": "Who is sleeping?",
+    "path": "b40310d58b850802c3e3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2086f38b2f74ddb90c08cfb4670d5c90efb39cac03fd4a7bae9b1f2efd28e221"
+  },
+  "Whose": {
+    "text": "Whose",
+    "path": "969dc128a5003d35bd1d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "6249192fd9d8f508b212699439e1d2c3991574ab8cb93d7d1c33b99ca04ceea0"
+  },
+  "Who is riding a bike?": {
+    "text": "Who is riding a bike?",
+    "path": "1b01ad0dc0445e6df2ad.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c1a827d9374a5390f3b3f789e85c15cf26620519ce254bb85c77b796cced4353"
+  },
+  "Who is reading now?": {
+    "text": "Who is reading now?",
+    "path": "c21ca0ff2e6b92d03edd.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a97001a120e1a846c36f341f7207669e93dd097ebfdf079bdfc3c70195a332dc"
+  },
+  "Who reads every day?": {
+    "text": "Who reads every day?",
+    "path": "a5536202ef15fb688448.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f0ac28f394138c5e1ce6ff6c8fe5f6d00d106e0feb27f1473127a686bc036fc1"
+  },
+  "Whose is it?": {
+    "text": "Whose is it?",
+    "path": "49916d566b5fc375878f.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "33e02af6742cb69805edc6cdf4202cfcbb92da127f00090e103bc37c47bf9c7b"
+  },
+  "Whose bag": {
+    "text": "Whose bag",
+    "path": "5a5ab198b95a4137c8ee.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c6f185146143c801f6326c9bbf01371ed98c314edd81186e4694d3347538329e"
+  },
+  "Whose doll is it?": {
+    "text": "Whose doll is it?",
+    "path": "a3ed6f7d041d56714027.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "8ebe23c73263e9006c0ea814a3089eb3d72bb5199045e84b81eb8c5349ea7152"
+  },
+  "Whose.": {
+    "text": "Whose.",
+    "path": "d1ceae76fbcd0fbe3474.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5b1e67393bd88ac45233657c07121bb6351eac6b211603b817949a2ac4a01ae2"
+  },
+  "Whose bag is it?": {
+    "text": "Whose bag is it?",
+    "path": "d18576ce287d25930599.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "6b66919ecd74453c75801c0a03f5d9a515fdec7cfa113d460e7e926098affe6f"
+  },
+  "Would": {
+    "text": "Would",
+    "path": "8c26690072755e395b36.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "bc40a7966a78f7908b6ea54080a0e85b9a279e1e5ebe731655980a5214bf1ead"
+  },
+  "Whose train is it?": {
+    "text": "Whose train is it?",
+    "path": "5e9b7348b74c2a8fb67e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "7c4149cd9fd7c1a740960228f35d3870b230d524e4ee767de4290384a911d359"
+  },
+  "Would you like a sandwich?": {
+    "text": "Would you like a sandwich?",
+    "path": "04f49d05955717eeaf69.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "48a476b545d9bf79a05f6e1a732b2b13c7026b60690bfd5e5950b4d448431ffe"
+  },
+  "y": {
+    "text": "y",
+    "path": "a1fce4363854ff888cff.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a0d19e1ab63b6ec290b9953a91a38e4dadf979aef451a1844a370f2a22055dda"
+  },
+  "Yes, he does.": {
+    "text": "Yes, he does.",
+    "path": "927ac2492c745415d234.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "45949d660c85e59367252803b16d383b91b378a3c314180ba500a3a9db4abc6a"
+  },
+  "Yes, he was.": {
+    "text": "Yes, he was.",
+    "path": "c1564f4dd54d052cea85.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a9404dd310afc1dd358961dae815f7ecccda50ced081b6c69ab12eee1b2fc071"
+  },
+  "Yes, it has.": {
+    "text": "Yes, it has.",
+    "path": "c5cc62309e9ea4ef1ade.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0d5e73ac5c395d510524c5c178fc480c27edbb5e145ee579486e70575c97b3aa"
+  },
+  "Yes, she does.": {
+    "text": "Yes, she does.",
+    "path": "8fa066fcf4cfc4af2f21.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c32a58f4360c5cfb67984e9ff20ebc5bc18dfc1635f3cb2e899c402af785029d"
+  },
+  "Yes, she is.": {
+    "text": "Yes, she is.",
+    "path": "14926dccb75025bc1529.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ba1f806d00c68b62237314cf2869011d96c1c25cf575e3a5c0364fb86b51c17b"
+  },
+  "wings?": {
+    "text": "wings?",
+    "path": "8a9d405cc7fb453d1e0a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "982d0e91e34ddc57a70cd88c63d47dee51b216059d7147ae74bec93ba8b8fe90"
+  },
+  "Yes, there are.": {
+    "text": "Yes, there are.",
+    "path": "2deedd30c7cfd122a883.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f8e2f04dcef10421fdf83097cb1e570421c824fc65b004df3cfa9bc2d205074f"
+  },
+  "Yes, there is.": {
+    "text": "Yes, there is.",
+    "path": "7a602afd45b9b48fb1d5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "8526d658f94ed75fb377c6938fed44689324838836173b1d1900f09dc94963f2"
+  },
+  "Yes, they are.": {
+    "text": "Yes, they are.",
+    "path": "c687c981149b948d7fac.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ea765967d412a86ed6e7097377d3c7d9344121b5e33b7876a343e8ea973a391e"
+  },
+  "Yes, they do.": {
+    "text": "Yes, they do.",
+    "path": "64127d11e52dba9934f4.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d02d48663b3ebcdb47adfe63b45358539b1e0908684e35c48ef99db97d1c9e8b"
+  },
+  "Yes, they were.": {
+    "text": "Yes, they were.",
+    "path": "8b046fbcaebbce36f4da.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "776a6f4564348f7501bcfcc2f362bf50baee2049e26a5459b919cdf32180cfba"
+  },
+  "yesterday.": {
+    "text": "yesterday.",
+    "path": "7400ce91cef80da19cfd.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4f7a98185b5c26fdd44e231f0027e7ab80a35fd0731500f90bb08e744ed538f0"
+  },
+  "yesterday?": {
+    "text": "yesterday?",
+    "path": "0183fe58128087240a04.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "374f01c5f614036ee83618046b82e09a48c4545d8f9e4fa239c06862a9b20529"
+  },
+  "Yes, they was.": {
+    "text": "Yes, they was.",
+    "path": "c6fae2d1142b9e80907c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "cf064555668f2dbe8cc4ecc625aa550558480792ba698a6ed74918a9da25537a"
+  },
+  "Yesterday Ben went to the park. He saw a small bird. He played with his sister. They came home at six. Ben was happy.": {
+    "text": "Yesterday Ben went to the park. He saw a small bird. He played with his sister. They came home at six. Ben was happy.",
+    "path": "3bfd1a10811d1adcebcb.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "134aab014973e26074121dd7d1d5b82d6038707313903b5ec0002f11ae31a044"
+  },
+  "eighty-one": {
+    "text": "eighty-one",
+    "path": "ad5070bcac4c45755b7f.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f8ab77acb9b7197b98e7a33fef49a69f0b4174c2435d15c11569684024c3d1d3"
+  },
+  "big eyes": {
+    "text": "big eyes",
+    "path": "a2fe80b6f4dafcf1c148.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e09db0798e7af2c5df2d94d86bcc911594346dab369a0a9d31c717c1ea15204f"
+  },
+  "children?": {
+    "text": "children?",
+    "path": "eee90084748f08b8f348.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "71266dd64d7728b392292b0938f1606b8e106ab22c993a3f0970a2a404e62eac"
+  },
+  "fat": {
+    "text": "fat",
+    "path": "be07f5139a61ebb919cc.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c2f33d70e7cb51f59e98993ee0818f916776f31019938a6f54c06fa5c85dd786"
+  },
+  "Ben?": {
+    "text": "Ben?",
+    "path": "6e55f1a9a1b2400ca628.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c373f71fd0cc7a61041be510b973516fa1b3d2eb4937a6047d0e1cebfe15fe59"
+  },
+  "fifty": {
+    "text": "fifty",
+    "path": "f8d807ee15e983f8d185.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f1fd526d4d77879cb22a7105847f0a62613c84e51fdd76621aebdd2a36c2b782"
+  },
+  "Emma?": {
+    "text": "Emma?",
+    "path": "b5f4fa917b6856de079e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b21cd4bb7adcbe7487971d47db2e4f7aa13f735a58f4a577be90e0b7c761f544"
+  },
+  "He is swimming.": {
+    "text": "He is swimming.",
+    "path": "f6947f54ef1242603255.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "764af478c21a4a25ddfbb4d7ed8d7f54400cb6399faaf3efda5592c53e77e1be"
+  },
+  "fat body": {
+    "text": "fat body",
+    "path": "93724c73612155d1194d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "57ebbf66012faf49ec06dc80ed0b16d0df317734c2cdef69e1c4d41d90990812"
+  },
+  "Hello! What would you like?": {
+    "text": "Hello! What would you like?",
+    "path": "b1771e3f1045dca50d53.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "55e920e8ad9f28b5439b98087dc7559d1c2b4da82d06ce55e248ceac856bb1df"
+  },
+  "her brother": {
+    "text": "her brother",
+    "path": "e9ffb787fad89cdf3fca.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "9d596c782ba992ecb733fb2a5c0b346e755e189d50a54b2541f3b938cdba4300"
+  },
+  "her bag": {
+    "text": "her bag",
+    "path": "7a6ee3d61c5f8f64f024.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "be335a0a90d728afa3e9e34ee213d218018fa8cb3a0909511eb83c987696fc1c"
+  },
+  "his bag": {
+    "text": "his bag",
+    "path": "e86d95ea5108313d08cb.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1a4deba0b3e614fdc63ffdb81aa67895b1a5a3d8dddeef1f2f8f41b0c1686fc7"
+  },
+  "forty, fifty": {
+    "text": "forty, fifty",
+    "path": "f11997dd8e70c9249889.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5d12048877e48158f31c6fd653b8072757bbb24307f22325fe769eb06195911f"
+  },
+  "I play in the afternoon.": {
+    "text": "I play in the afternoon.",
+    "path": "f474656b89e73b8fb815.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "22060028663ce58491f89cb5761a8f315d74e3cb31b6810f82927191c1ee835c"
+  },
+  "his brother": {
+    "text": "his brother",
+    "path": "f9c23b776a223efec13a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a038a9b15fa0225b869739300e952e21bca9cb4723502f3f7f1738bf3566a44d"
+  },
+  "I read in the evening.": {
+    "text": "I read in the evening.",
+    "path": "e15b456bb9802c0c9fa6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "8b300351be024b2840b5beb525bd22d6d8c0fc9b46facbddff37b2c3f867f33e"
+  },
+  "I sleep at night.": {
+    "text": "I sleep at night.",
+    "path": "6db007abe1e06c9b07f3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "510cf94dfa3f13ccd4f30b1f47e76337f9337e299c6189a9daeae635e371485c"
+  },
+  "I read in the morning.": {
+    "text": "I read in the morning.",
+    "path": "e6d1228fff989d1f9d40.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "bb57ce883f75e935369cb94ac25fea95371d73f5443fa49ef85b2f5f68da889c"
+  },
+  "It has a long tail.": {
+    "text": "It has a long tail.",
+    "path": "bc16122ed22d4b6c6fe8.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2501df7c16f6ca1bcb105dcc69b090517ef011dde4f75028f4bf64874c7c44fe"
+  },
+  "In the living room.": {
+    "text": "In the living room.",
+    "path": "d40b5ebc7c1aad6aa241.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "56c9c3b2b575e523d4210b8e9a850b3a23ee6330c895a63db309594f06b85a26"
+  },
+  "It has a fat body.": {
+    "text": "It has a fat body.",
+    "path": "17576d8b99145a8f9775.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2292cfd4f567ae3156f9fc280630d79c652a1ec1f5d071df985afb3a337aa339"
+  },
+  "It has a short tail.": {
+    "text": "It has a short tail.",
+    "path": "e3a1c9a3410eb75dcbc3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "aee51108c612fea0858e44d38302f2e05df9f436478d2cba1ca6f17a08ea9533"
+  },
+  "It has big ears.": {
+    "text": "It has big ears.",
+    "path": "f01add530f6ca7d45065.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "bb7c008471acc9eab7b877f28392b6b6ebd8bec86578d4745f929fe0fb429e90"
+  },
+  "It has a small head.": {
+    "text": "It has a small head.",
+    "path": "180695f5b6d7648b5bc9.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "62889bb5c54d561662c0c374102a133339c77bbcbca94417b7b22703b4013750"
+  },
+  "It has a small nose.": {
+    "text": "It has a small nose.",
+    "path": "b0c39ecd7ebab45ea152.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5f9237675e81176b62b49f498f11657b442bb8e98c7a4089bcfd8e2b91dcc52c"
+  },
+  "It has big eyes.": {
+    "text": "It has big eyes.",
+    "path": "96eb3a975db1acc4dc5f.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "20ab101b817f0b2d620add496e00cfc04b01d959c5c4ee94dccfcb67a3e6344f"
+  },
+  "It is my day off.": {
+    "text": "It is my day off.",
+    "path": "a0200e8444f79bfa169e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0aa8c44a178b06f212654137e4bd02f30124fa95f35777d9615493aa0f2c0ab1"
+  },
+  "It has thin legs.": {
+    "text": "It has thin legs.",
+    "path": "48f77f3f0646ce9fd121.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a2b6c44e10ea5633f2cbf3433e9a8e1cab05cc9286824912ec9860b73116a294"
+  },
+  "mum?": {
+    "text": "mum?",
+    "path": "3b3ff2172e91bf311e80.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4b6e2783f4cbb5d4d39146caf5142da96927ca6b9e5e553c0902f743e9ccbdbb"
+  },
+  "long tail": {
+    "text": "long tail",
+    "path": "1b144e8f3d5396dbbf19.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "eabab927a76a37e722d42ddb53d3c09ae72ae2691cdb1bf782514c599eff572c"
+  },
+  "my bag": {
+    "text": "my bag",
+    "path": "a142c1a85675aa5e641f.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5c359180eee378df3c93556ea1c99d7bdc46dcb13946ff4587a165d686fa45d1"
+  },
+  "Milk are please.": {
+    "text": "Milk are please.",
+    "path": "b97f23b9fa207269dbe8.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f344c77158926384fc2bef34c34a60715dd7365998f6ad168e7e70a88260345d"
+  },
+  "my brother": {
+    "text": "my brother",
+    "path": "d0cc84b5a6a3f81f7a1f.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "8ec66613eb02638afac356051e2ba066a314041829ef3cb12368f07374c29a0f"
+  },
+  "ninety-five": {
+    "text": "ninety-five",
+    "path": "8562e935d3b8eada5f15.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a7f11c281becf40ed62b4256447c823e5561356bfa780804145aa6aef4899b02"
+  },
+  "ninety-nine": {
+    "text": "ninety-nine",
+    "path": "1a2516bbaf9cadd81776.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3d9a229ca533c2e095755b1a9885d0e95a5fde51b93328a6fa05925f8abef7b1"
+  },
+  "ninety-seven": {
+    "text": "ninety-seven",
+    "path": "0bdb23f9e3ec9716585d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e7427cd026eb8ff650359fd1acdf1bd9da61469878d9e56b51926a41148531b4"
+  },
+  "our family": {
+    "text": "our family",
+    "path": "cdeb236a08ee0f7e81f3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "7f304102c6808359366bc03c48f4aa4e9afb507aabfae355f58e81e92e4e2898"
+  },
+  "please": {
+    "text": "please",
+    "path": "56ccc4dcfc96534b06fc.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1fd1e19dd1662688d5304521db4b52f580138be2fb82cecbc9e80b7a3fe2e3bb"
+  },
+  "My bag is over there.": {
+    "text": "My bag is over there.",
+    "path": "a2d3f3bb8a9dc17707dd.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "35641927a5a7d2b794042eb056f95135b10a7b5e57aa84fa55965ff9bfd88c8c"
+  },
+  "seventy": {
+    "text": "seventy",
+    "path": "ab0e4b1a7839571e0278.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "53c60f253d1af6c3e6b0d0a9d43057956734baa9810d0f4735d3d5ea28ab1d99"
+  },
+  "seventy-nine": {
+    "text": "seventy-nine",
+    "path": "14493e55e60afebb38dc.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5b4ef1abbba7b02fa87b14382def6ad95a1859a269096c262ad023008fee0912"
+  },
+  "our room": {
+    "text": "our room",
+    "path": "d83d85134e16f9726232.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d382ccb53a271b5c1b147b01a283604c16d3d370595e04c04e7e1ae603846764"
+  },
+  "ninety-one, ninety-four": {
+    "text": "ninety-one, ninety-four",
+    "path": "50288a190c8451a1e84f.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "729f3c336b8ae75ddff825d3b90d33c3930fb4794adb719416c315bee7241dd0"
+  },
+  "seventy-six": {
+    "text": "seventy-six",
+    "path": "3ba5ea68a8ebcb016994.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "6067a7989de91951e523142fb5adaaee08a1b64292df1751bddd0da54c4a2451"
+  },
+  "short tail": {
+    "text": "short tail",
+    "path": "11516460d08a4bf6ca81.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ff1c2904ce3b366b3c5cdbe707b58db8bcd1044cc29ea51e6524a2e2622d5aa5"
+  },
+  "sixty": {
+    "text": "sixty",
+    "path": "df41164e151227b31ca2.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1a7714b5cba52c8cda20ca0fe9de70a31db8050a676d5e0a5e284be94e387e13"
+  },
+  "Some milk, please.": {
+    "text": "Some milk, please.",
+    "path": "08eb4ef95a307b5f43dd.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1d4927a148091ef935f12c9b74cce7dda10a5c189824aa8aa71fbb47a7445a05"
+  },
+  "small nose": {
+    "text": "small nose",
+    "path": "17428a9bdca11fefd373.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "208ae5bb87287d88a42330d0de25d38c87abaaeac4c0a01515168e372b291002"
+  },
+  "small head": {
+    "text": "small head",
+    "path": "8e02c4cc66785a6ee8cc.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c504c716034dccd1b1afc3c56061a6b98e2df6744820ef33c93931f7983977d4"
+  },
+  "teen": {
+    "text": "teen",
+    "path": "345e24682c0e3ce8770a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "973ddfe0389b91bbdfe9ba1c40dae8f3ff5a5970397e49b555497cf0e4c70a3c"
+  },
+  "seventy-one, seventy-five": {
+    "text": "seventy-one, seventy-five",
+    "path": "3e7d7ae66bbef3a66fed.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "fd43b68dd713b5393f3667866e80da72b3eebcb0b3b80ff63caf5fd01a950045"
+  },
+  "They are playing.": {
+    "text": "They are playing.",
+    "path": "69cef2dd622d626205a8.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4b565f56fdb64186858e08e50095bac119762c839dd1490d763e5db8ac08a751"
+  },
+  "thin": {
+    "text": "thin",
+    "path": "1a0dc227b5aa78f84008.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "916e577425fd5e7db1e70b347327c05248be62dfd997d52c3d6464ec2611c803"
+  },
+  "their family": {
+    "text": "their family",
+    "path": "5f782678567d16e9d9fd.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "90506c5855d874082de9842e6619b4789edd61dacd6957e621de1a1d44595084"
+  },
+  "their room": {
+    "text": "their room",
+    "path": "902dcbd24ee64263e5b7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ff73b910aaddde1d39c5e6292470a9a2ec3613784dc0aedba78c4d4b08afd0d3"
+  },
+  "The box is upside down.": {
+    "text": "The box is upside down.",
+    "path": "2bbc7235ee593c03968d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e2a79d752f90efc3056c65d10c90f6253749d3d9f5610ad554ffea026a99bcb6"
+  },
+  "thin legs": {
+    "text": "thin legs",
+    "path": "38f4452d820d2050fbec.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ad8734af6a3cefbf7d8878a28d36c8badd2cda3d0b67b86c587f4c8593d85a00"
+  },
+  "What are they doing?": {
+    "text": "What are they doing?",
+    "path": "15dfdadd2727e7482b90.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c7cc72352a6057d58302171d0bc8de3c93e6e3328e5ff8e78b6f7409f78ee2d9"
+  },
+  "Where are the books?": {
+    "text": "Where are the books?",
+    "path": "6e7c6975c79de8f5525c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "725c78684a83990ac28ab2d6812bf8ef58f9d5cc3d7f458f177e9354039f2f8c"
+  },
+  "Where are the children?": {
+    "text": "Where are the children?",
+    "path": "3f9f93823f3c1228941f.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d6df54852516b940738810696270c9823eea9cd74e7b6ef09c31cc2af664fb6c"
+  },
+  "Tom. Anna": {
+    "text": "Tom. Anna",
+    "path": "3e8e54786c39d6523f18.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c8cedd50ad40493c0a57f55c680ecc4fb27527d6e7cfa6c7bc87cae212951ef2"
+  },
+  "your room": {
+    "text": "your room",
+    "path": "c54a1ee81d92b45e916c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a782aace3f3e80ee764874686717ee1de1ca6d12bf0f8c9fc0b560225ea7244a"
+  },
+  "Where is the sofa?": {
+    "text": "Where is the sofa?",
+    "path": "efbe5dc3c2daee61755d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "cbebff4557cb24ae40a23ebb3007198e1c8bc26d4e383849753f86cbc0a313cf"
+  },
+  "Where is your mum?": {
+    "text": "Where is your mum?",
+    "path": "cf9ca0c427c639c6eec0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "39e4a5996cc3c18c3c42c7d211d0ca159052d090e87a95b57bc7f9a7caebbf34"
+  },
+  "your family": {
+    "text": "your family",
+    "path": "e07aeb60942999d17443.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "9d90bd9b1b090cfe609011d7949847bedf49524178082404739c99af8063f8d0"
+  },
+  "carrot": {
+    "text": "carrot",
+    "path": "b96482290a873ee98752.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a91188c9f62c2a6dddde36ff357957498da8b7067a81c2448dbfa2844ccd7ce4"
+  },
+  "desk": {
+    "text": "desk",
+    "path": "49be417ad74080a0031b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d132d973695e3ce3446e0b7a442e32784de886fafa92e7ea5c8487817c563c53"
+  },
+  "I like chicken.": {
+    "text": "I like chicken.",
+    "path": "37254259027a4982ac6d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3c8719a9e0cc6f08b5033850e5500e1c5554f133d4663de57fbf4496443fc5dc"
+  },
+  "chocolate": {
+    "text": "chocolate",
+    "path": "7499aced43869b27f505.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "527c96900d78cefda555b080df520c278e845d03d91f6e41085ae386add4093f"
+  },
+  "I drink water.": {
+    "text": "I drink water.",
+    "path": "4e3c12d2882c72098451.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a4aae8c8300342090b7b3076a0f244ca842a2112e9e184e74b9a61629b662ae4"
+  },
+  "I like chocolate.": {
+    "text": "I like chocolate.",
+    "path": "042710b60123490a27fd.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f79427f9b2d6670ac3ec5c6d925fb236fcc5dd8bc90ff247b6cfa0cd4323f3ce"
+  },
+  "My father is at home.": {
+    "text": "My father is at home.",
+    "path": "a4349ed20cfe84f6c199.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b7ee597c85d2522298d169027ff87e8c6fa91b86d7a7d9765a7215a686f922cc"
+  },
+  "Look at the train.": {
+    "text": "Look at the train.",
+    "path": "8f4443a74c291056dd9d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c43da0bf8bf25400969593e65a00d6fb8b95f7762a37d814968a9ba2f8c52fa1"
+  },
+  "Look at the desk.": {
+    "text": "Look at the desk.",
+    "path": "6640d2a71e7ecf9c0a16.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "031278a8aa9a3013f0a52fe087a5e57d5083a2db06e7c3ce53e3eb0c7399a6c2"
+  },
+  "Look at the TV.": {
+    "text": "Look at the TV.",
+    "path": "e2d7e331b3bb8e2a5d09.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "7ba55f5f14b36ccb1726dad22dd57eedbdf2dbbbb9a0e32551dcd07ca3f427b0"
+  },
+  "This is a banana.": {
+    "text": "This is a banana.",
+    "path": "69a41b0203a6a6f39f67.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a81254a1d44d6cdcb471f891cf71b6f2ce1f0ad77bf967f165beb76b35a967a1"
+  },
+  "train": {
+    "text": "train",
+    "path": "116f54c41d0405dbb10e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "cca3d349074925b379731bcd82e9aa44ed81597f380942d3bf89a12e82001da1"
+  },
+  "TV": {
+    "text": "TV",
+    "path": "ca62d5e073f52f3ceb83.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "959a48c54bd17778558d837feca114ef2c282ab2e195c6276b49ba1bee1681cd"
+  },
+  "My mother is at home.": {
+    "text": "My mother is at home.",
+    "path": "8dce668a9baee1bb1c6f.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "edec17b7e508136d3de5df499ff9621d0ff8c7a5c0a4f02c61ba9f6cd5e0e33c"
+  },
+  "This is a carrot.": {
+    "text": "This is a carrot.",
+    "path": "7cd7e56052d396826e42.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "760b232cfc497a628f5df8e9fd530f1a7fe89015b34496e8135df60b64b8a375"
+  },
+  "This is a cake.": {
+    "text": "This is a cake.",
+    "path": "d589efa9b020e399f3ac.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c1bc22a71bdaa9588918cbf40678c35378762e837c38e1656d3dfbadf95b2a0c"
+  },
+  "sixth": {
+    "text": "sixth",
+    "path": "effaa68d28df27c55812.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "8b9e86c913194c89ed5333f1d070e8ea4b3a4b65d4e7bfa3660bd3960e0871aa"
+  },
+  "eleventh": {
+    "text": "eleventh",
+    "path": "60789aa1f31f7d11c405.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f33d07c5243436daae597bf7c88ec931e64f6513bae629f3694e4e275234c437"
+  },
+  "fifteenth": {
+    "text": "fifteenth",
+    "path": "4f4570e6f83ed802faa4.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d75b4188e66ea4bf5b7c7c9fe8d89cd8cfb32c062a0c8ced3bf1cd2dbf2b1b37"
+  },
+  "eighth": {
+    "text": "eighth",
+    "path": "ad8085924cb7719367c1.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d3a75a32972491f0860015942ae3152d7820f5075ec8f666e692648ea0cea94c"
+  },
+  "thirtieth.": {
+    "text": "thirtieth.",
+    "path": "ed55c0df5a0eb1e4dc26.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ca22592dbdf3b221f5b02547cb21b07d40ad326c65047161c6776075d55d5dd0"
+  },
+  "thirtieth": {
+    "text": "thirtieth",
+    "path": "ccde0e7085dbf4891015.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3672dfd54449d89dcef324447ab08d3868a23d84177bd8f488bae99537a11cb9"
+  },
+  "thirty": {
+    "text": "thirty",
+    "path": "aca5fb59db69e5dffeda.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3c7a50f5fe195694836e5e4a1f6a2b1a23352f99e4e51f7bfb859b38609fc2ae"
+  },
+  "thirteenth": {
+    "text": "thirteenth",
+    "path": "8e9fdbaeeb669ee3dac0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "04bd8bb2a117a0375034df58002839197843764e6077146ea69d1fbe144878ce"
+  },
+  "twelfth": {
+    "text": "twelfth",
+    "path": "a1355c284d1c2cc17ac7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "90a0d8bafecc56d61e5698b7885f86372a1145c6739bcac2d9e1564f8e051d47"
+  },
+  "twenty-fifth": {
+    "text": "twenty-fifth",
+    "path": "35b9aaf1ff8218f17edd.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d76a74f6ebd838011dbaa8262a854c40074e1b7d9ad074756ea94de684a1b2bf"
+  },
+  "twenty-first": {
+    "text": "twenty-first",
+    "path": "a8df8ad546dc3eb17df9.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3ed6c433891527139f763bafd9e367182c29e1805bc0278d6e7fa3ac39b2947c"
+  },
+  "twenty-fourth": {
+    "text": "twenty-fourth",
+    "path": "6cbb59107de48e602a08.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1af9a404aa48c42b9eebfa9240a38d12db6c437163d15e3ac0241de4953387f1"
+  },
+  "twenty-third": {
+    "text": "twenty-third",
+    "path": "ef831049c009f4633ed9.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "21c891cfb8270d9399f5389f8cce7d6dff05dfa1a3173ded8155547eab402e7e"
+  },
+  "twenty-second": {
+    "text": "twenty-second",
+    "path": "0c358e5e20b174508a5e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "08e47961099175b778f21ed0be61d1e123a490b57a689c94edbfa2bba51c8092"
+  },
+  "twenty-three": {
+    "text": "twenty-three",
+    "path": "328e51fcaeaf1d92364b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "50822e19617a90921dbc5a6454c296d1b74bf9daf1ef3ae55597b2908ccb8965"
   }
 }

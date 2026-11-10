@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "edition": "spotlight_workbook_2026_17",
+  "milestone": "modules-2-8",
+  "contentSha256": "159a985406ea504d0e18a1d579ce71877232281dbadb507de8a4dae3e9903413",
+  "sourceExercises": 204,
+  "authoredExercises": 204,
+  "authoredSteps": 899,
+  "totalSourceTrainings2026": 251,
+  "sourceForms": 407,
+  "videoVerifiedForms": 401,
+  "fullBookVocabularyComplete": false,
+  "fullSourceSubitemTranscriptionComplete": false,
+  "lastReadableFooter": 143,
+  "inferredContinuationPage": 144,
+  "moduleCounts": {
+    "2": 31,
+    "3": 28,
+    "4": 30,
+    "5": 30,
+    "6": 30,
+    "7": 29,
+    "8": 26
+  },
+  "allWorkbookForms": 435,
+  "allWorkbookLexemes": 382,
+  "audio": {
+    "workbookMp3": 2031,
+    "projectMp3": 2483,
+    "addedMp3": 791,
+    "voice": "en-GB-SoniaNeural",
+    "sha256AndFfmpegPassed": true,
+    "method": "2016 workbook files fully decoded; all remained SHA-identical, 15 added files fully decoded; 452 unchanged course/comic files fully decoded in production build"
+  },
+  "verification": {
+    "typecheck": "passed",
+    "unit": {
+      "passed": 56,
+      "total": 56
+    },
+    "newExerciseE2ePassed": 204,
+    "newExerciseE2eMethod": "204 full completions, reloads and repeats; final ordinal revisions rerun separately; canonical and preparation checks repeated for all 204",
+    "uniqueE2eScenarios": 342,
+    "fullRunPassed": 340,
+    "fullRunDictionaryFailuresFixed": 2,
+    "postFixAffectedPassed": 8,
+    "postFixAffectedTotal": 8,
+    "productionBuild": "passed",
+    "prettier": "passed",
+    "actionlint": "passed",
+    "finalCompleteSuite": "GitHub Actions on this PR"
+  }
+}

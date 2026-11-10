@@ -1,3 +1,6 @@
+import restContent from './data/edition-2026-rest.json';
+import restCatalog from './data/edition-2026-rest-catalog.json';
+import restSkills from './data/edition-2026-rest-skills.json';
 import videoContent from './data/edition-2026-intro-module-one.json';
 import videoCatalog from './data/edition-2026-catalog.json';
 import newContent from './data/edition-2026-exercises.json';
@@ -26,8 +29,13 @@ export const workbookWords = (dictionary as WordForm[]).map((w) => ({
   occurrences: w.occurrences.map((o) => ({ ...o, sourceId: EDITION_2017 })),
 }));
 export const edition2026SourceExercises = videoContent as WorkbookExercise[];
-export const edition2026Catalog = videoCatalog as SourceExercise[];
-export const all2026Exercises = [...edition2026SourceExercises, ...edition2026Exercises];
+export const edition2026RestExercises = restContent as WorkbookExercise[];
+export const edition2026Catalog = [...videoCatalog, ...restCatalog] as SourceExercise[];
+export const all2026Exercises = [
+  ...edition2026SourceExercises,
+  ...edition2026RestExercises,
+  ...edition2026Exercises,
+];
 export const allWorkbookWords = [
   ...new Map([...workbookWords, ...edition2026Words].map((w) => [w.id, w])).values(),
 ].map((w) => ({
@@ -42,7 +50,7 @@ export const exercisesForEdition = (id: string) =>
   id === EDITION_2026 ? all2026Exercises : workbookExercises;
 export const wordsForEdition = (id: string) =>
   id === EDITION_2026 ? edition2026Words : workbookWords;
-export const workbookSkills = [...registry, ...newSkills] as Skill[];
+export const workbookSkills = [...registry, ...newSkills, ...restSkills] as Skill[];
 export const getWorkbookExercise = (id: string) => allWorkbookExercises.find((e) => e.id === id);
 export const getSourceExercise = (id: string) =>
   [...sourceExercises, ...edition2026Catalog, ...edition2026References].find(

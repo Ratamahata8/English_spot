@@ -13,8 +13,8 @@ it('47 адаптаций из видео имеют реальную ссылк
     sourceExercises: 47,
     adaptations: 47,
     steps: 236,
-    sourceForms: 314,
-    videoVerifiedForms: 308,
+    sourceForms: 407,
+    videoVerifiedForms: 401,
   });
   expect(edition2026Catalog.filter((r) => r.module === 'intro')).toHaveLength(18);
   expect(edition2026Catalog.filter((r) => r.module === 'entry')).toHaveLength(6);
