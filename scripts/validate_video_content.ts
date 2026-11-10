@@ -38,7 +38,7 @@ export function validateVideoContent(checkAudio = true) {
   const require = (ok: unknown, msg: string) => {
     if (!ok) throw Error(msg);
   };
-  require(edition2026Catalog.length === 47 &&
+  require(edition2026Catalog.length === 251 &&
     edition2026SourceExercises.length === 47, 'Incomplete first video block');
   require(new Set(allWorkbookWords.map((w) => w.id)).size ===
     allWorkbookWords.length, 'Shared word IDs must be unique');

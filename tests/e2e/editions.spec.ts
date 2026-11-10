@@ -39,7 +39,7 @@ test('2026: поиск по реальной странице и номеру о
   await page.goto('#/textbook');
   await expect(page.getByLabel('Издание сборника')).toHaveValue(modern);
   await expect(page.locator('[data-edition-section]')).toHaveCount(9);
-  await expect(page.locator('[data-source-exercise]')).toHaveCount(47);
+  await expect(page.locator('[data-source-exercise]')).toHaveCount(251);
   await page.getByLabel('Печатная страница', { exact: true }).fill('18');
   await page.getByLabel('Номер упражнения', { exact: true }).fill('3');
   await expect(page.locator('[data-source-exercise]')).toHaveCount(1);
@@ -49,8 +49,12 @@ test('2026: поиск по реальной странице и номеру о
   await expect(page.locator('.wb-token-bank')).toBeVisible();
   await page.goto('#/workbook');
   await page.getByLabel('Модуль сборника 2026').selectOption('8');
-  await expect(page.locator('[data-source-exercise]')).toHaveCount(0);
-  await expect(page.getByText(/По этому запросу тренировка пока не готова/)).toBeVisible();
+  await expect(page.locator('[data-source-exercise]')).toHaveCount(26);
+  await page.getByLabel('Печатная страница', { exact: true }).fill('136');
+  await page.getByLabel('Номер упражнения', { exact: true }).fill('3');
+  await expect(page.locator('[data-source-exercise]')).toHaveCount(1);
+  await page.locator('[data-source-exercise] a').click();
+  await expect(page.locator('[data-workbook]')).toHaveAttribute('data-workbook', 'wb26-m8b-03');
 });
 for (const e of exercises)
   test('2026 полное прохождение: ' + e.id, async ({ page }) => {
@@ -98,9 +102,18 @@ test('словарь 2026: только подтверждённые формы,
   await page.goto('#/dictionary');
   await expect(page.getByLabel('Издание сборника')).toHaveValue(modern);
   await page.getByLabel('Вид словаря').selectOption('forms');
-  await expect(page.locator('.wb-form')).toHaveCount(314);
+  await expect(page.locator('[data-dictionary-total]')).toHaveAttribute(
+    'data-dictionary-total',
+    '407',
+  );
+  await expect(page.locator('.wb-form')).toHaveCount(36);
+  const first = await page.locator('.wb-form h3').first().innerText();
+  await page.getByRole('button', { name: 'Следующие слова', exact: true }).click();
+  await expect(page.locator('.wb-form')).toHaveCount(36);
+  await expect(page.locator('.wb-form h3').first()).not.toHaveText(first);
   await page.getByLabel('Слово сборника или перевод').fill('did');
   await expect(page.locator('.wb-form')).toHaveCount(2);
+  await expect(page.getByRole('button', { name: 'Предыдущие слова', exact: true })).toBeDisabled();
   const did = page
     .locator('.wb-form')
     .filter({ has: page.locator('h3', { hasText: /^didНе изучено$/ }) });

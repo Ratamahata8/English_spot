@@ -33,6 +33,7 @@ export function WorkbookDictionary() {
   useEffect(() => {
     void initSource(edition);
   }, [initSource, edition]);
+  const [pageIndex, setPageIndex] = useState(0);
   const [search, setSearch] = useState(''),
     [showForms, setShowForms] = useState(false),
     [module, setModule] = useState('all'),
@@ -75,6 +76,13 @@ export function WorkbookDictionary() {
     : allGroups
         .map((g) => g.filter((w) => matching.some((m) => m.id === w.id)))
         .filter((g) => g.length > 0);
+  const pageSize = 36;
+  const pageCount = Math.max(1, Math.ceil(groups.length / pageSize));
+  const currentPage = Math.min(pageIndex, pageCount - 1);
+  const visibleGroups = groups.slice(currentPage * pageSize, (currentPage + 1) * pageSize);
+  useEffect(() => {
+    setPageIndex(0);
+  }, [edition, search, showForms, module, pos, state, requested]);
   const reviewWords = allWorkbookWords.filter(
     (w) =>
       progress.reviewIds.includes(w.id) ||
@@ -113,7 +121,7 @@ export function WorkbookDictionary() {
           {[...new Set(workbookWords.map((w) => w.lexemeId))].length} основных статей. Полный
           словарь всех восьми модулей ещё сверяется: 100% покрытия не заявлено.
           {edition === EDITION_2026 &&
-            ' Формы подтверждены отчётом, точные номера упражнений не установлены. Слова собственных примеров не выдаются за лексику редакции 2026.'}
+            ' Большинство употреблений проверено по видео с указанием страницы и номера; для отдельных форм сохранены данные прежнего отчёта. Слова собственных примеров не выдаются за лексику редакции 2026.'}
         </p>
       </div>
       {error && (
@@ -308,8 +316,27 @@ export function WorkbookDictionary() {
           )}
         </section>
       )}
+      <div className="reader-controls" data-dictionary-total={matching.length}>
+        <p role="status">
+          Найдено словоформ: {matching.length} · Страница {currentPage + 1} из {pageCount}
+        </p>
+        <button
+          className="button"
+          disabled={currentPage === 0}
+          onClick={() => setPageIndex(currentPage - 1)}
+        >
+          Предыдущие слова
+        </button>
+        <button
+          className="button"
+          disabled={currentPage + 1 === pageCount}
+          onClick={() => setPageIndex(currentPage + 1)}
+        >
+          Следующие слова
+        </button>
+      </div>
       <div className="dictionary-grid wb-dictionary">
-        {groups.map((group) => {
+        {visibleGroups.map((group) => {
           const primary =
             group.find((w) => w.form.toLowerCase() === w.lemma.toLowerCase()) || group[0];
           const base = getLexeme(primary.lexemeId)!;

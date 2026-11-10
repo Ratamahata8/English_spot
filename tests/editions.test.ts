@@ -32,7 +32,7 @@ it('2026: подтверждённые границы, честные соотв
     verifiedExerciseCorrespondences: 2,
     newAuthoredTrainings: 4,
     newTrainingSteps: 24,
-    newConfirmedForms: 314,
+    newConfirmedForms: 407,
   });
   expect(edition2026Sections.map((s) => s.start)).toEqual([4, 18, 28, 42, 57, 73, 90, 108, 126]);
   expect(sectionForPage2026(17)?.module).toBe('intro');
@@ -43,7 +43,7 @@ it('2026: подтверждённые границы, честные соотв
   expect(edition2026Sections.at(-1)?.end).toBeNull();
 });
 it('2026 использует доказанные употребления, общие ID слов сохраняются без переноса освоения', () => {
-  expect(edition2026Words).toHaveLength(314);
+  expect(edition2026Words).toHaveLength(407);
   expect(edition2026Words.some((w) => w.form === 'clothes')).toBe(true);
   const book = workbookWords.find((w) => w.form === 'book')!;
   const foot = workbookWords.find((w) => w.form === 'foot')!;
