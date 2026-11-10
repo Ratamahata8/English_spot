@@ -1,0 +1,2631 @@
+{
+  "schemaVersion": 1,
+  "editionId": "spotlight_workbook_2026_17",
+  "parts": [
+    {
+      "id": "part1",
+      "filename": "VID20261110135823_Part1.mp4",
+      "bytes": 30056288,
+      "sha256": "80adb862a7b080361f779b30b1a3b06001455e94fdbf16deebc6d01bce0deb58",
+      "durationSeconds": 101.247911,
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "id": "part2",
+      "filename": "VID20261110135823_Part2.mp4",
+      "bytes": 30051200,
+      "sha256": "5d1d5a5e2097114635341b04c67efe12427c000b4b1cd79037e953fd0f1f9227",
+      "durationSeconds": 101.181058,
+      "width": 1080,
+      "height": 1920
+    }
+  ],
+  "durationSeconds": 202.428969,
+  "samplingFps": 4,
+  "sampledFrames": 810,
+  "stableGroups": 74,
+  "candidateFrames": 162,
+  "automatedCoverage": "entire-video",
+  "manualContentCoverage": "printed-pages-4-27; selected later checkpoints only",
+  "highestObservedPrintedPage": 143,
+  "confirmedFinalPrintedPage": null,
+  "fullExerciseIndexComplete": false,
+  "fullVocabularyComplete": false,
+  "fullyReadPrintedPages": 22,
+  "partiallyReadPrintedPages": [
+    9,
+    13
+  ],
+  "milestone": {
+    "introSourceExercises": 18,
+    "entrySourceExercises": 6,
+    "moduleOneSourceExercises": 23,
+    "sourceExercises": 47,
+    "authoredSteps": 236,
+    "adaptedPrintedPages": [
+      4,
+      27
+    ],
+    "remainingModules": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "remainingSourceExerciseCount": null
+  },
+  "pages": [
+    {
+      "printedPage": 4,
+      "timestampSeconds": 8.0,
+      "part": "part1",
+      "frameId": "frame-0033",
+      "frameSha256": "57e320bc9cd75e47eab44d8a6df2c314bd23ae295e7d647919a8a4307383fdaa",
+      "readability": "readable",
+      "ocrStatus": "private-ocr-manually-corrected-for-objectives",
+      "exerciseNumbers": [
+        1
+      ],
+      "sourceExerciseIds": [
+        "src26-intro-1"
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": true,
+        "fullTextChecked": true,
+        "adaptationsCreated": true,
+        "audioChecked": true,
+        "e2eChecked": true
+      },
+      "notes": "Условия и цель проверены визуально; публично размещены только собственные тренажёры."
+    },
+    {
+      "printedPage": 5,
+      "timestampSeconds": 8.0,
+      "part": "part1",
+      "frameId": "frame-0033",
+      "frameSha256": "57e320bc9cd75e47eab44d8a6df2c314bd23ae295e7d647919a8a4307383fdaa",
+      "readability": "readable",
+      "ocrStatus": "private-ocr-manually-corrected-for-objectives",
+      "exerciseNumbers": [
+        1,
+        2
+      ],
+      "sourceExerciseIds": [
+        "src26-intro-1",
+        "src26-intro-2"
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": true,
+        "fullTextChecked": true,
+        "adaptationsCreated": true,
+        "audioChecked": true,
+        "e2eChecked": true
+      },
+      "notes": "Условия и цель проверены визуально; публично размещены только собственные тренажёры."
+    },
+    {
+      "printedPage": 6,
+      "timestampSeconds": 12.0,
+      "part": "part1",
+      "frameId": "frame-0049",
+      "frameSha256": "b43a5b82e7d39d38162d59ceee0c6c9a85d6067cdf39a1a57e85b7909893e002",
+      "readability": "readable",
+      "ocrStatus": "private-ocr-manually-corrected-for-objectives",
+      "exerciseNumbers": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "sourceExerciseIds": [
+        "src26-intro-2",
+        "src26-intro-3",
+        "src26-intro-4",
+        "src26-intro-5"
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": true,
+        "fullTextChecked": true,
+        "adaptationsCreated": true,
+        "audioChecked": true,
+        "e2eChecked": true
+      },
+      "notes": "Условия и цель проверены визуально; публично размещены только собственные тренажёры."
+    },
+    {
+      "printedPage": 7,
+      "timestampSeconds": 12.0,
+      "part": "part1",
+      "frameId": "frame-0049",
+      "frameSha256": "b43a5b82e7d39d38162d59ceee0c6c9a85d6067cdf39a1a57e85b7909893e002",
+      "readability": "readable",
+      "ocrStatus": "private-ocr-manually-corrected-for-objectives",
+      "exerciseNumbers": [
+        5,
+        6
+      ],
+      "sourceExerciseIds": [
+        "src26-intro-5",
+        "src26-intro-6"
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": true,
+        "fullTextChecked": true,
+        "adaptationsCreated": true,
+        "audioChecked": true,
+        "e2eChecked": true
+      },
+      "notes": "Условия и цель проверены визуально; публично размещены только собственные тренажёры."
+    },
+    {
+      "printedPage": 8,
+      "timestampSeconds": 14.75,
+      "part": "part1",
+      "frameId": "frame-0060",
+      "frameSha256": "45f0025d39fb9e8af60074d80f9797e9ff00ef5a270b66667b312a03cee8b4b9",
+      "readability": "readable",
+      "ocrStatus": "private-ocr-manually-corrected-for-objectives",
+      "exerciseNumbers": [
+        7,
+        8
+      ],
+      "sourceExerciseIds": [
+        "src26-intro-7",
+        "src26-intro-8"
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": true,
+        "fullTextChecked": true,
+        "adaptationsCreated": true,
+        "audioChecked": true,
+        "e2eChecked": true
+      },
+      "notes": "Условия и цель проверены визуально; публично размещены только собственные тренажёры."
+    },
+    {
+      "printedPage": 9,
+      "timestampSeconds": 14.75,
+      "part": "part1",
+      "frameId": "frame-0060",
+      "frameSha256": "45f0025d39fb9e8af60074d80f9797e9ff00ef5a270b66667b312a03cee8b4b9",
+      "readability": "partial-hand-occlusion",
+      "ocrStatus": "private-ocr-manually-corrected-for-objectives",
+      "exerciseNumbers": [
+        8,
+        9,
+        10
+      ],
+      "sourceExerciseIds": [
+        "src26-intro-8",
+        "src26-intro-9",
+        "src26-intro-10"
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": true,
+        "fullTextChecked": false,
+        "adaptationsCreated": true,
+        "audioChecked": true,
+        "e2eChecked": true
+      },
+      "notes": "Часть исходного текста закрыта рукой; цель задания читается. Использованы собственные примеры."
+    },
+    {
+      "printedPage": 10,
+      "timestampSeconds": 17.5,
+      "part": "part1",
+      "frameId": "frame-0071",
+      "frameSha256": "be0498d749b8bca4f9175944af2fc653241a7fd789109e64ebd4ee8b07c1522e",
+      "readability": "readable",
+      "ocrStatus": "private-ocr-manually-corrected-for-objectives",
+      "exerciseNumbers": [
+        11,
+        12
+      ],
+      "sourceExerciseIds": [
+        "src26-intro-11",
+        "src26-intro-12"
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": true,
+        "fullTextChecked": true,
+        "adaptationsCreated": true,
+        "audioChecked": true,
+        "e2eChecked": true
+      },
+      "notes": "Условия и цель проверены визуально; публично размещены только собственные тренажёры."
+    },
+    {
+      "printedPage": 11,
+      "timestampSeconds": 17.5,
+      "part": "part1",
+      "frameId": "frame-0071",
+      "frameSha256": "be0498d749b8bca4f9175944af2fc653241a7fd789109e64ebd4ee8b07c1522e",
+      "readability": "readable",
+      "ocrStatus": "private-ocr-manually-corrected-for-objectives",
+      "exerciseNumbers": [
+        12,
+        13,
+        14
+      ],
+      "sourceExerciseIds": [
+        "src26-intro-12",
+        "src26-intro-13",
+        "src26-intro-14"
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": true,
+        "fullTextChecked": true,
+        "adaptationsCreated": true,
+        "audioChecked": true,
+        "e2eChecked": true
+      },
+      "notes": "Условия и цель проверены визуально; публично размещены только собственные тренажёры."
+    },
+    {
+      "printedPage": 12,
+      "timestampSeconds": 21.0,
+      "part": "part1",
+      "frameId": "frame-0085",
+      "frameSha256": "53952b8dec4f3aaeda86aa4b0bcfa09596c19646afb4a936f9f0b1057ec44fcd",
+      "readability": "readable",
+      "ocrStatus": "private-ocr-manually-corrected-for-objectives",
+      "exerciseNumbers": [
+        14,
+        15,
+        16
+      ],
+      "sourceExerciseIds": [
+        "src26-intro-14",
+        "src26-intro-15",
+        "src26-intro-16"
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": true,
+        "fullTextChecked": true,
+        "adaptationsCreated": true,
+        "audioChecked": true,
+        "e2eChecked": true
+      },
+      "notes": "Условия и цель проверены визуально; публично размещены только собственные тренажёры."
+    },
+    {
+      "printedPage": 13,
+      "timestampSeconds": 21.0,
+      "part": "part1",
+      "frameId": "frame-0085",
+      "frameSha256": "53952b8dec4f3aaeda86aa4b0bcfa09596c19646afb4a936f9f0b1057ec44fcd",
+      "readability": "partial-hand-occlusion",
+      "ocrStatus": "private-ocr-manually-corrected-for-objectives",
+      "exerciseNumbers": [
+        16,
+        17
+      ],
+      "sourceExerciseIds": [
+        "src26-intro-16",
+        "src26-intro-17"
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": true,
+        "fullTextChecked": false,
+        "adaptationsCreated": true,
+        "audioChecked": true,
+        "e2eChecked": true
+      },
+      "notes": "Часть исходного текста закрыта рукой; цель задания читается. Использованы собственные примеры."
+    },
+    {
+      "printedPage": 14,
+      "timestampSeconds": 22.75,
+      "part": "part1",
+      "frameId": "frame-0092",
+      "frameSha256": "e515eb7a9c867b9d570ce51ead8b5eadf281ddd2839cf1c6858a04c95b96adeb",
+      "readability": "readable",
+      "ocrStatus": "private-ocr-manually-corrected-for-objectives",
+      "exerciseNumbers": [
+        17,
+        18
+      ],
+      "sourceExerciseIds": [
+        "src26-intro-17",
+        "src26-intro-18"
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": true,
+        "fullTextChecked": true,
+        "adaptationsCreated": true,
+        "audioChecked": true,
+        "e2eChecked": true
+      },
+      "notes": "Условия и цель проверены визуально; публично размещены только собственные тренажёры."
+    },
+    {
+      "printedPage": 15,
+      "timestampSeconds": 22.75,
+      "part": "part1",
+      "frameId": "frame-0092",
+      "frameSha256": "e515eb7a9c867b9d570ce51ead8b5eadf281ddd2839cf1c6858a04c95b96adeb",
+      "readability": "readable",
+      "ocrStatus": "private-ocr-manually-corrected-for-objectives",
+      "exerciseNumbers": [
+        1,
+        2,
+        3
+      ],
+      "sourceExerciseIds": [
+        "src26-entry-1",
+        "src26-entry-2",
+        "src26-entry-3"
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": true,
+        "fullTextChecked": true,
+        "adaptationsCreated": true,
+        "audioChecked": true,
+        "e2eChecked": true
+      },
+      "notes": "Условия и цель проверены визуально; публично размещены только собственные тренажёры."
+    },
+    {
+      "printedPage": 16,
+      "timestampSeconds": 24.75,
+      "part": "part1",
+      "frameId": "frame-0100",
+      "frameSha256": "4d5d371fcc518dd3d7d5d77d1c32406ad2f4e898658620644c0dca1b8e1ac579",
+      "readability": "readable",
+      "ocrStatus": "private-ocr-manually-corrected-for-objectives",
+      "exerciseNumbers": [
+        3,
+        4
+      ],
+      "sourceExerciseIds": [
+        "src26-entry-3",
+        "src26-entry-4"
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": true,
+        "fullTextChecked": true,
+        "adaptationsCreated": true,
+        "audioChecked": true,
+        "e2eChecked": true
+      },
+      "notes": "Условия и цель проверены визуально; публично размещены только собственные тренажёры."
+    },
+    {
+      "printedPage": 17,
+      "timestampSeconds": 24.75,
+      "part": "part1",
+      "frameId": "frame-0100",
+      "frameSha256": "4d5d371fcc518dd3d7d5d77d1c32406ad2f4e898658620644c0dca1b8e1ac579",
+      "readability": "readable",
+      "ocrStatus": "private-ocr-manually-corrected-for-objectives",
+      "exerciseNumbers": [
+        5,
+        6
+      ],
+      "sourceExerciseIds": [
+        "src26-entry-5",
+        "src26-entry-6"
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": true,
+        "fullTextChecked": true,
+        "adaptationsCreated": true,
+        "audioChecked": true,
+        "e2eChecked": true
+      },
+      "notes": "Условия и цель проверены визуально; публично размещены только собственные тренажёры."
+    },
+    {
+      "printedPage": 18,
+      "timestampSeconds": 26.75,
+      "part": "part1",
+      "frameId": "frame-0108",
+      "frameSha256": "9fe78877c6a5efef38245951a6ec1f836e02a6bedec55377a9b9f408f4ea53d7",
+      "readability": "readable",
+      "ocrStatus": "private-ocr-manually-corrected-for-objectives",
+      "exerciseNumbers": [
+        1,
+        2,
+        3
+      ],
+      "sourceExerciseIds": [
+        "src26-m1a-1",
+        "src26-m1a-2",
+        "src26-m1a-3"
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": true,
+        "fullTextChecked": true,
+        "adaptationsCreated": true,
+        "audioChecked": true,
+        "e2eChecked": true
+      },
+      "notes": "Условия и цель проверены визуально; публично размещены только собственные тренажёры."
+    },
+    {
+      "printedPage": 19,
+      "timestampSeconds": 26.75,
+      "part": "part1",
+      "frameId": "frame-0108",
+      "frameSha256": "9fe78877c6a5efef38245951a6ec1f836e02a6bedec55377a9b9f408f4ea53d7",
+      "readability": "readable",
+      "ocrStatus": "private-ocr-manually-corrected-for-objectives",
+      "exerciseNumbers": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "sourceExerciseIds": [
+        "src26-m1a-3",
+        "src26-m1a-4",
+        "src26-m1a-5",
+        "src26-m1a-6"
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": true,
+        "fullTextChecked": true,
+        "adaptationsCreated": true,
+        "audioChecked": true,
+        "e2eChecked": true
+      },
+      "notes": "Условия и цель проверены визуально; публично размещены только собственные тренажёры."
+    },
+    {
+      "printedPage": 20,
+      "timestampSeconds": 29.5,
+      "part": "part1",
+      "frameId": "frame-0119",
+      "frameSha256": "ad9486413f8cf5d69cdcb982ceae5f58090b5f8ea646702e6416cc1e3cfbc158",
+      "readability": "readable",
+      "ocrStatus": "private-ocr-manually-corrected-for-objectives",
+      "exerciseNumbers": [
+        7,
+        8
+      ],
+      "sourceExerciseIds": [
+        "src26-m1a-7",
+        "src26-m1a-8"
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": true,
+        "fullTextChecked": true,
+        "adaptationsCreated": true,
+        "audioChecked": true,
+        "e2eChecked": true
+      },
+      "notes": "Условия и цель проверены визуально; публично размещены только собственные тренажёры."
+    },
+    {
+      "printedPage": 21,
+      "timestampSeconds": 29.5,
+      "part": "part1",
+      "frameId": "frame-0119",
+      "frameSha256": "ad9486413f8cf5d69cdcb982ceae5f58090b5f8ea646702e6416cc1e3cfbc158",
+      "readability": "readable",
+      "ocrStatus": "private-ocr-manually-corrected-for-objectives",
+      "exerciseNumbers": [
+        9,
+        10
+      ],
+      "sourceExerciseIds": [
+        "src26-m1a-9",
+        "src26-m1a-10"
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": true,
+        "fullTextChecked": true,
+        "adaptationsCreated": true,
+        "audioChecked": true,
+        "e2eChecked": true
+      },
+      "notes": "Условия и цель проверены визуально; публично размещены только собственные тренажёры."
+    },
+    {
+      "printedPage": 22,
+      "timestampSeconds": 32.75,
+      "part": "part1",
+      "frameId": "frame-0132",
+      "frameSha256": "3055aa6d11aebef4a61d47b5532847e020d5644cab3de9879e2ebb39e37d6540",
+      "readability": "readable",
+      "ocrStatus": "private-ocr-manually-corrected-for-objectives",
+      "exerciseNumbers": [
+        1,
+        2,
+        3
+      ],
+      "sourceExerciseIds": [
+        "src26-m1b-1",
+        "src26-m1b-2",
+        "src26-m1b-3"
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": true,
+        "fullTextChecked": true,
+        "adaptationsCreated": true,
+        "audioChecked": true,
+        "e2eChecked": true
+      },
+      "notes": "Условия и цель проверены визуально; публично размещены только собственные тренажёры."
+    },
+    {
+      "printedPage": 23,
+      "timestampSeconds": 32.75,
+      "part": "part1",
+      "frameId": "frame-0132",
+      "frameSha256": "3055aa6d11aebef4a61d47b5532847e020d5644cab3de9879e2ebb39e37d6540",
+      "readability": "readable",
+      "ocrStatus": "private-ocr-manually-corrected-for-objectives",
+      "exerciseNumbers": [
+        3,
+        4,
+        5
+      ],
+      "sourceExerciseIds": [
+        "src26-m1b-3",
+        "src26-m1b-4",
+        "src26-m1b-5"
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": true,
+        "fullTextChecked": true,
+        "adaptationsCreated": true,
+        "audioChecked": true,
+        "e2eChecked": true
+      },
+      "notes": "Условия и цель проверены визуально; публично размещены только собственные тренажёры."
+    },
+    {
+      "printedPage": 24,
+      "timestampSeconds": 35.25,
+      "part": "part1",
+      "frameId": "frame-0142",
+      "frameSha256": "fb94f7f551edacb310a9ba6db5382141f015df01f2020e101bc6646b0928bbe2",
+      "readability": "readable",
+      "ocrStatus": "private-ocr-manually-corrected-for-objectives",
+      "exerciseNumbers": [
+        5,
+        6
+      ],
+      "sourceExerciseIds": [
+        "src26-m1b-5",
+        "src26-m1b-6"
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": true,
+        "fullTextChecked": true,
+        "adaptationsCreated": true,
+        "audioChecked": true,
+        "e2eChecked": true
+      },
+      "notes": "Условия и цель проверены визуально; публично размещены только собственные тренажёры."
+    },
+    {
+      "printedPage": 25,
+      "timestampSeconds": 35.25,
+      "part": "part1",
+      "frameId": "frame-0142",
+      "frameSha256": "fb94f7f551edacb310a9ba6db5382141f015df01f2020e101bc6646b0928bbe2",
+      "readability": "readable",
+      "ocrStatus": "private-ocr-manually-corrected-for-objectives",
+      "exerciseNumbers": [
+        7,
+        8
+      ],
+      "sourceExerciseIds": [
+        "src26-m1b-7",
+        "src26-m1b-8"
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": true,
+        "fullTextChecked": true,
+        "adaptationsCreated": true,
+        "audioChecked": true,
+        "e2eChecked": true
+      },
+      "notes": "Условия и цель проверены визуально; публично размещены только собственные тренажёры."
+    },
+    {
+      "printedPage": 26,
+      "timestampSeconds": 36.75,
+      "part": "part1",
+      "frameId": "frame-0148",
+      "frameSha256": "dd41023f42d012afc433b1785d81943828eb8c7eb331d4e5c4552864ed7af1a7",
+      "readability": "readable",
+      "ocrStatus": "private-ocr-manually-corrected-for-objectives",
+      "exerciseNumbers": [
+        9,
+        10,
+        11
+      ],
+      "sourceExerciseIds": [
+        "src26-m1b-9",
+        "src26-m1b-10",
+        "src26-m1b-11"
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": true,
+        "fullTextChecked": true,
+        "adaptationsCreated": true,
+        "audioChecked": true,
+        "e2eChecked": true
+      },
+      "notes": "Условия и цель проверены визуально; публично размещены только собственные тренажёры."
+    },
+    {
+      "printedPage": 27,
+      "timestampSeconds": 36.75,
+      "part": "part1",
+      "frameId": "frame-0148",
+      "frameSha256": "dd41023f42d012afc433b1785d81943828eb8c7eb331d4e5c4552864ed7af1a7",
+      "readability": "readable",
+      "ocrStatus": "private-ocr-manually-corrected-for-objectives",
+      "exerciseNumbers": [
+        11,
+        12,
+        13
+      ],
+      "sourceExerciseIds": [
+        "src26-m1b-11",
+        "src26-m1b-12",
+        "src26-m1b-13"
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": true,
+        "fullTextChecked": true,
+        "adaptationsCreated": true,
+        "audioChecked": true,
+        "e2eChecked": true
+      },
+      "notes": "Условия и цель проверены визуально; публично размещены только собственные тренажёры."
+    },
+    {
+      "printedPage": 80,
+      "timestampSeconds": 116.75,
+      "part": "part2",
+      "partTimestampSeconds": 15.502089,
+      "frameId": "frame-0468",
+      "frameSha256": "3596efe70974732cff1f623c597002756a1153b36dbc3793abfeb19233f420e5",
+      "readability": "partial",
+      "ocrStatus": "private-ocr-pending-complete-manual-review",
+      "exerciseNumbers": [
+        7,
+        8
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": false,
+        "fullTextChecked": false,
+        "adaptationsCreated": false,
+        "audioChecked": false,
+        "e2eChecked": false
+      },
+      "notes": "Контрольный кадр вне готового блока. Это не полный указатель заданий страницы."
+    },
+    {
+      "printedPage": 83,
+      "timestampSeconds": 116.75,
+      "part": "part2",
+      "partTimestampSeconds": 15.502089,
+      "frameId": "frame-0468",
+      "frameSha256": "3596efe70974732cff1f623c597002756a1153b36dbc3793abfeb19233f420e5",
+      "readability": "partial",
+      "ocrStatus": "private-ocr-pending-complete-manual-review",
+      "exerciseNumbers": [
+        9,
+        10
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": false,
+        "fullTextChecked": false,
+        "adaptationsCreated": false,
+        "audioChecked": false,
+        "e2eChecked": false
+      },
+      "notes": "Контрольный кадр вне готового блока. Это не полный указатель заданий страницы."
+    },
+    {
+      "printedPage": 100,
+      "timestampSeconds": 151.75,
+      "part": "part2",
+      "partTimestampSeconds": 50.502089,
+      "frameId": "frame-0608",
+      "frameSha256": "b2ecc207562ddb5cd0f1aee55a76623d03448b6693b9b93f74793253d7356ec6",
+      "readability": "partial",
+      "ocrStatus": "private-ocr-pending-complete-manual-review",
+      "exerciseNumbers": [
+        12
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": false,
+        "fullTextChecked": false,
+        "adaptationsCreated": false,
+        "audioChecked": false,
+        "e2eChecked": false
+      },
+      "notes": "Контрольный кадр вне готового блока. Это не полный указатель заданий страницы."
+    },
+    {
+      "printedPage": 101,
+      "timestampSeconds": 151.75,
+      "part": "part2",
+      "partTimestampSeconds": 50.502089,
+      "frameId": "frame-0608",
+      "frameSha256": "b2ecc207562ddb5cd0f1aee55a76623d03448b6693b9b93f74793253d7356ec6",
+      "readability": "partial",
+      "ocrStatus": "private-ocr-pending-complete-manual-review",
+      "exerciseNumbers": [
+        13
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": false,
+        "fullTextChecked": false,
+        "adaptationsCreated": false,
+        "audioChecked": false,
+        "e2eChecked": false
+      },
+      "notes": "Контрольный кадр вне готового блока. Это не полный указатель заданий страницы."
+    },
+    {
+      "printedPage": 142,
+      "timestampSeconds": 196.5,
+      "part": "part2",
+      "partTimestampSeconds": 95.252089,
+      "frameId": "frame-0787",
+      "frameSha256": "52a3bf198d7aecb322c7f06d739efe6008a071bd202ff54d2250840f9588fc47",
+      "readability": "partial",
+      "ocrStatus": "private-ocr-pending-complete-manual-review",
+      "exerciseNumbers": [
+        10,
+        11
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": false,
+        "fullTextChecked": false,
+        "adaptationsCreated": false,
+        "audioChecked": false,
+        "e2eChecked": false
+      },
+      "notes": "Контрольный кадр вне готового блока. Это не полный указатель заданий страницы."
+    },
+    {
+      "printedPage": 143,
+      "timestampSeconds": 196.5,
+      "part": "part2",
+      "partTimestampSeconds": 95.252089,
+      "frameId": "frame-0787",
+      "frameSha256": "52a3bf198d7aecb322c7f06d739efe6008a071bd202ff54d2250840f9588fc47",
+      "readability": "partial",
+      "ocrStatus": "private-ocr-pending-complete-manual-review",
+      "exerciseNumbers": [
+        11,
+        12
+      ],
+      "stages": {
+        "pageNumberChecked": true,
+        "objectivesChecked": false,
+        "fullTextChecked": false,
+        "adaptationsCreated": false,
+        "audioChecked": false,
+        "e2eChecked": false
+      },
+      "notes": "Контрольный кадр вне готового блока. Это не полный указатель заданий страницы."
+    }
+  ],
+  "candidates": [
+    {
+      "frameId": "frame-0001",
+      "globalTimestampSeconds": 0.0,
+      "part": "part1",
+      "partTimestampSeconds": 0.0,
+      "sharpness": 26.04,
+      "frameSha256": "905f243a9d631c2ca1c904016cfafdabf402ecf4f46d45a24974966667e1ee25",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0009",
+      "globalTimestampSeconds": 2.0,
+      "part": "part1",
+      "partTimestampSeconds": 2.0,
+      "sharpness": 34.43,
+      "frameSha256": "b225268504340ca30a4819750ae7c14e7b32da6515708e27eba6fe4ba1d1cd8f",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0015",
+      "globalTimestampSeconds": 3.5,
+      "part": "part1",
+      "partTimestampSeconds": 3.5,
+      "sharpness": 118.24,
+      "frameSha256": "381f68b9dc8c1eb9e2f199b44aa40383a1829598b4dd0afdd0ea95fab6825217",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0016",
+      "globalTimestampSeconds": 3.75,
+      "part": "part1",
+      "partTimestampSeconds": 3.75,
+      "sharpness": 73.47,
+      "frameSha256": "71d26fd1389677f080446719bbc6bb61d4f8c00a87c5bc105c9f4c9ca346f84f",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0023",
+      "globalTimestampSeconds": 5.5,
+      "part": "part1",
+      "partTimestampSeconds": 5.5,
+      "sharpness": 79.24,
+      "frameSha256": "7b288947f9fffb06ac39a80370857349d980958846504df89628cfdc7c2dbd45",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0028",
+      "globalTimestampSeconds": 6.75,
+      "part": "part1",
+      "partTimestampSeconds": 6.75,
+      "sharpness": 99.36,
+      "frameSha256": "2809c78d274e2e64f7df6e5a7999ca6e7dfc5740c5e3347a68eb46b858e2179a",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0033",
+      "globalTimestampSeconds": 8.0,
+      "part": "part1",
+      "partTimestampSeconds": 8.0,
+      "sharpness": 205.32,
+      "frameSha256": "57e320bc9cd75e47eab44d8a6df2c314bd23ae295e7d647919a8a4307383fdaa",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "see-page-audit"
+    },
+    {
+      "frameId": "frame-0040",
+      "globalTimestampSeconds": 9.75,
+      "part": "part1",
+      "partTimestampSeconds": 9.75,
+      "sharpness": 274.95,
+      "frameSha256": "88777ac952f205d46729ecba55374650f5a0c51588fcead1ac8341b6d7db4082",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0044",
+      "globalTimestampSeconds": 10.75,
+      "part": "part1",
+      "partTimestampSeconds": 10.75,
+      "sharpness": 280.69,
+      "frameSha256": "9e174ab94e5c6b4eeefa3b487b380dbe83b660031aa9d9c9270fd3372b4da6c9",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0049",
+      "globalTimestampSeconds": 12.0,
+      "part": "part1",
+      "partTimestampSeconds": 12.0,
+      "sharpness": 227.64,
+      "frameSha256": "b43a5b82e7d39d38162d59ceee0c6c9a85d6067cdf39a1a57e85b7909893e002",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "see-page-audit"
+    },
+    {
+      "frameId": "frame-0051",
+      "globalTimestampSeconds": 12.5,
+      "part": "part1",
+      "partTimestampSeconds": 12.5,
+      "sharpness": 175.24,
+      "frameSha256": "ccf69e06c7cc00adad36bfc95d3424b7306b9b32955621acd6a301ea0b4c542d",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0060",
+      "globalTimestampSeconds": 14.75,
+      "part": "part1",
+      "partTimestampSeconds": 14.75,
+      "sharpness": 190.24,
+      "frameSha256": "45f0025d39fb9e8af60074d80f9797e9ff00ef5a270b66667b312a03cee8b4b9",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "see-page-audit"
+    },
+    {
+      "frameId": "frame-0062",
+      "globalTimestampSeconds": 15.25,
+      "part": "part1",
+      "partTimestampSeconds": 15.25,
+      "sharpness": 235.89,
+      "frameSha256": "4390b742489ed529cbb069bc5537ef94530eac597fa1150e5ac873d4d8ae3e8f",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0070",
+      "globalTimestampSeconds": 17.25,
+      "part": "part1",
+      "partTimestampSeconds": 17.25,
+      "sharpness": 169.85,
+      "frameSha256": "da92d6db596015854630e5cc6fd81765d1e1998527ab2c6e40b99d5e0d6f96a4",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0071",
+      "globalTimestampSeconds": 17.5,
+      "part": "part1",
+      "partTimestampSeconds": 17.5,
+      "sharpness": 264.56,
+      "frameSha256": "be0498d749b8bca4f9175944af2fc653241a7fd789109e64ebd4ee8b07c1522e",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "see-page-audit"
+    },
+    {
+      "frameId": "frame-0078",
+      "globalTimestampSeconds": 19.25,
+      "part": "part1",
+      "partTimestampSeconds": 19.25,
+      "sharpness": 114.42,
+      "frameSha256": "6b364211eba71c253c544465981d5878587f92250abb65ad61a4cad493c3ca2c",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0085",
+      "globalTimestampSeconds": 21.0,
+      "part": "part1",
+      "partTimestampSeconds": 21.0,
+      "sharpness": 327.75,
+      "frameSha256": "53952b8dec4f3aaeda86aa4b0bcfa09596c19646afb4a936f9f0b1057ec44fcd",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "see-page-audit"
+    },
+    {
+      "frameId": "frame-0089",
+      "globalTimestampSeconds": 22.0,
+      "part": "part1",
+      "partTimestampSeconds": 22.0,
+      "sharpness": 283.06,
+      "frameSha256": "d6eb85107204462c3426ebc51fa52cfdd23963b3a270e4e14361110bf6d768b2",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0095",
+      "globalTimestampSeconds": 23.5,
+      "part": "part1",
+      "partTimestampSeconds": 23.5,
+      "sharpness": 331.77,
+      "frameSha256": "ad67b3dc4f58c0a16ccd25528bd13c54f2450d18b5c6fc0be6b1783d74d6afb8",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0100",
+      "globalTimestampSeconds": 24.75,
+      "part": "part1",
+      "partTimestampSeconds": 24.75,
+      "sharpness": 303.15,
+      "frameSha256": "4d5d371fcc518dd3d7d5d77d1c32406ad2f4e898658620644c0dca1b8e1ac579",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "see-page-audit"
+    },
+    {
+      "frameId": "frame-0105",
+      "globalTimestampSeconds": 26.0,
+      "part": "part1",
+      "partTimestampSeconds": 26.0,
+      "sharpness": 311.85,
+      "frameSha256": "109e733bc3c5c2e8af47ed7e1da79ca1492fc212f3a33349eb043d04fce9b549",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0108",
+      "globalTimestampSeconds": 26.75,
+      "part": "part1",
+      "partTimestampSeconds": 26.75,
+      "sharpness": 278.62,
+      "frameSha256": "9fe78877c6a5efef38245951a6ec1f836e02a6bedec55377a9b9f408f4ea53d7",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "see-page-audit"
+    },
+    {
+      "frameId": "frame-0115",
+      "globalTimestampSeconds": 28.5,
+      "part": "part1",
+      "partTimestampSeconds": 28.5,
+      "sharpness": 252.1,
+      "frameSha256": "e6832c5a1c1e8b80e37f527b6a94bdcb4c1570fc5fe139daa79c46e8747e8a98",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0119",
+      "globalTimestampSeconds": 29.5,
+      "part": "part1",
+      "partTimestampSeconds": 29.5,
+      "sharpness": 348.12,
+      "frameSha256": "ad9486413f8cf5d69cdcb982ceae5f58090b5f8ea646702e6416cc1e3cfbc158",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "see-page-audit"
+    },
+    {
+      "frameId": "frame-0124",
+      "globalTimestampSeconds": 30.75,
+      "part": "part1",
+      "partTimestampSeconds": 30.75,
+      "sharpness": 333.17,
+      "frameSha256": "e33a33f63d6691cbb6239cb78f994b1e36b9144692b76d73ec2fd4bed5f320df",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0127",
+      "globalTimestampSeconds": 31.5,
+      "part": "part1",
+      "partTimestampSeconds": 31.5,
+      "sharpness": 146.32,
+      "frameSha256": "5d1b3c03a65fe4183160f45ed06681426be7410f7731ef1162b32947a32ac30f",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0132",
+      "globalTimestampSeconds": 32.75,
+      "part": "part1",
+      "partTimestampSeconds": 32.75,
+      "sharpness": 478.45,
+      "frameSha256": "3055aa6d11aebef4a61d47b5532847e020d5644cab3de9879e2ebb39e37d6540",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "see-page-audit"
+    },
+    {
+      "frameId": "frame-0137",
+      "globalTimestampSeconds": 34.0,
+      "part": "part1",
+      "partTimestampSeconds": 34.0,
+      "sharpness": 147.1,
+      "frameSha256": "d90faeae3060bb7ffa4ff151ffe639f76d4ce1acbc71b476b6489424972ebc8a",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0142",
+      "globalTimestampSeconds": 35.25,
+      "part": "part1",
+      "partTimestampSeconds": 35.25,
+      "sharpness": 375.39,
+      "frameSha256": "fb94f7f551edacb310a9ba6db5382141f015df01f2020e101bc6646b0928bbe2",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "see-page-audit"
+    },
+    {
+      "frameId": "frame-0150",
+      "globalTimestampSeconds": 37.25,
+      "part": "part1",
+      "partTimestampSeconds": 37.25,
+      "sharpness": 464.18,
+      "frameSha256": "0c29a3dbd7047e09566013e608aaebb3f52dda19823f22feb5b4f59c64f94ecc",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0151",
+      "globalTimestampSeconds": 37.5,
+      "part": "part1",
+      "partTimestampSeconds": 37.5,
+      "sharpness": 456.02,
+      "frameSha256": "03c5b9335b98b4408eebc27ce2c2264d787ca1977d44e5d52e13d0c60bfa7a4f",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0158",
+      "globalTimestampSeconds": 39.25,
+      "part": "part1",
+      "partTimestampSeconds": 39.25,
+      "sharpness": 364.64,
+      "frameSha256": "a3304279838c42146e673ff3e3add387c11592483c5abe54056721c433146188",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0163",
+      "globalTimestampSeconds": 40.5,
+      "part": "part1",
+      "partTimestampSeconds": 40.5,
+      "sharpness": 269.77,
+      "frameSha256": "82d77a9974797ae5dda7593c0ef99e56e8b8bab697dad216668d3b76be37c37c",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0168",
+      "globalTimestampSeconds": 41.75,
+      "part": "part1",
+      "partTimestampSeconds": 41.75,
+      "sharpness": 339.02,
+      "frameSha256": "6802a9476e21af4ac8ac03fe3a20737f5c1490f35f6c2a1bce2deb4531ecb2bb",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0171",
+      "globalTimestampSeconds": 42.5,
+      "part": "part1",
+      "partTimestampSeconds": 42.5,
+      "sharpness": 201.85,
+      "frameSha256": "83321453528e8b4ce91446344150b5d124cd578a142cfa4ade94093713e631dd",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0176",
+      "globalTimestampSeconds": 43.75,
+      "part": "part1",
+      "partTimestampSeconds": 43.75,
+      "sharpness": 283.82,
+      "frameSha256": "2b89c8a03c039f38b3cd109b3735c2591ec950527124d61b8c57da6fc6587822",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0183",
+      "globalTimestampSeconds": 45.5,
+      "part": "part1",
+      "partTimestampSeconds": 45.5,
+      "sharpness": 384.22,
+      "frameSha256": "6a5e7e0b7b7f76de204a7d9093c28e108f76268325ee401dbb472fd8a425f14e",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0188",
+      "globalTimestampSeconds": 46.75,
+      "part": "part1",
+      "partTimestampSeconds": 46.75,
+      "sharpness": 180.72,
+      "frameSha256": "44259f6f8a09816bdd0b8280ac3b94fcf3ef30bec6cd756ba8c99ec3d3f1060f",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0192",
+      "globalTimestampSeconds": 47.75,
+      "part": "part1",
+      "partTimestampSeconds": 47.75,
+      "sharpness": 311.55,
+      "frameSha256": "106eba4eb48cf3dd7c39c06c04e9891b9df2a80601b374d7a8d83efe88f3eec4",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0196",
+      "globalTimestampSeconds": 48.75,
+      "part": "part1",
+      "partTimestampSeconds": 48.75,
+      "sharpness": 398.64,
+      "frameSha256": "4763eadbb1c5d5e1c3fb3d1478de72ebdf2fe8908403c52c16669ad29a73dfd2",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0205",
+      "globalTimestampSeconds": 51.0,
+      "part": "part1",
+      "partTimestampSeconds": 51.0,
+      "sharpness": 310.08,
+      "frameSha256": "1989f2a718093816f70fbc25837b471c8bac4936359ec6c86e20bb5e12446c59",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0207",
+      "globalTimestampSeconds": 51.5,
+      "part": "part1",
+      "partTimestampSeconds": 51.5,
+      "sharpness": 438.74,
+      "frameSha256": "802751615d71594841b4ea6015882b73255514b3615fbfb0e6b1452178423721",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0212",
+      "globalTimestampSeconds": 52.75,
+      "part": "part1",
+      "partTimestampSeconds": 52.75,
+      "sharpness": 251.34,
+      "frameSha256": "5ce7f735c8893f36f138d886753034181508999ded92c8c932a0557701be07dc",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0220",
+      "globalTimestampSeconds": 54.75,
+      "part": "part1",
+      "partTimestampSeconds": 54.75,
+      "sharpness": 254.14,
+      "frameSha256": "fb17db4cf62b5c28547b88945f32ded190b93f1c58addccbb9829920c9b5d498",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0222",
+      "globalTimestampSeconds": 55.25,
+      "part": "part1",
+      "partTimestampSeconds": 55.25,
+      "sharpness": 618.32,
+      "frameSha256": "0205b89d1d15b15c3581c63a1f30e17e93ffd6aa01ce63bd0efedfe7a98b77e5",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0230",
+      "globalTimestampSeconds": 57.25,
+      "part": "part1",
+      "partTimestampSeconds": 57.25,
+      "sharpness": 131.0,
+      "frameSha256": "b9192c7905c7d5f0fa0a6269f84f9730cbc7c46d19c92678281fa359eda77bbf",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0234",
+      "globalTimestampSeconds": 58.25,
+      "part": "part1",
+      "partTimestampSeconds": 58.25,
+      "sharpness": 337.06,
+      "frameSha256": "107247aecbe017ae75ade15ac0ba3fcdcc17c9ed48249d981e329100287c016c",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0240",
+      "globalTimestampSeconds": 59.75,
+      "part": "part1",
+      "partTimestampSeconds": 59.75,
+      "sharpness": 230.11,
+      "frameSha256": "0950d1fb9d6600547851a8fc6718ddf6f9b6341d77b6a3e3493df1c6bb04858d",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0244",
+      "globalTimestampSeconds": 60.75,
+      "part": "part1",
+      "partTimestampSeconds": 60.75,
+      "sharpness": 370.93,
+      "frameSha256": "94371f5b00c67b406d65446c45f848dc9bff91d1cbb797077f932f35a2f43f1d",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0249",
+      "globalTimestampSeconds": 62.0,
+      "part": "part1",
+      "partTimestampSeconds": 62.0,
+      "sharpness": 319.01,
+      "frameSha256": "553ffa596587482b224ec03753c0d3320a675f3f1fe516023046cba262ced12b",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0251",
+      "globalTimestampSeconds": 62.5,
+      "part": "part1",
+      "partTimestampSeconds": 62.5,
+      "sharpness": 417.67,
+      "frameSha256": "a5e8c23dec1a039096a199cccef68c4b7813a1d9c3f3c6f77c615c78fbde8ced",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0256",
+      "globalTimestampSeconds": 63.75,
+      "part": "part1",
+      "partTimestampSeconds": 63.75,
+      "sharpness": 80.03,
+      "frameSha256": "6fe570dac4be4f2edfe874676f27287f2510184fdf746c7f97ec9c456c87dd35",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0265",
+      "globalTimestampSeconds": 66.0,
+      "part": "part1",
+      "partTimestampSeconds": 66.0,
+      "sharpness": 366.77,
+      "frameSha256": "076483c1c7bc9ef2f6d4fda99fd8174d03ed8fa0665f38169d856f599bb9815c",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0266",
+      "globalTimestampSeconds": 66.25,
+      "part": "part1",
+      "partTimestampSeconds": 66.25,
+      "sharpness": 196.07,
+      "frameSha256": "1c0dc1b27ef2e04f5a7b501dde9f7373a2cd6c693bea38b6e6e935736d7a5d63",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0273",
+      "globalTimestampSeconds": 68.0,
+      "part": "part1",
+      "partTimestampSeconds": 68.0,
+      "sharpness": 263.44,
+      "frameSha256": "8e8f975ca40c661d849b383af1c3f51090b468a914ed97bd1a8fd00257622207",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0277",
+      "globalTimestampSeconds": 69.0,
+      "part": "part1",
+      "partTimestampSeconds": 69.0,
+      "sharpness": 348.45,
+      "frameSha256": "ced3c3a743e816ff998eefe5a153650943365da7a693bae6c1d7cb4f239b08d1",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0281",
+      "globalTimestampSeconds": 70.0,
+      "part": "part1",
+      "partTimestampSeconds": 70.0,
+      "sharpness": 219.75,
+      "frameSha256": "8743c2ef2dfd55b6b4ca859fdb715b39ae51b74de259a330e4f441eedc7aeb5f",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0287",
+      "globalTimestampSeconds": 71.5,
+      "part": "part1",
+      "partTimestampSeconds": 71.5,
+      "sharpness": 363.89,
+      "frameSha256": "d796ecb4d822a5f4b3979febc951fa9e91590d6b80b0eed64335ff8620b53971",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0292",
+      "globalTimestampSeconds": 72.75,
+      "part": "part1",
+      "partTimestampSeconds": 72.75,
+      "sharpness": 460.43,
+      "frameSha256": "e4f848d35bfbc15bb3baa6d9f91f8f282cbfcea0088f136af3302fbd59b2feb0",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0298",
+      "globalTimestampSeconds": 74.25,
+      "part": "part1",
+      "partTimestampSeconds": 74.25,
+      "sharpness": 241.54,
+      "frameSha256": "726d680bafce6b540c194afae80e840ce1c90208cd2e441db6d3692d6ef1b19e",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0305",
+      "globalTimestampSeconds": 76.0,
+      "part": "part1",
+      "partTimestampSeconds": 76.0,
+      "sharpness": 224.39,
+      "frameSha256": "13817a6190ea69a143bef844c06d0525a9282557b09d09abd437efa29fc0b910",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0308",
+      "globalTimestampSeconds": 76.75,
+      "part": "part1",
+      "partTimestampSeconds": 76.75,
+      "sharpness": 312.37,
+      "frameSha256": "3a6faef2dafe44f22e4280af05faf6cdd33753181a2d8a6c4687f528b8a1cf76",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0313",
+      "globalTimestampSeconds": 78.0,
+      "part": "part1",
+      "partTimestampSeconds": 78.0,
+      "sharpness": 311.45,
+      "frameSha256": "cccb02ba35c68d49acd948a5d7063766f5605435042a54c20dbb54b1fb099b93",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0318",
+      "globalTimestampSeconds": 79.25,
+      "part": "part1",
+      "partTimestampSeconds": 79.25,
+      "sharpness": 353.96,
+      "frameSha256": "6e6f218c2916495108a858de002716d22750a2e090546c1da4b2de2103b8c6d1",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0325",
+      "globalTimestampSeconds": 81.0,
+      "part": "part1",
+      "partTimestampSeconds": 81.0,
+      "sharpness": 247.34,
+      "frameSha256": "da8da1a1e8cffefd74dc62eb6b677f183975ff87339dcfc2469eeb1c03254487",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0329",
+      "globalTimestampSeconds": 82.0,
+      "part": "part1",
+      "partTimestampSeconds": 82.0,
+      "sharpness": 262.69,
+      "frameSha256": "b9179243cf4a5461438b1a03ceecc9c400b64414dc635e20fd20d1fa6d212146",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0334",
+      "globalTimestampSeconds": 83.25,
+      "part": "part1",
+      "partTimestampSeconds": 83.25,
+      "sharpness": 411.2,
+      "frameSha256": "b44704d036560a0c6a35ea2dc8cf0c7046e48c76c32d1bda74a0a97fb8141cb9",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0340",
+      "globalTimestampSeconds": 84.75,
+      "part": "part1",
+      "partTimestampSeconds": 84.75,
+      "sharpness": 305.05,
+      "frameSha256": "3988fbb64654d3c7b8d304e8d55c33d750abc6c279468bc285e0549cb6fa2a9b",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0345",
+      "globalTimestampSeconds": 86.0,
+      "part": "part1",
+      "partTimestampSeconds": 86.0,
+      "sharpness": 527.65,
+      "frameSha256": "bb74892551361351ff5ea23d1aaaf24a7e6191a7ebf655ec32e3eafeb28c865f",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0346",
+      "globalTimestampSeconds": 86.25,
+      "part": "part1",
+      "partTimestampSeconds": 86.25,
+      "sharpness": 310.11,
+      "frameSha256": "763aad8766838b4e1e3571b12f7220f055578bba333a651657a5e51fcdab7c7d",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0352",
+      "globalTimestampSeconds": 87.75,
+      "part": "part1",
+      "partTimestampSeconds": 87.75,
+      "sharpness": 121.34,
+      "frameSha256": "2a71d13a4444f5e3c6bda14622909de8689d42257bcf72e0e95aff37945ec3de",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0358",
+      "globalTimestampSeconds": 89.25,
+      "part": "part1",
+      "partTimestampSeconds": 89.25,
+      "sharpness": 186.68,
+      "frameSha256": "bb2a01aab768684f76df9736bb6da44bea73f38c25d507af90be2f46024c30a6",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0365",
+      "globalTimestampSeconds": 91.0,
+      "part": "part1",
+      "partTimestampSeconds": 91.0,
+      "sharpness": 216.56,
+      "frameSha256": "1c725adaab7085a8e41c640ee0e4194b4b538c872f31428f78dc9630bf7784e2",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0368",
+      "globalTimestampSeconds": 91.75,
+      "part": "part1",
+      "partTimestampSeconds": 91.75,
+      "sharpness": 264.19,
+      "frameSha256": "7ae89881d71e141e875c30841c3cb1512c3d8e5e215e7b0922afe98f96336ad0",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0371",
+      "globalTimestampSeconds": 92.5,
+      "part": "part1",
+      "partTimestampSeconds": 92.5,
+      "sharpness": 286.21,
+      "frameSha256": "4e8da3b79737a3949e6ac54da198f4c8c567d1dc7066273ba827ce5b2f53f356",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0376",
+      "globalTimestampSeconds": 93.75,
+      "part": "part1",
+      "partTimestampSeconds": 93.75,
+      "sharpness": 128.79,
+      "frameSha256": "20abf278f5b9dc5249fa35936f026be52b0210ea7d9e0290c2f86efd9868daae",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0381",
+      "globalTimestampSeconds": 95.0,
+      "part": "part1",
+      "partTimestampSeconds": 95.0,
+      "sharpness": 285.75,
+      "frameSha256": "e75ad161317efd2296ff1653523008ef718ca70e82b4c67ea44366308c7da292",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0390",
+      "globalTimestampSeconds": 97.25,
+      "part": "part1",
+      "partTimestampSeconds": 97.25,
+      "sharpness": 280.57,
+      "frameSha256": "575d1f78549b1dec830385d0c52478a0dc556b8d9b882f0dd26b7ca434c347a2",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0395",
+      "globalTimestampSeconds": 98.5,
+      "part": "part1",
+      "partTimestampSeconds": 98.5,
+      "sharpness": 209.02,
+      "frameSha256": "55b746e6f15fef5d5742e69da6d104d884208a0126b353b69a0b364161c5b2bd",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0397",
+      "globalTimestampSeconds": 99.0,
+      "part": "part1",
+      "partTimestampSeconds": 99.0,
+      "sharpness": 202.46,
+      "frameSha256": "6911eab9db61cb2ba1cd4ab65c8560fdd8e548cb957da420910f6953a84db789",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0405",
+      "globalTimestampSeconds": 101.0,
+      "part": "part1",
+      "partTimestampSeconds": 101.0,
+      "sharpness": 432.29,
+      "frameSha256": "6a2b2b648f37951c75babf2aa6855b6989e906e87386496e4d353ba0247b7a8c",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0406",
+      "globalTimestampSeconds": 101.25,
+      "part": "part2",
+      "partTimestampSeconds": 0.002089,
+      "sharpness": 375.54,
+      "frameSha256": "6028ce740ec51dec796a7612ed1b7d5f77e6928110f039a4d848e2f2759d4f92",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0412",
+      "globalTimestampSeconds": 102.75,
+      "part": "part2",
+      "partTimestampSeconds": 1.502089,
+      "sharpness": 361.38,
+      "frameSha256": "aa2f585a7536c13b08d822961b2e75caf97aa14b458376956dcd9eb44ba3eee1",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0419",
+      "globalTimestampSeconds": 104.5,
+      "part": "part2",
+      "partTimestampSeconds": 3.252089,
+      "sharpness": 192.32,
+      "frameSha256": "4298b6f5f0c3d716d60b373ac58695960c76578b38e02dbe793588c7a63835ee",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0425",
+      "globalTimestampSeconds": 106.0,
+      "part": "part2",
+      "partTimestampSeconds": 4.752089,
+      "sharpness": 193.17,
+      "frameSha256": "5d8ea11c1962e650fe81906777638b2df899927ddb7d910c446f3a6108e765d4",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0427",
+      "globalTimestampSeconds": 106.5,
+      "part": "part2",
+      "partTimestampSeconds": 5.252089,
+      "sharpness": 231.04,
+      "frameSha256": "96a83dcbd1055bacfc90e64dbae0e8760f47113050eba099ffeb439424a6a278",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0432",
+      "globalTimestampSeconds": 107.75,
+      "part": "part2",
+      "partTimestampSeconds": 6.502089,
+      "sharpness": 310.08,
+      "frameSha256": "b0172d618bd3dcf061cec62c6f8a8a20b9f0a03ca0a6349f62cd1b24d7ca9af8",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0437",
+      "globalTimestampSeconds": 109.0,
+      "part": "part2",
+      "partTimestampSeconds": 7.752089,
+      "sharpness": 161.22,
+      "frameSha256": "48ffa16416eab59da504c75980cab5b8ad65c8a83493e851581025056f76222f",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0445",
+      "globalTimestampSeconds": 111.0,
+      "part": "part2",
+      "partTimestampSeconds": 9.752089,
+      "sharpness": 308.52,
+      "frameSha256": "ba190ee5d98c11701aca64ecbde3ca3ae1bafbc2e39e7df96963d1030fd0f969",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0449",
+      "globalTimestampSeconds": 112.0,
+      "part": "part2",
+      "partTimestampSeconds": 10.752089,
+      "sharpness": 380.36,
+      "frameSha256": "373030dd4e0fa77ceeb6781ca1531a28cab468553a192f7c1ac20139a8f68cf1",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0454",
+      "globalTimestampSeconds": 113.25,
+      "part": "part2",
+      "partTimestampSeconds": 12.002089,
+      "sharpness": 227.78,
+      "frameSha256": "8da3e23f1884d0c2b9c028b3c5da1a7b48dbf9ff26c5adde5d5fdcd88ca81379",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0460",
+      "globalTimestampSeconds": 114.75,
+      "part": "part2",
+      "partTimestampSeconds": 13.502089,
+      "sharpness": 338.19,
+      "frameSha256": "d2d51a770c474de3e9b18e9946add2aadcd4edf8a3dcc2f96acde96ceab776c0",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0464",
+      "globalTimestampSeconds": 115.75,
+      "part": "part2",
+      "partTimestampSeconds": 14.502089,
+      "sharpness": 238.5,
+      "frameSha256": "298367b4a12fc240a229b33985c43c1181e8981b09e82bd399b58a9556e45f09",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0468",
+      "globalTimestampSeconds": 116.75,
+      "part": "part2",
+      "partTimestampSeconds": 15.502089,
+      "sharpness": 253.31,
+      "frameSha256": "3596efe70974732cff1f623c597002756a1153b36dbc3793abfeb19233f420e5",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "see-page-audit"
+    },
+    {
+      "frameId": "frame-0472",
+      "globalTimestampSeconds": 117.75,
+      "part": "part2",
+      "partTimestampSeconds": 16.502089,
+      "sharpness": 255.2,
+      "frameSha256": "43814b6b6e32d5ad559da7166e8f2b0e2795d4014fafea7c1a3786a60f05c716",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0479",
+      "globalTimestampSeconds": 119.5,
+      "part": "part2",
+      "partTimestampSeconds": 18.252089,
+      "sharpness": 251.27,
+      "frameSha256": "69947301edb8d2fcaa274ddf355c5436315512773d11f520a3a4e4899938b1f5",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0485",
+      "globalTimestampSeconds": 121.0,
+      "part": "part2",
+      "partTimestampSeconds": 19.752089,
+      "sharpness": 258.33,
+      "frameSha256": "df28acf7ce5ed5a96ce2016907b2d2ff3563fe32b9125003d5b8df1bc09cbd87",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0490",
+      "globalTimestampSeconds": 122.25,
+      "part": "part2",
+      "partTimestampSeconds": 21.002089,
+      "sharpness": 269.76,
+      "frameSha256": "3db7c0b17ccf521d86d8f483ea87704dfd11c67ea385767758ddc11a485d83b5",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0494",
+      "globalTimestampSeconds": 123.25,
+      "part": "part2",
+      "partTimestampSeconds": 22.002089,
+      "sharpness": 274.43,
+      "frameSha256": "4fe5ee0f21328d0b06cf79cdaa56f3aeadfaf30d440855e30c56d8bd00471073",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0496",
+      "globalTimestampSeconds": 123.75,
+      "part": "part2",
+      "partTimestampSeconds": 22.502089,
+      "sharpness": 291.22,
+      "frameSha256": "62ada9f78198dc1746d16e744d7637a0bbe7b038041cfd4e86c591e3a8af4110",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0504",
+      "globalTimestampSeconds": 125.75,
+      "part": "part2",
+      "partTimestampSeconds": 24.502089,
+      "sharpness": 291.36,
+      "frameSha256": "3f5722b6c96554c06827d532d93b667a037bfa41eaaec9749d1fccdf38192099",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0508",
+      "globalTimestampSeconds": 126.75,
+      "part": "part2",
+      "partTimestampSeconds": 25.502089,
+      "sharpness": 412.55,
+      "frameSha256": "94e946b57e8148379229b42585f00965426282d86feae515c7155effdda9ae1c",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0511",
+      "globalTimestampSeconds": 127.5,
+      "part": "part2",
+      "partTimestampSeconds": 26.252089,
+      "sharpness": 63.39,
+      "frameSha256": "4eb3208eedcba2a78a91afcdfe622ef502df5b89766c1a313ac857a1986e5ec5",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0516",
+      "globalTimestampSeconds": 128.75,
+      "part": "part2",
+      "partTimestampSeconds": 27.502089,
+      "sharpness": 82.88,
+      "frameSha256": "e7a25f7c4c7ef82b687fb549b6f6b8d9cb1f5110f943d5eca52cea97623a6f32",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0521",
+      "globalTimestampSeconds": 130.0,
+      "part": "part2",
+      "partTimestampSeconds": 28.752089,
+      "sharpness": 69.83,
+      "frameSha256": "f60d95b1b35604b32e81bfea5f12efd893ef10c07edaf01d1e52a986dbfaffaf",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0530",
+      "globalTimestampSeconds": 132.25,
+      "part": "part2",
+      "partTimestampSeconds": 31.002089,
+      "sharpness": 237.71,
+      "frameSha256": "f266264d5f3823dcf65a18497bc89643b9ffc8230494f7f1afe1dc702209cebb",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0533",
+      "globalTimestampSeconds": 133.0,
+      "part": "part2",
+      "partTimestampSeconds": 31.752089,
+      "sharpness": 196.91,
+      "frameSha256": "90b8245cc7a9f4fa74ffd1d527f5f34bcbcbfe719cdab06d5626e4c1fd985f37",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0536",
+      "globalTimestampSeconds": 133.75,
+      "part": "part2",
+      "partTimestampSeconds": 32.502089,
+      "sharpness": 60.23,
+      "frameSha256": "f4c54fde98a86530d6dec4e372cb1976f98cfdf2e8d9c7d967930f859d606c99",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0542",
+      "globalTimestampSeconds": 135.25,
+      "part": "part2",
+      "partTimestampSeconds": 34.002089,
+      "sharpness": 158.95,
+      "frameSha256": "ef78ce1d9a04b952b4fb037f3f24b70de077c4dd839e6c9f9cebaf37bd8406b7",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0547",
+      "globalTimestampSeconds": 136.5,
+      "part": "part2",
+      "partTimestampSeconds": 35.252089,
+      "sharpness": 225.07,
+      "frameSha256": "682d167d4d059c0abcb2bf114231711ad6857ba569ec44332b10f1ac1baa9a5e",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0554",
+      "globalTimestampSeconds": 138.25,
+      "part": "part2",
+      "partTimestampSeconds": 37.002089,
+      "sharpness": 111.08,
+      "frameSha256": "b0fb5fb38debf7330f3ff62dd0839386da8713489ca08e2b2d444a00d4361e83",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0559",
+      "globalTimestampSeconds": 139.5,
+      "part": "part2",
+      "partTimestampSeconds": 38.252089,
+      "sharpness": 149.09,
+      "frameSha256": "3874634910a268340009db9053588a027351c8262201a904a4ac209bd465d1dc",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0561",
+      "globalTimestampSeconds": 140.0,
+      "part": "part2",
+      "partTimestampSeconds": 38.752089,
+      "sharpness": 117.54,
+      "frameSha256": "56a00a14e3af176aec139fdd219c7f3ed466c01b6beaf681393e9231168e885b",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0566",
+      "globalTimestampSeconds": 141.25,
+      "part": "part2",
+      "partTimestampSeconds": 40.002089,
+      "sharpness": 148.89,
+      "frameSha256": "da05551b6134189ee8f5bfcfa79caa2c2a30bd0627b242b974c1516ea696bcf5",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0573",
+      "globalTimestampSeconds": 143.0,
+      "part": "part2",
+      "partTimestampSeconds": 41.752089,
+      "sharpness": 162.94,
+      "frameSha256": "2b70a469844f157dd4e6b0d70e4391bb5d9e90a200d449a1be8affd2b6e9d055",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0576",
+      "globalTimestampSeconds": 143.75,
+      "part": "part2",
+      "partTimestampSeconds": 42.502089,
+      "sharpness": 119.85,
+      "frameSha256": "0d3712a78904aab9f0d71fb0580887f63dbc02b2d516c0b4c1505216f65b41c4",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0582",
+      "globalTimestampSeconds": 145.25,
+      "part": "part2",
+      "partTimestampSeconds": 44.002089,
+      "sharpness": 51.98,
+      "frameSha256": "f51ea22b3f16a9d8da8af90bf335a121a7b98b9e726fc844870ff064a7c5a4e7",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0589",
+      "globalTimestampSeconds": 147.0,
+      "part": "part2",
+      "partTimestampSeconds": 45.752089,
+      "sharpness": 197.48,
+      "frameSha256": "af224f0b17626a3da324cc3a4c894d0939648574ec503c2a173b3aa8c4875467",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0591",
+      "globalTimestampSeconds": 147.5,
+      "part": "part2",
+      "partTimestampSeconds": 46.252089,
+      "sharpness": 296.45,
+      "frameSha256": "9f9035a5140ff671ddb6ad1c0c09b1ba1424c6de63d9aca2f553c9d7d701fce2",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0597",
+      "globalTimestampSeconds": 149.0,
+      "part": "part2",
+      "partTimestampSeconds": 47.752089,
+      "sharpness": 187.48,
+      "frameSha256": "12c1b98f121d381d6dfe10cbe22570e2cd32217695d87dfa8f865b8374e6df19",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0603",
+      "globalTimestampSeconds": 150.5,
+      "part": "part2",
+      "partTimestampSeconds": 49.252089,
+      "sharpness": 191.3,
+      "frameSha256": "281b88897e77fba4cbbfe2440cb6bf462515ea1f2554a944bdcd77e5e347e46d",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0608",
+      "globalTimestampSeconds": 151.75,
+      "part": "part2",
+      "partTimestampSeconds": 50.502089,
+      "sharpness": 170.09,
+      "frameSha256": "b2ecc207562ddb5cd0f1aee55a76623d03448b6693b9b93f74793253d7356ec6",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "see-page-audit"
+    },
+    {
+      "frameId": "frame-0615",
+      "globalTimestampSeconds": 153.5,
+      "part": "part2",
+      "partTimestampSeconds": 52.252089,
+      "sharpness": 113.24,
+      "frameSha256": "2a3b97565e023f144a30464385cb587240e08f4f34ec0e0556bab4b2fe73f7dc",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0620",
+      "globalTimestampSeconds": 154.75,
+      "part": "part2",
+      "partTimestampSeconds": 53.502089,
+      "sharpness": 46.19,
+      "frameSha256": "da5e2055957067f171b9201ae370c1a3b509e4db1746a3f9f3f944531e64321d",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0622",
+      "globalTimestampSeconds": 155.25,
+      "part": "part2",
+      "partTimestampSeconds": 54.002089,
+      "sharpness": 181.69,
+      "frameSha256": "fa09badba7e60b2f24cd8377666061054f5f2ccf4b3d692aad0b7afc06462b68",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0626",
+      "globalTimestampSeconds": 156.25,
+      "part": "part2",
+      "partTimestampSeconds": 55.002089,
+      "sharpness": 61.8,
+      "frameSha256": "43297621763a9d255d5d2418f49a53b00bfd4e252aa04f0c265ac21655d8b492",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0635",
+      "globalTimestampSeconds": 158.5,
+      "part": "part2",
+      "partTimestampSeconds": 57.252089,
+      "sharpness": 233.11,
+      "frameSha256": "05e7419aa2e8ddee4e363d48638e167523fa6e3f50f380771e9b963ed8efc726",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0638",
+      "globalTimestampSeconds": 159.25,
+      "part": "part2",
+      "partTimestampSeconds": 58.002089,
+      "sharpness": 209.94,
+      "frameSha256": "b92d5e4f859029137848df685004d836f3ebdacd0c52fd3ab9923afe77b07630",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0645",
+      "globalTimestampSeconds": 161.0,
+      "part": "part2",
+      "partTimestampSeconds": 59.752089,
+      "sharpness": 303.15,
+      "frameSha256": "d10fa3c2d543f184b960ee4ca3de3177abf7dd2f995da88c71cb88328e4e556a",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0650",
+      "globalTimestampSeconds": 162.25,
+      "part": "part2",
+      "partTimestampSeconds": 61.002089,
+      "sharpness": 149.98,
+      "frameSha256": "e5dc938da41d965f4ab445d472cb2fe3df9b9e68f1390e19bdebb87edf7fc666",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0655",
+      "globalTimestampSeconds": 163.5,
+      "part": "part2",
+      "partTimestampSeconds": 62.252089,
+      "sharpness": 231.79,
+      "frameSha256": "6356608a2cc0996d5f56ad35239dfd67d0d17568c1146b2c923ca180b3b1855f",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0656",
+      "globalTimestampSeconds": 163.75,
+      "part": "part2",
+      "partTimestampSeconds": 62.502089,
+      "sharpness": 213.57,
+      "frameSha256": "9729dc7fe065f1bbb77a2387a7cc43c8b5d363a16a7a4a188c56d886d14e7f41",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0661",
+      "globalTimestampSeconds": 165.0,
+      "part": "part2",
+      "partTimestampSeconds": 63.752089,
+      "sharpness": 113.1,
+      "frameSha256": "f00425acb0334eb5b7b648df764636db6a2883783e8b904ee724a85af99b07b9",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0667",
+      "globalTimestampSeconds": 166.5,
+      "part": "part2",
+      "partTimestampSeconds": 65.252089,
+      "sharpness": 202.42,
+      "frameSha256": "a5fda207d781ba59dfdfd4eddfcc3ef41b66f98966c017efe189af70c9be4d87",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0671",
+      "globalTimestampSeconds": 167.5,
+      "part": "part2",
+      "partTimestampSeconds": 66.252089,
+      "sharpness": 191.0,
+      "frameSha256": "717032604c6b22da4fc18a2b57f22d85fd857eb53c84d2d99f9ce2232d74d766",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0678",
+      "globalTimestampSeconds": 169.25,
+      "part": "part2",
+      "partTimestampSeconds": 68.002089,
+      "sharpness": 251.58,
+      "frameSha256": "9bbce91e8fb4b579322cab83a56ad1671657466ea6c97d6355154acbc627072d",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0683",
+      "globalTimestampSeconds": 170.5,
+      "part": "part2",
+      "partTimestampSeconds": 69.252089,
+      "sharpness": 224.93,
+      "frameSha256": "b4a47989ae6413be0d20bc3062ac91187a5876d3450450a8ea584db82b1a1ef0",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0690",
+      "globalTimestampSeconds": 172.25,
+      "part": "part2",
+      "partTimestampSeconds": 71.002089,
+      "sharpness": 236.03,
+      "frameSha256": "eff5e9bfdf8f5a5070d71815f5ac96ae983a124311e802e915bc4a32b202db0e",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0691",
+      "globalTimestampSeconds": 172.5,
+      "part": "part2",
+      "partTimestampSeconds": 71.252089,
+      "sharpness": 20.94,
+      "frameSha256": "e673ac758dbe9e15eeae32c0615bad06abcadcc7ef968a2d05a3d61b741e817c",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0700",
+      "globalTimestampSeconds": 174.75,
+      "part": "part2",
+      "partTimestampSeconds": 73.502089,
+      "sharpness": 101.28,
+      "frameSha256": "f08e511fbbc5e60f7ad2c51b3a0cc6af567c55ab31e24b5a96e6ee6858f1a7bf",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0702",
+      "globalTimestampSeconds": 175.25,
+      "part": "part2",
+      "partTimestampSeconds": 74.002089,
+      "sharpness": 153.8,
+      "frameSha256": "20018e68abc25cbb81eb0df3eed9f60e109233947df37ef7e87367ed02feaca6",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0706",
+      "globalTimestampSeconds": 176.25,
+      "part": "part2",
+      "partTimestampSeconds": 75.002089,
+      "sharpness": 107.53,
+      "frameSha256": "8291e1fc65a14ae8c698c9088b23e8f6c66f1e9671949be9eb9f1613ab308dd6",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0711",
+      "globalTimestampSeconds": 177.5,
+      "part": "part2",
+      "partTimestampSeconds": 76.252089,
+      "sharpness": 177.55,
+      "frameSha256": "7ee5fdef110063e211b69353f3db120d681429a79568ab813da4bfc46d6eb2c8",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0719",
+      "globalTimestampSeconds": 179.5,
+      "part": "part2",
+      "partTimestampSeconds": 78.252089,
+      "sharpness": 126.83,
+      "frameSha256": "35fce763f64505d105371d0ea660e998813965ca2debfe33170afb78965c689e",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0723",
+      "globalTimestampSeconds": 180.5,
+      "part": "part2",
+      "partTimestampSeconds": 79.252089,
+      "sharpness": 177.66,
+      "frameSha256": "2ea8c806511f630df1a3992ada4ff808b79556e31bacb109e1b540aaa5cf2de9",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0726",
+      "globalTimestampSeconds": 181.25,
+      "part": "part2",
+      "partTimestampSeconds": 80.002089,
+      "sharpness": 174.61,
+      "frameSha256": "f54685642d36f16cf46aa6ddf9004d34ac2c9ff90bc97c01495871a102cc4811",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0732",
+      "globalTimestampSeconds": 182.75,
+      "part": "part2",
+      "partTimestampSeconds": 81.502089,
+      "sharpness": 131.1,
+      "frameSha256": "1ac338770b647ca77838eaeb2ed118a7fe6017e79c21b2945530ea0364002583",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0739",
+      "globalTimestampSeconds": 184.5,
+      "part": "part2",
+      "partTimestampSeconds": 83.252089,
+      "sharpness": 183.38,
+      "frameSha256": "6f13bb65b3ac96cef93fc3ba88b2f18dec1bbb927396720523b2c28b330868e4",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0743",
+      "globalTimestampSeconds": 185.5,
+      "part": "part2",
+      "partTimestampSeconds": 84.252089,
+      "sharpness": 155.29,
+      "frameSha256": "36aebd05cb12d651233177c4ad3538e60c9ba9dcc1d24112dc9d582e26974bce",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0748",
+      "globalTimestampSeconds": 186.75,
+      "part": "part2",
+      "partTimestampSeconds": 85.502089,
+      "sharpness": 32.66,
+      "frameSha256": "0dcf18c8504b0e0b484b33caa09bd8a9dbb88aafacda026530ad9d3da5529538",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0753",
+      "globalTimestampSeconds": 188.0,
+      "part": "part2",
+      "partTimestampSeconds": 86.752089,
+      "sharpness": 230.76,
+      "frameSha256": "7f53db2feb4aab01e0e54ab0be3311e77c435eb0589c36b0969a8a7763e5d0b1",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0758",
+      "globalTimestampSeconds": 189.25,
+      "part": "part2",
+      "partTimestampSeconds": 88.002089,
+      "sharpness": 215.56,
+      "frameSha256": "d4b905b1a44fa05c966dda429bf4e0ff842f82eaa285838b488e6549c761ef2c",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0764",
+      "globalTimestampSeconds": 190.75,
+      "part": "part2",
+      "partTimestampSeconds": 89.502089,
+      "sharpness": 204.48,
+      "frameSha256": "63afc97ce61df73796204162a3827314309259706ea7b6f8b83a442abb798a40",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0767",
+      "globalTimestampSeconds": 191.5,
+      "part": "part2",
+      "partTimestampSeconds": 90.252089,
+      "sharpness": 152.1,
+      "frameSha256": "a6a4887c80930cc4ae364ae426eecd58be19acbb28be07de620c67ed3506ad39",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0771",
+      "globalTimestampSeconds": 192.5,
+      "part": "part2",
+      "partTimestampSeconds": 91.252089,
+      "sharpness": 190.79,
+      "frameSha256": "621640a2e077777c687d48cc14609b75235444e36d5bb54eba5073b382f74ce2",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0776",
+      "globalTimestampSeconds": 193.75,
+      "part": "part2",
+      "partTimestampSeconds": 92.502089,
+      "sharpness": 176.26,
+      "frameSha256": "e48add4b5e25cd92873e3a2112094bc10e2c1be187ff10e77046e308b3fe5794",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0783",
+      "globalTimestampSeconds": 195.5,
+      "part": "part2",
+      "partTimestampSeconds": 94.252089,
+      "sharpness": 82.1,
+      "frameSha256": "d5fe5e4f57825058d9f257c42c154a9a0defb7c0b30304044353a553a03f6ef6",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0789",
+      "globalTimestampSeconds": 197.0,
+      "part": "part2",
+      "partTimestampSeconds": 95.752089,
+      "sharpness": 252.47,
+      "frameSha256": "28ea51597aa84d27ea34ecfc050d6f9b54962c610deeb28b5f4c63f9203c8c8c",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0794",
+      "globalTimestampSeconds": 198.25,
+      "part": "part2",
+      "partTimestampSeconds": 97.002089,
+      "sharpness": 37.91,
+      "frameSha256": "54c4ded3d9d44c01999171509cd47fba3047ca8b1709bf34b13cd6bdb3370522",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0800",
+      "globalTimestampSeconds": 199.75,
+      "part": "part2",
+      "partTimestampSeconds": 98.502089,
+      "sharpness": 22.71,
+      "frameSha256": "09afe3f532f411c5f6bc758ee946bc93475fbf88018f2fa3ba9f5cbe16f5a2cf",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0802",
+      "globalTimestampSeconds": 200.25,
+      "part": "part2",
+      "partTimestampSeconds": 99.002089,
+      "sharpness": 62.19,
+      "frameSha256": "bc01a9bae5b83f6b8f2453c6c06b8ecc75fdd911711d8ce05ed48186fa5a7f7c",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    },
+    {
+      "frameId": "frame-0806",
+      "globalTimestampSeconds": 201.25,
+      "part": "part2",
+      "partTimestampSeconds": 100.002089,
+      "sharpness": 155.19,
+      "frameSha256": "d4afea85fefc5059689b79ec8018d746ec6f3860d004f071d37b6d7f1888da32",
+      "ocrAttempted": true,
+      "visualContactSheetReviewed": true,
+      "printedPageAssignment": "pending-manual-review"
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+import videoContent from './data/edition-2026-intro-module-one.json';
+import videoCatalog from './data/edition-2026-catalog.json';
 import newContent from './data/edition-2026-exercises.json';
 import newReferences from './data/edition-2026-references.json';
 import newWords from './data/edition-2026-lexicon.json';
@@ -23,16 +25,29 @@ export const workbookWords = (dictionary as WordForm[]).map((w) => ({
   ...w,
   occurrences: w.occurrences.map((o) => ({ ...o, sourceId: EDITION_2017 })),
 }));
-export const allWorkbookWords = [...workbookWords, ...edition2026Words];
-export const allWorkbookExercises = [...workbookExercises, ...edition2026Exercises];
+export const edition2026SourceExercises = videoContent as WorkbookExercise[];
+export const edition2026Catalog = videoCatalog as SourceExercise[];
+export const all2026Exercises = [...edition2026SourceExercises, ...edition2026Exercises];
+export const allWorkbookWords = [
+  ...new Map([...workbookWords, ...edition2026Words].map((w) => [w.id, w])).values(),
+].map((w) => ({
+  ...w,
+  occurrences: [
+    ...(workbookWords.find((old) => old.id === w.id)?.occurrences || []),
+    ...(edition2026Words.find((modern) => modern.id === w.id)?.occurrences || []),
+  ],
+}));
+export const allWorkbookExercises = [...workbookExercises, ...all2026Exercises];
 export const exercisesForEdition = (id: string) =>
-  id === EDITION_2026 ? edition2026Exercises : workbookExercises;
+  id === EDITION_2026 ? all2026Exercises : workbookExercises;
 export const wordsForEdition = (id: string) =>
   id === EDITION_2026 ? edition2026Words : workbookWords;
 export const workbookSkills = [...registry, ...newSkills] as Skill[];
 export const getWorkbookExercise = (id: string) => allWorkbookExercises.find((e) => e.id === id);
 export const getSourceExercise = (id: string) =>
-  [...sourceExercises, ...edition2026References].find((e) => e.id === id);
+  [...sourceExercises, ...edition2026Catalog, ...edition2026References].find(
+    (e) => e.id === id || e.adaptationIds.includes(id),
+  );
 export const getWordForm = (id: string) => allWorkbookWords.find((w) => w.id === id);
 export const getSkill = (id: string) => workbookSkills.find((s) => s.id === id);
 export function contextualMeaning(form: WordForm, context = '') {
@@ -53,15 +68,29 @@ export function englishSegments(text: string): string[] {
 }
 
 export const workbookEntities = entities;
-const allLexemes = [...entities.lexemes, ...newEntities.lexemes].map((l) => ({
+const allLexemes = [
+  ...new Map([...entities.lexemes, ...newEntities.lexemes].map((l) => [l.id, l])).values(),
+].map((l) => ({
   ...l,
   wordFormIds: allWorkbookWords.filter((w) => w.lexemeId === l.id).map((w) => w.id),
 }));
 export const getAllWorkbookEntities = () => ({
   lexemes: allLexemes,
-  pronunciations: [...entities.pronunciations, ...newEntities.pronunciations],
-  meanings: [...entities.meanings, ...newEntities.meanings],
+  pronunciations: [
+    ...new Map(
+      [...entities.pronunciations, ...newEntities.pronunciations].map((item) => [item.id, item]),
+    ).values(),
+  ],
+  meanings: [
+    ...new Map(
+      [...entities.meanings, ...newEntities.meanings].map((item) => [item.id, item]),
+    ).values(),
+  ],
   occurrences: [...entities.occurrences, ...newEntities.occurrences],
-  examples: [...entities.examples, ...newEntities.examples],
+  examples: [
+    ...new Map(
+      [...entities.examples, ...newEntities.examples].map((item) => [item.id, item]),
+    ).values(),
+  ],
 });
 export const getLexeme = (id: string) => allLexemes.find((l) => l.id === id);

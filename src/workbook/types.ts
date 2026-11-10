@@ -23,7 +23,7 @@ export interface SourceExercise {
   validationStatus?: string;
   sourceExerciseVerification?: string;
   evidenceReportPage?: number;
-  evidenceTimestamp?: string;
+  evidenceTimestamp?: string | number;
   id: string;
   module: string;
   lesson: string;
@@ -53,7 +53,7 @@ export interface Occurrence {
   exerciseNumber?: number | null;
   module?: string;
   evidenceReportPage?: number;
-  evidenceTimestamp?: string;
+  evidenceTimestamp?: string | number;
   kind?: string;
 }
 export interface Meaning {

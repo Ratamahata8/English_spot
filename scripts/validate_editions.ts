@@ -28,10 +28,11 @@ export function validateEditions(checkAudio = true) {
   require(edition2026Sections.at(-1)?.end === null, 'Unknown final page must remain unknown');
   require(mappings.mappings.length === sourceExercises.length, 'Incomplete old-source audit');
   for (const m of mappings.mappings)
-    require(m.status === 'unverified' &&
-      m.newExerciseId === null &&
-      m.newPrintedPage === null &&
-      m.newExerciseNumber === null, 'Unproven edition correspondence ' + m.oldExerciseId);
+    require(m.status === 'unverified'
+      ? m.newExerciseId === null && m.newPrintedPage === null && m.newExerciseNumber === null
+      : m.status === 'modified' &&
+          m.newExerciseId !== null &&
+          m.conditionsChanged === true, 'Unproven edition correspondence ' + m.oldExerciseId);
   require(inventory.existingInteractiveCount === 543 &&
     inventory.exercises.length === 543 &&
     inventory.confirmedComparisons === 0, 'Incorrect interactive inventory');
@@ -70,15 +71,15 @@ export function validateEditions(checkAudio = true) {
   }
   for (const w of edition2026Words) {
     require(w.ipaReview === 'reviewed' && !!w.ipa, 'Missing pronunciation');
-    require(w.occurrences.every(
-      (o) =>
-        o.sourceId === EDITION_2026 &&
-        o.bookPage === null &&
-        o.pdfPage === null &&
-        o.exerciseNumber === null &&
-        o.verification === 'audit-report' &&
-        o.evidenceReportPage === 2,
-    ), 'Unconfirmed new lexicon');
+    require(w.occurrences.length &&
+      w.occurrences.every(
+        (o) =>
+          o.sourceId === EDITION_2026 &&
+          (o.verification === 'audit-report' ||
+            (o.verification === 'video-visual' &&
+              o.bookPage !== null &&
+              o.exerciseNumber !== null)),
+      ), 'Unconfirmed new lexicon ' + w.form);
     [w.form, w.lemma, w.example.en].forEach(audio);
   }
   if (checkAudio)
@@ -95,7 +96,8 @@ export function validateEditions(checkAudio = true) {
     editions: [EDITION_2017, EDITION_2026],
     oldSourceExercises: sourceExercises.length,
     existingInteractiveAudited: 543,
-    verifiedExerciseCorrespondences: 0,
+    verifiedExerciseCorrespondences: mappings.mappings.filter((m) => m.status !== 'unverified')
+      .length,
     unverifiedExistingInteractive: 543,
     newAuthoredTrainings: edition2026Exercises.length,
     newTrainingSteps: edition2026Exercises.reduce((n, e) => n + e.tasks.length, 0),

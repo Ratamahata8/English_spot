@@ -29,10 +29,10 @@ it('2026: подтверждённые границы, честные соотв
   expect(validateEditions()).toMatchObject({
     oldSourceExercises: 313,
     existingInteractiveAudited: 543,
-    verifiedExerciseCorrespondences: 0,
+    verifiedExerciseCorrespondences: 2,
     newAuthoredTrainings: 4,
     newTrainingSteps: 24,
-    newConfirmedForms: 6,
+    newConfirmedForms: 312,
   });
   expect(edition2026Sections.map((s) => s.start)).toEqual([4, 18, 28, 42, 57, 73, 90, 108, 126]);
   expect(sectionForPage2026(17)?.module).toBe('intro');
@@ -42,21 +42,20 @@ it('2026: подтверждённые границы, честные соотв
   expect(sectionForPage2026(141)?.module).toBe('8');
   expect(edition2026Sections.at(-1)?.end).toBeNull();
 });
-it('слова 2017 не становятся подтверждёнными словами 2026; формы и ID различаются', () => {
-  expect(edition2026Words.map((w) => w.form)).toEqual([
-    'did',
-    "didn't",
-    'was',
-    'were',
-    'there was',
-    'there were',
-  ]);
-  expect(new Set([...workbookWords, ...edition2026Words].map((w) => w.id)).size).toBe(179);
-  expect(getWordForm(workbookWords[0].id)?.occurrences[0].sourceId).toBe(EDITION_2017);
+it('2026 использует доказанные употребления, общие ID слов сохраняются без переноса освоения', () => {
+  expect(edition2026Words).toHaveLength(312);
+  expect(edition2026Words.some((w) => w.form === 'clothes')).toBe(true);
+  const book = workbookWords.find((w) => w.form === 'book')!;
+  const foot = workbookWords.find((w) => w.form === 'foot')!;
+  expect(edition2026Words.some((w) => w.id === foot.id)).toBe(false);
+  expect(getWordForm(foot.id)?.occurrences.every((o) => o.sourceId === EDITION_2017)).toBe(true);
+  expect(edition2026Words.find((w) => w.form === 'book')?.id).toBe(book.id);
+  expect(getWordForm(book.id)?.occurrences.some((o) => o.sourceId === EDITION_2017)).toBe(true);
   expect(
-    edition2026Words.every((w) =>
-      w.occurrences.every((o) => o.sourceId === EDITION_2026 && o.exerciseNumber === null),
-    ),
+    getWordForm(book.id)?.occurrences.some((o) => o.sourceId === EDITION_2026 && o.bookPage === 18),
+  ).toBe(true);
+  expect(
+    edition2026Words.every((w) => w.occurrences.every((o) => o.sourceId === EDITION_2026)),
   ).toBe(true);
 });
 it('миграция v4→v5 сохраняет старые результаты, ID, настройки и комиксы, не присваивая их 2026', async () => {

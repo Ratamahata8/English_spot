@@ -35,32 +35,22 @@ async function records(page: Page) {
       }),
   );
 }
-test('по умолчанию 2026: оглавление, модуль, урок, страница и неизвестный номер', async ({
-  page,
-}) => {
+test('2026: поиск по реальной странице и номеру открывает нужную адаптацию', async ({ page }) => {
   await page.goto('#/textbook');
   await expect(page.getByLabel('Издание сборника')).toHaveValue(modern);
   await expect(page.locator('[data-edition-section]')).toHaveCount(9);
-  await expect(page.locator('[data-edition-section="module_1"]')).toContainText('18–27');
-  await expect(page.locator('[data-edition-section="module_8"]')).toContainText(
-    'с 126; конец не подтверждён',
-  );
-  await page.getByLabel('Печатная страница', { exact: true }).fill('102');
-  await expect(page.locator('[data-source]')).toHaveCount(2);
-  await expect(page.locator('[data-edition-section]')).toContainText('Модуль 6');
-  await page.getByLabel('Номер упражнения', { exact: true }).fill('1');
-  await expect(page.locator('[data-source]')).toHaveCount(0);
-  await expect(page.getByText(/Точный номер упражнения 1/)).toBeVisible();
-  await page.getByLabel('Номер упражнения', { exact: true }).clear();
-  await page.getByLabel('Печатная страница', { exact: true }).clear();
-  await page.getByLabel('Урок или тема').fill('past-simple');
-  await expect(page.locator('[data-source]')).toHaveCount(2);
-  await page.getByLabel('Урок или тема').clear();
+  await expect(page.locator('[data-source-exercise]')).toHaveCount(47);
+  await page.getByLabel('Печатная страница', { exact: true }).fill('18');
+  await page.getByLabel('Номер упражнения', { exact: true }).fill('3');
+  await expect(page.locator('[data-source-exercise]')).toHaveCount(1);
+  await expect(page.locator('[data-source-exercise]')).toContainText('Стр. 18 · № 3');
+  await page.locator('[data-source-exercise] a').click();
+  await expect(page.locator('[data-workbook]')).toHaveAttribute('data-workbook', 'wb26-m1a-03');
+  await expect(page.locator('.wb-token-bank')).toBeVisible();
+  await page.goto('#/workbook');
   await page.getByLabel('Модуль сборника 2026').selectOption('8');
-  await expect(page.locator('[data-source]')).toHaveCount(0);
-  await expect(
-    page.getByText('Подтверждённых тренировок по такому запросу пока нет.'),
-  ).toBeVisible();
+  await expect(page.locator('[data-source-exercise]')).toHaveCount(0);
+  await expect(page.getByText(/По этому запросу тренировка пока не готова/)).toBeVisible();
 });
 for (const e of exercises)
   test('2026 полное прохождение: ' + e.id, async ({ page }) => {
@@ -108,7 +98,7 @@ test('словарь 2026: только подтверждённые формы,
   await page.goto('#/dictionary');
   await expect(page.getByLabel('Издание сборника')).toHaveValue(modern);
   await page.getByLabel('Вид словаря').selectOption('forms');
-  await expect(page.locator('.wb-form')).toHaveCount(6);
+  await expect(page.locator('.wb-form')).toHaveCount(312);
   await page.getByLabel('Слово сборника или перевод').fill('did');
   await expect(page.locator('.wb-form')).toHaveCount(2);
   const did = page
@@ -215,7 +205,7 @@ test('мобильная навигация 2026 и возврат в стары
   await page.screenshot({ path: '/tmp/edition2026-mobile.png' });
 });
 
-test('слово прежнего источника из новой тренировки доступно в повторении с честной редакцией', async ({
+test('общее слово с новым проверенным употреблением доступно в повторении выбранной редакции', async ({
   page,
 }) => {
   await page.goto('#/workbook/wb26-there-past');
@@ -223,14 +213,14 @@ test('слово прежнего источника из новой трени�
   await page.getByRole('button', { name: /\? Подсказки/ }).click();
   await page.getByRole('button', { name: 'book', exact: true }).first().click();
   const help = page.getByRole('dialog', { name: 'Подсказка к слову' });
-  await expect(help).toContainText('Источник слова: сборник 2017');
+  await expect(help).toContainText('Слово встречается в выбранном издании сборника.');
   await help.getByRole('button', { name: 'Добавить в повторение', exact: true }).click();
   await help.getByRole('button', { name: 'Закрыть подсказку' }).click();
   await page.goto('#/dictionary?source=workbook');
   await expect(page.getByLabel('Издание сборника')).toHaveValue(modern);
   await page.getByRole('button', { name: 'Повторить сложные слова (1)', exact: true }).click();
   const review = page.locator('.wb-word-review');
-  await expect(review).toContainText('Источник слова: 6-е изд., 2017');
+  await expect(review).toContainText('Источник слова: 17-е изд., 2026');
   await review.getByRole('radio', { name: 'книга', exact: true }).check();
   await review.getByRole('button', { name: 'Проверить слово', exact: true }).click();
   await expect(review.getByText('Верно!', { exact: true })).toBeVisible();

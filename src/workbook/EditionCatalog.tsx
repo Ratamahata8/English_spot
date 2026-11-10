@@ -3,29 +3,31 @@ import { PendingEdition } from './EditionControls';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { edition2026Sections, editionLabel, EDITION_2026, sectionForPage2026 } from './editions';
-import { edition2026Exercises, edition2026References } from './index';
+import {
+  edition2026Exercises,
+  edition2026References,
+  edition2026Catalog,
+  getWorkbookExercise,
+} from './index';
 export function EditionCatalog() {
   const { progress, initSource, ready } = useWorkbook();
   useEffect(() => {
     void initSource(EDITION_2026);
   }, [initSource]);
-  const [module, setModule] = useState('all'),
-    [lesson, setLesson] = useState(''),
-    [page, setPage] = useState(''),
-    [number, setNumber] = useState('');
+  const [module, setModule] = useState('all');
+  const [lesson, setLesson] = useState('');
+  const [page, setPage] = useState('');
+  const [number, setNumber] = useState('');
   const section = page ? sectionForPage2026(Number(page)) : null;
-  const filtered = edition2026References.filter(
+  const filtered = edition2026Catalog.filter(
     (r) =>
-      (module === 'all' || r.module === module) &&
+      (module === 'all' || r.module === module || (module === 'intro' && r.module === 'entry')) &&
       (!page || r.printedPages?.includes(Number(page))) &&
+      (!number || r.number === Number(number)) &&
       (!lesson ||
-        `${r.lesson} ${edition2026Exercises.find((e) => e.id === r.id)?.title}`
+        `${r.lesson} ${getWorkbookExercise(r.adaptationIds[0])?.title}`
           .toLowerCase()
-          .includes(lesson.toLowerCase())) &&
-      !number,
-  );
-  const sections = edition2026Sections.filter(
-    (s) => (module === 'all' || s.module === module) && (!page || s === section),
+          .includes(lesson.toLowerCase())),
   );
   if (ready && progress.sourceId !== EDITION_2026) return <PendingEdition target={EDITION_2026} />;
   return (
@@ -34,19 +36,19 @@ export function EditionCatalog() {
         <span className="eyebrow">СБОРНИК · {editionLabel(EDITION_2026)}</span>
         <h1>Учимся по сборнику 2026</h1>
         <p>
-          Найди свой модуль или страницу. Пока точно известны начала модулей и две новые
-          грамматические темы. Номера отдельных упражнений ещё сверяются.
+          Открой страницу и номер из своей книги. Здесь можно подготовиться, потренироваться с
+          подсказками и пройти задание ещё раз.
         </p>
-        <p>Старые результаты сохранены в издании 2017. Они не засчитываются за новые задания.</p>
-        <Link className="button" to="/dictionary?source=workbook">
-          Словарь издания 2026 →
-        </Link>
+        <p>
+          Готовы вводный блок, входной тест и модуль 1: страницы 4–27. Остальные модули добавляются
+          постепенно.
+        </p>
         <div className="reader-controls">
-          <Link className="button primary" to="/workbook/wb26-past-question">
-            Did / didn't →
+          <Link className="button primary" to="/workbook/wb26-intro-01">
+            Начать с вводного блока →
           </Link>
-          <Link className="button primary" to="/workbook/wb26-there-past">
-            There was / there were →
+          <Link className="button" to="/dictionary?source=workbook">
+            Словарь издания 2026 →
           </Link>
         </div>
       </section>
@@ -72,7 +74,7 @@ export function EditionCatalog() {
             aria-label="Урок или тема"
             value={lesson}
             onChange={(e) => setLesson(e.target.value)}
-            placeholder="Например, past-simple"
+            placeholder="Например, алфавит"
           />
         </label>
         <label>
@@ -83,7 +85,7 @@ export function EditionCatalog() {
             aria-label="Печатная страница"
             value={page}
             onChange={(e) => setPage(e.target.value)}
-            placeholder="Например, 82"
+            placeholder="Например, 18"
           />
         </label>
         <label>
@@ -94,7 +96,7 @@ export function EditionCatalog() {
             aria-label="Номер упражнения"
             value={number}
             onChange={(e) => setNumber(e.target.value)}
-            placeholder="Нужна сверка"
+            placeholder="Например, 3"
           />
         </label>
       </div>
@@ -102,59 +104,87 @@ export function EditionCatalog() {
         <p role="status">
           {section
             ? `${editionLabel(EDITION_2026)} · ${section.title}`
-            : 'Эта страница не подтверждена оглавлением.'}
-          {Number(page) > 141
-            ? ' Последняя страница сборника не установлена; наличие этой страницы не подтверждено.'
-            : ''}
-        </p>
-      )}
-      {number && (
-        <p role="status">
-          Точный номер упражнения {number} в издании 2026 ещё не проверен. Не подставляем задание из
-          старого издания.
+            : 'Для этой страницы ещё нет тренировки.'}
         </p>
       )}
       <div className="wb-catalog">
-        {sections.map((s) => (
-          <article className="panel padding" key={s.id} data-edition-section={s.id}>
-            <h2>{s.title}</h2>
-            <p>
-              {editionLabel(EDITION_2026)} ·{' '}
-              {s.end ? `стр. ${s.start}–${s.end - 1}` : `с ${s.start}; конец не подтверждён`}
-            </p>
-            <small>
-              Начало подтверждено оглавлением из пользовательского отчёта. Соответствие отдельных
-              упражнений: unverified.
-            </small>
-          </article>
-        ))}
+        {edition2026Sections
+          .filter((s) => module === 'all' || s.module === module)
+          .map((s) => (
+            <article className="panel padding" key={s.id} data-edition-section={s.id}>
+              <h2>{s.title}</h2>
+              <p>
+                {s.module === 'intro' || s.module === '1' ? 'Упражнения готовы' : 'Скоро появится'}
+              </p>
+              <button
+                className="button"
+                onClick={() => {
+                  setModule(s.module);
+                  setPage('');
+                  setNumber('');
+                  setLesson('');
+                }}
+              >
+                Показать модуль
+              </button>
+            </article>
+          ))}
       </div>
-      <h2>Тренировки по подтверждённым темам</h2>
+      <h2>Упражнения по страницам книги</h2>
       <p>
-        Собственные примеры приложения. Диапазон страниц подтверждён отчётом; точный номер исходного
-        упражнения не установлен.
+        Это тренажёры с собственными примерами, подобранными под задачи сборника. Сначала можно
+        разобрать слова и правила.
       </p>
       <div className="wb-catalog">
         {filtered.map((r) => {
-          const e = edition2026Exercises.find((e) => e.id === r.id)!;
+          const e = getWorkbookExercise(r.adaptationIds[0])!;
           return (
-            <article className="panel wb-catalog-card" key={r.id} data-source={r.id}>
+            <article className="panel wb-catalog-card" key={r.id} data-source-exercise={r.id}>
               <span className="eyebrow">
-                {editionLabel(EDITION_2026)} · МОДУЛЬ {r.module}
+                {r.module === 'intro'
+                  ? 'ВВОДНЫЙ БЛОК'
+                  : r.module === 'entry'
+                    ? 'ВХОДНОЙ ТЕСТ'
+                    : `МОДУЛЬ ${r.module} · ${r.lesson}`}
               </span>
               <h2>{e.title}</h2>
-              <p>Стр. {r.printedPages?.join('–')} · номер упражнения не проверен</p>
-              <p>Авторская тренировка · {e.tasks.length} шагов</p>
-              <Link className="button primary" to={'/workbook/' + r.id}>
-                Начать тренировку →
+              <p>
+                Стр. {r.bookPage} · № {r.number}
+              </p>
+              <p>{e.tasks.length} шагов · подготовка, проверка и подсказки</p>
+              <Link className="button primary" to={'/workbook/' + e.id}>
+                {progress.completed.includes(e.id) ? 'Пройти ещё раз →' : 'Начать тренировку →'}
               </Link>
             </article>
           );
         })}
       </div>
       {!filtered.length && (
-        <p role="status">Подтверждённых тренировок по такому запросу пока нет.</p>
+        <p role="status">
+          По этому запросу тренировка пока не готова. Выбери вводный блок или первый модуль.
+        </p>
       )}
+      <h2>Дополнительная практика</h2>
+      <p>
+        Отдельные авторские тренировки по прошедшему времени. Они не заменяют задания с конкретным
+        номером из книги.
+      </p>
+      <div className="wb-catalog">
+        {edition2026References
+          .filter((r) => !number && !page && !lesson && (module === 'all' || module === r.module))
+          .map((r) => {
+            const e = edition2026Exercises.find((e) => e.id === r.id)!;
+            return (
+              <article className="panel wb-catalog-card" key={r.id} data-source={r.id}>
+                <h2>{e.title}</h2>
+                <p>Авторская тренировка · {e.tasks.length} шагов</p>
+                <Link className="button primary" to={'/workbook/' + e.id}>
+                  Начать тренировку →
+                </Link>
+              </article>
+            );
+          })}
+      </div>
     </>
   );
 }

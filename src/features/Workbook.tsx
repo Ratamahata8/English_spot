@@ -14,6 +14,7 @@ import {
   workbookExercises,
   exercisesForEdition,
   edition2026References,
+  edition2026Catalog,
   getWorkbookExercise,
   getSourceExercise,
   getWordForm,
@@ -365,10 +366,13 @@ function WorkbookSession({ exercise }: { exercise: WorkbookExercise }) {
   }
   if (!ready) return <p role="status">Открываем сборник…</p>;
   if (p.sourceId !== sourceId) return <PendingEdition target={sourceId} />;
-  const references = sourceId === EDITION_2026 ? edition2026References : sourceExercises;
+  const references =
+    sourceId === EDITION_2026 ? [...edition2026Catalog, ...edition2026References] : sourceExercises;
   const editionExercises = exercisesForEdition(sourceId);
   const inModule = references.filter((e) => e.module === source.module),
-    completed = p.completed.filter((id) => inModule.some((e) => e.id === id)).length;
+    completed = p.completed.filter((id) =>
+      inModule.some((e) => e.id === id || e.adaptationIds.includes(id)),
+    ).length;
   if (done) {
     const nextExercise = editionExercises[editionExercises.indexOf(exercise) + 1];
     return (
@@ -434,13 +438,20 @@ function WorkbookSession({ exercise }: { exercise: WorkbookExercise }) {
       <div className="lesson-top">
         <Link to={'/workbook?edition=' + sourceId}>← К сборнику</Link>
         <span>
-          {editionLabel(sourceId)} · Модуль {source.module} · {source.lesson} · стр.{' '}
-          {source.printedPages?.join('–') || source.bookPage} ·{' '}
+          {editionLabel(sourceId)} ·{' '}
+          {source.module === 'intro'
+            ? 'Вводный блок'
+            : source.module === 'entry'
+              ? 'Входной тест'
+              : source.module === 'revision'
+                ? 'Повторение'
+                : `Модуль ${source.module} · ${source.lesson}`}{' '}
+          · стр. {source.printedPages?.join('–') || source.bookPage} ·{' '}
           {source.number === null ? 'номер упражнения не проверен' : '№ ' + source.number}
         </span>
         <HintToggle />
       </div>
-      {sourceId === EDITION_2026 && (
+      {sourceId === EDITION_2026 && source.number === null && (
         <p className="wb-source-caveat">
           Авторская тренировка по теме из отчёта. Номер упражнения сборника ещё сверяется.
         </p>
@@ -465,7 +476,10 @@ function WorkbookSession({ exercise }: { exercise: WorkbookExercise }) {
       <section className="exercise panel wb-exercise" data-workbook={exercise.id} data-task={index}>
         <span className="eyebrow">АВТОРСКАЯ ТРЕНИРОВКА ПО СБОРНИКУ</span>
         <h1>{exercise.title}</h1>
-        <p>{exercise.instruction}</p>
+        <p>
+          <WorkbookText text={exercise.instruction} />
+        </p>
+        <WorkbookAudio text={exercise.instruction} label="Пояснение к заданию" slow={slow} />
         <div className="reader-controls">
           <button className="button primary" onClick={() => void prepare()}>
             Подготовиться к заданию
@@ -559,6 +573,7 @@ function WorkbookSession({ exercise }: { exercise: WorkbookExercise }) {
               <h2>{task.mode === 'template' ? 'Твой вариант собран!' : 'Получилось!'}</h2>
               <div>
                 <WorkbookText text={task.why} />
+                <WorkbookAudio text={task.why} label="Разбор ответа" slow={slow} />
                 {task.answerIpa && <p className="ipa">/{task.answerIpa}/ · пример приложения</p>}
               </div>
               {task.mode === 'template' && (

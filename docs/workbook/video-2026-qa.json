@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "edition": "spotlight_workbook_2026_17",
+  "milestone": "intro-entry-module-one",
+  "printedPages": [
+    4,
+    27
+  ],
+  "sourceExercises": 47,
+  "authoredExercises": 47,
+  "authoredSteps": 236,
+  "sourceForms": 312,
+  "videoVerifiedForms": 306,
+  "partialTextExercises": [
+    "src26-intro-10",
+    "src26-intro-17"
+  ],
+  "fullBookExerciseIndexComplete": false,
+  "fullBookVocabularyComplete": false,
+  "remainingModules": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "remainingSourceExerciseCount": null,
+  "allWorkbookForms": 342,
+  "allWorkbookLexemes": 289,
+  "audio": {
+    "workbookMp3": 1240,
+    "projectMp3": 1692,
+    "addedMp3": 706,
+    "modifiedPreviousMp3": 0,
+    "voice": "en-GB-SoniaNeural",
+    "sha256AndFfmpegPassed": true
+  },
+  "verification": {
+    "typecheck": "passed",
+    "unit": {
+      "passed": 50,
+      "total": 50
+    },
+    "e2e": {
+      "uniqueScenarios": 131,
+      "method": "full suite plus post-fix affected-file rerun",
+      "postFixAffectedPassed": 58,
+      "postFixAffectedTotal": 58,
+      "previousUnaffectedPassed": 73
+    },
+    "productionBuild": "passed",
+    "prettier": "passed",
+    "actionlint": "passed"
+  }
+}

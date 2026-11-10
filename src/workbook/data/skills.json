@@ -523,9 +523,32 @@
   },
   {
     "id": "can",
-    "title": "can",
+    "title": "Умею и не умею",
     "prerequisites": ["pronouns"],
-    "planned": true
+    "explanation": "Can значит «умею», can't — «не умею». После них действие не меняется. В вопросе can ставим перед человеком.",
+    "example": {
+      "en": "Can you swim?",
+      "ru": "Ты умеешь плавать?"
+    },
+    "steps": [
+      "Пойми, о чём говоришь: кто, где, что есть или что умеет.",
+      "Найди слово-помощник и проверь обычную форму действия.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "Скажи «Он умеет петь».",
+        "options": ["He can sing.", "He can sings."],
+        "answer": "He can sing.",
+        "why": "После can нет окончания -s."
+      },
+      {
+        "prompt": "Короткий ответ на Can you fly? — нет.",
+        "options": ["No, I can't.", "No, he can't."],
+        "answer": "No, I can't.",
+        "why": "О себе отвечай I; помощник остаётся can."
+      }
+    ]
   },
   {
     "id": "simple",
@@ -577,9 +600,32 @@
   },
   {
     "id": "there",
-    "title": "there",
+    "title": "Что есть в комнате",
     "prerequisites": ["be", "plural"],
-    "planned": true
+    "explanation": "There is помогает сказать, что где-то есть один предмет. There are — несколько. Вопрос начинается с is there или are there.",
+    "example": {
+      "en": "There are books.",
+      "ru": "Там есть книги."
+    },
+    "steps": [
+      "Пойми, о чём говоришь: кто, где, что есть или что умеет.",
+      "Найди слово-помощник и проверь обычную форму действия.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "Там одна книга.",
+        "options": ["There is a book.", "There are a book."],
+        "answer": "There is a book.",
+        "why": "Один предмет: is."
+      },
+      {
+        "prompt": "Там несколько книг.",
+        "options": ["There are books.", "There is books."],
+        "answer": "There are books.",
+        "why": "Несколько: are."
+      }
+    ]
   },
   {
     "id": "ing",
@@ -625,8 +671,31 @@
   },
   {
     "id": "place-prepositions",
-    "title": "Где находится предмет",
-    "planned": true,
-    "prerequisites": ["vocabulary"]
+    "title": "Где лежит предмет",
+    "prerequisites": ["vocabulary"],
+    "explanation": "In — внутри, on — на поверхности, under — под предметом, near — рядом. Представь расположение вещи, а затем выбери слово.",
+    "example": {
+      "en": "The book is on the table.",
+      "ru": "Книга на столе."
+    },
+    "steps": [
+      "Пойми, о чём говоришь: кто, где, что есть или что умеет.",
+      "Найди слово-помощник и проверь обычную форму действия.",
+      "Потренируйся и вернись к своему заданию."
+    ],
+    "practice": [
+      {
+        "prompt": "Книга в сумке: in или on?",
+        "options": ["in", "on"],
+        "answer": "in",
+        "why": "In — внутри."
+      },
+      {
+        "prompt": "Книга под столом: under или on?",
+        "options": ["under", "on"],
+        "answer": "under",
+        "why": "Under — под предметом."
+      }
+    ]
   }
 ]
