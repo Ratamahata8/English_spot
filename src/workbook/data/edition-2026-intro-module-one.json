@@ -1001,49 +1001,49 @@
     "tasks": [
       {
         "mode": "choice",
-        "prompt": "У меня есть книга.",
+        "prompt": "Используй сокращённую форму отрицания; остальные слова сохрани. У меня есть книга.",
         "answers": ["I have got a book."],
         "options": ["I have got a book.", "I haven't got a book."],
         "why": "В отрицании have got меняется на haven't got, а has got — на hasn't got."
       },
       {
         "mode": "choice",
-        "prompt": "У мамы нет машины.",
+        "prompt": "Используй сокращённую форму отрицания; остальные слова сохрани. У мамы нет машины.",
         "answers": ["My mummy hasn't got a car."],
         "options": ["My mummy hasn't got a car.", "My mummy has got a car."],
         "why": "В отрицании have got меняется на haven't got, а has got — на hasn't got."
       },
       {
         "mode": "choice",
-        "prompt": "У него есть игрушка.",
+        "prompt": "Используй сокращённую форму отрицания; остальные слова сохрани. У него есть игрушка.",
         "answers": ["He has got a toy."],
         "options": ["He has got a toy.", "He hasn't got a toy."],
         "why": "В отрицании have got меняется на haven't got, а has got — на hasn't got."
       },
       {
         "mode": "choice",
-        "prompt": "У них нет сада.",
+        "prompt": "Используй сокращённую форму отрицания; остальные слова сохрани. У них нет сада.",
         "answers": ["They haven't got a garden."],
         "options": ["They haven't got a garden.", "They have got a garden."],
         "why": "В отрицании have got меняется на haven't got, а has got — на hasn't got."
       },
       {
         "mode": "choice",
-        "prompt": "У нас есть дом.",
+        "prompt": "Используй сокращённую форму отрицания; остальные слова сохрани. У нас есть дом.",
         "answers": ["We have got a house."],
         "options": ["We have got a house.", "We haven't got a house."],
         "why": "В отрицании have got меняется на haven't got, а has got — на hasn't got."
       },
       {
         "mode": "choice",
-        "prompt": "У неё нет куклы.",
+        "prompt": "Используй сокращённую форму отрицания; остальные слова сохрани. У неё нет куклы.",
         "answers": ["She hasn't got a doll."],
         "options": ["She hasn't got a doll.", "She has got a doll."],
         "why": "В отрицании have got меняется на haven't got, а has got — на hasn't got."
       },
       {
         "mode": "choice",
-        "prompt": "У дедушки есть радио.",
+        "prompt": "Используй сокращённую форму отрицания; остальные слова сохрани. У дедушки есть радио.",
         "answers": ["My grandpa has got a radio."],
         "options": ["My grandpa has got a radio.", "My grandpa hasn't got a radio."],
         "why": "В отрицании have got меняется на haven't got, а has got — на hasn't got."
@@ -1838,7 +1838,7 @@
       },
       {
         "mode": "choice",
-        "prompt": "I am ___ Russia.",
+        "prompt": "Передай смысл «Я из России»: I am ___ Russia.",
         "answers": ["from"],
         "options": ["from", "in"],
         "why": "Прочитай всю маленькую фразу: смысл и грамматика помогают выбрать слово.",
@@ -1886,7 +1886,7 @@
       },
       {
         "mode": "choice",
-        "prompt": "I have got ___ hair.",
+        "prompt": "У меня светлые волосы: I have got ___ hair.",
         "answers": ["fair"],
         "options": ["fair", "big"],
         "why": "Прочитай всю маленькую фразу: смысл и грамматика помогают выбрать слово.",
@@ -1894,7 +1894,7 @@
       },
       {
         "mode": "choice",
-        "prompt": "My ___ are green.",
+        "prompt": "Мои глаза зелёные: My ___ are green.",
         "answers": ["eyes"],
         "options": ["eyes", "ears"],
         "why": "Прочитай всю маленькую фразу: смысл и грамматика помогают выбрать слово.",
@@ -2739,7 +2739,7 @@
       },
       {
         "mode": "order",
-        "prompt": "Нажимай на части в нужном порядке.",
+        "prompt": "Расставь числа по убыванию: от двадцати до одиннадцати.",
         "tokens": [
           "eleven",
           "twelve",
@@ -3044,41 +3044,102 @@
       "wf-50f7becde477",
       "wf-acba25512100",
       "wf-6bdaf554e420",
-      "wf-aba4cc9b8af8"
+      "wf-aba4cc9b8af8",
+      "wf-baed83162394",
+      "wf-db944067d6c7"
     ],
     "instruction": "Прочитай условие и попробуй. Если трудно, начни с подготовки.",
     "tasks": [
       {
-        "mode": "matching",
-        "prompt": "Выбери одно подходящее действие. Верных вариантов может быть несколько.",
-        "rows": [
+        "mode": "template",
+        "prompt": "Расскажи, что ты делаешь на своих уроках: выбери по одному действию. Действия могут повторяться. Единственного верного распределения здесь нет.",
+        "slots": [
           {
             "label": "English",
-            "answers": ["read", "write", "listen"]
+            "options": [
+              "read",
+              "write",
+              "listen",
+              "sing",
+              "run",
+              "jump",
+              "draw",
+              "play",
+              "watch films"
+            ]
           },
           {
             "label": "Russian",
-            "answers": ["read", "write", "listen"]
+            "options": [
+              "read",
+              "write",
+              "listen",
+              "sing",
+              "run",
+              "jump",
+              "draw",
+              "play",
+              "watch films"
+            ]
           },
           {
             "label": "Maths",
-            "answers": ["write"]
+            "options": [
+              "read",
+              "write",
+              "listen",
+              "sing",
+              "run",
+              "jump",
+              "draw",
+              "play",
+              "watch films"
+            ]
           },
           {
             "label": "Music",
-            "answers": ["sing", "listen"]
+            "options": [
+              "read",
+              "write",
+              "listen",
+              "sing",
+              "run",
+              "jump",
+              "draw",
+              "play",
+              "watch films"
+            ]
           },
           {
             "label": "Art",
-            "answers": ["draw"]
+            "options": [
+              "read",
+              "write",
+              "listen",
+              "sing",
+              "run",
+              "jump",
+              "draw",
+              "play",
+              "watch films"
+            ]
           },
           {
             "label": "PE",
-            "answers": ["run", "jump", "play"]
+            "options": [
+              "read",
+              "write",
+              "listen",
+              "sing",
+              "run",
+              "jump",
+              "draw",
+              "play",
+              "watch films"
+            ]
           }
         ],
-        "why": "На разных уроках возможны разные действия. Все подходящие варианты принимаются.",
-        "options": ["draw", "jump", "listen", "play", "read", "run", "sing", "write"]
+        "why": "Это личная таблица о твоих уроках. Выбранные действия можно повторять; послушай свой вариант. Работа с подсказанными словами не считается самостоятельным освоением."
       }
     ]
   },

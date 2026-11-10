@@ -2397,6 +2397,24 @@
       "normalizedOnly": false,
       "pronunciationText": "there were",
       "wordFormIds": ["wf26-faabba6788c3"]
+    },
+    {
+      "id": "lex-baed83162394",
+      "lemma": "watch",
+      "ru": "смотреть",
+      "ipa": "wɒtʃ",
+      "normalizedOnly": false,
+      "wordFormIds": ["wf-baed83162394"],
+      "pronunciationText": "watch"
+    },
+    {
+      "id": "lex-d0607f7ad262",
+      "lemma": "film",
+      "ru": "фильм",
+      "ipa": "fɪlm",
+      "normalizedOnly": true,
+      "wordFormIds": ["wf-db944067d6c7"],
+      "pronunciationText": "film"
     }
   ],
   "pronunciations": [
@@ -4895,6 +4913,22 @@
       "dialect": "en-GB",
       "audioText": "there were",
       "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-baed83162394",
+      "wordFormId": "wf-baed83162394",
+      "ipa": "wɒtʃ",
+      "dialect": "en-GB",
+      "audioText": "watch",
+      "review": "reviewed"
+    },
+    {
+      "id": "pron-wf-db944067d6c7",
+      "wordFormId": "wf-db944067d6c7",
+      "ipa": "fɪlmz",
+      "dialect": "en-GB",
+      "audioText": "films",
+      "review": "reviewed"
     }
   ],
   "meanings": [
@@ -7123,6 +7157,20 @@
       "context": "Подтверждённая грамматическая форма; пример написан для приложения.",
       "when": "default",
       "wordFormId": "wf26-faabba6788c3"
+    },
+    {
+      "id": "meaning26-wf-baed83162394-0",
+      "ru": "смотреть",
+      "context": "В этом сборнике",
+      "when": "default",
+      "wordFormId": "wf-baed83162394"
+    },
+    {
+      "id": "meaning26-wf-db944067d6c7-0",
+      "ru": "фильмы",
+      "context": "В этом сборнике",
+      "when": "default",
+      "wordFormId": "wf-db944067d6c7"
     }
   ],
   "occurrences": [
@@ -13785,6 +13833,36 @@
       "evidenceTimestamp": "02:32",
       "id": "occ26-wf26-faabba6788c3-0",
       "wordFormId": "wf26-faabba6788c3"
+    },
+    {
+      "sourceId": "spotlight_workbook_2026_17",
+      "exerciseId": "src26-m1b-4",
+      "bookPage": 23,
+      "pdfPage": null,
+      "printedPages": [23],
+      "exerciseNumber": 4,
+      "module": "1",
+      "text": "watch",
+      "verification": "video-visual",
+      "evidenceTimestamp": 32.75,
+      "frameSha256": "3055aa6d11aebef4a61d47b5532847e020d5644cab3de9879e2ebb39e37d6540",
+      "id": "occ26-wf-baed83162394-0",
+      "wordFormId": "wf-baed83162394"
+    },
+    {
+      "sourceId": "spotlight_workbook_2026_17",
+      "exerciseId": "src26-m1b-4",
+      "bookPage": 23,
+      "pdfPage": null,
+      "printedPages": [23],
+      "exerciseNumber": 4,
+      "module": "1",
+      "text": "films",
+      "verification": "video-visual",
+      "evidenceTimestamp": 32.75,
+      "frameSha256": "3055aa6d11aebef4a61d47b5532847e020d5644cab3de9879e2ebb39e37d6540",
+      "id": "occ26-wf-db944067d6c7-0",
+      "wordFormId": "wf-db944067d6c7"
     }
   ],
   "examples": [
@@ -15970,6 +16048,20 @@
       "wordFormId": "wf26-faabba6788c3",
       "en": "There were books.",
       "ru": "Там были книги.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-baed83162394",
+      "wordFormId": "wf-baed83162394",
+      "en": "I can watch films.",
+      "ru": "Я могу смотреть фильмы.",
+      "authored": true
+    },
+    {
+      "id": "example-wf-db944067d6c7",
+      "wordFormId": "wf-db944067d6c7",
+      "en": "I can watch films.",
+      "ru": "Я могу смотреть фильмы.",
       "authored": true
     }
   ]

@@ -2281,7 +2281,7 @@
     "title": "Несколько школьных вещей",
     "testEvidence": "production E2E: full exercise, reload, replay; SHA256 and FFmpeg audio validation",
     "adaptationStepCount": 6,
-    "sourceSubitemCount": null
+    "sourceSubitemCount": 6
   },
   {
     "id": "src26-m1a-6",
@@ -2343,7 +2343,7 @@
     "title": "В твоём портфеле",
     "testEvidence": "production E2E: full exercise, reload, replay; SHA256 and FFmpeg audio validation",
     "adaptationStepCount": 1,
-    "sourceSubitemCount": 10
+    "sourceSubitemCount": null
   },
   {
     "id": "src26-m1a-7",
@@ -2408,7 +2408,7 @@
     "title": "Собери знакомство",
     "testEvidence": "production E2E: full exercise, reload, replay; SHA256 and FFmpeg audio validation",
     "adaptationStepCount": 1,
-    "sourceSubitemCount": 10
+    "sourceSubitemCount": 7
   },
   {
     "id": "src26-m1a-8",
@@ -2560,7 +2560,7 @@
     "title": "Найди числа",
     "testEvidence": "production E2E: full exercise, reload, replay; SHA256 and FFmpeg audio validation",
     "adaptationStepCount": 2,
-    "sourceSubitemCount": 7
+    "sourceSubitemCount": 10
   },
   {
     "id": "src26-m1a-10",
@@ -2863,7 +2863,9 @@
       "wf-aa304b5d1d72",
       "wf-6342d0648a74",
       "wf-6de03f9e8221",
-      "wf-10fd874b68da"
+      "wf-10fd874b68da",
+      "wf-baed83162394",
+      "wf-db944067d6c7"
     ],
     "requiredWordIds": [
       "wf-b6234d2ea0d6",
@@ -2879,7 +2881,9 @@
       "wf-50f7becde477",
       "wf-acba25512100",
       "wf-6bdaf554e420",
-      "wf-aba4cc9b8af8"
+      "wf-aba4cc9b8af8",
+      "wf-baed83162394",
+      "wf-db944067d6c7"
     ],
     "prerequisiteSkills": ["vocabulary"],
     "prerequisiteSkillIds": ["vocabulary"],

@@ -136,7 +136,7 @@ export function TaskRenderer({
         {task.slots!.map((slot, i) => (
           <div key={i}>
             <label>
-              {slot.label}
+              <WorkbookText text={slot.label} />
               <select
                 aria-label={slot.label}
                 disabled={disabled}

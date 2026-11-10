@@ -13,8 +13,8 @@ it('47 адаптаций из видео имеют реальную ссылк
     sourceExercises: 47,
     adaptations: 47,
     steps: 236,
-    sourceForms: 312,
-    videoVerifiedForms: 306,
+    sourceForms: 314,
+    videoVerifiedForms: 308,
   });
   expect(edition2026Catalog.filter((r) => r.module === 'intro')).toHaveLength(18);
   expect(edition2026Catalog.filter((r) => r.module === 'entry')).toHaveLength(6);
@@ -32,6 +32,8 @@ it('новые условия модуля 1 заменяют старый ва�
   a.values![0] = 'listen';
   expect(checkTask(t, a)).toBe(true);
   a.values![0] = 'run';
+  expect(checkTask(t, a)).toBe(true);
+  a.values![0] = 'purple';
   expect(checkTask(t, a)).toBe(false);
 });
 it('общие слова не создают дубликатов связей; существующие тренировки и прогресс остаются допустимыми', () => {

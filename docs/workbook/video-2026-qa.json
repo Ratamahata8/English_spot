@@ -9,8 +9,8 @@
   "sourceExercises": 47,
   "authoredExercises": 47,
   "authoredSteps": 236,
-  "sourceForms": 312,
-  "videoVerifiedForms": 306,
+  "sourceForms": 314,
+  "videoVerifiedForms": 308,
   "partialTextExercises": [
     "src26-intro-10",
     "src26-intro-17"
@@ -48,10 +48,13 @@
       "method": "full suite plus post-fix affected-file rerun",
       "postFixAffectedPassed": 58,
       "postFixAffectedTotal": 58,
-      "previousUnaffectedPassed": 73
+      "previousUnaffectedPassed": 73,
+      "postReviewAffectedPassed": 7,
+      "postReviewAffectedTotal": 7
     },
     "productionBuild": "passed",
     "prettier": "passed",
-    "actionlint": "passed"
+    "actionlint": "passed",
+    "reviewFindingsResolved": 2
   }
 }

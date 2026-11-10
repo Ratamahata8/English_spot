@@ -98,7 +98,7 @@ test('словарь 2026: только подтверждённые формы,
   await page.goto('#/dictionary');
   await expect(page.getByLabel('Издание сборника')).toHaveValue(modern);
   await page.getByLabel('Вид словаря').selectOption('forms');
-  await expect(page.locator('.wb-form')).toHaveCount(312);
+  await expect(page.locator('.wb-form')).toHaveCount(314);
   await page.getByLabel('Слово сборника или перевод').fill('did');
   await expect(page.locator('.wb-form')).toHaveCount(2);
   const did = page
