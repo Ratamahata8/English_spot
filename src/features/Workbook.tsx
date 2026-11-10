@@ -71,7 +71,14 @@ export function Workbook() {
           </Link>
         </div>
       </div>
-      {error && <p role="alert">{error}</p>}
+      {error && (
+        <div role="alert">
+          {error}
+          <button className="button" onClick={() => void useWorkbook.getState().retry()}>
+            Повторить сохранение
+          </button>
+        </div>
+      )}
       {mode === 'sequence' && (
         <section className="textbook-banner">
           <span className="book-label">ТВОЙ СЛЕДУЮЩИЙ ШАГ</span>
@@ -258,7 +265,7 @@ function WorkbookSession({ exercise }: { exercise: WorkbookExercise }) {
     setHint(0);
     setUsedHint(false);
     hintBaseline.current = p.hintCount;
-  }, [index, exercise.id]);
+  }, [ready, index, exercise.id]);
   async function prepare(ids = exercise.skillIds) {
     setUsedHint(true);
     await update((p) => ({ ...p, hintCount: p.hintCount + 1 }));
@@ -318,6 +325,13 @@ function WorkbookSession({ exercise }: { exercise: WorkbookExercise }) {
       <section className="finish panel">
         {saving ? (
           <p role="status">Сохраняем результат…</p>
+        ) : error ? (
+          <>
+            <p role="alert">{error}</p>
+            <button className="button primary" onClick={() => void useWorkbook.getState().retry()}>
+              Повторить сохранение
+            </button>
+          </>
         ) : (
           <>
             <span className="finish-star">✦</span>
@@ -325,7 +339,14 @@ function WorkbookSession({ exercise }: { exercise: WorkbookExercise }) {
             <p>
               {exercise.title}. Прогресс модуля: {completed} / {inModule.length}.
             </p>
-            {error && <p role="alert">{error}</p>}
+            {error && (
+              <div role="alert">
+                {error}
+                <button className="button" onClick={() => void useWorkbook.getState().retry()}>
+                  Повторить сохранение
+                </button>
+              </div>
+            )}
             {nextExercise ? (
               <Link className="button primary" to={'/workbook/' + nextExercise.id}>
                 Следующее упражнение →
@@ -371,7 +392,14 @@ function WorkbookSession({ exercise }: { exercise: WorkbookExercise }) {
           Шаг {index + 1} / {exercise.tasks.length}
         </span>
       </div>
-      {error && <p role="alert">{error}</p>}
+      {error && (
+        <div role="alert">
+          {error}
+          <button className="button" onClick={() => void useWorkbook.getState().retry()}>
+            Повторить сохранение
+          </button>
+        </div>
+      )}
       <section className="exercise panel wb-exercise" data-workbook={exercise.id} data-task={index}>
         <span className="eyebrow">АВТОРСКАЯ ТРЕНИРОВКА ПО СБОРНИКУ</span>
         <h1>{exercise.title}</h1>

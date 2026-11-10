@@ -1,5 +1,5 @@
 import { useProgress } from '../stores/progress';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { HintToggle } from '../components/Hints';
 import { Link, useSearchParams } from 'react-router-dom';
 import {
@@ -36,6 +36,7 @@ export function WorkbookDictionary() {
     [result, setResult] = useState<boolean | null>(null),
     [reviewIndex, setReviewIndex] = useState(0),
     [reviewQueue, setReviewQueue] = useState<string[]>([]);
+  const reviewHintBaseline = useRef(progress.hintCount);
   const requested = params.get('form'),
     lexeme = requested && getWordForm(requested)?.lexemeId;
   const allGroups = [...new Set(workbookWords.map((w) => w.lexemeId))].map((id) =>
@@ -76,19 +77,20 @@ export function WorkbookDictionary() {
   async function checkReview() {
     if (!current || result === true) return;
     const correct = answer === current.meanings[0].ru;
+    const assisted = progress.hintCount > reviewHintBaseline.current;
     setResult(correct);
     await update((p) => {
       const next = recordWorkbookAttempt(p, {
         exerciseId: p.currentId,
         task: 0,
         correct,
-        hinted: false,
+        hinted: assisted,
         at: Date.now(),
         skillIds: ['vocabulary'],
         kind: 'word-review',
       });
-      next.words[current.id] = evidence(p.words[current.id], correct, false);
-      if (correct) next.reviewIds = next.reviewIds.filter((id) => id !== current.id);
+      next.words[current.id] = evidence(p.words[current.id], correct, assisted);
+      if (correct && !assisted) next.reviewIds = next.reviewIds.filter((id) => id !== current.id);
       return next;
     });
   }
@@ -102,7 +104,14 @@ export function WorkbookDictionary() {
           словарь всех восьми модулей ещё сверяется: 100% покрытия не заявлено.
         </p>
       </div>
-      {error && <p role="alert">{error}</p>}
+      {error && (
+        <div role="alert">
+          {error}
+          <button className="button" onClick={() => void useWorkbook.getState().retry()}>
+            Повторить сохранение
+          </button>
+        </div>
+      )}
       <div className="reader-controls">
         <HintToggle />
         <label className="setting">
@@ -188,6 +197,7 @@ export function WorkbookDictionary() {
       <button
         className="button"
         onClick={() => {
+          reviewHintBaseline.current = progress.hintCount;
           setReview(!review);
           setReviewQueue(reviewWords.map((w) => w.id));
           setReviewIndex(0);
@@ -241,6 +251,7 @@ export function WorkbookDictionary() {
                   onClick={() => {
                     setAnswer('');
                     setResult(null);
+                    reviewHintBaseline.current = progress.hintCount;
                     setReviewIndex((i) => i + 1);
                   }}
                 >

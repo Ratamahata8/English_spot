@@ -241,3 +241,94 @@ test('все MP3 сборника доступны по базовому пут�
     expect((await response.body()).length).toBeGreaterThan(500);
   }
 });
+
+async function savedWorkbook(page: Page) {
+  return page.evaluate(
+    () =>
+      new Promise<import('../../src/workbook/types').WorkbookProgress>((resolve) => {
+        const request = indexedDB.open('english-spot');
+        request.onsuccess = () => {
+          const db = request.result;
+          const read = db
+            .transaction('workbook')
+            .objectStore('workbook')
+            .get('bykova-pospelova-2017-workbook-3');
+          read.onsuccess = () => {
+            resolve(read.result);
+            db.close();
+          };
+        };
+      }),
+  );
+}
+test('ошибка хранилища блокирует завершение до успешного повторного сохранения', async ({
+  page,
+}) => {
+  const exercise = exercises[0];
+  await page.goto('#/workbook/' + exercise.id);
+  await expect(page.locator('[data-task]')).toHaveAttribute('data-task', '0');
+  for (const [i, row] of exercise.tasks[0].rows!.entries())
+    await page.getByLabel('Пара ' + (i + 1), { exact: true }).selectOption(row.answers[0]);
+  await page.getByRole('button', { name: 'Проверить ответ', exact: true }).click();
+  await expect(page.getByRole('heading', { name: 'Получилось!', exact: true })).toBeVisible();
+  await page.evaluate(() => {
+    const original = IDBObjectStore.prototype.put;
+    (window as unknown as { restorePut: () => void }).restorePut = () => {
+      IDBObjectStore.prototype.put = original;
+    };
+    IDBObjectStore.prototype.put = function (...args: Parameters<typeof original>) {
+      if (this.name === 'workbook') throw new DOMException('Test quota', 'QuotaExceededError');
+      return original.apply(this, args);
+    };
+  });
+  await page.getByRole('button', { name: 'Дальше в упражнении →', exact: true }).click();
+  await expect(
+    page.getByRole('button', { name: 'Повторить сохранение', exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole('heading', { name: 'Упражнение выполнено!', exact: true }),
+  ).toHaveCount(0);
+  await expect(page.getByRole('link', { name: 'Следующее упражнение →' })).toHaveCount(0);
+  await page.evaluate(() => (window as unknown as { restorePut: () => void }).restorePut());
+  await page.getByRole('button', { name: 'Повторить сохранение', exact: true }).click();
+  await expect(
+    page.getByRole('heading', { name: 'Упражнение выполнено!', exact: true }),
+  ).toBeVisible();
+  await page.reload();
+  await expect(
+    page.getByRole('heading', { name: 'Упражнение выполнено!', exact: true }),
+  ).toBeVisible();
+});
+test('подсказка при словарном повторении не даёт самостоятельного освоения', async ({ page }) => {
+  await page.goto('#/dictionary?source=workbook');
+  await page.getByLabel('Слово сборника или перевод').fill('books');
+  await page.getByLabel('Вид словаря').selectOption('forms');
+  await page
+    .locator('.wb-form')
+    .getByRole('button', { name: '+ В повторение', exact: true })
+    .click();
+  await page.getByRole('button', { name: /Повторить сложные слова/ }).click();
+  const review = page.locator('.wb-word-review');
+  await page.getByRole('button', { name: /\? Подсказки/ }).click();
+  await review.locator('.word-token').click();
+  await page.getByRole('button', { name: 'Закрыть подсказку' }).click();
+  await review.getByRole('radio', { name: 'книги', exact: true }).check();
+  await review.getByRole('button', { name: 'Проверить слово' }).click();
+  await expect.poll(async () => (await savedWorkbook(page))?.attempts.at(-1)?.hinted).toBe(true);
+  const saved = await savedWorkbook(page);
+  expect(Object.values(saved.words).some((k) => k.hinted === 1 && k.independent === 0)).toBe(true);
+  expect(saved.reviewIds.length).toBe(1);
+});
+test('старые подсказки после перезагрузки первого шага не делают новый ответ подсказанным', async ({
+  page,
+}) => {
+  await page.goto('#/workbook/' + exercises[0].id);
+  await page.getByRole('button', { name: /\? Подсказки/ }).click();
+  await page.getByRole('button', { name: 'book', exact: true }).first().click();
+  await page.getByRole('button', { name: 'Закрыть подсказку' }).click();
+  await expect.poll(async () => (await savedWorkbook(page))?.hintCount).toBe(1);
+  await page.reload();
+  await expect(page.locator('[data-task]')).toHaveAttribute('data-task', '0');
+  await solve(page, exercises[0].tasks[0]);
+  await expect.poll(async () => (await savedWorkbook(page))?.attempts.at(-1)?.hinted).toBe(false);
+});
