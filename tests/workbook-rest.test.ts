@@ -1,6 +1,11 @@
 import { it, expect } from 'vitest';
 import { validateRestContent } from '../scripts/validate_rest_content';
-import { edition2026RestExercises, edition2026Catalog, all2026Exercises } from '../src/workbook';
+import {
+  edition2026RestExercises,
+  edition2026Catalog,
+  all2026Exercises,
+  getWordForm,
+} from '../src/workbook';
 import { canonicalAnswer } from '../scripts/validate_video_content';
 import { checkTask, initialWorkbook, validateWorkbook } from '../src/workbook/learning';
 import { EDITION_2026 } from '../src/workbook/editions';
@@ -44,6 +49,11 @@ it('context resolves is/has and numbers do not use a plural exercise as a substi
   const series = edition2026RestExercises.find((e) => e.id === 'wb26-m5b-08')!;
   expect(series.tasks[0].prompt).toContain('Шаг 10');
   expect(series.skillIds).toEqual(['numbers']);
+  expect(series.wordIds.map((id) => getWordForm(id)?.form.toLowerCase())).not.toContain('book');
+  const ordinals = edition2026RestExercises.find((e) => e.id === 'wb26-m7b-11')!;
+  expect(ordinals.tasks.flatMap((t) => t.options || [])).toEqual(
+    expect.arrayContaining(['eleventh', 'twenty-first', 'thirtieth']),
+  );
 });
 it('основные слова тематических наборов не пропускаются при подготовке и правописании', async () => {
   const { getWordForm } = await import('../src/workbook');

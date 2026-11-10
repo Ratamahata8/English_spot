@@ -1,7 +1,7 @@
 """Deterministic authored practice from visually indexed objectives, never raw OCR/scans.
 Run from repository root. Source objectives are independently recorded; examples are ours.
 """
-import json, hashlib, random
+import json, hashlib, random, re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
 D=ROOT/'src/workbook/data'
@@ -205,6 +205,14 @@ def personal(topic,kind):
  return [dict(mode='template',prompt=title,slots=[dict(label=f'Фраза {i+1}',options=opts)],why='Это твой рассказ. Все предложенные фразы грамматически допустимы. Выбор с опорой записывается как работа с помощью, а не самостоятельное знание.') for i,opts in enumerate(sentences)]
 def grammar(kind,topic,seed):
  rule='Прочитай предложение целиком и сравни форму со смыслом.';sid='be';title=kind
+ if kind=='ordinal-match':
+  if seed==11:
+   pairs=[('11-е место','eleventh'),('12-е место','twelfth'),('13-е место','thirteenth'),('15-е место','fifteenth'),('21-е место','twenty-first'),('22-е место','twenty-second'),('23-е место','twenty-third'),('24-е место','twenty-fourth'),('25-е место','twenty-fifth'),('30-е место','thirtieth')]
+   extra=[choice('Двадцать первое место','twenty-first',['twenty-first','twenty-three'],'В составном порядковом числительном меняется последняя часть: двадцать + первый.'),choice('Тридцатое место','thirtieth',['thirtieth','thirty'],'В названии места по счёту thirty меняется на thirtieth.')]
+  else:
+   pairs=list(zip(['one','two','three','four','five','six','seven','eight','nine','ten'],['first','second','third','fourth','fifth','sixth','seventh','eighth','ninth','tenth']))
+   extra=[choice('Какое место идёт после второго?','third',['third','three'],'После второго — третье; для места по счёту нужно порядковое слово.'),choice('Какое место идёт после пятого?','sixth',['sixth','six'],'После пятого — шестое; это место по счёту, а не количество.')]
+  return 'table',S['ordinals'],'Число и место по счёту',[*[matching(pairs[i:i+4],'Подбери название места по счёту.') for i in range(0,len(pairs),4)],*extra]
  if kind=='translation':
   return 'translation',S['possessive'],'Чьи вещи: перевод',choices([('Выбери «моя сумка».','my bag',['my bag','his bag','her bag']),('Выбери «наша комната».','our room',['our room','their room','your room']),('Выбери «её брат».','her brother',['his brother','her brother','my brother']),('Выбери «их семья».','their family',['our family','their family','your family'])],'Перед названием предмета или родственника поставь притяжательное слово нужного хозяина.')
  if kind=='family-tree':
@@ -383,6 +391,18 @@ for r in refs:
  for f in bank(r['topic']) if r['topic'] in banks or r['topic'] in aliases else []:
   w=word(f)
   if w['occurrences']:wid.append(w['id'])
+ # Preparation must concern the displayed task, never a convenient unrelated topic alias.
+ if r['kind'] not in ['match','letters','alphabet']:
+  shown=[]
+  for t in tasks:
+   shown.extend([t['prompt'],t['why'],*t.get('answers',[]),*t.get('options',[]),*t.get('tokens',[])])
+   for row in t.get('rows',[]):shown.extend([row['label'],*row['answers']])
+   for slot in t.get('slots',[]):shown.extend(slot['options'])
+  text=' '.join(shown).lower().replace('’',"'")
+  candidates=[w for w in [*known.values(),*newwords] if w['occurrences'] and re.search(r'(?<![a-z])'+re.escape(w['form'].lower().replace('’',"'"))+r'(?![a-z])',text)]
+  actual={w['id'] for w in candidates}
+  wid=[i for i in wid if i in actual]
+  wid=list(dict.fromkeys([*wid,*[w['id'] for w in sorted(candidates,key=lambda w:-len(w['form'])) if len(w['form'])>=3]]))[:12]
  e=dict(id=ident,title=f'{title} · {r["lesson"]}, № {n}',mechanic=mechanic,skillIds=[sk],wordIds=list(dict.fromkeys(wid)),instruction='Авторская тренировка по задаче сборника. Прочитай условие, при необходимости разбери слова и правило; затем попробуй без подсказок.',tasks=tasks);units.append(e)
  vocab=[w['id'] for w in [*known.values(),*newwords] if any(o['exerciseId']==sid for o in w['occurrences'])]
  catalog.append(dict(id=sid,edition='2026_17',sourceId='spotlight_workbook_2026_17',moduleId=m,module=m,lessonId=r['lesson'],lesson=r['lesson'],printedPage=r['page'],bookPage=r['page'],pdfPage=None,exerciseNumber=n,number=n,exerciseType=r['kind'],sourceType='video-exercise',learningObjectives=[title],grammarSkills=[sk],skillIds=[sk],vocabularyIds=vocab,requiredWordIds=e['wordIds'],prerequisiteSkills=[],prerequisiteSkillIds=[],sourceFrameTimestamp=r['timestamp'],sourceFramePart='part1' if r['timestamp']<101.247911 else 'part2',frameSha256=r['frameSha256'],continuationPages=r['continuation'],printedPages=[r['page'],*r['continuation']],verificationStatus='objectives_verified',implementationStatus='implemented',textVerification='partial' if r['partial'] else 'objectives_only',stages=dict(found=True,textChecked=False,objectivesChecked=True,adaptationCreated=True,answerCheckReady=True,explanationsReady=True,preparationReady=True,audioReady=False,tested=False),status='implemented',indexReview='video-visual',lexicalReview='partial',difficulty=2,interactiveType=mechanic,adaptationIds=[ident],adaptationId=ident,title=title,adaptationStepCount=len(tasks),sourceSubitemCount=None,pageVerification='continuation-order; footer not readable' if r['page']==144 else 'video-visual',adaptationScope='Авторский аналог цели, не копия всех подпунктов оригинала. Полный текст источника не заявлен как проверенный.'))
