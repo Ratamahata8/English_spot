@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "requestedSource": {
+    "sourceId": "spotlight_textbook_2026_16_part1",
+    "requiredClips": null,
+    "createdClips": 0,
+    "coveragePercent": null,
+    "complete": false,
+    "reason": "Photographed textbook vocabulary and sentences not yet available"
+  },
+  "existingAssets": {
+    "totalManifestEntries": 2483,
+    "integrityFailures": 0,
+    "checks": "Existence and SHA256 only; this command does not claim MP3 decoding or browser playback.",
+    "groups": [
+      {
+        "group": "en-GB",
+        "manifestEntries": 290,
+        "failures": []
+      },
+      {
+        "group": "workbook/en-GB",
+        "manifestEntries": 2031,
+        "failures": []
+      },
+      {
+        "group": "textbook/en-GB",
+        "manifestEntries": 113,
+        "failures": []
+      },
+      {
+        "group": "textbook/ru-RU",
+        "manifestEntries": 49,
+        "failures": []
+      }
+    ]
+  }
+}

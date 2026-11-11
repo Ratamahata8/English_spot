@@ -1,0 +1,14 @@
+{
+  "sourceId": "spotlight_textbook_2026_16_part1",
+  "title": "Spotlight 3, часть 1, 16-е издание, 2026",
+  "folderUrl": "https://drive.google.com/drive/folders/1gV7Jqhbvlj2E-V7ypjtSffEp_gmUav0i",
+  "status": "blocked_by_environment_proxy",
+  "httpStatus": 403,
+  "failure": "CONNECT tunnel failed: proxy denies drive.google.com before folder permissions can be checked",
+  "folderPermissionsVerified": false,
+  "photosListed": false,
+  "networkDraftSaved": true,
+  "networkDraftApplied": false,
+  "requiredDomains": ["drive.google.com", "drive.usercontent.google.com"],
+  "fallbackToOldEdition": false
+}
