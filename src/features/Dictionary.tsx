@@ -2,7 +2,7 @@ import { editionFromQuery } from '../workbook/editions';
 import { useSearchParams, Link } from 'react-router-dom';
 import { WorkbookDictionary } from './WorkbookDictionary';
 import { useState } from 'react';
-import { words, lessons } from '../lessons';
+import { lexicon, lessons } from '../lessons';
 import { useProgress } from '../stores/progress';
 import { mastered, summarize } from '../services/learning';
 import { EnglishText, HintToggle } from '../components/Hints';
@@ -43,7 +43,10 @@ function LegacyDictionary() {
   const update = useProgress((s) => s.update);
   const summary = summarize(useProgress((s) => s.records));
   const [filter, setFilter] = useState('all');
-  const visibleWords = filter === 'all' ? words : lessons.find((l) => l.id === filter)!.vocabulary;
+  const topic = lessons.find((l) => l.id === filter);
+  const visibleWords = topic
+    ? [...new Map([...topic.vocabulary, ...topic.lexicon].map((w) => [w.id, w])).values()]
+    : lexicon;
   const [search, setSearch] = useState('');
   return (
     <>
@@ -71,7 +74,7 @@ function LegacyDictionary() {
           value={filter}
           onChange={(e) => setFilter(e.target.value)}
         >
-          <option value="all">Все темы · {words.length} слов</option>
+          <option value="all">Все темы · {lexicon.length} слов и выражений</option>
           {lessons.map((l) => (
             <option key={l.id} value={l.id}>
               {l.title}
@@ -91,10 +94,11 @@ function LegacyDictionary() {
                     ? '↻ Повторить'
                     : 'Знакомимся'}
               </span>
-              <Illustration id={w.id} />
+              {w.image && <Illustration id={w.id} />}
               <EnglishText text={w.en} className="word-name" />
               <p className="ipa">{w.ipa}</p>
               <p>{w.ru}</p>
+              <p>{w.explanation}</p>
               <AudioButton text={w.en} />
               <EnglishText text={w.example} className="word-example" />
               <button

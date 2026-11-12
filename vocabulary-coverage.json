@@ -2,13 +2,16 @@
   "schemaVersion": 1,
   "requestedSource": {
     "sourceId": "spotlight_textbook_2026_16_part1",
-    "accessStatus": "blocked_by_environment_proxy",
+    "accessStatus": "available_from_uploaded_archives",
     "uniqueWords": null,
     "wordForms": null,
     "phrases": null,
     "coveragePercent": null,
     "formsWithIpa": null,
     "formsWithAudio": null,
+    "individuallyConfirmedForms": 9,
+    "confirmedFormsRuntimePublished": false,
+    "confirmedFormsAudioStatus": "awaiting_explicit_payload_transfer_approval",
     "missingWords": null,
     "complete": false
   },
@@ -22,7 +25,7 @@
     "formsWithIpaAndMeaning": 479,
     "phraseForms": 68,
     "indexSizes": {
-      "courseVisible": 110,
+      "courseVisible": 162,
       "courseHints": 162,
       "workbook2017": 173,
       "workbook2026": 407
@@ -65,19 +68,19 @@
         "workbook2026": true
       },
       "is": {
-        "courseVisible": false,
+        "courseVisible": true,
         "courseHints": true,
         "workbook2017": true,
         "workbook2026": true
       },
       "are": {
-        "courseVisible": false,
+        "courseVisible": true,
         "courseHints": true,
         "workbook2017": true,
         "workbook2026": true
       },
       "have": {
-        "courseVisible": false,
+        "courseVisible": true,
         "courseHints": true,
         "workbook2017": true,
         "workbook2026": true
@@ -89,13 +92,13 @@
         "workbook2026": true
       },
       "do": {
-        "courseVisible": false,
+        "courseVisible": true,
         "courseHints": true,
         "workbook2017": true,
         "workbook2026": true
       },
       "does": {
-        "courseVisible": false,
+        "courseVisible": true,
         "courseHints": true,
         "workbook2017": false,
         "workbook2026": true

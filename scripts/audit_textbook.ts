@@ -3,11 +3,13 @@ import { createHash } from 'node:crypto';
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
-import { lessons, words, lexicon } from '../src/lessons';
+import { lessons, lexicon } from '../src/lessons';
 import { scenes } from '../src/textbook';
 import { allWorkbookExercises, allWorkbookWords, wordsForEdition } from '../src/workbook';
 import { EDITION_2017, EDITION_2026 } from '../src/workbook/editions';
 import sourceAccess from '../docs/textbook-2026/source-access.json';
+import photoCatalog from '../docs/textbook-2026/photo-catalog.json';
+import verifiedForms from '../docs/textbook-2026/verified-forms.json';
 export function normalizeForm(value: string) {
   return value.normalize('NFKC').replace(/[’‘]/g, "'").trim().toLowerCase();
 }
@@ -50,16 +52,22 @@ export function requestedTextbookStatus() {
   return {
     sourceId: sourceAccess.sourceId,
     sourceAccess,
-    photoCount: null,
-    downloadedPhotos: 0,
-    detectedPages: null,
-    verifiedPages: 0,
+    photoCount: photoCatalog.photos.length,
+    downloadedPhotos: photoCatalog.photos.length,
+    detectedPages: photoCatalog.pages.length,
+    numberedPages: photoCatalog.pages.filter((p) => p.printedPage !== null).length,
+    unnumberedPages: photoCatalog.pages.filter((p) => p.printedPage === null).length,
+    contentReviewedPages: photoCatalog.pages.filter((p) => p.textVisuallyRead).length,
+    verifiedPages: photoCatalog.pages.filter((p) => p.wordFormsValidated).length,
     preparedLessons: 0,
     interactivePages: 0,
-    pagesAwaitingReview: null,
+    pagesAwaitingReview: photoCatalog.pages.filter((p) => !p.wordFormsValidated).length,
+    missingPages: photoCatalog.missingPages,
+    unreadablePages: photoCatalog.unreadablePages,
+    perspectiveCorrectionComplete: false,
     complete: false,
     reason:
-      'Source photographs have not been accessed. Unknown totals must not be reported as zero or 100% covered.',
+      'All uploaded photos were visually reviewed and mapped. Exhaustive word-form validation, perspective correction and new interactive lessons remain incomplete. Seven expected numbered pages are absent.',
   };
 }
 export function auditCurrentTextbook() {
@@ -134,7 +142,7 @@ export function auditCurrentTextbook() {
     'does',
   ];
   const searchIndexes = {
-    courseVisible: words.map((w) => w.en),
+    courseVisible: lexicon.map((w) => w.en),
     courseHints: lexicon.map((w) => w.en),
     workbook2017: wordsForEdition(EDITION_2017).map((w) => w.form),
     workbook2026: wordsForEdition(EDITION_2026).map((w) => w.form),
@@ -150,6 +158,9 @@ export function auditCurrentTextbook() {
       coveragePercent: null,
       formsWithIpa: null,
       formsWithAudio: null,
+      individuallyConfirmedForms: verifiedForms.forms.length,
+      confirmedFormsRuntimePublished: verifiedForms.runtimePublished,
+      confirmedFormsAudioStatus: verifiedForms.audioStatus,
       missingWords: null,
       complete: false,
     },
@@ -220,7 +231,8 @@ export function auditExistingAudio() {
       createdClips: 0,
       coveragePercent: null,
       complete: false,
-      reason: 'Photographed textbook vocabulary and sentences not yet available',
+      reason:
+        'Photographs are available; the complete validated vocabulary and sentence corpus is not yet established. Shared dictionary additions are counted only under existing assets.',
     },
     existingAssets: {
       totalManifestEntries: assets.reduce((n, a) => n + a.manifestEntries, 0),
