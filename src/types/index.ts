@@ -95,6 +95,7 @@ export interface LearningProgress {
 }
 
 export interface ProgressBundle {
+  textbookPractice?: import('../textbook2026').PracticeProgress[];
   workbook?: import('../workbook/types').WorkbookProgress[];
   reader?: import('../textbook').ReaderProgress[];
   schemaVersion: 2;

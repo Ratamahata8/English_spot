@@ -19,7 +19,10 @@ it('uploaded photographs and reviewed pages do not become ready lessons or a com
   expect(r.verifiedPages).toBe(0);
   expect(r.perspectiveCorrectionComplete).toBe(false);
   expect(r.complete).toBe(false);
-  expect(r.interactivePages).toBe(0);
+  expect(r.interactivePages).toBe(87);
+  expect(r.preparedLessons).toBe(202);
+  expect(r.exerciseAdaptations).toBe(186);
+  expect(r.allOriginalExerciseItemsReproduced).toBe(false);
   expect(r.sourceId).toBe('spotlight_textbook_2026_16_part1');
 });
 it('preliminary confirmed forms retain page evidence without claiming a complete or published dictionary', () => {
@@ -107,7 +110,7 @@ it('photograph catalogue accounts for every page face, real gaps and source arch
   }
   for (const p of catalog.pages) {
     expect(catalog.photos.some((photo) => photo.id === p.photoId)).toBe(true);
-    expect(p.interactive).toBe(false);
+    expect(p.interactive).toBe(p.printedPage !== null && p.kind !== 'overview');
     if (p.kind !== 'frontmatter') expect(p.objectives?.length ?? 0).toBeGreaterThan(0);
   }
 });

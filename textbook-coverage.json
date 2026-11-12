@@ -29,8 +29,11 @@
   "unnumberedPages": 2,
   "contentReviewedPages": 94,
   "verifiedPages": 0,
-  "preparedLessons": 0,
-  "interactivePages": 0,
+  "preparedLessons": 202,
+  "interactivePages": 87,
+  "exerciseAdaptations": 186,
+  "practiceSteps": 418,
+  "allOriginalExerciseItemsReproduced": false,
   "pagesAwaitingReview": 94,
   "missingPages": [],
   "excludedPages": [
@@ -87,5 +90,5 @@
   "unreadablePages": [],
   "perspectiveCorrectionComplete": false,
   "complete": false,
-  "reason": "All uploaded photos were visually reviewed and mapped. Exhaustive word-form validation, perspective correction and new interactive lessons remain incomplete. Pages 88–89 and 98–102 are outside the application scope by explicit user decision."
+  "reason": "Authored interactive adaptations cover all 186 numbered exercise objectives and all 87 instructional pages. They do not reproduce every original subitem. Exhaustive vocabulary review, perspective correction and expanded audio remain incomplete. Pages 88–89 and 98–102 are outside scope by user decision."
 }

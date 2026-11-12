@@ -1,5 +1,6 @@
 import { Workbook, WorkbookRoute } from '../features/Workbook';
 import { Textbook, TextbookRoute } from '../features/Textbook';
+import { TextbookPracticeRoute } from '../features/TextbookPractice';
 import { useEffect } from 'react';
 import { HashRouter, NavLink, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { Home, Curriculum, Dictionary, Achievements, Parent, Basics } from '../features/Pages';
@@ -100,6 +101,7 @@ function Shell() {
             <Route path="/workbook" element={<Workbook />} />
             <Route path="/workbook/:exerciseId" element={<WorkbookRoute />} />
             <Route path="/textbook" element={<Textbook />} />
+            <Route path="/textbook/2026/:pageId" element={<TextbookPracticeRoute />} />
             <Route path="/textbook/:sceneId" element={<TextbookRoute />} />
             <Route path="/curriculum" element={<Curriculum />} />
             <Route path="/dictionary" element={<Dictionary />} />

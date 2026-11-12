@@ -1,7 +1,12 @@
 import { useWorkbook } from '../workbook/store';
 import { WorkbookParent } from './WorkbookParent';
-import { workbookRepository, readerRepository } from '../services/storage';
-import { useState } from 'react';
+import {
+  workbookRepository,
+  readerRepository,
+  textbookPracticeRepository,
+} from '../services/storage';
+import { useEffect, useState } from 'react';
+import { practiceCounts, type PracticeProgress } from '../textbook2026';
 import { Link } from 'react-router-dom';
 import { words, lexicon, lessons } from '../lessons';
 import { useProgress } from '../stores/progress';
@@ -17,6 +22,13 @@ export function Parent() {
     exportData: buildExport,
   } = useProgress();
   const [message, setMessage] = useState('');
+  const [textbookRecords, setTextbookRecords] = useState<PracticeProgress[]>([]);
+  useEffect(() => {
+    void textbookPracticeRepository
+      .loadAll()
+      .then(setTextbookRecords)
+      .catch(() => setMessage('Не удалось прочитать прогресс актуального учебника.'));
+  }, [records]);
   const summary = summarize(records);
   const difficult = lexicon.filter(
     (w) =>
@@ -31,6 +43,7 @@ export function Parent() {
         ...buildExport(),
         reader: await readerRepository.loadAll(),
         workbook: await workbookRepository.loadAll(),
+        textbookPractice: await textbookPracticeRepository.loadAll(),
       };
       const url = URL.createObjectURL(
         new Blob([JSON.stringify(bundle, null, 2)], { type: 'application/json' }),
@@ -49,7 +62,7 @@ export function Parent() {
       <PageHeading
         eyebrow="Рядом с ребёнком"
         title="Родительский кабинет"
-        description="Прогресс хранится в IndexedDB этого браузера. Это не обычный кеш: закрытие вкладки его не удаляет. Экспорт включает уроки, отметки реплик, сохранённые фразы и весь прогресс сборника. Сделайте копию перед очисткой данных сайта."
+        description="Прогресс хранится в IndexedDB этого браузера. Это не обычный кеш: закрытие вкладки его не удаляет. Экспорт включает уроки, реплики, сборник и отдельные занятия актуального учебника. Сделайте копию перед очисткой данных сайта."
       />
       <div className="parent-stats">
         {[
@@ -64,6 +77,21 @@ export function Parent() {
           </div>
         ))}
       </div>
+      <section className="panel padding">
+        <h2>Учебник Spotlight 3 · 2026</h2>
+        <p>
+          Пройдено занятий: {textbookRecords.filter((r) => r.completedRuns > 0).length} /{' '}
+          {practiceCounts.units}. Повторных полных прохождений:{' '}
+          {textbookRecords.reduce((n, r) => n + Math.max(0, r.completedRuns - 1), 0)}.
+        </p>
+        <p>
+          Ошибок в тренировках: {textbookRecords.reduce((n, r) => n + r.errors, 0)}. Эти результаты
+          хранятся отдельно от сборника и входят в резервную копию.
+        </p>
+        <Link className="button" to="/textbook">
+          Открыть актуальный учебник →
+        </Link>
+      </section>
       <div className="home-grid">
         <section className="panel padding">
           <h2>Что стоит повторить</h2>

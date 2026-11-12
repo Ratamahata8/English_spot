@@ -96,7 +96,7 @@ it('миграция v4→v5 сохраняет старые результат�
   expect((await createReaderRepository(name).loadAll())[0].understood).toEqual(reader.understood);
   const inspect = new Dexie(name);
   await inspect.open();
-  expect(inspect.verno).toBe(5);
+  expect(inspect.verno).toBe(6);
   expect(await inspect.table('workbook').get(LEGACY_SOURCE_ID)).toBeUndefined();
   inspect.close();
 });

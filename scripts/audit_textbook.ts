@@ -10,6 +10,8 @@ import { EDITION_2017, EDITION_2026 } from '../src/workbook/editions';
 import sourceAccess from '../docs/textbook-2026/source-access.json';
 import photoCatalog from '../docs/textbook-2026/photo-catalog.json';
 import verifiedForms from '../docs/textbook-2026/verified-forms.json';
+import { practiceUnits, practiceCounts } from '../src/textbook2026';
+import practiceAudio from '../docs/textbook-2026/practice-audio-coverage.json';
 export function normalizeForm(value: string) {
   return value.normalize('NFKC').replace(/[’‘]/g, "'").trim().toLowerCase();
 }
@@ -59,8 +61,11 @@ export function requestedTextbookStatus() {
     unnumberedPages: photoCatalog.pages.filter((p) => p.printedPage === null).length,
     contentReviewedPages: photoCatalog.pages.filter((p) => p.textVisuallyRead).length,
     verifiedPages: photoCatalog.pages.filter((p) => p.wordFormsValidated).length,
-    preparedLessons: 0,
-    interactivePages: 0,
+    preparedLessons: practiceCounts.units,
+    interactivePages: practiceCounts.pages,
+    exerciseAdaptations: practiceCounts.sourceExercises,
+    practiceSteps: practiceCounts.steps,
+    allOriginalExerciseItemsReproduced: false,
     pagesAwaitingReview: photoCatalog.pages.filter((p) => !p.wordFormsValidated).length,
     missingPages: photoCatalog.missingPages,
     excludedPages: photoCatalog.excludedPages,
@@ -68,7 +73,7 @@ export function requestedTextbookStatus() {
     perspectiveCorrectionComplete: false,
     complete: false,
     reason:
-      'All uploaded photos were visually reviewed and mapped. Exhaustive word-form validation, perspective correction and new interactive lessons remain incomplete. Pages 88–89 and 98–102 are outside the application scope by explicit user decision.',
+      'Authored interactive adaptations cover all 186 numbered exercise objectives and all 87 instructional pages. They do not reproduce every original subitem. Exhaustive vocabulary review, perspective correction and expanded audio remain incomplete. Pages 88–89 and 98–102 are outside scope by user decision.',
   };
 }
 export function auditCurrentTextbook() {
@@ -209,7 +214,13 @@ export function auditCurrentTextbook() {
   };
 }
 export function auditExistingAudio() {
-  const groups = ['en-GB', 'workbook/en-GB', 'textbook/en-GB', 'textbook/ru-RU'];
+  const groups = [
+    'en-GB',
+    'workbook/en-GB',
+    'textbook/en-GB',
+    'textbook/ru-RU',
+    'textbook2026/en-GB',
+  ];
   const assets = groups.map((group) => {
     const folder = fileURLToPath(new URL('../public/audio/' + group + '/', import.meta.url));
     const manifest = JSON.parse(readFileSync(resolve(folder, 'manifest.json'), 'utf8')) as Record<
@@ -233,6 +244,12 @@ export function auditExistingAudio() {
       createdClips: verifiedForms.audioPreparation.newlySynthesized,
       reusedClips: verifiedForms.audioPreparation.reusedExisting,
       verifiedSubsetStrings: verifiedForms.audioPreparation.strings,
+      exercisePracticeSubset: {
+        strings: practiceAudio.strings,
+        available: practiceAudio.available,
+        missing: practiceAudio.missing.length,
+        complete: practiceAudio.complete,
+      },
       coveragePercent: null,
       complete: false,
       reason:
@@ -256,6 +273,21 @@ export function writeAuditReports() {
     'textbook-coverage.json': requestedTextbookStatus(),
     'vocabulary-coverage.json': auditCurrentTextbook(),
     'audio-coverage.json': auditExistingAudio(),
+    'textbook-exercise-coverage.json': {
+      sourceId: sourceAccess.sourceId,
+      counts: practiceCounts,
+      allNumberedExerciseObjectivesAdapted: true,
+      allOriginalExerciseItemsReproduced: false,
+      units: practiceUnits.map((u) => ({
+        id: u.id,
+        pages: u.sourcePages,
+        exercise: u.sourceExercise,
+        photoId: u.photoId,
+        authoredAdaptation: u.authoredAdaptation,
+        steps: u.tasks.length,
+        mechanics: [...new Set(u.tasks.map((t) => t.type))],
+      })),
+    },
   };
   for (const [name, report] of Object.entries(reports))
     writeFileSync(resolve(root, name), JSON.stringify(report, null, 2) + '\n');

@@ -6,12 +6,18 @@
     "createdClips": 10,
     "reusedClips": 8,
     "verifiedSubsetStrings": 18,
+    "exercisePracticeSubset": {
+      "strings": 347,
+      "available": 178,
+      "missing": 169,
+      "complete": false
+    },
     "coveragePercent": null,
     "complete": false,
     "reason": "The verified 18-string subset is reported separately. The complete validated vocabulary and sentence corpus is not yet established."
   },
   "existingAssets": {
-    "totalManifestEntries": 2501,
+    "totalManifestEntries": 2679,
     "physicalMp3Files": 2493,
     "integrityFailures": 0,
     "checks": "Existence and SHA256 only; this command does not claim MP3 decoding or browser playback.",
@@ -34,6 +40,11 @@
       {
         "group": "textbook/ru-RU",
         "manifestEntries": 49,
+        "failures": []
+      },
+      {
+        "group": "textbook2026/en-GB",
+        "manifestEntries": 178,
         "failures": []
       }
     ]

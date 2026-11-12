@@ -6,6 +6,12 @@ import type { LearningProgress, ProgressBundle } from '../types';
 import { type ReaderProgress, validateReader } from '../textbook';
 import { initialProgress } from './learning';
 import { lesson, lessons, getLesson, lexicon } from '../lessons';
+import {
+  validatePractice,
+  emptyPractice,
+  findPractice,
+  type PracticeProgress,
+} from '../textbook2026';
 export interface ProgressRepository {
   load(id?: string): Promise<LearningProgress>;
   loadAll(): Promise<LearningProgress[]>;
@@ -17,6 +23,7 @@ export interface ProgressRepository {
   reset(id?: string): Promise<LearningProgress>;
 }
 class ProgressDB extends Dexie {
+  textbookPractice!: Table<PracticeProgress, string>;
   workbook!: Table<WorkbookProgress, string>;
   progress!: Table<LearningProgress, string>;
   reader!: Table<ReaderProgress, string>;
@@ -46,6 +53,13 @@ class ProgressDB extends Dexie {
           await table.delete(LEGACY_SOURCE_ID);
         }
       });
+    this.version(6).stores({
+      progress: 'lessonId',
+      preferences: 'key',
+      reader: 'sceneId',
+      workbook: 'sourceId',
+      textbookPractice: 'unitId,sourceId',
+    });
   }
 }
 export function validateImport(value: unknown): LearningProgress {
@@ -163,11 +177,13 @@ export class IndexedDBProgressRepository implements ProgressRepository {
       this.db.preferences,
       this.db.reader,
       this.db.workbook,
+      this.db.textbookPractice,
       async () => {
         await this.db.progress.clear();
         await this.db.preferences.clear();
         await this.db.reader.clear();
         await this.db.workbook.clear();
+        await this.db.textbookPractice.clear();
       },
     );
   }
@@ -178,6 +194,7 @@ export class IndexedDBProgressRepository implements ProgressRepository {
       this.db.preferences,
       this.db.reader,
       this.db.workbook,
+      this.db.textbookPractice,
       async () => {
         await this.db.progress.clear();
         await this.db.progress.bulkPut(bundle.lessons);
@@ -188,6 +205,10 @@ export class IndexedDBProgressRepository implements ProgressRepository {
         if (bundle.reader !== undefined) {
           await this.db.reader.clear();
           await this.db.reader.bulkPut(validateReader(bundle.reader));
+        }
+        if (bundle.textbookPractice !== undefined) {
+          await this.db.textbookPractice.clear();
+          await this.db.textbookPractice.bulkPut(validatePractice(bundle.textbookPractice));
         }
         await this.db.preferences.put({ key: 'selectedLesson', value: bundle.selectedLessonId });
       },
@@ -221,6 +242,9 @@ export function validateBundle(value: unknown): ProgressBundle {
     lessons: records,
     ...(data.workbook === undefined ? {} : { workbook: validateWorkbook(data.workbook) }),
     ...(data.reader === undefined ? {} : { reader: validateReader(data.reader) }),
+    ...(data.textbookPractice === undefined
+      ? {}
+      : { textbookPractice: validatePractice(data.textbookPractice) }),
   };
 }
 export const progressRepository: ProgressRepository = new IndexedDBProgressRepository();
@@ -248,3 +272,26 @@ export function createWorkbookRepository(name = 'english-spot') {
   };
 }
 export const workbookRepository = createWorkbookRepository();
+export function createTextbookPracticeRepository(name = 'english-spot') {
+  const db = new ProgressDB(name);
+  return {
+    loadAll: async () => validatePractice(await db.textbookPractice.toArray()),
+    load: async (id: string) => {
+      const u = findPractice(id);
+      if (!u) throw Error('Неизвестное занятие учебника.');
+      const p = await db.textbookPractice.get(id);
+      return p ? validatePractice([p])[0] : emptyPractice(u);
+    },
+    update: async (id: string, change: (p: PracticeProgress) => PracticeProgress) =>
+      db.transaction('rw', db.textbookPractice, async () => {
+        const u = findPractice(id);
+        if (!u) throw Error('Неизвестное занятие учебника.');
+        const old = await db.textbookPractice.get(id);
+        const next = change(old ? validatePractice([old])[0] : emptyPractice(u));
+        validatePractice([next]);
+        await db.textbookPractice.put(next);
+        return next;
+      }),
+  };
+}
+export const textbookPracticeRepository = createTextbookPracticeRepository();
