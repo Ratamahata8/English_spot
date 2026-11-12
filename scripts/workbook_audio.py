@@ -13,6 +13,7 @@ def texts():
     words=json.loads((folder/'lexicon.json').read_text());skills=json.loads((folder/'skills.json').read_text());exercises=json.loads((folder/'module-one.json').read_text())
     words += json.loads((folder/'edition-2026-lexicon.json').read_text());skills += json.loads((folder/'edition-2026-skills.json').read_text());exercises += json.loads((folder/'edition-2026-exercises.json').read_text()) + json.loads((folder/'edition-2026-intro-module-one.json').read_text()) + json.loads((folder/'edition-2026-rest.json').read_text());skills += json.loads((folder/'edition-2026-rest-skills.json').read_text())
     result=[s for w in words for s in [w['form'],w['lemma'],w['example']['en']]]
+    optional_prose=[]
     for s in skills:
         if s.get('planned'):continue
         result += [s['example']['en'],s['explanation']]+[v for q in s['practice'] for v in [q['prompt'],*q['options']]]
@@ -20,14 +21,22 @@ def texts():
         result += [e['instruction']]
         for t in e['tasks']:
             if e['mechanic'] not in ['letters','anagram']:result += [t.get('prompt','')]
-            result += [t['why']]
-            result += t.get('answers',[])+t.get('options',[])+t.get('tokens',[])+t.get('hints',[])
+            # Russian instructional prose can contain spelling suffixes (-es)
+            # and English examples that were never intended as standalone clips.
+            # Existing recorded prose clips remain in the manifest below.
+            optional_prose += [t['why'],*t.get('hints',[])]
+            result += t.get('answers',[])+t.get('options',[])+t.get('tokens',[])
             for row in t.get('rows',[]):result += [row['label'],*row['answers']]
             for slot in t.get('slots',[]):result += slot['options']
             for placed in t.get('placements',[]):result += [placed['word']]
             for word in t.get('words',[]):result += [word['answer']]
     result += list('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
-    return sorted(set(p for text in result for p in segments(text)),key=lambda x:(x.lower(),x))
+    required=set(p for text in result for p in segments(text))
+    manifest_path=OUT/'manifest.json'
+    recorded=set(json.loads(manifest_path.read_text())) if manifest_path.exists() else set()
+    # Do not require new MP3s for arbitrary fragments of mixed-language hints;
+    # still verify every recorded clip and all essential exercise audio.
+    return sorted(required | recorded,key=lambda x:(x.lower(),x))
 async def main():
     config=json.loads((ROOT/'src/workbook/data/audio-provider.json').read_text())
     parser=argparse.ArgumentParser();parser.add_argument('--generate',action='store_true');parser.add_argument('--corpus',action='store_true');parser.add_argument('--jobs',type=int,default=4);parser.add_argument('--provider',choices=['edge','import'],default=config['provider']);parser.add_argument('--import-dir',type=Path);args=parser.parse_args()
