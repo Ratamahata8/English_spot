@@ -75,12 +75,11 @@ export function validateRestContent(checkAudio = true) {
           row.answers.every((v) => t.options!.includes(v)),
         ), 'Missing pair ' + e.id);
       if (e.mechanic !== 'letters') collect(t.prompt);
-      // The Latin letter x in a Russian spelling explanation is not a
-      // standalone spoken word; do not demand a generated MP3 for it.
-      const collectExplanation = (value: string) => collect(value.replace(/на x\b/gi, 'на икс'));
-      collectExplanation(t.why);
+      // Check audio for exercise prompts, answers and choices. Explanations and
+      // hints are Russian instructional prose with embedded English examples;
+      // those fragments are not independent MP3 assets in the audio manifest.
+      // Keep their content validation above, but do not treat substrings as clips.
       [...(t.answers || []), ...(t.options || []), ...(t.tokens || [])].forEach(collect);
-      (t.hints || []).forEach(collectExplanation);
       t.rows?.forEach((row) => [row.label, ...row.answers].forEach(collect));
       t.slots?.forEach((slot) => slot.options.forEach(collect));
     }
