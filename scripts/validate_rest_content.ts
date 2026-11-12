@@ -75,10 +75,12 @@ export function validateRestContent(checkAudio = true) {
           row.answers.every((v) => t.options!.includes(v)),
         ), 'Missing pair ' + e.id);
       if (e.mechanic !== 'letters') collect(t.prompt);
-      collect(t.why);
-      [...(t.answers || []), ...(t.options || []), ...(t.tokens || []), ...(t.hints || [])].forEach(
-        collect,
-      );
+      // The Latin letter x in a Russian spelling explanation is not a
+      // standalone spoken word; do not demand a generated MP3 for it.
+      const collectExplanation = (value: string) => collect(value.replace(/на x\b/gi, 'на икс'));
+      collectExplanation(t.why);
+      [...(t.answers || []), ...(t.options || []), ...(t.tokens || [])].forEach(collect);
+      (t.hints || []).forEach(collectExplanation);
       t.rows?.forEach((row) => [row.label, ...row.answers].forEach(collect));
       t.slots?.forEach((slot) => slot.options.forEach(collect));
     }
