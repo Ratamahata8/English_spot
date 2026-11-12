@@ -1,0 +1,22 @@
+{
+  "sourceId": "spotlight_textbook_2026_16_part1",
+  "title": "Spotlight 3, часть 1, 16-е издание, 2026",
+  "status": "available_from_uploaded_archives",
+  "photoCount": 48,
+  "numberedPageCount": 92,
+  "unnumberedPageCount": 2,
+  "editionEvidence": "user_declared; no edition/imprint photograph supplied",
+  "photosListed": true,
+  "archivesVerified": true,
+  "sourceFilesInPublicGit": false,
+  "fallbackToOldEdition": false,
+  "previousDriveAccess": {
+    "folderUrl": "https://drive.google.com/drive/folders/1gV7Jqhbvlj2E-V7ypjtSffEp_gmUav0i",
+    "status": "blocked_by_environment_proxy",
+    "httpStatus": 403,
+    "folderPermissionsVerified": false
+  },
+  "networkChangeRequiredForPhotos": false,
+  "excludedPages": [88, 89, 98, 99, 100, 101, 102],
+  "missingRequiredPages": []
+}

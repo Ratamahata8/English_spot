@@ -75,6 +75,12 @@ export function HintsProvider({ children }: { children: ReactNode }) {
             <h3>{word.ru}</h3>
             <AudioButton text={word.en} />
             <p>{word.explanation}</p>
+            {word.textbookEvidence && (
+              <p className="ipa">
+                Учебник · часть 1 · стр. {word.textbookEvidence.page}, упр.{' '}
+                {word.textbookEvidence.exercise}. Пример составлен для тренировки.
+              </p>
+            )}
             <div className="example">
               {word.example}
               <AudioButton text={word.example} label="Пример" />

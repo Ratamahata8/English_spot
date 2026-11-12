@@ -1,0 +1,94 @@
+{
+  "sourceId": "spotlight_textbook_2026_16_part1",
+  "sourceAccess": {
+    "sourceId": "spotlight_textbook_2026_16_part1",
+    "title": "Spotlight 3, часть 1, 16-е издание, 2026",
+    "status": "available_from_uploaded_archives",
+    "photoCount": 48,
+    "numberedPageCount": 92,
+    "unnumberedPageCount": 2,
+    "editionEvidence": "user_declared; no edition/imprint photograph supplied",
+    "photosListed": true,
+    "archivesVerified": true,
+    "sourceFilesInPublicGit": false,
+    "fallbackToOldEdition": false,
+    "previousDriveAccess": {
+      "folderUrl": "https://drive.google.com/drive/folders/1gV7Jqhbvlj2E-V7ypjtSffEp_gmUav0i",
+      "status": "blocked_by_environment_proxy",
+      "httpStatus": 403,
+      "folderPermissionsVerified": false
+    },
+    "networkChangeRequiredForPhotos": false,
+    "excludedPages": [88, 89, 98, 99, 100, 101, 102],
+    "missingRequiredPages": []
+  },
+  "photoCount": 48,
+  "downloadedPhotos": 48,
+  "detectedPages": 94,
+  "numberedPages": 92,
+  "unnumberedPages": 2,
+  "contentReviewedPages": 94,
+  "verifiedPages": 0,
+  "preparedLessons": 202,
+  "interactivePages": 87,
+  "exerciseAdaptations": 186,
+  "practiceSteps": 418,
+  "allOriginalExerciseItemsReproduced": false,
+  "pagesAwaitingReview": 94,
+  "missingPages": [],
+  "excludedPages": [
+    {
+      "page": 88,
+      "section": "Further Reading",
+      "evidence": "sequence_gap_and_contents",
+      "reason": "user_confirmed_intentional_omission",
+      "requiredForApplication": false
+    },
+    {
+      "page": 89,
+      "section": "Further Reading",
+      "evidence": "sequence_gap_and_contents",
+      "reason": "user_confirmed_intentional_omission",
+      "requiredForApplication": false
+    },
+    {
+      "page": 98,
+      "section": "Word List",
+      "evidence": "contents",
+      "reason": "user_confirmed_intentional_omission",
+      "requiredForApplication": false
+    },
+    {
+      "page": 99,
+      "section": "Word List",
+      "evidence": "contents",
+      "reason": "user_confirmed_intentional_omission",
+      "requiredForApplication": false
+    },
+    {
+      "page": 100,
+      "section": "Word List",
+      "evidence": "contents",
+      "reason": "user_confirmed_intentional_omission",
+      "requiredForApplication": false
+    },
+    {
+      "page": 101,
+      "section": "Word List",
+      "evidence": "contents",
+      "reason": "user_confirmed_intentional_omission",
+      "requiredForApplication": false
+    },
+    {
+      "page": 102,
+      "section": "Phonetics",
+      "evidence": "contents",
+      "reason": "user_confirmed_intentional_omission",
+      "requiredForApplication": false
+    }
+  ],
+  "unreadablePages": [],
+  "perspectiveCorrectionComplete": false,
+  "complete": false,
+  "reason": "Authored interactive adaptations cover all 186 numbered exercise objectives and all 87 instructional pages. They do not reproduce every original subitem. Exhaustive vocabulary review, perspective correction and expanded audio remain incomplete. Pages 88–89 and 98–102 are outside scope by user decision."
+}

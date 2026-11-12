@@ -29,5 +29,6 @@ def main():
             if decode.returncode: errors.append(f'Ошибка полного декодирования MP3: {text}')
     if errors:
         raise SystemExit('\n'.join(errors))
-    print(f'Проверено: {len(texts())} строк, {len(list(OUT.glob("*.mp3")))} реальных MP3.')
+    shared=sum(1 for text in texts() if (OUT/manifest[text]['path']).resolve().parent != OUT.resolve())
+    print(f'Проверено: {len(texts())} строк; {shared} ссылок используют MP3 общих корпусов без копирования; {len(list(OUT.glob("*.mp3")))} MP3 в каталоге курса.')
 if __name__=='__main__': main()

@@ -1,0 +1,1831 @@
+{
+  "sourceId": "spotlight_textbook_2026_16_part1",
+  "counts": {
+    "units": 202,
+    "pages": 87,
+    "sourceExercises": 186,
+    "steps": 418
+  },
+  "allNumberedExerciseObjectivesAdapted": true,
+  "allOriginalExerciseItemsReproduced": false,
+  "units": [
+    {
+      "id": "tb26-p4-e1",
+      "pages": [4],
+      "exercise": 1,
+      "photoId": "photo-003",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p4-e2",
+      "pages": [4],
+      "exercise": 2,
+      "photoId": "photo-003",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["order", "choice"]
+    },
+    {
+      "id": "tb26-p4-e3",
+      "pages": [4],
+      "exercise": 3,
+      "photoId": "photo-003",
+      "authoredAdaptation": true,
+      "steps": 3,
+      "mechanics": ["choice", "input", "personal"]
+    },
+    {
+      "id": "tb26-p5-e4",
+      "pages": [5],
+      "exercise": 4,
+      "photoId": "photo-003",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p5-e5",
+      "pages": [5],
+      "exercise": 5,
+      "photoId": "photo-003",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p6-e1",
+      "pages": [6],
+      "exercise": 1,
+      "photoId": "photo-004",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p6-e2",
+      "pages": [6],
+      "exercise": 2,
+      "photoId": "photo-004",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input", "order"]
+    },
+    {
+      "id": "tb26-p6-e3",
+      "pages": [6],
+      "exercise": 3,
+      "photoId": "photo-004",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["personal", "choice"]
+    },
+    {
+      "id": "tb26-p7-e4",
+      "pages": [7],
+      "exercise": 4,
+      "photoId": "photo-004",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "personal"]
+    },
+    {
+      "id": "tb26-p7-e5",
+      "pages": [7],
+      "exercise": 5,
+      "photoId": "photo-004",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p8-e6",
+      "pages": [8],
+      "exercise": 6,
+      "photoId": "photo-005",
+      "authoredAdaptation": true,
+      "steps": 3,
+      "mechanics": ["choice", "input"]
+    },
+    {
+      "id": "tb26-p10-e1",
+      "pages": [10],
+      "exercise": 1,
+      "photoId": "photo-006",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "input"]
+    },
+    {
+      "id": "tb26-p10-e2",
+      "pages": [10],
+      "exercise": 2,
+      "photoId": "photo-006",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["order", "input"]
+    },
+    {
+      "id": "tb26-p10-e3",
+      "pages": [10],
+      "exercise": 3,
+      "photoId": "photo-006",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "input"]
+    },
+    {
+      "id": "tb26-p11-e4",
+      "pages": [11],
+      "exercise": 4,
+      "photoId": "photo-006",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p11-e5",
+      "pages": [11],
+      "exercise": 5,
+      "photoId": "photo-006",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p12-e1",
+      "pages": [12],
+      "exercise": 1,
+      "photoId": "photo-007",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input", "choice"]
+    },
+    {
+      "id": "tb26-p12-e2",
+      "pages": [12],
+      "exercise": 2,
+      "photoId": "photo-007",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "input"]
+    },
+    {
+      "id": "tb26-p12-e3",
+      "pages": [12],
+      "exercise": 3,
+      "photoId": "photo-007",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "input"]
+    },
+    {
+      "id": "tb26-p13-e4",
+      "pages": [13],
+      "exercise": 4,
+      "photoId": "photo-007",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p13-e5",
+      "pages": [13],
+      "exercise": 5,
+      "photoId": "photo-007",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p13-e6",
+      "pages": [13],
+      "exercise": 6,
+      "photoId": "photo-007",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p14-e1",
+      "pages": [14],
+      "exercise": 1,
+      "photoId": "photo-008",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p14-e2",
+      "pages": [14],
+      "exercise": 2,
+      "photoId": "photo-008",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input", "choice"]
+    },
+    {
+      "id": "tb26-p14-e3",
+      "pages": [14],
+      "exercise": 3,
+      "photoId": "photo-008",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "personal"]
+    },
+    {
+      "id": "tb26-p15-e4",
+      "pages": [15],
+      "exercise": 4,
+      "photoId": "photo-008",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "input"]
+    },
+    {
+      "id": "tb26-p15-e5",
+      "pages": [15],
+      "exercise": 5,
+      "photoId": "photo-008",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p15-e6",
+      "pages": [15],
+      "exercise": 6,
+      "photoId": "photo-008",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["personal", "choice"]
+    },
+    {
+      "id": "tb26-p15-e7",
+      "pages": [15],
+      "exercise": 7,
+      "photoId": "photo-008",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p16-e1",
+      "pages": [16],
+      "exercise": 1,
+      "photoId": "photo-009",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p16-e2",
+      "pages": [16],
+      "exercise": 2,
+      "photoId": "photo-009",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p17-e3",
+      "pages": [17],
+      "exercise": 3,
+      "photoId": "photo-009",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input"]
+    },
+    {
+      "id": "tb26-p17-e4",
+      "pages": [17],
+      "exercise": 4,
+      "photoId": "photo-009",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p18-reading",
+      "pages": [18],
+      "exercise": null,
+      "photoId": "photo-010",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "matching"]
+    },
+    {
+      "id": "tb26-p19-reading",
+      "pages": [19],
+      "exercise": null,
+      "photoId": "photo-010",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "input"]
+    },
+    {
+      "id": "tb26-p20-e1",
+      "pages": [20],
+      "exercise": 1,
+      "photoId": "photo-011",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p20-e2",
+      "pages": [20],
+      "exercise": 2,
+      "photoId": "photo-011",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "personal"]
+    },
+    {
+      "id": "tb26-p20-e3",
+      "pages": [20],
+      "exercise": 3,
+      "photoId": "photo-011",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "personal"]
+    },
+    {
+      "id": "tb26-p21-e1",
+      "pages": [21],
+      "exercise": 1,
+      "photoId": "photo-011",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p22-e1",
+      "pages": [22],
+      "exercise": 1,
+      "photoId": "photo-012",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input"]
+    },
+    {
+      "id": "tb26-p22-e2",
+      "pages": [22],
+      "exercise": 2,
+      "photoId": "photo-012",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input"]
+    },
+    {
+      "id": "tb26-p22-e3",
+      "pages": [22],
+      "exercise": 3,
+      "photoId": "photo-012",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input", "choice"]
+    },
+    {
+      "id": "tb26-p23-e4",
+      "pages": [23],
+      "exercise": 4,
+      "photoId": "photo-012",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "personal"]
+    },
+    {
+      "id": "tb26-p23-e5",
+      "pages": [23],
+      "exercise": 5,
+      "photoId": "photo-012",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "input"]
+    },
+    {
+      "id": "tb26-p24-reading",
+      "pages": [24],
+      "exercise": null,
+      "photoId": "photo-013",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p26-e1",
+      "pages": [26],
+      "exercise": 1,
+      "photoId": "photo-014",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p26-e2",
+      "pages": [26],
+      "exercise": 2,
+      "photoId": "photo-014",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["order", "personal"]
+    },
+    {
+      "id": "tb26-p27-e3",
+      "pages": [27],
+      "exercise": 3,
+      "photoId": "photo-014",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p27-e4",
+      "pages": [27],
+      "exercise": 4,
+      "photoId": "photo-014",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p28-e1",
+      "pages": [28],
+      "exercise": 1,
+      "photoId": "photo-015",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input"]
+    },
+    {
+      "id": "tb26-p28-e2",
+      "pages": [28],
+      "exercise": 2,
+      "photoId": "photo-015",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p29-e3",
+      "pages": [29],
+      "exercise": 3,
+      "photoId": "photo-015",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["personal", "choice"]
+    },
+    {
+      "id": "tb26-p29-e4",
+      "pages": [29],
+      "exercise": 4,
+      "photoId": "photo-015",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p29-e5",
+      "pages": [29],
+      "exercise": 5,
+      "photoId": "photo-015",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p29-e6",
+      "pages": [29],
+      "exercise": 6,
+      "photoId": "photo-015",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "input"]
+    },
+    {
+      "id": "tb26-p30-e1",
+      "pages": [30],
+      "exercise": 1,
+      "photoId": "photo-016",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "input"]
+    },
+    {
+      "id": "tb26-p30-e2",
+      "pages": [30],
+      "exercise": 2,
+      "photoId": "photo-016",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p30-e3",
+      "pages": [30],
+      "exercise": 3,
+      "photoId": "photo-016",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input"]
+    },
+    {
+      "id": "tb26-p31-e4",
+      "pages": [31],
+      "exercise": 4,
+      "photoId": "photo-016",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p31-e5",
+      "pages": [31],
+      "exercise": 5,
+      "photoId": "photo-016",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["personal", "order"]
+    },
+    {
+      "id": "tb26-p31-e6",
+      "pages": [31],
+      "exercise": 6,
+      "photoId": "photo-016",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "order"]
+    },
+    {
+      "id": "tb26-p32-e1",
+      "pages": [32],
+      "exercise": 1,
+      "photoId": "photo-017",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input"]
+    },
+    {
+      "id": "tb26-p32-e2",
+      "pages": [32],
+      "exercise": 2,
+      "photoId": "photo-017",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["order", "input"]
+    },
+    {
+      "id": "tb26-p32-e3",
+      "pages": [32],
+      "exercise": 3,
+      "photoId": "photo-017",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p33-e4",
+      "pages": [33],
+      "exercise": 4,
+      "photoId": "photo-017",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p33-e5",
+      "pages": [33],
+      "exercise": 5,
+      "photoId": "photo-017",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p33-e6",
+      "pages": [33],
+      "exercise": 6,
+      "photoId": "photo-017",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["personal", "choice"]
+    },
+    {
+      "id": "tb26-p34-reading",
+      "pages": [34],
+      "exercise": null,
+      "photoId": "photo-018",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p35-reading",
+      "pages": [35],
+      "exercise": null,
+      "photoId": "photo-018",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p36-e1",
+      "pages": [36],
+      "exercise": 1,
+      "photoId": "photo-019",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p36-e2",
+      "pages": [36],
+      "exercise": 2,
+      "photoId": "photo-019",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "input"]
+    },
+    {
+      "id": "tb26-p37-e1",
+      "pages": [37],
+      "exercise": 1,
+      "photoId": "photo-019",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p37-e2",
+      "pages": [37],
+      "exercise": 2,
+      "photoId": "photo-019",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "order"]
+    },
+    {
+      "id": "tb26-p37-e3",
+      "pages": [37],
+      "exercise": 3,
+      "photoId": "photo-019",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["personal", "choice"]
+    },
+    {
+      "id": "tb26-p38-e1",
+      "pages": [38],
+      "exercise": 1,
+      "photoId": "photo-020",
+      "authoredAdaptation": true,
+      "steps": 3,
+      "mechanics": ["input", "choice"]
+    },
+    {
+      "id": "tb26-p39-e2",
+      "pages": [39],
+      "exercise": 2,
+      "photoId": "photo-020",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "input"]
+    },
+    {
+      "id": "tb26-p39-e3",
+      "pages": [39],
+      "exercise": 3,
+      "photoId": "photo-020",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["order", "choice"]
+    },
+    {
+      "id": "tb26-p39-e4",
+      "pages": [39],
+      "exercise": 4,
+      "photoId": "photo-020",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "personal"]
+    },
+    {
+      "id": "tb26-p40-e1",
+      "pages": [40],
+      "exercise": 1,
+      "photoId": "photo-021",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input"]
+    },
+    {
+      "id": "tb26-p40-e2",
+      "pages": [40],
+      "exercise": 2,
+      "photoId": "photo-021",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input"]
+    },
+    {
+      "id": "tb26-p40-e3",
+      "pages": [40],
+      "exercise": 3,
+      "photoId": "photo-021",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input"]
+    },
+    {
+      "id": "tb26-p40-e4",
+      "pages": [40],
+      "exercise": 4,
+      "photoId": "photo-021",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input"]
+    },
+    {
+      "id": "tb26-p40-e5",
+      "pages": [40, 41],
+      "exercise": 5,
+      "photoId": "photo-021",
+      "authoredAdaptation": true,
+      "steps": 3,
+      "mechanics": ["input", "order"]
+    },
+    {
+      "id": "tb26-p41-e6",
+      "pages": [41],
+      "exercise": 6,
+      "photoId": "photo-021",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p41-e7",
+      "pages": [41],
+      "exercise": 7,
+      "photoId": "photo-021",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["personal", "input"]
+    },
+    {
+      "id": "tb26-p42-reading",
+      "pages": [42],
+      "exercise": null,
+      "photoId": "photo-022",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p44-e1",
+      "pages": [44],
+      "exercise": 1,
+      "photoId": "photo-023",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p44-e2",
+      "pages": [44],
+      "exercise": 2,
+      "photoId": "photo-023",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "personal"]
+    },
+    {
+      "id": "tb26-p45-e3",
+      "pages": [45],
+      "exercise": 3,
+      "photoId": "photo-023",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p45-e4",
+      "pages": [45],
+      "exercise": 4,
+      "photoId": "photo-023",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p46-e1",
+      "pages": [46],
+      "exercise": 1,
+      "photoId": "photo-024",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["order", "choice"]
+    },
+    {
+      "id": "tb26-p46-e2",
+      "pages": [46],
+      "exercise": 2,
+      "photoId": "photo-024",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "input"]
+    },
+    {
+      "id": "tb26-p46-e3",
+      "pages": [46],
+      "exercise": 3,
+      "photoId": "photo-024",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input", "choice"]
+    },
+    {
+      "id": "tb26-p47-e4",
+      "pages": [47],
+      "exercise": 4,
+      "photoId": "photo-024",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p47-e5",
+      "pages": [47],
+      "exercise": 5,
+      "photoId": "photo-024",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p47-e6",
+      "pages": [47],
+      "exercise": 6,
+      "photoId": "photo-024",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input"]
+    },
+    {
+      "id": "tb26-p47-e7",
+      "pages": [47],
+      "exercise": 7,
+      "photoId": "photo-024",
+      "authoredAdaptation": true,
+      "steps": 3,
+      "mechanics": ["choice", "personal"]
+    },
+    {
+      "id": "tb26-p48-e1",
+      "pages": [48],
+      "exercise": 1,
+      "photoId": "photo-025",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p48-e2",
+      "pages": [48],
+      "exercise": 2,
+      "photoId": "photo-025",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["order", "choice"]
+    },
+    {
+      "id": "tb26-p48-e3",
+      "pages": [48],
+      "exercise": 3,
+      "photoId": "photo-025",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input"]
+    },
+    {
+      "id": "tb26-p49-e4",
+      "pages": [49],
+      "exercise": 4,
+      "photoId": "photo-025",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p49-e5",
+      "pages": [49],
+      "exercise": 5,
+      "photoId": "photo-025",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["personal", "choice"]
+    },
+    {
+      "id": "tb26-p49-e6",
+      "pages": [49],
+      "exercise": 6,
+      "photoId": "photo-025",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["order", "input"]
+    },
+    {
+      "id": "tb26-p50-e1",
+      "pages": [50],
+      "exercise": 1,
+      "photoId": "photo-026",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p50-e2",
+      "pages": [50],
+      "exercise": 2,
+      "photoId": "photo-026",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p50-e3",
+      "pages": [50],
+      "exercise": 3,
+      "photoId": "photo-026",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "personal"]
+    },
+    {
+      "id": "tb26-p51-e4",
+      "pages": [51],
+      "exercise": 4,
+      "photoId": "photo-026",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p51-e5",
+      "pages": [51],
+      "exercise": 5,
+      "photoId": "photo-026",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input", "personal"]
+    },
+    {
+      "id": "tb26-p52-reading",
+      "pages": [52],
+      "exercise": null,
+      "photoId": "photo-027",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p53-reading",
+      "pages": [53],
+      "exercise": null,
+      "photoId": "photo-027",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "input"]
+    },
+    {
+      "id": "tb26-p54-e1",
+      "pages": [54],
+      "exercise": 1,
+      "photoId": "photo-028",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["order"]
+    },
+    {
+      "id": "tb26-p54-e2",
+      "pages": [54],
+      "exercise": 2,
+      "photoId": "photo-028",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p54-e3",
+      "pages": [54],
+      "exercise": 3,
+      "photoId": "photo-028",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p55-e1",
+      "pages": [55],
+      "exercise": 1,
+      "photoId": "photo-028",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p55-e2",
+      "pages": [55],
+      "exercise": 2,
+      "photoId": "photo-028",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["personal", "choice"]
+    },
+    {
+      "id": "tb26-p56-e1",
+      "pages": [56],
+      "exercise": 1,
+      "photoId": "photo-029",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "input"]
+    },
+    {
+      "id": "tb26-p56-e2",
+      "pages": [56],
+      "exercise": 2,
+      "photoId": "photo-029",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "input"]
+    },
+    {
+      "id": "tb26-p56-e3",
+      "pages": [56],
+      "exercise": 3,
+      "photoId": "photo-029",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input"]
+    },
+    {
+      "id": "tb26-p57-e4",
+      "pages": [57],
+      "exercise": 4,
+      "photoId": "photo-029",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p57-e5",
+      "pages": [57],
+      "exercise": 5,
+      "photoId": "photo-029",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p58-reading",
+      "pages": [58],
+      "exercise": null,
+      "photoId": "photo-030",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p60-e1",
+      "pages": [60],
+      "exercise": 1,
+      "photoId": "photo-031",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p60-e2",
+      "pages": [60],
+      "exercise": 2,
+      "photoId": "photo-031",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "order"]
+    },
+    {
+      "id": "tb26-p61-e3",
+      "pages": [61],
+      "exercise": 3,
+      "photoId": "photo-031",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p61-e4",
+      "pages": [61],
+      "exercise": 4,
+      "photoId": "photo-031",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p62-e1",
+      "pages": [62],
+      "exercise": 1,
+      "photoId": "photo-032",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input"]
+    },
+    {
+      "id": "tb26-p62-e2",
+      "pages": [62],
+      "exercise": 2,
+      "photoId": "photo-032",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p63-e3",
+      "pages": [63],
+      "exercise": 3,
+      "photoId": "photo-032",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p63-e4",
+      "pages": [63],
+      "exercise": 4,
+      "photoId": "photo-032",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p63-e5",
+      "pages": [63],
+      "exercise": 5,
+      "photoId": "photo-032",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "input"]
+    },
+    {
+      "id": "tb26-p64-e1",
+      "pages": [64],
+      "exercise": 1,
+      "photoId": "photo-033",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p64-e2",
+      "pages": [64],
+      "exercise": 2,
+      "photoId": "photo-033",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p64-e3",
+      "pages": [64],
+      "exercise": 3,
+      "photoId": "photo-033",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["order", "input"]
+    },
+    {
+      "id": "tb26-p65-e4",
+      "pages": [65],
+      "exercise": 4,
+      "photoId": "photo-033",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p65-e5",
+      "pages": [65],
+      "exercise": 5,
+      "photoId": "photo-033",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["personal", "choice"]
+    },
+    {
+      "id": "tb26-p65-e6",
+      "pages": [65],
+      "exercise": 6,
+      "photoId": "photo-033",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p66-e1",
+      "pages": [66],
+      "exercise": 1,
+      "photoId": "photo-034",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "input"]
+    },
+    {
+      "id": "tb26-p66-e2",
+      "pages": [66],
+      "exercise": 2,
+      "photoId": "photo-034",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "order"]
+    },
+    {
+      "id": "tb26-p66-e3",
+      "pages": [66],
+      "exercise": 3,
+      "photoId": "photo-034",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "personal"]
+    },
+    {
+      "id": "tb26-p67-e4",
+      "pages": [67],
+      "exercise": 4,
+      "photoId": "photo-034",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p67-e5",
+      "pages": [67],
+      "exercise": 5,
+      "photoId": "photo-034",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p67-e6",
+      "pages": [67],
+      "exercise": 6,
+      "photoId": "photo-034",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["personal", "choice"]
+    },
+    {
+      "id": "tb26-p68-reading",
+      "pages": [68],
+      "exercise": null,
+      "photoId": "photo-035",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p69-reading",
+      "pages": [69],
+      "exercise": null,
+      "photoId": "photo-035",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p70-e1",
+      "pages": [70],
+      "exercise": 1,
+      "photoId": "photo-036",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p70-e2",
+      "pages": [70],
+      "exercise": 2,
+      "photoId": "photo-036",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input", "personal"]
+    },
+    {
+      "id": "tb26-p70-e3",
+      "pages": [70],
+      "exercise": 3,
+      "photoId": "photo-036",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["personal", "choice"]
+    },
+    {
+      "id": "tb26-p71-e1",
+      "pages": [71],
+      "exercise": 1,
+      "photoId": "photo-036",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p71-e2",
+      "pages": [71],
+      "exercise": 2,
+      "photoId": "photo-036",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p71-e3",
+      "pages": [71],
+      "exercise": 3,
+      "photoId": "photo-036",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p72-e1",
+      "pages": [72],
+      "exercise": 1,
+      "photoId": "photo-037",
+      "authoredAdaptation": true,
+      "steps": 3,
+      "mechanics": ["input", "choice", "personal"]
+    },
+    {
+      "id": "tb26-p73-e2",
+      "pages": [73],
+      "exercise": 2,
+      "photoId": "photo-037",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input"]
+    },
+    {
+      "id": "tb26-p73-e3",
+      "pages": [73],
+      "exercise": 3,
+      "photoId": "photo-037",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["order", "choice"]
+    },
+    {
+      "id": "tb26-p73-e4",
+      "pages": [73],
+      "exercise": 4,
+      "photoId": "photo-037",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input", "personal"]
+    },
+    {
+      "id": "tb26-p74-e1",
+      "pages": [74],
+      "exercise": 1,
+      "photoId": "photo-038",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "input"]
+    },
+    {
+      "id": "tb26-p74-e2",
+      "pages": [74],
+      "exercise": 2,
+      "photoId": "photo-038",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p74-e3",
+      "pages": [74],
+      "exercise": 3,
+      "photoId": "photo-038",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input"]
+    },
+    {
+      "id": "tb26-p75-e4",
+      "pages": [75],
+      "exercise": 4,
+      "photoId": "photo-038",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input"]
+    },
+    {
+      "id": "tb26-p75-e5",
+      "pages": [75],
+      "exercise": 5,
+      "photoId": "photo-038",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p75-e6",
+      "pages": [75],
+      "exercise": 6,
+      "photoId": "photo-038",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input", "personal"]
+    },
+    {
+      "id": "tb26-p76-reading",
+      "pages": [76],
+      "exercise": null,
+      "photoId": "photo-039",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p78-e1",
+      "pages": [78],
+      "exercise": 1,
+      "photoId": "photo-040",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p79-e2",
+      "pages": [79],
+      "exercise": 2,
+      "photoId": "photo-040",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p79-e3",
+      "pages": [79],
+      "exercise": 3,
+      "photoId": "photo-040",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["order", "personal"]
+    },
+    {
+      "id": "tb26-p79-e4",
+      "pages": [79],
+      "exercise": 4,
+      "photoId": "photo-040",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "input"]
+    },
+    {
+      "id": "tb26-p80-e1",
+      "pages": [80],
+      "exercise": 1,
+      "photoId": "photo-041",
+      "authoredAdaptation": true,
+      "steps": 3,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p80-e2",
+      "pages": [80],
+      "exercise": 2,
+      "photoId": "photo-041",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p81-e1",
+      "pages": [81],
+      "exercise": 1,
+      "photoId": "photo-041",
+      "authoredAdaptation": true,
+      "steps": 3,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p81-e2",
+      "pages": [81],
+      "exercise": 2,
+      "photoId": "photo-041",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["personal", "choice"]
+    },
+    {
+      "id": "tb26-p82-e1",
+      "pages": [82],
+      "exercise": 1,
+      "photoId": "photo-042",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p82-e2",
+      "pages": [82],
+      "exercise": 2,
+      "photoId": "photo-042",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["personal", "choice"]
+    },
+    {
+      "id": "tb26-p83-e1",
+      "pages": [83],
+      "exercise": 1,
+      "photoId": "photo-042",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p83-e2",
+      "pages": [83],
+      "exercise": 2,
+      "photoId": "photo-042",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["personal", "choice"]
+    },
+    {
+      "id": "tb26-p84-e1",
+      "pages": [84],
+      "exercise": 1,
+      "photoId": "photo-043",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "personal"]
+    },
+    {
+      "id": "tb26-p84-e2",
+      "pages": [84],
+      "exercise": 2,
+      "photoId": "photo-043",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["order", "choice"]
+    },
+    {
+      "id": "tb26-p84-e3",
+      "pages": [84],
+      "exercise": 3,
+      "photoId": "photo-043",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["personal", "choice"]
+    },
+    {
+      "id": "tb26-p85-e1",
+      "pages": [85],
+      "exercise": 1,
+      "photoId": "photo-043",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["personal", "choice"]
+    },
+    {
+      "id": "tb26-p85-e2",
+      "pages": [85],
+      "exercise": 2,
+      "photoId": "photo-043",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p85-e3",
+      "pages": [85],
+      "exercise": 3,
+      "photoId": "photo-043",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "personal"]
+    },
+    {
+      "id": "tb26-p85-e4",
+      "pages": [85],
+      "exercise": 4,
+      "photoId": "photo-043",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["personal", "choice"]
+    },
+    {
+      "id": "tb26-p86-e1",
+      "pages": [86],
+      "exercise": 1,
+      "photoId": "photo-044",
+      "authoredAdaptation": true,
+      "steps": 3,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p86-e2",
+      "pages": [86],
+      "exercise": 2,
+      "photoId": "photo-044",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["input"]
+    },
+    {
+      "id": "tb26-p87-e3",
+      "pages": [87],
+      "exercise": 3,
+      "photoId": "photo-044",
+      "authoredAdaptation": true,
+      "steps": 3,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p87-e4",
+      "pages": [87],
+      "exercise": 4,
+      "photoId": "photo-044",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p90-e1",
+      "pages": [90],
+      "exercise": 1,
+      "photoId": "photo-045",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p90-e2",
+      "pages": [90],
+      "exercise": 2,
+      "photoId": "photo-045",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["order", "input"]
+    },
+    {
+      "id": "tb26-p90-e3",
+      "pages": [90],
+      "exercise": 3,
+      "photoId": "photo-045",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p90-e4",
+      "pages": [90],
+      "exercise": 4,
+      "photoId": "photo-045",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["personal", "order"]
+    },
+    {
+      "id": "tb26-p90-e5",
+      "pages": [90],
+      "exercise": 5,
+      "photoId": "photo-045",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p91-e6",
+      "pages": [91],
+      "exercise": 6,
+      "photoId": "photo-045",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["personal", "choice"]
+    },
+    {
+      "id": "tb26-p91-e7",
+      "pages": [91],
+      "exercise": 7,
+      "photoId": "photo-045",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p91-e8",
+      "pages": [91],
+      "exercise": 8,
+      "photoId": "photo-045",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p92-e9",
+      "pages": [92],
+      "exercise": 9,
+      "photoId": "photo-046",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice"]
+    },
+    {
+      "id": "tb26-p92-e10",
+      "pages": [92],
+      "exercise": 10,
+      "photoId": "photo-046",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["personal", "choice"]
+    },
+    {
+      "id": "tb26-p92-e11",
+      "pages": [92],
+      "exercise": 11,
+      "photoId": "photo-046",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["matching", "choice"]
+    },
+    {
+      "id": "tb26-p93-e12",
+      "pages": [93],
+      "exercise": 12,
+      "photoId": "photo-046",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "order"]
+    },
+    {
+      "id": "tb26-p93-e13",
+      "pages": [93],
+      "exercise": 13,
+      "photoId": "photo-046",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["choice", "matching"]
+    },
+    {
+      "id": "tb26-p93-e14",
+      "pages": [93],
+      "exercise": 14,
+      "photoId": "photo-046",
+      "authoredAdaptation": true,
+      "steps": 2,
+      "mechanics": ["personal", "choice"]
+    },
+    {
+      "id": "tb26-p94-reading",
+      "pages": [94],
+      "exercise": null,
+      "photoId": "photo-047",
+      "authoredAdaptation": true,
+      "steps": 3,
+      "mechanics": ["input", "choice"]
+    },
+    {
+      "id": "tb26-p95-reading",
+      "pages": [95],
+      "exercise": null,
+      "photoId": "photo-047",
+      "authoredAdaptation": true,
+      "steps": 3,
+      "mechanics": ["input", "choice"]
+    },
+    {
+      "id": "tb26-p96-reading",
+      "pages": [96],
+      "exercise": null,
+      "photoId": "photo-048",
+      "authoredAdaptation": true,
+      "steps": 3,
+      "mechanics": ["input", "choice"]
+    },
+    {
+      "id": "tb26-p97-reading",
+      "pages": [97],
+      "exercise": null,
+      "photoId": "photo-048",
+      "authoredAdaptation": true,
+      "steps": 3,
+      "mechanics": ["input", "choice"]
+    }
+  ]
+}

@@ -36,7 +36,7 @@ async function records(page: Page) {
   );
 }
 test('2026: поиск по реальной странице и номеру открывает нужную адаптацию', async ({ page }) => {
-  await page.goto('#/textbook');
+  await page.goto('#/workbook');
   await expect(page.getByLabel('Издание сборника')).toHaveValue(modern);
   await expect(page.locator('[data-edition-section]')).toHaveCount(9);
   await expect(page.locator('[data-source-exercise]')).toHaveCount(251);
@@ -208,11 +208,12 @@ test('миграция браузера v4: старое завершение с
 test('мобильная навигация 2026 и возврат в старые комиксы', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto('#/textbook');
+  await expect(page.getByRole('heading', { name: 'Занимаемся по учебнику' })).toBeVisible();
+  await page.getByRole('link', { name: 'Сборник упражнений →', exact: true }).click();
   await expect(page.getByLabel('Издание сборника')).toHaveValue(modern);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
-  await page
-    .getByRole('link', { name: 'Комиксы учебника, часть 1 — отдельный источник →' })
-    .click();
+  await page.goto('#/textbook');
+  await page.getByRole('link', { name: 'Комиксы и реплики →' }).click();
   await expect(page.getByRole('heading', { name: /Учебник оживает/ })).toBeVisible();
   await expect(page.locator('.book-card')).toHaveCount(11);
   await page.screenshot({ path: '/tmp/edition2026-mobile.png' });

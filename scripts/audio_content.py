@@ -8,6 +8,9 @@ def texts():
     paths = [ROOT/'src/lessons/school.json', *sorted((ROOT/'src/lessons/content').glob('*.json'))]
     lessons = [json.loads(p.read_text()) for p in paths]
     vocabulary = json.loads((ROOT/'src/lessons/shared-lexicon.json').read_text())
+    textbook = json.loads((ROOT/'docs/textbook-2026/verified-forms.json').read_text())
+    if textbook['runtimePublished']:
+        vocabulary += textbook['forms']
     for lesson in lessons:
         vocabulary += lesson['lexicon'] + lesson['vocabulary']
     # Match the TypeScript registry: later definitions override by English text.

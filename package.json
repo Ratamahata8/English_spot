@@ -10,7 +10,7 @@
     "check:audio": "python3 scripts/validate_audio.py",
     "test": "vitest run",
     "test:e2e": "playwright test",
-    "build": "npm run typecheck && npm run check:content && npm run check:audio && npm run check:textbook && npm run check:workbook && vite build",
+    "build": "npm run typecheck && npm run check:content && npm run check:audio && npm run check:textbook && npm run check:workbook && npm run check:practice && vite build",
     "preview": "vite preview --host 0.0.0.0",
     "format": "prettier --write src scripts/*.ts tests *.ts *.json *.html .github/workflows/*.yml",
     "format:check": "prettier --check src scripts/*.ts tests *.ts *.json *.html .github/workflows/*.yml",
@@ -18,7 +18,8 @@
     "check:workbook": "node --import tsx scripts/validate_workbook.ts && npm run check:editions && npm run check:video && npm run check:rest && python3 scripts/workbook_audio.py",
     "check:editions": "node --import tsx scripts/validate_editions.ts",
     "check:video": "node --import tsx scripts/validate_video_content.ts",
-    "check:rest": "node --import tsx scripts/validate_rest_content.ts"
+    "check:rest": "node --import tsx scripts/validate_rest_content.ts",
+    "check:practice": "node --import tsx scripts/validate_textbook_practice.ts && python3 scripts/textbook_practice_audio.py"
   },
   "dependencies": {
     "dexie": "^4.2.0",

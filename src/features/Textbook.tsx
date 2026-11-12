@@ -1,4 +1,4 @@
-import { Workbook } from './Workbook';
+import { TextbookPractice } from './TextbookPractice';
 import { useEffect, useRef, useState } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router-dom';
 import {
@@ -15,16 +15,7 @@ const BASE = import.meta.env.BASE_URL;
 export function Textbook() {
   const [params] = useSearchParams();
   if (params.get('view') === 'reader') return <LegacyTextbook />;
-  return (
-    <>
-      <div className="reader-controls">
-        <Link className="button" to="/textbook?view=reader">
-          Комиксы учебника, часть 1 — отдельный источник →
-        </Link>
-      </div>
-      <Workbook />
-    </>
-  );
+  return <TextbookPractice />;
 }
 function LegacyTextbook() {
   const [search, setSearch] = useState('');

@@ -1,0 +1,152 @@
+{
+  "sourceId": "spotlight_textbook_2026_16_part1",
+  "complete": false,
+  "scope": "Nine individually photo-verified forms; not an exhaustive vocabulary",
+  "exampleProvenance": "Examples and explanations authored for this application, not copied publisher dialogues",
+  "audioStatus": "verified_sonia_static_mp3",
+  "runtimePublished": true,
+  "forms": [
+    {
+      "id": "lex-who",
+      "en": "who",
+      "ru": "кто",
+      "ipa": "/huː/",
+      "explanation": "Спрашиваем о человеке. Не путай с whose — «чей».",
+      "example": "Who is she?",
+      "image": "",
+      "textbookEvidence": {
+        "sourceId": "spotlight_textbook_2026_16_part1",
+        "page": 28,
+        "exercise": 1,
+        "usage": "question word"
+      }
+    },
+    {
+      "id": "lex-what",
+      "en": "what",
+      "ru": "что; какой",
+      "ipa": "/wɒt/",
+      "explanation": "Спрашиваем о предмете или о том, какой он. В What is this? — «Что это?».",
+      "example": "What is this?",
+      "image": "",
+      "textbookEvidence": {
+        "sourceId": "spotlight_textbook_2026_16_part1",
+        "page": 30,
+        "exercise": 3,
+        "usage": "question word"
+      }
+    },
+    {
+      "id": "lex-where",
+      "en": "where",
+      "ru": "где; куда",
+      "ipa": "/weə/",
+      "explanation": "Спрашиваем о месте. Where is — «где находится», where do you go — «куда ты идёшь».",
+      "example": "Where is my book?",
+      "image": "",
+      "textbookEvidence": {
+        "sourceId": "spotlight_textbook_2026_16_part1",
+        "page": 39,
+        "exercise": 4,
+        "usage": "question word"
+      }
+    },
+    {
+      "id": "lex-when",
+      "en": "when",
+      "ru": "когда",
+      "ipa": "/wen/",
+      "explanation": "В вопросе спрашиваем о времени. Также соединяет части предложения: «когда».",
+      "example": "When do you play?",
+      "image": "",
+      "textbookEvidence": {
+        "sourceId": "spotlight_textbook_2026_16_part1",
+        "page": 85,
+        "exercise": 3,
+        "usage": "question word; also conjunction on page 21"
+      }
+    },
+    {
+      "id": "lex-why",
+      "en": "why",
+      "ru": "почему; зачем",
+      "ipa": "/waɪ/",
+      "explanation": "Просим объяснить причину. Часто в ответе появляется because — «потому что».",
+      "example": "Why are you happy?",
+      "image": "",
+      "textbookEvidence": {
+        "sourceId": "spotlight_textbook_2026_16_part1",
+        "page": 93,
+        "exercise": 12,
+        "usage": "question word"
+      }
+    },
+    {
+      "id": "lex-how",
+      "en": "how",
+      "ru": "как; насколько",
+      "ipa": "/haʊ/",
+      "explanation": "Спрашиваем, как обстоят дела. How many — «сколько» предметов, how old — «сколько лет».",
+      "example": "How are you?",
+      "image": "",
+      "textbookEvidence": {
+        "sourceId": "spotlight_textbook_2026_16_part1",
+        "page": 81,
+        "exercise": 1,
+        "usage": "question phrase how many"
+      }
+    },
+    {
+      "id": "lex-has",
+      "en": "has",
+      "ru": "имеет; есть у",
+      "ipa": "/hæz/",
+      "explanation": "Форма have для he, she, it. В has got говорит о том, что у кого-то есть.",
+      "example": "She has got a book.",
+      "image": "",
+      "textbookEvidence": {
+        "sourceId": "spotlight_textbook_2026_16_part1",
+        "page": 83,
+        "exercise": 1,
+        "usage": "question 2: has got"
+      }
+    },
+    {
+      "id": "lex-because",
+      "en": "because",
+      "ru": "потому что",
+      "ipa": "/bɪˈkɒz/",
+      "explanation": "Соединяет утверждение и его причину. После because объясняем, почему так.",
+      "example": "I like school because I like art.",
+      "image": "",
+      "textbookEvidence": {
+        "sourceId": "spotlight_textbook_2026_16_part1",
+        "page": 93,
+        "exercise": 12,
+        "usage": "reason conjunction"
+      }
+    },
+    {
+      "id": "lex-got",
+      "en": "got",
+      "ru": "в have got: есть у кого-то",
+      "ipa": "/ɡɒt/",
+      "explanation": "В сочетании have got или has got помогает сказать, что у кого-то есть вещь. Здесь не переводим got отдельно как «получил».",
+      "example": "I have got a book.",
+      "image": "",
+      "textbookEvidence": {
+        "sourceId": "spotlight_textbook_2026_16_part1",
+        "page": 83,
+        "exercise": 1,
+        "usage": "question 2: has got"
+      }
+    }
+  ],
+  "audioPreparation": {
+    "strings": 18,
+    "reusedExisting": 8,
+    "newlySynthesized": 10,
+    "reusedWithoutFileCopies": true,
+    "integrityChecks": ["SHA256", "ffprobe duration", "complete ffmpeg decode"]
+  }
+}

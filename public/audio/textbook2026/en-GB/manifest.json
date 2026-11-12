@@ -1,0 +1,1782 @@
+{
+  "Anna": {
+    "text": "Anna",
+    "path": "../../workbook/en-GB/bf4fccd616251b678c56.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c1d682f7d3a2004c2662ad8e026f568a37890ebd96bd048dd77ac11da7b7477b",
+    "reusedFrom": {
+      "text": "Anna",
+      "path": "../../workbook/en-GB/bf4fccd616251b678c56.mp3"
+    }
+  },
+  "Art": {
+    "text": "Art",
+    "path": "../../en-GB/75df3579c73089e317e5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "68526271a6b325dd0d163e130fd592f8653f884ee90910d94307c03c4a62608b",
+    "reusedFrom": {
+      "text": "Art",
+      "path": "../../en-GB/75df3579c73089e317e5.mp3"
+    }
+  },
+  "Christmas tree": {
+    "text": "Christmas tree",
+    "path": "../../en-GB/e963e8ffe72467dd7642.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c218a3c80c1cb1ada0c62f3b39a2be53637eebce34ecb60a7ff7e89827cfee9a",
+    "reusedFrom": {
+      "text": "Christmas tree",
+      "path": "../../en-GB/e963e8ffe72467dd7642.mp3"
+    }
+  },
+  "Close your book!": {
+    "text": "Close your book!",
+    "path": "../../workbook/en-GB/4b62ba85bac348cdcdad.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5ff36838932dbad227fb812643a5c94a2b3e17f87ae712615d5d6a296de49ec6",
+    "reusedFrom": {
+      "text": "Close your book!",
+      "path": "../../workbook/en-GB/4b62ba85bac348cdcdad.mp3"
+    }
+  },
+  "English": {
+    "text": "English",
+    "path": "../../en-GB/ba118bf7fc9c1aedc1ed.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "8afaf9839cce277dec9e87053e2a2c85fc891abbc5c8461c09687c7d14dee2cd",
+    "reusedFrom": {
+      "text": "English",
+      "path": "../../en-GB/ba118bf7fc9c1aedc1ed.mp3"
+    }
+  },
+  "Hello!": {
+    "text": "Hello!",
+    "path": "../../workbook/en-GB/334d016f755cd6dc58c5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3e1ef984e049995241b6c0f3c4584c67641e5cca3970478dc82e17894c87e740",
+    "reusedFrom": {
+      "text": "Hello!",
+      "path": "../../workbook/en-GB/334d016f755cd6dc58c5.mp3"
+    }
+  },
+  "Here you are.": {
+    "text": "Here you are.",
+    "path": "../../textbook/en-GB/3f3d9f370444b48214a7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b01d51fbd1b18984a7561d51a47c10aef8ba10dad90daa2eec735e5388848dea",
+    "reusedFrom": {
+      "text": "Here you are.",
+      "path": "../../textbook/en-GB/3f3d9f370444b48214a7.mp3"
+    }
+  },
+  "History": {
+    "text": "History",
+    "path": "../../en-GB/0e769600933790607b2a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "9f15aaca4bcafdd6d6e4323a35ac2e7437cac47b40ee89bd38b642322bc5754e",
+    "reusedFrom": {
+      "text": "History",
+      "path": "../../en-GB/0e769600933790607b2a.mp3"
+    }
+  },
+  "How much is it?": {
+    "text": "How much is it?",
+    "path": "../../workbook/en-GB/abdfbb3951b780a17416.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f0553b64f9ac9f9926d88f41c6fb801ba3ad4af803e4d8bbe5fcc545d175cfde",
+    "reusedFrom": {
+      "text": "How much is it?",
+      "path": "../../workbook/en-GB/abdfbb3951b780a17416.mp3"
+    }
+  },
+  "How old are you?": {
+    "text": "How old are you?",
+    "path": "../../workbook/en-GB/9b181de483e0da61391c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "540c74350e777c9b2f9d3a0f8f3de0d89db09cc3f43b3aa6382306de28003ad6",
+    "reusedFrom": {
+      "text": "How old are you?",
+      "path": "../../workbook/en-GB/9b181de483e0da61391c.mp3"
+    }
+  },
+  "I am": {
+    "text": "I am",
+    "path": "../../en-GB/afa497455f37b1c55022.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5f80a8fa15e7dee893042d5605cec9ae95a47043020223e6052390d8de6e9160",
+    "reusedFrom": {
+      "text": "I am",
+      "path": "../../en-GB/afa497455f37b1c55022.mp3"
+    }
+  },
+  "I am nine.": {
+    "text": "I am nine.",
+    "path": "../../en-GB/4c44b8a1522416e21b79.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "bb7a8fc882d1ee97aa2126868ffb8cd2fb5b4eb82a22340cb60614cd849692f7",
+    "reusedFrom": {
+      "text": "I am nine.",
+      "path": "../../en-GB/4c44b8a1522416e21b79.mp3"
+    }
+  },
+  "I was at home.": {
+    "text": "I was at home.",
+    "path": "../../workbook/en-GB/5ed3b02fd5b9d3c977f9.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "03c15eea2fba6389554890d930d992ab4e6a0e26be9fb221630dc517ff427980",
+    "reusedFrom": {
+      "text": "I was at home.",
+      "path": "../../workbook/en-GB/5ed3b02fd5b9d3c977f9.mp3"
+    }
+  },
+  "It is a book.": {
+    "text": "It is a book.",
+    "path": "../../workbook/en-GB/74def1395003c46fd279.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "81589862b3cac7343758ab71367b0fbb9630d6155c5ba4cd01619368a8b4e190",
+    "reusedFrom": {
+      "text": "It is a book.",
+      "path": "../../workbook/en-GB/74def1395003c46fd279.mp3"
+    }
+  },
+  "It is raining.": {
+    "text": "It is raining.",
+    "path": "../../workbook/en-GB/686e9dc0157a364f2fff.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "fdc699899e78dcbeb9b3ec56a8b98814de05622b5a02c7c4feec5d150a448f7d",
+    "reusedFrom": {
+      "text": "It is raining.",
+      "path": "../../workbook/en-GB/686e9dc0157a364f2fff.mp3"
+    }
+  },
+  "It is sunny.": {
+    "text": "It is sunny.",
+    "path": "../../workbook/en-GB/632d8edb4a34c273d7fe.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e40b7d46acf917845ef821a430385819f09ccaa3f90628522f256e0ba1018e0c",
+    "reusedFrom": {
+      "text": "It is sunny.",
+      "path": "../../workbook/en-GB/632d8edb4a34c273d7fe.mp3"
+    }
+  },
+  "It is windy.": {
+    "text": "It is windy.",
+    "path": "../../workbook/en-GB/c3ac1ffe16df08b61093.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a185ab1e02a174e575c06900652ceef3e9f779e7e75e2301f496916532ff4d52",
+    "reusedFrom": {
+      "text": "It is windy.",
+      "path": "../../workbook/en-GB/c3ac1ffe16df08b61093.mp3"
+    }
+  },
+  "Maths": {
+    "text": "Maths",
+    "path": "../../en-GB/01048162ed9f3c90314d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "9f0e3d0b62bef7fbb70dc1230545170b88bb217bf808cbefd87dca3a6caf61e0",
+    "reusedFrom": {
+      "text": "Maths",
+      "path": "../../en-GB/01048162ed9f3c90314d.mp3"
+    }
+  },
+  "Mum’s": {
+    "text": "Mum’s",
+    "path": "../../textbook/en-GB/d52bd87c6682918636a9.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "19eab6d9d7b93512cf8d61c7488c2b5f497175a6f70e4199bfdf9dc08a3542a3",
+    "reusedFrom": {
+      "text": "Mum's",
+      "path": "../../textbook/en-GB/d52bd87c6682918636a9.mp3"
+    }
+  },
+  "Music": {
+    "text": "Music",
+    "path": "../../en-GB/6eb00b4b2614a144d41c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "9bd636a18cb3551ccea8f7ab13c083f1ad54050ced7287667b840a35f375d106",
+    "reusedFrom": {
+      "text": "Music",
+      "path": "../../en-GB/6eb00b4b2614a144d41c.mp3"
+    }
+  },
+  "My favourite subject is English.": {
+    "text": "My favourite subject is English.",
+    "path": "../../workbook/en-GB/f859128210c61102a95d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "45763c8d4d8135da8a99a846ccf2abd4166605691c31b292964042050b2bf2b0",
+    "reusedFrom": {
+      "text": "My favourite subject is English.",
+      "path": "../../workbook/en-GB/f859128210c61102a95d.mp3"
+    }
+  },
+  "No, he was not.": {
+    "text": "No, he was not.",
+    "path": "../../workbook/en-GB/7844fbce1eb13a8f67c5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e1f04c8d4fcb1c994de5fbcadccb49ec3818693a45ec8fc51908fcf099f1c39f",
+    "reusedFrom": {
+      "text": "No, he was not.",
+      "path": "../../workbook/en-GB/7844fbce1eb13a8f67c5.mp3"
+    }
+  },
+  "Open your book!": {
+    "text": "Open your book!",
+    "path": "../../workbook/en-GB/b6a5d75779d1502256eb.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "382d6be0229497ad078388826b036a6f56723295ffb2d4d8302bf255cc3bb222",
+    "reusedFrom": {
+      "text": "Open your book!",
+      "path": "../../workbook/en-GB/b6a5d75779d1502256eb.mp3"
+    }
+  },
+  "Russian": {
+    "text": "Russian",
+    "path": "../../workbook/en-GB/5bcc40adf6e0a2a9c931.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "358155792e64f57daa323e7b314201160f1c47b802ac7d25ca90159dad4c2f7f",
+    "reusedFrom": {
+      "text": "Russian",
+      "path": "../../workbook/en-GB/5bcc40adf6e0a2a9c931.mp3"
+    }
+  },
+  "Sam": {
+    "text": "Sam",
+    "path": "../../en-GB/4ecde249d747d51d869a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ad23923659d4845847e5a8f5872db06357691407cbf2ddf579a4c974cb6334f7",
+    "reusedFrom": {
+      "text": "Sam",
+      "path": "../../en-GB/4ecde249d747d51d869a.mp3"
+    }
+  },
+  "Sit down!": {
+    "text": "Sit down!",
+    "path": "../../workbook/en-GB/f591037764f2f0a0adf7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "568a7a1459547e2b9c1a86f0a2b525d5f8f0b962452a83167d3e67cf51e0552b",
+    "reusedFrom": {
+      "text": "Sit down!",
+      "path": "../../workbook/en-GB/f591037764f2f0a0adf7.mp3"
+    }
+  },
+  "Stand up!": {
+    "text": "Stand up!",
+    "path": "../../workbook/en-GB/171b66651b43dd4142f4.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "21c2b06106eca668f468043a598be807d8600eca2efaf3287a6e3895551e3dec",
+    "reusedFrom": {
+      "text": "Stand up!",
+      "path": "../../workbook/en-GB/171b66651b43dd4142f4.mp3"
+    }
+  },
+  "These are books.": {
+    "text": "These are books.",
+    "path": "../../workbook/en-GB/2c9aee2a433b1cd45899.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "afac20f9d3cb0d8bed9609eb0dc5143c44e3e11148b4d6b87a7d7c6143144065",
+    "reusedFrom": {
+      "text": "These are books.",
+      "path": "../../workbook/en-GB/2c9aee2a433b1cd45899.mp3"
+    }
+  },
+  "These are dolls.": {
+    "text": "These are dolls.",
+    "path": "../../workbook/en-GB/f74bb8e79c7347055516.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5e43c55196f1a3207f08c478368d1e54420a2dcdfd66bdaeb12def00c195c012",
+    "reusedFrom": {
+      "text": "These are dolls.",
+      "path": "../../workbook/en-GB/f74bb8e79c7347055516.mp3"
+    }
+  },
+  "These are my toys.": {
+    "text": "These are my toys.",
+    "path": "../../workbook/en-GB/b6594aa0dd52ee288270.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "afab30543521e31bc39982fc4f9d8db3b85e15f940976fc45d9dd698b006667e",
+    "reusedFrom": {
+      "text": "These are my toys.",
+      "path": "../../workbook/en-GB/b6594aa0dd52ee288270.mp3"
+    }
+  },
+  "This is a ball.": {
+    "text": "This is a ball.",
+    "path": "../../workbook/en-GB/2060bc4f7132515012da.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "69597ce9fe8910131948faadc66bf520d4528a276aa8c10e2519c3ddeb69642e",
+    "reusedFrom": {
+      "text": "This is a ball.",
+      "path": "../../workbook/en-GB/2060bc4f7132515012da.mp3"
+    }
+  },
+  "This is my brother.": {
+    "text": "This is my brother.",
+    "path": "../../en-GB/94f4ba5b50e49b82fca4.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b77373bec4dfef3c7594135f445d2ab0722b1e845972beb5f32630ffb85979ef",
+    "reusedFrom": {
+      "text": "This is my brother.",
+      "path": "../../en-GB/94f4ba5b50e49b82fca4.mp3"
+    }
+  },
+  "This is my desk.": {
+    "text": "This is my desk.",
+    "path": "../../en-GB/cfe64d4f00b1350eb319.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4efa79257183811f6098b53059500af8b13854f5eb6d6a7d19d260b98b87310d",
+    "reusedFrom": {
+      "text": "This is my desk.",
+      "path": "../../en-GB/cfe64d4f00b1350eb319.mp3"
+    }
+  },
+  "This is my sister.": {
+    "text": "This is my sister.",
+    "path": "../../en-GB/cac74dd36ef41a909971.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ce7858ef22fe6b23e3bc6a636dd98398488eb3a45ee7bd6b4acc3a6f965ba69f",
+    "reusedFrom": {
+      "text": "This is my sister.",
+      "path": "../../en-GB/cac74dd36ef41a909971.mp3"
+    }
+  },
+  "What is it?": {
+    "text": "What is it?",
+    "path": "../../textbook/en-GB/bbff7b98d6da70612cb9.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c0fbc8fdb3fde075c257fdec58ba6df46959576d2c2ea5e140fd18f244c3b790",
+    "reusedFrom": {
+      "text": "What is it?",
+      "path": "../../textbook/en-GB/bbff7b98d6da70612cb9.mp3"
+    }
+  },
+  "What is this?": {
+    "text": "What is this?",
+    "path": "../../workbook/en-GB/0b12ba39ab4d0851c8a3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b1a59c2702287daf801e4d65723f17f7829104806ff6645fef52852cf701a0f2",
+    "reusedFrom": {
+      "text": "What is this?",
+      "path": "../../workbook/en-GB/0b12ba39ab4d0851c8a3.mp3"
+    }
+  },
+  "Who is she?": {
+    "text": "Who is she?",
+    "path": "../../en-GB/a98ac5d06264c719adc5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "76d936d8be47850f4cd8ffe9cabecff7bd159cdcf08ad7b1db9ee81ca43403fc",
+    "reusedFrom": {
+      "text": "Who is she?",
+      "path": "../../en-GB/a98ac5d06264c719adc5.mp3"
+    }
+  },
+  "Whose is it?": {
+    "text": "Whose is it?",
+    "path": "../../textbook/en-GB/49916d566b5fc375878f.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "33e02af6742cb69805edc6cdf4202cfcbb92da127f00090e103bc37c47bf9c7b",
+    "reusedFrom": {
+      "text": "Whose is it?",
+      "path": "../../textbook/en-GB/49916d566b5fc375878f.mp3"
+    }
+  },
+  "Yes, I did.": {
+    "text": "Yes, I did.",
+    "path": "../../workbook/en-GB/399210252493a4d4ed1b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "84f5355cf9a77bfba5c385aa6216710604082def08645803104a0cb66b923983",
+    "reusedFrom": {
+      "text": "Yes, I did.",
+      "path": "../../workbook/en-GB/399210252493a4d4ed1b.mp3"
+    }
+  },
+  "Yes, I do.": {
+    "text": "Yes, I do.",
+    "path": "../../workbook/en-GB/27282b999a04ddc63b41.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "bfd995f8debcee15c7fedf86f423bc65a44c5e682f9242bea296683b2c4c6d24",
+    "reusedFrom": {
+      "text": "Yes, I do.",
+      "path": "../../workbook/en-GB/27282b999a04ddc63b41.mp3"
+    }
+  },
+  "Yes, she does.": {
+    "text": "Yes, she does.",
+    "path": "../../workbook/en-GB/8fa066fcf4cfc4af2f21.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c32a58f4360c5cfb67984e9ff20ebc5bc18dfc1635f3cb2e899c402af785029d",
+    "reusedFrom": {
+      "text": "Yes, she does.",
+      "path": "../../workbook/en-GB/8fa066fcf4cfc4af2f21.mp3"
+    }
+  },
+  "Yes, they do.": {
+    "text": "Yes, they do.",
+    "path": "../../workbook/en-GB/64127d11e52dba9934f4.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d02d48663b3ebcdb47adfe63b45358539b1e0908684e35c48ef99db97d1c9e8b",
+    "reusedFrom": {
+      "text": "Yes, they do.",
+      "path": "../../workbook/en-GB/64127d11e52dba9934f4.mp3"
+    }
+  },
+  "a": {
+    "text": "a",
+    "path": "../../en-GB/ca978112ca1bbdcafac2.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "57b99ce2833bf4cdbdda88093ac1663adc0955590f9cbcc9bbeb7e61f26e8c55",
+    "reusedFrom": {
+      "text": "a",
+      "path": "../../en-GB/ca978112ca1bbdcafac2.mp3"
+    }
+  },
+  "aeroplane": {
+    "text": "aeroplane",
+    "path": "../../en-GB/6d763c9f44939254ce53.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "20f0601b2274c9eb50aaec174bd9c5c032f179c8978f78027e71cd39f26cf8a2",
+    "reusedFrom": {
+      "text": "aeroplane",
+      "path": "../../en-GB/6d763c9f44939254ce53.mp3"
+    }
+  },
+  "am": {
+    "text": "am",
+    "path": "../../en-GB/ab6db599234d2636659c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "61f23083022b923c3c72c527d9e6e3f875ee13c79bd2a49031bbdb495ee79733",
+    "reusedFrom": {
+      "text": "am",
+      "path": "../../en-GB/ab6db599234d2636659c.mp3"
+    }
+  },
+  "an": {
+    "text": "an",
+    "path": "../../en-GB/ea325d761f98c6b73320.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ba5851a4bae9e8b9b9a47b795d5336d871e7934775d01fdedaed916f6324de01",
+    "reusedFrom": {
+      "text": "an",
+      "path": "../../en-GB/ea325d761f98c6b73320.mp3"
+    }
+  },
+  "any": {
+    "text": "any",
+    "path": "../../en-GB/d6a7cd2a7371b1a15d54.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c3010279030c22c7b09aad71070a8143ee7d85f3b30b23c82c5926458e4949e3",
+    "reusedFrom": {
+      "text": "any",
+      "path": "../../en-GB/d6a7cd2a7371b1a15d54.mp3"
+    }
+  },
+  "apples": {
+    "text": "apples",
+    "path": "../../workbook/en-GB/f5903f51e341a783e69f.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "10e9413cd5798df637044569df9b45c5ee3493435ac73a9c3f8cd7ae69cd323c",
+    "reusedFrom": {
+      "text": "apples",
+      "path": "../../workbook/en-GB/f5903f51e341a783e69f.mp3"
+    }
+  },
+  "are": {
+    "text": "are",
+    "path": "../../en-GB/ba78973ddcf98d4e5369.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e5bdc7a891a206f0a982c3130e87fd6c8c3855d3aa8e1c1077818cdde16160f3",
+    "reusedFrom": {
+      "text": "are",
+      "path": "../../en-GB/ba78973ddcf98d4e5369.mp3"
+    }
+  },
+  "armchair": {
+    "text": "armchair",
+    "path": "../../en-GB/5a948ffe5f0f63845354.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2beb4cb4d36ecd8c0b816cf00aa0a291c636b60f7885e6e1db2dcd0c80cbb72e",
+    "reusedFrom": {
+      "text": "armchair",
+      "path": "../../en-GB/5a948ffe5f0f63845354.mp3"
+    }
+  },
+  "baby": {
+    "text": "baby",
+    "path": "../../en-GB/a3ca38ef0e8554b39ce6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "8acfbd566fe60ddee57d4bf6a26c5a069f543e7c5b04fb2136eca06a43164410",
+    "reusedFrom": {
+      "text": "baby",
+      "path": "../../en-GB/a3ca38ef0e8554b39ce6.mp3"
+    }
+  },
+  "because": {
+    "text": "because",
+    "path": "../../en-GB/a511aeeeb8a119931a67.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b056d29273752cbe79aebf13618c29e66ad88ea443bfb50a21dd1b257ee330af",
+    "reusedFrom": {
+      "text": "because",
+      "path": "../../en-GB/a511aeeeb8a119931a67.mp3"
+    }
+  },
+  "bed": {
+    "text": "bed",
+    "path": "../../en-GB/c5052532c2206140dfdc.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "6751797fca2a64bbefd7c1c29636708c807e3b9950628e753d45fff02a1d9512",
+    "reusedFrom": {
+      "text": "bed",
+      "path": "../../en-GB/c5052532c2206140dfdc.mp3"
+    }
+  },
+  "big": {
+    "text": "big",
+    "path": "../../en-GB/2a21fe6d592a19b7de89.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "22ee8878f712075e666af0d11a5235edd9f856fa60fa44703d7fa28bfc8ddcab",
+    "reusedFrom": {
+      "text": "big",
+      "path": "../../en-GB/2a21fe6d592a19b7de89.mp3"
+    }
+  },
+  "blue": {
+    "text": "blue",
+    "path": "../../en-GB/16477688c0e00699c6cf.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0bea762ad9e00c692d5da28a98af5159b04301c2de37273c3138fa42a7a6cd0a",
+    "reusedFrom": {
+      "text": "blue",
+      "path": "../../en-GB/16477688c0e00699c6cf.mp3"
+    }
+  },
+  "body": {
+    "text": "body",
+    "path": "../../workbook/en-GB/230d8358dc8e8890b4c5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2cb1efabe8a73d1089dbd8b6f3f118d44ea592fb163d56e7a3f154eaefffcdc8",
+    "reusedFrom": {
+      "text": "body",
+      "path": "../../workbook/en-GB/230d8358dc8e8890b4c5.mp3"
+    }
+  },
+  "book": {
+    "text": "book",
+    "path": "../../en-GB/92719fe0cf8cd51592af.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3f2e9f0ace5cc4ecf83d98443681cd8a5ef484974ab9cba54b9adbb325ab7225",
+    "reusedFrom": {
+      "text": "book",
+      "path": "../../en-GB/92719fe0cf8cd51592af.mp3"
+    }
+  },
+  "cake": {
+    "text": "cake",
+    "path": "../../en-GB/32cdb619196200050ab0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a9a612d2ea427a81fc1bd9c3e2d3a16507985b7175879509530e778d1caad7c4",
+    "reusedFrom": {
+      "text": "cake",
+      "path": "../../en-GB/32cdb619196200050ab0.mp3"
+    }
+  },
+  "can": {
+    "text": "can",
+    "path": "../../workbook/en-GB/9f584196e7fe6de85d38.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a0112ee14736032c6ddddf3c88013feab8a1956aa0406f71164db33675584502",
+    "reusedFrom": {
+      "text": "can",
+      "path": "../../workbook/en-GB/9f584196e7fe6de85d38.mp3"
+    }
+  },
+  "carrots": {
+    "text": "carrots",
+    "path": "../../en-GB/815135dfdf4e0a678216.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e848c33bb757e186c8892d3b60bf3c1330eabfc6a677281896dc4f98799cee06",
+    "reusedFrom": {
+      "text": "carrots",
+      "path": "../../en-GB/815135dfdf4e0a678216.mp3"
+    }
+  },
+  "cat": {
+    "text": "cat",
+    "path": "../../workbook/en-GB/77af778b51abd4a3c51c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "96b3431e285c0d3b9a49011916d017f5ae3658e364532f69cf5a7c93b0c127df",
+    "reusedFrom": {
+      "text": "cat",
+      "path": "../../workbook/en-GB/77af778b51abd4a3c51c.mp3"
+    }
+  },
+  "chair": {
+    "text": "chair",
+    "path": "../../en-GB/3d7eb3d3dab17ee509a6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4b76ac36f0aa00a58440af56ef98ce005cb4085673e0d1ff0cdbc807bd2caeba",
+    "reusedFrom": {
+      "text": "chair",
+      "path": "../../en-GB/3d7eb3d3dab17ee509a6.mp3"
+    }
+  },
+  "chairs": {
+    "text": "chairs",
+    "path": "../../en-GB/8a71ffb1cb03f587913d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "fd246780bce4dd0640dacd7d950da8e847c6673d7e8dedfcac169eb444ab2251",
+    "reusedFrom": {
+      "text": "chairs",
+      "path": "../../en-GB/8a71ffb1cb03f587913d.mp3"
+    }
+  },
+  "cheese": {
+    "text": "cheese",
+    "path": "../../en-GB/873ac9ffea4dd04fa719.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "20e91dca5c85dac77a4e278a7b5c14462978ac0453d5246ccb323fc3fd8e7749",
+    "reusedFrom": {
+      "text": "cheese",
+      "path": "../../en-GB/873ac9ffea4dd04fa719.mp3"
+    }
+  },
+  "chicken": {
+    "text": "chicken",
+    "path": "../../en-GB/811eb81b9d11d65a36c5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b994a403b4f14e46f87db67299c533066b4b90a0bded68ae91ebfe16d9af1810",
+    "reusedFrom": {
+      "text": "chicken",
+      "path": "../../en-GB/811eb81b9d11d65a36c5.mp3"
+    }
+  },
+  "chocolate": {
+    "text": "chocolate",
+    "path": "../../workbook/en-GB/7499aced43869b27f505.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "527c96900d78cefda555b080df520c278e845d03d91f6e41085ae386add4093f",
+    "reusedFrom": {
+      "text": "chocolate",
+      "path": "../../workbook/en-GB/7499aced43869b27f505.mp3"
+    }
+  },
+  "circle": {
+    "text": "circle",
+    "path": "../../en-GB/8a39178d327e72a92d3b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5514f4ffa82bb2938670587115fb7694a852aee8117dbbd2c5e65c7dcca80afe",
+    "reusedFrom": {
+      "text": "circle",
+      "path": "../../en-GB/8a39178d327e72a92d3b.mp3"
+    }
+  },
+  "close": {
+    "text": "close",
+    "path": "../../en-GB/310ff200149b44a32f12.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4aedf3dba6c687d078615797e250b9cf717e63becd5a94d7c681fdd5875469f9",
+    "reusedFrom": {
+      "text": "close",
+      "path": "../../en-GB/310ff200149b44a32f12.mp3"
+    }
+  },
+  "clothes": {
+    "text": "clothes",
+    "path": "../../workbook/en-GB/5c5f9b87778cfb103aa0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "93850862fed3ddb560e474c6146bb3d865f14bb042e31478cd79867303798d07",
+    "reusedFrom": {
+      "text": "clothes",
+      "path": "../../workbook/en-GB/5c5f9b87778cfb103aa0.mp3"
+    }
+  },
+  "cold": {
+    "text": "cold",
+    "path": "../../workbook/en-GB/e272deecde720ffc773d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b3698a734b946285275b502510c7e0ab00914fc14e7ee4e3853fe52db619597a",
+    "reusedFrom": {
+      "text": "cold",
+      "path": "../../workbook/en-GB/e272deecde720ffc773d.mp3"
+    }
+  },
+  "computer": {
+    "text": "computer",
+    "path": "../../en-GB/aa97302150fce811425c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "63630ac5aaf7d4b5b21f05af2402ec7183040b3b378e458041fc429557cd1b05",
+    "reusedFrom": {
+      "text": "computer",
+      "path": "../../en-GB/aa97302150fce811425c.mp3"
+    }
+  },
+  "dad": {
+    "text": "dad",
+    "path": "../../workbook/en-GB/6fe8ecbc1deafa51c2ec.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b8e97b22be1ac6a482b9f6fd89fb1f632a26b070a4117057af4a31558bf610a1",
+    "reusedFrom": {
+      "text": "dad",
+      "path": "../../workbook/en-GB/6fe8ecbc1deafa51c2ec.mp3"
+    }
+  },
+  "dance": {
+    "text": "dance",
+    "path": "../../workbook/en-GB/2c371c2ada73a02e26e1.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e47fb5fac45df51eb025289b3a6e67dfb07045384965fddea8e6c6cdbdb96f66",
+    "reusedFrom": {
+      "text": "dance",
+      "path": "../../workbook/en-GB/2c371c2ada73a02e26e1.mp3"
+    }
+  },
+  "desk": {
+    "text": "desk",
+    "path": "../../en-GB/49be417ad74080a0031b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d132d973695e3ce3446e0b7a442e32784de886fafa92e7ea5c8487817c563c53",
+    "reusedFrom": {
+      "text": "desk",
+      "path": "../../en-GB/49be417ad74080a0031b.mp3"
+    }
+  },
+  "do": {
+    "text": "do",
+    "path": "../../en-GB/ac0b52a2ae6ef99999bc.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0a99b3081f4e42f90c58a9d1a12f05e8e716fb7ce6a7d9549217c5d6970cae56",
+    "reusedFrom": {
+      "text": "do",
+      "path": "../../en-GB/ac0b52a2ae6ef99999bc.mp3"
+    }
+  },
+  "does": {
+    "text": "does",
+    "path": "../../en-GB/961eb43699731759fd0d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "9da1763e83503468935ab2f368dd70d3edf5e4740980d2294488a1530fdfcef7",
+    "reusedFrom": {
+      "text": "does",
+      "path": "../../en-GB/961eb43699731759fd0d.mp3"
+    }
+  },
+  "dog": {
+    "text": "dog",
+    "path": "../../workbook/en-GB/cd6357efdd966de8c0cb.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "19fb4e9f0c81c371e4ecd557005dc2a7ff49216e4df8506aeb2d2650bd6c260a",
+    "reusedFrom": {
+      "text": "dog",
+      "path": "../../workbook/en-GB/cd6357efdd966de8c0cb.mp3"
+    }
+  },
+  "doll": {
+    "text": "doll",
+    "path": "../../workbook/en-GB/44c3e574dac5455e6749.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4f0f288a3a5c08b781e9fd97daff4509939207a35aa0997019ccfd8a36b86622",
+    "reusedFrom": {
+      "text": "doll",
+      "path": "../../workbook/en-GB/44c3e574dac5455e6749.mp3"
+    }
+  },
+  "ears": {
+    "text": "ears",
+    "path": "../../workbook/en-GB/97e1f3fc7beaed63fc4a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "95e65fc8a32b45c2d18432d3a9dec677d4c0c2acf310d340f82fb3a795d407f9",
+    "reusedFrom": {
+      "text": "ears",
+      "path": "../../workbook/en-GB/97e1f3fc7beaed63fc4a.mp3"
+    }
+  },
+  "eggs": {
+    "text": "eggs",
+    "path": "../../en-GB/46da674b5b0987431bdb.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "17389b7c41341bc6f4aa13c0e5d3766ddb1290dced2cd940115c486efc84a8fb",
+    "reusedFrom": {
+      "text": "eggs",
+      "path": "../../en-GB/46da674b5b0987431bdb.mp3"
+    }
+  },
+  "eighteen": {
+    "text": "eighteen",
+    "path": "../../en-GB/34357b18abddea187422.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b10d8b45acfaba6598c3d81e38d100d293271edbcc4f07170aa382f4cf2fcf7e",
+    "reusedFrom": {
+      "text": "eighteen",
+      "path": "../../en-GB/34357b18abddea187422.mp3"
+    }
+  },
+  "elephant": {
+    "text": "elephant",
+    "path": "../../en-GB/cd08c4c4316df20d9c30.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "bc09e3f27cd5806429c91b70d271da417ea27b023e2d573e0260371a3b860f6a",
+    "reusedFrom": {
+      "text": "elephant",
+      "path": "../../en-GB/cd08c4c4316df20d9c30.mp3"
+    }
+  },
+  "eleven": {
+    "text": "eleven",
+    "path": "../../en-GB/e979074ebd5633a7263a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "41194fc209b65070d5258b49d820258bd9b38c184c4d738bb88fb0ac003455af",
+    "reusedFrom": {
+      "text": "eleven",
+      "path": "../../en-GB/e979074ebd5633a7263a.mp3"
+    }
+  },
+  "eyes": {
+    "text": "eyes",
+    "path": "../../workbook/en-GB/d8fe183f5b8e73249689.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f1f7a67a1e4cb4fe96cf829b58ecc7d7d1b3095c97304d0fc76c7b23fd2288a6",
+    "reusedFrom": {
+      "text": "eyes",
+      "path": "../../workbook/en-GB/d8fe183f5b8e73249689.mp3"
+    }
+  },
+  "father": {
+    "text": "father",
+    "path": "../../en-GB/88a1881f0025cf711750.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4722b15a9b93ce2223d5fb04c8584f44879359e66aecd9a5dacd4d0581b3c85c",
+    "reusedFrom": {
+      "text": "father",
+      "path": "../../en-GB/88a1881f0025cf711750.mp3"
+    }
+  },
+  "favourite": {
+    "text": "favourite",
+    "path": "../../workbook/en-GB/775cf3abc9be67866542.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2afa9bbc4b52a061f1384dce30f6ed80ace6b6180b891a246de62361b8983b6c",
+    "reusedFrom": {
+      "text": "favourite",
+      "path": "../../workbook/en-GB/775cf3abc9be67866542.mp3"
+    }
+  },
+  "five": {
+    "text": "five",
+    "path": "../../en-GB/222b0bd51fcef7e65c2e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ee81402f2c078744c3e38bebe51b417dead64da047c6abcf89b28d9b7a71868f",
+    "reusedFrom": {
+      "text": "five",
+      "path": "../../en-GB/222b0bd51fcef7e65c2e.mp3"
+    }
+  },
+  "four": {
+    "text": "four",
+    "path": "../../en-GB/04efaf080f5a3e74e1c2.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4edf36336e0103ba16f8fef267a74c968a41a9c40ba99ec636c85b598fb791d0",
+    "reusedFrom": {
+      "text": "four",
+      "path": "../../en-GB/04efaf080f5a3e74e1c2.mp3"
+    }
+  },
+  "fourteen": {
+    "text": "fourteen",
+    "path": "../../en-GB/fef8f41cdcd2038663b0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "eaf680b178abbe3b4a1983e59ba8f1339d682a4749c7faa4b7b72ec2f1c39444",
+    "reusedFrom": {
+      "text": "fourteen",
+      "path": "../../en-GB/fef8f41cdcd2038663b0.mp3"
+    }
+  },
+  "friend": {
+    "text": "friend",
+    "path": "../../workbook/en-GB/cde48537ca2c28084ff5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b12265435968e023ea0304789ead29ba80b0ee7bd0144bcc145ec5e3e3a575f8",
+    "reusedFrom": {
+      "text": "friend",
+      "path": "../../workbook/en-GB/cde48537ca2c28084ff5.mp3"
+    }
+  },
+  "frog": {
+    "text": "frog",
+    "path": "../../workbook/en-GB/74fa5327cc0f4e947789.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2ad23f57b6ac1cd3b29becae80b848ba629ec32191a35624e7aa541519fb3369",
+    "reusedFrom": {
+      "text": "frog",
+      "path": "../../workbook/en-GB/74fa5327cc0f4e947789.mp3"
+    }
+  },
+  "girl": {
+    "text": "girl",
+    "path": "../../workbook/en-GB/431ba1c6936744f65928.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "883a1c7d43c39d01da47f6786bf0ee07bf7e6c19a1d5c958e056a232c64f6214",
+    "reusedFrom": {
+      "text": "girl",
+      "path": "../../workbook/en-GB/431ba1c6936744f65928.mp3"
+    }
+  },
+  "glasses": {
+    "text": "glasses",
+    "path": "../../workbook/en-GB/266550babbb7bd394ab6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "327e8268cc13889ee842881d7c1e5a578a171faf1cbc2c2210b7ede0f8fdffd0",
+    "reusedFrom": {
+      "text": "glasses",
+      "path": "../../workbook/en-GB/266550babbb7bd394ab6.mp3"
+    }
+  },
+  "grandfather": {
+    "text": "grandfather",
+    "path": "../../en-GB/7ab7049973595a7f3568.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "cce674266f9dbcedb62b0a0d8bb359aebdc0ae53f99bd712ad014d934868fdd8",
+    "reusedFrom": {
+      "text": "grandfather",
+      "path": "../../en-GB/7ab7049973595a7f3568.mp3"
+    }
+  },
+  "grandmother": {
+    "text": "grandmother",
+    "path": "../../en-GB/c04d87aa70a7d16530de.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "9ae6b0132cc70be98640330d72a2decc09d8df54421e3c09ac72adebafb3f672",
+    "reusedFrom": {
+      "text": "grandmother",
+      "path": "../../en-GB/c04d87aa70a7d16530de.mp3"
+    }
+  },
+  "green": {
+    "text": "green",
+    "path": "../../en-GB/ba4788b226aa8dc2e6dc.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ec9a56b632e4c85beef7e30e9f5e8958f3223e65260d8d228dde9c0a162064f3",
+    "reusedFrom": {
+      "text": "green",
+      "path": "../../en-GB/ba4788b226aa8dc2e6dc.mp3"
+    }
+  },
+  "hair": {
+    "text": "hair",
+    "path": "../../workbook/en-GB/4dc2159bba05da394c3b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "32cb7641140e3f1c97639c0ff408088c1f75c37e25ce0afb795be87f24ab712f",
+    "reusedFrom": {
+      "text": "hair",
+      "path": "../../workbook/en-GB/4dc2159bba05da394c3b.mp3"
+    }
+  },
+  "hat": {
+    "text": "hat",
+    "path": "../../workbook/en-GB/18e1dd392168f601d0e5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "28ff538d9b14d071d3de5febe122fe29a5aaf06b5c9862cb8199e147bdd8ae7b",
+    "reusedFrom": {
+      "text": "hat",
+      "path": "../../workbook/en-GB/18e1dd392168f601d0e5.mp3"
+    }
+  },
+  "have": {
+    "text": "have",
+    "path": "../../en-GB/193c45b5281908d2d9c8.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b14798af083793d6f9d565b2134731272849e166265719c9be7600201aac9c2a",
+    "reusedFrom": {
+      "text": "have",
+      "path": "../../en-GB/193c45b5281908d2d9c8.mp3"
+    }
+  },
+  "he": {
+    "text": "he",
+    "path": "../../en-GB/372f7e2fd2d01ce2a1d7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "32947dbcb191a551a6b8259421708bc95bca5620cb32e177a004d3a474aa189a",
+    "reusedFrom": {
+      "text": "he",
+      "path": "../../en-GB/372f7e2fd2d01ce2a1d7.mp3"
+    }
+  },
+  "her": {
+    "text": "her",
+    "path": "../../en-GB/354cbfc814262a7a81d3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f943473384125ecc98c9d718ea31311c19c4b08d85133445ce0d3782ba072379",
+    "reusedFrom": {
+      "text": "her",
+      "path": "../../en-GB/354cbfc814262a7a81d3.mp3"
+    }
+  },
+  "his": {
+    "text": "his",
+    "path": "../../en-GB/73c9c98668a34c54d131.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "bdaec6b28a825e6050ec86e1441b64253b8fcea060926d9faafaad039c3d8b8f",
+    "reusedFrom": {
+      "text": "his",
+      "path": "../../en-GB/73c9c98668a34c54d131.mp3"
+    }
+  },
+  "hot": {
+    "text": "hot",
+    "path": "../../workbook/en-GB/7f5d1618e7d28cc7bf32.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "95ea8edd24e5af55ffdb3e79b9670e54d6be54dc853e55300226fb132071f27b",
+    "reusedFrom": {
+      "text": "hot",
+      "path": "../../workbook/en-GB/7f5d1618e7d28cc7bf32.mp3"
+    }
+  },
+  "in the park": {
+    "text": "in the park",
+    "path": "../../workbook/en-GB/9f08d5fae14aedd40a60.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "79593249b0029b1944e547a002eb7bacfe70400164ada1061a7b9d20ccc921de",
+    "reusedFrom": {
+      "text": "in the park",
+      "path": "../../workbook/en-GB/9f08d5fae14aedd40a60.mp3"
+    }
+  },
+  "is": {
+    "text": "is",
+    "path": "../../en-GB/fa51fd49abf67705d6a3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "15028d0bee03707b3a05bdd95cf4f63acd1b731a0de901943f30be91e51a7a8c",
+    "reusedFrom": {
+      "text": "is",
+      "path": "../../en-GB/fa51fd49abf67705d6a3.mp3"
+    }
+  },
+  "its": {
+    "text": "its",
+    "path": "../../workbook/en-GB/ea103d6cb5c3fb3d696c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "67eafea892b338f0a48c00b030abd6f41840693fb7a3fa34e7c4ec89a150388c",
+    "reusedFrom": {
+      "text": "its",
+      "path": "../../workbook/en-GB/ea103d6cb5c3fb3d696c.mp3"
+    }
+  },
+  "jacket": {
+    "text": "jacket",
+    "path": "../../workbook/en-GB/554f4d3dafc80844871a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d9a216a6cb7bc18099a8fb52c54514d5c77e65826b040a18f8fcee3d1501cc4c",
+    "reusedFrom": {
+      "text": "jacket",
+      "path": "../../workbook/en-GB/554f4d3dafc80844871a.mp3"
+    }
+  },
+  "kite": {
+    "text": "kite",
+    "path": "../../workbook/en-GB/8e8c7d42b456c9e4ec52.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a0a3dacc187038adebbde6814082e3cb83f81c4ba893944a1a90bbfee4cc2580",
+    "reusedFrom": {
+      "text": "kite",
+      "path": "../../workbook/en-GB/8e8c7d42b456c9e4ec52.mp3"
+    }
+  },
+  "lamp": {
+    "text": "lamp",
+    "path": "../../workbook/en-GB/c98e85f249002f03068e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0360bce1f4899acb4b952904fe78706b89b299390b7cecc423aa91b6f9278e19",
+    "reusedFrom": {
+      "text": "lamp",
+      "path": "../../workbook/en-GB/c98e85f249002f03068e.mp3"
+    }
+  },
+  "lemonade": {
+    "text": "lemonade",
+    "path": "../../en-GB/13cc358c604102b8449c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f482b51a42cf12d3195f0b6ee5e55acec72f24e2d08322a8d722cf0560e4d584",
+    "reusedFrom": {
+      "text": "lemonade",
+      "path": "../../en-GB/13cc358c604102b8449c.mp3"
+    }
+  },
+  "like": {
+    "text": "like",
+    "path": "../../en-GB/cab2644828bcc1f22061.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "76a0de471856f741a7fb22ac0eb0c8c0d171614d591457811001a53a4b0a31be",
+    "reusedFrom": {
+      "text": "like",
+      "path": "../../en-GB/cab2644828bcc1f22061.mp3"
+    }
+  },
+  "likes": {
+    "text": "likes",
+    "path": "../../en-GB/b0aa8a6c35b4deec55bc.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "db1b764fa5f06fcc245622c4438d114a6a0641a08a843789a27e69dc2b176752",
+    "reusedFrom": {
+      "text": "likes",
+      "path": "../../en-GB/b0aa8a6c35b4deec55bc.mp3"
+    }
+  },
+  "many": {
+    "text": "many",
+    "path": "../../workbook/en-GB/1137b15c7797aa84ec24.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "7195ffb450b1540da6223276a60d7b87a0cc37db2f5551e33946186bf6d089a4",
+    "reusedFrom": {
+      "text": "many",
+      "path": "../../workbook/en-GB/1137b15c7797aa84ec24.mp3"
+    }
+  },
+  "meat": {
+    "text": "meat",
+    "path": "../../workbook/en-GB/59d6d61431fce7d91388.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d20b97efa9d6b9b45d2eafed5f7f2982f02bcb71080801bd6b20543308c1dfd1",
+    "reusedFrom": {
+      "text": "meat",
+      "path": "../../workbook/en-GB/59d6d61431fce7d91388.mp3"
+    }
+  },
+  "milk": {
+    "text": "milk",
+    "path": "../../en-GB/8825e76530f87ff5c737.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "da54d18a40972e03c4ccc57e01c343c0c2c5d519644abe96271b2e09918ab7fb",
+    "reusedFrom": {
+      "text": "milk",
+      "path": "../../en-GB/8825e76530f87ff5c737.mp3"
+    }
+  },
+  "mother": {
+    "text": "mother",
+    "path": "../../en-GB/cf0622ef2a661cd2f11b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "24f44b173cde423a60b88897f817531d8e6ee1f36c69da4736829e2b76a3fbd0",
+    "reusedFrom": {
+      "text": "mother",
+      "path": "../../en-GB/cf0622ef2a661cd2f11b.mp3"
+    }
+  },
+  "mum": {
+    "text": "mum",
+    "path": "../../workbook/en-GB/f2d758f9e379babc91f1.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "49fdad45f3cd63337ff7dc9a20af2ed1342c1729197a5bf16a3b96f2c2db970d",
+    "reusedFrom": {
+      "text": "mum",
+      "path": "../../workbook/en-GB/f2d758f9e379babc91f1.mp3"
+    }
+  },
+  "name": {
+    "text": "name",
+    "path": "../../en-GB/82a3537ff0dbce7eec35.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b4bdc56c3a23f3c51664feba5b6abae4da035db0438a230015c57e61132b6355",
+    "reusedFrom": {
+      "text": "name",
+      "path": "../../en-GB/82a3537ff0dbce7eec35.mp3"
+    }
+  },
+  "next door": {
+    "text": "next door",
+    "path": "../../textbook/en-GB/1a7d306826f9f37d6605.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2a424cc72dbb1799084a3536ee18503667776176ba0c6b2ab34ba1cb8bcf3b50",
+    "reusedFrom": {
+      "text": "next door",
+      "path": "../../textbook/en-GB/1a7d306826f9f37d6605.mp3"
+    }
+  },
+  "nine": {
+    "text": "nine",
+    "path": "../../en-GB/edcd8e701a2df0cd66a3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "6d37db1969511de5577b47e59dbb192fdc57be6a0c0286b42fff4b7142345df8",
+    "reusedFrom": {
+      "text": "nine",
+      "path": "../../en-GB/edcd8e701a2df0cd66a3.mp3"
+    }
+  },
+  "nose": {
+    "text": "nose",
+    "path": "../../workbook/en-GB/d77e22123e64d3d87f1f.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f1828edfb141c53567c2c76704d5f0480934a80b4583ed07d614e6e1a15f4f46",
+    "reusedFrom": {
+      "text": "nose",
+      "path": "../../workbook/en-GB/d77e22123e64d3d87f1f.mp3"
+    }
+  },
+  "not": {
+    "text": "not",
+    "path": "../../en-GB/254bb97b57f12e1608fe.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3ec6b51c5666702094cb0e1da1c514a120f3ac4ae766b11ad936d5fdd0e7b01e",
+    "reusedFrom": {
+      "text": "not",
+      "path": "../../en-GB/254bb97b57f12e1608fe.mp3"
+    }
+  },
+  "open": {
+    "text": "open",
+    "path": "../../en-GB/2348f998744212575d85.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "41065390e675664669f5c2562adfbc4a14036fa0a1838e4f7c7732a07d50e3e9",
+    "reusedFrom": {
+      "text": "open",
+      "path": "../../en-GB/2348f998744212575d85.mp3"
+    }
+  },
+  "p": {
+    "text": "p",
+    "path": "../../workbook/en-GB/148de9c5a7a44d19e56c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "64710f6494db86132574d8bf002b115204f3e19e895174b291363ed8d0055b8b",
+    "reusedFrom": {
+      "text": "p",
+      "path": "../../workbook/en-GB/148de9c5a7a44d19e56c.mp3"
+    }
+  },
+  "pen": {
+    "text": "pen",
+    "path": "../../en-GB/e21a6b0cb193057e06ac.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "00356e9f03bc85550e33f718b10fccda8e9f896bc63627057891907996ec0c35",
+    "reusedFrom": {
+      "text": "pen",
+      "path": "../../en-GB/e21a6b0cb193057e06ac.mp3"
+    }
+  },
+  "pencil": {
+    "text": "pencil",
+    "path": "../../en-GB/13809668fb436386706f.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "305afa4ecfae5c688a2ed0ecf04ee067093fc0a937121c58518de3e81c92035f",
+    "reusedFrom": {
+      "text": "pencil",
+      "path": "../../en-GB/13809668fb436386706f.mp3"
+    }
+  },
+  "pens": {
+    "text": "pens",
+    "path": "../../en-GB/55015dcc0231800fb407.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e78328199f783d41a2082f3683ee6829d2c1b7c9860115ae4ff4e9022f604450",
+    "reusedFrom": {
+      "text": "pens",
+      "path": "../../en-GB/55015dcc0231800fb407.mp3"
+    }
+  },
+  "pizza": {
+    "text": "pizza",
+    "path": "../../workbook/en-GB/9ed1515819dec61fd361.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "04b2873509791a5c77d97dc2c4577831c04658b2d2a1b2a9b5189c5a9c726fa5",
+    "reusedFrom": {
+      "text": "pizza",
+      "path": "../../workbook/en-GB/9ed1515819dec61fd361.mp3"
+    }
+  },
+  "played": {
+    "text": "played",
+    "path": "../../en-GB/8000dce068b164c20509.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "846513399b421be76ada757443e65677301f9faab271e65fb4c188155251f37d",
+    "reusedFrom": {
+      "text": "played",
+      "path": "../../en-GB/8000dce068b164c20509.mp3"
+    }
+  },
+  "playing": {
+    "text": "playing",
+    "path": "../../workbook/en-GB/0db79e63c5179b126361.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d7377f9735f9097760e15f6fed02eea887474abe95de5c8fc7616f6a7a141a78",
+    "reusedFrom": {
+      "text": "playing",
+      "path": "../../workbook/en-GB/0db79e63c5179b126361.mp3"
+    }
+  },
+  "please": {
+    "text": "please",
+    "path": "../../textbook/en-GB/56ccc4dcfc96534b06fc.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1fd1e19dd1662688d5304521db4b52f580138be2fb82cecbc9e80b7a3fe2e3bb",
+    "reusedFrom": {
+      "text": "please",
+      "path": "../../textbook/en-GB/56ccc4dcfc96534b06fc.mp3"
+    }
+  },
+  "radio": {
+    "text": "radio",
+    "path": "../../workbook/en-GB/aa3a05d9d57c08d694cf.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c0bcd7bc2c123711004d63f91d9c8555f7fe25be5a92f111c162d20e30d7eff4",
+    "reusedFrom": {
+      "text": "radio",
+      "path": "../../workbook/en-GB/aa3a05d9d57c08d694cf.mp3"
+    }
+  },
+  "red": {
+    "text": "red",
+    "path": "../../en-GB/b1f51a511f1da0cd348b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ef72f7560733cdc469938eab10eed09999d75947b68d0fc3132f272891689790",
+    "reusedFrom": {
+      "text": "red",
+      "path": "../../en-GB/b1f51a511f1da0cd348b.mp3"
+    }
+  },
+  "rice": {
+    "text": "rice",
+    "path": "../../en-GB/209f76418ece7c936b65.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "27ae0e1487d5fd3387d1eab0e0d46f63ead49c7bccc4659c2bf4d0ef9747a256",
+    "reusedFrom": {
+      "text": "rice",
+      "path": "../../en-GB/209f76418ece7c936b65.mp3"
+    }
+  },
+  "rocking horse": {
+    "text": "rocking horse",
+    "path": "../../en-GB/f4a4d36d6fa4a4ec468b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "f0c1c14f4207528ce871983323e6f960412ddd4a1d425fafff396636017b32d9",
+    "reusedFrom": {
+      "text": "rocking horse",
+      "path": "../../en-GB/f4a4d36d6fa4a4ec468b.mp3"
+    }
+  },
+  "rubber": {
+    "text": "rubber",
+    "path": "../../en-GB/058ce9bd95f5595d7894.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "6e450f7cc6c8918c237c2cc59e406a7d71ad2a9bf6d7698d0222a83af889fced",
+    "reusedFrom": {
+      "text": "rubber",
+      "path": "../../en-GB/058ce9bd95f5595d7894.mp3"
+    }
+  },
+  "rubbers": {
+    "text": "rubbers",
+    "path": "../../workbook/en-GB/3908cdabeb3ad06258cc.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "41b9337bca5ab6c49468da8a2ae77ef52f180d371478458e689b0be5ff1b64d9",
+    "reusedFrom": {
+      "text": "rubbers",
+      "path": "../../workbook/en-GB/3908cdabeb3ad06258cc.mp3"
+    }
+  },
+  "ruler": {
+    "text": "ruler",
+    "path": "../../en-GB/5972814068a183e232d6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ca249000c53e6cae2e08475e874d7126a8d3238c29c20af6dd80364837cc4a97",
+    "reusedFrom": {
+      "text": "ruler",
+      "path": "../../en-GB/5972814068a183e232d6.mp3"
+    }
+  },
+  "sandwiches": {
+    "text": "sandwiches",
+    "path": "../../workbook/en-GB/e25f64295614b2f85b58.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4bba00657791552494b63226b512b071b4831d4b5fc1470ecef93af1d1cd6a00",
+    "reusedFrom": {
+      "text": "sandwiches",
+      "path": "../../workbook/en-GB/e25f64295614b2f85b58.mp3"
+    }
+  },
+  "sausages": {
+    "text": "sausages",
+    "path": "../../en-GB/b46852fb83db1d391b98.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "5ae6484d44b2c25d6b8fe9393ccf29620ec6586b6273c348591741d0ebe34e26",
+    "reusedFrom": {
+      "text": "sausages",
+      "path": "../../en-GB/b46852fb83db1d391b98.mp3"
+    }
+  },
+  "see": {
+    "text": "see",
+    "path": "../../workbook/en-GB/aa9e9b5c907d50feb410.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "dab2e81b16e334e0c412b1cbe5575c5f21fa64b093791555775a63a57a493646",
+    "reusedFrom": {
+      "text": "see",
+      "path": "../../workbook/en-GB/aa9e9b5c907d50feb410.mp3"
+    }
+  },
+  "seven": {
+    "text": "seven",
+    "path": "../../en-GB/3ba8d02b16fd2a01c1a8.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c2c96f730b10d0e3409a6eae5b8c4d0cca98545f7c9012db789952e0be83dc0b",
+    "reusedFrom": {
+      "text": "seven",
+      "path": "../../en-GB/3ba8d02b16fd2a01c1a8.mp3"
+    }
+  },
+  "she": {
+    "text": "she",
+    "path": "../../en-GB/2cda85e504e155f30a40.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "42bbe53c298fbc59e820cc06afb4ff45ca558f0099457a74e9749ad4fdcfdae5",
+    "reusedFrom": {
+      "text": "she",
+      "path": "../../en-GB/2cda85e504e155f30a40.mp3"
+    }
+  },
+  "she is": {
+    "text": "she is",
+    "path": "../../workbook/en-GB/b55fbd131a49318018e6.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1e2610192f59953087c697b605542d1d9bb251d5408676e57a5379cfc53ae43a",
+    "reusedFrom": {
+      "text": "she is",
+      "path": "../../workbook/en-GB/b55fbd131a49318018e6.mp3"
+    }
+  },
+  "sister": {
+    "text": "sister",
+    "path": "../../en-GB/1980d3927f07fec9c8d7.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e2e2e5f2c5c1ba94e65517e526df10ab805f082c766bdd91684c69466ed8737f",
+    "reusedFrom": {
+      "text": "sister",
+      "path": "../../en-GB/1980d3927f07fec9c8d7.mp3"
+    }
+  },
+  "six": {
+    "text": "six",
+    "path": "../../en-GB/44778d82365e4af681c4.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "47a18e608cf076941e9640c09c180332f329338fc7f58c2317f2e8b5827694f2",
+    "reusedFrom": {
+      "text": "six",
+      "path": "../../en-GB/44778d82365e4af681c4.mp3"
+    }
+  },
+  "skirt": {
+    "text": "skirt",
+    "path": "../../workbook/en-GB/3abafce5bc548613ff47.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "74cdc474d49efa84d46fc0f30605a94cbc2863c71ab017214a2855e7a9abb6dd",
+    "reusedFrom": {
+      "text": "skirt",
+      "path": "../../workbook/en-GB/3abafce5bc548613ff47.mp3"
+    }
+  },
+  "small": {
+    "text": "small",
+    "path": "../../en-GB/81db8ebbbbc69c6c6ad4.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "22ace048ededcf4b24dfce8395e12a574b033ad388f53930233bc264b98df5f9",
+    "reusedFrom": {
+      "text": "small",
+      "path": "../../en-GB/81db8ebbbbc69c6c6ad4.mp3"
+    }
+  },
+  "some": {
+    "text": "some",
+    "path": "../../en-GB/a6b46dd0d1ae5e86cbc8.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "3e2e308613ed3b180c7a45b17bf97266d65bedafc90501a720618a55f954bd22",
+    "reusedFrom": {
+      "text": "some",
+      "path": "../../en-GB/a6b46dd0d1ae5e86cbc8.mp3"
+    }
+  },
+  "square": {
+    "text": "square",
+    "path": "../../en-GB/4ba3e8e3765f2970eb37.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e5b2eebbaf97fc335b555e2d47e810936facd7b59e5adfdeb958e404e9a3dc5c",
+    "reusedFrom": {
+      "text": "square",
+      "path": "../../en-GB/4ba3e8e3765f2970eb37.mp3"
+    }
+  },
+  "studied": {
+    "text": "studied",
+    "path": "../../workbook/en-GB/312d4d2ec507f40c5048.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "56e532331add6de5f75156a15f4052782bdd5f5d3c0c4a3ddaaa5feb7f9c29ac",
+    "reusedFrom": {
+      "text": "studied",
+      "path": "../../workbook/en-GB/312d4d2ec507f40c5048.mp3"
+    }
+  },
+  "sunny": {
+    "text": "sunny",
+    "path": "../../workbook/en-GB/c2333a7e3a607935c67c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c923f2b86c655a4a1aaee148c8bcb183ee711376df82d03c4110ef1a03e3dddd",
+    "reusedFrom": {
+      "text": "sunny",
+      "path": "../../workbook/en-GB/c2333a7e3a607935c67c.mp3"
+    }
+  },
+  "tall": {
+    "text": "tall",
+    "path": "../../en-GB/241daf2e753a6a2f37a1.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b5dfc8cdc23cacbc2ef03d266c209f0e47234c1b30703b6f275195efc6e6340b",
+    "reusedFrom": {
+      "text": "tall",
+      "path": "../../en-GB/241daf2e753a6a2f37a1.mp3"
+    }
+  },
+  "tea set": {
+    "text": "tea set",
+    "path": "../../en-GB/3d0157db8e46e7f6d394.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "451a4a832a8c8787a2a4eafbc66cfaa3fb8d3334fd3ef5a7f996e29dd44524a3",
+    "reusedFrom": {
+      "text": "tea set",
+      "path": "../../en-GB/3d0157db8e46e7f6d394.mp3"
+    }
+  },
+  "teddy": {
+    "text": "teddy",
+    "path": "../../workbook/en-GB/8de85d6d6394dce9a483.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "8e4727c1d2c5b7aad9ebae570c9663c9a44703bb1c2f20b8c4eaf9d053f60ec9",
+    "reusedFrom": {
+      "text": "teddy",
+      "path": "../../workbook/en-GB/8de85d6d6394dce9a483.mp3"
+    }
+  },
+  "ten": {
+    "text": "ten",
+    "path": "../../en-GB/e4432baa90819aaef51d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "257555cd78956d681975dd31fdc66488087a63beae2028aea84c992761422c3b",
+    "reusedFrom": {
+      "text": "ten",
+      "path": "../../en-GB/e4432baa90819aaef51d.mp3"
+    }
+  },
+  "that": {
+    "text": "that",
+    "path": "../../en-GB/8e7fc0236af43df93406.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "6a3c625004976ac2c8c32db10d29daa56ba12a15a76c07ef6e22b5fd85c07dcf",
+    "reusedFrom": {
+      "text": "that",
+      "path": "../../en-GB/8e7fc0236af43df93406.mp3"
+    }
+  },
+  "their": {
+    "text": "their",
+    "path": "../../workbook/en-GB/fd963e4fd45949aa80c5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e4793ccb1fb48078f5f62f688628203158d19947da42a33d540561e224a9a117",
+    "reusedFrom": {
+      "text": "their",
+      "path": "../../workbook/en-GB/fd963e4fd45949aa80c5.mp3"
+    }
+  },
+  "these": {
+    "text": "these",
+    "path": "../../en-GB/b808e156d18d1cecdcc1.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "300fa04dba0be3022be81f883ef3a3699203c06158594b77035a6990f5afcabb",
+    "reusedFrom": {
+      "text": "these",
+      "path": "../../en-GB/b808e156d18d1cecdcc1.mp3"
+    }
+  },
+  "they": {
+    "text": "they",
+    "path": "../../en-GB/151e58a831306903b282.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "2f94d269bca0ff9752483fd60f5db2f4042d25153fd4c992677e9b139f8f42cc",
+    "reusedFrom": {
+      "text": "they",
+      "path": "../../en-GB/151e58a831306903b282.mp3"
+    }
+  },
+  "thirteen": {
+    "text": "thirteen",
+    "path": "../../en-GB/9ecc81f0a4b6dfb0c30e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "9b33f95157b86f534f7a4f8827609d4f7895879f0289d8c9aaa5b4140e8397c9",
+    "reusedFrom": {
+      "text": "thirteen",
+      "path": "../../en-GB/9ecc81f0a4b6dfb0c30e.mp3"
+    }
+  },
+  "those": {
+    "text": "those",
+    "path": "../../en-GB/6120d7ff00ac60e0b8f9.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0ddf0980e90b62e0877f5dc5eeb0491e0534aaae06c63ff4c613e616a84d7412",
+    "reusedFrom": {
+      "text": "those",
+      "path": "../../en-GB/6120d7ff00ac60e0b8f9.mp3"
+    }
+  },
+  "toys": {
+    "text": "toys",
+    "path": "../../workbook/en-GB/3bfcbeeee9f7c3007410.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a235c23f3a685a7f61f42a6bb8686ef0e96c2c0db0f54bab803e37e51a97307b",
+    "reusedFrom": {
+      "text": "toys",
+      "path": "../../workbook/en-GB/3bfcbeeee9f7c3007410.mp3"
+    }
+  },
+  "train": {
+    "text": "train",
+    "path": "../../en-GB/116f54c41d0405dbb10e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "cca3d349074925b379731bcd82e9aa44ed81597f380942d3bf89a12e82001da1",
+    "reusedFrom": {
+      "text": "train",
+      "path": "../../en-GB/116f54c41d0405dbb10e.mp3"
+    }
+  },
+  "tree": {
+    "text": "tree",
+    "path": "../../en-GB/dc9c5edb8b2d479e697b.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "34ab94620e5aac59e35157cc9b92bba3e9bafeaf0038c96790949670c87dedac",
+    "reusedFrom": {
+      "text": "tree",
+      "path": "../../en-GB/dc9c5edb8b2d479e697b.mp3"
+    }
+  },
+  "triangle": {
+    "text": "triangle",
+    "path": "../../en-GB/0a3f13c673af2389ecb9.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "8a44e806029a48b5e2811ddd2ae79b547fbde8c7282f2caf0dc1ea1a123b2ddf",
+    "reusedFrom": {
+      "text": "triangle",
+      "path": "../../en-GB/0a3f13c673af2389ecb9.mp3"
+    }
+  },
+  "twenty": {
+    "text": "twenty",
+    "path": "../../en-GB/7c2c4df740f720b0c861.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ba6902afc4702a6341bd8baaeb564c14c0c5bfdb24c8079844c29a9e512d8865",
+    "reusedFrom": {
+      "text": "twenty",
+      "path": "../../en-GB/7c2c4df740f720b0c861.mp3"
+    }
+  },
+  "uncle": {
+    "text": "uncle",
+    "path": "../../workbook/en-GB/3107ea0301a27894a212.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "1dc6a7dc7c0e6853bc5edba9d26130516a652fb5fb8c8bac296df2a5c6737fd7",
+    "reusedFrom": {
+      "text": "uncle",
+      "path": "../../workbook/en-GB/3107ea0301a27894a212.mp3"
+    }
+  },
+  "us": {
+    "text": "us",
+    "path": "../../workbook/en-GB/79adb2a2fce5c6ba215f.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "27da3e439f002e1246565dbb0fb3c932c7e02edee7c3e099ded4984adbb63187",
+    "reusedFrom": {
+      "text": "us",
+      "path": "../../workbook/en-GB/79adb2a2fce5c6ba215f.mp3"
+    }
+  },
+  "was": {
+    "text": "was",
+    "path": "../../en-GB/b63b99f6383ba713b57d.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "43947f733789ed7a6b08b7395835825160b50e5f4a99bc5be633c40c1ac50f66",
+    "reusedFrom": {
+      "text": "was",
+      "path": "../../en-GB/b63b99f6383ba713b57d.mp3"
+    }
+  },
+  "watched": {
+    "text": "watched",
+    "path": "../../en-GB/80adc17f4177175afa07.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4596ca2ac201bade74c9047140b2987f07c5b612294a3e52365b8803b702ba8e",
+    "reusedFrom": {
+      "text": "watched",
+      "path": "../../en-GB/80adc17f4177175afa07.mp3"
+    }
+  },
+  "water": {
+    "text": "water",
+    "path": "../../workbook/en-GB/0f4168490e38b8447e11.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "18b13babab8462d772c33707f7a5e7b6ba22f3fc8bcf256ea54be9ec241c7613",
+    "reusedFrom": {
+      "text": "water",
+      "path": "../../workbook/en-GB/0f4168490e38b8447e11.mp3"
+    }
+  },
+  "were": {
+    "text": "were",
+    "path": "../../en-GB/910adfb424646393d815.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "25269fce416db6893fec50550b49df108a722b79922e4166215134c519aec89a",
+    "reusedFrom": {
+      "text": "were",
+      "path": "../../en-GB/910adfb424646393d815.mp3"
+    }
+  },
+  "who": {
+    "text": "who",
+    "path": "../../en-GB/6ed0337140bd32b4adc5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "dc5db8bea885168cdc0121fe11a4200e9bf6162da8cc0979762ee85d61e3dc7a",
+    "reusedFrom": {
+      "text": "who",
+      "path": "../../en-GB/6ed0337140bd32b4adc5.mp3"
+    }
+  },
+  "windy": {
+    "text": "windy",
+    "path": "../../workbook/en-GB/87480c5a4819536e47c0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0f7505d3cce22c5c8c877976a73131bf277690cc9074d27da429bb96e5ebe811",
+    "reusedFrom": {
+      "text": "windy",
+      "path": "../../workbook/en-GB/87480c5a4819536e47c0.mp3"
+    }
+  },
+  "year": {
+    "text": "year",
+    "path": "../../workbook/en-GB/4cb4ea25583c25647247.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "13b27aca41c32208405389444cd1a9d09e1db8d73447d2bf342d60d87ff60de6",
+    "reusedFrom": {
+      "text": "year",
+      "path": "../../workbook/en-GB/4cb4ea25583c25647247.mp3"
+    }
+  },
+  "yellow": {
+    "text": "yellow",
+    "path": "../../en-GB/c685a2c9bab235ccdd2a.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d1369c27262d7be2a2bb281259d15568723c186d6649df0433e43bec8d5cc861",
+    "reusedFrom": {
+      "text": "yellow",
+      "path": "../../en-GB/c685a2c9bab235ccdd2a.mp3"
+    }
+  },
+  "you": {
+    "text": "you",
+    "path": "../../en-GB/bb0347a468d97e98a9c0.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "e9b26e94395a1470279a61e5adf3c7330aacf439ed285352d9d593dca546385b",
+    "reusedFrom": {
+      "text": "you",
+      "path": "../../en-GB/bb0347a468d97e98a9c0.mp3"
+    }
+  }
+}

@@ -1,4 +1,5 @@
 export interface VocabularyItem {
+  textbookEvidence?: { sourceId: string; page: number; exercise: number; usage: string };
   sourceFormId?: string;
   sourceEditionId?: string;
   id: string;
@@ -94,6 +95,7 @@ export interface LearningProgress {
 }
 
 export interface ProgressBundle {
+  textbookPractice?: import('../textbook2026').PracticeProgress[];
   workbook?: import('../workbook/types').WorkbookProgress[];
   reader?: import('../textbook').ReaderProgress[];
   schemaVersion: 2;

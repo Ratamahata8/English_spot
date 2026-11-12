@@ -2,6 +2,7 @@ import workbook from '../../public/audio/workbook/en-GB/manifest.json';
 import manifest from '../../public/audio/en-GB/manifest.json';
 import textbookEnglish from '../../public/audio/textbook/en-GB/manifest.json';
 import textbookRussian from '../../public/audio/textbook/ru-RU/manifest.json';
+import textbookPractice from '../../public/audio/textbook2026/en-GB/manifest.json';
 import type { AudioAsset } from '../types';
 const assets = manifest as Record<string, AudioAsset>;
 let active: HTMLAudioElement | null = null;
@@ -60,8 +61,22 @@ async function play(
 }
 export async function playAudio(text: string, slow = false): Promise<void> {
   if (assets[text]) await play(assets[text], 'en-GB', slow, false);
-  else await play((workbook as Record<string, AudioAsset>)[text], 'workbook/en-GB', slow, false);
+  else if ((workbook as Record<string, AudioAsset>)[text])
+    await play((workbook as Record<string, AudioAsset>)[text], 'workbook/en-GB', slow, false);
+  else
+    await play(
+      (textbookPractice as Record<string, AudioAsset>)[text],
+      'textbook2026/en-GB',
+      slow,
+      false,
+    );
 }
+export const hasAudio = (text: string) =>
+  !!(
+    assets[text] ||
+    (workbook as Record<string, AudioAsset>)[text] ||
+    (textbookPractice as Record<string, AudioAsset>)[text]
+  );
 export function playTextbook(
   text: string,
   language: 'en-GB' | 'ru-RU' = 'en-GB',
