@@ -20,14 +20,17 @@ def texts():
         result += [e['instruction']]
         for t in e['tasks']:
             if e['mechanic'] not in ['letters','anagram']:result += [t.get('prompt','')]
-            result += [t['why']]
-            result += t.get('answers',[])+t.get('options',[])+t.get('tokens',[])+t.get('hints',[])
+            # Mixed Russian/English instructional prose is not a standalone audio asset.
+            result += t.get('answers',[])+t.get('options',[])+t.get('tokens',[])
             for row in t.get('rows',[]):result += [row['label'],*row['answers']]
             for slot in t.get('slots',[]):result += slot['options']
             for placed in t.get('placements',[]):result += [placed['word']]
             for word in t.get('words',[]):result += [word['answer']]
     result += list('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
-    return sorted(set(p for text in result for p in segments(text)),key=lambda x:(x.lower(),x))
+    required=set(p for text in result for p in segments(text))
+    manifest_path=OUT/'manifest.json'
+    recorded=set(json.loads(manifest_path.read_text())) if manifest_path.exists() else set()
+    return sorted(required | recorded,key=lambda x:(x.lower(),x))
 async def main():
     config=json.loads((ROOT/'src/workbook/data/audio-provider.json').read_text())
     parser=argparse.ArgumentParser();parser.add_argument('--generate',action='store_true');parser.add_argument('--corpus',action='store_true');parser.add_argument('--jobs',type=int,default=4);parser.add_argument('--provider',choices=['edge','import'],default=config['provider']);parser.add_argument('--import-dir',type=Path);args=parser.parse_args()
