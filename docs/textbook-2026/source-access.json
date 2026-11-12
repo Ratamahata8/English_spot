@@ -16,5 +16,7 @@
     "httpStatus": 403,
     "folderPermissionsVerified": false
   },
-  "networkChangeRequiredForPhotos": false
+  "networkChangeRequiredForPhotos": false,
+  "excludedPages": [88, 89, 98, 99, 100, 101, 102],
+  "missingRequiredPages": []
 }

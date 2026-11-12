@@ -1,4 +1,5 @@
 export interface VocabularyItem {
+  textbookEvidence?: { sourceId: string; page: number; exercise: number; usage: string };
   sourceFormId?: string;
   sourceEditionId?: string;
   id: string;

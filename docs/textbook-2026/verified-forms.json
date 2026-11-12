@@ -3,8 +3,8 @@
   "complete": false,
   "scope": "Nine individually photo-verified forms; not an exhaustive vocabulary",
   "exampleProvenance": "Examples and explanations authored for this application, not copied publisher dialogues",
-  "audioStatus": "awaiting_explicit_payload_transfer_approval",
-  "runtimePublished": false,
+  "audioStatus": "verified_sonia_static_mp3",
+  "runtimePublished": true,
   "forms": [
     {
       "id": "lex-who",
@@ -141,5 +141,12 @@
         "usage": "question 2: has got"
       }
     }
-  ]
+  ],
+  "audioPreparation": {
+    "strings": 18,
+    "reusedExisting": 8,
+    "newlySynthesized": 10,
+    "reusedWithoutFileCopies": true,
+    "integrityChecks": ["SHA256", "ffprobe duration", "complete ffmpeg decode"]
+  }
 }

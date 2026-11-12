@@ -1,6 +1,6 @@
 /** Read-only audit of existing content; never promotes it into the photographed textbook. */
 import { createHash } from 'node:crypto';
-import { existsSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync, readdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
 import { lessons, lexicon } from '../src/lessons';
@@ -63,11 +63,12 @@ export function requestedTextbookStatus() {
     interactivePages: 0,
     pagesAwaitingReview: photoCatalog.pages.filter((p) => !p.wordFormsValidated).length,
     missingPages: photoCatalog.missingPages,
+    excludedPages: photoCatalog.excludedPages,
     unreadablePages: photoCatalog.unreadablePages,
     perspectiveCorrectionComplete: false,
     complete: false,
     reason:
-      'All uploaded photos were visually reviewed and mapped. Exhaustive word-form validation, perspective correction and new interactive lessons remain incomplete. Seven expected numbered pages are absent.',
+      'All uploaded photos were visually reviewed and mapped. Exhaustive word-form validation, perspective correction and new interactive lessons remain incomplete. Pages 88–89 and 98–102 are outside the application scope by explicit user decision.',
   };
 }
 export function auditCurrentTextbook() {
@@ -161,6 +162,7 @@ export function auditCurrentTextbook() {
       individuallyConfirmedForms: verifiedForms.forms.length,
       confirmedFormsRuntimePublished: verifiedForms.runtimePublished,
       confirmedFormsAudioStatus: verifiedForms.audioStatus,
+      confirmedFormsWithAudio: verifiedForms.forms.length,
       missingWords: null,
       complete: false,
     },
@@ -228,14 +230,19 @@ export function auditExistingAudio() {
     requestedSource: {
       sourceId: sourceAccess.sourceId,
       requiredClips: null,
-      createdClips: 0,
+      createdClips: verifiedForms.audioPreparation.newlySynthesized,
+      reusedClips: verifiedForms.audioPreparation.reusedExisting,
+      verifiedSubsetStrings: verifiedForms.audioPreparation.strings,
       coveragePercent: null,
       complete: false,
       reason:
-        'Photographs are available; the complete validated vocabulary and sentence corpus is not yet established. Shared dictionary additions are counted only under existing assets.',
+        'The verified 18-string subset is reported separately. The complete validated vocabulary and sentence corpus is not yet established.',
     },
     existingAssets: {
       totalManifestEntries: assets.reduce((n, a) => n + a.manifestEntries, 0),
+      physicalMp3Files: readdirSync(fileURLToPath(new URL('../public/audio/', import.meta.url)), {
+        recursive: true,
+      }).filter((p) => p.toString().endsWith('.mp3')).length,
       integrityFailures: assets.reduce((n, a) => n + a.failures.length, 0),
       checks:
         'Existence and SHA256 only; this command does not claim MP3 decoding or browser playback.',

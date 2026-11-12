@@ -24,7 +24,8 @@ it('uploaded photographs and reviewed pages do not become ready lessons or a com
 });
 it('preliminary confirmed forms retain page evidence without claiming a complete or published dictionary', () => {
   expect(verifiedForms.complete).toBe(false);
-  expect(verifiedForms.runtimePublished).toBe(false);
+  expect(verifiedForms.runtimePublished).toBe(true);
+  expect(verifiedForms.audioStatus).toBe('verified_sonia_static_mp3');
   expect(verifiedForms.forms.map((w) => w.en)).toContain('who');
   expect(verifiedForms.forms.find((w) => w.en === 'who')?.textbookEvidence.page).toBe(28);
   for (const w of verifiedForms.forms) {
@@ -75,7 +76,10 @@ it('existing authored content is never assigned to textbook edition 16 without p
 it('audio integrity audit distinguishes existing files from an incomplete new source corpus', () => {
   const r = auditExistingAudio();
   expect(r.requestedSource.requiredClips).toBeNull();
-  expect(r.requestedSource.createdClips).toBe(0);
+  expect(r.requestedSource.createdClips).toBe(10);
+  expect(r.requestedSource.reusedClips).toBe(8);
+  expect(r.requestedSource.verifiedSubsetStrings).toBe(18);
+  expect(r.existingAssets.physicalMp3Files).toBe(2493);
   expect(r.existingAssets.integrityFailures).toBe(0);
   expect(r.existingAssets.totalManifestEntries).toBeGreaterThan(0);
 });
@@ -85,14 +89,16 @@ it('photograph catalogue accounts for every page face, real gaps and source arch
   expect(catalog.pages.map((p) => p.id).sort()).toEqual(
     catalog.photos.flatMap((p) => p.pageIds).sort(),
   );
-  expect(catalog.missingPages.map((p) => p.page)).toEqual([88, 89, 98, 99, 100, 101, 102]);
+  expect(catalog.missingPages).toEqual([]);
+  expect(catalog.excludedPages.map((p) => p.page)).toEqual([88, 89, 98, 99, 100, 101, 102]);
+  expect(catalog.excludedPages.every((p) => !p.requiredForApplication)).toBe(true);
   const actual = catalog.pages.flatMap((p) => (p.printedPage === null ? [] : [p.printedPage]));
   expect(new Set(actual).size).toBe(92);
   expect(actual).toContain(96);
   expect(actual).toContain(97);
   const expected = Array.from({ length: 99 }, (_, i) => i + 4);
   expect(expected.filter((p) => !actual.includes(p))).toEqual(
-    catalog.missingPages.map((p) => p.page),
+    catalog.excludedPages.map((p) => p.page),
   );
   for (const photo of catalog.photos) {
     expect(photo.sha256).toMatch(/^[a-f0-9]{64}$/);

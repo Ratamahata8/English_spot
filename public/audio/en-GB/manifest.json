@@ -1738,5 +1738,145 @@
     "path": "45aed8cd1e3c0f63440f.mp3",
     "voice": "en-GB-SoniaNeural",
     "sha256": "c5b6703f85bfbae03c1e09c1d0a3c621b1fa322b45ce0d012d8752149a90beca"
+  },
+  "who": {
+    "text": "who",
+    "path": "6ed0337140bd32b4adc5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "dc5db8bea885168cdc0121fe11a4200e9bf6162da8cc0979762ee85d61e3dc7a"
+  },
+  "Who is she?": {
+    "text": "Who is she?",
+    "path": "a98ac5d06264c719adc5.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "76d936d8be47850f4cd8ffe9cabecff7bd159cdcf08ad7b1db9ee81ca43403fc"
+  },
+  "what": {
+    "text": "what",
+    "path": "../workbook/en-GB/749ab2c0d06c42ae3b84.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "dc668fcf8d0ee23d2b44b4481b3165bebdbb9aef6730e8ebd8059f182672cfe9",
+    "reusedFrom": {
+      "text": "what",
+      "path": "../workbook/en-GB/749ab2c0d06c42ae3b84.mp3"
+    }
+  },
+  "What is this?": {
+    "text": "What is this?",
+    "path": "../workbook/en-GB/0b12ba39ab4d0851c8a3.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b1a59c2702287daf801e4d65723f17f7829104806ff6645fef52852cf701a0f2",
+    "reusedFrom": {
+      "text": "What is this?",
+      "path": "../workbook/en-GB/0b12ba39ab4d0851c8a3.mp3"
+    }
+  },
+  "where": {
+    "text": "where",
+    "path": "../workbook/en-GB/b48111c10c65fc119368.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "ff303033f99ab1d39b3803f870a3cd0bd6e9e3ae9b49503371e65c96cafb0829",
+    "reusedFrom": {
+      "text": "where",
+      "path": "../workbook/en-GB/b48111c10c65fc119368.mp3"
+    }
+  },
+  "Where is my book?": {
+    "text": "Where is my book?",
+    "path": "3e63fb99de8bdb768dd4.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0c0fdac1fe71cf6155f118c61ae6fdfdf27bcb75acb12dac22853af2dc494d5f"
+  },
+  "when": {
+    "text": "when",
+    "path": "15eaa75240aed625be3e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "a784d74ae6cd456ca5ebbdf2dd3e51b0bf9b8a73c43ed4c5707471751e98f81c"
+  },
+  "When do you play?": {
+    "text": "When do you play?",
+    "path": "e07cf25035665c28ba57.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "13da0f05e99dbd7cbd26fdec58ff2b647e190f0dab3ac44b49782a7d14387d29"
+  },
+  "why": {
+    "text": "why",
+    "path": "2be23c585f15e5fd3279.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "405cf30f6bba11fddb26e5b638edf8ebe779a24f90b3ef07d76be5728eb23c66"
+  },
+  "Why are you happy?": {
+    "text": "Why are you happy?",
+    "path": "0ee28caa2095132fe0ff.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "9089610c767569ab5c5c242abe663e418a95c4613cbf66f99771751fd81430fb"
+  },
+  "how": {
+    "text": "how",
+    "path": "../workbook/en-GB/8044aae1f86875d993f2.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "d89fc0f7fe1a57b5280cdbaaa6ce1fb8e873fbfe2d943ba43bde6608262f3e6e",
+    "reusedFrom": {
+      "text": "how",
+      "path": "../workbook/en-GB/8044aae1f86875d993f2.mp3"
+    }
+  },
+  "How are you?": {
+    "text": "How are you?",
+    "path": "../workbook/en-GB/df287dfc1406ed2b692e.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "264bc07feac6307b4ca110138fa6e7c5c0929b966f0a87bc2ef447bd8c425e9f",
+    "reusedFrom": {
+      "text": "How are you?",
+      "path": "../workbook/en-GB/df287dfc1406ed2b692e.mp3"
+    }
+  },
+  "has": {
+    "text": "has",
+    "path": "../workbook/en-GB/9150c74c5f92d51a9285.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "4300027c3e1547224151945c4bc8350b7aefafa5ce1da53e210e322be33d08ae",
+    "reusedFrom": {
+      "text": "has",
+      "path": "../workbook/en-GB/9150c74c5f92d51a9285.mp3"
+    }
+  },
+  "She has got a book.": {
+    "text": "She has got a book.",
+    "path": "3a47ee582892c07d7124.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "0e77d6803e60ec7b2ab8eeec90c8cb39f6bf9d1e64eae658b146b7fdc24fb7b8"
+  },
+  "because": {
+    "text": "because",
+    "path": "a511aeeeb8a119931a67.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b056d29273752cbe79aebf13618c29e66ad88ea443bfb50a21dd1b257ee330af"
+  },
+  "I like school because I like art.": {
+    "text": "I like school because I like art.",
+    "path": "811b64298e4218b2ad3c.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "b2100cd63b5675865392310dd2eef892d068630c5b86437a9482af2820addd23"
+  },
+  "got": {
+    "text": "got",
+    "path": "../workbook/en-GB/0497db517ef058cb6d36.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "c99279ffa9a63a7e757a2c92e9d777ef2a4cb5bb11fc0a2479308ea5f40da1fa",
+    "reusedFrom": {
+      "text": "got",
+      "path": "../workbook/en-GB/0497db517ef058cb6d36.mp3"
+    }
+  },
+  "I have got a book.": {
+    "text": "I have got a book.",
+    "path": "../workbook/en-GB/9ff9fe2351fe276584ba.mp3",
+    "voice": "en-GB-SoniaNeural",
+    "sha256": "70c8ce757b63cb69f3e6bc6bf00f6c195e45f701e47c8e9f15854cfb8bd478c8",
+    "reusedFrom": {
+      "text": "I have got a book.",
+      "path": "../workbook/en-GB/9ff9fe2351fe276584ba.mp3"
+    }
   }
 }

@@ -18,7 +18,9 @@
       "httpStatus": 403,
       "folderPermissionsVerified": false
     },
-    "networkChangeRequiredForPhotos": false
+    "networkChangeRequiredForPhotos": false,
+    "excludedPages": [88, 89, 98, 99, 100, 101, 102],
+    "missingRequiredPages": []
   },
   "photoCount": 48,
   "downloadedPhotos": 48,
@@ -30,45 +32,60 @@
   "preparedLessons": 0,
   "interactivePages": 0,
   "pagesAwaitingReview": 94,
-  "missingPages": [
+  "missingPages": [],
+  "excludedPages": [
     {
       "page": 88,
       "section": "Further Reading",
-      "evidence": "sequence_gap_and_contents"
+      "evidence": "sequence_gap_and_contents",
+      "reason": "user_confirmed_intentional_omission",
+      "requiredForApplication": false
     },
     {
       "page": 89,
       "section": "Further Reading",
-      "evidence": "sequence_gap_and_contents"
+      "evidence": "sequence_gap_and_contents",
+      "reason": "user_confirmed_intentional_omission",
+      "requiredForApplication": false
     },
     {
       "page": 98,
       "section": "Word List",
-      "evidence": "contents"
+      "evidence": "contents",
+      "reason": "user_confirmed_intentional_omission",
+      "requiredForApplication": false
     },
     {
       "page": 99,
       "section": "Word List",
-      "evidence": "contents"
+      "evidence": "contents",
+      "reason": "user_confirmed_intentional_omission",
+      "requiredForApplication": false
     },
     {
       "page": 100,
       "section": "Word List",
-      "evidence": "contents"
+      "evidence": "contents",
+      "reason": "user_confirmed_intentional_omission",
+      "requiredForApplication": false
     },
     {
       "page": 101,
       "section": "Word List",
-      "evidence": "contents"
+      "evidence": "contents",
+      "reason": "user_confirmed_intentional_omission",
+      "requiredForApplication": false
     },
     {
       "page": 102,
       "section": "Phonetics",
-      "evidence": "contents"
+      "evidence": "contents",
+      "reason": "user_confirmed_intentional_omission",
+      "requiredForApplication": false
     }
   ],
   "unreadablePages": [],
   "perspectiveCorrectionComplete": false,
   "complete": false,
-  "reason": "All uploaded photos were visually reviewed and mapped. Exhaustive word-form validation, perspective correction and new interactive lessons remain incomplete. Seven expected numbered pages are absent."
+  "reason": "All uploaded photos were visually reviewed and mapped. Exhaustive word-form validation, perspective correction and new interactive lessons remain incomplete. Pages 88–89 and 98–102 are outside the application scope by explicit user decision."
 }

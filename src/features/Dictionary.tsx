@@ -99,8 +99,15 @@ function LegacyDictionary() {
               <p className="ipa">{w.ipa}</p>
               <p>{w.ru}</p>
               <p>{w.explanation}</p>
+              {w.textbookEvidence && (
+                <p className="ipa">
+                  Учебник · часть 1 · стр. {w.textbookEvidence.page}, упр.{' '}
+                  {w.textbookEvidence.exercise}. Пример составлен для тренировки.
+                </p>
+              )}
               <AudioButton text={w.en} />
               <EnglishText text={w.example} className="word-example" />
+              <AudioButton text={w.example} label="Пример" />
               <button
                 className="quiet"
                 disabled={p.reviewIds.includes(w.id)}

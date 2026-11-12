@@ -2416,48 +2416,64 @@
       "interactive": false
     }
   ],
-  "missingPages": [
-    {
-      "page": 88,
-      "section": "Further Reading",
-      "evidence": "sequence_gap_and_contents"
-    },
-    {
-      "page": 89,
-      "section": "Further Reading",
-      "evidence": "sequence_gap_and_contents"
-    },
-    {
-      "page": 98,
-      "section": "Word List",
-      "evidence": "contents"
-    },
-    {
-      "page": 99,
-      "section": "Word List",
-      "evidence": "contents"
-    },
-    {
-      "page": 100,
-      "section": "Word List",
-      "evidence": "contents"
-    },
-    {
-      "page": 101,
-      "section": "Word List",
-      "evidence": "contents"
-    },
-    {
-      "page": 102,
-      "section": "Phonetics",
-      "evidence": "contents"
-    }
-  ],
   "unreadablePages": [],
   "limitations": [
     "Readability review is not exhaustive word-form validation.",
     "Automatic perspective crops failed visual checks and were rejected; full original photographs remain the evidence.",
     "Handwritten transliterations and library stamps are excluded from printed vocabulary.",
     "No publisher photographs, complete OCR or complete dialogues are included in Git."
-  ]
+  ],
+  "excludedPages": [
+    {
+      "page": 88,
+      "section": "Further Reading",
+      "evidence": "sequence_gap_and_contents",
+      "reason": "user_confirmed_intentional_omission",
+      "requiredForApplication": false
+    },
+    {
+      "page": 89,
+      "section": "Further Reading",
+      "evidence": "sequence_gap_and_contents",
+      "reason": "user_confirmed_intentional_omission",
+      "requiredForApplication": false
+    },
+    {
+      "page": 98,
+      "section": "Word List",
+      "evidence": "contents",
+      "reason": "user_confirmed_intentional_omission",
+      "requiredForApplication": false
+    },
+    {
+      "page": 99,
+      "section": "Word List",
+      "evidence": "contents",
+      "reason": "user_confirmed_intentional_omission",
+      "requiredForApplication": false
+    },
+    {
+      "page": 100,
+      "section": "Word List",
+      "evidence": "contents",
+      "reason": "user_confirmed_intentional_omission",
+      "requiredForApplication": false
+    },
+    {
+      "page": 101,
+      "section": "Word List",
+      "evidence": "contents",
+      "reason": "user_confirmed_intentional_omission",
+      "requiredForApplication": false
+    },
+    {
+      "page": 102,
+      "section": "Phonetics",
+      "evidence": "contents",
+      "reason": "user_confirmed_intentional_omission",
+      "requiredForApplication": false
+    }
+  ],
+  "missingPages": [],
+  "scopeDecision": "User confirmed pages 88–89 and 98–102 were intentionally omitted and are not required for this application."
 }

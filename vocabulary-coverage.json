@@ -10,8 +10,9 @@
     "formsWithIpa": null,
     "formsWithAudio": null,
     "individuallyConfirmedForms": 9,
-    "confirmedFormsRuntimePublished": false,
-    "confirmedFormsAudioStatus": "awaiting_explicit_payload_transfer_approval",
+    "confirmedFormsRuntimePublished": true,
+    "confirmedFormsAudioStatus": "verified_sonia_static_mp3",
+    "confirmedFormsWithAudio": 9,
     "missingWords": null,
     "complete": false
   },
@@ -21,49 +22,49 @@
     "courseExercises": 510,
     "workbookExercises": 288,
     "legacyComicPages": 11,
-    "uniqueDictionaryForms": 479,
-    "formsWithIpaAndMeaning": 479,
+    "uniqueDictionaryForms": 483,
+    "formsWithIpaAndMeaning": 483,
     "phraseForms": 68,
     "indexSizes": {
-      "courseVisible": 162,
-      "courseHints": 162,
+      "courseVisible": 171,
+      "courseHints": 171,
       "workbook2017": 173,
       "workbook2026": 407
     },
     "requiredSearchAudit": {
       "who": {
-        "courseVisible": false,
-        "courseHints": false,
+        "courseVisible": true,
+        "courseHints": true,
         "workbook2017": false,
         "workbook2026": false
       },
       "what": {
-        "courseVisible": false,
-        "courseHints": false,
+        "courseVisible": true,
+        "courseHints": true,
         "workbook2017": true,
         "workbook2026": true
       },
       "where": {
-        "courseVisible": false,
-        "courseHints": false,
+        "courseVisible": true,
+        "courseHints": true,
         "workbook2017": true,
         "workbook2026": true
       },
       "when": {
-        "courseVisible": false,
-        "courseHints": false,
+        "courseVisible": true,
+        "courseHints": true,
         "workbook2017": false,
         "workbook2026": false
       },
       "why": {
-        "courseVisible": false,
-        "courseHints": false,
+        "courseVisible": true,
+        "courseHints": true,
         "workbook2017": false,
         "workbook2026": false
       },
       "how": {
-        "courseVisible": false,
-        "courseHints": false,
+        "courseVisible": true,
+        "courseHints": true,
         "workbook2017": true,
         "workbook2026": true
       },
@@ -86,8 +87,8 @@
         "workbook2026": true
       },
       "has": {
-        "courseVisible": false,
-        "courseHints": false,
+        "courseVisible": true,
+        "courseHints": true,
         "workbook2017": true,
         "workbook2026": true
       },
@@ -302,9 +303,9 @@
     },
     "comicAtomicFormCoverage": {
       "uniqueTokens": 111,
-      "resolvedTokens": 29,
-      "coveragePercent": 26.13,
-      "missingCount": 82,
+      "resolvedTokens": 31,
+      "coveragePercent": 27.93,
+      "missingCount": 80,
       "missing": [
         {
           "form": "about",
@@ -540,13 +541,6 @@
           "contexts": [
             "legacy-comics-edition-not-verified:rascal-3:rascal-3-2",
             "legacy-comics-edition-not-verified:rascal-3:rascal-3-2:chunk"
-          ]
-        },
-        {
-          "form": "got",
-          "contexts": [
-            "legacy-comics-edition-not-verified:rascal-3:rascal-3-3",
-            "legacy-comics-edition-not-verified:rascal-3:rascal-3-3:chunk"
           ]
         },
         {
@@ -870,17 +864,6 @@
           "contexts": [
             "legacy-comics-edition-not-verified:rascal-1:rascal-1-6",
             "legacy-comics-edition-not-verified:rascal-1:rascal-1-6:chunk"
-          ]
-        },
-        {
-          "form": "what",
-          "contexts": [
-            "legacy-comics-edition-not-verified:food-chat:food-chat-2",
-            "legacy-comics-edition-not-verified:food-chat:food-chat-2:chunk",
-            "legacy-comics-edition-not-verified:rascal-3:rascal-3-4",
-            "legacy-comics-edition-not-verified:rascal-3:rascal-3-4:chunk",
-            "legacy-comics-edition-not-verified:subjects-chat:subjects-chat-2",
-            "legacy-comics-edition-not-verified:subjects-chat:subjects-chat-2:chunk"
           ]
         },
         {

@@ -3,19 +3,22 @@
   "requestedSource": {
     "sourceId": "spotlight_textbook_2026_16_part1",
     "requiredClips": null,
-    "createdClips": 0,
+    "createdClips": 10,
+    "reusedClips": 8,
+    "verifiedSubsetStrings": 18,
     "coveragePercent": null,
     "complete": false,
-    "reason": "Photographs are available; the complete validated vocabulary and sentence corpus is not yet established. Shared dictionary additions are counted only under existing assets."
+    "reason": "The verified 18-string subset is reported separately. The complete validated vocabulary and sentence corpus is not yet established."
   },
   "existingAssets": {
-    "totalManifestEntries": 2483,
+    "totalManifestEntries": 2501,
+    "physicalMp3Files": 2493,
     "integrityFailures": 0,
     "checks": "Existence and SHA256 only; this command does not claim MP3 decoding or browser playback.",
     "groups": [
       {
         "group": "en-GB",
-        "manifestEntries": 290,
+        "manifestEntries": 308,
         "failures": []
       },
       {

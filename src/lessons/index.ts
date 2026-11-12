@@ -2,6 +2,7 @@ import school from './school.json';
 import classroom from './content/classroom-actions.json';
 import possession from './content/whose-toys.json';
 import shared from './shared-lexicon.json';
+import textbook from '../../docs/textbook-2026/verified-forms.json';
 import type { Lesson, VocabularyItem } from '../types';
 import item0 from './content/numbers-one.json';
 import item1 from './content/numbers-teens.json';
@@ -49,6 +50,7 @@ function unique(items: VocabularyItem[]): VocabularyItem[] {
 export const words = unique(lessons.flatMap((l) => l.vocabulary));
 export const lexicon = unique([
   ...(shared as VocabularyItem[]),
+  ...(textbook.runtimePublished ? textbook.forms : []),
   ...lessons.flatMap((l) => l.lexicon),
   ...words,
 ]);

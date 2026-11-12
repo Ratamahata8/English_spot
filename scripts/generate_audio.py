@@ -9,6 +9,13 @@ import edge_tts
 import edge_tts.communicate as edge_communicate
 from audio_content import OUT, texts
 from validate_audio import valid
+from audio_reuse import recording_index, find_recording
+
+def valid_shared_recording(path):
+    return valid(path) and subprocess.run(
+        ['ffmpeg','-v','error','-xerror','-i',str(path),'-f','null','-'],
+        capture_output=True,
+    ).returncode == 0
 
 async def main():
     parser=argparse.ArgumentParser()
@@ -20,6 +27,7 @@ async def main():
     OUT.mkdir(parents=True,exist_ok=True)
     target=OUT/'manifest.json'
     manifest=json.loads(target.read_text()) if target.exists() else {}
+    reusable=recording_index(OUT.parent)
     # edge-tts otherwise uses certifi only; preserve the managed proxy CA trust.
     if os.getenv('SSL_CERT_FILE'):
         # edge-tts 7.3.1 supplies this context explicitly to ws_connect.
@@ -30,8 +38,21 @@ async def main():
         path=OUT/filename
         voice='en-GB-SoniaNeural' if args.engine=='edge' else 'eSpeak-NG en-gb (offline, formant)'
         cached=manifest.get(text,{})
+        cached_path=(OUT/cached.get('path',filename)).resolve()
+        if not args.force and cached_path.is_relative_to(OUT.parent.resolve()) and cached.get('voice') == voice:
+            path=cached_path
         checksum=hashlib.sha256(path.read_bytes()).hexdigest() if path.is_file() else None
         if args.force or not valid(path) or cached.get('voice') != voice or cached.get('sha256') != checksum:
+            reuse=None if args.force else find_recording(reusable,text,voice,OUT,valid_shared_recording)
+            if reuse:
+                manifest[text]=reuse
+                pending=target.with_suffix('.tmp')
+                pending.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
+                pending.replace(target)
+                print(f'Reused existing recording: {text}',flush=True)
+                continue
+            # A stale/corrupt shared reference must never overwrite another corpus.
+            path=OUT/filename
             tmp=path.with_suffix('.tmp')
             try:
                 if args.engine=='edge':
@@ -47,7 +68,7 @@ async def main():
                 tmp.replace(path)
             finally:
                 tmp.unlink(missing_ok=True)
-        manifest[text]={'text':text,'path':filename,'voice':voice,'sha256':hashlib.sha256(path.read_bytes()).hexdigest()}
+        manifest[text]={'text':text,'path':os.path.relpath(path,OUT).replace(os.sep,'/'),'voice':voice,'sha256':hashlib.sha256(path.read_bytes()).hexdigest()}
         pending=target.with_suffix('.tmp')
         pending.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
         pending.replace(target)
@@ -59,8 +80,9 @@ async def main():
         stale=[manifest.pop(text) for text in list(manifest) if text not in expected]
         retained={a['path'] for a in manifest.values()}
         for asset in stale:
-            if asset['path'] not in retained:
-                (OUT/asset['path']).unlink(missing_ok=True)
+            stale_path=(OUT/asset['path']).resolve()
+            if asset['path'] not in retained and stale_path.parent == OUT.resolve():
+                stale_path.unlink(missing_ok=True)
         pending=target.with_suffix('.tmp')
         pending.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
         pending.replace(target)
