@@ -1,3 +1,4 @@
+import { TeacherTopics, TeacherPronouns } from '../features/TeacherTopics';
 import { Workbook, WorkbookRoute } from '../features/Workbook';
 import { Textbook, TextbookRoute } from '../features/Textbook';
 import { TextbookPracticeRoute } from '../features/TextbookPractice';
@@ -14,6 +15,7 @@ const nav = [
   ['/curriculum', '▧', 'Мои уроки'],
   ['/dictionary', '▤', 'Словарь'],
   ['/achievements', '✦', 'Достижения'],
+  ['/teacher', '✎', 'Темы от учителя'],
 ];
 function ScrollReset() {
   const { pathname } = useLocation();
@@ -107,6 +109,8 @@ function Shell() {
             <Route path="/dictionary" element={<Dictionary />} />
             <Route path="/achievements" element={<Achievements />} />
             <Route path="/parents" element={<Parent />} />
+            <Route path="/teacher" element={<TeacherTopics />} />
+            <Route path="/teacher/pronouns" element={<TeacherPronouns />} />
             <Route path="/learn" element={<Learning key={progress.lessonId} />} />
             <Route path="/learn/:lessonId" element={<LessonRoute />} />
             <Route path="/basics" element={<Basics />} />
